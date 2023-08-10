@@ -5,17 +5,26 @@ project:
 website:
   title: "Prof. Reginaldo Demarque"
   navbar:
-    left:
+    background: primary
+    right:
       - href: index.qmd
         text: Home
-      - teaching.qmd
-      - research.qmd
+      - href: teaching.qmd
+        text: Disciplinas
+      - href: research.qmd
+        text: Research
+      - icon: youtube
+        href: https://www.youtube.com/c/ProfReginaldoDemarque
+        aria-label: YouTube  
+        
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+    lang: pt
+    date-format: DD/MM/YYYY
 
 editor: visual
 

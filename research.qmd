@@ -1,6 +1,14 @@
 ---
 title: "Research"
+bibliography: papers.bib
+cls: auniversidade-do-porto-faculdade-de-engenharia-chicago-pt-crono.csl
+nocite: |
+  @*
 ---
+
+### 
+
+
 
 ## Preprints
 
@@ -8,27 +16,8 @@ title: "Research"
 
 ## Publications
 
-1.  ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Carleman inequality for a class of super strong degenerate parabolic operators and applications. Electron. J. Qual. Theory Differ. Equ. 2023, No. 9, 1-25.
-
-2.  ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Regularity results for degenerate wave equations in a neighborhood of the boundary. Evolution Equations and Control Theory, 2023.
-
-3.  Carvalho P. P. de; DEMARQUE, R.; J. Límaco; Viana L. Null Controllability and numerical simulations for a class of degenerate parabolic equations with nonlocal nonlinearities. NoDEA. 2023.
-
-4.  ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Boundary null controllability of degenerate heat equation as the limit of internal controllability. NONLINEAR ANALYSIS-REAL WORLD APPLICATIONS. , v.66, p.103519 -- , 2022.
-
-5.  DEMARQUE, R.; LÍMACO, J.; VIANA, L. Local null controllability of coupled degenerate systems with nonlocal terms and one control force. Evolution Equations and Control Theory. , v.1, p. 605-635, 2020.
-
-6.  DEMARQUE, R.; LIMACO, J.; Viana, L. A. Local null controllability for degenerate parabolic equations with nonlocal term. NONLINEAR ANALYSIS-REAL WORLD APPLICATIONS. , v.43, p.523 -- 547, 2018.
-
-7.  DEMARQUE, REGINALDO; FERNÁNDEZ-CARA, ENRIQUE. Local null controllability of one-phase Stefan problems in 2D star-shaped domains. JOURNAL OF EVOLUTION EQUATIONS (ONLINE ED.). , v.18, p.245 -- 261, 2018.
-
-8.  DEMARQUE, R.; LISBOA, N. H. Radial solutions for inhomogeneous biharmonic elliptic systems. Electronic Journal of Differential Equations. , v.2018, p.1 -- 14, 2018.
-
-9.  DEMARQUE, REGINALDO; MIYAGAKI, OLIMPIO H. Radial solutions of inhomogeneous fourth order elliptic equations and weighted Sobolev embeddings. ADVANCES IN NONLINEAR ANALYSIS. , v.4, p.135 -- 151, 2015.
-
-10. DEMARQUE, R.; CARRIAO, P. C.; MIYAGAKI, Olímpio Hiroshi. Nonlinear Biharmonic Problems with Singular Potentials. Communications on Pure and Applied Analysis. , v.13, p.2141 -- 2154, 2014. CARRIÃO, P.C.;
-
-11. DEMARQUE, R.; MIYAGAKI, O.H. Existence and non-existence of solutions for p-Laplacian equations with decaying cylindrical potentials. JOURNAL OF DIFFERENTIAL EQUATIONS. , v.255, p.3412 -- 3433, 2013.
+::: {#refs}
+:::
 
 ## Orientações
 

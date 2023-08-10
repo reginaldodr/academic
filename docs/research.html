@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.3.353">
@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -47,15 +66,15 @@ ul.task-list li input[type="checkbox"] {
   "type": "overlay",
   "limit": 20,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-no-results-text": "Nenhum resultado",
+    "search-matching-documents-text": "documentos correspondentes",
+    "search-copy-link-title": "Copiar link para a busca",
+    "search-hide-matches-text": "Esconder correspondências adicionais",
+    "search-more-match-text": "mais correspondência neste documento",
+    "search-more-matches-text": "mais correspondências neste documento",
+    "search-clear-button-title": "Limpar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar"
   }
 }</script>
 
@@ -74,12 +93,12 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Prof.&nbsp;Reginaldo Demarque</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Procurar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Alternar de navegação" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
@@ -92,8 +111,13 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./research.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.youtube.com/c/ProfReginaldoDemarque" rel="" target=""><i class="bi bi-youtube" role="img" aria-label="YouTube">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+            <div class="quarto-navbar-tools">
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -105,10 +129,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Nesta página</h2>
    
   <ul>
-  <li><a href="#preprints" id="toc-preprints" class="nav-link active" data-scroll-target="#preprints">Preprints</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  <li><a href="#preprints" id="toc-preprints" class="nav-link" data-scroll-target="#preprints">Preprints</a></li>
   <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
   <li><a href="#orientações" id="toc-orientações" class="nav-link" data-scroll-target="#orientações">Orientações</a>
   <ul class="collapse">
@@ -138,6 +163,9 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+<section id="section" class="level3">
+<h3 class="anchored" data-anchor-id="section"></h3>
+</section>
 <section id="preprints" class="level2">
 <h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
 <ol type="1">
@@ -146,19 +174,29 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="publications" class="level2">
 <h2 class="anchored" data-anchor-id="publications">Publications</h2>
-<ol type="1">
-<li><p>ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Carleman inequality for a class of super strong degenerate parabolic operators and applications. Electron. J. Qual. Theory Differ. Equ. 2023, No.&nbsp;9, 1-25.</p></li>
-<li><p>ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Regularity results for degenerate wave equations in a neighborhood of the boundary. Evolution Equations and Control Theory, 2023.</p></li>
-<li><p>Carvalho P. P. de; DEMARQUE, R.; J. Límaco; Viana L. Null Controllability and numerical simulations for a class of degenerate parabolic equations with nonlocal nonlinearities. NoDEA. 2023.</p></li>
-<li><p>ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Boundary null controllability of degenerate heat equation as the limit of internal controllability. NONLINEAR ANALYSIS-REAL WORLD APPLICATIONS. , v.66, p.103519 – , 2022.</p></li>
-<li><p>DEMARQUE, R.; LÍMACO, J.; VIANA, L. Local null controllability of coupled degenerate systems with nonlocal terms and one control force. Evolution Equations and Control Theory. , v.1, p.&nbsp;605-635, 2020.</p></li>
-<li><p>DEMARQUE, R.; LIMACO, J.; Viana, L. A. Local null controllability for degenerate parabolic equations with nonlocal term. NONLINEAR ANALYSIS-REAL WORLD APPLICATIONS. , v.43, p.523 – 547, 2018.</p></li>
-<li><p>DEMARQUE, REGINALDO; FERNÁNDEZ-CARA, ENRIQUE. Local null controllability of one-phase Stefan problems in 2D star-shaped domains. JOURNAL OF EVOLUTION EQUATIONS (ONLINE ED.). , v.18, p.245 – 261, 2018.</p></li>
-<li><p>DEMARQUE, R.; LISBOA, N. H. Radial solutions for inhomogeneous biharmonic elliptic systems. Electronic Journal of Differential Equations. , v.2018, p.1 – 14, 2018.</p></li>
-<li><p>DEMARQUE, REGINALDO; MIYAGAKI, OLIMPIO H. Radial solutions of inhomogeneous fourth order elliptic equations and weighted Sobolev embeddings. ADVANCES IN NONLINEAR ANALYSIS. , v.4, p.135 – 151, 2015.</p></li>
-<li><p>DEMARQUE, R.; CARRIAO, P. C.; MIYAGAKI, Olímpio Hiroshi. Nonlinear Biharmonic Problems with Singular Potentials. Communications on Pure and Applied Analysis. , v.13, p.2141 – 2154, 2014. CARRIÃO, P.C.;</p></li>
-<li><p>DEMARQUE, R.; MIYAGAKI, O.H. Existence and non-existence of solutions for p-Laplacian equations with decaying cylindrical potentials. JOURNAL OF DIFFERENTIAL EQUATIONS. , v.255, p.3412 – 3433, 2013.</p></li>
-</ol>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-araujo2022boundary" class="csl-entry" role="listitem">
+Araújo, Bruno Sérgio V, Reginaldo Demarque, e Luiz Viana. 2022. <span>«Boundary null controllability of degenerate heat equation as the limit of internal controllability»</span>. <em>Nonlinear Analysis: Real World Applications</em> 66: 103519.
+</div>
+<div id="ref-araujo2022carleman" class="csl-entry" role="listitem">
+Araújo, Bruno SV, Reginaldo Demarque, e Luiz Viana. 2023a. <span>«Carleman inequality for a class of super strong degenerate parabolic operators and applications»</span>. <em>Electron. J. Qual. Theory Differ. Equ.</em>, n.º 9: 1–25.
+</div>
+<div id="ref-araujo2022regularity" class="csl-entry" role="listitem">
+———. 2023b. <span>«Regularity results for degenerate wave equations in a neighborhood of the boundary»</span>. <em>Evolution Equations and Control Theory</em> 12 (5): 1300–1315. <a href="https://doi.org/10.3934/eect.2023013">https://doi.org/10.3934/eect.2023013</a>.
+</div>
+<div id="ref-de2023null" class="csl-entry" role="listitem">
+Carvalho, PP de, R Demarque, J Lı́maco, e L Viana. 2023. <span>«Null controllability and numerical simulations for a class of degenerate parabolic equations with nonlocal nonlinearities»</span>. <em>Nonlinear Differential Equations and Applications NoDEA</em> 30 (3): 32.
+</div>
+<div id="ref-jrl2016" class="csl-entry" role="listitem">
+Demarque, Reginaldo, Juan Lı́maco, e Luiz Viana. 2018. <span>«Local null controllability for degenerate parabolic equations with nonlocal term»</span>. <em>Nonlinear Analysis: Real World Applications</em> 43: 523–47. <a href="https://doi.org/10.1016/j.nonrwa.2018.04.001">https://doi.org/10.1016/j.nonrwa.2018.04.001</a>.
+</div>
+<div id="ref-jrl2020EECT" class="csl-entry" role="listitem">
+Demarque, R., J. Límaco, e L. Viana. 2020. <span>«Local null controllability of coupled degenerate systems with nonlocal terms and one control force»</span>. <em>Evolution Equations &amp; Control Theory</em> 9: 605. <a href="https://doi.org/10.3934/eect.2020026">https://doi.org/10.3934/eect.2020026</a>.
+</div>
+<div id="ref-jlr2020carleman" class="csl-entry" role="listitem">
+Demarque, R, J Lı́maco, e L Viana. 2020. <span>«Carleman inequality for a linear degenerate parabolic problem»</span>. <em>arXiv:2010.14486</em>.
+</div>
+</div>
 </section>
 <section id="orientações" class="level2">
 <h2 class="anchored" data-anchor-id="orientações">Orientações</h2>
@@ -242,12 +280,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiada");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiada");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
