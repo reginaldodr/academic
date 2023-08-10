@@ -1,0 +1,51 @@
+---
+title: "Research"
+---
+
+## Preprints
+
+## Publications
+
+1.  ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Carleman inequality for a class of super strong degenerate parabolic operators and applications. Electron. J. Qual. Theory Differ. Equ. 2023, No. 9, 1-25.
+
+2.  ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Regularity results for degenerate wave equations in a neighborhood of the boundary. Evolution Equations and Control Theory, 2023.
+
+3.  Carvalho P. P. de; DEMARQUE, R.; J. Límaco; Viana L. Null Controllability and numerical simulations for a class of degenerate parabolic equations with nonlocal nonlinearities. NoDEA. 2023.
+
+4.  ARAÚJO, B.S.V.; DEMARQUE, R.; VIANA, L. Boundary null controllability of degenerate heat equation as the limit of internal controllability. NONLINEAR ANALYSIS-REAL WORLD APPLICATIONS. , v.66, p.103519 -- , 2022.
+
+5.  DEMARQUE, R.; LÍMACO, J.; VIANA, L. Local null controllability of coupled degenerate systems with nonlocal terms and one control force. Evolution Equations and Control Theory. , v.1, p. 605-635, 2020.
+
+6.  DEMARQUE, R.; LIMACO, J.; Viana, L. A. Local null controllability for degenerate parabolic equations with nonlocal term. NONLINEAR ANALYSIS-REAL WORLD APPLICATIONS. , v.43, p.523 -- 547, 2018.
+
+7.  DEMARQUE, REGINALDO; FERNÁNDEZ-CARA, ENRIQUE. Local null controllability of one-phase Stefan problems in 2D star-shaped domains. JOURNAL OF EVOLUTION EQUATIONS (ONLINE ED.). , v.18, p.245 -- 261, 2018.
+
+8.  DEMARQUE, R.; LISBOA, N. H. Radial solutions for inhomogeneous biharmonic elliptic systems. Electronic Journal of Differential Equations. , v.2018, p.1 -- 14, 2018.
+
+9.  DEMARQUE, REGINALDO; MIYAGAKI, OLIMPIO H. Radial solutions of inhomogeneous fourth order elliptic equations and weighted Sobolev embeddings. ADVANCES IN NONLINEAR ANALYSIS. , v.4, p.135 -- 151, 2015.
+
+10. DEMARQUE, R.; CARRIAO, P. C.; MIYAGAKI, Olímpio Hiroshi. Nonlinear Biharmonic Problems with Singular Potentials. Communications on Pure and Applied Analysis. , v.13, p.2141 -- 2154, 2014. CARRIÃO, P.C.;
+
+11. DEMARQUE, R.; MIYAGAKI, O.H. Existence and non-existence of solutions for p-Laplacian equations with decaying cylindrical potentials. JOURNAL OF DIFFERENTIAL EQUATIONS. , v.255, p.3412 -- 3433, 2013.
+
+## Orientações
+
+### Iniciação científica
+
+1.  Leuber de Araújo Melo. Integração em Coordenadas Polares Multidimensional e Aplicações. 2020. Iniciação científica (Matemática) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+2.  Natan da Costa Lucas. Estudo dos Espaços L\^p. 2018. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+3.  Milena Fernandes da Conceição. Estudos dos Espaços Lp. 2018. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+4.  Gustavo Jorge Martins de Aguiar. Análise de Fourier e Resolução de EDPs. 2017. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+5.  Paulo Sérgio Alves Carreira. Estudo da generalização do conceito de medida para subconjuntos abstratos da reta e do plano. 2014. Iniciação científica (Ciência da Computação) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+6.  Átila Roger Cavalcanti dos Santos. Aspectos Gerais da Integral de Lebesgue. 2013. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+7.  Jessica Maria Marconde do Valle. Temperaturas estacinárias em uma placa em movimento. 2013. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+
+### Orientação de outra natureza
+
+1.  Alline Pinto Ribeiro Lopes. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Ciência da Computação) -- Universidade Federal Fluminense<br/>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis
+
+2.  Ingrid Mesquita Magalhães. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis
+
+3.  Gabriel Fortuna Serafim. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Ciência da Computação) -- Universidade Federal Fluminense<br/>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis
+
+4.  Maria Williany Lopes Lira. Introdução a análise real. 2014. Orientação de outra natureza (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis

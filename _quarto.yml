@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "Academic"
+  title: "Prof. Reginaldo Demarque"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - teaching.qmd
+      - research.qmd
 
 format:
   html:
