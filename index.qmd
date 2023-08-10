@@ -1,11 +1,24 @@
 ---
-title: "Academic"
+title: "Apresentação"
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Professor da UFF dede 2010, lotado no Departamento de Ciências da Natureza, no campus de Rio das Ostras.
 
-```{r}
-1 + 1
-```
+### Formação Acadêmica/Titulação
+
+-   2006 -- Licenciatura em Matemática pela UFV
+
+-   2008 -- Mestrado em Matemática pela UFF
+
+-   2011 -- Doutorado em Matemática pela UFMG
+
+### Área de pesquisa
+
+-   Análise Matemática -- EDP
+
+-   Controlabilidade de Equações Diferenciais Parciais
+
+\-\--
+
+Contato: reginaldodr\@id.uff.br

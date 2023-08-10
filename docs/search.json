@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Academic",
+    "title": "Apresentação",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Professor da UFF dede 2010, lotado no Departamento de Ciências da Natureza, no campus de Rio das Ostras.\n\nFormação Acadêmica/Titulação\n\n2006 – Licenciatura em Matemática pela UFV\n2008 – Mestrado em Matemática pela UFF\n2011 – Doutorado em Matemática pela UFMG\n\n\n\nÁrea de pesquisa\n\nAnálise Matemática – EDP\nControlabilidade de Equações Diferenciais Parciais\n\n---\nContato: reginaldodr@id.uff.br"
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,19 @@
     "title": "Apresentação",
     "section": "",
     "text": "Professor da UFF dede 2010, lotado no Departamento de Ciências da Natureza, no campus de Rio das Ostras.\n\nFormação Acadêmica/Titulação\n\n2006 – Licenciatura em Matemática pela UFV\n2008 – Mestrado em Matemática pela UFF\n2011 – Doutorado em Matemática pela UFMG\n\n\n\nÁrea de pesquisa\n\nAnálise Matemática – EDP\nControlabilidade de Equações Diferenciais Parciais\n\n---\nContato: reginaldodr@id.uff.br\nAbout this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Disciplinas",
+    "section": "",
+    "text": "Cálculo II – RCN00020\n\nTurma C1: 4ª e 6ª 16h – 18h\n\nCálculo III – RCN00021\n\nTurma M1: 4ª e 6ª 14h – 16h"
+  },
+  {
+    "objectID": "teaching.html#disciplinas-de-semestres-anteriores",
+    "href": "teaching.html#disciplinas-de-semestres-anteriores",
+    "title": "Disciplinas",
+    "section": "Disciplinas de Semestres Anteriores",
+    "text": "Disciplinas de Semestres Anteriores\n\nDisciplinas de Graduação\n\nCálculo I\nCálculo II (2022-2, 2023-1)\nCálculo III (2023-1)\nCálculo IV (2022-2)\nGeometria Analítica e Cálculo Vetorial (2022-1)\nEquações Diferenciais\n\n\n\nDisciplinas de Pós-Graduação\n\nAnálise Funcional (Slides)"
   }
 ]

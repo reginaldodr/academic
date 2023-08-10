@@ -1,0 +1,27 @@
+---
+title: "Disciplinas"
+---
+
+### Turmas Atuais -- 2023-2
+
+-   Cálculo II -- RCN00020
+    -   Turma C1: 4ª e 6ª 16h -- 18h
+-   Cálculo III -- RCN00021
+    -   Turma M1: 4ª e 6ª 14h -- 16h
+
+------------------------------------------------------------------------
+
+## Disciplinas de Semestres Anteriores
+
+### Disciplinas de Graduação
+
+-   Cálculo I
+-   Cálculo II (2022-2, 2023-1)
+-   Cálculo III (2023-1)
+-   Cálculo IV (2022-2)
+-   Geometria Analítica e Cálculo Vetorial (2022-1)
+-   Equações Diferenciais
+
+### Disciplinas de Pós-Graduação
+
+-   Análise Funcional (Slides)
