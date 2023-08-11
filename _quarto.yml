@@ -10,7 +10,7 @@ website:
       - href: index.qmd
         text: Home
       - href: teaching.qmd
-        text: Disciplinas
+        text: Ensino
       - href: research.qmd
         text: Research
       - icon: youtube
@@ -26,5 +26,5 @@ format:
     lang: pt
     date-format: DD/MM/YYYY
 
-editor: visual
+editor: source
 

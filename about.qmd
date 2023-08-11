@@ -1,5 +1,19 @@
 ---
-title: "Apresentação"
+title: "Reginaldo Demarque"
+about:
+  template: trestles
+  image: pefil-ed.jpg
+  image-shape: round
+  links:
+    - icon: envelope-at
+      text: email
+      href: mailto:reginaldodr@id.uff.br
+    - icon: youtube
+      text: YouTube
+      href: https://www.youtube.com/c/ProfReginaldoDemarque
+    - icon: file-earmark-person
+      text: CV Lattes
+      href: http://lattes.cnpq.br/1924503823576120
 ---
 
 Professor da UFF dede 2010, lotado no Departamento de Ciências da Natureza, no campus de Rio das Ostras.
@@ -19,11 +33,3 @@ Professor da UFF dede 2010, lotado no Departamento de Ciências da Natureza, no 
 -   Controlabilidade de Equações Diferenciais Parciais
 
 \-\--
-
-Contato: reginaldodr\@id.uff.br
-
-About this site
-
-```{r}
-1 + 1
-```
