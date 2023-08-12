@@ -76,42 +76,42 @@ O **livro texto** será referência \[1\], que possui diversas cópias na biblio
 
 ## Cronograma
 
-01 . &nbsp; 30/08  --  Apresentação \
-02 . &nbsp; 01/09  --  Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano \
-03 . &nbsp; 06/09  --  Coordenadas polares \
-<span style="color:orange">XX . &nbsp; 07/09  --  Independência \
-XX . &nbsp; 08/09  --  Facultativo </span> \
-04 . &nbsp; 13/09  --  Curvas parametrizadas no Espaço \
-05 . &nbsp; 15/09  --  Derivadas e regras de derivação de funções vetoriais \
-06 . &nbsp; 20/09  --  Comprimento de arco. Movimento, velocidade e aceleração \
-<span style="color:red">07 . &nbsp; 22/09  --  1ª Prova </span> \
-08 . &nbsp; 27/09  --  Funções reais de duas variáveis reais. Gráficos. Curvas de Nível. \
-09 . &nbsp; 29/09  --  Superfícies de nível. Limites e continuidade \
-10 . &nbsp; 04/10  --  Derivadas Parciais \
-11 . &nbsp; 06/10  --  Derivadas de ordem superior. \
-12 . &nbsp; 11/10  --  Plano tangente. Aproximação linear \
-<span style="color:orange">XX . &nbsp; 12/10  --  Nossa Senhora Aparecida </span>  \
-<span style="color:orange">XX . &nbsp; 13/10  --  Facultativo </span> \
-13 . &nbsp; 18/10  --  Diferenciabilidade e Deferenciais no plano. \
-14 . &nbsp; 20/10  --  Aproximação linear e Diferenciabilidade no espaço \
-15 . &nbsp; 25/10  --  Regra da cadeia \
-16 . &nbsp; 27/10  --  Derivação Implícita e Teorema da Função Implícita \
-<span style="color:orange">XX . &nbsp; 28/10  --  Servidor Público </span>  \
-17 . &nbsp; 01/11  --  Derivadas direcionais \
-<span style="color:orange">XX . &nbsp; 02/11  --  Finados </span> \
-<span style="color:orange">XX . &nbsp; 03/11  --  Facultativo </span> \
-18 . &nbsp; 08/11  --  Vetor gradiente \
-19 . &nbsp; 10/11  --  Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. \
-<span style="color:orange">XX . &nbsp; 15/11  --  Proclamação da República </span> \
-20 . &nbsp; 17/11  --  Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass \
-<span style="color:orange">XX . &nbsp; 20/11  --  Consciência Negra </span> \
-21 . &nbsp; 22/11  --  Multiplicadores de Lagrange \
-22 . &nbsp; 24/11  --  Multiplicadores de Lagrange com duas restrições \
-<span style="color:red">23 . &nbsp; 29/11  --  2ª prova  \
-24 . &nbsp; 01/12  --  2ª Chamada  \
-25 . &nbsp; 06/12  --  VS  </span>\
-26 . &nbsp; 08/12  --  XXX \
-27 . &nbsp; 13/12  --  XXX \
-28 . &nbsp; 15/12  --  XXX \
-29 . &nbsp; 20/12  --  XXX
+01 . &nbsp; 30/08  --  Apresentação. Funções Vetoriais. Limite e continuidade \
+02 . &nbsp; 01/09  --  Curvas parametrizadas no Plano, Coordenadas polares \
+03 . &nbsp; 06/09  --  Curvas parametrizadas no Espaço. Derivadas e regras de derivação de funções vetoriais \
+<span style="color:orange"> XX . &nbsp; 07/09  --  Independência </span> \
+<span style="color:orange"> XX . &nbsp; 08/09  --  Facultativo </span> \
+04 . &nbsp; 13/09  --  Comprimento de arco. Parametrização pelo comprimento de arco \
+05 . &nbsp; 15/09  --  Curvatura, Vetores Normal e Binormal. \
+06 . &nbsp; 20/09  --  Movimento, velocidade e aceleração. Componentes Normal e Tangencial da Aceleração \
+07 . &nbsp; 22/09  --  Aula de Dúvidas \
+<span style="color:red">  08 . &nbsp; 27/09  --  1ª Prova </span> \
+09 . &nbsp; 29/09  --  Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis \
+10 . &nbsp; 04/10  --  Curvas de Nível. Superfícies de nível. Limites e continuidade \
+11 . &nbsp; 06/10  --  Superfícies de nível. Limites e continuidade \
+12 . &nbsp; 11/10  --  Derivadas Parciais. Derivadas de ordem superior \
+<span style="color:orange"> XX . &nbsp; 12/10  --  Nossa Senhora Aparecida </span> \
+<span style="color:orange"> XX . &nbsp; 13/10  --  Facultativo </span> \
+<span style="color:orange"> XX . &nbsp; 18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+<span style="color:orange"> XX . &nbsp; 20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+13 . &nbsp; 25/10  --  Equações Diferenciais Parciais. Plano tangente. Aproximação linear  \
+14 . &nbsp; 27/10  --  Diferenciabilidade. Diferenciais no plano e no espaço \
+<span style="color:orange"> XX . &nbsp; 28/10  --  Servidor Público </span> \
+15 . &nbsp; 01/11  --  Regra da cadeia. Vetor Gradiente \
+<span style="color:orange"> XX . &nbsp; 02/11  --  Finados </span> \
+<span style="color:orange"> XX . &nbsp; 03/11  --  Facultativo </span> \
+16 . &nbsp; 08/11  --  Derivadas direcionais. Propriedades do vetor Gradiente \
+17 . &nbsp; 10/11  --  Derivação Implícita e Teorema da Função Implícita \
+<span style="color:orange"> XX . &nbsp; 15/11  --  Proclamação da República </span> \
+18 . &nbsp; 17/11  --  Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. Topologia do $\mathbb{R}^2$ \
+<span style="color:orange"> XX . &nbsp; 20/11  --  Consciência Negra </span> \
+19 . &nbsp; 22/11  --  Máximos e Mínimos absolutos. Teorema de Weiestrass. \
+20 . &nbsp; 24/11  --  Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ \
+21 . &nbsp; 29/11  --  Multiplicadores de Lagrange com duas restrições \
+<span style="color:red"> 22 . &nbsp; 01/12  --   2ª Prova \
+23 . &nbsp; 06/12  --  2ª Chamada \
+24 . &nbsp; 08/12  --  VS </span>\
+25 . &nbsp; 13/12  --   --  \
+26 . &nbsp; 15/12  --   --  \
+27 . &nbsp; 20/12  --   --  \
 
