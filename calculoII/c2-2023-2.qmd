@@ -1,6 +1,8 @@
-# CÁLCULO II RCN00020 -- 2023-2
-
-## Informações Básicas
+---
+title: CÁLCULO II RCN00020 -- 2023-2
+number-sections: true
+---
+# Informações Básicas
 
 -  Turma C1: 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio novo)**
 
@@ -8,25 +10,46 @@
 
 -  Ementa: Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/) .
 
-## Apresentação do Curso
+# Apresentação do Curso
 
-Este curso é constituído de dois grandes módulos: 
+Este curso é constituído de dois grandes módulos:
 
-**Cálculo Integral** e **Equações Diferenciais Ordinárias** 
+**Cálculo Integral** e **Equações Diferenciais Ordinárias**
 
-Usaremos o **Classroom** como Ambiente Virtual  de Aprendizagem (AVA). Nele serão postados todos os materiais usados e serão realizadas as discussões e comunicações.
+Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA). Nele serão postados todos os materiais usados e serão realizadas as discussões e comunicações.
 
-## Avaliação
+# Avaliação
 
-A avaliação será constituída de **2 Provas** presenciais realizadas ao fim de cada módulo. Cada prova terá o valor de 10 pontos. A nota final do curso será a média aritmética das duas provas.
+A avaliação será feita ao fim de cada módulo:
 
-### Segunda Chamada e Verificação Suplementar.
+- **Cálculo Integral:** Um prova, valendo 8 pontos, e um trabalho, valendo 2 ponto.
+
+- **EDO:** Uma única prova, valendo 10 pontos.
+
+A nota final será a média aritmética entre as avaliações de cada módulo, isto é, 
+$$N=\frac{P_1+T_1+P_2}{2},$$
+onde $P_1$ é a nota da primeira prova, $T_1$ é a nota do trabalho e $P_2$ é a nota da segunda prova. Veja no cronograma, @sec-crono abaixo, as datas destas avaliações. 
+
+## Sobre as Provas escritas
+
+As duas provas serão escritas e com consulta a qualquer material impresso ou manuscrito (livros, notas de aula, apostilas e etc.)
+
+
+## Sobre o Trabalho
+
+- Tema: Integrais Impróprias e Teste da Comparação. 
+- Deverá ser feito em grupos de 4 a 5 integrantes.
+- Deverá ser manuscrito.
+- Deverá ser entregue no dia da Primeira Prova. 
+- Haverá na primeira prova uma questão sobre o trabalho.
+
+## Segunda Chamada e Verificação Suplementar.
 
 Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
 
 Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
 
-## Materiais Utilizados
+# Materiais Utilizados
 
 -   [Slides Integral](https://mega.nz/file/nU8BWIgS#bQRFns7nNhfOyAqZM-fUhPI6ZSBoAxfKdyyE57BTPo0) -- Atualizado 07/05/2023
 
@@ -38,7 +61,7 @@ Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff
 
 -   [Arquivos Python](https://drive.google.com/drive/folders/1W8BtIjg4IzpDbCOs62NCT-WJH8SwVk44)
 
-## Listas de Exercícios
+# Listas de Exercícios
 
 **Integral**: Abaixo seguem os execícios da referência \[8\] que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
@@ -74,7 +97,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 §3.7: 5-7, 13, 14.\
 §3.8: 6, 9, 11, 14, 17, 27.
 
-## Referências
+# Referências
 
 O curso será dividido em duas partes. Cálculo Integral e Equações Diferenciais Ordinárias.\
 Na parte 1, **Cálculo Integral**, será usado como livro texto a referência \[8\] e as demais como material auxiliar ao longo do curso. \
@@ -98,7 +121,7 @@ Na parte 2, **Equações Diferenciais Ordinárias**, usaremos com livro texto a 
 
 9.  G. B. Thomas. ***Cálculo Volume 1***. Editora Addison Wesley, 11ª Ed., São Paulo, 2009.
 
-## Cronograma
+# Cronograma {#sec-crono}
 
 01 . &nbsp; 30/08  --  Apresentação. Método da Exaustão. Notação Sigma \
 02 . &nbsp; 01/09  --  Somas de Riemann e Integral Definida. Distância percorrida \
@@ -111,30 +134,30 @@ Na parte 2, **Equações Diferenciais Ordinárias**, usaremos com livro texto a 
 07 . &nbsp; 22/09  --  Integração por Partes. Integração por substituição Trigonométrica \
 08 . &nbsp; 27/09  --  Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico \
 09 . &nbsp; 29/09  --  Cálculo de volumes pelo método dos discos \
-10 . &nbsp; 04/10  --  Volume por cascas cilíndricas \
-11 . &nbsp; 06/10  --  Comprimento de Curvas. Integrais Impróprias: Limites Infinitos \
-12 . &nbsp; 11/10  --  Convergência funções $1/x^p$. Volume da Trombeta de Torricelli \
+10 . &nbsp; 04/10  --  Volume por cascas cilíndricas, Comprimento de Curvas \
+11 . &nbsp; 06/10  --  Integrais Impróprias: Limites Infinitos \
+12 . &nbsp; 11/10  --  1ª Prova \
 <span style="color:orange"> XX . &nbsp; 12/10  --  Nossa Senhora Aparecida </span> \
 <span style="color:orange"> XX . &nbsp; 13/10  --  Facultativo </span> \
-13 . &nbsp; 18/10  --  Integrais Impróprias: Limites finitos. Teste da comparação \
-<span style="color:red">14 . &nbsp; 20/10  --  1ª Prova </span>\
-15 . &nbsp; 25/10  --  Introdução às EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) \
-16 . &nbsp; 27/10  --  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear \
+<span style="color:orange"> XX . &nbsp; 18/10  --  SNCT </span> \
+<span style="color:orange"> XX . &nbsp; 20/10  --  SNCT </span> \
+13 . &nbsp; 25/10  --  Introdução às EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) \
+14 . &nbsp; 27/10  --  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear \
 <span style="color:orange"> XX . &nbsp; 28/10  --  Servidor Público </span> \
-17 . &nbsp; 01/11  --  Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares \
+15 . &nbsp; 01/11  --  Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares \
 <span style="color:orange"> XX . &nbsp; 02/11  --  Finados </span> \
 <span style="color:orange"> XX . &nbsp; 03/11  --  Facultativo </span> \
-18 . &nbsp; 08/11  --  EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano \
-19 . &nbsp; 10/11  --  Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas \
+16 . &nbsp; 08/11  --  EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano \
+17 . &nbsp; 10/11  --  Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas \
 <span style="color:orange"> XX . &nbsp; 15/11  --  Proclamação da República </span> \
-20 . &nbsp; 17/11  --  EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos. Caso raízes complexas e fórmula de Euler \
+18 . &nbsp; 17/11  --  EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos. Caso raízes complexas e fórmula de Euler \
 <span style="color:orange"> XX . &nbsp; 20/11  --  Consciência Negra </span> \
-21 . &nbsp; 22/11  --  Método dos coeficientes a determinar \
-22 . &nbsp; 24/11  --  Método da variação dos Parâmetros \
-23 . &nbsp; 29/11  --  Oscilações forçadas mecânicas e elétricas \
-<span style="color:red">24 . &nbsp; 01/12  --  2ª prova \
-25 . &nbsp; 06/12  --  2ª Chamada \
-26 . &nbsp; 08/12  --  VS </span>\
-27 . &nbsp; 13/12  --   --  \
-28 . &nbsp; 15/12  --   --  \
-29 . &nbsp; 20/12  --   --  \
+19 . &nbsp; 22/11  --  Método dos coeficientes a determinar \
+20 . &nbsp; 24/11  --  Método da variação dos Parâmetros \
+21 . &nbsp; 29/11  --  2ª prova \
+22 . &nbsp; 01/12  --  2ª Chamada \
+23 . &nbsp; 06/12  --  VS \
+24 . &nbsp; 08/12  --   --  \
+25 . &nbsp; 13/12  --   --  \
+26 . &nbsp; 15/12  --   --  \
+27 . &nbsp; 20/12  --   --  \
