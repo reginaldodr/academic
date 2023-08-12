@@ -1,14 +1,12 @@
-# CÁLCULO II RCN00020 -- 2023-1
+# CÁLCULO II RCN00020 -- 2023-2
 
 ## Informações Básicas
 
--   **Turmas C1 -- Computação**
+-  Turma C1: 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio novo)**
 
-    -   Turma C1: 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio novo)**
+-  Atendimento: sala 104 -- IHS (prédio novo)
 
- -   **Atendimento: sala 104 -- IHS (prédio novo)**
-
--   **Ementa:** Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/) .
+-  Ementa: Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/) .
 
 ## Apresentação do Curso
 
@@ -28,22 +26,6 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
 
-### Calendário de Provas
-
--   30/08 -- Início do Período
-
--    -- Primeira Prova 
-
--    -- Segunda Prova 
-
--    -- 2ª Chamada 
-
--    -- Vista da P2 e 2ª chamada
-
--   -- Verificação Suplementar 
-
--   20/12 -- Fim do Período.
-
 ## Materiais Utilizados
 
 -   [Slides Integral](https://mega.nz/file/nU8BWIgS#bQRFns7nNhfOyAqZM-fUhPI6ZSBoAxfKdyyE57BTPo0) -- Atualizado 07/05/2023
@@ -60,65 +42,37 @@ Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff
 
 **Integral**: Abaixo seguem os execícios da referência \[8\] que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
--   § 5.1: 11, 15.
-
--   § 5.2: 5, 33, 35, 37, 47, 49, 53.
-
--   § 5.3: 7, 9, 17, 19, 23, 27, 29, 35, 39, 53, 55.
-
--   § 5.4: 5, 9, 11, 17, 29, 31, 35, 37, 41, 61.
-
--   § 5.5: 7, 9, 19, 21, 23, 27, 35, 53, 57, 59, 63, 74, 76, 78, 81.
-
--   § 6.1: 1, 3, 5, 9, 13, 23, 24, 29, 39, 49, 51, 53.
-
--   § 7.1: 3, 5, 7, 9, 15, 17, 23, 25, 27, 33, 44, 47.
-
--   § 7.2: 3, 7, 17, 21, 25, 29, 31, 43, 45, 56, 57, 66, 70.
-
--   § 7.3: 5, 7, 11, 13, 17, 23, 25, 35, 41.
-
--   § 7.4: 7, 9, 11, 13, 15, 17, 63, 65, 67.
-
--   Leia a seção 7.5 (Estratégias de Integração)
-
--   § 7.5: 1, 3, 5, 7, 13, 15, 17, 23, 25, 27, 33, 41, 45, 63.
-
--   § 6.2: 1, 3, 5,19, 21, 39, 45, 51, 67.
-
--   § 6.3: 5, 7, 9, 15, 19, 43, 46.
-
--   §
-
--   Em construção
+§ 5.1: 11, 15.\
+§ 5.2: 5, 33, 35, 37, 47, 49, 53.\
+§ 5.3: 7, 9, 17, 19, 23, 27, 29, 35, 39, 53, 55.\
+§ 5.4: 5, 9, 11, 17, 29, 31, 35, 37, 41, 61.\
+§ 5.5: 7, 9, 19, 21, 23, 27, 35, 53, 57, 59, 63, 74, 76, 78, 81.\
+§ 6.1: 1, 3, 5, 9, 13, 23, 24, 29, 39, 49, 51, 53.\
+§ 7.1: 3, 5, 7, 9, 15, 17, 23, 25, 27, 33, 44, 47.\
+§ 7.2: 3, 7, 17, 21, 25, 29, 31, 43, 45, 56, 57, 66, 70.\
+§ 7.3: 5, 7, 11, 13, 17, 23, 25, 35, 41.\
+§ 7.4: 7, 9, 11, 13, 15, 17, 63, 65, 67.\
+Leia a seção 7.5 (Estratégias de Integração)\
+§ 7.5: 1, 3, 5, 7, 13, 15, 17, 23, 25, 27, 33, 41, 45, 63.\
+§ 6.2: 1, 3, 5,19, 21, 39, 45, 51, 67.\
+§ 6.3: 5, 7, 9, 15, 19, 43, 46.\
+§ Em construção
 
 **EDO**: Abaixo seguem os execícios da referência \[2\] que devem ser feitos. A distribuição está dada por seção. Os exercícios marcado com o símbolo🖱️​ no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
--   § 1.1: 1, 5, 11, 13, 22, 23.
-
--   § 1.3: 1, 2, 5, 6, 8, 9, 11, 15.
-
--   § 2.2: 1, 6, 8, 10, 12 .
-
--   § 2.3: 12, 13, 16, 21.
-
--   § 2.1: 1, 4, 5, 6, 7, 9, 13, 15, 16, 17,18.
-
--   § 2.4: 1, 2, 5, 7, 11, 27, 28.
-
--   § 3.1: 1-4, 9-12, 20, 21, 22.
-
--   §3.2: 1,2, 21, 22, 23, 25.
-
--   §3.4: 7-10, 17-20, 25.
-
--   §3.5: 1-4, 11-14, 15, 18.
-
--   §3.6: 1-5, 8, 14, 17.
-
--   §3.7: 5-7, 13, 14,.
-
--   §3.8: 6, 9, 11, 14, 17, 27.
+§ 1.1: 1, 5, 11, 13, 22, 23.\
+§ 1.3: 1, 2, 5, 6, 8, 9, 11, 15.\
+§ 2.2: 1, 6, 8, 10, 12 .\
+§ 2.3: 12, 13, 16, 21.\
+§ 2.1: 1, 4, 5, 6, 7, 9, 13, 15, 16, 17,18.\
+§ 2.4: 1, 2, 5, 7, 11, 27, 28.\
+§ 3.1: 1-4, 9-12, 20, 21, 22.\
+§3.2: 1,2, 21, 22, 23, 25.\
+§3.4: 7-10, 17-20, 25.\
+§3.5: 1-4, 11-14, 15, 18.\
+§3.6: 1-5, 8, 14, 17.\
+§3.7: 5-7, 13, 14.\
+§3.8: 6, 9, 11, 14, 17, 27.
 
 ## Referências
 
@@ -144,86 +98,43 @@ Na parte 2, **Equações Diferenciais Ordinárias**, usaremos com livro texto a 
 
 9.  G. B. Thomas. ***Cálculo Volume 1***. Editora Addison Wesley, 11ª Ed., São Paulo, 2009.
 
----
-+----+------------+---------------------------------------------------------------------------------+
-|    | Datas      | Conteúdo                                                                        |
-+====+============+=================================================================================+
-| 1  | 30/08/2023 | Apresentação                                                                    |
-+----+------------+---------------------------------------------------------------------------------+
-| 2  | 01/09/2023 | Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano        |
-+----+------------+---------------------------------------------------------------------------------+
-| 3  | 06/09/2023 | Coordenadas polares                                                             |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 07/09/2023 | Independência                                                                   |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 08/09/2023 | Facultativo                                                                     |
-+----+------------+---------------------------------------------------------------------------------+
-| 4  | 13/09/2023 | Curvas parametrizadas no Espaço                                                 |
-+----+------------+---------------------------------------------------------------------------------+
-| 5  | 15/09/2023 | Derivadas e regras de derivação de funções vetoriais                            |
-+----+------------+---------------------------------------------------------------------------------+
-| 6  | 20/09/2023 | Comprimento de arco. Movimento, velocidade e aceleração                         |
-+----+------------+---------------------------------------------------------------------------------+
-| 7  | 22/09/2023 | Aula de Dúvidas                                                                 |
-+----+------------+---------------------------------------------------------------------------------+
-| 8  | 27/09/2023 | 1ª Prova                                                                        |
-+----+------------+---------------------------------------------------------------------------------+
-| 9  | 29/09/2023 | Funções reais de duas variáveis reais. Gráficos. Curvas de Nível.               |
-+----+------------+---------------------------------------------------------------------------------+
-| 10 | 04/10/2023 | Superfícies de nível. Limites e continuidade                                    |
-+----+------------+---------------------------------------------------------------------------------+
-| 11 | 06/10/2023 | Derivadas Parciais                                                              |
-+----+------------+---------------------------------------------------------------------------------+
-| 12 | 11/10/2023 | Derivadas de ordem superior.                                                    |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 12/10/2023 | Nossa Senhora Aparecida                                                         |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 13/10/2023 | Facultativo                                                                     |
-+----+------------+---------------------------------------------------------------------------------+
-| 13 | 18/10/2023 | Plano tangente. Aproximação linear                                              |
-+----+------------+---------------------------------------------------------------------------------+
-| 14 | 20/10/2023 | Diferenciabilidade e Deferenciais no plano.                                     |
-+----+------------+---------------------------------------------------------------------------------+
-| 15 | 25/10/2023 | Aproximação linear e Diferenciabilidade no espaço                               |
-+----+------------+---------------------------------------------------------------------------------+
-| 16 | 27/10/2023 | Regra da cadeia                                                                 |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 28/10/2023 | Servidor Público                                                                |
-+----+------------+---------------------------------------------------------------------------------+
-| 17 | 01/11/2023 | Derivação Implícita e Teorema da Função Implícita                               |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 02/11/2023 | Finados                                                                         |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 03/11/2023 | Facultativo                                                                     |
-+----+------------+---------------------------------------------------------------------------------+
-| 18 | 08/11/2023 | Derivadas direcionais                                                           |
-+----+------------+---------------------------------------------------------------------------------+
-| 19 | 10/11/2023 | Vetor gradiente                                                                 |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 15/11/2023 | Proclamação da República                                                        |
-+----+------------+---------------------------------------------------------------------------------+
-| 20 | 17/11/2023 | Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda.            |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 20/11/2023 | Consciência Negra                                                               |
-+----+------------+---------------------------------------------------------------------------------+
-| 21 | 22/11/2023 | Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass |
-+----+------------+---------------------------------------------------------------------------------+
-| 22 | 24/11/2023 | Multiplicadores de Lagrange                                                     |
-+----+------------+---------------------------------------------------------------------------------+
-| 23 | 29/11/2023 | Multiplicadores de Lagrange com duas restrições                                 |
-+----+------------+---------------------------------------------------------------------------------+
-| 24 | 01/12/2023 | Aula de Dúvidas                                                                 |
-+----+------------+---------------------------------------------------------------------------------+
-| 25 | 06/12/2023 | **2ª prova**                                                                    |
-+----+------------+---------------------------------------------------------------------------------+
-| 26 | 08/12/2023 | 2ª Chamada                                                                      |
-+----+------------+---------------------------------------------------------------------------------+
-| 27 | 13/12/2023 | VS                                                                              |
-+----+------------+---------------------------------------------------------------------------------+
-| 28 | 15/12/2023 |                                                                                 |
-+----+------------+---------------------------------------------------------------------------------+
-| 29 | 20/12/2023 |                                                                                 |
-+----+------------+---------------------------------------------------------------------------------+
-| -- | 25/12/2023 | Natal                                                                           |
-+----+------------+---------------------------------------------------------------------------------+
-+----+------------+---------------------------------------------------------------------------------+
+## Cronograma
+
+01 . &nbsp; 30/08  --  Apresentação. Método da Exaustão. Notação Sigma \
+02 . &nbsp; 01/09  --  Somas de Riemann e Integral Definida. Distância percorrida \
+03 . &nbsp; 06/09  --  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares \
+<span style="color:orange"> XX . &nbsp; 07/09  --  Independência </span> \
+<span style="color:orange"> XX . &nbsp; 08/09  --  Facultativo </span> \
+04 . &nbsp; 13/09  --  Funções não-integráveis. Integral indefinida \
+05 . &nbsp; 15/09  --  Integração por Substituição e Aplicações (queda livre, cresc. populacional, carbono 14) \
+06 . &nbsp; 20/09  --  Áreas entre curvas \
+07 . &nbsp; 22/09  --  Integração por Partes. Integração por substituição Trigonométrica \
+08 . &nbsp; 27/09  --  Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico \
+09 . &nbsp; 29/09  --  Cálculo de volumes pelo método dos discos \
+10 . &nbsp; 04/10  --  Volume por cascas cilíndricas \
+11 . &nbsp; 06/10  --  Comprimento de Curvas. Integrais Impróprias: Limites Infinitos \
+12 . &nbsp; 11/10  --  Convergência funções $1/x^p$. Volume da Trombeta de Torricelli \
+<span style="color:orange"> XX . &nbsp; 12/10  --  Nossa Senhora Aparecida </span> \
+<span style="color:orange"> XX . &nbsp; 13/10  --  Facultativo </span> \
+13 . &nbsp; 18/10  --  Integrais Impróprias: Limites finitos. Teste da comparação \
+<span style="color:red">14 . &nbsp; 20/10  --  1ª Prova </span>\
+15 . &nbsp; 25/10  --  Introdução às EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) \
+16 . &nbsp; 27/10  --  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear \
+<span style="color:orange"> XX . &nbsp; 28/10  --  Servidor Público </span> \
+17 . &nbsp; 01/11  --  Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares \
+<span style="color:orange"> XX . &nbsp; 02/11  --  Finados </span> \
+<span style="color:orange"> XX . &nbsp; 03/11  --  Facultativo </span> \
+18 . &nbsp; 08/11  --  EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano \
+19 . &nbsp; 10/11  --  Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas \
+<span style="color:orange"> XX . &nbsp; 15/11  --  Proclamação da República </span> \
+20 . &nbsp; 17/11  --  EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos. Caso raízes complexas e fórmula de Euler \
+<span style="color:orange"> XX . &nbsp; 20/11  --  Consciência Negra </span> \
+21 . &nbsp; 22/11  --  Método dos coeficientes a determinar \
+22 . &nbsp; 24/11  --  Método da variação dos Parâmetros \
+23 . &nbsp; 29/11  --  Oscilações forçadas mecânicas e elétricas \
+<span style="color:red">24 . &nbsp; 01/12  --  2ª prova \
+25 . &nbsp; 06/12  --  2ª Chamada \
+26 . &nbsp; 08/12  --  VS </span>\
+27 . &nbsp; 13/12  --   --  \
+28 . &nbsp; 15/12  --   --  \
+29 . &nbsp; 20/12  --   --  \
