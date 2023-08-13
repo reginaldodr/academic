@@ -1,22 +1,29 @@
 ---
 title: CÁLCULO II RCN00020 -- 2023-2
 number-sections: true
+bibliography: biblio.bib
+csl:  aims-mathematics.csl
+nocite: |
+  @*
 ---
 # Informações Básicas
 
--  Turma C1: 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio novo)**
+-  **Horário e sala:** 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio novo)**
 
--  Atendimento: sala 104 -- IHS (prédio novo)
+-  **Atendimento:** sala 104 -- IHS (prédio alugado)
 
--  Ementa: Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/) .
+-  **Ementa:** Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
+INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS 
+DE  PRIMEIRA  ORDEM.  EQUAÇÕES  DIFERENCIAIS  DE  SEGUNDA  ORDEM.  EQUAÇÕES  DIFERENCIAIS
+LINEARES DE ORDEM N.
 
 # Apresentação do Curso
 
-Este curso é constituído de dois grandes módulos:
+Este curso é constituído de dois grandes módulos: **Cálculo Integral** e **Equações Diferenciais Ordinárias (EDO)**
 
-**Cálculo Integral** e **Equações Diferenciais Ordinárias**
+Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
 
-Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA). Nele serão postados todos os materiais usados e serão realizadas as discussões e comunicações.
+Para o módulo de **Cálculo Integral**, usaremos com livro texto a referência [@stewart1], e para o módulo de **EDO** usaremos [@Boyce]. As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
 
 # Avaliação
 
@@ -30,24 +37,27 @@ A nota final será a média aritmética entre as avaliações de cada módulo, i
 $$N=\frac{P_1+T_1+P_2}{2},$$
 onde $P_1$ é a nota da primeira prova, $T_1$ é a nota do trabalho e $P_2$ é a nota da segunda prova. Veja no cronograma, @sec-crono abaixo, as datas destas avaliações. 
 
-## Sobre as Provas escritas
+## Sobre as Provas
 
-As duas provas serão escritas e com consulta a qualquer material impresso ou manuscrito (livros, notas de aula, apostilas e etc.)
+As duas provas serão **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.
 
 
 ## Sobre o Trabalho
 
 - Tema: Integrais Impróprias e Teste da Comparação. 
+    - **Referências:** Seção 7.8 da referência [@stewart1] . Videoaulas: [Integrais Impróprias](https://youtu.be/UqpxSNmyGPI) e [Testes de Convergência ](https://youtu.be/e-SFGQVi-ys)
 - Deverá ser feito em grupos de 4 a 5 integrantes.
 - Deverá ser manuscrito.
 - Deverá ser entregue no dia da Primeira Prova. 
 - Haverá na primeira prova uma questão sobre o trabalho.
 
+
+
 ## Segunda Chamada e Verificação Suplementar.
 
-Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
 
-Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
+Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
 
 # Materiais Utilizados
 
@@ -57,13 +67,13 @@ Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff
 
 -   [Playlist videoaulas de cálculo 2](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
 
--   [Provas anteriores](https://drive.google.com/drive/folders/1vo8lpGdbSg7IiUjImOUXegAgEbbAwhK3?usp=sharing)
+-   [Provas anteriores](calculoII/provas)
 
 -   [Arquivos Python](https://drive.google.com/drive/folders/1W8BtIjg4IzpDbCOs62NCT-WJH8SwVk44)
 
 # Listas de Exercícios
 
-**Integral**: Abaixo seguem os execícios da referência \[8\] que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+**Integral**: Abaixo seguem os execícios da referência @stewart1 que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
 § 5.1: 11, 15.\
 § 5.2: 5, 33, 35, 37, 47, 49, 53.\
@@ -81,7 +91,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 § 6.3: 5, 7, 9, 15, 19, 43, 46.\
 § Em construção
 
-**EDO**: Abaixo seguem os execícios da referência \[2\] que devem ser feitos. A distribuição está dada por seção. Os exercícios marcado com o símbolo🖱️​ no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+**EDO**: Abaixo seguem os execícios da referência @Boyce que devem ser feitos. A distribuição está dada por seção. Os exercícios marcado com o símbolo🖱️​ no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
 § 1.1: 1, 5, 11, 13, 22, 23.\
 § 1.3: 1, 2, 5, 6, 8, 9, 11, 15.\
@@ -97,29 +107,13 @@ Leia a seção 7.5 (Estratégias de Integração)\
 §3.7: 5-7, 13, 14.\
 §3.8: 6, 9, 11, 14, 17, 27.
 
-# Referências
+# Referências {#sec-ref}
 
-O curso será dividido em duas partes. Cálculo Integral e Equações Diferenciais Ordinárias.\
-Na parte 1, **Cálculo Integral**, será usado como livro texto a referência \[8\] e as demais como material auxiliar ao longo do curso. \
-Na parte 2, **Equações Diferenciais Ordinárias**, usaremos com livro texto a referência \[2\] e as demais como material auxiliar.
 
-1.  P. Boulos, ***Introdução ao Cálculo Volume II***. Editora Edgar Blücher, Brasília, 1974.
+::: {#refs}
+:::
 
-2.  W. E. Boyce, R. C. Diprima. ***Equações Diferenciais Elementares e Problemas de Valor de Contorno***. 8ª ed. Editora Guanabara.
 
-3.  H. Cassago Jr., L. A. C. Laderia, ***Equações Diferenciais Ordinárias.*** USP. São Carlos, 2011. Disponível [aqui](https://sites.icmc.usp.br/tiago/index.html/assets/herminio_ladeira2.pdf).
-
-4.  D. G. de Figueiredo. A. F. Neves, ***Equações Diferenciais Aplicadas***. Coleção Matemática Universitárias. IMPA. Rio de Janeiro, 2012.
-
-5.  R. M. Martins, **Mais uma Introdução às Equações Diferencias, Notas de Aula Unicamp**. Disponível [aqui.](http://www.ime.unicamp.br/~rmiranda/notas-de-aula-ma311/notas-de-aula-ma311.pdf)
-
-6.  E. C. de Oliveria, M. Tygel. ***Métodos Matemáticos para Engenharia.*** Coleção Textos Universitários. SBM, Rio de Janeiro, 2005.
-
-7.  R. J. Santos, ***Introdução às Equações Diferenciais Ordinárias.*** Imprensa Universitária da UFMG, Belo Horizonte, 2016. Disponível [aqui.](https://regijs.github.io/index.html)
-
-8.  James Stewart. ***Cálculo Volume 1.*** Editora Cengage Learning, 6a ed., São Paulo, 2011.
-
-9.  G. B. Thomas. ***Cálculo Volume 1***. Editora Addison Wesley, 11ª Ed., São Paulo, 2009.
 
 # Cronograma {#sec-crono}
 
@@ -136,12 +130,12 @@ Na parte 2, **Equações Diferenciais Ordinárias**, usaremos com livro texto a 
 09 . &nbsp; 29/09  --  Cálculo de volumes pelo método dos discos \
 10 . &nbsp; 04/10  --  Volume por cascas cilíndricas, Comprimento de Curvas \
 11 . &nbsp; 06/10  --  Integrais Impróprias: Limites Infinitos \
-12 . &nbsp; 11/10  --  1ª Prova \
+<span style="color:red"> 12 . &nbsp; 11/10  --   1ª Prova </span> \
 <span style="color:orange"> XX . &nbsp; 12/10  --  Nossa Senhora Aparecida </span> \
 <span style="color:orange"> XX . &nbsp; 13/10  --  Facultativo </span> \
 <span style="color:orange"> XX . &nbsp; 18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 <span style="color:orange"> XX . &nbsp; 20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-13 . &nbsp; 25/10  --  Introdução às EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) \
+13 . &nbsp; 25/10  --  EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) \
 14 . &nbsp; 27/10  --  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear \
 <span style="color:orange"> XX . &nbsp; 28/10  --  Servidor Público </span> \
 15 . &nbsp; 01/11  --  Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares \
@@ -154,9 +148,9 @@ Na parte 2, **Equações Diferenciais Ordinárias**, usaremos com livro texto a 
 <span style="color:orange"> XX . &nbsp; 20/11  --  Consciência Negra </span> \
 19 . &nbsp; 22/11  --  Método dos coeficientes a determinar \
 20 . &nbsp; 24/11  --  Método da variação dos Parâmetros \
-21 . &nbsp; 29/11  --  2ª prova \
+<span style="color:red">21 . &nbsp; 29/11  --   2ª Prova \
 22 . &nbsp; 01/12  --  2ª Chamada \
-23 . &nbsp; 06/12  --  VS \
+23 . &nbsp; 06/12  --  VS</span> \
 24 . &nbsp; 08/12  --   --  \
 25 . &nbsp; 13/12  --   --  \
 26 . &nbsp; 15/12  --   --  \

@@ -1,20 +1,18 @@
 ---
 title: "Research"
 bibliography: papers.bib
-cls: aims-mathematics.csl
+csl: aims-mathematics.csl
 nocite: |
-  @*
+ @*
 ---
 ## Preprints
 
-1. 
 
 ## Publications
 
 
 ::: {#refs}
 :::
-
 
 ## Orientações
 

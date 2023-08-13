@@ -3,8 +3,8 @@
     "objectID": "research.html#preprints",
     "href": "research.html#preprints",
     "title": "Research",
-    "section": "Preprints",
-    "text": "Preprints"
+    "section": "",
+    "text": "(Demarque, Lı́maco, e Viana 2018)"
   },
   {
     "objectID": "research.html#publications",
@@ -102,7 +102,7 @@
     "href": "calculoII/c2-2023-2.html",
     "title": "CÁLCULO II RCN00020 – 2023-2",
     "section": "",
-    "text": "Turma C1: 4ª e 6ª 16h – 18h – sala 04 – IHS (prédio novo)\nAtendimento: sala 104 – IHS (prédio novo)\nEmenta: Busque por RCN00020 em quadro de horários ."
+    "text": "Horário e sala: 4ª e 6ª 16h – 18h – sala 04 – IHS (prédio novo)\nAtendimento: sala 104 – IHS (prédio alugado)\nEmenta: Busque por RCN00020 em quadro de horários:\nINTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS DE PRIMEIRA ORDEM. EQUAÇÕES DIFERENCIAIS DE SEGUNDA ORDEM. EQUAÇÕES DIFERENCIAIS LINEARES DE ORDEM N."
   },
   {
     "objectID": "calculoII/c2-2023-2.html#informações-básicas",
@@ -193,14 +193,14 @@
     "href": "calculoII/c2-2023-2.html#sobre-as-provas-escritas",
     "title": "CÁLCULO II RCN00020 – 2023-2",
     "section": "3.1 Sobre as Provas escritas",
-    "text": "3.1 Sobre as Provas escritas\nAs duas provas serão escritas e com consulta a qualquer material impresso ou manuscrito (livros, notas de aula, apostilas e etc.)"
+    "text": "3.1 Sobre as Provas escritas\nAs duas provas serão escritas e com consulta a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). Não será permitido o uso de dispositivos eletrônicos com acesso à internet."
   },
   {
     "objectID": "calculoII/c2-2023-2.html#sobre-o-trabalho",
     "href": "calculoII/c2-2023-2.html#sobre-o-trabalho",
     "title": "CÁLCULO II RCN00020 – 2023-2",
     "section": "3.2 Sobre o Trabalho",
-    "text": "3.2 Sobre o Trabalho\n\nTema: Integrais Impróprias e Teste da Comparação.\nDeverá ser feito em grupos de 4 a 5 integrantes.\nDeverá ser manuscrito.\nDeverá ser entregue no dia da Primeira Prova.\nHaverá na primeira prova uma questão sobre o trabalho."
+    "text": "3.2 Sobre o Trabalho\n\nTema: Integrais Impróprias e Teste da Comparação.\n\nReferências: Seção 7.8 da referência [1] . Videoaulas: Integrais Impróprias e Testes de Convergência\n\nDeverá ser feito em grupos de 4 a 5 integrantes.\nDeverá ser manuscrito.\nDeverá ser entregue no dia da Primeira Prova.\nHaverá na primeira prova uma questão sobre o trabalho."
   },
   {
     "objectID": "calculoII/c2-2023-2.html#segunda-chamada-e-verificação-suplementar.",
@@ -208,5 +208,47 @@
     "title": "CÁLCULO II RCN00020 – 2023-2",
     "section": "3.3 Segunda Chamada e Verificação Suplementar.",
     "text": "3.3 Segunda Chamada e Verificação Suplementar.\nEm concordância com o Regulamento dos Cursos de graduação em seu Art. 99, a Verificação Suplementar (VS) é vetada aos discentes já aprovados e é obrigatória para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.\nComo regulamentado pelo  Regulamento dos Cursos de graduação em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que substituirá uma, e somente uma, das avaliações que tenha faltado."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "(Demarque, Lı́maco, e Viana 2018)"
+  },
+  {
+    "objectID": "pesquisa.html#publications",
+    "href": "pesquisa.html#publications",
+    "title": "Research",
+    "section": "Publications",
+    "text": "Publications\n\n\n1. Araújo BSV, Demarque R, Viana L (2023) Carleman inequality for a class of super strong degenerate parabolic operators and applications. Electron J Qual Theory Differ Equ 1–25.\n\n\n2. Araújo BSV, Demarque R, Viana L (2023) Regularity results for degenerate wave equations in a neighborhood of the boundary. Evolution Equations and Control Theory 12: 1300–1315.\n\n\n3. Carvalho P de, Demarque R, Lı́maco J, et al. (2023) Null controllability and numerical simulations for a class of degenerate parabolic equations with nonlocal nonlinearities. Nonlinear Differential Equations and Applications NoDEA 30: 32.\n\n\n4. Araújo BSV, Demarque R, Viana L (2022) Boundary null controllability of degenerate heat equation as the limit of internal controllability. Nonlinear Analysis: Real World Applications 66: 103519.\n\n\n5. Demarque R, Lı́maco J, Viana L (2020) Local null controllability of coupled degenerate systems with nonlocal terms and one control force. Evolution Equations & Control Theory 9: 605.\n\n\n6. Demarque R, Lı́maco J, Viana L (2018) Local null controllability for degenerate parabolic equations with nonlocal term. Nonlinear Analysis: Real World Applications 43: 523–547.\n\n\n7. Demarque R, Fernández-Cara E (2018) Local null controllability of one-phase Stefan problems in 2D star-shaped domains. Journal of Evolution Equations 18: 245–261.\n\n\n8. Demarque R, Hora Lisboa N da (2018) Radial solutions for inhomogeneous biharmonic elliptic systems. Electronic Journal of Differential Equations v.2018: 1–14.\n\n\n9. Demarque R, Miyagaki OH (2015) Radial solutions of inhomogeneous fourth order elliptic equations and weighted Sobolev embeddings. Advances in Nonlinear Analysis 4: 135–151.\n\n\n10. Carrião PC, Demarque R, Miyagaki OH, et al. (2014) NONLINEAR BIHARMONIC PROBLEMS WITH SINGULAR POTENTIALS. Communications on Pure & Applied Analysis 13.\n\n\n11. Carrião P, Demarque R, Miyagaki O (2013) Existence and non-existence of solutions for p-Laplacian equations with decaying cylindrical potentials. Journal of Differential Equations 255: 3412–3433."
+  },
+  {
+    "objectID": "pesquisa.html#orientações",
+    "href": "pesquisa.html#orientações",
+    "title": "Research",
+    "section": "Orientações",
+    "text": "Orientações\n\nIniciação científica\n\nLeuber de Araújo Melo. Integração em Coordenadas Polares Multidimensional e Aplicações. 2020. Iniciação científica (Matemática) – Universidade Federal FluminenseInst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ\nNatan da Costa Lucas. Estudo dos Espaços L^p. 2018. Iniciação científica (Engenharia de Produção) – Universidade Federal FluminenseInst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ\nMilena Fernandes da Conceição. Estudos dos Espaços Lp. 2018. Iniciação científica (Engenharia de Produção) – Universidade Federal FluminenseInst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ\nGustavo Jorge Martins de Aguiar. Análise de Fourier e Resolução de EDPs. 2017. Iniciação científica (Engenharia de Produção) – Universidade Federal FluminenseInst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ\nPaulo Sérgio Alves Carreira. Estudo da generalização do conceito de medida para subconjuntos abstratos da reta e do plano. 2014. Iniciação científica (Ciência da Computação) – Universidade Federal FluminenseInst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ\nÁtila Roger Cavalcanti dos Santos. Aspectos Gerais da Integral de Lebesgue. 2013. Iniciação científica (Engenharia de Produção) – Universidade Federal FluminenseInst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ\nJessica Maria Marconde do Valle. Temperaturas estacinárias em uma placa em movimento. 2013. Iniciação científica (Engenharia de Produção) – Universidade Federal FluminenseInst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ\n\n\n\nOrientação de outra natureza\n\nAlline Pinto Ribeiro Lopes. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Ciência da Computação) – Universidade Federal FluminenseInst. financiadora: Pró-Reitoria de Assuntos Estudantis\nIngrid Mesquita Magalhães. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Engenharia de Produção) – Universidade Federal FluminenseInst. financiadora: Pró-Reitoria de Assuntos Estudantis\nGabriel Fortuna Serafim. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Ciência da Computação) – Universidade Federal FluminenseInst. financiadora: Pró-Reitoria de Assuntos Estudantis\nMaria Williany Lopes Lira. Introdução a análise real. 2014. Orientação de outra natureza (Engenharia de Produção) – Universidade Federal FluminenseInst. financiadora: Pró-Reitoria de Assuntos Estudantis"
+  },
+  {
+    "objectID": "pesquisa.html",
+    "href": "pesquisa.html",
+    "title": "Research",
+    "section": "",
+    "text": "[1]"
+  },
+  {
+    "objectID": "pesquisa.html#preprints",
+    "href": "pesquisa.html#preprints",
+    "title": "Research",
+    "section": "",
+    "text": "[1]"
+  },
+  {
+    "objectID": "calculoII/c2-2023-2.html#sobre-as-provas",
+    "href": "calculoII/c2-2023-2.html#sobre-as-provas",
+    "title": "CÁLCULO II RCN00020 – 2023-2",
+    "section": "3.1 Sobre as Provas",
+    "text": "3.1 Sobre as Provas\nAs duas provas serão escritas e com consulta a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.).  Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc). Será permitido o uso de calculadora científica."
   }
 ]
