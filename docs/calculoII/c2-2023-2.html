@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -91,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../research.html" rel="" target="">
+    <a class="nav-link" href="../pesquisa.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item compact">
@@ -119,13 +138,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#apresentação-do-curso" id="toc-apresentação-do-curso" class="nav-link" data-scroll-target="#apresentação-do-curso"><span class="header-section-number">2</span> Apresentação do Curso</a></li>
   <li><a href="#avaliação" id="toc-avaliação" class="nav-link" data-scroll-target="#avaliação"><span class="header-section-number">3</span> Avaliação</a>
   <ul class="collapse">
-  <li><a href="#sobre-as-provas-escritas" id="toc-sobre-as-provas-escritas" class="nav-link" data-scroll-target="#sobre-as-provas-escritas"><span class="header-section-number">3.1</span> Sobre as Provas escritas</a></li>
+  <li><a href="#sobre-as-provas" id="toc-sobre-as-provas" class="nav-link" data-scroll-target="#sobre-as-provas"><span class="header-section-number">3.1</span> Sobre as Provas</a></li>
   <li><a href="#sobre-o-trabalho" id="toc-sobre-o-trabalho" class="nav-link" data-scroll-target="#sobre-o-trabalho"><span class="header-section-number">3.2</span> Sobre o Trabalho</a></li>
   <li><a href="#segunda-chamada-e-verificação-suplementar." id="toc-segunda-chamada-e-verificação-suplementar." class="nav-link" data-scroll-target="#segunda-chamada-e-verificação-suplementar."><span class="header-section-number">3.3</span> Segunda Chamada e Verificação Suplementar.</a></li>
   </ul></li>
   <li><a href="#materiais-utilizados" id="toc-materiais-utilizados" class="nav-link" data-scroll-target="#materiais-utilizados"><span class="header-section-number">4</span> Materiais Utilizados</a></li>
   <li><a href="#listas-de-exercícios" id="toc-listas-de-exercícios" class="nav-link" data-scroll-target="#listas-de-exercícios"><span class="header-section-number">5</span> Listas de Exercícios</a></li>
-  <li><a href="#referências" id="toc-referências" class="nav-link" data-scroll-target="#referências"><span class="header-section-number">6</span> Referências</a></li>
+  <li><a href="#sec-ref" id="toc-sec-ref" class="nav-link" data-scroll-target="#sec-ref"><span class="header-section-number">6</span> Referências</a></li>
   <li><a href="#sec-crono" id="toc-sec-crono" class="nav-link" data-scroll-target="#sec-crono"><span class="header-section-number">7</span> Cronograma</a></li>
   </ul>
 </nav>
@@ -153,16 +172,18 @@ ul.task-list li input[type="checkbox"] {
 <section id="informações-básicas" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Informações Básicas</h1>
 <ul>
-<li><p>Turma C1: 4ª e 6ª 16h – 18h – <strong>sala 04 – IHS (prédio novo)</strong></p></li>
-<li><p>Atendimento: sala 104 – IHS (prédio novo)</p></li>
-<li><p>Ementa: Busque por RCN00020 em <a href="https://app.uff.br/graduacao/quadrodehorarios/">quadro de horários</a> .</p></li>
+<li><p><strong>Horário e sala:</strong> 4ª e 6ª 16h – 18h – <strong>sala 04 – IHS (prédio novo)</strong></p></li>
+<li><p><strong>Atendimento:</strong> sala 104 – IHS (prédio alugado)</p></li>
+<li><p><strong>Ementa:</strong> Busque por RCN00020 em <a href="https://app.uff.br/graduacao/quadrodehorarios/">quadro de horários</a>:<br>
+INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS DE PRIMEIRA ORDEM. EQUAÇÕES DIFERENCIAIS DE SEGUNDA ORDEM. EQUAÇÕES DIFERENCIAIS LINEARES DE ORDEM N.</p></li>
 </ul>
 </section>
 <section id="apresentação-do-curso" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Apresentação do Curso</h1>
-<p>Este curso é constituído de dois grandes módulos:</p>
-<p><strong>Cálculo Integral</strong> e <strong>Equações Diferenciais Ordinárias</strong></p>
-<p>Usaremos o <strong>Classroom</strong> como Ambiente Virtual de Aprendizagem (AVA). Nele serão postados todos os materiais usados e serão realizadas as discussões e comunicações.</p>
+<p>Este curso é constituído de dois grandes módulos: <strong>Cálculo Integral</strong> e <strong>Equações Diferenciais Ordinárias (EDO)</strong></p>
+<p>Usaremos o <strong>Classroom</strong> como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.</p>
+<p>Para o módulo de <strong>Cálculo Integral</strong>, usaremos com livro texto a referência <span class="citation" data-cites="stewart1">[<a href="#ref-stewart1" role="doc-biblioref">1</a>]</span>, e para o módulo de <strong>EDO</strong> usaremos <span class="citation" data-cites="Boyce">[<a href="#ref-Boyce" role="doc-biblioref">2</a>]</span>. As demais referência contidas na <a href="#sec-ref">Seção&nbsp;6</a> serão usadas como material auxiliar ao longo do curso.<br>
+</p>
 </section>
 <section id="avaliação" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Avaliação</h1>
@@ -172,14 +193,17 @@ ul.task-list li input[type="checkbox"] {
 <li><p><strong>EDO:</strong> Uma única prova, valendo 10 pontos.</p></li>
 </ul>
 <p>A nota final será a média aritmética entre as avaliações de cada módulo, isto é, <span class="math display">\[N=\frac{P_1+T_1+P_2}{2},\]</span> onde <span class="math inline">\(P_1\)</span> é a nota da primeira prova, <span class="math inline">\(T_1\)</span> é a nota do trabalho e <span class="math inline">\(P_2\)</span> é a nota da segunda prova. Veja no cronograma, <a href="#sec-crono">Seção&nbsp;7</a> abaixo, as datas destas avaliações.</p>
-<section id="sobre-as-provas-escritas" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="sobre-as-provas-escritas"><span class="header-section-number">3.1</span> Sobre as Provas escritas</h2>
-<p>As duas provas serão escritas e com consulta a qualquer material impresso ou manuscrito (livros, notas de aula, apostilas e etc.)</p>
+<section id="sobre-as-provas" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="sobre-as-provas"><span class="header-section-number">3.1</span> Sobre as Provas</h2>
+<p>As duas provas serão <strong>escritas e com consulta</strong> a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.</p>
 </section>
 <section id="sobre-o-trabalho" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="sobre-o-trabalho"><span class="header-section-number">3.2</span> Sobre o Trabalho</h2>
 <ul>
-<li>Tema: Integrais Impróprias e Teste da Comparação.</li>
+<li>Tema: Integrais Impróprias e Teste da Comparação.
+<ul>
+<li><strong>Referências:</strong> Seção 7.8 da referência <span class="citation" data-cites="stewart1">[<a href="#ref-stewart1" role="doc-biblioref">1</a>]</span> . Videoaulas: <a href="https://youtu.be/UqpxSNmyGPI">Integrais Impróprias</a> e <a href="https://youtu.be/e-SFGQVi-ys">Testes de Convergência</a></li>
+</ul></li>
 <li>Deverá ser feito em grupos de 4 a 5 integrantes.</li>
 <li>Deverá ser manuscrito.</li>
 <li>Deverá ser entregue no dia da Primeira Prova.</li>
@@ -188,8 +212,8 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="segunda-chamada-e-verificação-suplementar." class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="segunda-chamada-e-verificação-suplementar."><span class="header-section-number">3.3</span> Segunda Chamada e Verificação Suplementar.</h2>
-<p>Em concordância com o <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf">Regulamento dos Cursos de graduação</a> em seu Art. 99, a <strong>Verificação Suplementar (VS)</strong> é vetada aos discentes já aprovados e é <strong>obrigatória</strong> para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.</p>
-<p>Como regulamentado pelo&nbsp; <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf">Regulamento dos Cursos de graduação</a> em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que <strong>substituirá uma, e somente uma,</strong> das avaliações que tenha faltado.</p>
+<p>Em concordância com o <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55">Regulamento dos Cursos de graduação</a> em seu Art. 99, a <strong>Verificação Suplementar (VS)</strong> é vetada aos discentes já aprovados e é <strong>obrigatória</strong> para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.</p>
+<p>Como regulamentado pelo&nbsp; <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55">Regulamento dos Cursos de graduação</a> em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que <strong>substituirá uma, e somente uma,</strong> das avaliações que tenha faltado.</p>
 </section>
 </section>
 <section id="materiais-utilizados" class="level1" data-number="4">
@@ -198,13 +222,13 @@ ul.task-list li input[type="checkbox"] {
 <li><p><a href="https://mega.nz/file/nU8BWIgS#bQRFns7nNhfOyAqZM-fUhPI6ZSBoAxfKdyyE57BTPo0">Slides Integral</a> – Atualizado 07/05/2023</p></li>
 <li><p><a href="https://mega.nz/file/yIcwAL4D#fSiEsU6gSyeCdIbsd9kedreIEwj4Ol0w-rvgAOTe_Ng">Slide EDO</a> – Atualizado 03/07/2023</p></li>
 <li><p><a href="https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY">Playlist videoaulas de cálculo 2</a></p></li>
-<li><p><a href="https://drive.google.com/drive/folders/1vo8lpGdbSg7IiUjImOUXegAgEbbAwhK3?usp=sharing">Provas anteriores</a></p></li>
+<li><p><a href="calculoII/provas">Provas anteriores</a></p></li>
 <li><p><a href="https://drive.google.com/drive/folders/1W8BtIjg4IzpDbCOs62NCT-WJH8SwVk44">Arquivos Python</a></p></li>
 </ul>
 </section>
 <section id="listas-de-exercícios" class="level1" data-number="5">
 <h1 data-number="5"><span class="header-section-number">5</span> Listas de Exercícios</h1>
-<p><strong>Integral</strong>: Abaixo seguem os execícios da referência [8] que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.</p>
+<p><strong>Integral</strong>: Abaixo seguem os execícios da referência <span class="citation" data-cites="stewart1">[<a href="#ref-stewart1" role="doc-biblioref">1</a>]</span> que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.</p>
 <p>§ 5.1: 11, 15.<br>
 § 5.2: 5, 33, 35, 37, 47, 49, 53.<br>
 § 5.3: 7, 9, 17, 19, 23, 27, 29, 35, 39, 53, 55.<br>
@@ -220,7 +244,7 @@ Leia a seção 7.5 (Estratégias de Integração)<br>
 § 6.2: 1, 3, 5,19, 21, 39, 45, 51, 67.<br>
 § 6.3: 5, 7, 9, 15, 19, 43, 46.<br>
 § Em construção</p>
-<p><strong>EDO</strong>: Abaixo seguem os execícios da referência [2] que devem ser feitos. A distribuição está dada por seção. Os exercícios marcado com o símbolo🖱️​ no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.</p>
+<p><strong>EDO</strong>: Abaixo seguem os execícios da referência <span class="citation" data-cites="Boyce">[<a href="#ref-Boyce" role="doc-biblioref">2</a>]</span> que devem ser feitos. A distribuição está dada por seção. Os exercícios marcado com o símbolo🖱️​ no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.</p>
 <p>§ 1.1: 1, 5, 11, 13, 22, 23.<br>
 § 1.3: 1, 2, 5, 6, 8, 9, 11, 15.<br>
 § 2.2: 1, 6, 8, 10, 12 .<br>
@@ -235,22 +259,37 @@ Leia a seção 7.5 (Estratégias de Integração)<br>
 §3.7: 5-7, 13, 14.<br>
 §3.8: 6, 9, 11, 14, 17, 27.</p>
 </section>
-<section id="referências" class="level1" data-number="6">
+<section id="sec-ref" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> Referências</h1>
-<p>O curso será dividido em duas partes. Cálculo Integral e Equações Diferenciais Ordinárias.<br>
-Na parte 1, <strong>Cálculo Integral</strong>, será usado como livro texto a referência [8] e as demais como material auxiliar ao longo do curso.&nbsp;<br>
-Na parte 2, <strong>Equações Diferenciais Ordinárias</strong>, usaremos com livro texto a referência [2] e as demais como material auxiliar.</p>
-<ol type="1">
-<li><p>P. Boulos, <strong><em>Introdução ao Cálculo Volume II</em></strong>. Editora Edgar Blücher, Brasília, 1974.</p></li>
-<li><p>W. E. Boyce, R. C. Diprima. <strong><em>Equações Diferenciais Elementares e Problemas de Valor de Contorno</em></strong>. 8ª ed.&nbsp;Editora Guanabara.</p></li>
-<li><p>H. Cassago Jr., L. A. C. Laderia, <strong><em>Equações Diferenciais Ordinárias.</em></strong> USP. São Carlos, 2011. Disponível <a href="https://sites.icmc.usp.br/tiago/index.html/assets/herminio_ladeira2.pdf">aqui</a>.</p></li>
-<li><p>D. G. de Figueiredo. A. F. Neves, <strong><em>Equações Diferenciais Aplicadas</em></strong>. Coleção Matemática Universitárias. IMPA. Rio de Janeiro, 2012.</p></li>
-<li><p>R. M. Martins, <strong>Mais uma Introdução às Equações Diferencias, Notas de Aula Unicamp</strong>. Disponível <a href="http://www.ime.unicamp.br/~rmiranda/notas-de-aula-ma311/notas-de-aula-ma311.pdf">aqui.</a></p></li>
-<li><p>E. C. de Oliveria, M. Tygel. <strong><em>Métodos Matemáticos para Engenharia.</em></strong> Coleção Textos Universitários. SBM, Rio de Janeiro, 2005.</p></li>
-<li><p>R. J. Santos, <strong><em>Introdução às Equações Diferenciais Ordinárias.</em></strong> Imprensa Universitária da UFMG, Belo Horizonte, 2016. Disponível <a href="https://regijs.github.io/index.html">aqui.</a></p></li>
-<li><p>James Stewart. <strong><em>Cálculo Volume 1.</em></strong> Editora Cengage Learning, 6a ed., São Paulo, 2011.</p></li>
-<li><p>G. B. Thomas. <strong><em>Cálculo Volume 1</em></strong>. Editora Addison Wesley, 11ª Ed., São Paulo, 2009.</p></li>
-</ol>
+<div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-stewart1" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Stewart J (2011) C<span>á</span>lculo, volume 1, 6a edi<span>ç</span><span>ã</span>o, São Paulo, Editora Cengage Learning.</div>
+</div>
+<div id="ref-Boyce" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Boyce WE, Diprima RC (1974) Equações Diferenciais Elementares e Problemas de Valor de Contorno, Brasília, Editora Guanabara.</div>
+</div>
+<div id="ref-djairo" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Figueiredo DG (2012) Equações Diferenciais Aplicadas, Rio de Janeiro, Coleção Matemática Universitárias. IMPA.</div>
+</div>
+<div id="ref-boulos" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Boulos P (1974) Introdução ao C<span>á</span>lculo Volume II, Brasília, Editora Edgar Blücher.</div>
+</div>
+<div id="ref-cassago" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Cassago Jr H, Laderia LAC (2011) <a href="https://sites.icmc.usp.br/tiago/index.html/assets/herminio_ladeira2.pdf">Equações Diferenciais Ordinária</a>, São Carlos, USP.</div>
+</div>
+<div id="ref-miranda" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Martins RM <a href="http://www.ime.unicamp.br/~rmiranda/notas-de-aula-ma311/notas-de-aula-ma311.pdf">Mais uma Introdução às Equações Diferencias</a>, Unicamp, Notas de Aula Unicamp.</div>
+</div>
+<div id="ref-oliveira" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Oliveria EC de, Tygel M (2005) Equações Diferenciais Ordinária, Rio de Janeiro, SBM.</div>
+</div>
+<div id="ref-santos" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Santos R (2016) <a href="https://regijs.github.io/index.html">Introdução às Equações Diferenciais Ordinárias</a>, Belo Horizonte, Imprensa Universitária da UFMG.</div>
+</div>
+<div id="ref-thomas1" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Thomas GB (2009) Cálculo Volume 1, São Paulo, Editora Addison Wesley.</div>
+</div>
+</div>
 </section>
 <section id="sec-crono" class="level1" data-number="7">
 <h1 data-number="7"><span class="header-section-number">7</span> Cronograma</h1>
@@ -267,12 +306,12 @@ Na parte 2, <strong>Equações Diferenciais Ordinárias</strong>, usaremos com l
 09 . &nbsp; 29/09 – Cálculo de volumes pelo método dos discos<br>
 10 . &nbsp; 04/10 – Volume por cascas cilíndricas, Comprimento de Curvas<br>
 11 . &nbsp; 06/10 – Integrais Impróprias: Limites Infinitos<br>
-12 . &nbsp; 11/10 – 1ª Prova<br>
+<span style="color:red"> 12 . &nbsp; 11/10 – 1ª Prova </span><br>
 <span style="color:orange"> XX . &nbsp; 12/10 – Nossa Senhora Aparecida </span><br>
 <span style="color:orange"> XX . &nbsp; 13/10 – Facultativo </span><br>
 <span style="color:orange"> XX . &nbsp; 18/10 – Semana Nacional de Ciência e Tecnologia </span><br>
 <span style="color:orange"> XX . &nbsp; 20/10 – Semana Nacional de Ciência e Tecnologia </span><br>
-13 . &nbsp; 25/10 – Introdução às EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar)<br>
+13 . &nbsp; 25/10 – EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar)<br>
 14 . &nbsp; 27/10 – Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear<br>
 <span style="color:orange"> XX . &nbsp; 28/10 – Servidor Público </span><br>
 15 . &nbsp; 01/11 – Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares<br>
@@ -285,9 +324,9 @@ Na parte 2, <strong>Equações Diferenciais Ordinárias</strong>, usaremos com l
 <span style="color:orange"> XX . &nbsp; 20/11 – Consciência Negra </span><br>
 19 . &nbsp; 22/11 – Método dos coeficientes a determinar<br>
 20 . &nbsp; 24/11 – Método da variação dos Parâmetros<br>
-21 . &nbsp; 29/11 – 2ª prova<br>
+<span style="color:red">21 . &nbsp; 29/11 – 2ª Prova<br>
 22 . &nbsp; 01/12 – 2ª Chamada<br>
-23 . &nbsp; 06/12 – VS<br>
+23 . &nbsp; 06/12 – VS</span><br>
 24 . &nbsp; 08/12 – –<br>
 25 . &nbsp; 13/12 – –<br>
 26 . &nbsp; 15/12 – –<br>

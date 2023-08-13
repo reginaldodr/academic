@@ -11,7 +11,7 @@ website:
         text: Home
       - href: teaching.qmd
         text: Ensino
-      - href: research.qmd
+      - href: pesquisa.qmd
         text: Research
       - icon: youtube
         href: https://www.youtube.com/c/ProfReginaldoDemarque
