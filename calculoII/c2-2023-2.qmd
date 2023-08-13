@@ -23,7 +23,9 @@ Este curso é constituído de dois grandes módulos: **Cálculo Integral** e **E
 
 Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
 
-Para o módulo de **Cálculo Integral**, usaremos com livro texto a referência [@stewart1], e para o módulo de **EDO** usaremos [@Boyce]. As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
+Para o módulo de **Cálculo Integral**, usaremos com livro texto a referência [@stewart1], e para o módulo de **EDO** usaremos [@Boyce]. **Essas duas referências estão disponíveis para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red">É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+
+As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
 
 # Avaliação
 
@@ -67,7 +69,7 @@ Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff
 
 -   [Playlist videoaulas de cálculo 2](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
 
--   [Provas anteriores](calculoII/provas)
+-   [Provas anteriores](provas/)
 
 -   [Arquivos Python](https://drive.google.com/drive/folders/1W8BtIjg4IzpDbCOs62NCT-WJH8SwVk44)
 
