@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  
 
 website:
   title: "Prof. Reginaldo Demarque"
@@ -27,6 +28,8 @@ format:
     toc: true
     lang: pt
     date-format: DD/MM/YYYY
+    resources:
+      - "calculoII/provas/*"
 
 editor: source
 

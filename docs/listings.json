@@ -2,7 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/distributional.html"
+      "/posts/bilionario/bilionario.html",
+      "/posts/distributional.html",
+      "/posts/2022-07-21-como-usar-python-no-latex/pythontex.html"
     ]
   }
 ]
