@@ -14,7 +14,7 @@ website:
       - href: pesquisa.qmd
         text: Research
       - href: blog.qmd
-        text: blog
+        text: Blog
       - icon: youtube
         href: https://www.youtube.com/c/ProfReginaldoDemarque
         aria-label: YouTube  
