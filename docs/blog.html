@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prof.&nbsp;Reginaldo Demarque - Disciplinas</title>
+<title>Prof.&nbsp;Reginaldo Demarque - Postagens</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,7 +60,38 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Enviar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -85,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./teaching.html" rel="" target="">
  <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
@@ -93,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
+    <a class="nav-link active" href="./blog.html" rel="" target="" aria-current="page">
  <span class="menu-text">blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -109,29 +142,18 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Nesta página</h2>
-   
-  <ul>
-  <li><a href="#turmas-atuais-2023-2" id="toc-turmas-atuais-2023-2" class="nav-link active" data-scroll-target="#turmas-atuais-2023-2">Turmas Atuais – 2023-2</a></li>
-  <li><a href="#disciplinas-de-semestres-anteriores" id="toc-disciplinas-de-semestres-anteriores" class="nav-link" data-scroll-target="#disciplinas-de-semestres-anteriores">Disciplinas de Semestres Anteriores</a>
-  <ul class="collapse">
-  <li><a href="#disciplinas-de-graduação" id="toc-disciplinas-de-graduação" class="nav-link" data-scroll-target="#disciplinas-de-graduação">Disciplinas de Graduação</a></li>
-  <li><a href="#disciplinas-de-pós-graduação" id="toc-disciplinas-de-pós-graduação" class="nav-link" data-scroll-target="#disciplinas-de-pós-graduação">Disciplinas de Pós-Graduação</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PDE">PDE <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mathematics">mathematics <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Disciplinas</h1>
+<h1 class="title">Postagens</h1>
 </div>
 
 
@@ -146,45 +168,70 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="turmas-atuais-2023-2" class="level3">
-<h3 class="anchored" data-anchor-id="turmas-atuais-2023-2">Turmas Atuais – 2023-2</h3>
-<ul>
-<li><a href="./calculoII/c2-2023-2.html">Cálculo II</a> – RCN00020
-<ul>
-<li>Turma C1: 4ª e 6ª 16h – 18h</li>
-</ul></li>
-<li><a href="./calculoIII/c3-2023-2.html">Cálculo III</a> – RCN00021
-<ul>
-<li>Turma M1: 4ª e 6ª 14h – 16h</li>
-</ul></li>
-</ul>
-<hr>
-</section>
-<section id="disciplinas-de-semestres-anteriores" class="level2">
-<h2 class="anchored" data-anchor-id="disciplinas-de-semestres-anteriores">Disciplinas de Semestres Anteriores</h2>
-<section id="disciplinas-de-graduação" class="level3">
-<h3 class="anchored" data-anchor-id="disciplinas-de-graduação">Disciplinas de Graduação</h3>
-<ul>
-<li>Cálculo I</li>
-<li>Cálculo II (2022-2, <a href="./calculoII/c2-2023-1.html">2023-1</a>)</li>
-<li>Cálculo III (2023-1)</li>
-<li>Cálculo IV (2022-2)</li>
-<li>Geometria Analítica e Cálculo Vetorial (2022-1)</li>
-<li>Equações Diferenciais</li>
-</ul>
-</section>
-<section id="disciplinas-de-pós-graduação" class="level3">
-<h3 class="anchored" data-anchor-id="disciplinas-de-pós-graduação">Disciplinas de Pós-Graduação</h3>
-<ul>
-<li>Análise Funcional (<a href="analise-funcional/functional-analysis.pdf">Slides</a>)</li>
-</ul>
-<hr>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
+       <option value="index" data-direction="asc">Pré-selecionado</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Data - Mais velho
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Data - O mais novo
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Título
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Autor
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Data</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Título</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Autor</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="mathematics,PDE" data-listing-date-sort="1658372400000" data-listing-file-modified-sort="1692013124007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Relation between distributional derivatives" data-listing-filename-sort="distributional.qmd">
+<td>
+<span class="listing-date">21/07/2022</span>
+</td>
+<td>
+<a href="./posts/distributional.html" class="title listing-title">Relation between distributional derivatives</a>
+</td>
+<td>
+<span class="listing-author">Reginaldo Demarque</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+Nenhum item correspondente
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

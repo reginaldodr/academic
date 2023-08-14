@@ -6,6 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Reginaldo Demarque">
+<meta name="description" content="Distributions">
 
 <title>Prof.&nbsp;Reginaldo Demarque - Relation between distributional derivatives</title>
 <style>
@@ -20,7 +22,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -94,6 +115,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../pesquisa.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html" rel="" target="">
+ <span class="menu-text">blog</span></a>
+  </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.youtube.com/c/ProfReginaldoDemarque" rel="" target=""><i class="bi bi-youtube" role="img" aria-label="YouTube">
 </i> 
@@ -117,13 +142,34 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Relation between distributional derivatives</h1>
-</div>
+  <div class="quarto-categories">
+    <div class="quarto-category">mathematics</div>
+    <div class="quarto-category">PDE</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    Distributions
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Reginaldo Demarque </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">21/07/2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -131,19 +177,30 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p><strong>Relation between distributional derivatives in <span class="math inline">\(L^2(0,T;L^2(\Omega))\)</span> and <span class="math inline">\(L^2(Q)\)</span></strong></p>
-<section id="distributional-derivatives" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="distributional-derivatives"><span class="header-section-number">1</span> Distributional Derivatives</h2>
-<p>Given <span class="math inline">\(T&gt;0\)</span> and <span class="math inline">\(\Omega\subset \mathbb{R}^n\)</span> an open set let us denote <span class="math inline">\(Q=(0,T)\times \Omega\)</span>. A function <span class="math inline">\(u\in L^2(Q)\)</span> can also be seen as a vector valued mapping in <span class="math inline">\(L^2(0,T;L^2(\Omega))\)</span>. This give us two notion of distributional derivatives. Our aim is prove they coincide. In order to do that, we need to introduce a fundamental density result given in <span class="citation" data-cites="friedlander1998introduction">[@friedlander1998introduction]</span>.</p>
+<section id="relation-between-distributional-derivatives-in-l20tl2omega-and-l2q" class="level1">
+<h1>Relation between distributional derivatives in <span class="math inline">\(L^2(0,T;L^2(\Omega))\)</span> and <span class="math inline">\(L^2(Q)\)</span></h1>
+<section id="distributional-derivatives" class="level2">
+<h2 class="anchored" data-anchor-id="distributional-derivatives">Distributional Derivatives</h2>
+<p>Given <span class="math inline">\(T&gt;0\)</span> and <span class="math inline">\(\Omega\subset \mathbb{R}^n\)</span> an open set let us denote <span class="math inline">\(Q=(0,T)\times \Omega\)</span>. A function <span class="math inline">\(u\in L^2(Q)\)</span> can also be seen as a vector valued mapping in <span class="math inline">\(L^2(0,T;L^2(\Omega))\)</span>. This give us two notion of distributional derivatives. Our aim is prove they coincide. In order to do that, we need to introduce a fundamental density result given in <span class="citation" data-cites="friedlander1998introduction">(<a href="#ref-friedlander1998introduction" role="doc-biblioref">Friedlander et al. 1998</a>)</span>.</p>
 <p>Given <span class="math inline">\(\Omega_x\subset \mathbb{R}^n\)</span>, <span class="math inline">\(\Omega_y\in \mathbb{R}^m\)</span> open sets, let <span class="math inline">\(\mathcal{D}(\Omega_x)\)</span>, <span class="math inline">\(\mathcal{D}(\Omega_y)\)</span> and <span class="math inline">\(\mathcal{D}(\Omega_x\times \Omega_y)\)</span> be the test space of infinitely differentiable functions with compact support.</p>
-<blockquote class="blockquote">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <p><strong>Definition 1.1:</strong> Let <span class="math inline">\(f:\Omega_x\longrightarrow \mathbb{R}\)</span> and <span class="math inline">\(g:\Omega_y\longrightarrow \mathbb{R}\)</span>. The <em>Tensor product</em> of <span class="math inline">\(f\)</span> and <span class="math inline">\(g\)</span> is a function on <span class="math inline">\(\Omega_x\times \Omega_y\)</span> defined by <span class="math display">\[f\otimes g(x,y)=f(x)g(y),\ \forall (x,y)\in \Omega_x\times\Omega_y.\]</span></p>
-</blockquote>
+</div>
+</div>
 <p>Let us denote by <span class="math inline">\(\mathcal{D}(\Omega_x)\otimes \mathcal{D}(\Omega_y)\)</span> the subspace of <span class="math inline">\(C_c^\infty(\Omega_x\times\Omega_y)\)</span> generated by function of the form <span class="math inline">\(\phi\otimes \psi\)</span>, where <span class="math inline">\(\phi \in \mathcal{D}(\Omega_x)\)</span> and <span class="math inline">\(\psi \in \mathcal{D}(\Omega_y)\)</span>.</p>
 <blockquote class="blockquote">
 <p><strong>Theorem 1.2:</strong> The space <span class="math inline">\(\mathcal{D}(\Omega_x)\otimes \mathcal{D}(\Omega_y)\)</span> is dense in <span class="math inline">\(\mathcal{D}(\Omega_x\times \Omega_y)\)</span>.</p>
 </blockquote>
-<p><em>proof:</em> See Theorem 4.3.1 <span class="citation" data-cites="friedlander1998introduction">[@friedlander1998introduction]</span>.</p>
+<p><em>proof:</em> See Theorem 4.3.1 <span class="citation" data-cites="friedlander1998introduction">(<a href="#ref-friedlander1998introduction" role="doc-biblioref">Friedlander et al. 1998</a>)</span>.</p>
 <p>Now, let us define the two notions of distributional derivatives. Let us denote by <span class="math inline">\(((\cdot,\cdot))\)</span> inner product in <span class="math inline">\(L^2(Q)\)</span> and <span class="math inline">\((\cdot,\cdot)\)</span> the inner product in <span class="math inline">\(L^2(\Omega)\)</span> or <span class="math inline">\(L^2(0,T)\)</span>.</p>
 <p>Given <span class="math inline">\(u\in L^2(Q)\)</span> we have distributional derivatives <span class="math inline">\(D_tu,D_xu\in \mathcal{D}'(Q)\)</span> given by</p>
 <p>
@@ -194,8 +251,8 @@ whence,
 <p>Furthermore, we can see that <span class="math inline">\(u_{x_ix_j}\in L^2(0,T;H^{-2}(\Omega))\)</span>. Following the same reasoning, we can define <span class="math inline">\(u_{x_ix_j}\)</span> on <span class="math inline">\(\mathcal{D}(0,T)\otimes \mathcal{D}(\Omega)\)</span> and, by a density argument, extend it to <span class="math inline">\(\mathcal{D}(Q)\)</span> with <span class="math inline">\(D_{x_ix_j}u=u_{x_ix_j}\)</span> in <span class="math inline">\(\mathcal{D}'(Q)\)</span>. Similarly, <span class="math inline">\(u_{tt}\in \mathcal{D}'(0,T;L^2(\Omega))\)</span>, then we can define <span class="math inline">\(u''\)</span> as a distribution <span class="math inline">\(\mathcal{D}'(Q)\)</span> with <span class="math inline">\(D_{tt}u=u''\)</span>.</p>
 <p>Therefore, from now on, we will stop using the <span class="math inline">\(D\)</span>-notation for distributional derivative in <span class="math inline">\(Q\)</span> and use the same notation of vector-distribution.</p>
 </section>
-<section id="application-to-ultra-weak-solution-of-wave-equation" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="application-to-ultra-weak-solution-of-wave-equation"><span class="header-section-number">2</span> Application to ultra-weak solution of wave equation</h2>
+<section id="application-to-ultra-weak-solution-of-wave-equation" class="level2">
+<h2 class="anchored" data-anchor-id="application-to-ultra-weak-solution-of-wave-equation">Application to ultra-weak solution of wave equation</h2>
 <p>Let us consider the problem</p>
 <p>
 <span class="math display">\[
@@ -230,7 +287,7 @@ whence,
 \]</span></p>
 </blockquote>
 <p></p>
-<p>Let us estate an existence result which can be seen in Theorem 4.2, pag. 46 of <span class="citation" data-cites="lions1988">[@lions1988]</span> or Theorem 4.1, pag. 45 of <span class="citation" data-cites="medeiros2013introduction">[@medeiros2013introduction]</span></p>
+<p>Let us estate an existence result which can be seen in Theorem 4.2, pag. 46 of <span class="citation" data-cites="lions1988">(<a href="#ref-lions1988" role="doc-biblioref">Lions 1988</a>)</span> or Theorem 4.1, pag. 45 of <span class="citation" data-cites="medeiros2013introduction">(<a href="#ref-medeiros2013introduction" role="doc-biblioref">Medeiros, Miranda, e Lourêdo 2013</a>)</span></p>
 <blockquote class="blockquote">
 <p><strong><em>Theorem 2.2:</em></strong> Let <span class="math inline">\(\Omega\subset \mathbb{R}^n\)</span> be a bounded domain with <span class="math inline">\(\partial \Omega\)</span> of class <span class="math inline">\(C^2\)</span>. For all <span class="math inline">\((z^0,z^1)\in L^2(\Omega)\times H^{-1}(\Omega)\)</span>, there exist a unique ultra weak solution <span class="math inline">\(z\)</span> of <span class="math inline">\(\eqref{pb1}\)</span>. Moreover, <span class="math inline">\(z\in C^0([0,T];L^2(\Omega))\cap C^1([0,T];H^{-1}(\Omega))\)</span> and there exists <span class="math inline">\(C&gt;0\)</span> such that <span class="math display">\[
 \|z\|_{L^\infty(0,T;L^2(\Omega))}+\|z'\|_{L^\infty(0,T;L^2(\Omega))} \leq C\left(\|z^0\|_{L^2(\Omega)}+\|z^1\|_{H^{-1}(\Omega)}\right).
@@ -254,14 +311,26 @@ whence,
 <p>It is easy to see that <span class="math inline">\(w(0)=\psi\in H_0^1(\Omega)\)</span>, <span class="math inline">\(w'(0)=z^0\in L^2(\Omega)\)</span> and <span class="math inline">\(w=0\)</span> on <span class="math inline">\((0,T)\times \Omega\)</span>. We just need to prove that <span class="math inline">\(w\)</span> satisfies the equation in the weak sense.</p>
 <p>First, let us prove that <span class="math inline">\(z''-z_{xx}=0 \text{ in } \mathcal{D}'(Q).\)</span> Indeed, given <span class="math inline">\(\phi\in \mathcal{D}(Q)\)</span>, we have that <span class="math inline">\(\phi\)</span> is the solution to <span class="math inline">\(\eqref{pb2}\)</span> with <span class="math inline">\(f=\phi''-\phi_{xx}\)</span>. From definition of ultra weak solution we have that <span class="math display">\[\iint\limits_Q z(\phi''-\phi_{xx})d xd t=-(z^0,\phi'(0))+\langle z^1,\phi(0)\rangle =0.\]</span> Hence, <span class="math display">\[\langle\!\langle z''-z_{xx},\phi\rangle\!\rangle=0,\]</span> that is <span class="math display">\[z''-z_{xx} \text{ in } \mathcal{D}'(Q).\]</span> Consequently, <span class="math display">\[z''-z_{xx}=0 \text{ a.e  in } Q.\]</span> Since <span class="math inline">\(z_{xx}\in C^0([0,T];H^{-2}(\Omega))\)</span>, then <span class="math inline">\(z''\in C^0([0,T];H^{-2}(\Omega))\)</span>. Also, note that <span class="math inline">\(w''=z'\in C^0([0,T];H^{-1}(\Omega))\)</span>. Hence, we can see <span class="math display">\[w_{xx}(t)=\int_0^tz_{xx}(s)d s+\psi_{xx}=\int_0^t z''(s)d s+z^1=z'(t)-z'(0)+z^1=w''(t).\]</span> Then <span class="math inline">\(w\)</span> is a weak solution to <span class="math inline">\(\eqref{pb3}\)</span> and <span class="math inline">\(w_{xx}\in C^0([0,T];H^{-1}(\Omega))\)</span>. Hence, from regularity results, we know that <span class="math inline">\(w\in L^\infty(0,T;H_0^1(\Omega))\)</span>, which implies <span class="math inline">\(z=w'\in D'(0,T;H_0^1(\Omega))\)</span>, that is, <span class="math display">\[z(t,\cdot)\varphi(t) \in H_0^1(\Omega),\ \forall \varphi\in \mathcal{D}(0,T) \text{ and  a.e in } (0,T).\]</span></p>
 </section>
-<section id="references" class="level2" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="references"><span class="header-section-number">3</span> References</h2>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 <p>&nbsp;</p>
 
 
+
+</section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-friedlander1998introduction" class="csl-entry" role="listitem">
+Friedlander, Friedrich Gerard, Mark Suresh Joshi, M Joshi, e Mohan C Joshi. 1998. <em>Introduction to the Theory of Distributions</em>. Cambridge University Press.
+</div>
+<div id="ref-lions1988" class="csl-entry" role="listitem">
+Lions, Jaques-Louis. 1988. <em>Contrôlabilité Exacte, Perturbations et Stabilisation de Systémes Distribués</em>. Masson, Paris.
+</div>
+<div id="ref-medeiros2013introduction" class="csl-entry" role="listitem">
+Medeiros, LA, MM Miranda, e AT Lourêdo. 2013. <em>Introduction to exact control theory</em>. Method HUM, eduepb. <a href="http://dspace.bc.uepb.edu.br/jspui/handle/123456789/13358">http://dspace.bc.uepb.edu.br/jspui/handle/123456789/13358</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

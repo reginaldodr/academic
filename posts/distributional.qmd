@@ -1,8 +1,19 @@
 ---
 title: "Relation between distributional derivatives"
-number-sections: true
+description: "Distributions"
+author: "Reginaldo Demarque"
+date: 21 07 2022
+categories:
+  - mathematics
+  - PDE
+draft: false
+bibliography: references.bib
+format:
+  html:
+    page-layout: full
+    toc: false
 ---
-**Relation between distributional derivatives in $L^2(0,T;L^2(\Omega))$ and  $L^2(Q)$**
+# Relation between distributional derivatives in $L^2(0,T;L^2(\Omega))$ and  $L^2(Q)$
 
 
 ## Distributional Derivatives
@@ -11,7 +22,8 @@ Given $T>0$ and $\Omega\subset \mathbb{R}^n$ an open set let us denote $Q=(0,T)\
 
 Given $\Omega_x\subset \mathbb{R}^n$, $\Omega_y\in \mathbb{R}^m$ open sets, let $\mathcal{D}(\Omega_x)$, $\mathcal{D}(\Omega_y)$ and $\mathcal{D}(\Omega_x\times \Omega_y)$ be the test space of infinitely differentiable functions with compact support. 
 
->**Definition 1.1:**  Let $f:\Omega_x\longrightarrow \mathbb{R}$ and $g:\Omega_y\longrightarrow \mathbb{R}$. The *Tensor product* of $f$ and $g$ is a function on $\Omega_x\times \Omega_y$ defined by 
+
+**Definition 1.1:**  Let $f:\Omega_x\longrightarrow \mathbb{R}$ and $g:\Omega_y\longrightarrow \mathbb{R}$. The *Tensor product* of $f$ and $g$ is a function on $\Omega_x\times \Omega_y$ defined by 
 	$$f\otimes g(x,y)=f(x)g(y),\ \forall (x,y)\in \Omega_x\times\Omega_y.$$
 
 
