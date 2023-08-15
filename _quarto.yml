@@ -28,6 +28,8 @@ format:
     toc: true
     lang: pt
     date-format: DD/MM/YYYY
+    link-external-icon: true
+    link-external-newwindow: true
 
 
 editor: source
