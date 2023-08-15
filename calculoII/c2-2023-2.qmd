@@ -71,12 +71,9 @@ Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff
 
 -   [Playlist videoaulas de cálculo 2](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
 
--   [Provas anteriores](https://drive.google.com/drive/folders/1vo8lpGdbSg7IiUjImOUXegAgEbbAwhK3)
+-   [Provas anteriores](provas/)
 
 -   [Arquivos Python](https://drive.google.com/drive/folders/1W8BtIjg4IzpDbCOs62NCT-WJH8SwVk44)
-
--   [provas](provas/)
-
 
 # Listas de Exercícios
 

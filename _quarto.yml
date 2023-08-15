@@ -28,8 +28,7 @@ format:
     toc: true
     lang: pt
     date-format: DD/MM/YYYY
-    resources:
-      - "calculoII/provas/*"
+
 
 editor: source
 

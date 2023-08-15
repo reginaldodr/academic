@@ -42,17 +42,17 @@ Turma C1
 
 -   03/04 -- Início do Período
 
--   02/06 -- Avaliação Preliminar com Consulta ([gabarito](provas/aprp1-c2-turmarC1-2023-1.pdf))
+-   02/06 -- [Avaliação Preliminar](provas/2023-1-aprp1-C1-c2.pdf)
 
--   05/06 -- Primeira Prova ([gabarito](https://drive.google.com/file/d/1gMSIEkBs3JD_cZ-ROUIt1BQULQEqJOr2/view?usp=drive_link))
+-   05/06 -- [Primeira Prova](provas/2023-1-p1-C1-c2.pdf)
 
--   10/07 -- Segunda Prova ([gabarito](http://www.professores.uff.br/reginaldodr/wp-content/uploads/sites/135/2023/07/p2-c2-turmaE1-2023-1.pdf))
+-   10/07 -- [Segunda Prova](provas/2023-1-p2-C1_E1-c2.pdf)
 
--   14/07 -- 2ª Chamada ([VR-P1](http://www.professores.uff.br/reginaldodr/wp-content/uploads/sites/135/2023/07/vr-p1_c2_2023-1-turmaC1.pdf)) ([VR-P2](http://www.professores.uff.br/reginaldodr/wp-content/uploads/sites/135/2023/07/vr-p2-c2-turmaC1-2023-1.pdf))
+-   14/07 -- 2ª Chamada ([VR-P1](provas/2023-1-p1-vr_C1-c2.pdf), [VR-P2](provas/2023-1-p2-vr-C1-c2.pdf) )
 
 -   17/07- Vista da P2 e 2ª chamada
 
--   21/07 -- Verificação Suplementar ([gabarito](http://www.professores.uff.br/reginaldodr/wp-content/uploads/sites/135/2023/07/vs_c2_2023-1-turmac1-gabarito.pdf))
+-   21/07 -- [Verificação Suplementar](provas/2023-1-vs-C1-c2.pdf)
 
 -   22/07 -- Fim do Período.
 
@@ -60,17 +60,17 @@ Turma E1
 
 -   03/04 -- Início do Período
 
--   29/05 -- Atividade Preliminar de Revisão ([gabarito](https://drive.google.com/file/d/17GovtRg1s0vH3gCXytdZ3h_STU1hxSoL/view?usp=sharing))
+-   29/05 -- [Avaliação Preliminar](provas/2023-1-aprp1-E1-c2.pdf)
 
--   31/05 -- Primeira Prova ([gabarito](https://drive.google.com/file/d/1He_pgMtEXlLDULyVkHR_ilz2qtQLK3w6/view?usp=sharing))
+-   31/05 -- [Primeira Prova](provas/2023-1-p1-E1-c2.pdf)
 
--   10/07 -- Segunda Prova ([gabarito](http://www.professores.uff.br/reginaldodr/wp-content/uploads/sites/135/2023/07/p2-c2-turmaE1-2023-1.pdf))
+-   10/07 -- [Segunda Prova](provas/2023-1-p2-C1_E1-c2.pdf)
 
--   12/07 -- 2ª Chamada ([VR-P1](http://www.professores.uff.br/reginaldodr/wp-content/uploads/sites/135/2023/07/vr-p1-c2-turmaE1-2023-1.pdf)) ([VR-P2](http://www.professores.uff.br/reginaldodr/wp-content/uploads/sites/135/2023/07/vr-p2-c2-turmaE1-2023-1.pdf))
+-   12/07 -- 2ª Chamada ([VR-P1](provas/2023-1-p1-vr-E1-c2.pdf), [VR-P2](provas/2023-1-p2-vr-E1-c2.pdf) )
 
 -   17/07- Vista da P2 e da 2ª chamada
 
--   19/07 -- Verificação Suplementar (não houve alunos de vs)
+-   19/07 -- Verificação Suplementar (Não houveram alunos de VS.)
 
 -   22/07 -- Fim do Período.
 
@@ -82,7 +82,7 @@ Turma E1
 
 -   [Playlist videoaulas de cálculo 2](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
 
--   [Provas anteriores](https://drive.google.com/drive/folders/1vo8lpGdbSg7IiUjImOUXegAgEbbAwhK3?usp=sharing)
+-   [Provas anteriores](provas/)
 
 -   [Arquivos Python](https://drive.google.com/drive/folders/1W8BtIjg4IzpDbCOs62NCT-WJH8SwVk44)
 
