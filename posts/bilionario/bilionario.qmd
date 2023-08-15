@@ -14,7 +14,7 @@ format:
 
 Há algum tempo o tiktok me presenteou com esse [vídeo](https://www.tiktok.com/@eu.criaativa/video/7255427376811707653) maravilhoso do perfil [\@eu.criativa](https://www.tiktok.com/@eu.criaativa) da professora Gabriella Taranto.
 
-Vejam o vídeo, mas para resumir, a Prof. Grabriella faz alguns cálculo para saber quanto tempo demoraria para ter o primeiro bilhão caso a pessoa decidisse investir **todo o seu salário, em anos ininterruptos de trabalho**, sem gastar nada, somente juntando. Ai ela usa uma regra de três simples e chega às seguintes conclusões:
+Vejam o vídeo, mas para resumir, a Prof. Grabriella faz alguns cálculos para saber quanto tempo demoraria para ter o primeiro bilhão caso a pessoa decidisse investir **todo o seu salário, em anos ininterruptos de trabalho**, sem gastar nada, somente juntando. Ai ela usa uma regra de três simples e chega às seguintes conclusões:
 
 - **Salário mensal R\$ 2.500,00: ** 33.333 anos. (salário médio do Brasil)
 
@@ -35,10 +35,10 @@ Cheguei ao seguinte: Investindo-se mensalmente  **R$ 1.000,00 a juros de  10.0 %
 
 
 ::: {.callout-important}
-Não estamos considerando as perdas inflacionárias e nem os impostos. Um bilhão hoje, não terá o mesmo valor que um bilhão daqui há 94 anos.
+Não estamos considerando as perdas inflacionárias e nem os impostos. Um bilhão hoje, não terá o mesmo valor que um bilhão daqui a 94 anos.
 :::
 
-Assim, é fácil ver que, não é somente investindo e trabalhando que uma pessoas se torna um bilionário.
+Assim, é fácil ver que, não é somente investindo e trabalhando que uma pessoa se torna um bilionário.
 
 Outros fatos interessante são:
 

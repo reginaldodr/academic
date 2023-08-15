@@ -1,35 +1,56 @@
-# CÁLCULO III -- RCN00021 --  2023-2
+---
+title: CÁLCULO III RCN00021 -- 2023-2
+number-sections: true
+bibliography: ../biblio.bib
+csl:  aims-mathematics.csl
 
+nocite: |
+  @thomas2, @diomara, @tromba,
 ---
 
-## Informações Básicas
+
+
+# Informações Básicas
 
 -   Horários e Salas
 
-    -   Turma M1: Quarta e Sexta das 14h às 16h -- **sala 04 -- IHS (prédio novo)**
+    -    **Horário e sala:** 4ª e 6ª das 14h às 16h --  **sala 04 -- IHS (prédio alugado)**
 
-    -   **Atendimento: sala 104 -- IHS (prédio novo)**
+    -   **Atendimento**: sala 104 -- IHS (prédio alugado)
 
 -   Ementa: Busque por RCN00021 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/)
 
+FUNÇÕES VETORIAIS DE UMA VARIÁVEL. FUNÇÕES REAIS DE VÁRIAS VARIÁVEIS. CONTINUIDADE.
+DERIVADAS PARCIAIS E DIFERENCIABILIDADE. FÓRMULA DE TAYLOR.
 
 
-## Apresentação do Curso
+# Apresentação do Curso
 
-Este curso é constituído de dois módulos:. **Funções Vetoriais** e **Funções de Várias Variáveis** Usaremos o **Classroom** como Ambiente Virtual. de Aprendizagem (AVA).
+Este curso é constituído de dois módulos: **Funções Vetoriais** e **Funções de Várias Variáveis**.
 
-## Avaliação
+Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
 
-A avaliação será constituída de **2 Provas** presenciais realizadas ao fim de cada módulo. Cada prova terá o **valor de 10 pontos.** A nota final do curso será a média aritmética das provas.
 
-### Segunda Chamada e Verificação Suplementar
+O **livro texto** será referência [@stewart2], que **está disponíveis para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red"> É altamente recomendado que vocês consultem este material, de preferência o livro físico.</span>
+
+As demais referência contidas na @sec-ref formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.
+
+# Avaliação
+
+A avaliação será constituída de **2 Provas** presenciais realizadas ao fim de cada módulo, de acordo com o cronograma em @sec-crono.
+
+Cada prova terá o **valor de 10 pontos.** A nota final do curso será a média aritmética das provas.
+
+As duas provas serão **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.
+
+## Segunda Chamada e Verificação Suplementar
 
 Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
 
 Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
 
 
-### Materiais Utilizados
+# Materiais Utilizados
 
 -   [Slides usados em aula](https://mega.nz/file/2dU01ZyR#5G0-LRC_zp37yoplYxcxpLBiW37ZD7tDfqhlIAej1iM) --**atualizados em** 20/06/2023
 
@@ -37,9 +58,9 @@ Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff
 
 -   Arquivos Python
 
-## Listas de Exercícios
+# Listas de Exercícios
 
-Abaixo seguem os execícios da referência \[1\] (**Stewart Vol. 2, 6ª Ed.**) que devem ser feitos. A distribuição está dada por seção.
+Abaixo seguem os execícios da referência [@stewart2] que devem ser feitos. A distribuição está dada por seção.
 
 § 12.5: 3, 5, 7, 9, 23, 26, 31, 43.\
 § 12.6: 3, 5, 13, 15, 21, 23, 25, 27, 29, 31.\
@@ -62,19 +83,13 @@ Exercícios do **Stewart Vol. 2, 7ª Edição.**
 § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
 § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
 
-## Referências
+# Referências {#sec-ref}
 
-O **livro texto** será referência \[1\], que possui diversas cópias na biblioteca. Os outros textos formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.
 
-1.  James Stewart. ***Cálculo Volume 2.*** Editora Cengage Learning, 6ª ed., São Paulo, 2011.
+::: {#refs}
+:::
 
-2.  G. B. Thomas. ***Cálculo Volume*** 2. Editora Addison Wesley, 11ª Ed., São Paulo, 2009.
-
-3.  Diomara Pinto. Maria Cândida Ferreira Morgado. ***Cálculo diferencial e integral de funções de várias variáveis***. UFRJ, 2009.
-
-4.  Jerrold E. Marsden e Anthony Tromba. ***Vector calculus***. Macmillan, 2003.
-
-## Cronograma
+# Cronograma {#sec-crono}
 
 01 . &nbsp; 30/08  --  Apresentação. Funções Vetoriais. Limite e continuidade \
 02 . &nbsp; 01/09  --  Curvas parametrizadas no Plano, Coordenadas polares \

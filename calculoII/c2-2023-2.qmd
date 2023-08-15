@@ -8,7 +8,7 @@ nocite: |
 ---
 # Informações Básicas
 
--  **Horário e sala:** 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio novo)**
+-  **Horário e sala:** 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio alugado)**
 
 -  **Atendimento:** sala 104 -- IHS (prédio alugado)
 
