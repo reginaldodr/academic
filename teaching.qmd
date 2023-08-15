@@ -1,7 +1,10 @@
 ---
 title: "Disciplinas"
----
 
+format:
+  html:
+    toc: false
+---
 ### Turmas Atuais -- 2023-2
 
 -   [Cálculo II](calculoII/c2-2023-2.qmd) -- RCN00020 
@@ -16,10 +19,14 @@ title: "Disciplinas"
 ### Disciplinas de Graduação
 
 -   Cálculo I
--   Cálculo II (2022-2, [2023-1](calculoII/c2-2023-1.qmd))
--   Cálculo III (2023-1)
--   Cálculo IV (2022-2)
--   Geometria Analítica e Cálculo Vetorial (2022-1)
+-   [Cálculo II](calculoII/calculoII.qmd) 
+    - Turmas: [2022-2](calculoII/c2-2022-2.qmd),  [2023-1](calculoII/c2-2023-1.qmd)
+-   Cálculo III
+    - Turmas: [2023-1](calculoIII/c3-2023-1.qmd)
+-   Cálculo IV:
+    - Turmas: [2022-2](https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/)
+-   Geometria Analítica e Cálculo Vetorial
+    - Turmas: [2022-1](https://www.professores.uff.br/reginaldodr/disciplinas/geometria-analitica-rcn00023-2022-1/)
 -   Equações Diferenciais
 
 ### Disciplinas de Pós-Graduação

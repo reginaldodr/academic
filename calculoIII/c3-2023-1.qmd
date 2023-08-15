@@ -1,0 +1,112 @@
+---
+title: "CÁLCULO III RCN00021 2023-1"
+format:
+  html:
+    toc: false
+---
+
+**Informações Básicas**
+
+-   Horários e Salas
+
+    -   Turma M1: Quarta e Sexta das 14h às 16h -- **sala 04 -- IHS (prédio novo)**
+
+    -   **Atendimento: sala 104 -- IHS (prédio novo)**
+
+-   Ementa: Busque por RCN00021 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/)
+
+-   <div>
+
+    #### **⇒[Cronograma de Aulas](https://docs.google.com/document/d/11d0tJxGkhE_4natro0CPd-Hlifw14cxMJW_UPwpA3Pg/edit?usp=sharing) ⇐**
+
+    </div>
+
+#### **Apresentação do Curso**
+
+Este curso é constituído de dois módulos:  **Funções Vetoriais** e **Funções de Várias Variáveis** Usaremos o **Classroom** como Ambiente Virtual  de Aprendizagem (AVA).
+
+#### **Avaliação**
+
+A avaliação será constituída de **2 Provas** presenciais realizadas ao fim de cada módulo. Cada prova terá o **valor de 10 pontos.** A nota final do curso será a média aritmética das provas.
+
+#### **Segunda Chamada e Verificação Suplementar.**
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
+Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
+
+#### **Calendário de Provas**
+
+-   03/04 -- Início do Período
+
+-   26/05 -- [Atividade Preliminar de Revisão parar a P1](provas/2023-1-a1-c3.pdf)
+
+-   07/06 -- [Primeira Prova](provas/2023-1-p1-c3.pdf)
+
+-   12/07 -- [Segunda Prova](provas/2023-1-p2-c3.pdf)
+
+-   14/07 -- 2ª Chamada ([vr-p1](provas/2023-1-p1-vr-c3.pdf), [vr-p2](provas/2023-1-p2-vr-c3.pdf))
+
+-   19/07- [Verificação Suplementar](provas/2023-1-vs-c3.pdf)
+
+-   22/07 -- Fim do Período.
+
+#### **Materiais Utilizados**
+
+-   [Slides usados em aula](https://mega.nz/file/2dU01ZyR#5G0-LRC_zp37yoplYxcxpLBiW37ZD7tDfqhlIAej1iM) --**atualizados em** 20/06/2023
+
+-   [Provas anteriores](provas/)
+
+-   Arquivos Python
+
+#### **Listas de Exercícios**
+
+Abaixo seguem os execícios da referência \[1\] (**Stewart Vol. 2, 6ª Ed.**) que devem ser feitos. A distribuição está dada por seção.
+
+-   § 12.5: 3, 5, 7, 9, 23, 26, 31, 43.
+
+-   § 12.6: 3, 5, 13, 15, 21, 23, 25, 27, 29, 31.
+
+-   § 10.3: 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41.
+
+-   § 13.1: 7, 9, 11, 19-24, 27, 37, 39.
+
+-   § 13.2: 3, 5, 17, 19, 25.
+
+-   §13.3: 1, 3, 11.
+
+-   § 13.4: 3, 5, 11, 13, 15, 17, 19.
+
+-   § 14.1: 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.
+
+-   § 14.2: 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.
+
+-   § 14.3: 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.
+
+-   § 14.4: 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.
+
+-   § 14.5: 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.
+
+-   § 14.6: 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.
+
+-   § 14.7: 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.
+
+-   § 14.8: 3, 5, 9, 15, 17, 19, 41, 43.
+
+Exercícios do **Stewart Vol. 2, 7ª Edição.**
+
+-   § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.
+
+-   § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
+
+#### **Referências**
+
+O **livro texto** será referência \[1\], que possui diversas cópias na biblioteca. Os outros textos formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.
+
+1.  James Stewart. ***Cálculo Volume 2.*** Editora Cengage Learning, 6ª ed., São Paulo, 2011.
+
+2.  G. B. Thomas. ***Cálculo Volume*** 2. Editora Addison Wesley, 11ª Ed., São Paulo, 2009.
+
+3.  Diomara Pinto. Maria Cândida Ferreira Morgado. ***Cálculo diferencial e integral de funções de várias variáveis***. UFRJ, 2009.
+
+4.  Jerrold E. Marsden e Anthony Tromba. ***Vector calculus***. Macmillan, 2003.

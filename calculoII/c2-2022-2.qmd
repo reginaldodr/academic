@@ -1,0 +1,160 @@
+---
+title: CÁLCULO II RCN00020 -- 2022-2
+number-sections: true
+---
+
+# Informações Básicas
+
+-  Horários e sala:   
+    - Turma C1:  Seg. e Sex. das 9h às 11h – sala 4 – ICT
+
+    -   **Atendimento: ter. das 9h às 13h -- sala 104 -- IHS (prédio novo)**
+
+-   **Ementa:** Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/) .
+
+- Acesso ao moodle: [https://ead.cead.uff.br/](https://ead.cead.uff.br/)
+    - Para acessar a primeira vez digite seu CPF com login e Cead2022 como senha inicial.
+
+- [Proposta de programa da disciplian](https://docs.google.com/document/d/1RB4iu3BjCZfRyzzUaIGtvTrTz8PG8e43LFkKngqfR88/edit?usp=sharing)
+
+# Apresentação do Curso
+
+Este curso é constituído de dois grandes módulos:
+
+**Cálculo Integral** e **Equações Diferenciais Ordinárias**
+
+Usaremos o **Moodle** como Ambiente Virtual  de Aprendizagem (AVA). Nele serão postados todos os materiais usados e serão realizadas as discussões e comunicações.
+
+Em cada semana será exposto o conteúdo teórico da disciplina na aula presencial e no moodle serão disponibilizadas atividades para revisão e reforço deste conteúdo. Também utilizaremos a linguagem python como uma calculadora científica a fim de trabalhar com alguns exemplos numéricos.
+
+# Avaliação
+
+A avaliação será constituída de:
+
+- **Atividades Diagnósticas e Formativas** realizadas ao longo da semana valendo 10 pontos cada.
+- 2 **Provas** presenciais realizadas ao fim de cada módulo. Cada prova terá o valor de 10 pontos.
+
+A nota final do curso será a média ponderada entre as atividade e as provas com pesos 3 e 7, respectivamente. Assim a nota final é calculada pela fórmula:
+
+$$NF=0.3\cdot A+0.7\cdot P$$, 
+
+onde $N$F é a nota final, A é a média aritmética de todas as Atividades e P é a média ponderada entre as duas provas calculada da seguinte forma:
+
+
+$$P=0.6\cdot P_1+0.4\cdot P_2,$$
+
+**Observação:** A diferença de peso entre as duas provas se deve ao cancelamento da aula no dia do jogo da seleção brasileira na copa do mundo de futebol, impossibilitando da 2ª prova ser feita de modo presencial. Neste caso a $P_2$  foi realizada de modo remoto e em grupo.
+
+## Segunda Chamada e Verificação Suplementar.
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
+Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
+
+As datas da VS e da 2ª chamada estão descritas no cronograma a seguir.
+
+# Calendário de Provas
+
+Turma C1
+
+-   22/08 -- Início do Período
+
+-   14/10 -- [Primeira Prova](provas/2022-2-p1-C1-c2.pdf)
+
+-   05/12 -- [Segunda Prova](provas/2022-2-p2-C1-c2.pdf)
+
+-   12/12 -- 2ª Chamada ([VR-P1](provas/2022-2-p1-vr-C1-c2.pdf))
+
+-   16/12 -- [Verificação Suplementar](provas/2022-2-vs-C1-c2.pdf)
+
+-   22/12 -- Fim do Período.
+
+# Materiais Utilizados
+
+-   [Slides usado em sala de aula](https://drive.google.com/drive/folders/1jHVRWtUGP8NlohOpnqeVNpPAI8eeyqRA)
+
+-   [Playlist videoaulas de cálculo 2](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
+
+-   [Provas anteriores](provas/)
+
+-   [Arquivos Python](https://drive.google.com/drive/folders/1W8BtIjg4IzpDbCOs62NCT-WJH8SwVk44)
+
+# Listas de Exercícios
+
+**Integral**: Abaixo seguem os execícios da referência \[8\] que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+
+-   § 5.1: 11, 15.
+
+-   § 5.2: 5, 33, 35, 37, 47, 49, 53.
+
+-   § 5.3: 7, 9, 17, 19, 23, 27, 29, 35, 39, 53, 55.
+
+-   § 5.4: 5, 9, 11, 17, 29, 31, 35, 37, 41, 61.
+
+-   § 5.5: 7, 9, 19, 21, 23, 27, 35, 53, 57, 59, 63, 74, 76, 78, 81.
+
+-   § 6.1: 1, 3, 5, 9, 13, 23, 24, 29, 39, 49, 51, 53.
+
+-   § 7.1: 3, 5, 7, 9, 15, 17, 23, 25, 27, 33, 44, 47.
+
+-   § 7.2: 3, 7, 17, 21, 25, 29, 31, 43, 45, 56, 57, 66, 70.
+
+-   § 7.3: 5, 7, 11, 13, 17, 23, 25, 35, 41.
+
+-   § 7.4: 7, 9, 11, 13, 15, 17, 63, 65, 67.
+
+-   Leia a seção 7.5 (Estratégias de Integração)
+
+-   § 7.5: 1, 3, 5, 7, 13, 15, 17, 23, 25, 27, 33, 41, 45, 63.
+
+-   § 6.2: 1, 3, 5,19, 21, 39, 45, 51, 67.
+
+-   § 6.3: 5, 7, 9, 15, 19, 43, 46.
+
+-   §
+
+-   Em construção
+
+**EDO**: Abaixo seguem os execícios da referência \[2\] que devem ser feitos. A distribuição está dada por seção. Os exercícios marcado com o símbolo🖱 no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+
+-   § 1.1: 1, 5, 11, 13, 22, 23.
+
+-   § 1.3: 1, 2, 5, 6, 8, 9, 11, 15.
+
+-   § 2.2: 1, 6, 8, 10, 12 .
+
+-   § 2.3: 12, 13, 16, 21.
+
+-   § 2.1: 1, 4, 5, 6, 7, 9, 13, 15, 16, 17,18.
+
+-   § 2.4: 1, 2, 5, 7, 11, 27, 28.
+
+-   § 3.1: 1-4, 9-12, 20, 21, 22.
+
+-   §3.2: 1,2, 21, 22, 23, 25.
+
+-   §3.4: 7-10, 17-20, 25.
+
+-   §3.5: 1-4, 11-14, 15, 18.
+
+-   §3.6: 1-5, 8, 14, 17.
+
+-   §3.7: 5-7, 13, 14,.
+
+-   §3.8: 6, 9, 11, 14, 17, 27.
+
+# Referências
+O curso será dividido em duas partes. Cálculo Integral e Equações Diferenciais Ordinárias.
+
+Na parte 1, **Cálculo Integral**, será usado como livro texto a referência [7] e as demais como material auxiliar ao longo do curso. 
+
+Na parte 2, **Equações Diferenciais Ordinárias**, usaremos com livro texto a referência [2] e as demais como material auxiliar.
+
+1. P. Boulos, Introdução ao Cálculo Volume II. Editora Edgar Blücher, Brasília, 1974.
+2. W. E. Boyce, R. C. Diprima. Equações Diferenciais Elementares e Problemas de Valor de Contorno. 8ª ed. Editora Guanabara.
+3. H. Cassago Jr., L. A. C. Laderia, Equações Diferenciais Ordinárias. USP. São Carlos, 2011. Disponível [aqui.](https://sites.icmc.usp.br/tiago/index.html/assets/herminio_ladeira2.pdf)
+4. D. G. de Figueiredo. A. F. Neves, Equações Diferenciais Aplicadas. Coleção Matemática Universitárias. IMPA. Rio de Janeiro, 2012.
+5. E. C. de Oliveria, M. Tygel. Métodos Matemáticos para Engenharia. Coleção Textos Universitários. SBM, Rio de Janeiro, 2005.
+6. R. J. Santos, Introdução às Equações Diferenciais Ordinárias. Imprensa Universitária da UFMG, Belo Horizonte, 2016. Disponível [aqui](https://regijs.github.io/index.html).
+7. James Stewart. Cálculo Volume 1. Editora Cengage Learning, 6a ed., São Paulo, 2011.
+8. G. B. Thomas. Cálculo Volume 1. Editora Addison Wesley, 11ª Ed., São Paulo, 2009.

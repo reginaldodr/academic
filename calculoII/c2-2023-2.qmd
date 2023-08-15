@@ -65,9 +65,9 @@ Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff
 
 # Materiais Utilizados
 
--   [Slides Integral](https://mega.nz/file/nU8BWIgS#bQRFns7nNhfOyAqZM-fUhPI6ZSBoAxfKdyyE57BTPo0) -- Atualizado 07/05/2023
+-   [Slides Integral](integral.pdf)
 
--   [Slide EDO](https://mega.nz/file/yIcwAL4D#fSiEsU6gSyeCdIbsd9kedreIEwj4Ol0w-rvgAOTe_Ng) -- Atualizado 03/07/2023
+-   [Slides EDO](edo.pdf)
 
 -   [Playlist videoaulas de cálculo 2](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
 

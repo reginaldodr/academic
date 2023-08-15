@@ -1,0 +1,19 @@
+---
+title: Cálculo II
+
+format:
+  html:
+    toc: false
+---
+# Material
+
+
+- [Slides-integral](integral.pdf)
+
+- [Slides-EDO](edo.pdf)
+
+- [Curso em videoaulas](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
+
+- [Provas antigas](provas/)
+
+- [Estimando o valor de $\pi$ usando Python com a técnica de Arquimedes](area-circulo.pdf)
