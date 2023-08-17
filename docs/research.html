@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -74,7 +74,8 @@ div.csl-indent {
     "search-more-matches-text": "mais correspondências neste documento",
     "search-clear-button-title": "Limpar",
     "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar"
+    "search-submit-button-title": "Enviar",
+    "search-label": "Procurar"
   }
 }</script>
 
@@ -82,7 +83,7 @@ div.csl-indent {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -108,8 +109,12 @@ div.csl-indent {
  <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pesquisa.qmd" rel="" target="">
+    <a class="nav-link" href="./pesquisa.html" rel="" target="">
  <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://www.youtube.com/c/ProfReginaldoDemarque" rel="" target=""><i class="bi bi-youtube" role="img" aria-label="YouTube">
@@ -127,21 +132,7 @@ div.csl-indent {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Nesta página</h2>
-   
-  <ul>
-  <li><a href="#preprints" id="toc-preprints" class="nav-link active" data-scroll-target="#preprints">Preprints</a></li>
-  <li><a href="#publications" id="toc-publications" class="nav-link" data-scroll-target="#publications">Publications</a></li>
-  <li><a href="#orientações" id="toc-orientações" class="nav-link" data-scroll-target="#orientações">Orientações</a>
-  <ul class="collapse">
-  <li><a href="#iniciação-científica" id="toc-iniciação-científica" class="nav-link" data-scroll-target="#iniciação-científica">Iniciação científica</a></li>
-  <li><a href="#orientação-de-outra-natureza" id="toc-orientação-de-outra-natureza" class="nav-link" data-scroll-target="#orientação-de-outra-natureza">Orientação de outra natureza</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -198,11 +189,8 @@ Demarque, Reginaldo, e Narciso da Hora Lisboa. 2018. <span>«Radial solutions fo
 <div id="ref-jrl2016" class="csl-entry" role="listitem">
 Demarque, Reginaldo, Juan Lı́maco, e Luiz Viana. 2018. <span>«Local null controllability for degenerate parabolic equations with nonlocal term»</span>. <em>Nonlinear Analysis: Real World Applications</em> 43: 523–47. <a href="https://doi.org/10.1016/j.nonrwa.2018.04.001">https://doi.org/10.1016/j.nonrwa.2018.04.001</a>.
 </div>
-<div id="ref-jlr2020carleman" class="csl-entry" role="listitem">
-———. 2020a. <span>«Carleman inequality for a linear degenerate parabolic problem»</span>. <em>arXiv:2010.14486</em>.
-</div>
 <div id="ref-jrl2020EECT" class="csl-entry" role="listitem">
-———. 2020b. <span>«Local null controllability of coupled degenerate systems with nonlocal terms and one control force»</span>. <em>Evolution Equations &amp; Control Theory</em> 9: 605. <a href="https://doi.org/10.3934/eect.2020026">https://doi.org/10.3934/eect.2020026</a>.
+———. 2020. <span>«Local null controllability of coupled degenerate systems with nonlocal terms and one control force»</span>. <em>Evolution Equations &amp; Control Theory</em> 9: 605. <a href="https://doi.org/10.3934/eect.2020026">https://doi.org/10.3934/eect.2020026</a>.
 </div>
 <div id="ref-demarque2015radial" class="csl-entry" role="listitem">
 Demarque, Reginaldo, e Olimpio H Miyagaki. 2015. <span>«Radial solutions of inhomogeneous fourth order elliptic equations and weighted Sobolev embeddings»</span>. <em>Advances in Nonlinear Analysis</em> 4 (2): 135–51. <a href="https://doi.org/10.1515/anona-2014-0041">https://doi.org/10.1515/anona-2014-0041</a>.
@@ -468,6 +456,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

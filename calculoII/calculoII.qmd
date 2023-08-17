@@ -5,7 +5,7 @@ format:
   html:
     toc: false
 ---
-# Material
+# Material Básico
 
 
 - [Slides-integral](integral.pdf)
@@ -15,5 +15,11 @@ format:
 - [Curso em videoaulas](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
 
 - [Provas antigas](provas/)
+
+---
+
+# Material Complementar
+
+- [Crescimento Logístico com Python](../posts/crescimento-logistico.qmd)
 
 - [Estimando o valor de $\pi$ usando Python com a técnica de Arquimedes](area-circulo.pdf)
