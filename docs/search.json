@@ -319,7 +319,7 @@
     "href": "blog.html",
     "title": "Postagens",
     "section": "",
-    "text": "Ordenar por\n       Pré-selecionado\n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Título\n        \n         \n          Autor\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nData\n\n\nTítulo\n\n\nAutor\n\n\n\n\n\n\n14/08/2023\n\n\nComo ser um Bilionário!\n\n\nReginaldo Demarque\n\n\n\n\n21/07/2022\n\n\nRelation between distributional derivatives\n\n\nReginaldo Demarque\n\n\n\n\n11/07/2022\n\n\nComo usar Python no LaTeX\n\n\nReginaldo Demarque\n\n\n\n\n\n\nNenhum item correspondente"
+    "text": "Ordenar por\n       Pré-selecionado\n         \n          Data - Mais velho\n        \n         \n          Data - O mais novo\n        \n         \n          Título\n        \n         \n          Autor\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nData\n\n\nTítulo\n\n\nAutor\n\n\n\n\n\n\n17/08/2023\n\n\nPlotando Curvas de Nível com Python\n\n\nReginaldo Demarque\n\n\n\n\n14/08/2023\n\n\nComo ser um Bilionário!\n\n\nReginaldo Demarque\n\n\n\n\n21/07/2022\n\n\nRelation between distributional derivatives\n\n\nReginaldo Demarque\n\n\n\n\n11/07/2022\n\n\nComo usar Python no LaTeX\n\n\nReginaldo Demarque\n\n\n\n\n\n\nNenhum item correspondente"
   },
   {
     "objectID": "posts/distributional.html#definition-1.1",
@@ -411,5 +411,12 @@
     "title": "Cálculo II",
     "section": "",
     "text": "Material\n\nSlides-integral\nSlides-EDO\nCurso em videoaulas\nProvas antigas\nEstimando o valor de \\(\\pi\\) usando Python com a técnica de Arquimedes"
+  },
+  {
+    "objectID": "posts/curvas-nivel/nivel.html",
+    "href": "posts/curvas-nivel/nivel.html",
+    "title": "Plotando Curvas de Nível com Python",
+    "section": "",
+    "text": "Vejamos um exemplo simples de como usar o python para plotar curvas de nível. Para isso, vamos fazer uso de duas bibliotecas o matplotlib.plot, para fazer o gráfico, e o numpy para os cálculos numéricos.\nComo exemplo, vamos plotar as curvas de nível do parabolóide \\(f(x,y)=9x^2+4y^2\\), no quadrado \\([-5,5]\\times[-5,5]\\).\n\n\nCódigo\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n#define a função a ser plotada\ndef f(x, y):\n    return 9*x**2+4*y**2\n\nx = np.linspace(-5, 5, 100)\ny = np.linspace(-5, 5, 100)\n\nX, Y = np.meshgrid(x, y)\nZ = f(X, Y)\n\nplt.contour(X, Y, Z, 10, cmap='Reds')\nplt.colorbar()\n\nplt.show()\n\n\n\n\n\n10 curvas de nível\n\n\n\n\nSe você quiser que os espaços entre as curvas de nível seja prenchido, basta usar o comando plt.contourf no lugar de plt.contour, como abaixo.\n\n\nCódigo\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ndef f(x, y):\n    return 9*x**2+4*y**2\n    \nx = np.linspace(-5, 5, 100)\ny = np.linspace(-5, 5, 100)\n\nX, Y = np.meshgrid(x, y)\nZ = f(X, Y)\n\nplt.contourf(X, Y, Z, 10, cmap='Reds')\nplt.colorbar()\n\nplt.show()\n\n\n\n\n\n10 curvas de nível com preenchimento\n\n\n\n\nPor fim, vamos plotar o gráfico da função usando plot_surface.\n\n\nCódigo\nimport matplotlib.pyplot as plt\nimport numpy as np\n\ndef f(x, y):\n    return 9*x**2+4*y**2\n    \nx = np.linspace(-5, 5, 100)\ny = np.linspace(-5, 5, 100)\n\nX, Y = np.meshgrid(x, y)\nZ = f(X, Y)\n\n# criando o ambiente 3d\nfig = plt.figure()\nax = plt.axes(projection='3d')\n\nax.plot_surface(X, Y, Z,cmap='viridis')\nplt.show()\n\n\n\n\n\ngráfico da função f"
   }
 ]

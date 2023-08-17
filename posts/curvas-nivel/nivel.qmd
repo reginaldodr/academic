@@ -1,0 +1,94 @@
+---
+title: Plotando Curvas de Nível com Python
+author: Reginaldo Demarque
+date: 17 08 2023
+categories:
+  - python
+  - jupyter
+  - cálculo 3
+  - gráficos
+draft: false
+format:
+  html:
+    code-fold: true
+    toc: false
+jupyter: python3
+---
+
+Vejamos um exemplo simples de como usar o python para plotar curvas de nível. Para isso, vamos fazer uso de duas bibliotecas o ``matplotlib.plot``, para fazer o gráfico, e o ``numpy`` para os cálculos numéricos.
+
+Como exemplo, vamos plotar as curvas de nível do parabolóide $f(x,y)=9x^2+4y^2$, no quadrado $[-5,5]\times[-5,5]$.
+
+```{python}
+#| label: fig1
+#| fig-cap: 10 curvas de nível
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+#define a função a ser plotada
+def f(x, y):
+    return 9*x**2+4*y**2
+
+x = np.linspace(-5, 5, 100)
+y = np.linspace(-5, 5, 100)
+
+X, Y = np.meshgrid(x, y)
+Z = f(X, Y)
+
+plt.contour(X, Y, Z, 10, cmap='Reds')
+plt.colorbar()
+
+plt.show()
+```
+
+Se você quiser que os espaços entre as curvas de nível seja prenchido, basta usar o comando ``plt.contourf`` no lugar de ``plt.contour``, como abaixo.
+
+```{python}
+
+#| label: fig2
+#| fig-cap: 10 curvas de nível com preenchimento
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(x, y):
+    return 9*x**2+4*y**2
+    
+x = np.linspace(-5, 5, 100)
+y = np.linspace(-5, 5, 100)
+
+X, Y = np.meshgrid(x, y)
+Z = f(X, Y)
+
+plt.contourf(X, Y, Z, 10, cmap='Reds')
+plt.colorbar()
+
+plt.show()
+```
+
+
+Por fim, vamos plotar o gráfico da função usando ``plot_surface``.
+
+
+```{python}
+#| label: fig3
+#| fig-cap: gráfico da função f
+import matplotlib.pyplot as plt
+import numpy as np
+
+def f(x, y):
+    return 9*x**2+4*y**2
+    
+x = np.linspace(-5, 5, 100)
+y = np.linspace(-5, 5, 100)
+
+X, Y = np.meshgrid(x, y)
+Z = f(X, Y)
+
+# criando o ambiente 3d
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+
+ax.plot_surface(X, Y, Z,cmap='viridis')
+plt.show()
+```

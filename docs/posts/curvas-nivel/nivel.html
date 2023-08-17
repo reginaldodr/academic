@@ -8,7 +8,7 @@
 
 <meta name="author" content="Reginaldo Demarque">
 
-<title>Prof.&nbsp;Reginaldo Demarque - Como ser um Bilionário!</title>
+<title>Prof.&nbsp;Reginaldo Demarque - Plotando Curvas de Nível com Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -61,6 +95,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -120,11 +156,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Como ser um Bilionário!</h1>
+<h1 class="title">Plotando Curvas de Nível com Python</h1>
   <div class="quarto-categories">
     <div class="quarto-category">python</div>
-    <div class="quarto-category">exponencial</div>
-    <div class="quarto-category">juros</div>
+    <div class="quarto-category">jupyter</div>
+    <div class="quarto-category">cálculo 3</div>
+    <div class="quarto-category">gráficos</div>
   </div>
   </div>
 
@@ -142,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Data de Publicação</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">14/08/2023</p>
+      <p class="date">17/08/2023</p>
     </div>
   </div>
   
@@ -152,49 +189,100 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Há algum tempo o tiktok me presenteou com esse <a href="https://www.tiktok.com/@eu.criaativa/video/7255427376811707653">vídeo</a> maravilhoso do perfil <a href="https://www.tiktok.com/@eu.criaativa">@eu.criativa</a> da professora Gabriella Taranto.</p>
-<p>Vejam o vídeo, mas para resumir, a Prof.&nbsp;Grabriella faz alguns cálculos para saber quanto tempo demoraria para ter o primeiro bilhão caso a pessoa decidisse investir <strong>todo o seu salário, em anos ininterruptos de trabalho</strong>, sem gastar nada, somente juntando. Ai ela usa uma regra de três simples e chega às seguintes conclusões:</p>
-<ul>
-<li><p><strong>Salário mensal R$ 2.500,00: </strong> 33.333 anos. (salário médio do Brasil)</p></li>
-<li><p><strong>Salário mensal R$ 15.000,00: </strong> 5.555 anos.</p></li>
-<li><p><strong>Salário R$ 75.000,00: </strong> 1.111 anos (Maior piso salarial do Brasil)</p></li>
-</ul>
-<p>Mas vejam que ela só está considerando o valor final que foi guardado, não considera investimentos ou juros que esse dinheiro poderia render. Alguém poderia dizer:</p>
-<blockquote class="blockquote">
-<p>“Ah, mas você tem que investir o dinheiro, não só guardar embaixo do colchão.”</p>
-</blockquote>
-<p>Então decidi fazer cálculos um pouco mais “realistas”, considerando que o dinheiro fosse investido e gerasse juros, e que também não fosse reservado todo o salário.</p>
-<p>Assim, considerei que fosse investido mensalmente <strong>R$ 1.000,00 a juros de 10.0 % a.a</strong>. Veja que para o primeiro caso que ela considerou, salário médio de R$ 2.500,00, fora da realidade de muita gente, investir R$ 1.0000,00 mensal corresponderia a 40% da renda! Além disso, um investimento de 10.0 % a.a, com baixo risco, é um excelente investimento, geralmente, a taxa de juros é menor.</p>
-<p>Cheguei ao seguinte: Investindo-se mensalmente <strong>R$ 1.000,00 a juros de 10.0 % a.a</strong>, você levará <strong>94 anos e 3 meses</strong> para ter um patrimônio de R$ 1.006.866.749,00 , tendo sido necessário poupar R$ 1.116.000,00. Ou seja, uma única vida não seria capaz de fazer isso, considerando-se os dados acima, que já são bem fora do padrão. Quem consegue guardar mil reais por mês, durante 94 anos, sem falhar nem uma vez!?</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<p>Vejamos um exemplo simples de como usar o python para plotar curvas de nível. Para isso, vamos fazer uso de duas bibliotecas o <code>matplotlib.plot</code>, para fazer o gráfico, e o <code>numpy</code> para os cálculos numéricos.</p>
+<p>Como exemplo, vamos plotar as curvas de nível do parabolóide <span class="math inline">\(f(x,y)=9x^2+4y^2\)</span>, no quadrado <span class="math inline">\([-5,5]\times[-5,5]\)</span>.</p>
+<div class="cell" data-execution_count="1">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">#define a função a ser plotada</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x, y):</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">9</span><span class="op">*</span>x<span class="op">**</span><span class="dv">2</span><span class="op">+</span><span class="dv">4</span><span class="op">*</span>y<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>X, Y <span class="op">=</span> np.meshgrid(x, y)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> f(X, Y)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>plt.contour(X, Y, Z, <span class="dv">10</span>, cmap<span class="op">=</span><span class="st">'Reds'</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="nivel_files/figure-html/fig1-output-1.png" width="544" height="413" class="figure-img"></p>
+<figcaption class="figure-caption">10 curvas de nível</figcaption>
+</figure>
 </div>
-<div class="callout-title-container flex-fill">
-Importante
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>Não estamos considerando as perdas inflacionárias e nem os impostos. Um bilhão hoje, não terá o mesmo valor que um bilhão daqui a 94 anos.</p>
+<p>Se você quiser que os espaços entre as curvas de nível seja prenchido, basta usar o comando <code>plt.contourf</code> no lugar de <code>plt.contour</code>, como abaixo.</p>
+<div class="cell" data-execution_count="2">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x, y):</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">9</span><span class="op">*</span>x<span class="op">**</span><span class="dv">2</span><span class="op">+</span><span class="dv">4</span><span class="op">*</span>y<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>X, Y <span class="op">=</span> np.meshgrid(x, y)</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> f(X, Y)</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>plt.contourf(X, Y, Z, <span class="dv">10</span>, cmap<span class="op">=</span><span class="st">'Reds'</span>)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>plt.colorbar()</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="nivel_files/figure-html/fig2-output-1.png" width="544" height="411" class="figure-img"></p>
+<figcaption class="figure-caption">10 curvas de nível com preenchimento</figcaption>
+</figure>
 </div>
 </div>
-<p>Assim, é fácil ver que, não é somente investindo e trabalhando que uma pessoa se torna um bilionário.</p>
-<p>Outros fatos interessante são:</p>
-<ol type="1">
-<li><p>Você levará 87 anos para chegar à <strong>metade do objetivo</strong>, isto é R$ 508.477.116,45.</p></li>
-<li><p>Somente em 23 anos você alcaçaria R$ 1.015.491,22, seu <strong>prmeiro milhão!</strong></p></li>
-<li><p>Apenas em 70 anos você passará de 100 milhões: R$ 100.498.891,36.</p></li>
-<li><p>E só em 87 anos você chegará a meio bilhão: R$ 508.477.116,45, metada da sua meta.</p></li>
-</ol>
-<p>Isso ocorre, pois estamos trabalhando com juros compostos, cujo crescimento é <strong>exponencial</strong>. No gráfico abaixo, vemos que nos primeiros anos o crescimento é próximo do linear, os juros não fazem muita diferença, você está praticamente só juntando dinheiro embaixo do colchão mesmo! Só muito depois que os juros vão explodir os valores e se afastar do crescimento linear.</p>
-<p><img src="fig.png" class="img-fluid"></p>
-<p>Outra coisa interessante que este gráfico revela é:</p>
-<blockquote class="blockquote">
-<p>Quanto mais dinheiro você tem, mais fácil de aumentá-lo. Equivalentemente, quanto menos, mais difícil. Em outras palavras, o rico fica cada vez mais rico e o pobre, cada vez mais pobre.</p>
-</blockquote>
-<p>Por fim, respondendo à pergunta do título, para alguém ser um bilionário, sem explorar ninguém e com baixos riscos, outro alguém tem que ter feito essa parte difícil de acumular bastante dinheiro. Em outras palavras, tem que ser herdeiro, sozinho não dá!</p>
-<p>Eu fiz os cálculos e o gráfico usando python. Em um momento futuro vou acrescentar nesta postagem como os cálculo foram feitos e o script que usei.</p>
+</div>
+<p>Por fim, vamos plotar o gráfico da função usando <code>plot_surface</code>.</p>
+<div class="cell" data-execution_count="3">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> f(x, y):</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="dv">9</span><span class="op">*</span>x<span class="op">**</span><span class="dv">2</span><span class="op">+</span><span class="dv">4</span><span class="op">*</span>y<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> np.linspace(<span class="op">-</span><span class="dv">5</span>, <span class="dv">5</span>, <span class="dv">100</span>)</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>X, Y <span class="op">=</span> np.meshgrid(x, y)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>Z <span class="op">=</span> f(X, Y)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co"># criando o ambiente 3d</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>fig <span class="op">=</span> plt.figure()</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>ax <span class="op">=</span> plt.axes(projection<span class="op">=</span><span class="st">'3d'</span>)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>ax.plot_surface(X, Y, Z,cmap<span class="op">=</span><span class="st">'viridis'</span>)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig3" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="nivel_files/figure-html/fig3-output-1.png" width="409" height="390" class="figure-img"></p>
+<figcaption class="figure-caption">gráfico da função f</figcaption>
+</figure>
+</div>
+</div>
+</div>
 
 
 
