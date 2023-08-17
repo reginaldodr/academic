@@ -5,10 +5,15 @@ bibliography: biblio.bib
 csl:  aims-mathematics.csl
 nocite: |
   @*
+  
+format:
+  html:
+    toc: true
 ---
 # Informações Básicas
 
--  **Horário e sala:** 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio alugado)**
+-  **Horário e sala:** 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio alugado)**\
+confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
 
 -  **Atendimento:** sala 104 -- IHS (prédio alugado)
 

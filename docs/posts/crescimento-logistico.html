@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Reginaldo Demarque">
 
-<title>Prof.&nbsp;Reginaldo Demarque - CÁLCULO III RCN00021 – 2023-2</title>
+<title>Prof.&nbsp;Reginaldo Demarque - Cresimento Logístico com Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +21,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -85,7 +101,7 @@ div.csl-indent {
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -134,37 +150,38 @@ div.csl-indent {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Nesta página</h2>
-   
-  <ul>
-  <li><a href="#informações-básicas" id="toc-informações-básicas" class="nav-link active" data-scroll-target="#informações-básicas"><span class="header-section-number">1</span> Informações Básicas</a></li>
-  <li><a href="#apresentação-do-curso" id="toc-apresentação-do-curso" class="nav-link" data-scroll-target="#apresentação-do-curso"><span class="header-section-number">2</span> Apresentação do Curso</a></li>
-  <li><a href="#avaliação" id="toc-avaliação" class="nav-link" data-scroll-target="#avaliação"><span class="header-section-number">3</span> Avaliação</a>
-  <ul class="collapse">
-  <li><a href="#segunda-chamada-e-verificação-suplementar" id="toc-segunda-chamada-e-verificação-suplementar" class="nav-link" data-scroll-target="#segunda-chamada-e-verificação-suplementar"><span class="header-section-number">3.1</span> Segunda Chamada e Verificação Suplementar</a></li>
-  </ul></li>
-  <li><a href="#materiais-utilizados" id="toc-materiais-utilizados" class="nav-link" data-scroll-target="#materiais-utilizados"><span class="header-section-number">4</span> Materiais Utilizados</a></li>
-  <li><a href="#listas-de-exercícios" id="toc-listas-de-exercícios" class="nav-link" data-scroll-target="#listas-de-exercícios"><span class="header-section-number">5</span> Listas de Exercícios</a></li>
-  <li><a href="#sec-ref" id="toc-sec-ref" class="nav-link" data-scroll-target="#sec-ref"><span class="header-section-number">6</span> Referências</a></li>
-  <li><a href="#sec-crono" id="toc-sec-crono" class="nav-link" data-scroll-target="#sec-crono"><span class="header-section-number">7</span> Cronograma</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">CÁLCULO III RCN00021 – 2023-2</h1>
-</div>
+<h1 class="title">Cresimento Logístico com Python</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">python</div>
+    <div class="quarto-category">cálculo 2</div>
+    <div class="quarto-category">EDO</div>
+    <div class="quarto-category">crescimento populacional</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Reginaldo Demarque </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Data de Publicação</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">17/08/2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -172,124 +189,141 @@ div.csl-indent {
 
 </header>
 
-<section id="informações-básicas" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Informações Básicas</h1>
-<ul>
-<li><p>Horários e Salas</p>
-<ul>
-<li><p><strong>Horário e sala:</strong> 4ª e 6ª das 14h às 16h – <strong>sala 04 – IHS (prédio alugado)</strong><br>
-confira no <a href="http://200.159.243.2:10032/home/index_simples">Quadro de Alocação de salas do IHS</a></p></li>
-<li><p><strong>Atendimento</strong>: sala 104 – IHS (prédio alugado)</p></li>
-</ul></li>
-<li><p>Ementa: Busque por RCN00021 em <a href="https://app.uff.br/graduacao/quadrodehorarios/">quadro de horários</a></p></li>
-</ul>
-<p>FUNÇÕES VETORIAIS DE UMA VARIÁVEL. FUNÇÕES REAIS DE VÁRIAS VARIÁVEIS. CONTINUIDADE. DERIVADAS PARCIAIS E DIFERENCIABILIDADE. FÓRMULA DE TAYLOR.</p>
-</section>
-<section id="apresentação-do-curso" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Apresentação do Curso</h1>
-<p>Este curso é constituído de dois módulos: <strong>Funções Vetoriais</strong> e <strong>Funções de Várias Variáveis</strong>.</p>
-<p>Usaremos o <strong>Classroom</strong> como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.</p>
-<p>O <strong>livro texto</strong> será referência <span class="citation" data-cites="stewart2">[<a href="#ref-stewart2" role="doc-biblioref">1</a>]</span>, que <strong>está disponíveis para empréstimo na Biblioteca do campus</strong> – <a href="https://bibliotecas.uff.br/bro/">BRO</a>. <span style="color:red"> É altamente recomendado que vocês consultem este material, de preferência o livro físico.</span></p>
-<p>As demais referência contidas na <a href="#sec-ref">Seção&nbsp;6</a> formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.</p>
-</section>
-<section id="avaliação" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Avaliação</h1>
-<p>A avaliação será constituída de <strong>2 Provas</strong> presenciais realizadas ao fim de cada módulo, de acordo com o cronograma em <a href="#sec-crono">Seção&nbsp;7</a>.</p>
-<p>Cada prova terá o <strong>valor de 10 pontos.</strong> A nota final do curso será a média aritmética das provas.</p>
-<p>As duas provas serão <strong>escritas e com consulta</strong> a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.</p>
-<section id="segunda-chamada-e-verificação-suplementar" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="segunda-chamada-e-verificação-suplementar"><span class="header-section-number">3.1</span> Segunda Chamada e Verificação Suplementar</h2>
-<p>Em concordância com o <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf">Regulamento dos Cursos de graduação</a> em seu Art. 99, a <strong>Verificação Suplementar (VS)</strong> é vetada aos discentes já aprovados e é <strong>obrigatória</strong> para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.</p>
-<p>Como regulamentado pelo&nbsp; <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf">Regulamento dos Cursos de graduação</a> em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que <strong>substituirá uma, e somente uma,</strong> das avaliações que tenha faltado.</p>
-</section>
-</section>
-<section id="materiais-utilizados" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Materiais Utilizados</h1>
-<ul>
-<li><p><a href="https://mega.nz/file/2dU01ZyR#5G0-LRC_zp37yoplYxcxpLBiW37ZD7tDfqhlIAej1iM">Slides usados em aula</a> –<strong>atualizados em</strong> 20/06/2023</p></li>
-<li><p><a href="https://drive.google.com/drive/folders/1JT4CFUIdg31PBe1TZu1fBDzTIOp4-Ypr?usp=share_link">Provas anteriores</a></p></li>
-<li><p>Arquivos Python</p></li>
-</ul>
-</section>
-<section id="listas-de-exercícios" class="level1" data-number="5">
-<h1 data-number="5"><span class="header-section-number">5</span> Listas de Exercícios</h1>
-<p>Abaixo seguem os execícios da referência <span class="citation" data-cites="stewart2">[<a href="#ref-stewart2" role="doc-biblioref">1</a>]</span> que devem ser feitos. A distribuição está dada por seção.</p>
-<p>§ 12.5: 3, 5, 7, 9, 23, 26, 31, 43.<br>
-§ 12.6: 3, 5, 13, 15, 21, 23, 25, 27, 29, 31.<br>
-§ 10.3: 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41. § 13.1: 7, 9, 11, 19-24, 27, 37, 39.<br>
-§ 13.2: 3, 5, 17, 19, 25.<br>
-§13.3: 1, 3, 11.<br>
-§ 13.4: 3, 5, 11, 13, 15, 17, 19.<br>
-§ 14.1: 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.<br>
-§ 14.2: 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.<br>
-§ 14.3: 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.<br>
-§ 14.4: 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.<br>
-§ 14.5: 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.<br>
-§ 14.6: 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.<br>
-§ 14.7: 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.<br>
-§ 14.8: 3, 5, 9, 15, 17, 19, 41, 43.</p>
-<p>Exercícios do <strong>Stewart Vol. 2, 7ª Edição.</strong></p>
-<p>§ 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.<br>
-§ 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.</p>
-</section>
-<section id="sec-ref" class="level1" data-number="6">
-<h1 data-number="6"><span class="header-section-number">6</span> Referências</h1>
-<div id="refs" class="references csl-bib-body" role="list">
-<div id="ref-stewart2" class="csl-entry" role="listitem">
-<div class="csl-left-margin">1. </div><div class="csl-right-inline">Stewart J (2011) C<span>á</span>lculo, volume 2, 6a edi<span>ç</span><span>ã</span>o, São Paulo, Editora Cengage Learning.</div>
+<section id="crescimento-logístico" class="level2">
+<h2 class="anchored" data-anchor-id="crescimento-logístico">Crescimento Logístico</h2>
+<p>O <strong>crescimento logístico</strong> leva em conta que a população tem um valor máximo <span class="math inline">\(M\)</span>. Quando a população se aproxima da capacidade máxima, os recursos tornam-se menos abundantes e a taxa de crescimento começa a diminuir. Se <span class="math inline">\(y=y(t)\)</span> representa o número de indivíduos no instante <span class="math inline">\(t\)</span>, uma relação simples que exibe esse comportamento é quando <span class="math display">\[\frac{dy}{dt}=ky(M-y)\]</span> Vamos usar o python para nos ajudar a resolver o seguinte exemplo:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div id="ref-thomas2" class="csl-entry" role="listitem">
-<div class="csl-left-margin">2. </div><div class="csl-right-inline">Thomas GB (2011) C<span>á</span>lculo, volume 2, São Paulo, Editora Addison Wesley.</div>
-</div>
-<div id="ref-diomara" class="csl-entry" role="listitem">
-<div class="csl-left-margin">3. </div><div class="csl-right-inline">Morgado MCF, Pinto D (2009) Cálculo diferencial e integral de funções de várias variáveis, Rio de Janeiro, UFRJ.</div>
-</div>
-<div id="ref-tromba" class="csl-entry" role="listitem">
-<div class="csl-left-margin">4. </div><div class="csl-right-inline">Marsden JE, Tromba A (2003) Vector calculus, Rio de Janeiro, Macmillan.</div>
+<div class="callout-title-container flex-fill">
+Exemplo
 </div>
 </div>
-</section>
-<section id="sec-crono" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> Cronograma</h1>
-<p>01 . &nbsp; 30/08 – Apresentação. Funções Vetoriais. Limite e continuidade<br>
-02 . &nbsp; 01/09 – Curvas parametrizadas no Plano, Coordenadas polares<br>
-03 . &nbsp; 06/09 – Curvas parametrizadas no Espaço. Derivadas e regras de derivação de funções vetoriais<br>
-<span style="color:orange"> XX . &nbsp; 07/09 – Independência </span><br>
-<span style="color:orange"> XX . &nbsp; 08/09 – Facultativo </span><br>
-04 . &nbsp; 13/09 – Comprimento de arco. Parametrização pelo comprimento de arco<br>
-05 . &nbsp; 15/09 – Curvatura, Vetores Normal e Binormal.<br>
-06 . &nbsp; 20/09 – Movimento, velocidade e aceleração. Componentes Normal e Tangencial da Aceleração<br>
-07 . &nbsp; 22/09 – Aula de Dúvidas<br>
-<span style="color:red"> 08 . &nbsp; 27/09 – 1ª Prova </span><br>
-09 . &nbsp; 29/09 – Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis<br>
-10 . &nbsp; 04/10 – Curvas de Nível. Superfícies de nível. Limites e continuidade<br>
-11 . &nbsp; 06/10 – Superfícies de nível. Limites e continuidade<br>
-12 . &nbsp; 11/10 – Derivadas Parciais. Derivadas de ordem superior<br>
-<span style="color:orange"> XX . &nbsp; 12/10 – Nossa Senhora Aparecida </span><br>
-<span style="color:orange"> XX . &nbsp; 13/10 – Facultativo </span><br>
-<span style="color:orange"> XX . &nbsp; 18/10 – Semana Nacional de Ciência e Tecnologia </span><br>
-<span style="color:orange"> XX . &nbsp; 20/10 – Semana Nacional de Ciência e Tecnologia </span><br>
-13 . &nbsp; 25/10 – Equações Diferenciais Parciais. Plano tangente. Aproximação linear<br>
-14 . &nbsp; 27/10 – Diferenciabilidade. Diferenciais no plano e no espaço<br>
-<span style="color:orange"> XX . &nbsp; 28/10 – Servidor Público </span><br>
-15 . &nbsp; 01/11 – Regra da cadeia. Vetor Gradiente<br>
-<span style="color:orange"> XX . &nbsp; 02/11 – Finados </span><br>
-<span style="color:orange"> XX . &nbsp; 03/11 – Facultativo </span><br>
-16 . &nbsp; 08/11 – Derivadas direcionais. Propriedades do vetor Gradiente<br>
-17 . &nbsp; 10/11 – Derivação Implícita e Teorema da Função Implícita<br>
-<span style="color:orange"> XX . &nbsp; 15/11 – Proclamação da República </span><br>
-18 . &nbsp; 17/11 – Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. Topologia do <span class="math inline">\(\mathbb{R}^2\)</span><br>
-<span style="color:orange"> XX . &nbsp; 20/11 – Consciência Negra </span><br>
-19 . &nbsp; 22/11 – Máximos e Mínimos absolutos. Teorema de Weiestrass.<br>
-20 . &nbsp; 24/11 – Multiplicadores de Lagrange em <span class="math inline">\(\mathbb{R}^2\)</span>. Multiplicadores de Lagrange em <span class="math inline">\(\mathbb{R}^3\)</span><br>
-21 . &nbsp; 29/11 – Multiplicadores de Lagrange com duas restrições<br>
-<span style="color:red"> 22 . &nbsp; 01/12 – 2ª Prova<br>
-23 . &nbsp; 06/12 – 2ª Chamada<br>
-24 . &nbsp; 08/12 – VS </span><br>
-25 . &nbsp; 13/12 – –<br>
-26 . &nbsp; 15/12 – –<br>
-27 . &nbsp; 20/12 – –<br>
-</p>
+<div class="callout-body-container callout-body">
+<p>Biólogos colocaram em um lago 400 peixes e estimaram a capacidade de suporte como 10.000. O número de peixes triplicou no primeiro ano. Encontre uma expressão para o tamanho da população de peixes depois de <span class="math inline">\(t\)</span> anos.</p>
+</div>
+</div>
+<p><strong>Solução:</strong> Vamos trabalhar com as populações em unidades de mil, assim <span class="math inline">\(y(0)=0.4\)</span> e <span class="math inline">\(y(1)=1.2\)</span>. Primeiramente, vamos resolver a EDO usando o método das equações separáveis. <span class="math display">\[y'(t)=ky(t)(10-y(t))\Rightarrow \frac{y'(t)}{y(10-y(t))}=k\Rightarrow \int\frac{y'(t)}{y(10-y(t))}dt =kt+c\Rightarrow \int\frac{dy}{y(10-y)}=kt+c.\]</span></p>
+<p>Com isso o problema se resume em determinar a integral <span class="math display">\[\int\frac{dy}{y(10-y)}.\]</span></p>
+<p>Note que <span class="math display">\[\int\frac{dy}{y(10-y)}=\frac{1}{10}\int\frac{1}{y}+\frac{1}{10-y}dy=\frac{1}{10}(\log|y|-\log|10-y|)+c_1\]</span></p>
+<p>Com isso, <span class="math display">\[\log\left|\frac{y}{10-y}\right|=kt+c_2\Rightarrow \frac{y}{10-y}=Ce^{kt}\]</span></p>
+<p>Agora, vamos usar a biblioteca <code>sympy</code> do python para substituir o dado inicial <span class="math inline">\(y(0)=0.4\)</span> a fim de obter <span class="math inline">\(C\)</span>.</p>
+<div class="cell" data-execution_count="1">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sympy <span class="im">as</span> sp</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#variáveis</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>y,k,C<span class="op">=</span>sp.symbols(<span class="st">'y k C'</span>,real<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>t<span class="op">=</span>sp.symbols(<span class="st">'t'</span>,positive<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">#dados do problema</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>y0<span class="op">=</span>sp.Rational(<span class="dv">400</span>,<span class="dv">1000</span>)</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>y1<span class="op">=</span><span class="dv">3</span><span class="op">*</span>y0</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>eq1<span class="op">=</span>sp.Eq(y<span class="op">/</span>(<span class="dv">10</span><span class="op">-</span>y),C<span class="op">*</span>sp.exp(k<span class="op">*</span>t))</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>sol<span class="op">=</span>sp.solve(eq1.subs([(t,<span class="dv">0</span>),(y,y0)]),C)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>c0<span class="op">=</span>sol[<span class="dv">0</span>]</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'C='</span>,c0)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>C= 1/24</code></pre>
+</div>
+</div>
+<p>Neste caso obtemos que <span class="math inline">\(C=\frac{1}{24}\)</span>. Substituindo na equação obtida ficamos com</p>
+<div class="cell" data-execution_count="2">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>eq2<span class="op">=</span>eq1.subs(C,c0)</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>eq2</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="100">
+<p><span class="math inline">\(\displaystyle \frac{y}{10 - y} = \frac{e^{k t}}{24}\)</span></p>
+</div>
+</div>
+<p>Agora vamos encontrar <span class="math inline">\(k\)</span> usando o segundo dado <span class="math inline">\(y(1)=1.2\)</span>.</p>
+<div class="cell" data-execution_count="3">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>sol2<span class="op">=</span>sp.solve(eq2.subs([(t,<span class="dv">1</span>),(y,y1)]),k)</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>k0<span class="op">=</span>sol2[<span class="dv">0</span>]</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'k='</span>,k0)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>k= log(36/11)</code></pre>
+</div>
+</div>
+<p>Vamos substituir na equação e simplificar:</p>
+<div class="cell" data-execution_count="4">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>eq3<span class="op">=</span>eq2.subs(k,k0)</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>sp.simplify(eq3)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="102">
+<p><span class="math inline">\(\displaystyle \frac{\left(\frac{36}{11}\right)^{t}}{24} = - \frac{y}{y - 10}\)</span></p>
+</div>
+</div>
+<p>Agora vamos isolar <span class="math inline">\(y\)</span>, encontrando finalmente a função buscada.</p>
+<div class="cell" data-execution_count="5">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>sol3<span class="op">=</span>sp.solve(eq3,y)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>Y<span class="op">=</span>sol3[<span class="dv">0</span>]</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>sp.Eq(y,Y)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display" data-execution_count="103">
+<p><span class="math inline">\(\displaystyle y = \frac{10 \left(\frac{36}{11}\right)^{t}}{\left(\frac{36}{11}\right)^{t} + 24}\)</span></p>
+</div>
+</div>
+<p>Vamos agora esboçar o gráfico desta função no intervalo <span class="math inline">\([0,10]\)</span>.</p>
+<div class="cell" data-execution_count="6">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>sp.plot(Y,(t,<span class="dv">0</span>,<span class="dv">10</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<p><img src="crescimento-logistico_files/figure-html/cell-7-output-1.png" width="656" height="468"></p>
+</div>
+<div class="cell-output cell-output-display" data-execution_count="104">
+<pre><code>&lt;sympy.plotting.plot.Plot at 0x7f9ec2f8dc90&gt;</code></pre>
+</div>
+</div>
+<p>Note que se dividirmos o numerador e o denominador por <span class="math inline">\(\left(\frac{36}{11}\right)^t\)</span>, podemos reescrever a função da seguinte forma:</p>
+<p><span class="math display">\[y(t)=\frac{10 }{1 + 24\left(\frac{36}{11}\right)^{-t}},\ t\geq 0.\]</span> Por fim, vamos fazer previsões:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemplo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Determine em quanto tempo a população chegará a 5 mil.</p>
+</div>
+</div>
+<p>Queremos encontrar o tempo <span class="math inline">\(T\)</span> para o qual <span class="math inline">\(y(T)=5\)</span>, isto é, resolver a equação:</p>
+<p><span class="math display">\[5=\frac{10 }{1 + 24\left(\frac{36}{11}\right)^{-t}}.\]</span></p>
+<div class="cell" data-execution_count="7">
+<details>
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>sol3<span class="op">=</span>sp.solve(sp.Eq(Y,<span class="dv">5</span>),t)</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>T<span class="op">=</span>sol3[<span class="dv">0</span>]</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Instante em que a população chega a 5000: '</span>, T)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Valor aproximado: '</span>, T.evalf(), <span class="st">'anos'</span> )</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">'Convertendo os decimais em meses'</span>, (T.evalf()<span class="op">-</span><span class="dv">2</span>)<span class="op">*</span><span class="dv">12</span> )</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Instante em que a população chega a 5000:  -log(24**(1/log(11/36)))
+Valor aproximado:  2.68049122365053 anos
+Convertendo os decimais em meses 8.16589468380641</code></pre>
+</div>
+</div>
+<p>Assim, temos que a população chega a 5.000 peixes em aproximadamente 2 anos e 8 meses.</p>
 
 
 </section>
