@@ -1,11 +1,17 @@
 ---
-title: Cálculo II
-
+title: Cálculo II -- Cálculo Integral e EDO
 format:
   html:
     toc: false
 ---
-# Material Básico
+
+
+![](capa.png){fig-align="center" width=40%}
+
+
+::: {layout-ncol=2}
+
+## Material Básico
 
 
 - [Slides-integral](integral.pdf)
@@ -16,10 +22,16 @@ format:
 
 - [Provas antigas](provas/)
 
----
 
-# Material Complementar
+
+## Material Complementar
 
 - [Crescimento Logístico com Python](../posts/crescimento-logistico.qmd)
 
 - [Estimando o valor de $\pi$ usando Python com a técnica de Arquimedes](area-circulo.pdf)
+:::
+
+
+
+
+

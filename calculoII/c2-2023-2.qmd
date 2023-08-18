@@ -22,6 +22,8 @@ INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES 
 DE  PRIMEIRA  ORDEM.  EQUAÇÕES  DIFERENCIAIS  DE  SEGUNDA  ORDEM.  EQUAÇÕES  DIFERENCIAIS
 LINEARES DE ORDEM N.
 
+- [Material a ser utilizado](calculoII.qmd)
+
 # Apresentação do Curso
 
 Este curso é constituído de dois grandes módulos: **Cálculo Integral** e **Equações Diferenciais Ordinárias (EDO)**
@@ -67,18 +69,6 @@ As duas provas serão **escritas e com consulta** a qualquer material impresso o
 Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
 
 Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
-
-# Materiais Utilizados
-
--   [Slides Integral](integral.pdf)
-
--   [Slides EDO](edo.pdf)
-
--   [Playlist videoaulas de cálculo 2](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
-
--   [Provas anteriores](provas/)
-
--   [Arquivos Python](https://drive.google.com/drive/folders/1W8BtIjg4IzpDbCOs62NCT-WJH8SwVk44)
 
 # Listas de Exercícios
 

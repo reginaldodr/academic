@@ -5,15 +5,16 @@ about:
   image: profile2.jpg
   image-shape: round
   links:
+    - icon: file-earmark-person
+      text: CV Lattes
+      href: http://lattes.cnpq.br/1924503823576120
     - icon: envelope-at
       text: email
       href: mailto:reginaldodr@id.uff.br
     - icon: youtube
       text: YouTube
       href: https://www.youtube.com/c/ProfReginaldoDemarque
-    - icon: file-earmark-person
-      text: CV Lattes
-      href: http://lattes.cnpq.br/1924503823576120
+
 ---
 
 Professor Associado 2\

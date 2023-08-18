@@ -102,7 +102,7 @@
     "href": "calculoII/c2-2023-2.html",
     "title": "CÁLCULO II RCN00020 – 2023-2",
     "section": "",
-    "text": "Horário e sala: 4ª e 6ª 16h – 18h – sala 04 – IHS (prédio alugado)\nconfira no Quadro de Alocação de salas do IHS\nAtendimento: sala 104 – IHS (prédio alugado)\nEmenta: Busque por RCN00020 em quadro de horários:\nINTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS DE PRIMEIRA ORDEM. EQUAÇÕES DIFERENCIAIS DE SEGUNDA ORDEM. EQUAÇÕES DIFERENCIAIS LINEARES DE ORDEM N."
+    "text": "Horário e sala: 4ª e 6ª 16h – 18h – sala 04 – IHS (prédio alugado)\nconfira no Quadro de Alocação de salas do IHS\nAtendimento: sala 104 – IHS (prédio alugado)\nEmenta: Busque por RCN00020 em quadro de horários:\nINTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS DE PRIMEIRA ORDEM. EQUAÇÕES DIFERENCIAIS DE SEGUNDA ORDEM. EQUAÇÕES DIFERENCIAIS LINEARES DE ORDEM N.\nMaterial a ser utilizado"
   },
   {
     "objectID": "calculoII/c2-2023-2.html#informações-básicas",
@@ -408,7 +408,7 @@
   {
     "objectID": "calculoII/calculoII.html",
     "href": "calculoII/calculoII.html",
-    "title": "Cálculo II",
+    "title": "Cálculo II – Cálculo Integral e EDO",
     "section": "",
     "text": "Material Básico\n\nSlides-integral\nSlides-EDO\nCurso em videoaulas\nProvas antigas\n\n\n\n\nMaterial Complementar\n\nCrescimento Logístico com Python\nEstimando o valor de \\(\\pi\\) usando Python com a técnica de Arquimedes"
   },
@@ -432,5 +432,19 @@
     "title": "Cresimento Logístico com Python",
     "section": "",
     "text": "O crescimento logístico leva em conta que a população tem um valor máximo \\(M\\). Quando a população se aproxima da capacidade máxima, os recursos tornam-se menos abundantes e a taxa de crescimento começa a diminuir. Se \\(y=y(t)\\) representa o número de indivíduos no instante \\(t\\), uma relação simples que exibe esse comportamento é quando \\[\\frac{dy}{dt}=ky(M-y)\\] Vamos usar o python para nos ajudar a resolver o seguinte exemplo:\n\n\n\n\n\n\nExemplo\n\n\n\nBiólogos colocaram em um lago 400 peixes e estimaram a capacidade de suporte como 10.000. O número de peixes triplicou no primeiro ano. Encontre uma expressão para o tamanho da população de peixes depois de \\(t\\) anos.\n\n\nSolução: Vamos trabalhar com as populações em unidades de mil, assim \\(y(0)=0.4\\) e \\(y(1)=1.2\\). Primeiramente, vamos resolver a EDO usando o método das equações separáveis. \\[y'(t)=ky(t)(10-y(t))\\Rightarrow \\frac{y'(t)}{y(10-y(t))}=k\\Rightarrow \\int\\frac{y'(t)}{y(10-y(t))}dt =kt+c\\Rightarrow \\int\\frac{dy}{y(10-y)}=kt+c.\\]\nCom isso o problema se resume em determinar a integral \\[\\int\\frac{dy}{y(10-y)}.\\]\nNote que \\[\\int\\frac{dy}{y(10-y)}=\\frac{1}{10}\\int\\frac{1}{y}+\\frac{1}{10-y}dy=\\frac{1}{10}(\\log|y|-\\log|10-y|)+c_1\\]\nCom isso, \\[\\log\\left|\\frac{y}{10-y}\\right|=kt+c_2\\Rightarrow \\frac{y}{10-y}=Ce^{kt}\\]\nAgora, vamos usar a biblioteca sympy do python para substituir o dado inicial \\(y(0)=0.4\\) a fim de obter \\(C\\).\n\n\nCódigo\nimport sympy as sp\n\n#variáveis\ny,k,C=sp.symbols('y k C',real=True)\nt=sp.symbols('t',positive=True)\n\n#dados do problema\ny0=sp.Rational(400,1000)\ny1=3*y0\n\neq1=sp.Eq(y/(10-y),C*sp.exp(k*t))\nsol=sp.solve(eq1.subs([(t,0),(y,y0)]),C)\nc0=sol[0]\nprint('C=',c0)\n\n\nC= 1/24\n\n\nNeste caso obtemos que \\(C=\\frac{1}{24}\\). Substituindo na equação obtida ficamos com\n\n\nCódigo\neq2=eq1.subs(C,c0)\neq2\n\n\n\\(\\displaystyle \\frac{y}{10 - y} = \\frac{e^{k t}}{24}\\)\n\n\nAgora vamos encontrar \\(k\\) usando o segundo dado \\(y(1)=1.2\\).\n\n\nCódigo\nsol2=sp.solve(eq2.subs([(t,1),(y,y1)]),k)\nk0=sol2[0]\nprint('k=',k0)\n\n\nk= log(36/11)\n\n\nVamos substituir na equação e simplificar:\n\n\nCódigo\neq3=eq2.subs(k,k0)\nsp.simplify(eq3)\n\n\n\\(\\displaystyle \\frac{\\left(\\frac{36}{11}\\right)^{t}}{24} = - \\frac{y}{y - 10}\\)\n\n\nAgora vamos isolar \\(y\\), encontrando finalmente a função buscada.\n\n\nCódigo\nsol3=sp.solve(eq3,y)\nY=sol3[0]\nsp.Eq(y,Y)\n\n\n\\(\\displaystyle y = \\frac{10 \\left(\\frac{36}{11}\\right)^{t}}{\\left(\\frac{36}{11}\\right)^{t} + 24}\\)\n\n\nVamos agora esboçar o gráfico desta função no intervalo \\([0,10]\\).\n\n\nCódigo\nsp.plot(Y,(t,0,10))\n\n\n\n\n\n&lt;sympy.plotting.plot.Plot at 0x7f9ec2f8dc90&gt;\n\n\nNote que se dividirmos o numerador e o denominador por \\(\\left(\\frac{36}{11}\\right)^t\\), podemos reescrever a função da seguinte forma:\n\\[y(t)=\\frac{10 }{1 + 24\\left(\\frac{36}{11}\\right)^{-t}},\\ t\\geq 0.\\] Por fim, vamos fazer previsões:\n\n\n\n\n\n\nExemplo\n\n\n\nDetermine em quanto tempo a população chegará a 5 mil.\n\n\nQueremos encontrar o tempo \\(T\\) para o qual \\(y(T)=5\\), isto é, resolver a equação:\n\\[5=\\frac{10 }{1 + 24\\left(\\frac{36}{11}\\right)^{-t}}.\\]\n\n\nCódigo\nsol3=sp.solve(sp.Eq(Y,5),t)\nT=sol3[0]\nprint('Instante em que a população chega a 5000: ', T)\nprint('Valor aproximado: ', T.evalf(), 'anos' )\nprint('Convertendo os decimais em meses', (T.evalf()-2)*12 )\n\n\nInstante em que a população chega a 5000:  -log(24**(1/log(11/36)))\nValor aproximado:  2.68049122365053 anos\nConvertendo os decimais em meses 8.16589468380641\n\n\nAssim, temos que a população chega a 5.000 peixes em aproximadamente 2 anos e 8 meses."
+  },
+  {
+    "objectID": "calculoII/calculoII.html#material-básico",
+    "href": "calculoII/calculoII.html#material-básico",
+    "title": "Cálculo II – Cálculo Integral e EDO",
+    "section": "Material Básico",
+    "text": "Material Básico\n\nSlides-integral\nSlides-EDO\nCurso em videoaulas\nProvas antigas"
+  },
+  {
+    "objectID": "calculoII/calculoII.html#material-complementar",
+    "href": "calculoII/calculoII.html#material-complementar",
+    "title": "Cálculo II – Cálculo Integral e EDO",
+    "section": "Material Complementar",
+    "text": "Material Complementar\n\nCrescimento Logístico com Python\nEstimando o valor de \\(\\pi\\) usando Python com a técnica de Arquimedes"
   }
 ]
