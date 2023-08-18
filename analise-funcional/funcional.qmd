@@ -1,0 +1,14 @@
+---
+title: Análise Funcional
+format:
+  html:
+    toc: false
+---
+
+![](capa.png)
+
+## Material Básico
+
+[slide](functional-analysis.pdf)
+
+[Lista de Exercícios](lista-funcional.pdf)

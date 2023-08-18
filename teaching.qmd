@@ -5,6 +5,8 @@ format:
   html:
     toc: false
 ---
+![](lousa.png)
+
 ### Turmas Atuais -- 2023-2
 
 -   [Cálculo II](calculoII/c2-2023-2.qmd) -- RCN00020 
@@ -31,7 +33,7 @@ format:
 
 ### Disciplinas de Pós-Graduação
 
--   Análise Funcional ([Slides](analise-funcional/functional-analysis.pdf))
+-   [Análise Funcional](analise-funcional/funcional.qmd)
 
 
 ---

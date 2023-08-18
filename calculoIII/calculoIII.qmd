@@ -16,3 +16,7 @@ format:
 
 [Provas Antigas](provas/)
 
+## Material Complementar
+
+[Curvas de Nível com Python](../posts/curvas-nivel/nivel.qmd)
+

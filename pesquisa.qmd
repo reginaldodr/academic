@@ -5,6 +5,10 @@ csl: aims-mathematics.csl
 nocite: |
  @*
 ---
+
+![](caneta.png){fig-align="center" width=70%}
+
+
 ## Preprints
 
 

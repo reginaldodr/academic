@@ -3,8 +3,8 @@
     "objectID": "research.html#preprints",
     "href": "research.html#preprints",
     "title": "Research",
-    "section": "",
-    "text": "(Demarque, Lı́maco, e Viana 2018)"
+    "section": "Preprints",
+    "text": "Preprints"
   },
   {
     "objectID": "research.html#publications",
@@ -172,7 +172,7 @@
     "href": "teaching.html#disciplinas-de-semestres-anteriores",
     "title": "Disciplinas",
     "section": "Disciplinas de Semestres Anteriores",
-    "text": "Disciplinas de Semestres Anteriores\n\nDisciplinas de Graduação\n\nCálculo I\nCálculo II\n\nTurmas: 2022-2, 2023-1\n\nCálculo III\n\nTurmas: 2023-1\n\nCálculo IV:\n\nTurmas: 2022-2\n\nGeometria Analítica e Cálculo Vetorial\n\nTurmas: 2022-1\n\nEquações Diferenciais\n\n\n\nDisciplinas de Pós-Graduação\n\nAnálise Funcional (Slides)"
+    "text": "Disciplinas de Semestres Anteriores\n\nDisciplinas de Graduação\n\nCálculo I\nCálculo II\n\nTurmas: 2022-2, 2023-1\n\nCálculo III\n\nTurmas: 2023-1\n\nCálculo IV:\n\nTurmas: 2022-2\n\nGeometria Analítica e Cálculo Vetorial\n\nTurmas: 2022-1\n\nEquações Diferenciais\n\n\n\nDisciplinas de Pós-Graduação\n\nAnálise Funcional"
   },
   {
     "objectID": "calculoII/c2-2023-2.html#cronograma",
@@ -235,14 +235,14 @@
     "href": "pesquisa.html",
     "title": "Research",
     "section": "",
-    "text": "[1]"
+    "text": "## Preprints"
   },
   {
     "objectID": "pesquisa.html#preprints",
     "href": "pesquisa.html#preprints",
     "title": "Research",
-    "section": "",
-    "text": "[1]"
+    "section": "Preprints",
+    "text": "Preprints"
   },
   {
     "objectID": "calculoII/c2-2023-2.html#sobre-as-provas",
@@ -453,5 +453,26 @@
     "title": "Cálculo III – Cálculo Diferencial de Várias Variáveis",
     "section": "Material Básico",
     "text": "Material Básico\nslides\nProvas Antigas"
+  },
+  {
+    "objectID": "calculoIII/calculoIII.html#material-complementar",
+    "href": "calculoIII/calculoIII.html#material-complementar",
+    "title": "Cálculo III – Cálculo Diferencial de Várias Variáveis",
+    "section": "Material Complementar",
+    "text": "Material Complementar\nCurvas de Nível com Python"
+  },
+  {
+    "objectID": "analise-funcional/funcional.html",
+    "href": "analise-funcional/funcional.html",
+    "title": "Análise Funcional",
+    "section": "",
+    "text": "slide\nLista de Exercícios"
+  },
+  {
+    "objectID": "analise-funcional/funcional.html#material-básico",
+    "href": "analise-funcional/funcional.html#material-básico",
+    "title": "Análise Funcional",
+    "section": "Material Básico",
+    "text": "Material Básico\nslide\nLista de Exercícios"
   }
 ]

@@ -5,6 +5,8 @@ cls: aims-mathematics.csl
 nocite: |
   @*
 ---
+![](caneta.png)
+
 ## Preprints
 
 1. 
