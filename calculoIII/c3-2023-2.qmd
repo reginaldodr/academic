@@ -28,6 +28,8 @@ format:
 FUNÇÕES VETORIAIS DE UMA VARIÁVEL. FUNÇÕES REAIS DE VÁRIAS VARIÁVEIS. CONTINUIDADE.
 DERIVADAS PARCIAIS E DIFERENCIABILIDADE. FÓRMULA DE TAYLOR.
 
+- [Material a ser utilizado](calculoIII.qmd)
+
 
 # Apresentação do Curso
 
@@ -54,14 +56,6 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
 
-
-# Materiais Utilizados
-
--   [Slides usados em aula](https://mega.nz/file/2dU01ZyR#5G0-LRC_zp37yoplYxcxpLBiW37ZD7tDfqhlIAej1iM) --**atualizados em** 20/06/2023
-
--   [Provas anteriores](https://drive.google.com/drive/folders/1JT4CFUIdg31PBe1TZu1fBDzTIOp4-Ypr?usp=share_link)
-
--   Arquivos Python
 
 # Listas de Exercícios
 

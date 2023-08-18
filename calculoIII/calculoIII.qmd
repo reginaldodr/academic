@@ -6,7 +6,7 @@ format:
 ---
 
 
-![](capa.png){fig-align="center" width=80%}
+![](capa.png){fig-align="center" width=70%}
 
 
 ## Material Básico
