@@ -21,7 +21,7 @@ format:
 -   Cálculo I
 -   [Cálculo II](calculoII/calculoII.qmd) 
     - Turmas: [2022-2](calculoII/c2-2022-2.qmd),  [2023-1](calculoII/c2-2023-1.qmd)
--   Cálculo III
+-   [Cálculo III](calculoIII/calculoIII.qmd)
     - Turmas: [2023-1](calculoIII/c3-2023-1.qmd)
 -   Cálculo IV:
     - Turmas: [2022-2](https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/)

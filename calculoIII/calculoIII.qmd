@@ -1,0 +1,18 @@
+---
+title: Cálculo III -- Cálculo Diferencial de Várias Variáveis
+format:
+  html:
+    toc: false
+---
+
+
+![](capa.png){fig-align="center" width=80%}
+
+
+## Material Básico
+
+
+[slides](calculo3.pdf)
+
+[Provas Antigas](provas/)
+
