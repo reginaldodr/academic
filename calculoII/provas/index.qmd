@@ -14,7 +14,7 @@ cat(
     '">',
     files,
     '</a>',
-    collapse = '\n\n'
+    collapse = '\n'
   )
 )
 ```

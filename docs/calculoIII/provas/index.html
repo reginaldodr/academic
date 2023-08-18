@@ -134,27 +134,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <ol type="1">
-<li><p><a href="2010-1-p1-c3-gabarito.pdf">2010-1-p1-c3-gabarito.pdf</a></p></li>
-<li><p><a href="2010-1-p2-c3.pdf">2010-1-p2-c3.pdf</a></p></li>
-<li><p><a href="2010-1-p2-gabarito-c3.pdf">2010-1-p2-gabarito-c3.pdf</a></p></li>
-<li><p><a href="2010-1-p3-c3.pdf">2010-1-p3-c3.pdf</a></p></li>
-<li><p><a href="2010-1-vr-c3.pdf">2010-1-vr-c3.pdf</a></p></li>
-<li><p><a href="2010-1-vs-c3.pdf">2010-1-vs-c3.pdf</a></p></li>
-<li><p><a href="2010-2-p1-c3.pdf">2010-2-p1-c3.pdf</a></p></li>
-<li><p><a href="2010-2-p1-gabarito-c3.pdf">2010-2-p1-gabarito-c3.pdf</a></p></li>
-<li><p><a href="2010-2-p2-gabarito-c3.pdf">2010-2-p2-gabarito-c3.pdf</a></p></li>
-<li><p><a href="2010-2-p3-c3.pdf">2010-2-p3-c3.pdf</a></p></li>
-<li><p><a href="2010-2-vs-c3.pdf">2010-2-vs-c3.pdf</a></p></li>
-<li><p><a href="2011-2-p1-gabarito-c3.pdf">2011-2-p1-gabarito-c3.pdf</a></p></li>
-<li><p><a href="2011-2-p1-vr-c3.pdf">2011-2-p1-vr-c3.pdf</a></p></li>
-<li><p><a href="2011-2-p2-gabarito-c3.pdf">2011-2-p2-gabarito-c3.pdf</a></p></li>
-<li><p><a href="2011-2-vs-c3.pdf">2011-2-vs-c3.pdf</a></p></li>
-<li><p><a href="2023-1-a1-c3.pdf">2023-1-a1-c3.pdf</a></p></li>
-<li><p><a href="2023-1-p1-c3.pdf">2023-1-p1-c3.pdf</a></p></li>
-<li><p><a href="2023-1-p1-vr-c3.pdf">2023-1-p1-vr-c3.pdf</a></p></li>
-<li><p><a href="2023-1-p2-c3.pdf">2023-1-p2-c3.pdf</a></p></li>
-<li><p><a href="2023-1-p2-vr-c3.pdf">2023-1-p2-vr-c3.pdf</a></p></li>
-<li><p><a href="2023-1-vs-c3.pdf">2023-1-vs-c3.pdf</a></p></li>
+<li><a href="2010-1-p1-c3-gabarito.pdf">2010-1-p1-c3-gabarito.pdf</a></li>
+<li><a href="2010-1-p2-c3.pdf">2010-1-p2-c3.pdf</a></li>
+<li><a href="2010-1-p2-gabarito-c3.pdf">2010-1-p2-gabarito-c3.pdf</a></li>
+<li><a href="2010-1-p3-c3.pdf">2010-1-p3-c3.pdf</a></li>
+<li><a href="2010-1-vr-c3.pdf">2010-1-vr-c3.pdf</a></li>
+<li><a href="2010-1-vs-c3.pdf">2010-1-vs-c3.pdf</a></li>
+<li><a href="2010-2-p1-c3.pdf">2010-2-p1-c3.pdf</a></li>
+<li><a href="2010-2-p1-gabarito-c3.pdf">2010-2-p1-gabarito-c3.pdf</a></li>
+<li><a href="2010-2-p2-gabarito-c3.pdf">2010-2-p2-gabarito-c3.pdf</a></li>
+<li><a href="2010-2-p3-c3.pdf">2010-2-p3-c3.pdf</a></li>
+<li><a href="2010-2-vs-c3.pdf">2010-2-vs-c3.pdf</a></li>
+<li><a href="2011-2-p1-gabarito-c3.pdf">2011-2-p1-gabarito-c3.pdf</a></li>
+<li><a href="2011-2-p1-vr-c3.pdf">2011-2-p1-vr-c3.pdf</a></li>
+<li><a href="2011-2-p2-gabarito-c3.pdf">2011-2-p2-gabarito-c3.pdf</a></li>
+<li><a href="2011-2-vs-c3.pdf">2011-2-vs-c3.pdf</a></li>
+<li><a href="2023-1-a1-c3.pdf">2023-1-a1-c3.pdf</a></li>
+<li><a href="2023-1-p1-c3.pdf">2023-1-p1-c3.pdf</a></li>
+<li><a href="2023-1-p1-vr-c3.pdf">2023-1-p1-vr-c3.pdf</a></li>
+<li><a href="2023-1-p2-c3.pdf">2023-1-p2-c3.pdf</a></li>
+<li><a href="2023-1-p2-vr-c3.pdf">2023-1-p2-vr-c3.pdf</a></li>
+<li><a href="2023-1-vs-c3.pdf">2023-1-vs-c3.pdf</a></li>
 </ol>
 
 
@@ -391,6 +391,22 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          // default icon
+          link.classList.add("external");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->

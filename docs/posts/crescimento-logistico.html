@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt" xml:lang="pt"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -90,8 +90,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-matches-text": "mais correspondências neste documento",
     "search-clear-button-title": "Limpar",
     "search-detached-cancel-button-title": "Cancelar",
-    "search-submit-button-title": "Enviar",
-    "search-label": "Procurar"
+    "search-submit-button-title": "Enviar"
   }
 }</script>
 
@@ -239,7 +238,7 @@ Exemplo
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>eq2<span class="op">=</span>eq1.subs(C,c0)</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>eq2</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="100">
+<div class="cell-output cell-output-display" data-execution_count="2">
 <p><span class="math inline">\(\displaystyle \frac{y}{10 - y} = \frac{e^{k t}}{24}\)</span></p>
 </div>
 </div>
@@ -262,7 +261,7 @@ Exemplo
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>eq3<span class="op">=</span>eq2.subs(k,k0)</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>sp.simplify(eq3)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="102">
+<div class="cell-output cell-output-display" data-execution_count="4">
 <p><span class="math inline">\(\displaystyle \frac{\left(\frac{36}{11}\right)^{t}}{24} = - \frac{y}{y - 10}\)</span></p>
 </div>
 </div>
@@ -274,7 +273,7 @@ Exemplo
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>Y<span class="op">=</span>sol3[<span class="dv">0</span>]</span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>sp.Eq(y,Y)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-display" data-execution_count="103">
+<div class="cell-output cell-output-display" data-execution_count="5">
 <p><span class="math inline">\(\displaystyle y = \frac{10 \left(\frac{36}{11}\right)^{t}}{\left(\frac{36}{11}\right)^{t} + 24}\)</span></p>
 </div>
 </div>
@@ -287,8 +286,8 @@ Exemplo
 <div class="cell-output cell-output-display">
 <p><img src="crescimento-logistico_files/figure-html/cell-7-output-1.png" width="656" height="468"></p>
 </div>
-<div class="cell-output cell-output-display" data-execution_count="104">
-<pre><code>&lt;sympy.plotting.plot.Plot at 0x7f9ec2f8dc90&gt;</code></pre>
+<div class="cell-output cell-output-display" data-execution_count="6">
+<pre><code>&lt;sympy.plotting.plot.Plot at 0x7f337c0bf6d0&gt;</code></pre>
 </div>
 </div>
 <p>Note que se dividirmos o numerador e o denominador por <span class="math inline">\(\left(\frac{36}{11}\right)^t\)</span>, podemos reescrever a função da seguinte forma:</p>

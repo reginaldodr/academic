@@ -6,7 +6,7 @@ format:
 ---
 
 
-![](capa.png){fig-align="center" width=40%}
+![](capa.png){fig-align="center" width=80%}
 
 
 ::: {layout-ncol=2}
