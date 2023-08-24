@@ -17,12 +17,14 @@ confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/hom
 
 -  **Atendimento:** sala 104 -- IHS (prédio alugado)
 
+- [Material a ser utilizado](calculoII.qmd)
+
 -  **Ementa:** Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS 
 DE  PRIMEIRA  ORDEM.  EQUAÇÕES  DIFERENCIAIS  DE  SEGUNDA  ORDEM.  EQUAÇÕES  DIFERENCIAIS
 LINEARES DE ORDEM N.
 
-- [Material a ser utilizado](calculoII.qmd)
+
 
 # Apresentação do Curso
 

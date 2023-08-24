@@ -22,13 +22,15 @@ format:
     confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
 
     -   **Atendimento**: sala 104 -- IHS (prédio alugado)
+    
+- [Material a ser utilizado](calculoIII.qmd)
 
 -   Ementa: Busque por RCN00021 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/)
 
 FUNÇÕES VETORIAIS DE UMA VARIÁVEL. FUNÇÕES REAIS DE VÁRIAS VARIÁVEIS. CONTINUIDADE.
 DERIVADAS PARCIAIS E DIFERENCIABILIDADE. FÓRMULA DE TAYLOR.
 
-- [Material a ser utilizado](calculoIII.qmd)
+
 
 
 # Apresentação do Curso
