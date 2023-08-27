@@ -92,6 +92,8 @@ Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
 # Cronograma {#sec-crono}
 
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 20/12, neste caso, é aconselhado que fiquem disponíveis até esta data.**
+
 01 . &nbsp; Qua  --  30/08  --  Apresentação. Funções Vetoriais. Limite e continuidade \
 02 . &nbsp; Sex  --  01/09  --  Curvas parametrizadas no Plano, Coordenadas polares \
 03 . &nbsp; Qua  --  06/09  --  Curvas parametrizadas no Espaço. Derivadas e regras de derivação de funções vetoriais \

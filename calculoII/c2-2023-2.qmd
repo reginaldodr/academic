@@ -118,6 +118,9 @@ Leia a seção 7.5 (Estratégias de Integração)\
 
 # Cronograma {#sec-crono}
 
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 20/12, neste caso, é aconselhado que fiquem disponíveis até esta data.**
+
+
 01 . &nbsp; Qua  --  30/08  --  Apresentação. Método da Exaustão. Notação Sigma \
 02 . &nbsp; Sex  --  01/09  --  Somas de Riemann e Integral Definida. Distância percorrida \
 03 . &nbsp; Qua  --  06/09  --  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares \
