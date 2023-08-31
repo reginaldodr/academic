@@ -121,7 +121,55 @@ Leia a seção 7.5 (Estratégias de Integração)\
 A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 20/12, neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
 
-01 . &nbsp; Qua  --  30/08  --  Apresentação. Método da Exaustão. Notação Sigma \
+
+## Crongrama Efetivado
+
+01 . &nbsp; Qua  --  30/08  -- Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma. \
+02 . &nbsp; Sex  --  01/09  --  <span style="color:LightGray"> Somas de Riemann e Integral Definida. Distância percorrida </span> \
+03 . &nbsp; Qua  --  06/09  --  <span style="color:LightGray"> Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares </span> \
+<span style="color:orange"> XX . &nbsp; Qui  --  07/09  --  Independência </span> \
+<span style="color:orange"> XX . &nbsp; Sex  --  08/09  --  Facultativo </span> \
+04 . &nbsp; Qua  --  13/09  --  <span style="color:LightGray"> Funções não-integráveis. Integral indefinida </span> \
+05 . &nbsp; Sex  --  15/09  --  <span style="color:LightGray"> Integração por Substituição e Aplicações (queda livre, cresc. populacional, carbono 14) </span> \
+06 . &nbsp; Qua  --  20/09  --  <span style="color:LightGray"> Áreas entre curvas </span> \
+07 . &nbsp; Sex  --  22/09  --  <span style="color:LightGray"> Integração por Partes. Integração por substituição Trigonométrica </span> \
+08 . &nbsp; Qua  --  27/09  --  <span style="color:LightGray"> Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico </span> \
+09 . &nbsp; Sex  --  29/09  --  <span style="color:LightGray"> Cálculo de volumes pelo método dos discos </span> \
+10 . &nbsp; Qua  --  04/10  --  <span style="color:LightGray"> Volume por cascas cilíndricas, Comprimento de Curvas </span> \
+11 . &nbsp; Sex  --  06/10  --  <span style="color:LightGray"> Integrais Impróprias: Limites Infinitos </span> \
+<span style="color:red"> 12 . &nbsp; Qua  --  11/10  --  1ª Prova </span> \
+<span style="color:orange"> XX . &nbsp; Qui  --  12/10  --  Nossa Senhora Aparecida </span> \
+<span style="color:orange"> XX . &nbsp; Sex  --  13/10  --  Facultativo </span> \
+<span style="color:orange"> XX . &nbsp; Qua  --  18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+<span style="color:orange"> XX . &nbsp; Sex  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+13 . &nbsp; Qua  --  25/10  --  <span style="color:LightGray"> EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) </span> \
+14 . &nbsp; Sex  --  27/10  --  <span style="color:LightGray"> Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear </span> \
+<span style="color:orange"> XX . &nbsp; Sáb  --  28/10  --  Servidor Público </span> \
+15 . &nbsp; Qua  --  01/11  --  <span style="color:LightGray"> Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares </span> \
+<span style="color:orange"> XX . &nbsp; Qui  --  02/11  --  Finados </span> \
+<span style="color:orange"> XX . &nbsp; Sex  --  03/11  --  Facultativo </span> \
+16 . &nbsp; Qua  --  08/11  --  <span style="color:LightGray"> EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano </span> \
+17 . &nbsp; Sex  --  10/11  --  <span style="color:LightGray"> Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
+<span style="color:orange"> XX . &nbsp; Qua  --  15/11  --  Proclamação da República </span> \
+18 . &nbsp; Sex  --  17/11  --  <span style="color:LightGray"> EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos. Caso raízes complexas e fórmula de Euler </span> \
+<span style="color:orange"> XX . &nbsp; Seg  --  20/11  --  Consciência Negra </span> \
+19 . &nbsp; Qua  --  22/11  --  <span style="color:LightGray"> Método dos coeficientes a determinar </span> \
+20 . &nbsp; Sex  --  24/11  --  <span style="color:LightGray"> Método da variação dos Parâmetros </span> \
+<span style="color:red"> 21 . &nbsp; Qua  --  29/11  --  2ª Prova </span> \
+<span style="color:red"> 22 . &nbsp; Sex  --  01/12  --  2ª Chamada </span> \
+<span style="color:red"> 23 . &nbsp; Qua  --  06/12  --  VS </span> \
+24 . &nbsp; Sex  --  08/12  --  <span style="color:LightGray">  --  </span> \
+25 . &nbsp; Qua  --  13/12  --  <span style="color:LightGray">  --  </span> \
+26 . &nbsp; Sex  --  15/12  --  <span style="color:LightGray">  --  </span> \
+27 . &nbsp; Qua  --  20/12  --  <span style="color:LightGray">  --  </span> \
+
+---
+
+## Crongrama Porposto Inicialmente
+
+Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
+
+01 . &nbsp; Qua  --  30/08  --  Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma. \
 02 . &nbsp; Sex  --  01/09  --  Somas de Riemann e Integral Definida. Distância percorrida \
 03 . &nbsp; Qua  --  06/09  --  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares \
 <span style="color:orange"> XX . &nbsp; Qui  --  07/09  --  Independência </span> \
