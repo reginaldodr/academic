@@ -9,6 +9,7 @@ nocite: |
 format:
   html:
     toc: true
+from: markdown+emoji
 ---
 # Informações Básicas
 
@@ -125,7 +126,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 ## Crongrama Efetivado
 
 01 . &nbsp; Qua  --  30/08  -- Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma. \
-02 . &nbsp; Sex  --  01/09  --  <span style="color:LightGray"> Somas de Riemann e Integral Definida. Distância percorrida </span> \
+02 . &nbsp; Sex  --  01/09  --   Resolução do Para Casa 1. Somas de Riemann e Integral Definida. Distância percorrida. 
+**Próxima Aula:** resolver Para :house: 2 e 3.\
 03 . &nbsp; Qua  --  06/09  --  <span style="color:LightGray"> Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares </span> \
 <span style="color:orange"> XX . &nbsp; Qui  --  07/09  --  Independência </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  08/09  --  Facultativo </span> \
