@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/curvas-parametricas/curvas-parametricas.html",
       "/posts/notacao-log/notacao-log.html",
       "/posts/curvas-nivel/nivel.html",
       "/posts/crescimento-logistico.html",
