@@ -20,3 +20,5 @@ format:
 
 [Curvas de Nível com Python](../posts/curvas-nivel/nivel.qmd)
 
+[Parametrização com Python](../posts/curvas-parametricas/curvas-parametricas.qmd)
+

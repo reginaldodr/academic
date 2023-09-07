@@ -1,0 +1,180 @@
+---
+title: Curvas parametrizadas com Python
+author: Reginaldo Demarque
+date: 07 09 2023
+categories:
+  - python
+  - jupyter
+  - cálculo 3
+  - gráficos
+  - curvas paramétricas
+draft: false
+format:
+  html:
+    code-fold: true
+    toc: false
+jupyter: python3
+---
+
+## Curvas no plano
+
+Esboçar uma curva parametriza utilizando o python é extremamente fácil. Para isso, vamos fazer uso de duas bibliotecas o ``matplotlib.plot``, para fazer o gráfico, e o ``numpy`` para os cálculos numéricos. 
+
+Vamos começar com um exemplo bem simples no plano. Vamos esboçar o círculo de centro na origem e raio 1, isto é, 
+$$\vec{r}(t)=(\cos(t),\sin(t)),\ t\in [0,2\pi].$$
+A seguir vemos o script que fornece o esboço da curva.
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+#discretização do parâmetro
+t = np.linspace(0, 2*np.pi, 100)
+
+# discretização dos pontos
+x=np.cos(t)
+y=np.sin(t)
+
+#plota os pontos
+plt.plot(x,y)
+
+#faz os eixos com mesma scala
+plt.axis('square')
+
+#faz a malha
+plt.grid()
+
+#exibe o gráfico
+plt.show()
+```
+
+## Um exemplo simples no espaço
+
+Vejamos por exemplo como esboçar a seguinte **hélice**
+$$\vec{r}(t)=(\cos(t),\sin(t),t),\ t\in [0,2\pi].$$
+```{python}
+#| label: fig1
+#| fig-cap: hélice
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+#variação do parâmetro
+t = np.linspace(0, 2*np.pi, 100)
+
+#coordendas da curva
+x=np.cos(t)
+y=np.sin(t)
+z=t
+
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+
+ax.plot(x,y,z)
+plt.show()
+```
+
+## Curvas dadas como interseção de superfícies
+
+Agora, vamos mostrar como parametrizar uma curva dada pela interseção de duas superfícies. Comecemos com a interseção do plano $z=x+2$ e o cilindro $x^2+y^2=1$. A seguir vemos um esboço[^1] dessa duas superfícies. Sabemos, da geometria, que a curva de interseção será uma elipse, mas como parametrizá-la?
+
+
+![](cilindro.png){fig-align="center" width=70%}
+
+Simples! A equação do cilindro $x^2+y^2=1$ nos diz que a base do cilindro no plano $xy$ é um círculo de centro na origem e raio 1. Portanto, podemos parametrizar essa base por:
+$$\vec{\alpha}(t)=(\cos(t),\sin(t),0), \ t\in [0,2\pi].$$
+
+Note que as duas primeiras coordenadas dão a parametrização do círculo no plano e a terceira, $z=0$, faz com que este círculo seja plotado no $xy$, como a seguir:
+
+```{python}
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+#variação do parâmetro
+t = np.linspace(0, 2*np.pi, 100)
+
+#coordendas da curva
+x=np.cos(t)
+y=np.sin(t)
+z=0
+
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+
+ax.plot(x,y,z)
+plt.show()
+```
+
+
+Agora, o que queremos é que, enquanto as coordenadas $x$ e $y$ percorram este círculo a medida que o parâmetro $t$ varie, a altura $z$ seja dada pelo plano $z=x+2$, ou seja, 
+$$\vec{r}(t)=(\cos(t),\sin(t),\cos(t)+2), \ t\in [0,2\pi].$$
+A seguir esboçamos as duas curvas juntas, o círculo da base e a elípse de interseção do plano com o cilindro.
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+#variação do parâmetro
+t = np.linspace(0, 2*np.pi, 100)
+
+#coordendas da curva
+x=np.cos(t)
+y=np.sin(t)
+z=0
+
+z1=x+2
+
+
+
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+
+ax.plot(x,y,z)
+ax.plot(x,y,z1)
+
+ax.view_init(elev=20, azim=-130)
+plt.show()
+```
+
+## Um outro exemplo 
+
+O mesmo raciocínio pode ser aplicado em diversas outras situações. Como por exemplo, determine a parametrização da curva dada pela inserseção de dois paraboloides: 
+$z=2x^2+\frac{1}{2}y^2$ e $z=4-2x^2-\frac{3}{2}y^2.$ Novamente, vamos plotar as duas superfícies para visualizarmos a inteserção. Também destacamos a curva de interseção em vermelho, a qual queremos parametrizar.
+
+![](paraboloides.png)
+A fim de encontrarmos a parametrização da curva de interseção, vamos igualar as coordenadas $z$ das duas equações, isto é, 
+$$2x^2+\frac{1}{2}y^2=4-2x^2-\frac{3}{2}y^2\Rightarrow 4x^2+2y^2=4\Rightarrow x^2+\frac{y^2}{2}=1.$$
+Esta última equação, como não tem a variável $z$, nos fornece uma equação de elipse no plano $xy$, o que é interpretado geometricamente como a projeção neste plano da curva que estamos buscando! Como já sabemos parametrizar uma elipse, reptindo o raciocínio anterior, uma parametrização desta curva é:
+$$\vec{\alpha}(t)=(\cos(t),\sqrt{2}\sin(t),0),\ t\in [0,2\pi].$$
+Enquanto o parâmetro $t$ varia, as coordenadas $x$ e $y$ percorrem a elipse no plano $z=0$. Agora, basta tomarmos $z$ sobre um dos parabolóides, por exemplo $z=2x^2+\frac{1}{2}y^2=2\cos^2(t)+\sin^2(t)=\cos^2(t)+1$, isto nos fornece:
+$$\vec{r}(t)=(\cos(t),\sqrt{2}\sin(t),\cos^2(t)+1),\ t\in [0,2\pi].$$
+A seguir esobaçamos as duas curvas juntas. A curva vermelha é a curva de interseção dos dois parabolóides e a curva azul é a projeção dela sobre o plano $xy$ que usamos como auxiliar.
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+#variação do parâmetro
+t = np.linspace(0, 2*np.pi, 200)
+
+#coordendas da curva
+x=np.cos(t)
+y=np.sqrt(2)*np.sin(t)
+z=np.cos(t)**2+1
+
+z1=0
+
+
+
+fig = plt.figure()
+ax = plt.axes(projection='3d')
+
+ax.plot(x,y,z1)
+ax.plot(x,y,z,color='r')
+plt.show()
+
+```
+
+
+[^1]: utilizamos o octave para produzir essa figura, mas não vamos entrar nos detalhes de como fazer isso.
