@@ -3,7 +3,7 @@ title: "Postagens"
 listing:
   contents: posts
   sort: "date desc"
-  type: table
+  type: default
   categories: true
   sort-ui: true
   filter-ui: true

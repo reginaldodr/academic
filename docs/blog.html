@@ -71,9 +71,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -174,21 +174,21 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Ordenar por</option>
        <option value="index" data-direction="asc">Pré-selecionado</option>
+         <option value="listing-title" data-direction="asc">
+          Título
+        </option>
          <option value="listing-date-sort" data-direction="asc">
           Data - Mais velho
         </option>
          <option value="listing-date-sort" data-direction="desc">
           Data - O mais novo
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Título
         </option>
          <option value="listing-author" data-direction="asc">
           Autor
@@ -200,91 +200,257 @@ ul.task-list li input[type="checkbox"] {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="notação,matemática,logaritmos" data-listing-date-sort="1693623600000" data-listing-file-modified-sort="1694079745671" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/notacao-log/notacao-log.html"> <p class="card-img-top"><img src="posts/notacao-log/calc.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/notacao-log/notacao-log.html">
+<h3 class="no-anchor listing-title">
+Por que NÃO usar a notação ln para o logaritmo na base e!
+</h3>
+<div class="listing-subtitle">
 
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Data</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Título</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Autor</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="notação,matemática,logaritmos" data-listing-date-sort="1693623600000" data-listing-file-modified-sort="1694079745671" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Por que NÃO usar a notação ln para o logaritmo na base e!" data-listing-filename-sort="notacao-log.qmd">
-<td>
-<span class="listing-date">02/09/2023</span>
-</td>
-<td>
-<a href="./posts/notacao-log/notacao-log.html" class="title listing-title">Por que NÃO usar a notação ln para o logaritmo na base e!</a>
-</td>
-<td>
-<span class="listing-author">Reginaldo Demarque</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="python,jupyter,cálculo 3,gráficos" data-listing-date-sort="1692241200000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Plotando Curvas de Nível com Python" data-listing-filename-sort="nivel.qmd">
-<td>
-<span class="listing-date">17/08/2023</span>
-</td>
-<td>
-<a href="./posts/curvas-nivel/nivel.html" class="title listing-title">Plotando Curvas de Nível com Python</a>
-</td>
-<td>
-<span class="listing-author">Reginaldo Demarque</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="python,cálculo 2,EDO,crescimento populacional" data-listing-date-sort="1692241200000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Cresimento Logístico com Python" data-listing-filename-sort="crescimento-logistico.qmd">
-<td>
-<span class="listing-date">17/08/2023</span>
-</td>
-<td>
-<a href="./posts/crescimento-logistico.html" class="title listing-title">Cresimento Logístico com Python</a>
-</td>
-<td>
-<span class="listing-author">Reginaldo Demarque</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="python,exponencial,juros" data-listing-date-sort="1691982000000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Como ser um Bilionário!" data-listing-filename-sort="bilionario.qmd">
-<td>
-<span class="listing-date">14/08/2023</span>
-</td>
-<td>
-<a href="./posts/bilionario/bilionario.html" class="title listing-title">Como ser um Bilionário!</a>
-</td>
-<td>
-<span class="listing-author">Reginaldo Demarque</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="mathematics,PDE" data-listing-date-sort="1658372400000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Relation between distributional derivatives" data-listing-filename-sort="distributional.qmd">
-<td>
-<span class="listing-date">21/07/2022</span>
-</td>
-<td>
-<a href="./posts/distributional.html" class="title listing-title">Relation between distributional derivatives</a>
-</td>
-<td>
-<span class="listing-author">Reginaldo Demarque</span>
-</td>
-</tr>
-<tr data-index="5" data-categories="tool,latex,python" data-listing-date-sort="1657508400000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Como usar Python no LaTeX" data-listing-filename-sort="pythontex.qmd">
-<td>
-<span class="listing-date">11/07/2022</span>
-</td>
-<td>
-<a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html" class="title listing-title">Como usar Python no LaTeX</a>
-</td>
-<td>
-<span class="listing-author">Reginaldo Demarque</span>
-</td>
-</tr>
-</tbody>
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('notação'); return false;">
+notação
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('matemática'); return false;">
+matemática
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('logaritmos'); return false;">
+logaritmos
+</div>
+</div>
+<a href="./posts/notacao-log/notacao-log.html">
+<div class="listing-description">
+Aprendemos na escola que o logaritmo de um número <span class="math inline">\(x\)</span> na base <span class="math inline">\(a\)</span> é o número <span class="math inline">\(y=\log_a(x)\)</span> tal que <span class="math inline">\(a^y=x\)</span>. A maioria dos livros de Cálculo…<span class="math inline"></span><span class="math inline"></span><span class="math inline"></span><strong></strong><span class="math inline"></span>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/notacao-log/notacao-log.html">
+<div class="listing-date">
+02/09/2023
+</div>
+<div class="listing-author">
+Reginaldo Demarque
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="python,jupyter,cálculo 3,gráficos" data-listing-date-sort="1692241200000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/curvas-nivel/nivel.html"> <p class="card-img-top"><img src="posts/curvas-nivel/nivel_files/figure-html/fig1-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/curvas-nivel/nivel.html">
+<h3 class="no-anchor listing-title">
+Plotando Curvas de Nível com Python
+</h3>
+<div class="listing-subtitle">
 
-</table>
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('jupyter'); return false;">
+jupyter
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cálculo 3'); return false;">
+cálculo 3
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('gráficos'); return false;">
+gráficos
+</div>
+</div>
+<a href="./posts/curvas-nivel/nivel.html">
+<div class="listing-description">
+Vejamos um exemplo simples de como usar o python para plotar curvas de nível. Para isso, vamos fazer uso de duas bibliotecas o <code>matplotlib.plot</code>, para fazer o gráfico, e o <code>numpy</code> para os cálculos…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/curvas-nivel/nivel.html">
+<div class="listing-date">
+17/08/2023
+</div>
+<div class="listing-author">
+Reginaldo Demarque
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="python,cálculo 2,EDO,crescimento populacional" data-listing-date-sort="1692241200000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/crescimento-logistico.html"> <p class="card-img-top"><img src="posts/crescimento-logistico_files/figure-html/cell-7-output-1.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/crescimento-logistico.html">
+<h3 class="no-anchor listing-title">
+Cresimento Logístico com Python
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cálculo 2'); return false;">
+cálculo 2
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EDO'); return false;">
+EDO
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('crescimento populacional'); return false;">
+crescimento populacional
+</div>
+</div>
+<a href="./posts/crescimento-logistico.html">
+<div class="listing-description">
+O <strong>crescimento logístico</strong> leva em conta que a população tem um valor máximo <span class="math inline">\(M\)</span>. Quando a população se aproxima da…<span class="math inline"></span><span class="math inline"></span><span class="math display"></span>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/crescimento-logistico.html">
+<div class="listing-date">
+17/08/2023
+</div>
+<div class="listing-author">
+Reginaldo Demarque
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="python,exponencial,juros" data-listing-date-sort="1691982000000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="thumbnail">
+<p><a href="./posts/bilionario/bilionario.html"> <p class="card-img-top"><img src="posts/bilionario/fig.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/bilionario/bilionario.html">
+<h3 class="no-anchor listing-title">
+Como ser um Bilionário!
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('exponencial'); return false;">
+exponencial
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('juros'); return false;">
+juros
+</div>
+</div>
+<a href="./posts/bilionario/bilionario.html">
+<div class="listing-description">
+Há algum tempo o tiktok me presenteou com esse vídeo maravilhoso do perfil @eu.criativa da professora Gabriella Taranto.
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/bilionario/bilionario.html">
+<div class="listing-date">
+14/08/2023
+</div>
+<div class="listing-author">
+Reginaldo Demarque
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="mathematics,PDE" data-listing-date-sort="1658372400000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/distributional.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+</div>
+<div class="body">
+<a href="./posts/distributional.html">
+<h3 class="no-anchor listing-title">
+Relation between distributional derivatives
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('mathematics'); return false;">
+mathematics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PDE'); return false;">
+PDE
+</div>
+</div>
+<a href="./posts/distributional.html">
+<div class="listing-description">
+<p>Distributions</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/distributional.html">
+<div class="listing-date">
+21/07/2022
+</div>
+<div class="listing-author">
+Reginaldo Demarque
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="tool,latex,python" data-listing-date-sort="1657508400000" data-listing-file-modified-sort="1692385839074" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="thumbnail">
+<p><a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html"> <p class="card-img-top"><img src="posts/2022-07-21-como-usar-python-no-latex/fig.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html">
+<h3 class="no-anchor listing-title">
+Como usar Python no LaTeX
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('tool'); return false;">
+tool
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('latex'); return false;">
+latex
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
+python
+</div>
+</div>
+<a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html">
+<div class="listing-description">
+Recentemente me perguntei se poderia usar o python para gerar gabarito de provas. Eis que descobri o pythontex! Uma rápida pesquisa no google me levou ao site: A very simple introduction to…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html">
+<div class="listing-date">
+11/07/2022
+</div>
+<div class="listing-author">
+Reginaldo Demarque
+</div>
+</a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 Nenhum item correspondente
 </div>
