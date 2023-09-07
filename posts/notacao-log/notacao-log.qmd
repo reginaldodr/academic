@@ -6,15 +6,16 @@ categories:
   - notação
   - matemática
   - logarítmos
-draft: true
+draft: false
 format:
   html:
     toc: false
 ---
+![](calc.png){fig-align="center" width=70%}
 
-# Por que a melhor notação para o logarítmo na base $e$ 
+Aprendemos na escola que o logarítmo de um número $x$ na base $a$ é o número $y=\log_b(x)$ tal que $a^y=x$. A maioria dos livros de Cálculo hoje em dia (se não todos)  e muitas calculadoras, usam a notação $\ln(x)$ para se referir ao logarítimo de um número $x$ na base $e$, o chamado **logarítmo natural**, e reserva a notação $\log(x)$ para quando a base é 10.
 
-Aprendemos na escola que o logarítmo de um número $x$ na base $a$ é o número $y=\log_b(x)$ tal que $a^y=x$. A maioria dos livros de Cálculo hoje em dia, se não todos, usam a notação $\ln(x)$ para se referir ao logarítimo de um número $x$ na base $e$, o chamado **logarítmo natural**, e reserva a notação $\log(x)$ para quando a base é 10.
+
 
 Há um tempo atrás, quando comecei a usar a linguagem python, descobri que o python reserva a notação $\log$ para a base $e$, daí me surgiu uma dúvida, por que os livros de Cálculo usam $\ln$? Qual seria a origem dessa notação? E o mais importante, por que reservar a notação $\log$, que faz referência ao nome da função logarítmo, para a base 10, sendo que esta base quase não é utilizada nestes livros?
 
@@ -22,15 +23,18 @@ O que fiz então? Comecei a buscar na internet sobre os assunto e cheguei à seg
 
 >The natural logarithm of 𝑥 is often written "ln(𝑥)", instead of log𝑒(𝑥) especially in disciplines where it isn't written "log(𝑥)". However, some mathematicians disapprove of this notation. In his 1985 autobiography, Paul Halmos criticized what he considered the "childish ln notation," which he said no mathematician had ever used. In fact, the notation was invented by a mathematician, Irving Stringham, professor of mathematics at University of California, Berkeley, in 1893.
 
-Depois deste argumento do Paul Halmos o meu lado nessa história ficou definido, a partir de então eu passei a usar a notação $\log$ para o logarítmo de base $e$, contrariando todos os livros de cálculo que uso nas minhas disciplinas e gerando alguma insatisfação nos alunos. Mas fazer o quê? Se Paul Halmos está de um lado, eu não posso estar de outro.
+Depois deste argumento do Paul Halmos o meu lado nessa história ficou definido, a partir de então eu passei a usar a notação $\log$ para o logarítmo de base $e$, contrariando todos os livros de cálculo que uso nas minhas disciplinas e gerando algum incomodo  nos alunos. Mas fazer o quê? Se Paul Halmos está de um lado, eu não posso estar de outro.
 
 Na verdade, consultando à autobriografia do Paul Halmos, *"I want to be a mathematician"*, não encontrei exatamente aquelas palavras, mas as seguintes, que são igualmente críticas:
 
 > The use of  $\ln$ is a textbook vulgarization. Did you ever hear a mathematician speak of the Riemann surface of $\ln z$?
 
-Além disso, há ainda outro argumento. Todos concordamos que a exponencial mais importante é a $e^x$. Portanto, se definirmos $\log : (0,+\infty) \to \mathbb{R}$ como a inversa da função exponecial, qualquer outro logarítmo pode ser obtido deste via a fórmula de mudança e base
+![Superfície de Riemann $\log(z)$ [^1] ](https://upload.wikimedia.org/wikipedia/commons/a/ab/Riemann_surface_log.svg){fig-align="center" width=30%}
+
+
+Além disso, há ainda outro argumento. Todos concordamos que a exponencial mais importante é $e^x$. Portanto, se definirmos $\log : (0,+\infty) \to \mathbb{R}$ como a inversa da função exponecial, qualquer outro logarítmo pode ser obtido deste via a fórmula de mudança e base
 
 $$\log_b(x)=\frac{\log(x)}{\log(b)}.$$
 Sendo assim, existe na verdade somente um logarítmo, todos os outros vem deste. Portanto, porque vamos reservar a notação mais emblemática de logarítmo para a base $10$ se ela raramente é usada?!
 
-
+[^1]: Leonid 2, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons.

@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/notacao-log/notacao-log.html",
       "/posts/curvas-nivel/nivel.html",
       "/posts/crescimento-logistico.html",
       "/posts/bilionario/bilionario.html",
