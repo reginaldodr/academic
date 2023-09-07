@@ -5,8 +5,7 @@ project:
 
 website:
   title: "Prof. Reginaldo Demarque"
-  twitter-card:
-    creator: "@reginaldodr"
+  twitter-card: true
   navbar:
     background: primary
     right:
