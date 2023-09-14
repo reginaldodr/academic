@@ -131,8 +131,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 03 . &nbsp; Qua  --  06/09  -- Resolução do Para :house: .  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares. **Próxima Aula:** resolver Para :house: 4 e 5.  \
 <span style="color:orange"> XX . &nbsp; Qui  --  07/09  --  Independência </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  08/09  --  Facultativo </span> \
-04 . &nbsp; Qua  --  13/09  --  <span style="color:LightGray"> Funções não-integráveis. Integral indefinida </span> \
-05 . &nbsp; Sex  --  15/09  --  <span style="color:LightGray"> Integração por Substituição e Aplicações (queda livre, cresc. populacional, carbono 14) </span> \
+04 . &nbsp; Qua  --  13/09  -- Resolução dos Para :house: 4 e 5. Funções não-integráveis. Integral indefinida. Queda livre de corpos. Regra da substituição. **Próxima Aula:** resolver Para :house: 6. \
+05 . &nbsp; Sex  --  15/09  --  <span style="color:LightGray"> Aplicações: cresc. populacional, carbono 14 </span> \
 06 . &nbsp; Qua  --  20/09  --  <span style="color:LightGray"> Áreas entre curvas </span> \
 07 . &nbsp; Sex  --  22/09  --  <span style="color:LightGray"> Integração por Partes. Integração por substituição Trigonométrica </span> \
 08 . &nbsp; Qua  --  27/09  --  <span style="color:LightGray"> Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico </span> \
