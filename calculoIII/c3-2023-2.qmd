@@ -104,7 +104,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 <span style="color:orange"> XX . &nbsp; Sex  --  08/09  --  Facultativo </span> \
 04 . &nbsp; Qua  --  13/09  -- Resolução dos Para :house: 3 e 4. Comprimento de arco. Parametrização pelo comprimento de arco. **Próxima aula:** Resolver Para :house: 5. \
 05 . &nbsp; Sex  --  15/09  -- Resolução do Para :house: 5.  Vetor Tangente e Curvatura. Vetores Normal e Binormal. Movimento, velocidade e aceleração. Componentes Normal e Tangencial da Aceleração. \
-06 . &nbsp; Qua  --  20/09  --  <span style="color:LightGray"> Fórmula da curvatura. </span> \
+06 . &nbsp; Qua  --  20/09  -- Fórmula da curvatura. Fizemos o Para :house: 6 em aula. \
 07 . &nbsp; Sex  --  22/09  --  <span style="color:LightGray"> Aula de Dúvidas </span> \
 <span style="color:red"> 08 . &nbsp; Qua  --  27/09  --  1ª Prova </span> \
 09 . &nbsp; Sex  --  29/09  --  <span style="color:LightGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis </span> \
