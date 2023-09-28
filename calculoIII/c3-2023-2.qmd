@@ -53,12 +53,26 @@ Cada prova terá o **valor de 10 pontos.** A nota final do curso será a média 
 
 As duas provas serão **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.
 
-## Segunda Chamada e Verificação Suplementar
+## Segunda Chamada
 
-Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">sem a necessidade de justificativa!</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
 
-Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
+A Segunda Chamada de todas as avaliações será feita no mesmo dia (veja data na @sec-crono). Será elaborada uma prova de Segunda Chamada para cada avaliação regular do curso, no mesmo nível destas avaliações. 
 
+Contudo, cabe ressaltar que, de acordo com o mesmo artigo, a Segunda Chamada **substituirá uma, e somente uma,** das avaliações que tenha faltado. Portanto, se o aluno faltar a mais de uma avaliação, no dia da Segunda Chamada poderá escolher qual fará, mas só poderá fazer uma das avaliações.
+
+
+::: {.callout-warning}
+## Importante
+
+Como **não há a necessidade de justificar a falta nas avaliações** para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações. 
+
+Por conta disso, os primeiros 30 minutos de cada  avaliação serão reservados para o aluno decidir melhor se quer fazer a prova ou deixará para fazer a Segunda Chamada. Isto é, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, dentro dos  primeiros 30 minutos, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem após os 30 minutos não terão mais o direito à Segunda Chamada.
+:::
+
+## Verificação Suplementar
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
 
 # Listas de Exercícios
 
