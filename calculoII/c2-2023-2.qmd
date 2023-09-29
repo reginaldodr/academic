@@ -149,9 +149,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 05 . &nbsp; Sex  --  15/09  -- Resolução do Para :house: 6. Cresc. populacional Malthusiano. Integral de Funções Pares e Ímpares. **Próxima Aula:** resolver Para :house: 7 e 8. \
 06 . &nbsp; Qua  --  20/09  -- Resolução Para :house: 7 e 8.  Áreas entre curvas. Exemplo 1. Exemplo 2 (terminar).\
 07 . &nbsp; Sex  --  22/09  --  Conclusão do Exemplo 2. Integração por Partes. Integração por substituição Trigonométrica - Exemplo 1. **Próxima Aula:** resolver Para :house: 9 e 10.\
-08 . &nbsp; Qua  --  27/09  --  Resolução dos Para :house: 9 e 10. Revisão do Exemplo 1 da aula anterior. Usamos substituição trigonométrica para provar a fórmula da área de um círculo.\
-09 . &nbsp; Sex  --  29/09  --  <span style="color:LightGray">  Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico. Cálculo de volumes pelo método dos discos </span> \
-10 . &nbsp; Qua  --  04/10  --  <span style="color:LightGray"> Volume por cascas cilíndricas, Comprimento de Curvas </span> \
+08 . &nbsp; Qua  --  27/09  --  Resolução dos Para :house: 9 e 10. Revisão do Exemplo 1 da aula anterior. Usamos substituição trigonométrica para provar a fórmula da área de um círculo. **Próxima Aula:** resolver Para :house: 11\
+09 . &nbsp; Sex  --  29/09  -- Resolução do Para :house: 11. Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico. **Próxima Aula:** resolver Para :house: 12 \
+10 . &nbsp; Qua  --  04/10  --  <span style="color:LightGray">  Cálculo de volumes pelo método dos discos.  Volume por cascas cilíndricas, Comprimento de Curvas </span> \
 11 . &nbsp; Sex  --  06/10  --  <span style="color:LightGray"> Integrais Impróprias: Limites Infinitos </span> \
 <span style="color:red"> 12 . &nbsp; Qua  --  11/10  --  1ª Prova </span> \
 <span style="color:orange"> XX . &nbsp; Qui  --  12/10  --  Nossa Senhora Aparecida </span> \
