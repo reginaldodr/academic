@@ -121,8 +121,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 06 . &nbsp; Qua  --  20/09  -- Fórmula da curvatura. Fizemos o Para :house: 6 em aula. \
 07 . &nbsp; Sex  --  22/09  --  Aula de Dúvidas. \
 <span style="color:red"> 08 . &nbsp; Qua  --  27/09  --  1ª Prova </span> -- [gabarito](provas/2023-2-p1-M1-c3-gabarito.pdf) \
-09 . &nbsp; Sex  --  29/09  --  <span style="color:LightGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis </span> \
-10 . &nbsp; Qua  --  04/10  --  <span style="color:LightGray"> Curvas de Nível. Superfícies de nível. Limites e continuidade </span> \
+09 . &nbsp; Sex  --  29/09  --  Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível. **Próxima aula:** Resolver Para :house: 7 \
+10 . &nbsp; Qua  --  04/10  --  <span style="color:LightGray">  Limites e continuidade </span> \
 11 . &nbsp; Sex  --  06/10  --  <span style="color:LightGray"> Superfícies de nível. Limites e continuidade </span> \
 12 . &nbsp; Qua  --  11/10  --  <span style="color:LightGray"> Derivadas Parciais. Derivadas de ordem superior </span> \
 <span style="color:orange"> XX . &nbsp; Qui  --  12/10  --  Nossa Senhora Aparecida </span> \
