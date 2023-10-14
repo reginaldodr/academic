@@ -126,13 +126,13 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 XX . &nbsp; Qui  --  05/10  --  Vista da P1 - das 14h às 18h - sala 104  \
 11 . &nbsp; Sex  --  06/10  -- Resolução do Para :house: 8.  Derivadas Parciais. Derivadas de ordem superior. EPDs: Funções Harmônicas e Equação da Onda. **Próxima aula:** Resolver Para :house: 9.\
 XX . &nbsp; Ter  --  10/10  --   Vista da P1 - das 14h às 18h - sala 104  \
-12 . &nbsp; Qua  --  11/10  --  <span style="color:LightGray"> Resolução do Para :house: 9. Aproximação Linear. Plano Tangente. Diferenciabilidade.  </span> \
+12 . &nbsp; Qua  --  11/10  --  Resolução do Para :house: 9 e 10. Plano Tangente. Aproximação Linear e Diferenciabilidade em $\mathbb{R}^2$. Exemplo 1. \
 <span style="color:orange"> XX . &nbsp; Qui  --  12/10  --  Nossa Senhora Aparecida </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  13/10  --  Facultativo </span> \
 <span style="color:orange"> XX . &nbsp; Qua  --  18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-13 . &nbsp; Qua  --  25/10  --  <span style="color:LightGray"> Equações Diferenciais Parciais. Plano tangente. Aproximação linear  </span> \
-14 . &nbsp; Sex  --  27/10  --  <span style="color:LightGray"> Diferenciabilidade. Diferenciais no plano e no espaço </span> \
+13 . &nbsp; Qua  --  25/10  --  <span style="color:LightGray"> Diferenciabilidade exemplo 2. Função de classe $C^1$ e Difrenciais em $\mathbb{R}^2$.  </span> \
+14 . &nbsp; Sex  --  27/10  --  <span style="color:LightGray"> Diferenciabilidade. Diferenciais em \mathbb{R}^3. </span> \
 <span style="color:orange"> XX . &nbsp; Sáb  --  28/10  --  Servidor Público </span> \
 15 . &nbsp; Qua  --  01/11  --  <span style="color:LightGray"> Regra da cadeia. Vetor Gradiente </span> \
 <span style="color:orange"> XX . &nbsp; Qui  --  02/11  --  Finados </span> \

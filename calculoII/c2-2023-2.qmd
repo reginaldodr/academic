@@ -153,7 +153,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 09 . &nbsp; Sex  --  29/09  -- Resolução do Para :house: 11. Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico. **Próxima Aula:** resolver Para :house: 12 \
 10 . &nbsp; Qua  --  04/10  --  Resolução dos Para :house: 12. Cálculo de volumes por fatiamento. \
 11 . &nbsp; Sex  --  06/10  -- Volume pelo método dos discos. Sólidos de Revolução :fist: .  Volume por cascas cilíndricas. Comprimento de Curvas. **Próxima Aula:** resolver Para :house: 13.\
-12 . &nbsp; Sex  --  11/10  --  <span style="color:LightGray"> Resolução dos Para :house: 13. Calcular o comprimento da circunferência. </span> \
+12 . &nbsp; Sex  --  11/10  -- Resolução dos Para :house: 13. Calcular o comprimento da circunferência. Resolução de alguns exercícios. \
 <span style="color:orange"> XX . &nbsp; Qui  --  12/10  --  Nossa Senhora Aparecida </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  13/10  --  Facultativo </span> \
 <span style="color:orange"> XX . &nbsp; Qua  --  18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
