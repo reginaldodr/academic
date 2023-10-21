@@ -1,0 +1,426 @@
+\documentclass[a4paper,addpoints,12pt]{exam}
+
+%------------ comandos para gerar a prova e o gabarito -----------------------
+\usepackage{currfile}
+\usepackage{xstring}
+\IfSubStr*{\currfilename}{gabarito}{ \printanswers }{ \noprintanswers }
+%-----------------------------------
+
+
+\usepackage{pythontex} 
+%\usepackage[]{qrcode}
+
+\usepackage{enumitem}
+
+%\usepackage{showframe}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuges]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{color}
+\usepackage{multicol}
+
+%-----------tikz libraries ------------
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning} %positioning to break text in node
+%---------------------------------------
+
+\usepackage{enumerate}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{patterns}
+\usepackage{array,booktabs}
+\usepackage{mathtools}
+\usepackage{dashrule}
+\usepackage{caption}
+
+\SolutionEmphasis{\color{blue}}
+
+
+\qformat{\textbf{Questão \thequestion.} \dotfill  \rule{1.5cm}{.5pt}/ {\color{blue}\totalpoints\ pts}}
+
+\pointpoints{pt}{pts}
+\bonuspointname{\ bonus}
+%\unframedsolutions
+%\SolutionEmphasis
+\pointformat{{\color{blue} \thepoints}}
+
+
+%--------------   Critérios de correçaõ ----------------------------------
+
+\usetikzlibrary{shapes,snakes}
+\usepackage{environ}
+
+
+
+
+\tikzstyle{mybox} = [draw=black, very thick,
+rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+\tikzstyle{fancytitle} =[fill=white, text=red]
+
+
+
+
+\NewEnviron{blc}[1]{\begin{tikzpicture}
+	\node [mybox] (box){%
+		\begin{minipage}{0.95\textwidth}
+		\BODY
+		\end{minipage}
+	};
+	\node[fancytitle, right=10pt] at (box.north west) {#1};
+	\end{tikzpicture}
+}
+
+
+%---------------------------------------------------------------------------
+
+
+
+
+%----------------------  Caixa para Instruções  --------------------------------
+
+
+\tikzstyle{mybox2} = [draw=black, very thick,
+rectangle, rounded corners, inner sep=0pt, inner ysep=9pt]
+\tikzstyle{fancytitle2} =[fill=white, text=black]
+
+
+%---------------------------------------------------------------------------
+
+
+%------------------------ footenote without mark-----------------------------
+
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+
+
+%--------------------------------------------------------------------------
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\enspace}
+\newcommand{\dps}{\displaystyle}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\sen}{\operatorname{sen}}
+\renewcommand{\half}{,5}
+\newcommand{\fm}{\textsuperscript{\b{a}\ }}
+\newcommand{\mc}{\textsuperscript{\b{0}\ }}
+\newcommand{\D}{\dps\frac{d}{dx}}
+\newcommand{\tg}{\operatorname{tg}}
+\newcommand{\cotg}{\operatorname{cotg}}
+\newcommand{\cosec}{\operatorname{cosec}}
+\newcommand{\arcsen}{\operatorname{arcsen}}
+\newcommand{\arctg}{\operatorname{arctg}}
+\newcommand{\arccosec}{\operatorname{arccosec}}
+\newcommand{\arccotg}{\operatorname{arccotg}}
+\newcommand{\arcsec}{\operatorname{arcsec}}
+\newcommand{\im}{\operatorname{Im}}
+\newcommand{\lap}{\mathcal{L}}
+\newcommand{\senh}{\operatorname{senh}}
+\newcommand{\pyl}[1]{\py{sp.latex(#1)}}
+
+\setlength{\textwidth}{7.3in} \setlength{\oddsidemargin}{-.7in}
+
+\setlength{\evensidemargin}{0in}
+
+\setlength{\marginparwidth}{0.in} \setlength{\textheight}{9.8in}
+
+\setlength{\topmargin}{-0.2in} \setlength{\footskip}{0.0in}
+
+\setlength{\headsep}{0.1in}
+
+\begin{document}
+	
+
+\header{\includegraphics[scale=0.08]{brasao-cor.png}}
+{\sc \scriptsize Universidade Federal Fluminense \\
+%Instituto de Humanidades e Saúde -- RHS\\
+Departamento de Ciências da Natureza\\
+Campus de Rio das Ostras \\
+\textbf{Professor Reginaldo Demarque}\\}
+{\scriptsize 
+\textbf{{\color{red} 1\fm Prova de}}\\
+\textbf{Cálculo III}\\
+\textbf{\textcolor{red}{27/09/2023} -- 2023-2}\\
+\textbf{\textcolor{blue}{Turma M1}}\\
+}
+	
+	
+	\ifprintanswers
+	\begin{center}
+		\noindent \\
+	{\Large \textbf{\textcolor{red}{Gabarito}}}\\
+	\end{center}
+	\noindent \hrulefill  
+
+	\else
+\noindent
+\begin{tikzpicture}
+\node [mybox2] (box){%
+	\begin{scriptsize}
+	\begin{minipage}{0.51\textwidth}
+	\begin{itemize}[noitemsep]
+	\item Só poderá sair da sala quem entregar definitivamente a avaliação.
+	\item Responda de forma clara e organizada.
+	\item As soluções devem ser fundamentadas no conteúdo ensinado.
+	\item A interpretação faz parte dos critérios de avaliação.
+	\item Só é permitido o uso de calculadora científica. 
+	\end{itemize}
+	\end{minipage}
+	\begin{minipage}{0.55\textwidth}
+	\begin{itemize}[noitemsep]
+\item Não é permitido o compartilhamento de material.
+\item Uma questão com mais de uma solução será anulada.
+\item Resposta final correta com solução incorreta será anulada.
+\item Detectada fraude, mesmo posteriormente, a avaliação será anulada.
+	
+	\end{itemize}
+	\end{minipage}
+	\end{scriptsize}
+};
+\node[fancytitle2, right=15pt] at (box.north west) {{\color{red}Instruções}};
+%\node[fancytitle2, rounded corners] at (box.east) {$\clubsuit$};
+\end{tikzpicture}%
+	
+	
+	\bigskip
+	\noindent Nome:\hrulefill \ Nota:\ \rule{1.5cm}{.5pt} / {\color{blue} \numpoints\ pts}.
+	\bigskip
+\fi
+	
+	
+\bracketedpoints
+
+
+\begin{questions}
+
+%------------------------------------------
+%-------------  Questão 1 -----------------
+%------------------------------------------
+
+\begin{pycode}
+import sympy as sp
+
+t,x=sp.symbols('t x')
+
+def pt(Y):
+ return(sp.latex((Y[0],Y[1],Y[2])))
+ 
+
+def pt2(Y):
+  return(sp.latex((Y[0],Y[1])))
+
+
+A=sp.Matrix([1,0,1])
+B=sp.Matrix([3,1,4])
+
+ra=A+t*(B-A)
+
+c=sp.Matrix([1,-1])
+r=4
+
+rb=sp.Matrix([c[0]+r*sp.cos(t),c[1]+r*sp.sin(t)])
+
+y=sp.sqrt(x)
+
+rc=sp.Matrix([x,y])
+ 
+
+
+\end{pycode}
+
+\question Dê uma parametrização das seguintes curvas:
+
+
+
+\begin{parts}
+\part[1] O segmento de reta ligando os pontos $A=(1,0,1)$ e $B=(3,1,4)$.
+
+
+\part[1]  O círculo de centro $(1,-1)$ e raio $r=4$.
+
+\part[1] O gráfico da função $y=\sqrt{x}$.
+
+\end{parts}
+
+\begin{solution}
+\begin{parts}
+\part  Note que $\overrightarrow{AB} =\py{pt(B-A)}$, daí,
+\[\vec{r}(t)=\py{pt(A)}+t\py{pt(B-A)}=\py{pt(ra)},\ t\in [0,1].\]
+
+\part 
+\[\vec{r}(t)=\py{pt2(rb)},\, t\in[0,2\pi].\]
+
+\part 
+\[\vec{r}(x)=\py{pt2(rc)},\ x\in [0,+\infty[ .\]
+\end{parts}
+\end{solution}
+
+
+\newpage
+
+%------------------------------------------
+%-------------  Questão 2 -----------------
+%------------------------------------------
+
+\begin{pycode}
+import sympy as sp
+
+t=sp.symbols('t',positive=True)
+
+a=0
+b=sp.pi
+
+def pt(Y):
+ return(sp.latex((Y[0],Y[1],Y[2])))
+ 
+def r(t):
+	return sp.Matrix([t**2, sp.cos(t)+t*sp.sin(t),sp.sin(t)-t*sp.cos(t)])
+
+dr=sp.simplify(r(t).diff(t))
+ndr=dr.norm()
+
+I=sp.integrate(sp.simplify(ndr),t)
+Id=sp.simplify(sp.integrate(sp.simplify(ndr),(t,a,b)))
+
+
+
+
+\end{pycode}
+
+\question[2] Calcule o comprimento da curva $\vec{r}(t)=\py{pt(r(t))}$, $\pyl{a}\leq t\leq \pyl{b}$.
+
+
+
+\begin{solution} 
+ Note que 
+\[\vec{r}\,^\prime(t)=\py{pt(dr)}\Rightarrow \|\vec{r}\,^\prime(t)\|=\pyl{ndr}=\pyl{sp.simplify(ndr)}.\]
+Com isso, temos que
+\[L=\int_{\pyl{a}}^{\pyl{b}} \|\vec{r}\,^\prime(t)\|\,dt= \int_{\pyl{a}}^{\pyl{b}}\pyl{sp.simplify(ndr)}\,dt=\pyl{I}\Big\vert_{t=\pyl{a}}^{t=\pyl{b}} =\pyl{Id}.\]
+
+
+\end{solution}
+
+
+\newpage
+%------------------------------------------
+%-------------  Questão 3 -----------------
+%------------------------------------------
+\begin{pycode}
+import sympy as sp
+
+t=sp.symbols('t',positive=True)
+
+
+def pt(Y):
+ return(sp.latex((Y[0],Y[1],Y[2])))
+ 
+def r(t):
+	return sp.Matrix([t,t,t**2/2])
+
+dr=sp.simplify(r(t).diff(t))
+d2r=sp.simplify(r(t).diff(t,2))
+
+ndr=dr.norm()
+
+A=dr.cross(d2r)
+n1=A.norm()
+
+dv=ndr.diff(t)
+
+k=n1/ndr**3
+
+T=dr/ndr
+
+dT=T.diff(t)
+
+at=dv
+an=ndr**2*k
+
+
+\end{pycode}
+
+\question[3] Uma partícula se move de acordo com a parametrização $\vec{r}(t)=\py{pt(r(t))}$, $t\in \R$.
+\begin{parts}
+\part Determine a curvatura da curva.
+\part Determine as componentes tangente e normal da aceleração. 
+\end{parts}
+
+\begin{solution}
+\noindent 
+
+\begin{parts}
+\part \noindent
+\begin{equation*}
+\begin{split}
+&\vec{v}(t)=\vec{r}\,^\prime(t)=\py{pt(dr)}\Rightarrow v(t)= \|\vec{r}\,^\prime(t)\|=\pyl{ndr}.\\
+&\vec{a}(t)=\vec{r}\,^{\prime\prime}(t)=\py{pt(d2r)}\Rightarrow \vec{v}\times \vec{a}=\py{pt(A)}\\
+&\kappa(t)=\frac{\|\vec{v}\times\vec{a}\|}{v^3}=\pyl{k}
+\end{split}
+\end{equation*}
+
+
+
+\part Como
+\[v'(t)=\pyl{dv},\]
+temos que 
+\[\vec{a}(t)=v'(t)\vec{T}+v^2(t)\kappa(t)\vec{N}=\pyl{at}\vec{T}+\pyl{an}\vec{N}.\]
+\end{parts}
+
+
+\end{solution}
+
+
+\newpage
+%------------------------------------------
+%-------------  Questão 4 -----------------
+%------------------------------------------
+
+\begin{pycode}
+import sympy as sp
+
+t,x,y,z=sp.symbols('t x y z',positive=True)
+
+
+def pt(Y):
+ return(sp.latex((Y[0],Y[1],Y[2])))
+ 
+def r(t):
+	return sp.Matrix([2*sp.cos(t),2*sp.sin(t),sp.exp(t)])
+
+dr=sp.simplify(r(t).diff(t))
+
+vn=sp.Matrix([sp.sqrt(3),1,0])
+X=sp.Matrix([x,y,z])
+eq=sp.Eq(vn.dot(X),1)
+
+eq2=sp.Eq(dr.dot(vn),0)
+sol=sp.solve(eq2,t)
+t0=sol[0]
+
+\end{pycode}
+
+\question[2] Encontre o ponto da curva $\vec{r}(t)=\py{pt(r(t))}$, $0\leq t\leq \pi$, em que a reta tangente é paralela ao plano $\pyl{eq}$.
+
+\begin{solution}
+Basta ver em quais pontos $\vec{r}\,^\prime(t)=\py{pt(dr)}$ é ortogonal a \\ $\vec{n}=\py{pt(vn)}$, o vetor normal do plano. Com efeito,
+\[\vec{r}\,^\prime(t)\cdot \vec{n}=0\Rightarrow\pyl{eq2}\Rightarrow \tan(t)=\frac{1}{\sqrt{3}},\]
+donde concluímos que $t=\pyl{t0}$. Portanto o ponto da curva buscado é:
+\[\vec{r}\left(\pyl{t0}\right)=\py{pt(r(t0))}\]
+
+\end{solution}
+
+\end{questions}
+
+
+
+\end{document}
+
+
+
+
+
+%\include{derivadas}
+
+

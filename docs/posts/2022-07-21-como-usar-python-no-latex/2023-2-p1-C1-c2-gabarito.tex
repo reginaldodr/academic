@@ -1,0 +1,386 @@
+\documentclass[a4paper,addpoints,12pt]{exam}
+
+%------------ comandos para gerar a prova e o gabarito -----------------------
+\usepackage{currfile}
+\usepackage{xstring}
+\IfSubStr*{\currfilename}{gabarito}{ \printanswers }{ \noprintanswers }
+%-----------------------------------
+
+
+\usepackage{pythontex} 
+%\usepackage[]{qrcode}
+
+\usepackage{enumitem}
+
+%\usepackage{showframe}
+
+\usepackage[utf8]{inputenc}
+\usepackage[portuges]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{color}
+\usepackage{multicol}
+
+%-----------tikz libraries ------------
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning} %positioning to break text in node
+%---------------------------------------
+
+\usepackage{enumerate}
+\usepackage{amsmath,amssymb}
+\usetikzlibrary{patterns}
+\usepackage{array,booktabs}
+\usepackage{mathtools}
+\usepackage{dashrule}
+\usepackage{caption}
+
+\SolutionEmphasis{\color{blue}}
+
+
+\qformat{\textbf{Questão \thequestion.} \dotfill  \rule{1.5cm}{.5pt}/ {\color{blue}\totalpoints\ pts}}
+
+\pointpoints{pt}{pts}
+\bonuspointname{\ bonus}
+%\unframedsolutions
+%\SolutionEmphasis
+\pointformat{{\color{blue} \thepoints}}
+
+
+%--------------   Critérios de correçaõ ----------------------------------
+
+\usetikzlibrary{shapes,snakes}
+\usepackage{environ}
+
+
+
+
+\tikzstyle{mybox} = [draw=black, very thick,
+rectangle, rounded corners, inner sep=10pt, inner ysep=20pt]
+\tikzstyle{fancytitle} =[fill=white, text=red]
+
+
+
+
+\NewEnviron{blc}[1]{\begin{tikzpicture}
+	\node [mybox] (box){%
+		\begin{minipage}{0.95\textwidth}
+		\BODY
+		\end{minipage}
+	};
+	\node[fancytitle, right=10pt] at (box.north west) {#1};
+	\end{tikzpicture}
+}
+
+
+%---------------------------------------------------------------------------
+
+
+
+
+%----------------------  Caixa para Instruções  --------------------------------
+
+
+\tikzstyle{mybox2} = [draw=black, very thick,
+rectangle, rounded corners, inner sep=0pt, inner ysep=9pt]
+\tikzstyle{fancytitle2} =[fill=white, text=black]
+
+
+%---------------------------------------------------------------------------
+
+
+%------------------------ footenote without mark-----------------------------
+
+\newcommand\blfootnote[1]{%
+	\begingroup
+	\renewcommand\thefootnote{}\footnote{#1}%
+	\addtocounter{footnote}{-1}%
+	\endgroup
+}
+
+
+%--------------------------------------------------------------------------
+\renewcommand{\solutiontitle}{\noindent\textbf{Solução:}\enspace}
+\newcommand{\dps}{\displaystyle}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\sen}{\operatorname{sen}}
+\renewcommand{\half}{,5}
+\newcommand{\fm}{\textsuperscript{\b{a}\ }}
+\newcommand{\mc}{\textsuperscript{\b{0}\ }}
+\newcommand{\D}{\dps\frac{d}{dx}}
+\newcommand{\tg}{\operatorname{tg}}
+\newcommand{\cotg}{\operatorname{cotg}}
+\newcommand{\cosec}{\operatorname{cosec}}
+\newcommand{\arcsen}{\operatorname{arcsen}}
+\newcommand{\arctg}{\operatorname{arctg}}
+\newcommand{\arccosec}{\operatorname{arccosec}}
+\newcommand{\arccotg}{\operatorname{arccotg}}
+\newcommand{\arcsec}{\operatorname{arcsec}}
+\newcommand{\im}{\operatorname{Im}}
+\newcommand{\lap}{\mathcal{L}}
+\newcommand{\senh}{\operatorname{senh}}
+\newcommand{\pyl}[1]{\py{sp.latex(#1)}}
+
+\setlength{\textwidth}{7.3in} \setlength{\oddsidemargin}{-.7in}
+
+\setlength{\evensidemargin}{0in}
+
+\setlength{\marginparwidth}{0.in} \setlength{\textheight}{9.8in}
+
+\setlength{\topmargin}{-0.2in} \setlength{\footskip}{0.0in}
+
+\setlength{\headsep}{0.1in}
+
+\begin{document}
+	
+
+\header{\includegraphics[scale=0.08]{brasao-cor.png}}
+{\sc \scriptsize Universidade Federal Fluminense \\
+%Instituto de Humanidades e Saúde -- RHS\\
+Departamento de Ciências da Natureza\\
+Campus de Rio das Ostras \\
+\textbf{Professor Reginaldo Demarque}\\}
+{\scriptsize 
+\textbf{{\color{red} 1\fm Prova de}}\\
+\textbf{Cálculo II}\\
+\textbf{\textcolor{red}{25/10/2023} -- 2023-2}\\
+\textbf{\textcolor{blue}{Turma C1}}\\
+}
+	
+	
+	\ifprintanswers
+	\begin{center}
+		\noindent \\
+	{\Large \textbf{\textcolor{red}{Gabarito}}}\\
+	\end{center}
+	\noindent \hrulefill  
+
+	\else
+\noindent
+\begin{tikzpicture}
+\node [mybox2] (box){%
+	\begin{scriptsize}
+	\begin{minipage}{0.51\textwidth}
+	\begin{itemize}[noitemsep]
+	\item Só poderá sair da sala quem entregar definitivamente a avaliação.
+	\item Responda de forma clara e organizada.
+	\item As soluções devem ser fundamentadas no conteúdo ensinado.
+	\item A interpretação faz parte dos critérios de avaliação.
+	\item Só é permitido o uso de calculadora científica. 
+	\end{itemize}
+	\end{minipage}
+	\begin{minipage}{0.55\textwidth}
+	\begin{itemize}[noitemsep]
+\item Não é permitido o compartilhamento de material.
+\item Uma questão com mais de uma solução será anulada.
+\item Resposta final correta com solução incorreta será anulada.
+\item Detectada fraude, mesmo posteriormente, a avaliação será anulada.
+	
+	\end{itemize}
+	\end{minipage}
+	\end{scriptsize}
+};
+\node[fancytitle2, right=15pt] at (box.north west) {{\color{red}Instruções}};
+%\node[fancytitle2, rounded corners] at (box.east) {$\clubsuit$};
+\end{tikzpicture}%
+	
+	
+	\bigskip
+	\noindent Nome:\hrulefill \ Nota:\ \rule{1.5cm}{.5pt} / {\color{blue} \numpoints\ pts}.
+	\bigskip
+\fi
+	
+	
+\bracketedpoints
+
+
+\begin{questions}
+
+%------------------------------------------
+%-------------  Questão  -----------------
+%------------------------------------------
+
+\begin{pycode}
+import sympy as sp
+
+x=sp.symbols('x')
+
+
+fa=x**3+x**4
+Ia=sp.integrate(fa,x)
+Iad=sp.integrate(fa,(x,1,2))
+
+fb=1/(x*sp.sqrt(x**2+2))
+Ib=sp.integrate(fb,x)
+
+fc=x**4*sp.log(x)
+Ic=sp.integrate(fc,x)
+
+\end{pycode}
+
+\question Calcule as integrais
+
+\begin{multicols}{2}
+\begin{parts}
+\part[1] $\dps\int_1^2 \pyl{fa}\,dx$
+
+\part[1] $\dps\int \pyl{fb}\, dx $
+
+\part[1] $\dps\int\pyl{fc}\, dx $
+
+\part[1] $\dps\int_{0}^\infty \frac{e^x}{e^{x}+3}\, dx $
+\end{parts}
+
+\end{multicols}
+
+\begin{solution}
+\begin{parts}
+	\part 
+\[\int_1^2 \pyl{fa}\,dx= \pyl{Ia}\Big\vert_{x=1}^{x=2}=\pyl{Iad}. \]
+
+	\part Vamos usar a substituição trigonométrica. Primeiramente, note que
+\[\sqrt{x^2+2}=\sqrt{2\left(1+\frac{x^2}{2}\right)}
+=\sqrt{2}\sqrt{1+\left(\frac{x}{\sqrt{2}}\right)^2}.\] 
+Com isso, vamos usar a seguinte substituição trigonométrica
+\begin{equation*}
+\begin{cases*}
+x=\sqrt{2}\tan(\theta),\ -\frac{\pi}{2}< \theta < \frac{\pi}{2}\\
+dx= \sqrt{2}\sec^2(\theta)\,d\theta.
+\end{cases*}
+\end{equation*}
+Daí,
+\begin{equation*}
+\begin{split}
+\int \pyl{fb}\,dx& = \frac{1}{\sqrt{2}}\int \frac{1}{x\sqrt{1+\left(\frac{x}{\sqrt{2}}\right)^2}}\,dx\\ 
+&=\frac{1}{\sqrt{2}}\int \frac{1}{\sqrt{2} \tan(\theta)\sqrt{1+\tan^2(\theta)}}\sqrt{2}\sec^2(\theta)\,d\theta\\
+&= \frac{1}{\sqrt{2}}\int \frac{1}{\tan(\theta)|\sec(\theta)|}\sec^2(\theta)\,d\theta\\
+&= \frac{1}{\sqrt{2}}\int \frac{\sec(\theta)}{\tan(\theta)}\,d\theta= \frac{1}{\sqrt{2}}\int \frac{1}{\cos(\theta)}\frac{\cos(\theta)}{\sin(\theta)}\,d\theta\\
+&= \frac{1}{\sqrt{2}}\int \frac{1}{\sin(\theta)}\,d\theta= \frac{1}{\sqrt{2}}\int \cosec(\theta)\,d\theta\\
+&= \frac{1}{\sqrt{2}}\log|\cosec(\theta)-\cotg(\theta)|+C\\
+&\stackrel{(\ast)}{=} \frac{1}{\sqrt{2}}\log\left|\frac{\sqrt{x^2+2}-\sqrt{2}}{x}\right|+C\\
+\end{split}
+\end{equation*}
+\newpage
+
+\begin{minipage}{0.6\textwidth}
+$(\ast)$ Vamos voltar para a variável anterior. Usando-se as relações trigonométricas do triângulo retângulo ao lado vemos que
+\[\cotg(\theta)=\frac{\sqrt{2}}{x} \ \text{ e } \cosec(\theta)=\frac{\sqrt{x^2+2}}{x}\]
+\end{minipage}
+\begin{minipage}{0.3\textwidth}
+\begin{tikzpicture}
+	% Define the coordinates
+	\coordinate (A) at (0,0);
+	\coordinate (B) at (4,0);
+	\coordinate (C) at (0,2);
+	
+	% Draw the triangle
+	\draw (A) -- node[below] {$\sqrt{2}$} (B) -- node[above right] {$\sqrt{x^2+2}$} (C) -- node[left] {$x$}  cycle;
+	
+	% Mark the right angle
+	\draw (3,0.5) arc (150:180:1);
+	
+	% Label the angles
+	\node at (2.5,.4) {$\theta$};
+\end{tikzpicture}
+\end{minipage}
+
+\part Vamos resolver esta integral por partes. Fazendo 
+\[
+\begin{array}{ll}
+	u=\log(x) & du=\frac{1}{x}dx\\
+	\\
+	dv=x^4dx & v=\frac{x^5}{5}, 
+\end{array}
+\]
+temos
+\[\int \pyl{fc}\,dx= \frac{x^5}{5}\log(x)-\int \frac{x^4}{5}\,dx=\pyl{Ic}+C.\]
+
+\part Primeiramente vamos resolver a integral indefinida. Fazendo a substituição $u=e^x+3$, $du=e^x\,dx$ temos que
+\begin{equation*}
+\int \frac{e^x}{e^x+3}\,dx= \int\frac{du}{u}=\log|u|+C=\log(e^x+3)+c
+\end{equation*}
+Agora, vamos resolver a integral imprópria:
+\begin{equation*}
+\begin{split}
+\int_0^\infty\frac{e^x}{e^x+3}\,dx& = \lim\limits_{b\to \infty} \int_0^b\frac{e^x}{e^x+3}\,dx=\lim\limits_{b\to\infty}\log(e^x+3)\Big\vert_{x=0}^{x=b}\\
+& =\lim\limits_{b\to\infty}\left(\log(e^b+3)-\log(4)\right)=\infty.
+\end{split}
+\end{equation*}
+\end{parts}
+\end{solution}
+
+\newpage
+
+%------------------------------------------
+%-------------  Questão  -----------------
+%------------------------------------------
+
+\question[2] Deterine o comprimento de arco do gráfico da função $y=\log(\cos(x))$ entre os pontos 
+$x=0$ e $x=\pi/3$.
+
+
+\begin{solution} 
+Note que
+\[y'=-\frac{\sin(x)}{\cos(x)}=-\tan(x).\]
+Com isso, o comprimento de arco é dado por:
+\begin{equation*}
+\begin{split}
+\int_0^{\pi/3}\sqrt{1+\tan^2(x)}\, dx& =\int_0^{\pi/3} \sqrt{\sec^2(x)}\,dx \\
+&=\int_0^{\pi/3}\sec(x)\,dx=\log|\sec(x)+\tan(x)|\Big\vert_{x=0}^{x=\pi/3}=\log\left(2+\sqrt{3}\right).
+\end{split}
+\end{equation*}
+
+
+\end{solution}
+
+\newpage
+%------------------------------------------
+%-------------  Questão  -----------------
+%------------------------------------------
+
+\begin{pycode}
+import sympy as sp
+
+x=sp.symbols('x')
+
+f=6-x**2
+
+k=sp.solve(sp.Eq(f,2),x)
+
+Id=sp.integrate(f**2-4,x)
+I=2*sp.pi*sp.integrate(f**2-4,(x,0,k[1]))
+	
+\end{pycode}
+
+\question[2] Considere o sólido obtido pela rotação, em torno do eixo $x$, da região limitada pelos gráficos das funções $y=\pyl{f}$ e $y=2$. 
+\begin{parts}
+\part Faça um esboço da região e do sólido.
+\part Calcule o volume do sólido.
+\end{parts}
+
+
+\begin{solution}
+Determinando os pontos de interseção
+\[\pyl{f}=2\Rightarrow x^2=4 \Rightarrow  x=\pyl{k[0]} \text{ ou } x=\pyl{k[1]}.\]
+Pelo gráfico podemos ver que o sólido é simétrico em relação ao eixo $y$. Usando o método dos discos, temos que o volume é dado por
+\begin{equation*}
+\begin{split}
+V& =2\pi\int_0^2\pyl{f**2-4}\,dx=2\pi\int_0^2 \pyl{sp.expand(f**2-4)}\,dx\\
+& =2\pi\left(\pyl{Id}\right)\Big\vert_{x=0}^{x=2}=\pyl{I}.
+\end{split}
+\end{equation*}	
+\end{solution}
+
+
+\end{questions}
+
+
+
+\end{document}
+
+
+
+
+
+%\include{derivadas}
+
+
