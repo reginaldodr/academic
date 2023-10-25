@@ -158,7 +158,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 <span style="color:orange"> XX . &nbsp; Sex  --  13/10  --  Facultativo </span> \
 <span style="color:orange"> XX . &nbsp; Qua  --  18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-<span style="color:red"> 13 . &nbsp; Qua  --  25/10  --  1ª Prova </span> \
+<span style="color:red"> 13 . &nbsp; Qua  --  25/10  --  1ª Prova </span>  -- [gabarito](provas/2023-2-p1-C1-c2-gabarito.pdf)\
 14 . &nbsp; Sex  --  27/10  --  <span style="color:LightGray">  EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar).  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear </span> \
 <span style="color:orange"> XX . &nbsp; Sáb  --  28/10  --  Servidor Público </span> \
 15 . &nbsp; Qua  --  01/11  --  <span style="color:LightGray"> Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares </span> \

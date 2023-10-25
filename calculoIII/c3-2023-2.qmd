@@ -131,8 +131,8 @@ XX . &nbsp; Ter  --  10/10  --   Vista da P1 - das 14h às 18h - sala 104  \
 <span style="color:orange"> XX . &nbsp; Sex  --  13/10  --  Facultativo </span> \
 <span style="color:orange"> XX . &nbsp; Qua  --  18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-13 . &nbsp; Qua  --  25/10  --  <span style="color:LightGray"> Diferenciabilidade exemplo 2. Função de classe $C^1$ e Difrenciais em $\mathbb{R}^2$.  </span> \
-14 . &nbsp; Sex  --  27/10  --  <span style="color:LightGray"> Diferenciabilidade. Diferenciais em \mathbb{R}^3. </span> \
+13 . &nbsp; Qua  --  25/10  -- Diferenciabilidade exemplo 2. Função de classe $C^1$ e Difrenciais em $\mathbb{R}^2$. \
+14 . &nbsp; Sex  --  27/10  --  <span style="color:LightGray"> Diferenciabilidade. Diferenciais em $\mathbb{R}^3$. </span> \
 <span style="color:orange"> XX . &nbsp; Sáb  --  28/10  --  Servidor Público </span> \
 15 . &nbsp; Qua  --  01/11  --  <span style="color:LightGray"> Regra da cadeia. Vetor Gradiente </span> \
 <span style="color:orange"> XX . &nbsp; Qui  --  02/11  --  Finados </span> \
