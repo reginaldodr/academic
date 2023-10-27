@@ -13,7 +13,6 @@ format:
 
 ## Material Básico
 
-
 - [Slides-integral](integral.pdf)
 
 - [Slides-EDO](edo.pdf)
