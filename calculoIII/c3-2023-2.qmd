@@ -138,9 +138,9 @@ XX . &nbsp; Ter  --  10/10  --   Vista da P1 - das 14h às 18h - sala 104  \
 <span style="color:orange"> XX . &nbsp; Qui  --  02/11  --  Finados </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  03/11  --  Facultativo </span> \
 16 . &nbsp; Qua  --  08/11  --  Não pude dar aulas, estava com sintomas de covid. \
-17 . &nbsp; Sex  --  10/11  --  <span style="color:LightGray">  Propriedades do vetor Gradiente. Derivação Implícita e Teorema da Função Implícita.  Derivação Implícita e Teorema da Função Implícita </span> \
+17 . &nbsp; Sex  --  10/11  --  Não pude dar aula -- tive consulta médica no dia que não podia ser adiada.  \
 <span style="color:orange"> XX . &nbsp; Qua  --  15/11  --  Proclamação da República </span> \
-18 . &nbsp; Sex  --  17/11  --  <span style="color:LightGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. Topologia do $\mathbb{R}^2$ </span> \
+18 . &nbsp; Sex  --  17/11  --  <span style="color:LightGray"> Propriedades do vetor Gradiente. Derivação Implícita e Teorema da Função Implícita.  Derivação Implícita e Teorema da Função Implícita.  Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. Topologia do $\mathbb{R}^2$ </span> \
 <span style="color:orange"> XX . &nbsp; Seg  --  20/11  --  Consciência Negra </span> \
 19 . &nbsp; Qua  --  22/11  --  <span style="color:LightGray"> Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
 20 . &nbsp; Sex  --  24/11  --  <span style="color:LightGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \

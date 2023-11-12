@@ -171,9 +171,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 <span style="color:orange"> XX . &nbsp; Qui  --  02/11  --  Finados </span> \
 <span style="color:orange"> XX . &nbsp; Sex  --  03/11  --  Facultativo </span> \
 16 . &nbsp; Qua  --  08/11  --  Não houve aula -- apresentei sintomas de covid \
-17 . &nbsp; Sex  --  10/11  --  <span style="color:LightGray">Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares. EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano.  Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
+17 . &nbsp; Sex  --  10/11  --  Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares. </span> \
 <span style="color:orange"> XX . &nbsp; Qua  --  15/11  --  Proclamação da República </span> \
-18 . &nbsp; Sex  --  17/11  --  <span style="color:LightGray"> EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos. Caso raízes complexas e fórmula de Euler </span> \
+18 . &nbsp; Sex  --  17/11  --  <span style="color:LightGray"> EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano.  Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas.  EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos. Caso raízes complexas e fórmula de Euler </span> \
 <span style="color:orange"> XX . &nbsp; Seg  --  20/11  --  Consciência Negra </span> \
 19 . &nbsp; Qua  --  22/11  --  <span style="color:LightGray"> Método dos coeficientes a determinar </span> \
 20 . &nbsp; Sex  --  24/11  --  <span style="color:LightGray"> Método da variação dos Parâmetros </span> \
