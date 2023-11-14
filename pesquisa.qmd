@@ -11,6 +11,7 @@ nocite: |
 
 ## Preprints
 
+1. Araújo BSV, Demarque R, Viana L (2023) Boundary null controllability of degenerate wave equation as the limit of internal controllability. Arxiv. 
 
 ## Publications
 
