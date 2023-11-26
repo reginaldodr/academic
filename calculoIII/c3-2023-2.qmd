@@ -142,9 +142,9 @@ XX . &nbsp; Ter  --  10/10  --   Vista da P1 - das 14h às 18h - sala 104  \
 <span style="color:orange"> XX . &nbsp; Qua  --  15/11  --  Proclamação da República </span> \
 18 . &nbsp; Sex  --  17/11  --  Propriedades do vetor Gradiente. Derivação Implícita e Teorema da Função Implícita no $\mathbb{R}^2$.  \
 <span style="color:orange"> XX . &nbsp; Seg  --  20/11  --  Consciência Negra </span> \
-19 . &nbsp; Qua  --  22/11  --  <span style="color:LightGray">Derivação Implícita e Teorema da Função Implícita.  Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. Topologia do $\mathbb{R}^2$.  Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
-20 . &nbsp; Sex  --  24/11  --  <span style="color:LightGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
-21 . &nbsp; Qua  --  29/11  --  <span style="color:LightGray"> Multiplicadores de Lagrange com duas restrições </span> \
+19 . &nbsp; Qua  --  22/11  --   Derivação Implícita e Teorema da Função Implícita no $\mathbb{R}^3$.  Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. \
+20 . &nbsp; Sex  --  24/11  -- Topologia do $\mathbb{R}^2$.  Máximos e Mínimos absolutos. Teorema de Weiestrass. Multiplicadores de Lagrange em $\mathbb{R}^2$.  \
+21 . &nbsp; Qua  --  29/11  --  Aula de Exercícios \
 <span style="color:red"> 22 . &nbsp; Sex  --  01/12  --  2ª Prova </span> \
 <span style="color:red"> 23 . &nbsp; Qua  --  06/12  --  2ª Chamada </span> \
 <span style="color:red"> 24 . &nbsp; Sex  --  08/12  --  VS </span> \

@@ -175,12 +175,12 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 <span style="color:orange"> XX . &nbsp; Qua  --  15/11  --  Proclamação da República </span> \
 18 . &nbsp; Sex  --  17/11  --  EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Princípio da Superposição.  EDO 2ª ord. linear homogênea com coef. constantes. Revisão de números complexos e fórmula de Euler.\
 <span style="color:orange"> XX . &nbsp; Seg  --  20/11  --  Consciência Negra </span> \
-19 . &nbsp; Qua  --  22/11  --  <span style="color:LightGray"> Método dos coeficientes a determinar </span> \
-20 . &nbsp; Sex  --  24/11  --  <span style="color:LightGray"> Método da variação dos Parâmetros </span> \
-<span style="color:red"> 21 . &nbsp; Qua  --  29/11  --  2ª Prova </span> \
-<span style="color:red"> 22 . &nbsp; Sex  --  01/12  --  2ª Chamada </span> \
-<span style="color:red"> 23 . &nbsp; Qua  --  06/12  --  VS </span> \
-24 . &nbsp; Sex  --  08/12  --  <span style="color:LightGray">  --  </span> \
+19 . &nbsp; Qua  --  22/11  -- Método dos coeficientes a determinar \
+20 . &nbsp; Sex  --  24/11  --  Aula de Exercícios \
+21 . &nbsp; Qua  --  29/11  -- Aula de Exercícios  \
+<span style="color:red"> 22 . &nbsp; Sex  --  01/12  --  2ª Prova </span> \
+<span style="color:red"> 23 . &nbsp; Qua  --  06/12  --  2ª Chamada </span> \
+<span style="color:red"> 24 . &nbsp; Sex  --  08/12  --  VS </span> \
 25 . &nbsp; Qua  --  13/12  --  <span style="color:LightGray">  --  </span> \
 26 . &nbsp; Sex  --  15/12  --  <span style="color:LightGray">  --  </span> \
 27 . &nbsp; Qua  --  20/12  --  <span style="color:LightGray">  --  </span> \
