@@ -2,7 +2,7 @@
 title: "Prof. Reginaldo Demarque"
 about:
   template: trestles
-  image: profile2.jpg
+  image: perfil3.jpg
   image-shape: round
   links:
     - icon: file-earmark-person
