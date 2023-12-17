@@ -172,7 +172,7 @@
     "href": "teaching.html#disciplinas-de-semestres-anteriores",
     "title": "Disciplinas",
     "section": "Disciplinas de Semestres Anteriores",
-    "text": "Disciplinas de Semestres Anteriores\n\nDisciplinas de Graduação\n\nCálculo I\nCálculo II\n\nTurmas: 2022-2, 2023-1\n\nCálculo III\n\nTurmas: 2023-1\n\nCálculo IV:\n\nTurmas: 2022-2\n\nGeometria Analítica e Cálculo Vetorial\n\nTurmas: 2022-1\n\nEquações Diferenciais\n\n\n\nDisciplinas de Pós-Graduação\n\nAnálise Funcional"
+    "text": "Disciplinas de Semestres Anteriores\n\nDisciplinas de Graduação\n\nCálculo I\nCálculo II\n\nTurmas: 2022-2, 2023-1, 2023-2\n\nCálculo III\n\nTurmas: 2023-1, 2023-2\n\nCálculo IV:\n\nTurmas: 2022-2\n\nGeometria Analítica e Cálculo Vetorial\n\nTurmas: 2022-1\n\nEquações Diferenciais\n\n\n\nDisciplinas de Pós-Graduação\n\nAnálise Funcional"
   },
   {
     "objectID": "calculoII/c2-2023-2.html#cronograma",
@@ -487,7 +487,7 @@
     "href": "calculoIII/c3-2023-2.html#cronograma-proposto-incialmente",
     "title": "CÁLCULO III RCN00021 – 2023-2",
     "section": "6.2 Cronograma Proposto Incialmente",
-    "text": "6.2 Cronograma Proposto Incialmente\nEste foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.\n01 .   Qua – 30/08 – Apresentação. Funções Vetoriais. Limite e continuidade\n02 .   Sex – 01/09 – Curvas parametrizadas no Plano, Coordenadas polares\n03 .   Qua – 06/09 – Curvas parametrizadas no Espaço. Derivadas e regras de derivação de funções vetoriais\n XX .   Qui – 07/09 – Independência \n XX .   Sex – 08/09 – Facultativo \n04 .   Qua – 13/09 – Comprimento de arco. Parametrização pelo comprimento de arco\n05 .   Sex – 15/09 – Curvatura, Vetores Normal e Binormal.\n06 .   Qua – 20/09 – Movimento, velocidade e aceleração. Componentes Normal e Tangencial da Aceleração\n07 .   Sex – 22/09 – Aula de Dúvidas\n 08 .   Qua – 27/09 – 1ª Prova \n09 .   Sex – 29/09 – Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis\n10 .   Qua – 04/10 – Curvas de Nível. Superfícies de nível. Limites e continuidade\n11 .   Sex – 06/10 – Superfícies de nível. Limites e continuidade\n12 .   Qua – 11/10 – Derivadas Parciais. Derivadas de ordem superior\n XX .   Qui – 12/10 – Nossa Senhora Aparecida \n XX .   Sex – 13/10 – Facultativo \n XX .   Qua – 18/10 – Semana Nacional de Ciência e Tecnologia \n XX .   Sex – 20/10 – Semana Nacional de Ciência e Tecnologia \n13 .   Qua – 25/10 – Equações Diferenciais Parciais. Plano tangente. Aproximação linear\n14 .   Sex – 27/10 – Diferenciabilidade. Diferenciais no plano e no espaço\n XX .   Sáb – 28/10 – Servidor Público \n15 .   Qua – 01/11 – Regra da cadeia. Vetor Gradiente\n XX .   Qui – 02/11 – Finados \n XX .   Sex – 03/11 – Facultativo \n16 .   Qua – 08/11 – Derivadas direcionais. Propriedades do vetor Gradiente\n17 .   Sex – 10/11 – Derivação Implícita e Teorema da Função Implícita\n XX .   Qua – 15/11 – Proclamação da República \n18 .   Sex – 17/11 – Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. Topologia do \\(\\mathbb{R}^2\\)\n XX .   Seg – 20/11 – Consciência Negra \n19 .   Qua – 22/11 – Máximos e Mínimos absolutos. Teorema de Weiestrass.\n20 .   Sex – 24/11 – Multiplicadores de Lagrange em \\(\\mathbb{R}^2\\). Multiplicadores de Lagrange em \\(\\mathbb{R}^3\\)\n21 .   Qua – 29/11 – Multiplicadores de Lagrange com duas restrições\n 22 .   Sex – 01/12 – 2ª Prova \n 23 .   Qua – 06/12 – 2ª Chamada \n 24 .   Sex – 08/12 – VS  (Não houveram alunos de VS)\n25 .   Qua – 13/12 – –\n26 .   Sex – 15/12 – –\n27 .   Qua – 20/12 – –"
+    "text": "6.2 Cronograma Proposto Incialmente\nEste foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.\n01 .   Qua – 30/08 – Apresentação. Funções Vetoriais. Limite e continuidade\n02 .   Sex – 01/09 – Curvas parametrizadas no Plano, Coordenadas polares\n03 .   Qua – 06/09 – Curvas parametrizadas no Espaço. Derivadas e regras de derivação de funções vetoriais\n XX .   Qui – 07/09 – Independência \n XX .   Sex – 08/09 – Facultativo \n04 .   Qua – 13/09 – Comprimento de arco. Parametrização pelo comprimento de arco\n05 .   Sex – 15/09 – Curvatura, Vetores Normal e Binormal.\n06 .   Qua – 20/09 – Movimento, velocidade e aceleração. Componentes Normal e Tangencial da Aceleração\n07 .   Sex – 22/09 – Aula de Dúvidas\n 08 .   Qua – 27/09 – 1ª Prova \n09 .   Sex – 29/09 – Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis\n10 .   Qua – 04/10 – Curvas de Nível. Superfícies de nível. Limites e continuidade\n11 .   Sex – 06/10 – Superfícies de nível. Limites e continuidade\n12 .   Qua – 11/10 – Derivadas Parciais. Derivadas de ordem superior\n XX .   Qui – 12/10 – Nossa Senhora Aparecida \n XX .   Sex – 13/10 – Facultativo \n XX .   Qua – 18/10 – Semana Nacional de Ciência e Tecnologia \n XX .   Sex – 20/10 – Semana Nacional de Ciência e Tecnologia \n13 .   Qua – 25/10 – Equações Diferenciais Parciais. Plano tangente. Aproximação linear\n14 .   Sex – 27/10 – Diferenciabilidade. Diferenciais no plano e no espaço\n XX .   Sáb – 28/10 – Servidor Público \n15 .   Qua – 01/11 – Regra da cadeia. Vetor Gradiente\n XX .   Qui – 02/11 – Finados \n XX .   Sex – 03/11 – Facultativo \n16 .   Qua – 08/11 – Derivadas direcionais. Propriedades do vetor Gradiente\n17 .   Sex – 10/11 – Derivação Implícita e Teorema da Função Implícita\n XX .   Qua – 15/11 – Proclamação da República \n18 .   Sex – 17/11 – Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda. Topologia do \\(\\mathbb{R}^2\\)\n XX .   Seg – 20/11 – Consciência Negra \n19 .   Qua – 22/11 – Máximos e Mínimos absolutos. Teorema de Weiestrass.\n20 .   Sex – 24/11 – Multiplicadores de Lagrange em \\(\\mathbb{R}^2\\). Multiplicadores de Lagrange em \\(\\mathbb{R}^3\\)\n21 .   Qua – 29/11 – Multiplicadores de Lagrange com duas restrições\n 22 .   Sex – 01/12 – 2ª Prova \n 23 .   Qua – 06/12 – 2ª Chamada \n 24 .   Sex – 08/12 – VS \n25 .   Qua – 13/12 – –\n26 .   Sex – 15/12 – –\n27 .   Qua – 20/12 – –"
   },
   {
     "objectID": "calculoII/c2-2023-2.html#crongrama-efetivado",
@@ -593,5 +593,40 @@
     "title": "CÁLCULO II RCN00020 – 2023-2",
     "section": "3.4 Verificação Suplementar",
     "text": "3.4 Verificação Suplementar\nEm concordância com o Regulamento dos Cursos de graduação em seu Art. 99, a Verificação Suplementar (VS) é vetada aos discentes já aprovados e é obrigatória para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos."
+  },
+  {
+    "objectID": "calculoII/c2-2023-2.html#resultados",
+    "href": "calculoII/c2-2023-2.html#resultados",
+    "title": "CÁLCULO II RCN00020 – 2023-2",
+    "section": "6.2 Resultados",
+    "text": "6.2 Resultados\nResultado Parcial |\nAprovados | 17 | 62,96 %\nEm VS | 7 | 25,93 %\nReprovados| 3 | 11,11\nTotal | 27 |"
+  },
+  {
+    "objectID": "calculoII/c2-2023-2.html#resultados-parciais",
+    "href": "calculoII/c2-2023-2.html#resultados-parciais",
+    "title": "CÁLCULO II RCN00020 – 2023-2",
+    "section": "7.1 Resultados Parciais",
+    "text": "7.1 Resultados Parciais\n\n\n\nAprovados\n17\n62,96 %\n\n\nFicaram em VS\n7\n25,93 %\n\n\nReprovados\n3\n11,11 %\n\n\nTotal\n27"
+  },
+  {
+    "objectID": "calculoII/c2-2023-2.html#resultado-final",
+    "href": "calculoII/c2-2023-2.html#resultado-final",
+    "title": "CÁLCULO II RCN00020 – 2023-2",
+    "section": "7.2 Resultado Final",
+    "text": "7.2 Resultado Final\n\n\n\nAprovados\n19\n70,37 %\n\n\nReprovados\n8\n29,63 %\n\n\nTotal\n27\n100 %"
+  },
+  {
+    "objectID": "calculoII/c2-2023-2.html#resultado-parcial",
+    "href": "calculoII/c2-2023-2.html#resultado-parcial",
+    "title": "CÁLCULO II RCN00020 – 2023-2",
+    "section": "7.1 Resultado Parcial",
+    "text": "7.1 Resultado Parcial\n\n\nTabela 1: Resultados\n\n\n\n\n(a) Resultado Parcial\n\n\nAprovados\n17\n62,96 %\n\n\nFicaram em VS\n7\n25,93 %\n\n\nReprovados\n3\n11,11 %\n\n\nTotal\n27\n100 %\n\n\n\n\n\n\n(b) Resultado final\n\n\nAprovados\n19\n70,37 %\n\n\nReprovados\n8\n29,63 %\n\n\nTotal\n27\n100 %"
+  },
+  {
+    "objectID": "calculoII/c2-2023-2.html#resultado",
+    "href": "calculoII/c2-2023-2.html#resultado",
+    "title": "CÁLCULO II RCN00020 – 2023-2",
+    "section": "7.1 Resultado",
+    "text": "7.1 Resultado\n\n\nTabela 1: Resultados\n\n\n\n\n(a) Resultado Parcial\n\n\nAprovados\n17\n62,96 %\n\n\nReprovados\n3\n11,11 %\n\n\nFicaram em VS\n7\n25,93 %\n\n\nTotal\n27\n100 %\n\n\n\n\n\n\n(b) Resultado final\n\n\nAprovados\n19\n70,37 %\n\n\nReprovados\n8\n29,63 %\n\n\n\n\n\n\n\nTotal\n27\n100 %"
   }
 ]

@@ -137,6 +137,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 
 
 
+
 # Cronograma {#sec-crono}
 
 A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 20/12, neste caso, é aconselhado que fiquem disponíveis até esta data.**
@@ -185,6 +186,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 26 . &nbsp; Sex  --  15/12  --  <span style="color:LightGray">  --  </span> \
 27 . &nbsp; Qua  --  20/12  --  <span style="color:LightGray">  --  </span> \
 
+
+
+
 ---
 
 ## Crongrama Porposto Inicialmente
@@ -229,3 +233,31 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 25 . &nbsp; Qua  --  13/12  --   --  \
 26 . &nbsp; Sex  --  15/12  --   --  \
 27 . &nbsp; Qua  --  20/12  --   -- 
+
+# Resultados
+
+Inicialmente foram **49 inscritos**, entretanto ao final do curso ficamos com **27** estudantes. Isso se deu pois, devido a eventos climáticos e interrupção no fornecimento de energia, o [CEPEX aprovou um período excepcional para cancelamento de disciplinas](https://www.uff.br/?q=informes/graduacao/periodo-excepcional-de-cancelamento-de-disciplinas-e-outros) veja a [Resolução CEPEx/UFF nº 2.757](https://www.uff.br/sites/default/files/informes/resolucao_cepex_2.757_de_29_de_novembro_de_2023_-_aprova_periodo_excepcional_para_cancelamento_de_disciplinas_referentes_ao_2o_periodo_letivo_de_2023.docx.pdf).
+
+
+::: {#tbl-panel layout-ncol=2}
+
+|     |
+|---|---|---| 
+| Aprovados      | 17 | 62,96 %  |
+| Reprovados     | 3  | 11,11 %  |
+| Ficaram em VS  | 7  | 25,93 %  |
+| Total          | 27 | 100 %    |
+
+: Resultado Parcial {#tbl-first}
+
+|                           |
+|---|---|---| 
+| Aprovados | 19 | 70,37 %  |
+| Reprovados| 8  | 29,63 %  |
+|           |    |          |
+| Total     | 27 |100 %     |
+
+: Resultado final {#tbl-second}
+
+Resultados
+:::
