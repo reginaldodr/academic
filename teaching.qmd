@@ -7,12 +7,9 @@ format:
 ---
 ![](lousa.png)
 
-### Turmas Atuais -- 2023-2
+### Turmas Atuais -- 2024-1
 
--   [Cálculo II](calculoII/c2-2023-2.qmd) -- RCN00020 
-    -   Turma C1: 4ª e 6ª 16h -- 18h
--   [Cálculo III](calculoIII/c3-2023-2.qmd) -- RCN00021
-    -   Turma M1: 4ª e 6ª 14h -- 16h
+- Em breve
 
 ---
 

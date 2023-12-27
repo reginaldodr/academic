@@ -26,27 +26,28 @@ Campus de Rio das Ostras
 
 ---
 
-### Turmas Atuais -- 2023-2
+### Turmas Atuais -- 2024-1
 
--   [Cálculo II](calculoII/c2-2023-2.qmd) -- RCN00020 
-    -   Turma C1: 4ª e 6ª 16h -- 18h
--   [Cálculo III](calculoIII/c3-2023-2.qmd) -- RCN00021
-    -   Turma M1: 4ª e 6ª 14h -- 16h
-
+- Em Breve
 
 ### Formação Acadêmica/Titulação
 
--   2006 -- Licenciatura em Matemática pela UFV
+-   2001 -- 2006: Licenciatura em Matemática pela UFV
 
--   2008 -- Mestrado em Matemática pela UFF
+-   2006 -- 2008: Mestrado em Matemática pela UFF
 
--   2011 -- Doutorado em Matemática pela UFMG
+-   2009 -- 2011: Doutorado em Matemática pela UFMG
 
-### Área de pesquisa
+### Pesquisa
 
--   Equações Diferenciais Parciais - EDP
+- Linhas de Pesquisa
+  -   Equações Diferenciais Parciais - EDP
 
--   Controlabilidade de Equações Diferenciais Parciais
+  -   Controlabilidade de Equações Diferenciais Parciais
+
+- [Grupo de Pesquisa CNPq](http://dgp.cnpq.br/dgp/espelhogrupo/8734602523044835)
+
+- [Pós-Graduação IME-UFF](https://pgmat-uff.com.br/)
 
 - [Publicações](pesquisa.qmd)
 
