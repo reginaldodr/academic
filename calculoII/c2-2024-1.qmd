@@ -13,7 +13,7 @@ from: markdown+emoji
 ---
 # Informações Básicas
 
--  **Horário e sala:** 4ª e 6ª 16h -- 18h -- **sala 04 -- IHS (prédio alugado)**\
+-  **Horário e sala:** 2ª (14h às 16h) e 3ª (16h às 18h) -- **sala 04 -- IHS (prédio alugado)**\
 confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
 
 -  **Atendimento:** sala 104 -- IHS (prédio alugado)
@@ -25,13 +25,7 @@ INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES 
 DE  PRIMEIRA  ORDEM.  EQUAÇÕES  DIFERENCIAIS  DE  SEGUNDA  ORDEM.  EQUAÇÕES  DIFERENCIAIS
 LINEARES DE ORDEM N.
 
-- **Monitoria:** Diego\
-Sala: Laboratório do IHS\
-SEG 14:00 - 16:00 \
-TER 11:30 - 13:00 \
-QUA 16:00 - 18:00\
-QUI  16:00 - 18:00\ 
-SEX 16:00 - 18:00 \ 
+- **Monitoria:** 
 
 # Apresentação do Curso
 
@@ -234,30 +228,4 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 26 . &nbsp; Sex  --  15/12  --   --  \
 27 . &nbsp; Qua  --  20/12  --   -- 
 
-# Resultados
 
-Inicialmente foram **49 inscritos**, entretanto ao final do curso ficamos com **27** estudantes. Isso se deu pois, devido a eventos climáticos e interrupção no fornecimento de energia, o [CEPEX aprovou um período excepcional para cancelamento de disciplinas](https://www.uff.br/?q=informes/graduacao/periodo-excepcional-de-cancelamento-de-disciplinas-e-outros) veja a [Resolução CEPEx/UFF nº 2.757](https://www.uff.br/sites/default/files/informes/resolucao_cepex_2.757_de_29_de_novembro_de_2023_-_aprova_periodo_excepcional_para_cancelamento_de_disciplinas_referentes_ao_2o_periodo_letivo_de_2023.docx.pdf).
-
-
-::: {#tbl-panel layout-ncol=2}
-
-|     |
-|---|---|---| 
-| Aprovados      | 17 | 62,96 %  |
-| Reprovados     | 3  | 11,11 %  |
-| Ficaram em VS  | 7  | 25,93 %  |
-| Total          | 27 | 100 %    |
-
-: Resultado Parcial {#tbl-first}
-
-|                           |
-|---|---|---| 
-| Aprovados | 19 | 70,37 %  |
-| Reprovados| 8  | 29,63 %  |
-|           |    |          |
-| Total     | 27 |100 %     |
-
-: Resultado final {#tbl-second}
-
-Resultados
-:::

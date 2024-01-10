@@ -28,7 +28,9 @@ Campus de Rio das Ostras
 
 ### Turmas Atuais -- 2024-1
 
-- Em Breve
+- [Cálculo II](calculoII/c2-2024-1.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
+
+- [GAAL](gaal/gaal-2024-1.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
 
 ### Formação Acadêmica/Titulação
 

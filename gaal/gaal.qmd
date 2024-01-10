@@ -1,0 +1,24 @@
+---
+title: Gaal -- Geometria Analítica e Álgebra Linear
+format:
+  html:
+    toc: false
+---
+
+
+
+::: {layout-ncol=2}
+
+## Material Básico
+
+
+
+
+## Material Complementar
+
+:::
+
+
+
+
+

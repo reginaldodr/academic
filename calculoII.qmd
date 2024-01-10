@@ -1,0 +1,36 @@
+---
+title: Cálculo II -- Cálculo Integral e EDO
+format:
+  html:
+    toc: false
+---
+
+
+![](capa.png){fig-align="center" width=80%}
+
+
+::: {layout-ncol=2}
+
+## Material Básico
+
+- [Slides-integral](integral.pdf)
+
+- [Slides-EDO](edo.pdf)
+
+- [Curso em videoaulas](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
+
+- [Provas antigas](provas/)
+
+
+
+## Material Complementar
+
+- [Crescimento Logístico com Python](../posts/crescimento-logistico.qmd)
+
+- [Estimando o valor de $\pi$ usando Python com a técnica de Arquimedes](area-circulo.pdf)
+:::
+
+
+
+
+

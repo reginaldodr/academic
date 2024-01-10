@@ -9,7 +9,9 @@ format:
 
 ### Turmas Atuais -- 2024-1
 
-- Em breve
+- [Cálculo II](calculoII/c2-2024-1.qmd)
+
+- [GAAL](gaal/gaal-2024-1.qmd)
 
 ---
 

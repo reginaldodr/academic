@@ -1,0 +1,25 @@
+---
+title: GAAL RCN00075 -- 2024-1
+number-sections: true
+
+  
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+# Informações Básicas
+
+-  **Horário e sala:** 2ª (16h às 18h) e 3ª (14h às 16h) -- **sala 04 -- IHS (prédio alugado)**\
+confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
+
+-  **Atendimento:** sala 104 -- IHS (prédio alugado)
+
+- [Material a ser utilizado](calculoII.qmd)
+
+-  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
+MATRIZES E SISTEMAS LINEARES. DETERMINANTES. VETORES NO PLANO E NO ESPAÇO. RETAS E PLANOS. ESPAÇO $\mathbb{R}^n$. AUTOVALORES E AUTOVETORES DE UMA MATRIZ. DIAGONALIZAÇÃO DE MATRIZES. RECONHECIMENTO DE CÔNICAS.
+
+- **Monitoria:** 
+
+# Apresentação do Curso
