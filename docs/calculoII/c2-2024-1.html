@@ -146,10 +146,9 @@ div.csl-indent {
   <li><a href="#apresentação-do-curso" id="toc-apresentação-do-curso" class="nav-link" data-scroll-target="#apresentação-do-curso"><span class="header-section-number">2</span> Apresentação do Curso</a></li>
   <li><a href="#avaliação" id="toc-avaliação" class="nav-link" data-scroll-target="#avaliação"><span class="header-section-number">3</span> Avaliação</a>
   <ul class="collapse">
-  <li><a href="#sobre-as-provas" id="toc-sobre-as-provas" class="nav-link" data-scroll-target="#sobre-as-provas"><span class="header-section-number">3.1</span> Sobre as Provas</a></li>
-  <li><a href="#sobre-o-trabalho" id="toc-sobre-o-trabalho" class="nav-link" data-scroll-target="#sobre-o-trabalho"><span class="header-section-number">3.2</span> Sobre o Trabalho</a></li>
-  <li><a href="#segunda-chamada" id="toc-segunda-chamada" class="nav-link" data-scroll-target="#segunda-chamada"><span class="header-section-number">3.3</span> Segunda Chamada</a></li>
-  <li><a href="#verificação-suplementar" id="toc-verificação-suplementar" class="nav-link" data-scroll-target="#verificação-suplementar"><span class="header-section-number">3.4</span> Verificação Suplementar</a></li>
+  <li><a href="#sobre-a-prova" id="toc-sobre-a-prova" class="nav-link" data-scroll-target="#sobre-a-prova"><span class="header-section-number">3.1</span> Sobre a Prova</a></li>
+  <li><a href="#segunda-chamada" id="toc-segunda-chamada" class="nav-link" data-scroll-target="#segunda-chamada"><span class="header-section-number">3.2</span> Segunda Chamada</a></li>
+  <li><a href="#verificação-suplementar" id="toc-verificação-suplementar" class="nav-link" data-scroll-target="#verificação-suplementar"><span class="header-section-number">3.3</span> Verificação Suplementar</a></li>
   </ul></li>
   <li><a href="#listas-de-exercícios" id="toc-listas-de-exercícios" class="nav-link" data-scroll-target="#listas-de-exercícios"><span class="header-section-number">4</span> Listas de Exercícios</a></li>
   <li><a href="#sec-ref" id="toc-sec-ref" class="nav-link" data-scroll-target="#sec-ref"><span class="header-section-number">5</span> Referências</a></li>
@@ -184,6 +183,7 @@ div.csl-indent {
 <section id="informações-básicas" class="level1" data-number="1">
 <h1 data-number="1"><span class="header-section-number">1</span> Informações Básicas</h1>
 <ul>
+<li><p><strong>Início e Fim do Período:</strong> 18/03/2024 a 17/07/2024</p></li>
 <li><p><strong>Horário e sala:</strong> 2ª (14h às 16h) e 3ª (16h às 18h) – <strong>sala 04 – IHS (prédio alugado)</strong><br>
 confira no <a href="http://200.159.243.2:10032/home/index_simples">Quadro de Alocação de salas do IHS</a></p></li>
 <li><p><strong>Atendimento:</strong> sala 104 – IHS (prédio alugado)</p></li>
@@ -195,7 +195,19 @@ INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES 
 </section>
 <section id="apresentação-do-curso" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Apresentação do Curso</h1>
-<p>Este curso é constituído de dois grandes módulos: <strong>Cálculo Integral</strong> e <strong>Equações Diferenciais Ordinárias (EDO)</strong></p>
+<p>Este curso é constituído pelos seguintes módulos</p>
+<ol type="1">
+<li><strong>Cálculo Integral</strong>
+<ol type="1">
+<li>A integral e técnicas de integração;</li>
+<li>Aplicações da Integral;</li>
+</ol></li>
+<li><strong>Equações Diferenciais Ordinárias (EDO)</strong>
+<ol type="1">
+<li>EDOs de 1ª ordem;</li>
+<li>EDOs de 2ª ordem lineares.</li>
+</ol></li>
+</ol>
 <p>Usaremos o <strong>Classroom</strong> como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.</p>
 <p>Para o módulo de <strong>Cálculo Integral</strong>, usaremos com livro texto a referência <span class="citation" data-cites="stewart1">[<a href="#ref-stewart1" role="doc-biblioref">1</a>]</span>, e para o módulo de <strong>EDO</strong> usaremos <span class="citation" data-cites="Boyce">[<a href="#ref-Boyce" role="doc-biblioref">2</a>]</span>. <strong>Essas duas referências estão disponíveis para empréstimo na Biblioteca do campus</strong> – <a href="https://bibliotecas.uff.br/bro/">BRO</a>. <span style="color:red">É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span></p>
 <p>As demais referência contidas na <a href="#sec-ref">Seção&nbsp;5</a> serão usadas como material auxiliar ao longo do curso.<br>
@@ -203,34 +215,16 @@ INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES 
 </section>
 <section id="avaliação" class="level1" data-number="3">
 <h1 data-number="3"><span class="header-section-number">3</span> Avaliação</h1>
-<p>A avaliação será feita ao fim de cada módulo:</p>
-<ul>
-<li><p><strong>Cálculo Integral:</strong> Um prova, valendo 8 pontos, e um trabalho, valendo 2 ponto.</p></li>
-<li><p><strong>EDO:</strong> Uma única prova, valendo 10 pontos.</p></li>
-</ul>
-<p>A nota final será a média aritmética entre as avaliações de cada módulo, isto é, <span class="math display">\[N=\frac{P_1+T_1+P_2}{2},\]</span> onde <span class="math inline">\(P_1\)</span> é a nota da primeira prova, <span class="math inline">\(T_1\)</span> é a nota do trabalho e <span class="math inline">\(P_2\)</span> é a nota da segunda prova. Veja no cronograma, <a href="#sec-crono">Seção&nbsp;6</a> abaixo, as datas destas avaliações.</p>
-<section id="sobre-as-provas" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="sobre-as-provas"><span class="header-section-number">3.1</span> Sobre as Provas</h2>
-<p>As duas provas serão <strong>escritas e com consulta</strong> a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.</p>
+<p>Durante as aulas, serão propostos exercícios, chamados de <strong>Para Casa</strong> <span class="emoji" data-emoji="house">🏠</span> , que deverão ser entregues ao final de cada módulo. Ao final do curso, será aplicada uma <strong>Prova Final</strong> contemplando toda a matéria do curso.</p>
+<p>A nota final será a média ponderada entre os <strong>Para Casa</strong> e a <strong>Prova Final</strong>, isto é, <span class="math display">\[N=\frac{3\times PC+7\times PF}{10},\]</span> onde <span class="math inline">\(PC\)</span> é a nota dos Para Casa e <span class="math inline">\(PF\)</span> a nota da Prova Final. Veja no cronograma, <a href="#sec-crono">Seção&nbsp;6</a> abaixo, as datas destas avaliações.</p>
+<section id="sobre-a-prova" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="sobre-a-prova"><span class="header-section-number">3.1</span> Sobre a Prova</h2>
+<p>A prova será <strong>escritas e com consulta</strong> a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.</p>
 </section>
-<section id="sobre-o-trabalho" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="sobre-o-trabalho"><span class="header-section-number">3.2</span> Sobre o Trabalho</h2>
-<ul>
-<li>Tema: Integrais Impróprias e Teste da Comparação.
-<ul>
-<li><strong>Referências:</strong> Seção 7.8 da referência <span class="citation" data-cites="stewart1">[<a href="#ref-stewart1" role="doc-biblioref">1</a>]</span> . Videoaulas: <a href="https://youtu.be/UqpxSNmyGPI">Integrais Impróprias</a> e <a href="https://youtu.be/e-SFGQVi-ys">Testes de Convergência</a></li>
-</ul></li>
-<li>Deverá ser feito em grupos de 4 a 5 integrantes.</li>
-<li>Deverá ser manuscrito.</li>
-<li>Deverá ser entregue no dia da Primeira Prova.</li>
-<li>Haverá na primeira prova uma questão sobre o trabalho.</li>
-</ul>
-</section>
-<section id="segunda-chamada" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="segunda-chamada"><span class="header-section-number">3.3</span> Segunda Chamada</h2>
+<section id="segunda-chamada" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="segunda-chamada"><span class="header-section-number">3.2</span> Segunda Chamada</h2>
 <p>O Art. 98 do <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55">Regulamento dos Cursos de graduação</a> garante ao aluno o direito a uma avaliação de <strong>Segunda Chamada (VR)</strong>, <span style="color:red">sem a necessidade de justificativa!</span> Portanto, aquele aluno que <strong>não puder ou não quiser</strong> fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.</p>
-<p>A Segunda Chamada de todas as avaliações será feita no mesmo dia (veja data na <a href="#sec-crono">Seção&nbsp;6</a>). Será elaborada uma prova de Segunda Chamada para cada avaliação regular do curso, no mesmo nível destas avaliações.</p>
-<p>Contudo, cabe ressaltar que, de acordo com o mesmo artigo, a Segunda Chamada <strong>substituirá uma, e somente uma,</strong> das avaliações que tenha faltado. Portanto, se o aluno faltar a mais de uma avaliação, no dia da Segunda Chamada poderá escolher qual fará, mas só poderá fazer uma das avaliações.</p>
+<p>Como só haverá uma prova escrita, a Segunda Chamada será referente apenas a esta avaliação.</p>
 <div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -242,12 +236,12 @@ Importante
 </div>
 <div class="callout-body-container callout-body">
 <p>Como <strong>não há a necessidade de justificar a falta nas avaliações</strong> para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações.</p>
-<p>Por conta disso, os primeiros 30 minutos de cada avaliação serão reservados para o aluno decidir melhor se quer fazer a prova ou deixará para fazer a Segunda Chamada. Isto é, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, dentro dos primeiros 30 minutos, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem após os 30 minutos não terão mais o direito à Segunda Chamada.</p>
+<p>Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a prova não terão o direito à Segunda Chamada.</p>
 </div>
 </div>
 </section>
-<section id="verificação-suplementar" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="verificação-suplementar"><span class="header-section-number">3.4</span> Verificação Suplementar</h2>
+<section id="verificação-suplementar" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="verificação-suplementar"><span class="header-section-number">3.3</span> Verificação Suplementar</h2>
 <p>Em concordância com o <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55">Regulamento dos Cursos de graduação</a> em seu Art. 99, a <strong>Verificação Suplementar (VS)</strong> é vetada aos discentes já aprovados e é <strong>obrigatória</strong> para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.</p>
 </section>
 </section>
@@ -318,91 +312,73 @@ Leia a seção 7.5 (Estratégias de Integração)<br>
 </section>
 <section id="sec-crono" class="level1" data-number="6">
 <h1 data-number="6"><span class="header-section-number">6</span> Cronograma</h1>
-<p>A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. <strong>Cabe ressaltar que o semestre se encerra no dia 20/12, neste caso, é aconselhado que fiquem disponíveis até esta data.</strong></p>
+<p>A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. <strong>Cabe ressaltar que o semestre se encerra no dia 17/07, neste caso, é aconselhado que fiquem disponíveis até esta data.</strong></p>
 <section id="cronograma-efetivado" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="cronograma-efetivado"><span class="header-section-number">6.1</span> Cronograma Efetivado</h2>
-<p>01 . &nbsp; Qua – 30/08 – Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma.<br>
-02 . &nbsp; Sex – 01/09 – Resolução do Para <span class="emoji" data-emoji="house">🏠</span> . Somas de Riemann e Integral Definida. Distância percorrida. <strong>Próxima Aula:</strong> resolver Para <span class="emoji" data-emoji="house">🏠</span> 2 e 3.<br>
-03 . &nbsp; Qua – 06/09 – Resolução do Para <span class="emoji" data-emoji="house">🏠</span> . Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares. <strong>Próxima Aula:</strong> resolver Para <span class="emoji" data-emoji="house">🏠</span> 4 e 5.<br>
-<span style="color:orange"> XX . &nbsp; Qui – 07/09 – Independência </span><br>
-<span style="color:orange"> XX . &nbsp; Sex – 08/09 – Facultativo </span><br>
-04 . &nbsp; Qua – 13/09 – Resolução dos Para <span class="emoji" data-emoji="house">🏠</span> 4 e 5. Funções não-integráveis. Integral indefinida. Queda livre de corpos. Regra da substituição. <strong>Próxima Aula:</strong> resolver Para <span class="emoji" data-emoji="house">🏠</span> 6.<br>
-05 . &nbsp; Sex – 15/09 – Resolução do Para <span class="emoji" data-emoji="house">🏠</span> 6. Cresc. populacional Malthusiano. Integral de Funções Pares e Ímpares. <strong>Próxima Aula:</strong> resolver Para <span class="emoji" data-emoji="house">🏠</span> 7 e 8.<br>
-06 . &nbsp; Qua – 20/09 – Resolução Para <span class="emoji" data-emoji="house">🏠</span> 7 e 8. Áreas entre curvas. Exemplo 1. Exemplo 2 (terminar).<br>
-07 . &nbsp; Sex – 22/09 – Conclusão do Exemplo 2. Integração por Partes. Integração por substituição Trigonométrica - Exemplo 1. <strong>Próxima Aula:</strong> resolver Para <span class="emoji" data-emoji="house">🏠</span> 9 e 10.<br>
-08 . &nbsp; Qua – 27/09 – Resolução dos Para <span class="emoji" data-emoji="house">🏠</span> 9 e 10. Revisão do Exemplo 1 da aula anterior. Usamos substituição trigonométrica para provar a fórmula da área de um círculo. <strong>Próxima Aula:</strong> resolver Para <span class="emoji" data-emoji="house">🏠</span> 11<br>
-09 . &nbsp; Sex – 29/09 – Resolução do Para <span class="emoji" data-emoji="house">🏠</span> 11. Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico. <strong>Próxima Aula:</strong> resolver Para <span class="emoji" data-emoji="house">🏠</span> 12<br>
-10 . &nbsp; Qua – 04/10 – Resolução dos Para <span class="emoji" data-emoji="house">🏠</span> 12. Cálculo de volumes por fatiamento.<br>
-11 . &nbsp; Sex – 06/10 – Volume pelo método dos discos. Sólidos de Revolução <span class="emoji" data-emoji="fist">✊</span> . Volume por cascas cilíndricas. Comprimento de Curvas. <strong>Próxima Aula:</strong> resolver Para <span class="emoji" data-emoji="house">🏠</span> 13.<br>
-12 . &nbsp; Sex – 11/10 – Resolução dos Para <span class="emoji" data-emoji="house">🏠</span> 13. Calcular o comprimento da circunferência. Resolução de alguns exercícios.<br>
-<span style="color:orange"> XX . &nbsp; Qui – 12/10 – Nossa Senhora Aparecida </span><br>
-<span style="color:orange"> XX . &nbsp; Sex – 13/10 – Facultativo </span><br>
-<span style="color:orange"> XX . &nbsp; Qua – 18/10 – Semana Nacional de Ciência e Tecnologia </span><br>
-<span style="color:orange"> XX . &nbsp; Sex – 20/10 – Semana Nacional de Ciência e Tecnologia </span><br>
-<span style="color:red"> 13 . &nbsp; Qua – 25/10 – 1ª Prova </span> – <a href="provas/2023-2-p1-C1-c2-gabarito.pdf">gabarito</a><br>
-14 . &nbsp; Sex – 27/10 – EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar). Classificação e Definição de Solução.<br>
-<span style="color:orange"> XX . &nbsp; Sáb – 28/10 – Servidor Público </span><br>
-15 . &nbsp; Qua – 01/11 – Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem lineare fator integrante.<br>
-<span style="color:orange"> XX . &nbsp; Qui – 02/11 – Finados </span><br>
-<span style="color:orange"> XX . &nbsp; Sex – 03/11 – Facultativo </span><br>
-16 . &nbsp; Qua – 08/11 – Não houve aula – apresentei sintomas de covid<br>
-17 . &nbsp; Sex – 10/11 – Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares. <br>
-<span style="color:orange"> XX . &nbsp; Qua – 15/11 – Proclamação da República </span><br>
-18 . &nbsp; Sex – 17/11 – EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Princípio da Superposição. EDO 2ª ord. linear homogênea com coef. constantes. Revisão de números complexos e fórmula de Euler.<br>
-<span style="color:orange"> XX . &nbsp; Seg – 20/11 – Consciência Negra </span><br>
-19 . &nbsp; Qua – 22/11 – Método dos coeficientes a determinar<br>
-20 . &nbsp; Sex – 24/11 – Aula de Exercícios<br>
-21 . &nbsp; Qua – 29/11 – Aula de Exercícios<br>
-<span style="color:red"> 22 . &nbsp; Sex – 01/12 – 2ª Prova </span> – <a href="provas/2023-2-p2-TC1-c2-gabarito.pdf">gabarito</a><br>
-<span style="color:red"> 23 . &nbsp; Qua – 06/12 – 2ª Chamada </span> <a href="provas/2023-2-vr-p1turma-C1-c2-gabarito.pdf">gabarito VR-P1</a> &nbsp; <a href="provas/2023-2-vr-p2-turmaC1-c2-gabarito.pdf">gabarito VR-P2</a><br>
-24 . &nbsp; Sex – 08/12 – Vista da 2ª prova e da 2ª Chamada<br>
-<span style="color:red"> 25 . &nbsp; Qua – 13/12 – VS </span> <a href="provas/2023-2-vs-turmaC1-calc2-gabarito.pdf">gabarito</a><br>
-26 . &nbsp; Sex – 15/12 – <span style="color:LightGray"> – </span><br>
-27 . &nbsp; Qua – 20/12 – <span style="color:LightGray"> – </span><br>
-</p>
-<hr>
 </section>
 <section id="crongrama-porposto-inicialmente" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="crongrama-porposto-inicialmente"><span class="header-section-number">6.2</span> Crongrama Porposto Inicialmente</h2>
 <p>Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.</p>
-<p>01 . &nbsp; Qua – 30/08 – Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma.<br>
-02 . &nbsp; Sex – 01/09 – Somas de Riemann e Integral Definida. Distância percorrida<br>
-03 . &nbsp; Qua – 06/09 – Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares<br>
-<span style="color:orange"> XX . &nbsp; Qui – 07/09 – Independência </span><br>
-<span style="color:orange"> XX . &nbsp; Sex – 08/09 – Facultativo </span><br>
-04 . &nbsp; Qua – 13/09 – Funções não-integráveis. Integral indefinida<br>
-05 . &nbsp; Sex – 15/09 – Integração por Substituição e Aplicações (queda livre, cresc. populacional, carbono 14)<br>
-06 . &nbsp; Qua – 20/09 – Áreas entre curvas<br>
-07 . &nbsp; Sex – 22/09 – Integração por Partes. Integração por substituição Trigonométrica<br>
-08 . &nbsp; Qua – 27/09 – Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico<br>
-09 . &nbsp; Sex – 29/09 – Cálculo de volumes pelo método dos discos<br>
-10 . &nbsp; Qua – 04/10 – Volume por cascas cilíndricas, Comprimento de Curvas<br>
-11 . &nbsp; Sex – 06/10 – Integrais Impróprias: Limites Infinitos<br>
-<span style="color:red"> 12 . &nbsp; Qua – 11/10 – 1ª Prova </span><br>
-<span style="color:orange"> XX . &nbsp; Qui – 12/10 – Nossa Senhora Aparecida </span><br>
-<span style="color:orange"> XX . &nbsp; Sex – 13/10 – Facultativo </span><br>
-<span style="color:orange"> XX . &nbsp; Qua – 18/10 – Semana Nacional de Ciência e Tecnologia </span><br>
-<span style="color:orange"> XX . &nbsp; Sex – 20/10 – Semana Nacional de Ciência e Tecnologia </span><br>
-13 . &nbsp; Qua – 25/10 – EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar)<br>
-14 . &nbsp; Sex – 27/10 – Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear<br>
-<span style="color:orange"> XX . &nbsp; Sáb – 28/10 – Servidor Público </span><br>
-15 . &nbsp; Qua – 01/11 – Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares<br>
-<span style="color:orange"> XX . &nbsp; Qui – 02/11 – Finados </span><br>
-<span style="color:orange"> XX . &nbsp; Sex – 03/11 – Facultativo </span><br>
-16 . &nbsp; Qua – 08/11 – EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano<br>
-17 . &nbsp; Sex – 10/11 – Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas<br>
-<span style="color:orange"> XX . &nbsp; Qua – 15/11 – Proclamação da República </span><br>
-18 . &nbsp; Sex – 17/11 – EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos. Caso raízes complexas e fórmula de Euler<br>
-<span style="color:orange"> XX . &nbsp; Seg – 20/11 – Consciência Negra </span><br>
-19 . &nbsp; Qua – 22/11 – Método dos coeficientes a determinar<br>
-20 . &nbsp; Sex – 24/11 – Método da variação dos Parâmetros<br>
-<span style="color:red"> 21 . &nbsp; Qua – 29/11 – 2ª Prova </span><br>
-<span style="color:red"> 22 . &nbsp; Sex – 01/12 – 2ª Chamada </span><br>
-<span style="color:red"> 23 . &nbsp; Qua – 06/12 – VS </span><br>
-24 . &nbsp; Sex – 08/12 – –<br>
-25 . &nbsp; Qua – 13/12 – –<br>
-26 . &nbsp; Sex – 15/12 – –<br>
-27 . &nbsp; Qua – 20/12 – –</p>
+<p><strong>1.1 A integral de Técnicas de integração</strong></p>
+<p>01 . &nbsp; Seg – 18/03 – Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma.<br>
+02 . &nbsp; Ter – 19/03 – Áreas como limite de somas superiores e inferiores. Integral Definida.<br>
+03 . &nbsp; Seg – 25/03 – Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares. Integral indefinida<br>
+04 . &nbsp; Ter – 26/03 – Integração por Substituição. Integração por Partes.<br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> &nbsp; <span style="color:orange"> Sex – 29/03 – Sexta-feira da Paixão </span><br>
+05 . &nbsp; Seg – 01/04 – Integração por substituição Trigonométrica<br>
+06 . &nbsp; Ter – 02/04 – Integração de funções racionais: frações parciais.<br>
+<span style="color:red"> <span class="emoji" data-emoji="writing_hand">✍️</span> &nbsp; Entrega dos Para Casa <span class="emoji" data-emoji="house">🏠</span> na próxima aula </span><br>
+</p>
+<hr>
+<p><strong>1.2 Aplicações da Integral</strong></p>
+<p>07 . &nbsp; Seg – 08/04 – Área do Círculo. Áreas entre curvas.<br>
+08 . &nbsp; Ter – 09/04 – Cálculo de volumes por fatiamento.<br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> &nbsp; <span style="color:orange"> Qua – 10/04 – Feriado Municipal </span><br>
+09 . &nbsp; Seg – 15/04 – Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas.<br>
+10 . &nbsp; Ter – 16/04 – Comprimento de Curvas. O comprimento da circunferência<br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> &nbsp; <span style="color:orange"> Dom – 21/04 – Tiradentes </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> &nbsp; <span style="color:orange"> Seg – 22/04 – Não Haverá Aula </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> &nbsp; <span style="color:orange"> Ter – 23/04 – São Jorge </span><br>
+11 . &nbsp; Seg – 29/04 – Integrais Impróprias: Limites Infinitos.<br>
+12 . &nbsp; Ter – 30/04 – Integrais Impróprias: Integrandos Descontínuos.<br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> &nbsp; <span style="color:orange"> Qua – 01/05 – Dia do Trabalho </span><br>
+13 . &nbsp; Seg – 06/05 – Teste de comparação.<br>
+14 . &nbsp; Ter – 07/05 – Aula de Exercício<br>
+<span style="color:red"> <span class="emoji" data-emoji="writing_hand">✍️</span> &nbsp; Entrega dos Para Casa <span class="emoji" data-emoji="house">🏠</span> na próxima aula </span><br>
+</p>
+<hr>
+<p><strong>2.1 EDOs de 1ª ordem</strong></p>
+<p>15 . &nbsp; Seg – 13/05 – EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar)<br>
+16 . &nbsp; Ter – 14/05 – Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear<br>
+17 . &nbsp; Seg – 20/05 – Equações Exatas e fator integrante.<br>
+18 . &nbsp; Ter – 21/05 – Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares<br>
+19 . &nbsp; Seg – 27/05 – Aula de Exercícios<br>
+<span style="color:red"> <span class="emoji" data-emoji="writing_hand">✍️</span> &nbsp; Entrega dos Para Casa <span class="emoji" data-emoji="house">🏠</span> na próxima aula </span><br>
+</p>
+<hr>
+<p><strong>2.2 EDOs de 2ª ordem lineares</strong></p>
+<p>20 . &nbsp; Ter – 28/05 – EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano<br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Qui – 30/05 – Corpus Christ </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 31/05 – Ponto Facultativo </span><br>
+21 . &nbsp; Seg – 03/06 – Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas<br>
+22 . &nbsp; Ter – 04/06 – EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos e fórmula de Euler<br>
+23 . &nbsp; Seg – 10/06 – EDO linear homogênea com coeficientes constantes - Caso raízes complexas.Método dos coeficientes a determinar<br>
+24 . &nbsp; Ter – 11/06 – Método da variação dos Parâmetros<br>
+25 . &nbsp; Seg – 17/06 – Método da variação dos Parâmetros<br>
+26 . &nbsp; Ter – 18/06 – Aula de Exercícios<br>
+<span style="color:red"> <span class="emoji" data-emoji="writing_hand">✍️</span> &nbsp; Entrega dos Para Casa <span class="emoji" data-emoji="house">🏠</span> na próxima aula </span><br>
+</p>
+<hr>
+<p><strong>Provas Finais</strong></p>
+<p>27 . &nbsp; Seg – 24/06 – Aula de Dúvidas<br>
+<span style="color:red"> 28 . &nbsp; Ter – 25/06 – Prova da Matéria Toda </span><br>
+<span style="color:red"> 29 . &nbsp; Seg – 01/07 – 2ª Chamada </span><br>
+30 . &nbsp; Ter – 02/07 – Não haverá aula – semana dedicada a correção e vista das provas.<br>
+31 . &nbsp; Seg – 08/07 – Não haverá aula – semana dedicada a correção e vista das provas.<br>
+<span style="color:red"> 32 . &nbsp; Ter – 09/07 – VS </span><br>
+33 . &nbsp; Seg – 15/07 – –<br>
+34 . &nbsp; Ter – 16/07 – –<br>
+</p>
 
 
 </section>

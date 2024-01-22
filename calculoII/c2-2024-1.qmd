@@ -13,6 +13,8 @@ from: markdown+emoji
 ---
 # Informações Básicas
 
+- **Início e Fim do Período:** 18/03/2024 a 17/07/2024 
+
 -  **Horário e sala:** 2ª (14h às 16h) e 3ª (16h às 18h) -- **sala 04 -- IHS (prédio alugado)**\
 confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
 
@@ -29,7 +31,14 @@ LINEARES DE ORDEM N.
 
 # Apresentação do Curso
 
-Este curso é constituído de dois grandes módulos: **Cálculo Integral** e **Equações Diferenciais Ordinárias (EDO)**
+Este curso é constituído pelos seguintes módulos
+
+1. **Cálculo Integral**
+    1. A integral e técnicas de integração;
+    2. Aplicações da Integral;
+2. **Equações Diferenciais Ordinárias (EDO)**
+    1. EDOs de 1ª ordem;
+    2. EDOs de 2ª ordem lineares.
 
 Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
 
@@ -41,37 +50,22 @@ As demais referência contidas na @sec-ref serão usadas como material auxiliar 
 
 # Avaliação
 
-A avaliação será feita ao fim de cada módulo:
+Durante as aulas, serão propostos exercícios, chamados de **Para Casa** :house: , que deverão ser entregues ao final de cada módulo. Ao final do curso, será aplicada uma **Prova Final** contemplando toda a matéria do curso. 
 
-- **Cálculo Integral:** Um prova, valendo 8 pontos, e um trabalho, valendo 2 ponto.
+A nota final será a média ponderada entre os **Para Casa** e a **Prova Final**, isto é, 
+$$N=\frac{3\times PC+7\times PF}{10},$$
+onde $PC$ é a nota dos Para Casa e $PF$ a nota da Prova Final. Veja no cronograma, @sec-crono abaixo, as datas destas avaliações. 
 
-- **EDO:** Uma única prova, valendo 10 pontos.
+## Sobre a Prova
 
-A nota final será a média aritmética entre as avaliações de cada módulo, isto é, 
-$$N=\frac{P_1+T_1+P_2}{2},$$
-onde $P_1$ é a nota da primeira prova, $T_1$ é a nota do trabalho e $P_2$ é a nota da segunda prova. Veja no cronograma, @sec-crono abaixo, as datas destas avaliações. 
+A prova será **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.
 
-## Sobre as Provas
-
-As duas provas serão **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.
-
-
-## Sobre o Trabalho
-
-- Tema: Integrais Impróprias e Teste da Comparação. 
-    - **Referências:** Seção 7.8 da referência [@stewart1] . Videoaulas: [Integrais Impróprias](https://youtu.be/UqpxSNmyGPI) e [Testes de Convergência ](https://youtu.be/e-SFGQVi-ys)
-- Deverá ser feito em grupos de 4 a 5 integrantes.
-- Deverá ser manuscrito.
-- Deverá ser entregue no dia da Primeira Prova. 
-- Haverá na primeira prova uma questão sobre o trabalho.
 
 ## Segunda Chamada
 
 O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">sem a necessidade de justificativa!</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
 
-A Segunda Chamada de todas as avaliações será feita no mesmo dia (veja data na @sec-crono). Será elaborada uma prova de Segunda Chamada para cada avaliação regular do curso, no mesmo nível destas avaliações. 
-
-Contudo, cabe ressaltar que, de acordo com o mesmo artigo, a Segunda Chamada **substituirá uma, e somente uma,** das avaliações que tenha faltado. Portanto, se o aluno faltar a mais de uma avaliação, no dia da Segunda Chamada poderá escolher qual fará, mas só poderá fazer uma das avaliações.
+Como só haverá uma prova escrita, a Segunda Chamada será referente apenas a esta avaliação.
 
 
 ::: {.callout-warning}
@@ -79,12 +73,13 @@ Contudo, cabe ressaltar que, de acordo com o mesmo artigo, a Segunda Chamada **s
 
 Como **não há a necessidade de justificar a falta nas avaliações** para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações. 
 
-Por conta disso, os primeiros 30 minutos de cada  avaliação serão reservados para o aluno decidir melhor se quer fazer a prova ou deixará para fazer a Segunda Chamada. Isto é, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, dentro dos  primeiros 30 minutos, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem após os 30 minutos não terão mais o direito à Segunda Chamada.
+Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a prova não terão o direito à Segunda Chamada.
 :::
 
 ## Verificação Suplementar
 
 Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
 
 
 # Listas de Exercícios
@@ -134,98 +129,84 @@ Leia a seção 7.5 (Estratégias de Integração)\
 
 # Cronograma {#sec-crono}
 
-A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 20/12, neste caso, é aconselhado que fiquem disponíveis até esta data.**
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 17/07, neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
 
 
 ## Cronograma Efetivado
 
-01 . &nbsp; Qua  --  30/08  -- Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma. \
-02 . &nbsp; Sex  --  01/09  --   Resolução do Para :house: . Somas de Riemann e Integral Definida. Distância percorrida. 
-**Próxima Aula:** resolver Para :house: 2 e 3.\
-03 . &nbsp; Qua  --  06/09  -- Resolução do Para :house: .  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares. **Próxima Aula:** resolver Para :house: 4 e 5.  \
-<span style="color:orange"> XX . &nbsp; Qui  --  07/09  --  Independência </span> \
-<span style="color:orange"> XX . &nbsp; Sex  --  08/09  --  Facultativo </span> \
-04 . &nbsp; Qua  --  13/09  -- Resolução dos Para :house: 4 e 5. Funções não-integráveis. Integral indefinida. Queda livre de corpos. Regra da substituição. **Próxima Aula:** resolver Para :house: 6. \
-05 . &nbsp; Sex  --  15/09  -- Resolução do Para :house: 6. Cresc. populacional Malthusiano. Integral de Funções Pares e Ímpares. **Próxima Aula:** resolver Para :house: 7 e 8. \
-06 . &nbsp; Qua  --  20/09  -- Resolução Para :house: 7 e 8.  Áreas entre curvas. Exemplo 1. Exemplo 2 (terminar).\
-07 . &nbsp; Sex  --  22/09  --  Conclusão do Exemplo 2. Integração por Partes. Integração por substituição Trigonométrica - Exemplo 1. **Próxima Aula:** resolver Para :house: 9 e 10.\
-08 . &nbsp; Qua  --  27/09  --  Resolução dos Para :house: 9 e 10. Revisão do Exemplo 1 da aula anterior. Usamos substituição trigonométrica para provar a fórmula da área de um círculo. **Próxima Aula:** resolver Para :house: 11\
-09 . &nbsp; Sex  --  29/09  -- Resolução do Para :house: 11. Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico. **Próxima Aula:** resolver Para :house: 12 \
-10 . &nbsp; Qua  --  04/10  --  Resolução dos Para :house: 12. Cálculo de volumes por fatiamento. \
-11 . &nbsp; Sex  --  06/10  -- Volume pelo método dos discos. Sólidos de Revolução :fist: .  Volume por cascas cilíndricas. Comprimento de Curvas. **Próxima Aula:** resolver Para :house: 13.\
-12 . &nbsp; Sex  --  11/10  -- Resolução dos Para :house: 13. Calcular o comprimento da circunferência. Resolução de alguns exercícios. \
-<span style="color:orange"> XX . &nbsp; Qui  --  12/10  --  Nossa Senhora Aparecida </span> \
-<span style="color:orange"> XX . &nbsp; Sex  --  13/10  --  Facultativo </span> \
-<span style="color:orange"> XX . &nbsp; Qua  --  18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-<span style="color:orange"> XX . &nbsp; Sex  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-<span style="color:red"> 13 . &nbsp; Qua  --  25/10  --  1ª Prova </span>  -- [gabarito](provas/2023-2-p1-C1-c2-gabarito.pdf)\
-14 . &nbsp; Sex  --  27/10  --  EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar).  Classificação e Definição de Solução.  \
-<span style="color:orange"> XX . &nbsp; Sáb  --  28/10  --  Servidor Público </span> \
-15 . &nbsp; Qua  --  01/11  -- Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem lineare fator integrante.  \
-<span style="color:orange"> XX . &nbsp; Qui  --  02/11  --  Finados </span> \
-<span style="color:orange"> XX . &nbsp; Sex  --  03/11  --  Facultativo </span> \
-16 . &nbsp; Qua  --  08/11  --  Não houve aula -- apresentei sintomas de covid \
-17 . &nbsp; Sex  --  10/11  --  Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares. </span> \
-<span style="color:orange"> XX . &nbsp; Qua  --  15/11  --  Proclamação da República </span> \
-18 . &nbsp; Sex  --  17/11  --  EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Princípio da Superposição.  EDO 2ª ord. linear homogênea com coef. constantes. Revisão de números complexos e fórmula de Euler.\
-<span style="color:orange"> XX . &nbsp; Seg  --  20/11  --  Consciência Negra </span> \
-19 . &nbsp; Qua  --  22/11  -- Método dos coeficientes a determinar \
-20 . &nbsp; Sex  --  24/11  --  Aula de Exercícios \
-21 . &nbsp; Qua  --  29/11  -- Aula de Exercícios  \
-<span style="color:red"> 22 . &nbsp; Sex  --  01/12  --  2ª Prova </span>  -- [gabarito](provas/2023-2-p2-TC1-c2-gabarito.pdf)\
-<span style="color:red"> 23 . &nbsp; Qua  --  06/12  --  2ª Chamada </span>  [gabarito VR-P1](provas/2023-2-vr-p1turma-C1-c2-gabarito.pdf) &nbsp; [gabarito VR-P2](provas/2023-2-vr-p2-turmaC1-c2-gabarito.pdf) \
-24 . &nbsp; Sex  --  08/12  --  Vista da 2ª prova e da 2ª Chamada \
-<span style="color:red"> 25 . &nbsp; Qua  --  13/12  --  VS   </span> [gabarito ](provas/2023-2-vs-turmaC1-calc2-gabarito.pdf) \
-26 . &nbsp; Sex  --  15/12  --  <span style="color:LightGray">  --  </span> \
-27 . &nbsp; Qua  --  20/12  --  <span style="color:LightGray">  --  </span> \
 
 
-
-
----
 
 ## Crongrama Porposto Inicialmente
 
 Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
 
-01 . &nbsp; Qua  --  30/08  --  Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma. \
-02 . &nbsp; Sex  --  01/09  --  Somas de Riemann e Integral Definida. Distância percorrida \
-03 . &nbsp; Qua  --  06/09  --  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares \
-<span style="color:orange"> XX . &nbsp; Qui  --  07/09  --  Independência </span> \
-<span style="color:orange"> XX . &nbsp; Sex  --  08/09  --  Facultativo </span> \
-04 . &nbsp; Qua  --  13/09  --  Funções não-integráveis. Integral indefinida \
-05 . &nbsp; Sex  --  15/09  --  Integração por Substituição e Aplicações (queda livre, cresc. populacional, carbono 14) \
-06 . &nbsp; Qua  --  20/09  --  Áreas entre curvas \
-07 . &nbsp; Sex  --  22/09  --  Integração por Partes. Integração por substituição Trigonométrica \
-08 . &nbsp; Qua  --  27/09  --  Integração de funções racionais: frações parciais. Aplicação ao crescimento populacional logístico \
-09 . &nbsp; Sex  --  29/09  --  Cálculo de volumes pelo método dos discos \
-10 . &nbsp; Qua  --  04/10  --  Volume por cascas cilíndricas, Comprimento de Curvas \
-11 . &nbsp; Sex  --  06/10  --  Integrais Impróprias: Limites Infinitos \
-<span style="color:red"> 12 . &nbsp; Qua  --  11/10  --  1ª Prova </span> \
-<span style="color:orange"> XX . &nbsp; Qui  --  12/10  --  Nossa Senhora Aparecida </span> \
-<span style="color:orange"> XX . &nbsp; Sex  --  13/10  --  Facultativo </span> \
-<span style="color:orange"> XX . &nbsp; Qua  --  18/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-<span style="color:orange"> XX . &nbsp; Sex  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-13 . &nbsp; Qua  --  25/10  --  EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) \
-14 . &nbsp; Sex  --  27/10  --  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear \
-<span style="color:orange"> XX . &nbsp; Sáb  --  28/10  --  Servidor Público </span> \
-15 . &nbsp; Qua  --  01/11  --  Equações Exatas. Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares \
-<span style="color:orange"> XX . &nbsp; Qui  --  02/11  --  Finados </span> \
-<span style="color:orange"> XX . &nbsp; Sex  --  03/11  --  Facultativo </span> \
-16 . &nbsp; Qua  --  08/11  --  EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano \
-17 . &nbsp; Sex  --  10/11  --  Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas \
-<span style="color:orange"> XX . &nbsp; Qua  --  15/11  --  Proclamação da República </span> \
-18 . &nbsp; Sex  --  17/11  --  EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos. Caso raízes complexas e fórmula de Euler \
-<span style="color:orange"> XX . &nbsp; Seg  --  20/11  --  Consciência Negra </span> \
-19 . &nbsp; Qua  --  22/11  --  Método dos coeficientes a determinar \
-20 . &nbsp; Sex  --  24/11  --  Método da variação dos Parâmetros \
-<span style="color:red"> 21 . &nbsp; Qua  --  29/11  --  2ª Prova </span> \
-<span style="color:red"> 22 . &nbsp; Sex  --  01/12  --  2ª Chamada </span> \
-<span style="color:red"> 23 . &nbsp; Qua  --  06/12  --  VS </span> \
-24 . &nbsp; Sex  --  08/12  --   --  \
-25 . &nbsp; Qua  --  13/12  --   --  \
-26 . &nbsp; Sex  --  15/12  --   --  \
-27 . &nbsp; Qua  --  20/12  --   -- 
+**1.1 A integral de Técnicas de integração**
+
+01 . &nbsp; Seg  --  18/03  --  Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma. \
+02 . &nbsp; Ter  --  19/03  --  Áreas como limite de somas superiores e inferiores. Integral Definida. \
+03 . &nbsp; Seg  --  25/03  --  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares. Integral indefinida \
+04 . &nbsp; Ter  --  26/03  --  Integração por Substituição. Integração por Partes. \
+:beach_umbrella:  &nbsp; <span style="color:orange"> Sex  --  29/03  --  Sexta-feira da Paixão </span> \
+05 . &nbsp; Seg  --  01/04  --  Integração por substituição Trigonométrica \
+06 . &nbsp; Ter  --  02/04  --  Integração de funções racionais: frações parciais. \
+<span style="color:red"> :writing_hand: &nbsp;  Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**1.2 Aplicações da Integral**
+
+07 . &nbsp; Seg  --  08/04  --  Área do Círculo. Áreas entre curvas. \
+08 . &nbsp; Ter  --  09/04  --  Cálculo de volumes por fatiamento. \
+:beach_umbrella:  &nbsp; <span style="color:orange"> Qua  --  10/04  --  Feriado Municipal </span> \
+09 . &nbsp; Seg  --  15/04  --  Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas. \
+10 . &nbsp; Ter  --  16/04  --  Comprimento de Curvas. O comprimento da circunferência \
+:beach_umbrella:  &nbsp; <span style="color:orange"> Dom  --  21/04  --  Tiradentes </span> \
+:beach_umbrella:  &nbsp; <span style="color:orange"> Seg  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella:  &nbsp; <span style="color:orange"> Ter  --  23/04  --  São Jorge </span> \
+11 . &nbsp; Seg  --  29/04  --  Integrais Impróprias: Limites Infinitos. \
+12 . &nbsp; Ter  --  30/04  --  Integrais Impróprias: Integrandos Descontínuos.  \
+:beach_umbrella:  &nbsp; <span style="color:orange"> Qua  --  01/05  --  Dia do Trabalho </span> \
+13 . &nbsp; Seg  --  06/05  --  Teste de comparação. \
+14 . &nbsp; Ter  --  07/05  --  Aula de Exercício \
+<span style="color:red"> :writing_hand: &nbsp;  Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**2.1 EDOs de 1ª ordem**
+
+15 . &nbsp; Seg  --  13/05  --  EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) \
+16 . &nbsp; Ter  --  14/05  --  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear \
+17 . &nbsp; Seg  --  20/05  --  Equações Exatas e fator integrante. \
+18 . &nbsp; Ter  --  21/05  --  Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares \
+19 . &nbsp; Seg  --  27/05  --  Aula de Exercícios \
+<span style="color:red"> :writing_hand: &nbsp;  Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**2.2 EDOs de 2ª ordem lineares**
+
+20 . &nbsp; Ter  --  28/05  --  EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  30/05  --  Corpus Christ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  31/05  --  Ponto Facultativo </span> \
+21 . &nbsp; Seg  --  03/06  --  Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas \
+22 . &nbsp; Ter  --  04/06  --  EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos e fórmula de Euler \
+23 . &nbsp; Seg  --  10/06  --  EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.Método dos coeficientes a determinar \
+24 . &nbsp; Ter  --  11/06  --  Método da variação dos Parâmetros \
+25 . &nbsp; Seg  --  17/06  --  Método da variação dos Parâmetros \
+26 . &nbsp; Ter  --  18/06  --  Aula de Exercícios \
+<span style="color:red"> :writing_hand: &nbsp;  Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**Provas Finais**
+
+27 . &nbsp; Seg  --  24/06  --  Aula de Dúvidas \
+<span style="color:red"> 28 . &nbsp; Ter  --  25/06  --  Prova da Matéria Toda </span> \
+<span style="color:red"> 29 . &nbsp; Seg  --  01/07  --  2ª Chamada </span> \
+30 . &nbsp; Ter  --  02/07  --  Não haverá aula -- semana dedicada a correção e vista das provas. \
+31 . &nbsp; Seg  --  08/07  --  Não haverá aula -- semana dedicada a correção e vista das provas. \
+<span style="color:red"> 32 . &nbsp; Ter  --  09/07  --  VS </span> \
+33 . &nbsp; Seg  --  15/07  --   --  \
+34 . &nbsp; Ter  --  16/07  --   --  \
+
+
 
 
