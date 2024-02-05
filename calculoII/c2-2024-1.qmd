@@ -134,42 +134,34 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 
 ## Cronograma Efetivado
-
-
-
-
-## Crongrama Porposto Inicialmente
-
-Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
-
-**1.1 A integral de Técnicas de integração**
+**1.1 A integral e Técnicas de integração**
 
 01 . &nbsp; Seg  --  18/03  --  Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma. \
 02 . &nbsp; Ter  --  19/03  --  Áreas como limite de somas superiores e inferiores. Integral Definida. \
 03 . &nbsp; Seg  --  25/03  --  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares. Integral indefinida \
 04 . &nbsp; Ter  --  26/03  --  Integração por Substituição. Integração por Partes. \
-:beach_umbrella:  &nbsp; <span style="color:orange"> Sex  --  29/03  --  Sexta-feira da Paixão </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
 05 . &nbsp; Seg  --  01/04  --  Integração por substituição Trigonométrica \
 06 . &nbsp; Ter  --  02/04  --  Integração de funções racionais: frações parciais. \
-<span style="color:red"> :writing_hand: &nbsp;  Entrega dos Para Casa :house: na próxima aula </span> \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
 **1.2 Aplicações da Integral**
 
 07 . &nbsp; Seg  --  08/04  --  Área do Círculo. Áreas entre curvas. \
 08 . &nbsp; Ter  --  09/04  --  Cálculo de volumes por fatiamento. \
-:beach_umbrella:  &nbsp; <span style="color:orange"> Qua  --  10/04  --  Feriado Municipal </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
 09 . &nbsp; Seg  --  15/04  --  Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas. \
 10 . &nbsp; Ter  --  16/04  --  Comprimento de Curvas. O comprimento da circunferência \
-:beach_umbrella:  &nbsp; <span style="color:orange"> Dom  --  21/04  --  Tiradentes </span> \
-:beach_umbrella:  &nbsp; <span style="color:orange"> Seg  --  22/04  --  Não Haverá Aula </span> \
-:beach_umbrella:  &nbsp; <span style="color:orange"> Ter  --  23/04  --  São Jorge </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
 11 . &nbsp; Seg  --  29/04  --  Integrais Impróprias: Limites Infinitos. \
 12 . &nbsp; Ter  --  30/04  --  Integrais Impróprias: Integrandos Descontínuos.  \
-:beach_umbrella:  &nbsp; <span style="color:orange"> Qua  --  01/05  --  Dia do Trabalho </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
 13 . &nbsp; Seg  --  06/05  --  Teste de comparação. \
-14 . &nbsp; Ter  --  07/05  --  Aula de Exercício \
-<span style="color:red"> :writing_hand: &nbsp;  Entrega dos Para Casa :house: na próxima aula </span> \
+14 . &nbsp; Ter  --  07/05  --  Aula de Exercícios 1 \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
 **2.1 EDOs de 1ª ordem**
@@ -178,8 +170,8 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 16 . &nbsp; Ter  --  14/05  --  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear \
 17 . &nbsp; Seg  --  20/05  --  Equações Exatas e fator integrante. \
 18 . &nbsp; Ter  --  21/05  --  Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares \
-19 . &nbsp; Seg  --  27/05  --  Aula de Exercícios \
-<span style="color:red"> :writing_hand: &nbsp;  Entrega dos Para Casa :house: na próxima aula </span> \
+19 . &nbsp; Seg  --  27/05  --  Aula de Exercícios 2 \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
 **2.2 EDOs de 2ª ordem lineares**
@@ -192,13 +184,13 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 23 . &nbsp; Seg  --  10/06  --  EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.Método dos coeficientes a determinar \
 24 . &nbsp; Ter  --  11/06  --  Método da variação dos Parâmetros \
 25 . &nbsp; Seg  --  17/06  --  Método da variação dos Parâmetros \
-26 . &nbsp; Ter  --  18/06  --  Aula de Exercícios \
-<span style="color:red"> :writing_hand: &nbsp;  Entrega dos Para Casa :house: na próxima aula </span> \
+26 . &nbsp; Ter  --  18/06  --  Aula de Exercícios 3 \
+27 . &nbsp; Seg  --  24/06  --  Aula de Dúvidas \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
 **Provas Finais**
 
-27 . &nbsp; Seg  --  24/06  --  Aula de Dúvidas \
 <span style="color:red"> 28 . &nbsp; Ter  --  25/06  --  Prova da Matéria Toda </span> \
 <span style="color:red"> 29 . &nbsp; Seg  --  01/07  --  2ª Chamada </span> \
 30 . &nbsp; Ter  --  02/07  --  Não haverá aula -- semana dedicada a correção e vista das provas. \
@@ -206,6 +198,82 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 <span style="color:red"> 32 . &nbsp; Ter  --  09/07  --  VS </span> \
 33 . &nbsp; Seg  --  15/07  --   --  \
 34 . &nbsp; Ter  --  16/07  --   --  \
+:end: &nbsp; Qua  --  17/07  --  Fim do Período. :raised_hands:
+---
+
+
+
+
+## Crongrama Porposto Inicialmente
+
+Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
+
+**1.1 A integral e Técnicas de integração**
+
+01 . &nbsp; Seg  --  18/03  --  Apresentação. Um pouco sobre a História do Cálculo. Método da Exaustão. Notação Sigma. \
+02 . &nbsp; Ter  --  19/03  --  Áreas como limite de somas superiores e inferiores. Integral Definida. \
+03 . &nbsp; Seg  --  25/03  --  Propriedades da Integral. Teorema Fundamental do Cálculo e integrais elementares. Integral indefinida \
+04 . &nbsp; Ter  --  26/03  --  Integração por Substituição. Integração por Partes. \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
+05 . &nbsp; Seg  --  01/04  --  Integração por substituição Trigonométrica \
+06 . &nbsp; Ter  --  02/04  --  Integração de funções racionais: frações parciais. \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**1.2 Aplicações da Integral**
+
+07 . &nbsp; Seg  --  08/04  --  Área do Círculo. Áreas entre curvas. \
+08 . &nbsp; Ter  --  09/04  --  Cálculo de volumes por fatiamento. \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
+09 . &nbsp; Seg  --  15/04  --  Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas. \
+10 . &nbsp; Ter  --  16/04  --  Comprimento de Curvas. O comprimento da circunferência \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
+11 . &nbsp; Seg  --  29/04  --  Integrais Impróprias: Limites Infinitos. \
+12 . &nbsp; Ter  --  30/04  --  Integrais Impróprias: Integrandos Descontínuos.  \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
+13 . &nbsp; Seg  --  06/05  --  Teste de comparação. \
+14 . &nbsp; Ter  --  07/05  --  Aula de Exercícios 1 \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**2.1 EDOs de 1ª ordem**
+
+15 . &nbsp; Seg  --  13/05  --  EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) \
+16 . &nbsp; Ter  --  14/05  --  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear \
+17 . &nbsp; Seg  --  20/05  --  Equações Exatas e fator integrante. \
+18 . &nbsp; Ter  --  21/05  --  Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares \
+19 . &nbsp; Seg  --  27/05  --  Aula de Exercícios 2 \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**2.2 EDOs de 2ª ordem lineares**
+
+20 . &nbsp; Ter  --  28/05  --  EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  30/05  --  Corpus Christ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  31/05  --  Ponto Facultativo </span> \
+21 . &nbsp; Seg  --  03/06  --  Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas \
+22 . &nbsp; Ter  --  04/06  --  EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos e fórmula de Euler \
+23 . &nbsp; Seg  --  10/06  --  EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.Método dos coeficientes a determinar \
+24 . &nbsp; Ter  --  11/06  --  Método da variação dos Parâmetros \
+25 . &nbsp; Seg  --  17/06  --  Método da variação dos Parâmetros \
+26 . &nbsp; Ter  --  18/06  --  Aula de Exercícios 3 \
+27 . &nbsp; Seg  --  24/06  --  Aula de Dúvidas \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**Provas Finais**
+
+<span style="color:red"> 28 . &nbsp; Ter  --  25/06  --  Prova da Matéria Toda </span> \
+<span style="color:red"> 29 . &nbsp; Seg  --  01/07  --  2ª Chamada </span> \
+30 . &nbsp; Ter  --  02/07  --  Não haverá aula -- semana dedicada a correção e vista das provas. \
+31 . &nbsp; Seg  --  08/07  --  Não haverá aula -- semana dedicada a correção e vista das provas. \
+<span style="color:red"> 32 . &nbsp; Ter  --  09/07  --  VS </span> \
+33 . &nbsp; Seg  --  15/07  --   --  \
+34 . &nbsp; Ter  --  16/07  --   --  \
+:end: &nbsp; Qua  --  17/07  --  Fim do Período. :raised_hands:
+---
 
 
 
