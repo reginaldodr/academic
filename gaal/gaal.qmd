@@ -1,17 +1,36 @@
 ---
-title: Gaal -- Geometria Analítica e Álgebra Linear
+title: Geometria Analítica e Álgebra Linear -- GAAL
 format:
   html:
     toc: false
 ---
 
-
+$$
+{\color{blue} \underbrace{\begin{bmatrix}
+ a_{11}  & a_{12}  & \cdots &  a_{1n}  \\
+ a_{21} & a_{22}  & \cdots  & a_{2n} \\
+ \vdots & \vdots & \cdots & \vdots \\
+ a_{m1} & a_{m2}  & \cdots  & a_{mn} 
+\end{bmatrix}}_{A}}\ \
+{\color{red}
+\underbrace{\begin{bmatrix}
+x_1\\ x_2\\ \vdots \\ x_n
+\end{bmatrix}}_{X}
+}
+=
+\underbrace{\begin{bmatrix}
+b_1 \\ b_2\\ \vdots \\ b_n
+\end{bmatrix}}_{B}
+$$
 
 ::: {layout-ncol=2}
 
 ## Material Básico
 
+- [Slides](gaal.pdf)
+    - [Lista dos Para Casa](paracasa.pdf)
 
+- [Livro GAAl -- Reginaldo Santos -- UFMG](gaalt0.pdf)
 
 
 ## Material Complementar

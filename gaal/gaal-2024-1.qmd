@@ -15,17 +15,17 @@ from: markdown+emoji
 
 - **Início e Fim do Período:** 18/03/2024 a 17/07/2024 
 
--  **Horário e sala:** 2ª (16h às 18h) e 3ª (14h às 16h) -- **sala 04 -- IHS (prédio alugado)**\
+-  **Horário e sala:** 2ª (16h às 18h) e 3ª (14h às 16h) -- **sala 06 -- IHS (prédio alugado)**\
 confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
 
 -  **Atendimento:** sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) agendando horário.
 
-- [Material a ser utilizado](calculoII.qmd)
+- [Material a ser utilizado](gaal.qmd)
 
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 MATRIZES E SISTEMAS LINEARES. DETERMINANTES. VETORES NO PLANO E NO ESPAÇO. RETAS E PLANOS. ESPAÇO $\mathbb{R}^n$. AUTOVALORES E AUTOVETORES DE UMA MATRIZ. DIAGONALIZAÇÃO DE MATRIZES. RECONHECIMENTO DE CÔNICAS.
 
-- **Monitoria:** 
+- **Monitoria:** Aguardando o processo seletivo.
 
 # Apresentação do Curso
 
@@ -36,12 +36,16 @@ Este curso é constituído de dois módulos:
 
 Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
 
+Usaremos como livro texto as referências [@poole] e [@santosufmg]. **A primeira está disponível para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). A segudna pode ser baixada [aqui](gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+
+As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
+
 
 # Avaliação
 
 A avaliação será feita mediante:
 
-1. Exercícios propostos, chamados de **Para Casa** :house: , que deverão ser entregues ao final de cada módulo.
+1. Exercícios propostos, chamados de **Para Casa** :house: [veja aqui](paracasa.pdf) , que deverão ser entregues ao final de cada módulo.
 2. Um **trabalho escrito** sobre cônicas: elípse, hipérbole e parábola.
 3. **Prova Final** contemplando toda a matéria do curso. 
 
@@ -52,15 +56,24 @@ onde $PC$ é a nota dos Para Casa, $T$ é a nota do Trabalho Escrito e $PF$ a no
 ## Sobre o Trabalho Escrito
 
 - Tema: Cônicas: Elipse, hipérbole e parábola
-    - **Referências:** Seção 10.5 da referência [@stewart2] . Videoaulas: [Integrais Impróprias](https://youtu.be/UqpxSNmyGPI) 
+    - **Referências:** Seção 10.5 da referência [@stewart2] 
+    - **Videoaulas**: 
+      - [Elipse I](https://youtu.be/vp8WPjaLN-4?si=-wVB9AQly7EqlacU) 
+      - [Elipse II](https://youtu.be/ELZ5B_RPJk4?si=NVoPVuG1UOy8u_6_)
+      - [Hipérbole I](https://youtu.be/64mXj1iI7xI?si=E2uZ0HVwDD_mUodT)
+      - [Hipérbole II](https://youtu.be/XhjgiH3Q6O0?si=rj6tCPy6eZC7ch9N)
+      - [Parábola I](https://youtu.be/FEtPwrJleWM?si=2N_4uvQPQ6WVkpy9)
+      - [Parábola II](https://youtu.be/i_GFd-bayjM?si=sSIeghOXFZazJdTA)
 - Deverá ser feito em grupos de 4 a 5 integrantes.
 - Deverá ser manuscrito.
-- Deverá ser entregue no dia . 
+- Data de entrega ver @sec-crono. 
 
 
 ## Sobre a Prova
 
-A prova será **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.
+- Será **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.).
+- <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> 
+- Será permitido o uso de calculadora científica.
 
 
 ## Segunda Chamada
@@ -82,20 +95,94 @@ Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda
 
 Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
 
+
+# Listas de Exercícios
+
+Abaixo seguem os execícios das referências @poole e @santosufmg que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+
+@poole **§ 1.2:** 5, 11, 12, 14, 17 .\
+@poole **§ 3.2:** 1, 11, 13, 17, 35 .\
+@poole **§ 1.3:** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
+@poole **§ 1.4:** 3, 5, 7,  11, 15, 17, 21, 23 .\
+@poole **§ 2.2:** 1, 3, 5, 15, 17, 27, 29, 31 .\
+@poole **§ 2.3:** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47  .\
+:construction: Em construção... 
+
+# Referências {#sec-ref}
+
+
+::: {#refs}
+:::
+
 # Cronograma {#sec-crono}
 
 A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 17/07, neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
 ## Cronograma Efetivado
 
+**1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;**
 
+01 . &nbsp; Seg  --  18/03  --  <span style="color:Black"> Apresentação. Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$.  Representação Geométrica. Norma. Regra do paralelogramo. </span> \
+02 . &nbsp; Ter  --  19/03  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. </span> \
+03 . &nbsp; Seg  --  25/03  --  <span style="color:LightGray"> Matrizes: definição, operações e propriedades </span> \
+04 . &nbsp; Ter  --  26/03  --  <span style="color:LightGray"> Matrizes identidade e transposta. Operações usando o sympy. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
+05 . &nbsp; Seg  --  01/04  --  <span style="color:LightGray"> Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy. </span> \
+06 . &nbsp; Ter  --  02/04  --  <span style="color:LightGray"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
+07 . &nbsp; Seg  --  08/04  --  <span style="color:LightGray"> Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. Escalonamento </span> \
+08 . &nbsp; Ter  --  09/04  --  <span style="color:LightGray"> Posto de uma matriz. Variáveis livres. Usando sympy para resolver sistemas lineares. Método de Gauss-Jordan. Sistemas lineares Homogêneos </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
+09 . &nbsp; Seg  --  15/04  --  <span style="color:LightGray"> Matriz Inversa e Método de Inversão </span> \
+10 . &nbsp; Ter  --  16/04  --  <span style="color:LightGray"> Determinantes. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
+11 . &nbsp; Seg  --  29/04  --  <span style="color:LightGray"> Produto Vetorial e Produto Misto </span> \
+12 . &nbsp; Ter  --  30/04  --  <span style="color:LightGray"> Distâncias: entre Ponto e Plano, Ponto a Reta </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
+13 . &nbsp; Seg  --  06/05  --  <span style="color:LightGray"> Distâncias: Entre Retas, entre reta e Plano </span> \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+<span style="color:red"> :memo: &nbsp; Entrega do Trabalho para a próxima aula </span> \
+---
+
+**2. Álgebra Linear no $\mathbb{R}^n$**
+
+14 . &nbsp; Ter  --  07/05  --  <span style="color:LightGray"> Dependência e Independência Linear </span> \
+15 . &nbsp; Seg  --  13/05  --  <span style="color:LightGray"> Posição Relativa de retas e planos </span> \
+16 . &nbsp; Ter  --  14/05  --  <span style="color:LightGray"> Subespaço. Base e Dimensão </span> \
+17 . &nbsp; Seg  --  20/05  --  <span style="color:LightGray"> Aula de Exercícios </span> \
+18 . &nbsp; Ter  --  21/05  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
+19 . &nbsp; Seg  --  27/05  --  <span style="color:LightGray"> Mudança de Coordenadas. Rotação e Translação </span> \
+20 . &nbsp; Ter  --  28/05  --  <span style="color:LightGray"> Autovetores e Autovalores </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  30/05  --  Corpus Christ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  31/05  --  Ponto Facultativo </span> \
+21 . &nbsp; Seg  --  03/06  --  <span style="color:LightGray"> Diagonalização de Matrizes </span> \
+22 . &nbsp; Ter  --  04/06  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas </span> \
+23 . &nbsp; Seg  --  10/06  --  <span style="color:LightGray"> Reconhecimento de Cônicas </span> \
+24 . &nbsp; Ter  --  11/06  --  <span style="color:LightGray"> Aula de Exercícios </span> \
+25 . &nbsp; Seg  --  17/06  --  <span style="color:LightGray"> Aula de Dúvidas </span> \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**Provas Finais**
+
+<span style="color:red"> 26 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> \
+27 . &nbsp; Seg  --  24/06  --  <span style="color:LightGray"> Vista da Prova. </span> \
+<span style="color:red"> 28 . &nbsp; Ter  --  25/06  --  2ª Chamada </span> \
+29 . &nbsp; Seg  --  01/07  --  <span style="color:LightGray"> Semana dedicada à preparação para a VS </span> \
+30 . &nbsp; Ter  --  02/07  --  <span style="color:LightGray"> Semana dedicada à preparação para a VS </span> \
+<span style="color:red"> 31 . &nbsp; Seg  --  08/07  --  VS </span> \
+32 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray">  --  </span> \
+33 . &nbsp; Seg  --  15/07  --  <span style="color:LightGray">  --  </span> \
+34 . &nbsp; Ter  --  16/07  --  <span style="color:LightGray">  --  </span> \
+:end: &nbsp; Qua  --  17/07  --  Fim do Período. :raised_hands:
+---
 
 ## Crongrama Porposto Inicialmente
 
 Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
 
-
-**1.1 Vetores, Matrizes e sistemas Lineares**
+**1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;**
 
 01 . &nbsp; Seg  --  18/03  --  Apresentação. Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$.  Representação Geométrica. Norma. Regra do paralelogramo. \
 02 . &nbsp; Ter  --  19/03  --  O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. \
@@ -107,11 +194,6 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 07 . &nbsp; Seg  --  08/04  --  Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. Escalonamento \
 08 . &nbsp; Ter  --  09/04  --  Posto de uma matriz. Variáveis livres. Usando sympy para resolver sistemas lineares. Método de Gauss-Jordan. Sistemas lineares Homogêneos \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
-<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
----
-
-**1.2 Inversão de Matrizes, determinantes, produtos vetoriais e distâncias**
-
 09 . &nbsp; Seg  --  15/04  --  Matriz Inversa e Método de Inversão \
 10 . &nbsp; Ter  --  16/04  --  Determinantes. \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
@@ -122,6 +204,7 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
 13 . &nbsp; Seg  --  06/05  --  Distâncias: Entre Retas, entre reta e Plano \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+<span style="color:red"> :memo: &nbsp; Entrega do Trabalho </span> \
 ---
 
 **2. Álgebra Linear no $\mathbb{R}^n$**

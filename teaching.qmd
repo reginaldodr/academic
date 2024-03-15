@@ -26,6 +26,8 @@ format:
     - Turmas: [2023-1](calculoIII/c3-2023-1.qmd), [2023-2](calculoIII/c3-2023-2.qmd)
 -   Cálculo IV:
     - Turmas: [2022-2](https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/)
+-   [GAAL](gaal/gaal.qmd)
+    - Turmas: [2024-1](gaal/gaal-2024-1.qmd)
 -   Geometria Analítica e Cálculo Vetorial
     - Turmas: [2022-1](https://www.professores.uff.br/reginaldodr/disciplinas/geometria-analitica-rcn00023-2022-1/)
 -   Equações Diferenciais
