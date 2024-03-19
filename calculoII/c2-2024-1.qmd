@@ -20,8 +20,11 @@ confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/hom
 
 -  **Atendimento:** sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) agendando horário.
 
-- [Material a ser utilizado](calculoII.qmd)
+- **Material a ser utilizado**
+    - [Slides e outros](calculoII.qmd)
 
+    - [Anotações das aulas](https://mega.nz/folder/XR1yzQjS#uMV2uMx-lOfj_qfeR4KxnA)
+    
 -  **Ementa:** Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS 
 DE  PRIMEIRA  ORDEM.  EQUAÇÕES  DIFERENCIAIS  DE  SEGUNDA  ORDEM.  EQUAÇÕES  DIFERENCIAIS
@@ -139,9 +142,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 **1.1 A integral e Técnicas de integração**
 
 01 . &nbsp; Seg  --  18/03  --  <span style="color:Black"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
-02 . &nbsp; Ter  --  19/03  --  <span style="color:LightGray"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição </span> \
-03 . &nbsp; Seg  --  25/03  --  <span style="color:LightGray"> Integração por Partes. Integração por substituição Trigonométrica </span> \
-04 . &nbsp; Ter  --  26/03  --  <span style="color:LightGray"> Integração de funções racionais: frações parciais. </span> \
+02 . &nbsp; Ter  --  19/03  --  <span style="color:Black"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição. Integração por Partes. </span> \
+03 . &nbsp; Seg  --  25/03  --  <span style="color:LightGray"> Integração por substituição Trigonométrica. Integração de funções racionais por frações parciais: Denominador como produto de fatores lineares distintos. </span> \
+04 . &nbsp; Ter  --  26/03  --  <span style="color:LightGray"> Aula de Exercícios. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
 ---
 

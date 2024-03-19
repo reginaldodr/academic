@@ -20,7 +20,12 @@ confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/hom
 
 -  **Atendimento:** sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) agendando horário.
 
-- [Material a ser utilizado](gaal.qmd)
+
+- **Material a ser utilizado**
+    - [Slides e outros](gaal.qmd)
+
+    - [Anotações das aulas](https://mega.nz/folder/PRF2mAbR#BzPLXunAv1ekFN1d1n6_dw)
+
 
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 MATRIZES E SISTEMAS LINEARES. DETERMINANTES. VETORES NO PLANO E NO ESPAÇO. RETAS E PLANOS. ESPAÇO $\mathbb{R}^n$. AUTOVALORES E AUTOVETORES DE UMA MATRIZ. DIAGONALIZAÇÃO DE MATRIZES. RECONHECIMENTO DE CÔNICAS.
@@ -123,7 +128,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 **1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;**
 
 01 . &nbsp; Seg  --  18/03  --  <span style="color:Black"> Apresentação. Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$.  Representação Geométrica. Norma. Regra do paralelogramo. </span> \
-02 . &nbsp; Ter  --  19/03  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. </span> \
+02 . &nbsp; Ter  --  19/03  --  <span style="color:Black"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. </span> \
 03 . &nbsp; Seg  --  25/03  --  <span style="color:LightGray"> Matrizes: definição, operações e propriedades </span> \
 04 . &nbsp; Ter  --  26/03  --  <span style="color:LightGray"> Matrizes identidade e transposta. Operações usando o sympy. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
