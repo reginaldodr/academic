@@ -129,12 +129,12 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 01 . &nbsp; Seg  --  18/03  --  <span style="color:Black"> Apresentação. Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$.  Representação Geométrica. Norma. Regra do paralelogramo. </span> \
 02 . &nbsp; Ter  --  19/03  --  <span style="color:Black"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. </span> \
-03 . &nbsp; Seg  --  25/03  --  <span style="color:LightGray"> Matrizes: definição, operações e propriedades </span> \
-04 . &nbsp; Ter  --  26/03  --  <span style="color:LightGray"> Matrizes identidade e transposta. Operações usando o sympy. </span> \
+03 . &nbsp; Seg  --  25/03  --  <span style="color:Black"> Matrizes: definição, operações e propriedades </span> \
+04 . &nbsp; Ter  --  26/03  --  <span style="color:Black"> Matrizes identidade e transposta. Operações usando o sympy. Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy.  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
-05 . &nbsp; Seg  --  01/04  --  <span style="color:LightGray"> Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy. </span> \
-06 . &nbsp; Ter  --  02/04  --  <span style="color:LightGray"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
-07 . &nbsp; Seg  --  08/04  --  <span style="color:LightGray"> Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. Escalonamento </span> \
+05 . &nbsp; Seg  --  01/04  --  <span style="color:LightGray"> Demonstração fórmula do ângulo. Equação paramétrica da reta.  </span> \
+06 . &nbsp; Ter  --  02/04  --  <span style="color:LightGray"> Equações Cartesianas da Reta em $\mathbb{R}^2$. Equação cartesina do Plano em $\mathbb{R}^3$.   </span> \
+07 . &nbsp; Seg  --  08/04  --  <span style="color:LightGray">  Sistemas de Equações Lineares. Operações Elementares. Escalonamento </span> \
 08 . &nbsp; Ter  --  09/04  --  <span style="color:LightGray"> Posto de uma matriz. Variáveis livres. Usando sympy para resolver sistemas lineares. Método de Gauss-Jordan. Sistemas lineares Homogêneos </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
 09 . &nbsp; Seg  --  15/04  --  <span style="color:LightGray"> Matriz Inversa e Método de Inversão </span> \

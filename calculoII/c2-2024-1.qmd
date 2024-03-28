@@ -143,8 +143,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 01 . &nbsp; Seg  --  18/03  --  <span style="color:Black"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
 02 . &nbsp; Ter  --  19/03  --  <span style="color:Black"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição. Integração por Partes. </span> \
-03 . &nbsp; Seg  --  25/03  --  <span style="color:LightGray"> Integração por substituição Trigonométrica. Integração de funções racionais por frações parciais: Denominador como produto de fatores lineares distintos. </span> \
-04 . &nbsp; Ter  --  26/03  --  <span style="color:LightGray"> Aula de Exercícios. </span> \
+03 . &nbsp; Seg  --  25/03  --  <span style="color:Black"> Integração por substituição Trigonométrica. Integração de funções racionais por frações parciais: Denominador como produto de fatores lineares distintos. </span> \
+04 . &nbsp; Ter  --  26/03  --  <span style="color:Black"> Aula de Exercícios. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
 ---
 
