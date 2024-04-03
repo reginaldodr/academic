@@ -14,7 +14,7 @@ about:
     - icon: youtube
       text: YouTube
       href: https://www.youtube.com/c/ProfReginaldoDemarque
-
+    
 ---
 
 Professor Associado 3\

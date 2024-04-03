@@ -36,7 +36,5 @@ format:
 
 -   [Análise Funcional](analise-funcional/funcional.qmd)
 
-
 ---
-
 
