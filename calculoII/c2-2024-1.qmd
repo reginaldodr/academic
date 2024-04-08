@@ -152,7 +152,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 05 . &nbsp; Seg  --  01/04  --  <span style="color:Black"> Áreas entre curvas. Cálculo de volumes por fatiamento. Volume pelo método dos discos. Sólidos de Revolução :fist: </span> \
 06 . &nbsp; Ter  --  02/04  --  <span style="color:Black"> Volume por cascas cilíndricas. Comprimento de Curvas. O comprimento da circunferência.  </span> \
-07 . &nbsp; Seg  --  08/04  --  <span style="color:LightGray"> Integrais Impróprias: Limites Infinitos.  </span> \
+07 . &nbsp; Seg  --  08/04  --  <span style="color:Black"> Integrais Impróprias: Limites Infinitos.  </span> \
 08 . &nbsp; Ter  --  09/04  --  <span style="color:LightGray"> Integrais Impróprias: Integrandos Descontínuos. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
 09 . &nbsp; Seg  --  15/04  --  <span style="color:LightGray"> a definir </span> \
