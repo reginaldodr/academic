@@ -105,12 +105,14 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 Abaixo seguem os execícios das referências @poole e @santosufmg que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
-@poole **§ 1.2:** 5, 11, 12, 14, 17 .\
-@poole **§ 3.2:** 1, 11, 13, 17, 35 .\
+@poole **§ 1.2:** 5, 11, 12, 14, 17.\
+@poole **§ 3.2:** 1, 11, 13, 17, 35.\
 @poole **§ 1.3:** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
-@poole **§ 1.4:** 3, 5, 7,  11, 15, 17, 21, 23 .\
-@poole **§ 2.2:** 1, 3, 5, 15, 17, 27, 29, 31 .\
-@poole **§ 2.3:** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47  .\
+@poole **§ 1.4:** 3, 5, 7,  11, 15, 17, 21, 23.\
+@poole **§ 2.2:** 1, 3, 5, 15, 17, 27, 29, 31.\
+@poole **§ 2.3:** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
+@poole **§ 3.4:** 49, 53, 57, 51, 55, 45, 20, 21.\
+@poole **§ 4.3:** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
 :construction: Em construção... 
 
 # Referências {#sec-ref}
@@ -137,49 +139,49 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 07 . &nbsp; Seg  --  08/04  --  <span style="color:Black">  Escalonamento. Posto de uma matriz. Variáveis livres. Usando sympy para resolver sistemas lineares.</span> \
 08 . &nbsp; Ter  --  09/04  --  <span style="color:Black">  Método de Gauss-Jordan. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
-09 . &nbsp; Seg  --  15/04  --  <span style="color:LightGray">Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão </span> \
-10 . &nbsp; Ter  --  16/04  --  <span style="color:LightGray"> Determinantes. </span> \
+ :stop_sign: <span style="color:red">  &nbsp; Seg  --  15/04  --  Paralisação aprovada em assembleia docente do dia 9 de abril </span> \
+09 . &nbsp; Ter  --  16/04  --  <span style="color:Black"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão.  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
-11 . &nbsp; Seg  --  29/04  --  <span style="color:LightGray"> Aula de Exercícios. </span> \
-12 . &nbsp; Ter  --  30/04  --  <span style="color:LightGray">  Produto Vetorial e Produto Misto. Distâncias: entre Ponto e Plano, Ponto a Reta </span> \
+10 . &nbsp; Seg  --  29/04  --  <span style="color:LightGray"> Propriedades da Inversa. Invertendo matrizes com o sympy. Determinantes. </span> \
+11 . &nbsp; Ter  --  30/04  --  <span style="color:LightGray">  Produto Vetorial e Produto Misto. Distâncias: entre Ponto e Plano, Ponto a Reta </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
-13 . &nbsp; Seg  --  06/05  --  <span style="color:LightGray"> Distâncias: Entre Retas, entre reta e Plano </span> \
+12 . &nbsp; Seg  --  06/05  --  <span style="color:LightGray"> Distâncias: Entre Retas, entre reta e Plano </span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 <span style="color:red"> :memo: &nbsp; Entrega do Trabalho para a próxima aula </span> \
 ---
 
 **2. Álgebra Linear no $\mathbb{R}^n$**
 
-14 . &nbsp; Ter  --  07/05  --  <span style="color:LightGray"> Dependência e Independência Linear </span> \
-15 . &nbsp; Seg  --  13/05  --  <span style="color:LightGray"> Posição Relativa de retas e planos </span> \
-16 . &nbsp; Ter  --  14/05  --  <span style="color:LightGray"> Subespaço. Base e Dimensão </span> \
-17 . &nbsp; Seg  --  20/05  --  <span style="color:LightGray"> Aula de Exercícios </span> \
-18 . &nbsp; Ter  --  21/05  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
-19 . &nbsp; Seg  --  27/05  --  <span style="color:LightGray"> Mudança de Coordenadas. Rotação e Translação </span> \
-20 . &nbsp; Ter  --  28/05  --  <span style="color:LightGray"> Autovetores e Autovalores </span> \
+13 . &nbsp; Ter  --  07/05  --  <span style="color:LightGray"> Dependência e Independência Linear </span> \
+14 . &nbsp; Seg  --  13/05  --  <span style="color:LightGray"> Posição Relativa de retas e planos </span> \
+15 . &nbsp; Ter  --  14/05  --  <span style="color:LightGray"> Subespaço. Base e Dimensão </span> \
+16 . &nbsp; Seg  --  20/05  --  <span style="color:LightGray"> Aula de Exercícios </span> \
+17 . &nbsp; Ter  --  21/05  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
+18 . &nbsp; Seg  --  27/05  --  <span style="color:LightGray"> Mudança de Coordenadas. Rotação e Translação </span> \
+19 . &nbsp; Ter  --  28/05  --  <span style="color:LightGray"> Autovetores e Autovalores </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  30/05  --  Corpus Christ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  31/05  --  Ponto Facultativo </span> \
-21 . &nbsp; Seg  --  03/06  --  <span style="color:LightGray"> Diagonalização de Matrizes </span> \
-22 . &nbsp; Ter  --  04/06  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas </span> \
-23 . &nbsp; Seg  --  10/06  --  <span style="color:LightGray"> Reconhecimento de Cônicas </span> \
-24 . &nbsp; Ter  --  11/06  --  <span style="color:LightGray"> Aula de Exercícios </span> \
-25 . &nbsp; Seg  --  17/06  --  <span style="color:LightGray"> Aula de Dúvidas </span> \
+20 . &nbsp; Seg  --  03/06  --  <span style="color:LightGray"> Diagonalização de Matrizes </span> \
+21 . &nbsp; Ter  --  04/06  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas </span> \
+22 . &nbsp; Seg  --  10/06  --  <span style="color:LightGray"> Reconhecimento de Cônicas </span> \
+23 . &nbsp; Ter  --  11/06  --  <span style="color:LightGray"> Aula de Exercícios </span> \
+24 . &nbsp; Seg  --  17/06  --  <span style="color:LightGray"> Aula de Dúvidas </span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
 **Provas Finais**
 
-<span style="color:red"> 26 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> \
-27 . &nbsp; Seg  --  24/06  --  <span style="color:LightGray"> Vista da Prova. </span> \
-<span style="color:red"> 28 . &nbsp; Ter  --  25/06  --  2ª Chamada </span> \
-29 . &nbsp; Seg  --  01/07  --  <span style="color:LightGray"> Semana dedicada à preparação para a VS </span> \
-30 . &nbsp; Ter  --  02/07  --  <span style="color:LightGray"> Semana dedicada à preparação para a VS </span> \
-<span style="color:red"> 31 . &nbsp; Seg  --  08/07  --  VS </span> \
-32 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray">  --  </span> \
-33 . &nbsp; Seg  --  15/07  --  <span style="color:LightGray">  --  </span> \
-34 . &nbsp; Ter  --  16/07  --  <span style="color:LightGray">  --  </span> \
+<span style="color:red"> 25 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> \
+26 . &nbsp; Seg  --  24/06  --  <span style="color:LightGray"> Vista da Prova. </span> \
+<span style="color:red"> 27 . &nbsp; Ter  --  25/06  --  2ª Chamada </span> \
+28 . &nbsp; Seg  --  01/07  --  <span style="color:LightGray"> Semana dedicada à preparação para a VS </span> \
+29 . &nbsp; Ter  --  02/07  --  <span style="color:LightGray"> Semana dedicada à preparação para a VS </span> \
+<span style="color:red"> 30 . &nbsp; Seg  --  08/07  --  VS </span> \
+31 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray">  --  </span> \
+32 . &nbsp; Seg  --  15/07  --  <span style="color:LightGray">  --  </span> \
+33 . &nbsp; Ter  --  16/07  --  <span style="color:LightGray">  --  </span> \
 :end: &nbsp; Qua  --  17/07  --  Fim do Período. :raised_hands:
 ---
 
