@@ -144,6 +144,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
+:stop_sign: <span style="color:red">  &nbsp; Seg  --  29/04  --  Deflagração da Greve dos Professores </span> \
+As atividades de aulas estão suspensas. Ao fim da greve, um novo cronograma será elaborado.
+---
+
 10 . &nbsp; Seg  --  29/04  --  <span style="color:LightGray"> Propriedades da Inversa. Invertendo matrizes com o sympy. Determinantes. </span> \
 11 . &nbsp; Ter  --  30/04  --  <span style="color:LightGray">  Produto Vetorial e Produto Misto. Distâncias: entre Ponto e Plano, Ponto a Reta </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
