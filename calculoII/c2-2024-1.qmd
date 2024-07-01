@@ -134,11 +134,13 @@ Leia a seção 7.5 (Estratégias de Integração)\
 
 # Cronograma {#sec-crono}
 
-A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 17/07, neste caso, é aconselhado que fiquem disponíveis até esta data.**
-
-
-
 ## Cronograma Efetivado
+
+
+### Cronograma Antes da Greve
+
+O cronograma a seguir foi o efetivado até o dia da deflagração da greve no dia 29/04/2024.
+
 **1.1 A integral e Técnicas de integração**
 
 01 . &nbsp; Seg  --  18/03  --  <span style="color:Black"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
@@ -166,12 +168,12 @@ As atividades de aulas estão suspensas. Ao fim da greve, um novo cronograma ser
 
 ###  Fim da greve e retorno das aulas :man_teacher:
 
-A seguir o novo cronograma de aulas de acordo com o estabelecido pela [Resolução CEPEx/UFF nº 3.618, 26 de junho de 2024](https://www.uff.br/sites/default/files/paginas-internas-orgaos/resolucao_cepex_3.618_de_26_de_junho_de_2024_-_calendarios_2024_reorganizados.pdf)
+A seguir a proposta de cronograma para este curso de acordo com o estabelecido pela [Resolução CEPEx/UFF nº 3.618, 26 de junho de 2024](https://www.uff.br/sites/default/files/paginas-internas-orgaos/resolucao_cepex_3.618_de_26_de_junho_de_2024_-_calendarios_2024_reorganizados.pdf)  Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 31/08, neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
 **2.1 EDOs de 1ª ordem**
 
-09 . &nbsp; Seg  --  01/07  --  <span style="color:LightGray"> Apresentação do novo planejamento </span> \
-10 . &nbsp; Ter  --  02/07  --  <span style="color:LightGray"> EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) </span> \
+09 . &nbsp; Seg  --  01/07  --  <span style="color:black"> Apresentação do novo planejamento. EDO: Classificação. Solução. PVI. Modelo Populacional Malthusiano. </span> \
+10 . &nbsp; Ter  --  02/07  --  <span style="color:LightGray"> EDO 1ª ordem. Campos direcionais. Equações Separáveis, EDO 1ª ordem linear</span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 11 . &nbsp; Seg  --  08/07  --  <span style="color:LightGray"> Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear </span> \
 12 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray"> Equações Exatas e fator integrante. </span> \
@@ -201,7 +203,7 @@ A seguir o novo cronograma de aulas de acordo com o estabelecido pela [Resoluç�
 :end: &nbsp; Sáb  --  31/08  --  Fim do Período. :raised_hands:
 ---
 
-## Crongrama Porposto Inicialmente
+## Cronograma Proposto Inicialmente
 
 Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
 
