@@ -173,11 +173,11 @@ A seguir a proposta de cronograma para este curso de acordo com o estabelecido p
 **2.1 EDOs de 1ª ordem**
 
 09 . &nbsp; Seg  --  01/07  --  <span style="color:black"> Apresentação do novo planejamento. EDO: Classificação. Solução. PVI. Modelo Populacional Malthusiano. </span> \
-10 . &nbsp; Ter  --  02/07  --  <span style="color:LightGray"> EDO 1ª ordem. Campos direcionais. Equações Separáveis, EDO 1ª ordem linear</span> \
+10 . &nbsp; Ter  --  02/07  --  <span style="color:black"> EDO 1ª ordem: Campos direcionais. Equações Separáveis, EDO 1ª ordem linear. Modelo de Queda livre com resistência do ar.</span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
-11 . &nbsp; Seg  --  08/07  --  <span style="color:LightGray"> Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear </span> \
-12 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray"> Equações Exatas e fator integrante. </span> \
-13 . &nbsp; Seg  --  15/07  --  <span style="color:LightGray"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares </span> \
+11 . &nbsp; Seg  --  08/07  --  <span style="color:LightGray"> Equações Exatas e fator integrante. </span> \
+12 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares </span> \
+13 . &nbsp; Seg  --  15/07  --  <span style="color:LightGray"> a definir </span> \
 ---
 
 **2.2 EDOs de 2ª ordem lineares**

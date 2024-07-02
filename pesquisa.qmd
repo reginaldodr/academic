@@ -26,13 +26,22 @@ nocite: |
 
 ### Iniciação científica
 
-1.  Leuber de Araújo Melo. Integração em Coordenadas Polares Multidimensional e Aplicações. 2020. Iniciação científica (Matemática) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
-2.  Natan da Costa Lucas. Estudo dos Espaços L\^p. 2018. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
-3.  Milena Fernandes da Conceição. Estudos dos Espaços Lp. 2018. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+1.  Jessica Maria Marconde do Valle. Temperaturas estacinárias em uma placa em movimento. 2013. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+
+2.  Átila Roger Cavalcanti dos Santos. Aspectos Gerais da Integral de Lebesgue. 2013. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+
+3.  Paulo Sérgio Alves Carreira. Estudo da generalização do conceito de medida para subconjuntos abstratos da reta e do plano. 2014. Iniciação científica (Ciência da Computação) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJs
+
 4.  Gustavo Jorge Martins de Aguiar. Análise de Fourier e Resolução de EDPs. 2017. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
-5.  Paulo Sérgio Alves Carreira. Estudo da generalização do conceito de medida para subconjuntos abstratos da reta e do plano. 2014. Iniciação científica (Ciência da Computação) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
-6.  Átila Roger Cavalcanti dos Santos. Aspectos Gerais da Integral de Lebesgue. 2013. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
-7.  Jessica Maria Marconde do Valle. Temperaturas estacinárias em uma placa em movimento. 2013. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+
+5.  Milena Fernandes da Conceição. Estudos dos Espaços $L^p$. 2018. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+
+6.  Natan da Costa Lucas. Estudo dos Espaços $L^p$. 2018. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+
+7.  Leuber de Araújo Melo. Integração em Coordenadas Polares Multidimensional e Aplicações. 2020. Iniciação científica (Matemática) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
+
+
+8. João Victor Brum das Chagas. Análise Espectral de problemas de Sturm-Lioville singulares e aplicações na controlabilidade da equação da onde degenerada. 2024. Iniciação científica (Matemática) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
 
 ### Orientação de outra natureza
 
