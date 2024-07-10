@@ -163,8 +163,8 @@ A seguir o novo cronograma de aulas de acordo com o estabelecido pela [Resoluç�
 
 10 . &nbsp; Seg  --  01/07  --  <span style="color:black"> Apresentação do novo planejamento. Breve apresentação dos conteúdos lecionados antes da greve. </span> \
 11 . &nbsp; Ter  --  02/07  --  <span style="color:black"> Propriedades da Inversa. Invertendo matrizes com o sympy. Definição de Determinantes. </span> \
-12 . &nbsp; Seg  --  08/07  --  <span style="color:LightGray"> Propriedades dos Determinantes. Produto Vetorial e Produto Misto. Distâncias: entre Ponto e Plano, Ponto a Reta  </span> \
-13 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray"> Distâncias: Entre Retas, entre reta e Plano </span> \
+12 . &nbsp; Seg  --  08/07  --  <span style="color:black"> Propriedades dos Determinantes. Cálculo de Determinante por Redução por linhas. Definição de Produto Vetorial.  </span> \
+13 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray"> Propriedades do Produto Vetorial. Distância de ponto à Reta. Produto Misto. Volumes do Paralelepípedo e do Tetraedro. </span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 <span style="color:red"> :memo: &nbsp; Entrega do Trabalho para a próxima aula </span> \
 ---

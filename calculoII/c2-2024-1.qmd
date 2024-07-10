@@ -175,14 +175,14 @@ A seguir a proposta de cronograma para este curso de acordo com o estabelecido p
 09 . &nbsp; Seg  --  01/07  --  <span style="color:black"> Apresentação do novo planejamento. EDO: Classificação. Solução. PVI. Modelo Populacional Malthusiano. </span> \
 10 . &nbsp; Ter  --  02/07  --  <span style="color:black"> EDO 1ª ordem: Campos direcionais. Equações Separáveis, EDO 1ª ordem linear. Modelo de Queda livre com resistência do ar.</span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
-11 . &nbsp; Seg  --  08/07  --  <span style="color:LightGray"> Equações Exatas e fator integrante. </span> \
-12 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares </span> \
-13 . &nbsp; Seg  --  15/07  --  <span style="color:LightGray"> a definir </span> \
+11 . &nbsp; Seg  --  08/07  --  <span style="color:black"> Equações Exatas.  Teoremas de Existência e Unicidade de Soluções para EDO de 1ª ordem. </span> \
+12 . &nbsp; Ter  --  09/07  --  <span style="color:LightGray">EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano </span> \
+13 . &nbsp; Seg  --  15/07  --  <span style="color:LightGray"> Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
 ---
 
 **2.2 EDOs de 2ª ordem lineares**
 
-14 . &nbsp; Ter  --  16/07  --  <span style="color:LightGray"> EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano </span> \
+14 . &nbsp; Ter  --  16/07  --  <span style="color:LightGray">a definir </span> \
 15 . &nbsp; Seg  -- 22/07  --   <span style="color:LightGray"> Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
 16 . &nbsp; Ter  -- 23/07  --  <span style="color:LightGray"> EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos e fórmula de Euler </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  29/07  --  Não haverá aula </span> \
