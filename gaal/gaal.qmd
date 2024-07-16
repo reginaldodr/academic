@@ -28,9 +28,14 @@ $$
 ## Material Básico
 
 - [Slides](gaal.pdf)
-    - [Lista dos Para Casa](paracasa.pdf)
 
-- [Livro GAAl -- Reginaldo Santos -- UFMG](gaalt0.pdf)
+- [Livro GAAL -- Reginaldo Santos -- UFMG](gaalt0.pdf)
+
+- [Lista dos Para Casa](paracasa.pdf) 
+    
+    - [gabarito-parte1](paracasa-gabarito-parte1.pdf)
+
+
 
 
 ## Material Complementar
