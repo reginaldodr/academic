@@ -143,19 +143,19 @@ O cronograma a seguir foi o efetivado até o dia da deflagração da greve no di
 
 **1.1 A integral e Técnicas de integração**
 
-01 . &nbsp; Seg  --  18/03  --  <span style="color:Black"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
-02 . &nbsp; Ter  --  19/03  --  <span style="color:Black"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição. Integração por Partes. </span> \
-03 . &nbsp; Seg  --  25/03  --  <span style="color:Black"> Integração por substituição Trigonométrica. Integração de funções racionais por frações parciais: Denominador como produto de fatores lineares distintos. </span> \
-04 . &nbsp; Ter  --  26/03  --  <span style="color:Black"> Aula de Exercícios. </span> \
+01 . &nbsp; Seg  --  18/03  --  <span style="color:standard"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
+02 . &nbsp; Ter  --  19/03  --  <span style="color:standard"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição. Integração por Partes. </span> \
+03 . &nbsp; Seg  --  25/03  --  <span style="color:standard"> Integração por substituição Trigonométrica. Integração de funções racionais por frações parciais: Denominador como produto de fatores lineares distintos. </span> \
+04 . &nbsp; Ter  --  26/03  --  <span style="color:standard"> Aula de Exercícios. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
 ---
 
 **1.2 Aplicações da Integral**
 
-05 . &nbsp; Seg  --  01/04  --  <span style="color:Black"> Áreas entre curvas. Cálculo de volumes por fatiamento. Volume pelo método dos discos. Sólidos de Revolução :fist: </span> \
-06 . &nbsp; Ter  --  02/04  --  <span style="color:Black"> Volume por cascas cilíndricas. Comprimento de Curvas. O comprimento da circunferência.  </span> \
-07 . &nbsp; Seg  --  08/04  --  <span style="color:Black"> Integrais Impróprias: Limites Infinitos.  </span> \
-08 . &nbsp; Ter  --  09/04  --  <span style="color:Black"> Integrais Impróprias: Integrandos Descontínuos. Teste da comparação. </span> \
+05 . &nbsp; Seg  --  01/04  --  <span style="color:standard"> Áreas entre curvas. Cálculo de volumes por fatiamento. Volume pelo método dos discos. Sólidos de Revolução :fist: </span> \
+06 . &nbsp; Ter  --  02/04  --  <span style="color:standard"> Volume por cascas cilíndricas. Comprimento de Curvas. O comprimento da circunferência.  </span> \
+07 . &nbsp; Seg  --  08/04  --  <span style="color:standard"> Integrais Impróprias: Limites Infinitos.  </span> \
+08 . &nbsp; Ter  --  09/04  --  <span style="color:standard"> Integrais Impróprias: Integrandos Descontínuos. Teste da comparação. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
  :stop_sign: <span style="color:red">  &nbsp; Seg  --  15/04  --  Paralisação aprovada em assembleia docente do dia 9 de abril </span> \
  :stop_sign: <span style="color:red"> &nbsp; Ter  --  16/04  --  Não houve aula por pedido do movimento estudantil para assembleia dos estudantes.  </span> \
@@ -172,23 +172,24 @@ A seguir a proposta de cronograma para este curso de acordo com o estabelecido p
 
 **2.1 EDOs de 1ª ordem**
 
-09 . &nbsp; Seg  --  01/07  --  <span style="color:black"> Apresentação do novo planejamento. EDO: Classificação. Solução. PVI. Modelo Populacional Malthusiano. </span> \
-10 . &nbsp; Ter  --  02/07  --  <span style="color:black"> EDO 1ª ordem: Campos direcionais. Equações Separáveis, EDO 1ª ordem linear. Modelo de Queda livre com resistência do ar.</span> \
+09 . &nbsp; Seg  --  01/07  --  <span style="color:standard"> Apresentação do novo planejamento. EDO: Classificação. Solução. PVI. Modelo Populacional Malthusiano. </span> \
+10 . &nbsp; Ter  --  02/07  --  <span style="color:standard"> EDO 1ª ordem: Campos direcionais. Equações Separáveis, EDO 1ª ordem linear. Modelo de Queda livre com resistência do ar.</span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
-11 . &nbsp; Seg  --  08/07  --  <span style="color:black"> Equações Exatas.  Teoremas de Existência e Unicidade de Soluções para EDO de 1ª ordem. </span> \
-12 . &nbsp; Ter  --  09/07  --  <span style="color:black">EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
-13 . &nbsp; Seg  --  15/07  --  <span style="color:LightGray"> Revisão de números complexos e fórmula de Euler. Oscilações mecânicas livres com amortecimento.</span> \
+11 . &nbsp; Seg  --  08/07  --  <span style="color:standard"> Equações Exatas.  Teoremas de Existência e Unicidade de Soluções para EDO de 1ª ordem. </span> \
+12 . &nbsp; Ter  --  09/07  --  <span style="color:standard">EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
+13 . &nbsp; Seg  --  15/07  --  <span style="color:standard"> Revisão de números complexos e fórmula de Euler.
+EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.</span> \
 ---
 
 **2.2 EDOs de 2ª ordem lineares**
 
-14 . &nbsp; Ter  --  16/07  --  <span style="color:LightGray">EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.Método dos coeficientes a determinar </span> \
-15 . &nbsp; Seg  -- 22/07  --   <span style="color:black"> a definir </span> \
-16 . &nbsp; Ter  -- 23/07  --  <span style="color:LightGray"> a definir </span> \
+14 . &nbsp; Ter  --  16/07  --  <span style="color:standard">Método dos coeficientes a determinar. Dedução do modelo de Oscilações mecânicas livres com amortecimento. </span> \
+15 . &nbsp; Seg  -- 22/07  --   <span style="color:LightGray"> Método da Variação dos Parâmetros </span> \
+16 . &nbsp; Ter  -- 23/07  --  <span style="color:LightGray"> Estudo das Oscilações mecânicas livres com amortecimento. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  29/07  --  Não haverá aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  30/07  --  Não haverá aula </span> \
-17 . &nbsp; Seg  --  05/08  --  <span style="color:LightGray"> EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.Método dos coeficientes a determinar </span> \
-18 . &nbsp; Ter  --  06/08  --  <span style="color:LightGray"> Método da variação dos Parâmetros </span> \
+17 . &nbsp; Seg  --  05/08  --  <span style="color:LightGray"> a definir </span> \
+18 . &nbsp; Ter  --  06/08  --  <span style="color:LightGray"> a definir </span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
@@ -209,52 +210,52 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 
 **1.1 A integral e Técnicas de integração**
 
-01 . &nbsp; Seg  --  18/03  --  <span style="color:Black"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
-02 . &nbsp; Ter  --  19/03  --  <span style="color:Black"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição </span> \
-03 . &nbsp; Seg  --  25/03  --  <span style="color:Black"> Integração por Partes. Integração por substituição Trigonométrica </span> \
-04 . &nbsp; Ter  --  26/03  --  <span style="color:Black"> Integração de funções racionais: frações parciais. </span> \
+01 . &nbsp; Seg  --  18/03  --  <span style="color:standard"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
+02 . &nbsp; Ter  --  19/03  --  <span style="color:standard"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição </span> \
+03 . &nbsp; Seg  --  25/03  --  <span style="color:standard"> Integração por Partes. Integração por substituição Trigonométrica </span> \
+04 . &nbsp; Ter  --  26/03  --  <span style="color:standard"> Integração de funções racionais: frações parciais. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
 ---
 
 **1.2 Aplicações da Integral**
 
-05 . &nbsp; Seg  --  01/04  --  <span style="color:Black"> Área do Círculo. Áreas entre curvas. </span> \
-06 . &nbsp; Ter  --  02/04  --  <span style="color:Black"> Cálculo de volumes por fatiamento. </span> \
-07 . &nbsp; Seg  --  08/04  --  <span style="color:Black"> Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas. </span> \
-08 . &nbsp; Ter  --  09/04  --  <span style="color:Black"> Comprimento de Curvas. O comprimento da circunferência </span> \
+05 . &nbsp; Seg  --  01/04  --  <span style="color:standard"> Área do Círculo. Áreas entre curvas. </span> \
+06 . &nbsp; Ter  --  02/04  --  <span style="color:standard"> Cálculo de volumes por fatiamento. </span> \
+07 . &nbsp; Seg  --  08/04  --  <span style="color:standard"> Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas. </span> \
+08 . &nbsp; Ter  --  09/04  --  <span style="color:standard"> Comprimento de Curvas. O comprimento da circunferência </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
-09 . &nbsp; Seg  --  15/04  --  <span style="color:Black"> Integrais Impróprias: Limites Infinitos. </span> \
-10 . &nbsp; Ter  --  16/04  --  <span style="color:Black"> Integrais Impróprias: Integrandos Descontínuos.  </span> \
+09 . &nbsp; Seg  --  15/04  --  <span style="color:standard"> Integrais Impróprias: Limites Infinitos. </span> \
+10 . &nbsp; Ter  --  16/04  --  <span style="color:standard"> Integrais Impróprias: Integrandos Descontínuos.  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
-11 . &nbsp; Seg  --  29/04  --  <span style="color:Black"> Teste de comparação. </span> \
-12 . &nbsp; Ter  --  30/04  --  <span style="color:Black"> Aula de Exercícios 1 </span> \
+11 . &nbsp; Seg  --  29/04  --  <span style="color:standard"> Teste de comparação. </span> \
+12 . &nbsp; Ter  --  30/04  --  <span style="color:standard"> Aula de Exercícios 1 </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
 **2.1 EDOs de 1ª ordem**
 
-13 . &nbsp; Seg  --  06/05  --  <span style="color:Black"> EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) </span> \
-14 . &nbsp; Ter  --  07/05  --  <span style="color:Black"> Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear </span> \
-15 . &nbsp; Seg  --  13/05  --  <span style="color:Black"> Equações Exatas e fator integrante. </span> \
-16 . &nbsp; Ter  --  14/05  --  <span style="color:Black"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares </span> \
-17 . &nbsp; Seg  --  20/05  --  <span style="color:Black"> Aula de Exercícios 2 </span> \
+13 . &nbsp; Seg  --  06/05  --  <span style="color:standard"> EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) </span> \
+14 . &nbsp; Ter  --  07/05  --  <span style="color:standard"> Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear </span> \
+15 . &nbsp; Seg  --  13/05  --  <span style="color:standard"> Equações Exatas e fator integrante. </span> \
+16 . &nbsp; Ter  --  14/05  --  <span style="color:standard"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares </span> \
+17 . &nbsp; Seg  --  20/05  --  <span style="color:standard"> Aula de Exercícios 2 </span> \
 ---
 
 **2.2 EDOs de 2ª ordem lineares**
 
-18 . &nbsp; Ter  --  21/05  --  <span style="color:Black"> EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano </span> \
-19 . &nbsp; Seg  --  27/05  --  <span style="color:Black"> Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
-20 . &nbsp; Ter  --  28/05  --  <span style="color:Black"> EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos e fórmula de Euler </span> \
+18 . &nbsp; Ter  --  21/05  --  <span style="color:standard"> EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano </span> \
+19 . &nbsp; Seg  --  27/05  --  <span style="color:standard"> Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
+20 . &nbsp; Ter  --  28/05  --  <span style="color:standard"> EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos e fórmula de Euler </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  30/05  --  Corpus Christ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  31/05  --  Ponto Facultativo </span> \
-21 . &nbsp; Seg  --  03/06  --  <span style="color:Black"> EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.Método dos coeficientes a determinar </span> \
-22 . &nbsp; Ter  --  04/06  --  <span style="color:Black"> Método da variação dos Parâmetros </span> \
-23 . &nbsp; Seg  --  10/06  --  <span style="color:Black"> Método da variação dos Parâmetros </span> \
-24 . &nbsp; Ter  --  11/06  --  <span style="color:Black"> Aula de Exercícios 3 </span> \
-25 . &nbsp; Seg  --  17/06  --  <span style="color:Black"> Aula de Dúvidas </span> \
+21 . &nbsp; Seg  --  03/06  --  <span style="color:standard"> EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.Método dos coeficientes a determinar </span> \
+22 . &nbsp; Ter  --  04/06  --  <span style="color:standard"> Método da variação dos Parâmetros </span> \
+23 . &nbsp; Seg  --  10/06  --  <span style="color:standard"> Método da variação dos Parâmetros </span> \
+24 . &nbsp; Ter  --  11/06  --  <span style="color:standard"> Aula de Exercícios 3 </span> \
+25 . &nbsp; Seg  --  17/06  --  <span style="color:standard"> Aula de Dúvidas </span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
@@ -262,8 +263,8 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 
 <span style="color:red"> 26 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> \
 <span style="color:red"> 27 . &nbsp; Seg  --  24/06  --  2ª Chamada </span> \
-28 . &nbsp; Ter  --  25/06  --  <span style="color:Black"> Semana dedicada à preparação para a VS </span> \
-29 . &nbsp; Seg  --  01/07  --  <span style="color:Black"> Semana dedicada à preparação para a VS </span> \
+28 . &nbsp; Ter  --  25/06  --  <span style="color:standard"> Semana dedicada à preparação para a VS </span> \
+29 . &nbsp; Seg  --  01/07  --  <span style="color:standard"> Semana dedicada à preparação para a VS </span> \
 <span style="color:red"> 30 . &nbsp; Ter  --  02/07  --  VS </span> \
 31 . &nbsp; Seg  --  08/07  --   --  \
 32 . &nbsp; Ter  --  09/07  --   --  \
