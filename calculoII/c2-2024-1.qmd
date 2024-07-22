@@ -18,12 +18,12 @@ from: markdown+emoji
 -  **Horário e sala:** 2ª (14h às 16h) e 3ª (16h às 18h) -- **sala 06 -- IHS (prédio alugado)**\
 confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
 
--  **Atendimento:** sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) agendando horário.
+-  **Atendimento:** Quintas-feiras das 16h-18h -- sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) caso queira agendar outro horário.
 
 - **Material a ser utilizado**
     - [Slides e outros](calculoII.qmd)
 
-    - [Anotações das aulas](https://mega.nz/folder/XR1yzQjS#uMV2uMx-lOfj_qfeR4KxnA)
+    - [Anotações das aulas](https://mega.nz/folder/SN00wYDT#0Ff0sY9Qur1X83id_FNuRQ)
     
 -  **Ementa:** Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS 

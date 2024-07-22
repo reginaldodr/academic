@@ -18,13 +18,13 @@ from: markdown+emoji
 -  **Horário e sala:** 2ª (16h às 18h) e 3ª (14h às 16h) -- **sala 06 -- IHS (prédio alugado)**\
 confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
 
--  **Atendimento:** sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) agendando horário.
+-  **Atendimento:** Quintas-feiras das 16h-18h -- sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) caso queira agendar outro horário.
 
 
 - **Material a ser utilizado**
     - [Slides e outros](gaal.qmd)
 
-    - [Anotações das aulas](https://mega.nz/folder/PRF2mAbR#BzPLXunAv1ekFN1d1n6_dw)
+    - [Anotações das aulas](https://mega.nz/folder/rI8wkYrQ#YAe1PpQduvQvpjtnPuL8FQ)
 
 
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
