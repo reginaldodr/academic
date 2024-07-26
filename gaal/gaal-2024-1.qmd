@@ -113,6 +113,9 @@ Abaixo seguem os execícios das referências @poole e @santosufmg que devem ser 
 @poole **§ 2.3:** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
 @poole **§ 3.4:** 49, 53, 57, 51, 55, 45, 20, 21.\
 @poole **§ 4.3:** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
+@santosufmg **3.3:** 2, 3, 4, 5, 7.\
+@santosufmg **4.3:** 8, 9.\
+@santosufmg **5.1:** 1, 3, 4, 8.\
 :construction: Em construção... 
 
 # Referências {#sec-ref}
@@ -173,13 +176,13 @@ A seguir o novo cronograma de aulas de acordo com o estabelecido pela [Resoluç�
 
 14 . &nbsp; Seg  --  15/07  --  <span style="color:standard"> Dependência e Independência Linear. </span> \
 15 . &nbsp; Ter  --  16/07  --  <span style="color:standard"> Subespaço Vetorial. Subespaço gerado.  </span> \
-16 . &nbsp; Seg  --  22/07  --  <span style="color:LightGray">Base e Dimensão. Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
-17 . &nbsp; Ter  --  23/07  --  <span style="color:LightGray"> Mudança de Coordenadas. Rotação e Translação </span> \
+16 . &nbsp; Seg  --  22/07  --  <span style="color:standard">Base e Dimensão. Coordenadas em relação a uma base e 2 exemplos. </span> \
+17 . &nbsp; Ter  --  23/07  --  <span style="color:standard"> Núcleo de uma Matriz. Esclarecimento de dúvidas.</span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  29/07  --  Não haverá aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  30/07  --  Não haverá aula </span> \
-18 . &nbsp; Seg  --  05/08  --  <span style="color:LightGray"> Autovetores e Autovalores </span> \
+18 . &nbsp; Seg  --  05/08  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. Autovetores e Autovalores </span> \
 19 . &nbsp; Ter  --  06/08  --  <span style="color:LightGray"> Diagonalização de Matrizes </span> \
-20 . &nbsp; Seg  --  12/08  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas </span> \
+20 . &nbsp; Seg  --  12/08  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas. Mudança de Coordenadas. Rotação e Translação. </span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 

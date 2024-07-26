@@ -177,15 +177,14 @@ A seguir a proposta de cronograma para este curso de acordo com o estabelecido p
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 11 . &nbsp; Seg  --  08/07  --  <span style="color:standard"> Equações Exatas.  Teoremas de Existência e Unicidade de Soluções para EDO de 1ª ordem. </span> \
 12 . &nbsp; Ter  --  09/07  --  <span style="color:standard">EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
-13 . &nbsp; Seg  --  15/07  --  <span style="color:standard"> Revisão de números complexos e fórmula de Euler.
-EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.</span> \
+13 . &nbsp; Seg  --  15/07  --  <span style="color:standard"> Revisão de números complexos e fórmula de Euler. EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.</span> \
 ---
 
 **2.2 EDOs de 2ª ordem lineares**
 
 14 . &nbsp; Ter  --  16/07  --  <span style="color:standard">Método dos coeficientes a determinar. Dedução do modelo de Oscilações mecânicas livres com amortecimento. </span> \
-15 . &nbsp; Seg  -- 22/07  --   <span style="color:LightGray"> Método da Variação dos Parâmetros </span> \
-16 . &nbsp; Ter  -- 23/07  --  <span style="color:LightGray"> Estudo das Oscilações mecânicas livres com amortecimento. </span> \
+15 . &nbsp; Seg  -- 22/07  --   <span style="color:standard"> Método da Variação dos Parâmetros </span> \
+16 . &nbsp; Ter  -- 23/07  --  <span style="color:standard"> Estudo das Oscilações mecânicas livres com amortecimento. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  29/07  --  Não haverá aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  30/07  --  Não haverá aula </span> \
 17 . &nbsp; Seg  --  05/08  --  <span style="color:LightGray"> a definir </span> \
