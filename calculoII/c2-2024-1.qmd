@@ -187,8 +187,8 @@ A seguir a proposta de cronograma para este curso de acordo com o estabelecido p
 16 . &nbsp; Ter  -- 23/07  --  <span style="color:standard"> Estudo das Oscilações mecânicas livres com amortecimento. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  29/07  --  Não haverá aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  30/07  --  Não haverá aula </span> \
-17 . &nbsp; Seg  --  05/08  --  <span style="color:LightGray"> a definir </span> \
-18 . &nbsp; Ter  --  06/08  --  <span style="color:LightGray"> a definir </span> \
+17 . &nbsp; Seg  --  05/08  --  <span style="color:standard"> Aula de dúvidas e exercícios </span> \
+18 . &nbsp; Ter  --  06/08  --  <span style="color:standard"> Aula de dúvidas e exercícios </span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 

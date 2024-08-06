@@ -180,9 +180,9 @@ A seguir o novo cronograma de aulas de acordo com o estabelecido pela [Resoluç�
 17 . &nbsp; Ter  --  23/07  --  <span style="color:standard"> Núcleo de uma Matriz. Esclarecimento de dúvidas.</span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  29/07  --  Não haverá aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  30/07  --  Não haverá aula </span> \
-18 . &nbsp; Seg  --  05/08  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. Autovetores e Autovalores </span> \
-19 . &nbsp; Ter  --  06/08  --  <span style="color:LightGray"> Diagonalização de Matrizes </span> \
-20 . &nbsp; Seg  --  12/08  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas. Mudança de Coordenadas. Rotação e Translação. </span> \
+18 . &nbsp; Seg  --  05/08  --  <span style="color:standard"> Espaço linha e Espaço coluna. Como obter bases de subespaços. Definição de Autovetores e Autovalores </span> \
+19 . &nbsp; Ter  --  06/08  --  <span style="color:LightGray">  Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. </span> \
+20 . &nbsp; Seg  --  12/08  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas. Mudança de Coordenadas. Rotação e Translação. Projeção Ortogonal. Bases Ortogonais e Ortonormais.</span> \
 <span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
 ---
 
