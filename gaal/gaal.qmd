@@ -35,7 +35,7 @@ $$
     
     - [gabarito-parte1](paracasa-gabarito-parte1.pdf)
 
-
+- [Lista Exercícios Poole (2004)](lista-gaal-poole-2004.pdf)
 
 
 ## Material Complementar
