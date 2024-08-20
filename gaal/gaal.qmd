@@ -37,6 +37,8 @@ $$
 
 - [Lista Exercícios Poole (2004)](lista-gaal-poole-2004.pdf)
 
+- [Provas antigas](provas/)
+
 
 ## Material Complementar
 

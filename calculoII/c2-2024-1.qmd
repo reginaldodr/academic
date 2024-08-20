@@ -194,8 +194,8 @@ A seguir a proposta de cronograma para este curso de acordo com o estabelecido p
 
 **Provas Finais**
 
-19 . &nbsp; Seg  --  12/08  --  <span style="color:LightGray"> Aula de Exercícios </span> \
-<span style="color:red"> 20 . &nbsp; Ter  --  13/08  --  Prova Sobre Conteúdo de EDO </span> \
+19 . &nbsp; Seg  --  12/08  --  <span style="color:standard"> Aula de Exercícios </span> \
+<span style="color:red"> 20 . &nbsp; Ter  --  13/08  --  Prova Sobre Conteúdo de EDO -- </span> [gabarito](provas/2024-1-p1-turmaC1-c2-gabarito.pdf)\
 <span style="color:red"> 21 . &nbsp; Seg  --  19/08  --  2ª Chamada </span> \
 22 . &nbsp; Ter  --  20/08  --  <span style="color:LightGray"> Atendimento de dúvidas </span> \
 23 . &nbsp; Seg  --  26/08  --  <span style="color:LightGray"> Atendimento de dúvidas </span> \
@@ -260,8 +260,8 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 
 **Provas Finais**
 
-<span style="color:red"> 26 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> \
-<span style="color:red"> 27 . &nbsp; Seg  --  24/06  --  2ª Chamada </span> \
+<span style="color:red"> 26 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> -- [gabarito](provas/2024-1-p1-turmaC1-c2-gabarito.pdf)\
+<span style="color:red"> 27 . &nbsp; Seg  --  24/06  --  2ª Chamada </span> -- [gabarito](provas/2024-1-vr-p1-turmaC1-c2-gabarito.pdf) \
 28 . &nbsp; Ter  --  25/06  --  <span style="color:standard"> Semana dedicada à preparação para a VS </span> \
 29 . &nbsp; Seg  --  01/07  --  <span style="color:standard"> Semana dedicada à preparação para a VS </span> \
 <span style="color:red"> 30 . &nbsp; Ter  --  02/07  --  VS </span> \
