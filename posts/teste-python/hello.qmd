@@ -35,4 +35,25 @@ ax.grid(True)
 plt.show()
 ```
 
+```{python}
+#| echo: false
+#| output: asis
+
+print("# Testando gerar uma lista com for \n")
+for i in range(5):
+  x="[link](2024-1-vr-pUnica-K1-gaal-gabarito.pdf)"
+  print(x,"\\")
+print("--- \n")
+print("## Heading 2\n")
+
+import os
+items= os.listdir('.')
+sort= sorted(items)
+i=0
+for k, file in enumerate(sort):
+  if file.endswith(".pdf"):
+    i=i+1
+    print(i,'.','[',file,'](',file,')','\\')
+```
+
 
