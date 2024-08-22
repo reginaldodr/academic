@@ -20,15 +20,30 @@ import tarfile
 for k, file in enumerate(sort):
   if file.endswith(".pdf"):
     pdf_files.append(file)
-    i=i+1
-    print(i,'.','[',file,'](',file,')','\\')
+   
 
 archive = "provas-calculo1.tar.gz"
 with tarfile.open(archive, "w:gz") as tar:
         for pdf_file in pdf_files:
             tar.add(pdf_file)
 
-print('\\')
-print('[Baixar todas as provas](',archive,')')
+print('- Todas as provas em um único arquivo compactado: [provas-calculo1.tar.gz](',archive,')')
+print('\n')
+print('- Provas listadas por ano-semestre \\')
+L=len(pdf_files)
+print('\n')
+print(':::::::::::::: {.columns}')
+print('::: {.column width="50%"}')
+k=1
+L2=L//2+1
+for k  in range(L2):
+  print(k+1,'.','[',pdf_files[k],'](',pdf_files[k],')','\\')
+print(':::')
+print('::: {.column width="50%"}')
+for k  in range(L2,L):
+  print(k+1,'.','[',pdf_files[k],'](',pdf_files[k],')','\\')
+print(':::')
+print('::::::::::::::')
+
 ```
 
