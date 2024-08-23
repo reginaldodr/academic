@@ -1,0 +1,36 @@
+---
+title: "Provas Antigas de GA"
+format:
+  html:
+    toc: false
+---
+
+```{python}
+#| echo: false
+#| output: asis
+
+import os
+items= os.listdir('.')
+sort= sorted(items)
+i=0
+pdf_files = []
+
+import tarfile 
+
+for k, file in enumerate(sort):
+  if file.endswith(".pdf"):
+    pdf_files.append(file)
+   
+
+archive = "provas-GA.tar.gz"
+with tarfile.open(archive, "w:gz") as tar:
+        for pdf_file in pdf_files:
+            tar.add(pdf_file)
+
+print('- Todas as provas em um único arquivo compactado: [provas-GA.tar.gz](',archive,')')
+print('\n')
+print('- Provas listadas por ano-semestre \\')
+L=len(pdf_files)
+for k  in range(L):
+  print(k+1,'.','[',pdf_files[k],'](',pdf_files[k],')','\\')
+```

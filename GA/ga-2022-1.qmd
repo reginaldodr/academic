@@ -1,0 +1,106 @@
+---
+title: Geometria Analítica -- RCN00023 -- 2022-1
+number-sections: true
+---
+
+# Informações Básicas
+
+-  Horários e sala:   
+    - Turma K1: Seg. e Qua. das 8h às 10h – sala 3 – IHS
+    - Turma R1: Ter. (sala 8) e Qui (sala 5). das 8h às 10h
+
+-   **Ementa:** Busque por RCN00023 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/) .
+
+- Acesso ao moodle: [https://ead.cead.uff.br/](https://ead.cead.uff.br/)
+    - Para acessar a primeira vez digite seu CPF com login e Cead2022 como senha inicial.
+
+# Apresentação do Curso
+
+Este curso é constituído de dois grandes módulos: 
+
+**Geometria Analítica Plana e Geometria Analítica Espacial. **
+
+Faremos um curso híbrido, usando a metodologia da *Sala de Aula Invertida* (Flipped Classroom), [veja aqui](https://ifg.edu.br/attachments/article/19169/Sala%20de%20aula%20invertida_%20por%20onde%20come%C3%A7ar%20(21-12-2020).pdf). **O curso é presencial**, entretanto vamos inverter a lógica da sala de aula tradicional. O **conteúdo expositivo** será realizado em casa através de videoaulas e o conteúdo prático será feito em sala de aula. Sendo assim, teremos 2 aulas presenciais por semana normalmente onde trabalharemos o conteúdo que vocês devem assistir em casa.
+
+Para moderar essa metodologia, usaremos o **Moodle** como Ambiente Virtual  de Aprendizagem (AVA). Nele serão postados todos os materiais usados e serão realizadas as discussões e comunicações.
+
+Os módulos serão distribuídos em tópicos semanais, que estão apresentados na seção 4 deste documento.
+
+Em cada semana vocês encontrarão uma série de **lições**, no moodle, cujo objetivo é apresentar o conteúdo. Estas lições serão constituídas de pequenas videoaulas que vocês devem assistir e de exercícios valendo pontos. Ao fim das lições será deixada uma **lista de exercícios** para serem trabalhados na aula presencial.
+
+Neste curso temos duas turmas, a Turma K1 (turma dos calouros) e Turma R1 (turma dos veteranos). O curso será o mesmo para as duas turmas, mas o horário é diferente. **A turma R1 terá aula presencial às Terças e Quintas, enquanto que a turma K1, às Segundas e Quartas, ambas no horário de 8h às 10h da manhã.**
+
+A dinâmica semanal será a seguinte: 
+
+1. O conteúdo da semana será postado na plataforma do moodle.
+2. Os alunos devem fazer as lições ao longo da semana.
+3. Após terminar as lições, deve-se fazer os exercícios propostos da lista de exercícios que serão trabalhados na aula presencial.
+4. O fórum de dúvidas deve ser usado para comunicação e discussão dos conteúdos. 
+5. Na semana seguinte teremos nossas aulas presenciais. A primeira aula da semana será usada com atendimento para o esclarecimento de dúvidas e discutir os conteúdos da semana. Na segunda aula da semana vamos trabalhar exercícios da lista, onde os grupos serão convidados a realizar os exercícios na lousa. **Para que a metodologia funcione, é essencial que o material das lições seja consumido na semana anterior.**
+
+# Avaliação
+
+A avaliação será constituída de:
+
+A avaliação será constituída de:
+
+- **Lições** realizadas ao longo da semana valendo 10 pontos cada.
+- **2 Provas** presenciais realizadas ao fim de cada módulo. Cada prova terá o valor de 10 pontos.
+- **Testes numéricos** online e síncronos que serão realizados com auxílio da linguagem python.
+
+A nota final do curso será a média ponderada entre as lições, as provas e os testes, com pesos 4 e 6, respectivamente. Assim a nota final é calculada pela fórmula:
+
+$$N=0,5\cdot L+0,4\cdot P+0,1\cdot T,$$
+onde **NF** é a nota final, **L** é a média aritmética de todas as lições e **P** é a média aritmética das provas e **T** a média aritmética dos testes.
+
+## Segunda Chamada e Verificação Suplementar.
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
+Como regulamentado pelo  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 98, o aluno tem direito a uma avaliação de segunda chamada (VR), que **substituirá uma, e somente uma,** das avaliações que tenha faltado.
+
+As datas da VS e da 2ª chamada estão descritas no cronograma a seguir.
+
+# Cronograma de Provas
+
+A seguir a proposta de cronograma para este curso. Cabe ressaltar que esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos.
+
+- 28/03 – Início do Período
+- 18/05 e 19/05 – Primeira Prova (gabarito: [Turma K1](provas/2022-1-p1-turmak1-ga-gabarito.pdf) – [Turma R1](provas/2022-1-p1-turmaR1-ga-gabarito.pdf) )
+- 06/07 e 07/07 – Segunda Prova (gabarito: [TurmaK1](provas/2022-1-p2-turmaK1-ga-gabarito.pdf) – [TurmaR1](provas/2022-1-p2-turmaR1-ga-gabarito.pdf) )
+- 13/07 e 14/07 – 2ª Chamada (gabarito: P1- [Turma K1](provas/2022-1-vr-p1-turmaK1-ga-gabarito.pdf) – [TurmaR1](provas/2022-1-vr-p1-turmaR1-ga-gabarito.pdf), P2- [Turma K1](provas/2022-1-vr-p2-turmaK1-ga-gabarito.pdf), [Turma R1](provas/2022-1-vr-p2-turmaR1-ga-gabarito.pdf).)
+- 20/07 e 21/07 – Verificação Suplementar – [VS](provas/2022-1-vs-turmaK1-ga-gabarito.pdf)
+- 30/07 – Fim do Período.
+
+# Materiais Utilizados
+
+- [Apostila GA Plana](material/apostila_ga_plana.pdf)
+- [Lista de Execícios de GA Plana](material/lista-exercicios.pdf)
+- [Lista de Exercícios de GA Espacial – Livro do Boulos [9]](listas-boulos-espacial/)
+- [Textos das aulas presenciais](textos-aulas-presenciais)
+- [Arquivos de python](python/)
+
+
+# Referências
+O curso será dividido em duas partes. Geometria Analítica plana e Geometria Analítica Espacial. 
+Na parte 1, **Geometria Analítica Plana**, será usado como livro texto a referência [10] e as demais como material auxiliar ao longo do curso. 
+Na parte 2, **Geometria Analítica Espacial**, não há um livro texto como referência, mas usaremos principalmente as referências  [6,9] e as demais como material auxiliar.
+
+Vídeo-aulas que serão usadas no curso:
+
+- [Playlist Geometria Analítica](https://youtube.com/playlist?list=PLMbyf27J7J7hrV-UWcIe2jDJk0sM9DtlY)
+- [Quádricas](https://youtu.be/ApDlPk20oUM)
+- [Elipsoide](https://youtu.be/ApDlPk20oUM)
+- [Cone quádrico](https://youtu.be/gPmEEVB2RZc)
+
+1. Elon L. Lima, Paulo César P. Carvalho, Eduardo Wagner e Augusto César Morgado. **A Matemática do Ensino Médio vol. 1**. Rio de Janeiro, SBM, 2006.
+2. Elon L. Lima, Paulo César P. Carvalho, Eduardo Wagner e Augusto César Morgado. **A Matemática do Ensino Médio vol. 3**. Rio de Janeiro, 6a ed., SBM, 2006.
+3. Elon L. Lima. **Geometria Analı́tica e Álgebra Linea**r. Rio de Janeiro, IMPA, 2008.
+4. James Stewart. **Cálculo Volume 1**. Editora Cengage Learning, 6a ed., São Paulo, 2011.
+5. Jorge D. Gómez, Kátia R. Frensel, Nedir. do E. Santos. **Geometria analı́tica **I. Rio de Janeiro, Fundação CECIERJ, 2010
+6. Jorge D. Gómez, Kátia R. Frensel, Nedir do E. Santos. **Geometria análítica II**. Rio de Janeiro, Fundação CECIERJ, 2009.
+7. Manfredo P. do Carmo, E. Wagner e A. C. Morgado. **Trigonometria/ Números Complexos**. Rio de Janeiro, SBM, 2005.
+8. Paulo Bolulos. **Pré-Cálculo**. São Paulo, MAKRON Books, 1999.
+9. Paulo Boulos, Ivan Camargo. **Geometria Analítica-Um tratamento vetorial**. São Paulo: Ed. 2005.
+10. Reginaldo Demarque. **Notas de geometria analítica e cálculo vetorial**. Notas de aula, 2012. [disponível aqui](material/apostila_ga_plana.pdf)
+11. Yuriko Y. Baldin, Yolanda. K. S. Furuya, **Geometria Analítica para todos e atividades com Octave e Geogebra**. São Carlos, EdUFSCar, 2011.

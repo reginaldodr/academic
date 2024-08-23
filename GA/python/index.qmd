@@ -1,0 +1,27 @@
+---
+title: "Arquivos em Python"
+format:
+  html:
+    toc: false
+---
+
+```{python}
+#| echo: false
+#| output: asis
+
+import os
+items= os.listdir('.')
+sort= sorted(items)
+i=0
+pdf_files = []
+
+import tarfile 
+
+for k, file in enumerate(sort):
+  if file.endswith(".ipynb"):
+    pdf_files.append(file)
+
+L=len(pdf_files)
+for k  in range(L):
+  print(k+1,'.','[',pdf_files[k],'](',pdf_files[k],')','\\')
+```

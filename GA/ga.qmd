@@ -1,0 +1,35 @@
+---
+title: Geometria Analítica e Cálculo Vetorial
+format:
+  html:
+    toc: false
+---
+
+
+::: {layout-ncol=2}
+
+## Material Básico
+
+- **GA no Plano**
+    - [Slides](slides-videoaulas-ga-plana.pdf)
+
+
+
+- **GA no Espaço**
+    
+    - [Slides](slides-videoaulas-ga-espacial.pdf)
+    
+    - [Livro GAAL -- Reginaldo Santos -- UFMG](../gaal/gaalt0.pdf)
+    
+    - [Lista Exercícios Paulo Boulos](listas-boulos-espacial/) 
+    
+    
+
+- [Provas antigas](provas/)
+
+
+## Material Complementar
+
+:::
+
+

@@ -31,19 +31,7 @@ print('- Todas as provas em um único arquivo compactado: [provas-calculo1.tar.g
 print('\n')
 print('- Provas listadas por ano-semestre \\')
 L=len(pdf_files)
-print('\n')
-print(':::::::::::::: {.columns}')
-print('::: {.column width="50%"}')
-k=1
-L2=L//2+1
-for k  in range(L2):
+for k  in range(L):
   print(k+1,'.','[',pdf_files[k],'](',pdf_files[k],')','\\')
-print(':::')
-print('::: {.column width="50%"}')
-for k  in range(L2,L):
-  print(k+1,'.','[',pdf_files[k],'](',pdf_files[k],')','\\')
-print(':::')
-print('::::::::::::::')
-
 ```
 
