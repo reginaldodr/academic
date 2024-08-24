@@ -277,27 +277,71 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 Inicialmente foram **50 inscritos**, entretanto ao final do curso ficamos com **37** estudantes. Isso se deu pois, devido à greve neste período, O CEPEx aprovou novo calendário estendendo os período de trancamento de disciplina.   veja a [Resolução CEPEx/UFF nº 3618](https://www.uff.br/sites/default/files/paginas-internas-orgaos/87-24_res_cepex_3.618_calendarios_2024_p._greve.pdf).
 
 
-::: {#tbl-panel layout-ncol=2}
+```{python}
+#| echo: false
+#| output: asis
 
-|     |
-|---|---|---| 
-| Aprovados      | 17 | 43,24 %  |
-| Reprovados     | 11  |29,73 %  |
-| Ficaram em VS  | 10 | 27,03 %  |
-| Total          | 37 | 100 %    |
+import numpy as np
+from scipy.stats import norm
+import matplotlib.pyplot as plt
 
-: Resultado Parcial {#tbl-first}
 
-|                           |
-|---|---|---| 
-| Aprovados | xx | xxx %  |
-| Reprovados| xx  | xxx %  |
-|           |    |          |
-| Total     | xx | xxx %     |
+# Generate some data for this demonstration.
+notaparcial = np.array([0,2.1,4.8,4,6,8.6,4,7.1,6,8.3,1.9,6.2,7.2,4.3,4,2.9,10,4.6,2.6,3.3,0,9.9,6,1.5,4.3,9.7,6.9,6.2,1.5,5.3,9.9,6.5,10,0,7.4,4.5,8.3])
 
-: Resultado final {#tbl-second}
+notafinal = np.array([0,2.1,4.8,4,6,8.6,4,7.1,6,8.3,1.9,6.2,7.2,4.3,4,2.9,10,4.6,2.6,3.3,0,9.9,6,1.5,4.3,9.7,6.9,6.2,1.5,5.3,9.9,6.5,10,0,7.4,4.5,8.3])
 
-Resultados
-:::
 
+bins = [0, 4, 6, 10]
+bins2 = [0,6,10]
+
+N=len(notaparcial)
+res1, _ = np.histogram(notaparcial, bins=bins)
+res2, _ = np.histogram(notaparcial, bins=bins2)
+
+print('::: {#tbl-panel layout-ncol=2}\n')
+print('|     |')
+print('|---|---|---| ')
+print('| Aprovados      |',res1[2],' |',np.round(res1[2]/N*100,2),'%  |')
+print('| Reprovados      |',res1[0],' |',np.round(res1[0]/N*100,2),'%  |')
+print('| VS     |',res1[1],' |',np.round(res1[1]/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resultado Parcial {#tbl-first}\n')
+print('|                           |')
+print('|---|---|---| ')
+print('| Aprovados      |',res2[1],' |',np.round(res2[1]/N*100,2),'%  |')
+print('| Reprovados      |',res2[0],' |',np.round(res2[0]/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resultado final {#tbl-second}\n')
+print('Resultados')
+print(':::')
+
+mylabels = ["Reprovados", "VS", "Aprovados"]
+mycolors = ["r", "gold", "dodgerblue"]
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9,3 ))
+
+
+ax1.pie(res1, labels = mylabels,colors=mycolors,autopct='%1.1f%%', startangle = 90)
+ax1.set_title('Resultado Parcial')
+
+mylabels2 = ["Reprovados", "Aprovados"]
+mycolors2 = ["r", "dodgerblue"]
+
+
+ax2.pie(res2, labels = mylabels2,colors=mycolors2,autopct='%1.1f%%', startangle = 90)
+ax2.set_title('Resultado Final')
+plt.show()
+
+
+# Plot the histogram.
+plt.hist(notafinal, bins=5, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas do Resultado Final")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+```
 

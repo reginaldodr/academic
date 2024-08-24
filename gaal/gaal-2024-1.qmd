@@ -266,31 +266,9 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 
 # Resultados
 
-Inicialmente foram **49 inscritos**, entretanto ao final do curso ficamos com **36** estudantes. Isso se deu pois, devido à greve neste período, O CEPEx aprovou novo calendário estendendo os período de trancamento de disciplina.   veja a [Resolução CEPEx/UFF nº 3618](https://www.uff.br/sites/default/files/paginas-internas-orgaos/87-24_res_cepex_3.618_calendarios_2024_p._greve.pdf).
+Inicialmente foram **49 inscritos**, entretanto ao final do curso ficamos com **36** estudantes inscritos. Isso se deu pois, devido à greve neste período, O CEPEx aprovou novo calendário estendendo os período de trancamento de disciplina.   veja a [Resolução CEPEx/UFF nº 3618](https://www.uff.br/sites/default/files/paginas-internas-orgaos/87-24_res_cepex_3.618_calendarios_2024_p._greve.pdf).
 
-
-::: {#tbl-panel layout-ncol=2}
-
-|     |
-|---|---|---| 
-| Aprovados      | 17 | 47,22 %  |
-| Reprovados     | 15  |41,67 %  |
-| Ficaram em VS  | 4 | 11,11 %  |
-| Total          | 36 | 100 %    |
-
-: Resultado Parcial {#tbl-first}
-
-|                           |
-|---|---|---| 
-| Aprovados | xx | xxx %  |
-| Reprovados| xx  | xxx %  |
-|           |    |          |
-| Total     | xx | xxx %     |
-
-: Resultado final {#tbl-second}
-
-Resultados
-:::
+**Entretanto, 6 alunos nunca entregaram nenhuma atividade, nem o trabalho em grupo. **
 
 
 ```{python}
@@ -302,19 +280,62 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 
 
-# Generate some data for this demonstration.
-data = np.array([0,2.8,6,6.9,7.1,6.1,5.3,6.,2.4,7.6,0,6.5,8.1,10,0,7.6,3.4,0,6,0.8,4.8,9.4,8.4,6.3,0.8,0,3.3,4.6,2.9,6.2,7.7,4.3,0,1.8,1.9,9.8])
+# notas dos alunos
+notaparcial = np.array([0,2.8,6,6.9,7.1,6.1,5.3,6.,2.4,7.6,0,6.5,8.1,10,0,7.6,3.4,0,6,0.8,4.8,9.4,8.4,6.3,0.8,0,3.3,4.6,2.9,6.2,7.7,4.3,0,1.8,1.9,9.8])
 
-# Fit a normal distribution to the data:
-mu, std = norm.fit(data)
+notafinal = np.array([0,2.8,6,6.9,7.1,6.1,5.3,6.,2.4,7.6,0,6.5,8.1,10,0,7.6,3.4,0,6,0.8,4.8,9.4,8.4,6.3,0.8,0,3.3,4.6,2.9,6.2,7.7,4.3,0,1.8,1.9,9.8])
+
+
+bins = [0, 4, 6, 10]
+bins2 = [0,6,10]
+
+N=len(notaparcial)
+res1, _ = np.histogram(notaparcial, bins=bins)
+res2, _ = np.histogram(notaparcial, bins=bins2)
+
+print('::: {#tbl-panel layout-ncol=2}\n')
+print('|     |')
+print('|---|---|---| ')
+print('| Aprovados      |',res1[2],' |',np.round(res1[2]/N*100,2),'%  |')
+print('| Reprovados      |',res1[0],' |',np.round(res1[0]/N*100,2),'%  |')
+print('| VS     |',res1[1],' |',np.round(res1[1]/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resultado Parcial {#tbl-first}\n')
+print('|                           |')
+print('|---|---|---| ')
+print('| Aprovados      |',res2[1],' |',np.round(res2[1]/N*100,2),'%  |')
+print('| Reprovados      |',res2[0],' |',np.round(res2[0]/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resultado final {#tbl-second}\n')
+print('Resultados')
+print(':::')
+
+mylabels = ["Reprovados", "VS", "Aprovados"]
+mycolors = ["r", "gold", "dodgerblue"]
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9,3 ))
+
+
+ax1.pie(res1, labels = mylabels,colors=mycolors,autopct='%1.1f%%', startangle = 90)
+ax1.set_title('Resultado Parcial')
+
+mylabels2 = ["Reprovados", "Aprovados"]
+mycolors2 = ["r", "dodgerblue"]
+
+
+ax2.pie(res2, labels = mylabels2,colors=mycolors2,autopct='%1.1f%%', startangle = 90)
+ax2.set_title('Resultado Final')
+plt.show()
+
 
 # Plot the histogram.
-plt.hist(data, bins=5, density=False, alpha=0.6, color='b',edgecolor='black')
+plt.hist(notafinal, bins=5, density=False, alpha=0.6, color='b',edgecolor='black')
 
 # Adicionar título e legendas
-plt.title("Histograma das Notas (Frequência Absoluta)")
+plt.title("Histograma das Notas do Resultado Final")
 plt.xlabel('Notas')
-plt.ylabel('Frequência Absoluta')
+plt.ylabel('Nº de alunos')
 
 plt.show()
 ```
+
