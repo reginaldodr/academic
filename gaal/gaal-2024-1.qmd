@@ -310,20 +310,20 @@ print(': Resultado final {#tbl-second}\n')
 print('Resultados')
 print(':::')
 
-mylabels = ["Reprovados", "VS", "Aprovados"]
+mylabels = ["Reprov.", "VS", "Aprov."]
 mycolors = ["r", "gold", "dodgerblue"]
 
-fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9,3 ))
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(8,3 ))
 
 
-ax1.pie(res1, labels = mylabels,colors=mycolors,autopct='%1.1f%%', startangle = 90)
+ax1.pie(res1, labels = mylabels,colors=mycolors,autopct='%1.1f%%\n\n\n',startangle = 90,textprops=dict(color="k"))
 ax1.set_title('Resultado Parcial')
 
-mylabels2 = ["Reprovados", "Aprovados"]
+mylabels2 = ["Reprov.", "Aprov."]
 mycolors2 = ["r", "dodgerblue"]
 
 
-ax2.pie(res2, labels = mylabels2,colors=mycolors2,autopct='%1.1f%%', startangle = 90)
+ax2.pie(res2, labels = mylabels2,colors=mycolors2,autopct='%1.1f%%\n\n\n',startangle = 90,textprops=dict(color="k"))
 ax2.set_title('Resultado Final')
 plt.show()
 
