@@ -130,13 +130,10 @@ Veja as listas em [Material Básico](gaal.qmd).
 ::: {#refs}
 :::
 
-# Cronograma {#sec-crono}
+# Cronograma Efetivado {#sec-crono}
 
 
-## Cronograma Efetivado
-
-
-### Cronograma Antes da Greve
+## Cronograma Antes da Greve
 
 O cronograma a seguir foi o efetivado até o dia da deflagração da greve no dia 29/04/2024.
 
@@ -161,7 +158,7 @@ O cronograma a seguir foi o efetivado até o dia da deflagração da greve no di
 As atividades de aulas estão suspensas. Ao fim da greve, um novo cronograma será elaborado.
 ---
 
-###  Fim da greve e retorno das aulas :man_teacher:
+##  Fim da greve e retorno das aulas :man_teacher:
 
 A seguir a proposta de cronograma para este curso de acordo com o estabelecido pela [Resolução CEPEx/UFF nº 3.618, 26 de junho de 2024](https://www.uff.br/sites/default/files/paginas-internas-orgaos/resolucao_cepex_3.618_de_26_de_junho_de_2024_-_calendarios_2024_reorganizados.pdf)  Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 31/08, neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
@@ -202,67 +199,6 @@ A seguir o novo cronograma de aulas de acordo com o estabelecido pela [Resoluç�
 :end: &nbsp; Sáb  --  31/08  --  Fim do Período. :raised_hands:
 ---
 
-## Crongrama Porposto Inicialmente
-
-Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
-
-**1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;**
-
-01 . &nbsp; Seg  --  18/03  --  Apresentação. Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$.  Representação Geométrica. Norma. Regra do paralelogramo. \
-02 . &nbsp; Ter  --  19/03  --  O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. \
-03 . &nbsp; Seg  --  25/03  --  Matrizes: definição, operações e propriedades \
-04 . &nbsp; Ter  --  26/03  --  Matrizes identidade e transposta. Operações usando o sympy. \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
-05 . &nbsp; Seg  --  01/04  --  Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy. \
-06 . &nbsp; Ter  --  02/04  --  Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. \
-07 . &nbsp; Seg  --  08/04  --  Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. Escalonamento \
-08 . &nbsp; Ter  --  09/04  --  Posto de uma matriz. Variáveis livres. Usando sympy para resolver sistemas lineares. Método de Gauss-Jordan. Sistemas lineares Homogêneos \
-:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
-09 . &nbsp; Seg  --  15/04  --  Matriz Inversa e Método de Inversão \
-10 . &nbsp; Ter  --  16/04  --  Determinantes. \
-:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
-11 . &nbsp; Seg  --  29/04  --  Produto Vetorial e Produto Misto \
-12 . &nbsp; Ter  --  30/04  --  Distâncias: entre Ponto e Plano, Ponto a Reta \
-:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
-13 . &nbsp; Seg  --  06/05  --  Distâncias: Entre Retas, entre reta e Plano \
-<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
-<span style="color:red"> :memo: &nbsp; Entrega do Trabalho </span> \
----
-
-**2. Álgebra Linear no $\mathbb{R}^n$**
-
-14 . &nbsp; Ter  --  07/05  --  Dependência e Independência Linear \
-15 . &nbsp; Seg  --  13/05  --  Posição Relativa de retas e planos \
-16 . &nbsp; Ter  --  14/05  --  Subespaço. Base e Dimensão \
-17 . &nbsp; Seg  --  20/05  --  Aula de Exercícios \
-18 . &nbsp; Ter  --  21/05  --  Projeção Ortogonal. Bases Ortogonais e Ortonormais. \
-19 . &nbsp; Seg  --  27/05  --  Mudança de Coordenadas. Rotação e Translação \
-20 . &nbsp; Ter  --  28/05  --  Autovetores e Autovalores \
-:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  30/05  --  Corpus Christ </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  31/05  --  Ponto Facultativo </span> \
-21 . &nbsp; Seg  --  03/06  --  Diagonalização de Matrizes \
-22 . &nbsp; Ter  --  04/06  --  Diagonalização de Matrizes Simétricas \
-23 . &nbsp; Seg  --  10/06  --  Reconhecimento de Cônicas \
-24 . &nbsp; Ter  --  11/06  --  Aula de Exercícios \
-25 . &nbsp; Seg  --  17/06  --  Aula de Dúvidas \
-<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
----
-
-**Provas Finais**
-
-<span style="color:red"> 26 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> \
-27 . &nbsp; Seg  --  24/06  --  Vista da Prova. \
-<span style="color:red"> 28 . &nbsp; Ter  --  25/06  --  2ª Chamada </span> \
-29 . &nbsp; Seg  --  01/07  --  Semana dedicada à preparação para a VS \
-30 . &nbsp; Ter  --  02/07  --  Semana dedicada à preparação para a VS \
-<span style="color:red"> 31 . &nbsp; Seg  --  08/07  --  VS </span> \
-32 . &nbsp; Ter  --  09/07  --   --  \
-33 . &nbsp; Seg  --  15/07  --   --  \
-34 . &nbsp; Ter  --  16/07  --   --  \
-:end: &nbsp; Qua  --  17/07  --  Fim do Período. :raised_hands:
----
 
 # Resultados
 
@@ -351,4 +287,68 @@ plt.ylabel('Nº de alunos')
 
 plt.show()
 ```
+---
+
+
+# Crongrama Porposto Inicialmente
+
+Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
+
+**1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;**
+
+01 . &nbsp; Seg  --  18/03  --  Apresentação. Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$.  Representação Geométrica. Norma. Regra do paralelogramo. \
+02 . &nbsp; Ter  --  19/03  --  O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. \
+03 . &nbsp; Seg  --  25/03  --  Matrizes: definição, operações e propriedades \
+04 . &nbsp; Ter  --  26/03  --  Matrizes identidade e transposta. Operações usando o sympy. \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
+05 . &nbsp; Seg  --  01/04  --  Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy. \
+06 . &nbsp; Ter  --  02/04  --  Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. \
+07 . &nbsp; Seg  --  08/04  --  Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. Escalonamento \
+08 . &nbsp; Ter  --  09/04  --  Posto de uma matriz. Variáveis livres. Usando sympy para resolver sistemas lineares. Método de Gauss-Jordan. Sistemas lineares Homogêneos \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
+09 . &nbsp; Seg  --  15/04  --  Matriz Inversa e Método de Inversão \
+10 . &nbsp; Ter  --  16/04  --  Determinantes. \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
+11 . &nbsp; Seg  --  29/04  --  Produto Vetorial e Produto Misto \
+12 . &nbsp; Ter  --  30/04  --  Distâncias: entre Ponto e Plano, Ponto a Reta \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
+13 . &nbsp; Seg  --  06/05  --  Distâncias: Entre Retas, entre reta e Plano \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+<span style="color:red"> :memo: &nbsp; Entrega do Trabalho </span> \
+---
+
+**2. Álgebra Linear no $\mathbb{R}^n$**
+
+14 . &nbsp; Ter  --  07/05  --  Dependência e Independência Linear \
+15 . &nbsp; Seg  --  13/05  --  Posição Relativa de retas e planos \
+16 . &nbsp; Ter  --  14/05  --  Subespaço. Base e Dimensão \
+17 . &nbsp; Seg  --  20/05  --  Aula de Exercícios \
+18 . &nbsp; Ter  --  21/05  --  Projeção Ortogonal. Bases Ortogonais e Ortonormais. \
+19 . &nbsp; Seg  --  27/05  --  Mudança de Coordenadas. Rotação e Translação \
+20 . &nbsp; Ter  --  28/05  --  Autovetores e Autovalores \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  30/05  --  Corpus Christ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  31/05  --  Ponto Facultativo </span> \
+21 . &nbsp; Seg  --  03/06  --  Diagonalização de Matrizes \
+22 . &nbsp; Ter  --  04/06  --  Diagonalização de Matrizes Simétricas \
+23 . &nbsp; Seg  --  10/06  --  Reconhecimento de Cônicas \
+24 . &nbsp; Ter  --  11/06  --  Aula de Exercícios \
+25 . &nbsp; Seg  --  17/06  --  Aula de Dúvidas \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**Provas Finais**
+
+<span style="color:red"> 26 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> \
+27 . &nbsp; Seg  --  24/06  --  Vista da Prova. \
+<span style="color:red"> 28 . &nbsp; Ter  --  25/06  --  2ª Chamada </span> \
+29 . &nbsp; Seg  --  01/07  --  Semana dedicada à preparação para a VS \
+30 . &nbsp; Ter  --  02/07  --  Semana dedicada à preparação para a VS \
+<span style="color:red"> 31 . &nbsp; Seg  --  08/07  --  VS </span> \
+32 . &nbsp; Ter  --  09/07  --   --  \
+33 . &nbsp; Seg  --  15/07  --   --  \
+34 . &nbsp; Ter  --  16/07  --   --  \
+:end: &nbsp; Qua  --  17/07  --  Fim do Período. :raised_hands:
+---
 
