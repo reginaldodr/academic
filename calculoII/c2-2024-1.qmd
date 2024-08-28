@@ -196,10 +196,10 @@ A seguir a proposta de cronograma para este curso de acordo com o estabelecido p
 
 19 . &nbsp; Seg  --  12/08  --  <span style="color:standard"> Aula de Exercícios </span> \
 <span style="color:red"> 20 . &nbsp; Ter  --  13/08  --  Prova Sobre Conteúdo de EDO -- </span> [gabarito](provas/2024-1-p1-turmaC1-c2-gabarito.pdf)\
-<span style="color:red"> 21 . &nbsp; Seg  --  19/08  --  2ª Chamada </span> \
-22 . &nbsp; Ter  --  20/08  --  <span style="color:LightGray"> Atendimento de dúvidas </span> \
-23 . &nbsp; Seg  --  26/08  --  <span style="color:LightGray"> Atendimento de dúvidas </span> \
-<span style="color:red"> 24 . &nbsp; Ter  --  27/08  --  VS </span> \
+<span style="color:red"> 21 . &nbsp; Seg  --  19/08  --  2ª Chamada </span> -- [gabarito](provas/2024-1-vr-turmaC1-calculo2-gabarito.pdf) \
+22 . &nbsp; Ter  --  20/08  --  <span style="color:standard"> Atendimento de dúvidas </span> \
+23 . &nbsp; Seg  --  26/08  --  <span style="color:standard"> Atendimento de dúvidas </span> \
+<span style="color:red"> 24 . &nbsp; Ter  --  27/08  --  VS </span> -- [gabarito](provas/2024-1-vs-turmaC1-calculo2-gabarito.pdf) \
 :end: &nbsp; Sáb  --  31/08  --  Fim do Período. :raised_hands:
 ---
 
@@ -289,7 +289,8 @@ import matplotlib.pyplot as plt
 # Generate some data for this demonstration.
 notaparcial = np.array([0,2.1,4.8,4,6,8.6,4,7.1,6,8.3,1.9,6.2,7.2,4.3,4,2.9,10,4.6,2.6,3.3,0,9.9,6,1.5,4.3,9.7,6.9,6.2,1.5,5.3,9.9,6.5,10,0,7.4,4.5,8.3])
 
-notafinal = np.array([0,2.1,4.8,4,6,8.6,4,7.1,6,8.3,1.9,6.2,7.2,4.3,4,2.9,10,4.6,2.6,3.3,0,9.9,6,1.5,4.3,9.7,6.9,6.2,1.5,5.3,9.9,6.5,10,0,7.4,4.5,8.3])
+notafinal = np.array([0,2.1,2,0,6,8.6,0.5,7.1,6,8.3,1.9,6.2,7.2,0.5,0.5,2.9,10,0.5,2.6,
+3.3,0,9.9,6,1.5,0,9.7,6.9,6.2,1.5,1.8,9.9,6.5,10,0,7.4,0.8,8.3])
 
 
 bins = [0, 4, 6, 10]
@@ -297,7 +298,7 @@ bins2 = [0,6,10]
 
 N=len(notaparcial)
 res1, _ = np.histogram(notaparcial, bins=bins)
-res2, _ = np.histogram(notaparcial, bins=bins2)
+res2, _ = np.histogram(notafinal, bins=bins2)
 
 print('::: {#tbl-panel layout-ncol=2}\n')
 print('|     |')
@@ -334,8 +335,19 @@ ax2.set_title('Resultado Final')
 plt.show()
 
 
+
 # Plot the histogram.
-plt.hist(notafinal, bins=5, density=False, alpha=0.6, color='b',edgecolor='black')
+plt.hist(notaparcial, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas do Resultado Parcial")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+
+# Plot the histogram.
+plt.hist(notafinal, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
 
 # Adicionar título e legendas
 plt.title("Histograma das Notas do Resultado Final")

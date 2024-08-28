@@ -21,7 +21,7 @@ format:
 
 -   [Cálculo I](calculoI/calculoI.qmd)
 -   [Cálculo II](calculoII/calculoII.qmd) 
-    - Turmas: [2022-2](calculoII/c2-2022-2.qmd), [2023-1](calculoII/c2-2023-1.qmd), [2023-2](calculoII/c2-2023-2.qmd)
+    - Turmas: [2022-2](calculoII/c2-2022-2.qmd), [2023-1](calculoII/c2-2023-1.qmd), [2023-2](calculoII/c2-2023-2.qmd), [2024-1](calculoII/c2-2024-1.qmd)
 -   [Cálculo III](calculoIII/calculoIII.qmd)
     - Turmas: [2023-1](calculoIII/c3-2023-1.qmd), [2023-2](calculoIII/c3-2023-2.qmd)
 -   Cálculo IV:

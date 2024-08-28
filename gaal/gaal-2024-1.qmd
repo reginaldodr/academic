@@ -198,7 +198,7 @@ A seguir o novo cronograma de aulas de acordo com o estabelecido pela [Resoluç�
 <span style="color:red"> 22 . &nbsp; Seg  --  19/08  --  Prova da Matéria Toda </span> -- [gabarito](provas/2024-1-p1-turmaK1-gaal-gabarito.pdf) \
 <span style="color:red"> 23 . &nbsp; Ter  --  20/08  --  2ª Chamada </span> -- [gabarito](provas/2024-1-vr-p1-turmaK1-gaal-gabarito.pdf)\
 24 . &nbsp; Seg  --  26/08  --  <span style="color:standard"> Atendimento de dúvidas </span> \
-<span style="color:red"> 25 . &nbsp; Ter  --  27/08  --  VS </span> \
+<span style="color:red"> 25 . &nbsp; Ter  --  27/08  --  VS </span> -- [gabarito](provas/2024-1-vs-turmaK1-gaal-gabarito.pdf) \
 :end: &nbsp; Sáb  --  31/08  --  Fim do Período. :raised_hands:
 ---
 
@@ -283,7 +283,8 @@ import matplotlib.pyplot as plt
 # notas dos alunos
 notaparcial = np.array([0,2.8,6,6.9,7.1,6.1,5.3,6.,2.4,7.6,0,6.5,8.1,10,0,7.6,3.4,0,6,0.8,4.8,9.4,8.4,6.3,0.8,0,3.3,4.6,2.9,6.2,7.7,4.3,0,1.8,1.9,9.8])
 
-notafinal = np.array([0,2.8,6,6.9,7.1,6.1,5.3,6.,2.4,7.6,0,6.5,8.1,10,0,7.6,3.4,0,6,0.8,4.8,9.4,8.4,6.3,0.8,0,3.3,4.6,2.9,6.2,7.7,4.3,0,1.8,1.9,9.8])
+notafinal = np.array([0,2.8,6,6.9,7.1,6.1,3.8,6,2.4,7.6,0,6.5,8.1,10,0,7.6,3.4,0,6,0.8,
+2.4,9.4,8.4,6.3,0.8,0,3.3,2.3,2.9,6.2,7.7,2.4,0,1.8,1.9,9.8,])
 
 
 bins = [0, 4, 6, 10]
@@ -291,7 +292,7 @@ bins2 = [0,6,10]
 
 N=len(notaparcial)
 res1, _ = np.histogram(notaparcial, bins=bins)
-res2, _ = np.histogram(notaparcial, bins=bins2)
+res2, _ = np.histogram(notafinal, bins=bins2)
 
 print('::: {#tbl-panel layout-ncol=2}\n')
 print('|     |')
@@ -328,8 +329,20 @@ ax2.set_title('Resultado Final')
 plt.show()
 
 
+
 # Plot the histogram.
-plt.hist(notafinal, bins=5, density=False, alpha=0.6, color='b',edgecolor='black')
+plt.hist(notaparcial, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas Parciais")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+
+
+# Plot the histogram.
+plt.hist(notafinal, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
 
 # Adicionar título e legendas
 plt.title("Histograma das Notas do Resultado Final")
