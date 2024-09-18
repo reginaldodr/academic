@@ -1,0 +1,198 @@
+---
+title: GAAL RCN00075 -- 2024-2
+number-sections: true
+bibliography: biblio.bib
+csl:  aims-mathematics.csl
+nocite: |
+  @*
+
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+# Informações Básicas
+
+- **Início e Fim do Período:** 23/09/2024 a 06/02/2024 
+    - Recesso fim de ano: 23/12/2024 a 05/01/2025
+
+-  **Horário e sala:** \
+2ª (16h às 18h) **Sala 06** -- **IHS (prédio alugado)**\
+3ª (14h às 16h) **Sala 04** -- **IHS (prédio alugado)**\
+confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
+
+- Acesso ao moodle: [https://ead.cead.uff.br/](https://ead.cead.uff.br/)
+    - Para acessar a primeira vez digite seu CPF com login e Cead2024 como senha inicial.
+
+-  **Atendimento:** Quintas-feiras das 16h-18h -- sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) caso queira agendar outro horário.
+
+
+- **Material a ser utilizado**
+    - [Slides e outros](gaal.qmd)
+
+    - [Anotações das aulas]()
+
+
+-  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
+MATRIZES E SISTEMAS LINEARES. DETERMINANTES. VETORES NO PLANO E NO ESPAÇO. RETAS E PLANOS. ESPAÇO $\mathbb{R}^n$. AUTOVALORES E AUTOVETORES DE UMA MATRIZ. DIAGONALIZAÇÃO DE MATRIZES. RECONHECIMENTO DE CÔNICAS.
+
+- **Monitoria:** Não houveram monitores selecionados neste ano.
+
+# Apresentação do Curso
+
+Este curso é constituído de dois módulos:
+
+1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;
+2. Álgebra Linear no $\mathbb{R}^n$.
+
+Usaremos o **Moodle** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
+
+Usaremos como livro texto as referências [@poole] e [@santosufmg]. **A primeira está disponível para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). A segudna pode ser baixada [aqui](gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+
+As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
+
+
+# Avaliação
+
+A avaliação será feita mediante:
+
+1. Exercícios propostos em aula, chamados de **Para Casa** :house: [veja aqui](paracasa.pdf), que deverão ser entregues de acordo com o cronograma na seção @sec-crono.
+2. **Atividades Formativas** propostas no moodle.
+3. **Duas Provas Escritas**. 
+
+A nota final será a média ponderada entre os **Para Casa**, as **Atividades Formativas** e as **Provas Escitas**, distribuídas da seguinte forma:
+$$N=0.1\times PC+0.1\times AF+0.8\times P,$$
+onde $PC$ é a média dos Para Casa, $AF$ é a média das Atividades Formativas e $P$ a média das Provas Escritas. Veja no cronograma, @sec-crono abaixo, as datas destas avaliações. 
+
+## Sobre os Para Casa
+
+- Deverá ser feito em grupos de 4 a 5 integrantes.
+- Deverá ser manuscrito.
+- Deverá ser entregue em folhas de papel A4 ou almaço e grampeadas.
+- Datas de entregas ver @sec-crono. 
+
+
+## Sobre as Provas
+
+- Serão **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.).
+- <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> 
+- Será permitido o uso de calculadora científica.
+
+
+## Segunda Chamada
+
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">sem a necessidade de justificativa!</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
+
+
+::: {.callout-warning}
+## Importante
+
+Como **não há a necessidade de justificar a falta nas avaliações** para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações. 
+
+Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a prova não terão o direito à Segunda Chamada.
+:::
+
+## Verificação Suplementar
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
+
+# Listas de Exercícios
+
+Abaixo seguem os execícios das referências @poole e @santosufmg que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+
+Veja as listas em [Material Básico](gaal.qmd).
+
+@poole **§ 1.2 (Vetores):** 5, 11, 12, 14, 17.\
+@poole **§ 3.2 (Matrizes):** 1, 11, 13, 17, 35.\
+@poole **§ 1.3 (Produto Escalar):** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
+@poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
+@poole **§ 2.2 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
+@poole **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
+@poole **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
+@poole **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
+@santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
+@santosufmg **4.3:(Distância de ponto a reta)** 8, 9.\
+@santosufmg **5.1 (LI e LD):** 1, 3, 4, 8.\
+@poole **§ 3.5 (Subespaço,Base e Dimensão):** 13, 15, 23, 26, 27, 28, 43.\
+@santosufmg **6.1 (Autovetores):** 1, 2, 3, 5, 6, 7.\
+@poole **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27.\ 
+
+:construction: Em construção... 
+
+# Referências {#sec-ref}
+
+
+::: {#refs}
+:::
+
+# Cronograma Efetivado {#sec-crono}
+
+
+
+---
+
+
+# Resultados
+
+
+---
+
+
+# Crongrama Porposto Inicialmente
+
+Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
+
+**1. Matrizes, Sistemas lineares, Determinates;**
+
+01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação. Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. Operações usando o sympy. </span> \
+02 . &nbsp; Ter  --  01/10  --  <span style="color:standard"> Sistemas de Equações Lineares. Operações Elementares. Escalonamento. </span> \
+03 . &nbsp; Seg  --  07/10  --  <span style="color:standard"> Posto de uma matriz. Variáveis livres. Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares. </span> \
+04 . &nbsp; Ter  --  08/10  --  <span style="color:standard"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  12/10  --  Nossa Senhora Aparecida </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  14/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  15/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+05 . &nbsp; Seg  --  21/10  --  <span style="color:standard"> Propriedades da Inversa. Invertendo matrizes com o sympy. Definição de Determinantes. </span> \
+06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Propriedades dos Determinantes. Cálculo de Determinante por Redução por linhas. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
+07 . &nbsp; Ter  --  29/10  --  <span style="color:standard"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
+08 . &nbsp; Seg  --  04/11  --  <span style="color:standard"> Equação cartesina do Plano em $\mathbb{R}^3$.Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano </span> \
+<span style="color:red"> 09 . &nbsp; Ter  --  05/11  --  1ª Prova </span> \
+---
+
+**2. Álgebra Linear no $\mathbb{R}^n$**
+
+10 . &nbsp; Seg  --  11/11  --  <span style="color:standard"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Produto escalar no $\mathbb{R}^n$. Produto escalar usando o sympy. </span> \
+11 . &nbsp; Ter  --  12/11  --  <span style="color:standard"> Dependência e Independência Linear </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  15/11  --  Proclamação da República </span> \
+12 . &nbsp; Seg  --  18/11  --  <span style="color:standard"> Posição Relativa de retas e planos </span> \
+13 . &nbsp; Ter  --  19/11  --  <span style="color:standard"> Subespaço veorial. Subespaço gerado. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  20/11  --  Consciência Negra </span> \
+14 . &nbsp; Seg  --  25/11  --  <span style="color:standard"> Base e Dimensão </span> \
+15 . &nbsp; Ter  --  26/11  --  <span style="color:standard"> Núcleo de uma matriz.Espaço linha e Espaço coluna. </span> \
+16 . &nbsp; Seg  --  02/12  --  <span style="color:standard"> Como obter bases de subespaços. Definição de Autovetores e Autovalores  </span> \
+17 . &nbsp; Ter  --  03/12  --  <span style="color:standard"> Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. Diagonalizando com sympy. </span> \
+18 . &nbsp; Seg  --  09/12  --  <span style="color:standard"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
+19 . &nbsp; Ter  --  10/12  --  <span style="color:standard"> Processo de Ortogonalização de Gram-Schimidt </span> \
+20 . &nbsp; Seg  --  16/12  --  <span style="color:standard"> Diagonalização de Matrizes Simétricas </span> \
+21 . &nbsp; Ter  --  17/12  --  <span style="color:standard"> Mudança de Coordenadas. Rotação e Translação </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/12  --  Recesso </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/12  --  Recesso </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  30/12  --  Recesso </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  31/12  --  Recesso </span> \
+22 . &nbsp; Seg  --  06/01  --  <span style="color:standard"> Reconhecimento de Cônicas </span> \
+<span style="color:red"> 23 . &nbsp; Ter  --  07/01  --  2ª Prova </span> \
+---
+
+**Provas Finais**
+
+<span style="color:red"> 24 . &nbsp; Seg  --  13/01  --  2ª Chamada </span> \
+<span style="color:red"> 25 . &nbsp; Ter  --  14/01  --  VS </span> \
+26 . &nbsp; Seg  --  20/01  --  <span style="color:standard">  --  </span> \
+27 . &nbsp; Ter  --  21/01  --  <span style="color:standard">  --  </span> \
+28 . &nbsp; Seg  --  27/01  --  <span style="color:standard">  --  </span> \
+29 . &nbsp; Ter  --  28/01  --  <span style="color:standard">  --  </span> \
+30 . &nbsp; Seg  --  03/02  --  <span style="color:standard">  --  </span> \
+31 . &nbsp; Ter  --  04/02  --  <span style="color:standard">  --  </span> \
+:end: &nbsp; Qui  --  06/02  --  Fim do Período. :raised_hands:

@@ -1,0 +1,356 @@
+---
+title: CÁLCULO II RCN00020 -- 2024-1
+number-sections: true
+bibliography: biblio.bib
+csl:  aims-mathematics.csl
+nocite: |
+  @*
+  
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+# Informações Básicas
+
+- **Início e Fim do Período:** 18/03/2024 a 17/07/2024 
+
+-  **Horário e sala:** 2ª (14h às 16h) e 3ª (16h às 18h) -- **sala 06 -- IHS (prédio alugado)**\
+confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
+
+-  **Atendimento:** Quintas-feiras das 16h-18h -- sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) caso queira agendar outro horário.
+
+- **Material a ser utilizado**
+    - [Slides e outros](calculoII.qmd)
+
+    - [Anotações das aulas](https://mega.nz/folder/SN00wYDT#0Ff0sY9Qur1X83id_FNuRQ)
+    
+-  **Ementa:** Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
+INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS 
+DE  PRIMEIRA  ORDEM.  EQUAÇÕES  DIFERENCIAIS  DE  SEGUNDA  ORDEM.  EQUAÇÕES  DIFERENCIAIS
+LINEARES DE ORDEM N.
+
+- **Monitoria:** Aguardando o processo seletivo.
+
+# Apresentação do Curso
+
+Este curso é constituído pelos seguintes módulos
+
+1. **Cálculo Integral**
+    1. A integral e técnicas de integração;
+    2. Aplicações da Integral;
+2. **Equações Diferenciais Ordinárias (EDO)**
+    1. EDOs de 1ª ordem;
+    2. EDOs de 2ª ordem lineares.
+
+Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
+
+
+Para o módulo de **Cálculo Integral**, usaremos com livro texto a referência [@stewart1], e para o módulo de **EDO** usaremos [@Boyce]. **Essas duas referências estão disponíveis para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red">É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+
+As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
+
+
+# Avaliação
+
+Durante as aulas, serão propostos exercícios, chamados de **Para Casa** :house: , que deverão ser entregues ao final de cada módulo. Ao final do curso, será aplicada uma **Prova Final** contemplando toda a matéria do curso. 
+
+A nota final será a média ponderada entre os **Para Casa** e a **Prova Final**, isto é, 
+$$N=\frac{3\times PC+7\times PF}{10},$$
+onde $PC$ é a nota dos Para Casa e $PF$ a nota da Prova Final. Veja no cronograma, @sec-crono abaixo, as datas destas avaliações. 
+
+## Sobre a Prova
+
+- Será **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). 
+- <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span>
+- Será permitido o uso de calculadora científica.
+
+
+## Segunda Chamada
+
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">sem a necessidade de justificativa!</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
+
+Como só haverá uma prova escrita, a Segunda Chamada será referente apenas a esta avaliação.
+
+
+::: {.callout-warning}
+## Importante
+
+Como **não há a necessidade de justificar a falta nas avaliações** para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações. 
+
+Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a prova não terão o direito à Segunda Chamada.
+:::
+
+## Verificação Suplementar
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
+
+
+# Listas de Exercícios
+
+**Integral**: Abaixo seguem os execícios da referência @stewart1 que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+
+§ 5.1: 11, 15.\
+§ 5.2: 5, 33, 35, 37, 47, 49, 53.\
+§ 5.3: 7, 9, 17, 19, 23, 27, 29, 35, 39, 53, 55.\
+§ 5.4: 5, 9, 11, 17, 29, 31, 35, 37, 41, 61.\
+§ 5.5: 7, 9, 19, 21, 23, 27, 35, 53, 57, 59, 63, 74, 76, 78, 81.\
+§ 6.1: 1, 3, 5, 9, 13, 23, 24, 29, 39, 49, 51, 53.\
+§ 7.1: 3, 5, 7, 9, 15, 17, 23, 25, 27, 33, 44, 47.\
+§ 7.2: 3, 7, 17, 21, 25, 29, 31, 43, 45, 56, 57, 66, 70.\
+§ 7.3: 5, 7, 11, 13, 17, 23, 25, 35, 41.\
+§ 7.4: 7, 9, 11, 13, 15, 17, 63, 65, 67.\
+Leia a seção 7.5 (Estratégias de Integração)\
+§ 7.5: 1, 3, 5, 7, 13, 15, 17, 23, 25, 27, 33, 41, 45, 63.\
+§ 6.2: 1, 3, 5,19, 21, 39, 45, 51, 67.\
+§ 6.3: 5, 7, 9, 15, 19, 43, 46.\
+§ Em construção
+
+**EDO**: Abaixo seguem os execícios da referência @Boyce que devem ser feitos. A distribuição está dada por seção. Os exercícios marcado com o símbolo🖱️​ no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+
+§ 1.1: 1, 5, 11, 13, 22, 23.\
+§ 1.3: 1, 2, 5, 6, 8, 9, 11, 15.\
+§ 2.2: 1, 6, 8, 10, 12 .\
+§ 2.3: 12, 13, 16, 21.\
+§ 2.1: 1, 4, 5, 6, 7, 9, 13, 15, 16, 17,18.\
+§ 2.4: 1, 2, 5, 7, 11, 27, 28.\
+§ 3.1: 1-4, 9-12, 20, 21, 22.\
+§3.2: 1,2, 21, 22, 23, 25.\
+§3.4: 7-10, 17-20, 25.\
+§3.5: 1-4, 11-14, 15, 18.\
+§3.6: 1-5, 8, 14, 17.\
+§3.7: 5-7, 13, 14.\
+§3.8: 6, 9, 11, 14, 17, 27.
+
+# Referências {#sec-ref}
+
+
+::: {#refs}
+:::
+
+
+
+
+# Cronograma Efetivado {#sec-crono}
+
+## Cronograma Antes da Greve
+
+O cronograma a seguir foi o efetivado até o dia da deflagração da greve no dia 29/04/2024.
+
+**1.1 A integral e Técnicas de integração**
+
+01 . &nbsp; Seg  --  18/03  --  <span style="color:standard"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
+02 . &nbsp; Ter  --  19/03  --  <span style="color:standard"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição. Integração por Partes. </span> \
+03 . &nbsp; Seg  --  25/03  --  <span style="color:standard"> Integração por substituição Trigonométrica. Integração de funções racionais por frações parciais: Denominador como produto de fatores lineares distintos. </span> \
+04 . &nbsp; Ter  --  26/03  --  <span style="color:standard"> Aula de Exercícios. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
+---
+
+**1.2 Aplicações da Integral**
+
+05 . &nbsp; Seg  --  01/04  --  <span style="color:standard"> Áreas entre curvas. Cálculo de volumes por fatiamento. Volume pelo método dos discos. Sólidos de Revolução :fist: </span> \
+06 . &nbsp; Ter  --  02/04  --  <span style="color:standard"> Volume por cascas cilíndricas. Comprimento de Curvas. O comprimento da circunferência.  </span> \
+07 . &nbsp; Seg  --  08/04  --  <span style="color:standard"> Integrais Impróprias: Limites Infinitos.  </span> \
+08 . &nbsp; Ter  --  09/04  --  <span style="color:standard"> Integrais Impróprias: Integrandos Descontínuos. Teste da comparação. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
+ :stop_sign: <span style="color:red">  &nbsp; Seg  --  15/04  --  Paralisação aprovada em assembleia docente do dia 9 de abril </span> \
+ :stop_sign: <span style="color:red"> &nbsp; Ter  --  16/04  --  Não houve aula por pedido do movimento estudantil para assembleia dos estudantes.  </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
+:stop_sign: <span style="color:red">  &nbsp; Seg  --  29/04  --  Deflagração da Greve dos Professores </span> \
+As atividades de aulas estão suspensas. Ao fim da greve, um novo cronograma será elaborado.
+---
+
+##  Fim da greve e retorno das aulas :man_teacher:
+
+A seguir a proposta de cronograma para este curso de acordo com o estabelecido pela [Resolução CEPEx/UFF nº 3.618, 26 de junho de 2024](https://www.uff.br/sites/default/files/paginas-internas-orgaos/resolucao_cepex_3.618_de_26_de_junho_de_2024_-_calendarios_2024_reorganizados.pdf)  Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 31/08, neste caso, é aconselhado que fiquem disponíveis até esta data.**
+
+**2.1 EDOs de 1ª ordem**
+
+09 . &nbsp; Seg  --  01/07  --  <span style="color:standard"> Apresentação do novo planejamento. EDO: Classificação. Solução. PVI. Modelo Populacional Malthusiano. </span> \
+10 . &nbsp; Ter  --  02/07  --  <span style="color:standard"> EDO 1ª ordem: Campos direcionais. Equações Separáveis, EDO 1ª ordem linear. Modelo de Queda livre com resistência do ar.</span> \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+11 . &nbsp; Seg  --  08/07  --  <span style="color:standard"> Equações Exatas.  Teoremas de Existência e Unicidade de Soluções para EDO de 1ª ordem. </span> \
+12 . &nbsp; Ter  --  09/07  --  <span style="color:standard">EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
+13 . &nbsp; Seg  --  15/07  --  <span style="color:standard"> Revisão de números complexos e fórmula de Euler. EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.</span> \
+---
+
+**2.2 EDOs de 2ª ordem lineares**
+
+14 . &nbsp; Ter  --  16/07  --  <span style="color:standard">Método dos coeficientes a determinar. Dedução do modelo de Oscilações mecânicas livres com amortecimento. </span> \
+15 . &nbsp; Seg  -- 22/07  --   <span style="color:standard"> Método da Variação dos Parâmetros </span> \
+16 . &nbsp; Ter  -- 23/07  --  <span style="color:standard"> Estudo das Oscilações mecânicas livres com amortecimento. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  29/07  --  Não haverá aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  30/07  --  Não haverá aula </span> \
+17 . &nbsp; Seg  --  05/08  --  <span style="color:standard"> Aula de dúvidas e exercícios </span> \
+18 . &nbsp; Ter  --  06/08  --  <span style="color:standard"> Aula de dúvidas e exercícios </span> \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**Provas Finais**
+
+19 . &nbsp; Seg  --  12/08  --  <span style="color:standard"> Aula de Exercícios </span> \
+<span style="color:red"> 20 . &nbsp; Ter  --  13/08  --  Prova Sobre Conteúdo de EDO -- </span> [gabarito](provas/2024-1-p1-turmaC1-c2-gabarito.pdf)\
+<span style="color:red"> 21 . &nbsp; Seg  --  19/08  --  2ª Chamada </span> -- [gabarito](provas/2024-1-vr-turmaC1-calculo2-gabarito.pdf) \
+22 . &nbsp; Ter  --  20/08  --  <span style="color:standard"> Atendimento de dúvidas </span> \
+23 . &nbsp; Seg  --  26/08  --  <span style="color:standard"> Atendimento de dúvidas </span> \
+<span style="color:red"> 24 . &nbsp; Ter  --  27/08  --  VS </span> -- [gabarito](provas/2024-1-vs-turmaC1-calculo2-gabarito.pdf) \
+:end: &nbsp; Sáb  --  31/08  --  Fim do Período. :raised_hands:
+---
+
+
+# Resultados
+
+Inicialmente foram **50 inscritos**, entretanto ao final do curso ficamos com **37** estudantes. Isso se deu pois, devido à greve neste período, O CEPEx aprovou novo calendário estendendo os período de trancamento de disciplina.   veja a [Resolução CEPEx/UFF nº 3618](https://www.uff.br/sites/default/files/paginas-internas-orgaos/87-24_res_cepex_3.618_calendarios_2024_p._greve.pdf).
+
+
+```{python}
+#| echo: false
+#| output: asis
+
+import numpy as np
+from scipy.stats import norm
+import matplotlib.pyplot as plt
+
+
+# Generate some data for this demonstration.
+notaparcial = np.array([0,2.1,4.8,4,6,8.6,4,7.1,6,8.3,1.9,6.2,7.2,4.3,4,2.9,10,4.6,2.6,3.3,0,9.9,6,1.5,4.3,9.7,6.9,6.2,1.5,5.3,9.9,6.5,10,0,7.4,4.5,8.3])
+
+notafinal = np.array([0,2.1,2,0,6,8.6,0.5,7.1,6,8.3,1.9,6.2,7.2,0.5,0.5,2.9,10,0.5,2.6,
+3.3,0,9.9,6,1.5,0,9.7,6.9,6.2,1.5,1.8,9.9,6.5,10,0,7.4,0.8,8.3])
+
+
+bins = [0, 4, 6, 10]
+bins2 = [0,6,10]
+
+N=len(notaparcial)
+res1, _ = np.histogram(notaparcial, bins=bins)
+res2, _ = np.histogram(notafinal, bins=bins2)
+
+print('::: {#tbl-panel layout-ncol=2}\n')
+print('|     |')
+print('|---|---|---| ')
+print('| Aprovados      |',res1[2],' |',np.round(res1[2]/N*100,2),'%  |')
+print('| Reprovados      |',res1[0],' |',np.round(res1[0]/N*100,2),'%  |')
+print('| VS     |',res1[1],' |',np.round(res1[1]/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resultado Parcial {#tbl-first}\n')
+print('|                           |')
+print('|---|---|---| ')
+print('| Aprovados      |',res2[1],' |',np.round(res2[1]/N*100,2),'%  |')
+print('| Reprovados      |',res2[0],' |',np.round(res2[0]/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resultado final {#tbl-second}\n')
+print('Resultados')
+print(':::')
+
+mylabels = ["Reprov.", "VS", "Aprov."]
+mycolors = ["r", "gold", "dodgerblue"]
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9,3 ))
+
+
+ax1.pie(res1, labels = mylabels,colors=mycolors,autopct='%1.1f%%', startangle = 90)
+ax1.set_title('Resultado Parcial')
+
+mylabels2 = ["Reprov.", "Aprov."]
+mycolors2 = ["r", "dodgerblue"]
+
+
+ax2.pie(res2, labels = mylabels2,colors=mycolors2,autopct='%1.1f%%', startangle = 90)
+ax2.set_title('Resultado Final')
+plt.show()
+
+
+
+# Plot the histogram.
+plt.hist(notaparcial, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas do Resultado Parcial")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+
+# Plot the histogram.
+plt.hist(notafinal, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas do Resultado Final")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+```
+
+# Cronograma Proposto Inicialmente
+
+Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
+
+**1.1 A integral e Técnicas de integração**
+
+01 . &nbsp; Seg  --  18/03  --  <span style="color:standard"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
+02 . &nbsp; Ter  --  19/03  --  <span style="color:standard"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição </span> \
+03 . &nbsp; Seg  --  25/03  --  <span style="color:standard"> Integração por Partes. Integração por substituição Trigonométrica </span> \
+04 . &nbsp; Ter  --  26/03  --  <span style="color:standard"> Integração de funções racionais: frações parciais. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  29/03  --  Sexta-feira da Paixão </span> \
+---
+
+**1.2 Aplicações da Integral**
+
+05 . &nbsp; Seg  --  01/04  --  <span style="color:standard"> Área do Círculo. Áreas entre curvas. </span> \
+06 . &nbsp; Ter  --  02/04  --  <span style="color:standard"> Cálculo de volumes por fatiamento. </span> \
+07 . &nbsp; Seg  --  08/04  --  <span style="color:standard"> Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas. </span> \
+08 . &nbsp; Ter  --  09/04  --  <span style="color:standard"> Comprimento de Curvas. O comprimento da circunferência </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  10/04  --  Feriado Municipal </span> \
+09 . &nbsp; Seg  --  15/04  --  <span style="color:standard"> Integrais Impróprias: Limites Infinitos. </span> \
+10 . &nbsp; Ter  --  16/04  --  <span style="color:standard"> Integrais Impróprias: Integrandos Descontínuos.  </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  23/04  --  São Jorge </span> \
+11 . &nbsp; Seg  --  29/04  --  <span style="color:standard"> Teste de comparação. </span> \
+12 . &nbsp; Ter  --  30/04  --  <span style="color:standard"> Aula de Exercícios 1 </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  01/05  --  Dia do Trabalho </span> \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**2.1 EDOs de 1ª ordem**
+
+13 . &nbsp; Seg  --  06/05  --  <span style="color:standard"> EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) </span> \
+14 . &nbsp; Ter  --  07/05  --  <span style="color:standard"> Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear </span> \
+15 . &nbsp; Seg  --  13/05  --  <span style="color:standard"> Equações Exatas e fator integrante. </span> \
+16 . &nbsp; Ter  --  14/05  --  <span style="color:standard"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares </span> \
+17 . &nbsp; Seg  --  20/05  --  <span style="color:standard"> Aula de Exercícios 2 </span> \
+---
+
+**2.2 EDOs de 2ª ordem lineares**
+
+18 . &nbsp; Ter  --  21/05  --  <span style="color:standard"> EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade. Soluções Fundamentais. Wronskiano </span> \
+19 . &nbsp; Seg  --  27/05  --  <span style="color:standard"> Oscilações mecânicas livres com amortecimento. EDO 2ª ord. linear homogênea com coef. constantes - caso raízes distintas </span> \
+20 . &nbsp; Ter  --  28/05  --  <span style="color:standard"> EDO linear homogênea com coeficientes constantes - caso raízes reais iguais. Revisão de números complexos e fórmula de Euler </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  30/05  --  Corpus Christ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  31/05  --  Ponto Facultativo </span> \
+21 . &nbsp; Seg  --  03/06  --  <span style="color:standard"> EDO linear homogênea com coeficientes constantes -  Caso raízes complexas.Método dos coeficientes a determinar </span> \
+22 . &nbsp; Ter  --  04/06  --  <span style="color:standard"> Método da variação dos Parâmetros </span> \
+23 . &nbsp; Seg  --  10/06  --  <span style="color:standard"> Método da variação dos Parâmetros </span> \
+24 . &nbsp; Ter  --  11/06  --  <span style="color:standard"> Aula de Exercícios 3 </span> \
+25 . &nbsp; Seg  --  17/06  --  <span style="color:standard"> Aula de Dúvidas </span> \
+<span style="color:red"> :writing_hand: &nbsp; Entrega dos Para Casa :house: na próxima aula </span> \
+---
+
+**Provas Finais**
+
+<span style="color:red"> 26 . &nbsp; Ter  --  18/06  --  Prova da Matéria Toda </span> -- [gabarito](provas/2024-1-p1-turmaC1-c2-gabarito.pdf)\
+<span style="color:red"> 27 . &nbsp; Seg  --  24/06  --  2ª Chamada </span> -- [gabarito](provas/2024-1-vr-p1-turmaC1-c2-gabarito.pdf) \
+28 . &nbsp; Ter  --  25/06  --  <span style="color:standard"> Semana dedicada à preparação para a VS </span> \
+29 . &nbsp; Seg  --  01/07  --  <span style="color:standard"> Semana dedicada à preparação para a VS </span> \
+<span style="color:red"> 30 . &nbsp; Ter  --  02/07  --  VS </span> \
+31 . &nbsp; Seg  --  08/07  --   --  \
+32 . &nbsp; Ter  --  09/07  --   --  \
+33 . &nbsp; Seg  --  15/07  --   --  \
+34 . &nbsp; Ter  --  16/07  --   --  \
+:end: &nbsp; Qua  --  17/07  --  Fim do Período. :raised_hands:
+---

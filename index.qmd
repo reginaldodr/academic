@@ -26,19 +26,23 @@ Campus de Rio das Ostras
 
 ---
 
-### Turmas Atuais -- 2024-1
+### Turmas Atuais -- 2024-2
 
-- [Cálculo II](calculoII/c2-2024-1.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
+- [Cálculo II](calculoII/c2-2024-2.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
 
-- [GAAL](gaal/gaal-2024-1.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
+- [GAAL](gaal/gaal-2024-2.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
+
+- [Calendário UFF](https://www.uff.br/sites/default/files/paginas-internas-orgaos/87-24_res_cepex_3.618_calendarios_2024_p._greve.pdf#page=3)
 
 ### Formação Acadêmica/Titulação
 
--   2001 -- 2006: Licenciatura em Matemática pela UFV
+-   2001 -- 2006: Licenciatura em Matemática pela UFV.
 
--   2006 -- 2008: Mestrado em Matemática pela UFF
+-   2006 -- 2008: Mestrado em Matemática pela UFF.
 
--   2009 -- 2011: Doutorado em Matemática pela UFMG
+-   2009 -- 2011: Doutorado em Matemática pela UFMG.
+
+-   2015 -- 2016: Pós-doutorado em Matemática pela Universida de Sevilla.
 
 ### Pesquisa
 
