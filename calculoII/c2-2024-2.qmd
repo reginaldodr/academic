@@ -18,7 +18,7 @@ from: markdown+emoji
 -  **Horário e sala:** \
 2ª (14h às 16h) **Sala 06** -- **IHS (prédio alugado)**\
 3ª (16h às 18h) **Sala 04** -- **IHS (prédio alugado)**\
-confira no [Quadro de Alocação de salas do IHS](http://200.159.243.2:10032/home/index_simples)
+confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples)  [acesso por celular](http://159.112.185.66/home_externo/index)
 
 -  **Atendimento:** Quintas-feiras das 16h-18h -- sala 104 -- IHS (prédio alugado) -- Enviar [email](mailto:reginaldodr@id.uff.br) caso queira agendar outro horário.
 

@@ -7,11 +7,11 @@ format:
 ---
 ![](lousa.png)
 
-### Turmas Atuais -- 2024-1
+### Turmas Atuais -- 2024-2
 
-- [Cálculo II](calculoII/c2-2024-1.qmd)
+- [Cálculo II](calculoII/c2-2024-2.qmd)
 
-- [GAAL](gaal/gaal-2024-1.qmd)
+- [GAAL](gaal/gaal-2024-2.qmd)
 
 ---
 
