@@ -56,12 +56,12 @@ As demais referência contidas na @sec-ref serão usadas como material auxiliar 
 
 A avaliação será feita mediante:
 
-1. Exercícios propostos em aula, chamados de **Para Casa** :house: [veja aqui](paracasa.pdf).
+1. Exercícios propostos em aula, chamados de **Para Casa** :house:.
 2. **Atividades Formativas** propostas no moodle.
 3. **Duas Provas Escritas**. 
 
 A nota final será a média ponderada entre os **Para Casa**, as **Atividades Formativas** e as **Provas Escitas**, distribuídas da seguinte forma:
-$$N=0.1\times PC+0.1\times AF+0.8\times P,$$
+$$N=0.1\times PC+0.2\times AF+0.7\times P,$$
 onde $PC$ é a média dos Para Casa, $AF$ é a média das Atividades Formativas e $P$ a média das Provas Escritas. Veja no cronograma, @sec-crono abaixo, as datas destas avaliações. 
 
 ## Sobre os Para Casa
@@ -98,20 +98,31 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 # Listas de Exercícios
 
-Abaixo seguem os execícios das referências @poole e @santosufmg que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+Abaixo seguem os execícios das referências @poole e @santosufmg e, também os da [lista de GA plana e espacial](lista-exercicios-GA.pdf), que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
 Veja as listas em [Material Básico](gaal.qmd).
 
-@poole **§ 1.2 (Vetores):** 5, 11, 12, 14, 17.\
+
+- **Matrizes, Sistemas Lineares e Determinantes**\
 @poole **§ 3.2 (Matrizes):** 1, 11, 13, 17, 35.\
-@poole **§ 1.3 (Produto Escalar):** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
-@poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
 @poole **§ 2.2 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
 @poole **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
 @poole **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
 @poole **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
+
+- **Geometria Analítica** \
+GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista](lista-exercicios-GA.pdf)\
+**(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
+**(Vetores e Produto escalar em $\mathbb{R}^2$):** 2.1 (a), 2.2, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
+**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
+GA em $\mathbb{R}^3$\
 @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
+@poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
 @santosufmg **4.3:(Distância de ponto a reta)** 8, 9.\
+
+- **Álgebra Linear**\
+@poole **§ 1.2 (Vetores em $\mathbb{R}^n$):** 5, 11, 12, 14, 17.\
+@poole **§ 1.3 (Produto Escalar em $\mathbb{R}^n$):** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
 @santosufmg **5.1 (LI e LD):** 1, 3, 4, 8.\
 @poole **§ 3.5 (Subespaço,Base e Dimensão):** 13, 15, 23, 26, 27, 28, 43.\
 @santosufmg **6.1 (Autovetores):** 1, 2, 3, 5, 6, 7.\
@@ -131,52 +142,52 @@ Veja as listas em [Material Básico](gaal.qmd).
 
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/09  --  Participação em Congresso -- Não houve aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/09  --  Participação em Congresso --  Não houve aula </span> \
-01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação do curso. Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. Operações usando o sympy. </span> \
-02 . &nbsp; Ter  --  01/10  --  <span style="color:LightGray"> Sistemas de Equações Lineares. Operações Elementares. Escalonamento. </span> \
-03 . &nbsp; Seg  --  07/10  --  <span style="color:LightGray"> Posto de uma matriz. Variáveis livres. Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares. </span> \
-04 . &nbsp; Ter  --  08/10  --  <span style="color:LightGray"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão </span> \
+01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação do curso. Matrizes: definição, operações e propriedades. </span> \
+02 . &nbsp; Ter  --  01/10  --  <span style="color:LightGray"> Matrizes identidade e transposta. Operações usando o sympy. Sistemas de Equações Lineares. Matriz aumentada. Operações Elementares. </span> \
+03 . &nbsp; Seg  --  07/10  --  <span style="color:LightGray"> Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. </span> \
+04 . &nbsp; Ter  --  08/10  --  <span style="color:LightGray"> Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  12/10  --  Nossa Senhora Aparecida </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  14/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  15/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-05 . &nbsp; Seg  --  21/10  --  <span style="color:LightGray"> Propriedades da Inversa. Invertendo matrizes com o sympy. Definição de Determinantes. </span> \
-06 . &nbsp; Ter  --  22/10  --  <span style="color:LightGray"> Propriedades dos Determinantes. Cálculo de Determinante por Redução por linhas. </span> \
+05 . &nbsp; Seg  --  21/10  --  <span style="color:LightGray"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão </span> \
+06 . &nbsp; Ter  --  22/10  --  <span style="color:LightGray"> Propriedades da Inversa. Invertendo matrizes com o sympy. Definição de Determinantes. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
-07 . &nbsp; Ter  --  29/10  --  <span style="color:LightGray"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
+07 . &nbsp; Ter  --  29/10  --  <span style="color:LightGray"> Propriedades dos Determinantes. Cálculo de Determinante por Redução por linhas. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
-08 . &nbsp; Seg  --  04/11  --  <span style="color:LightGray"> Equação cartesina do Plano em $\mathbb{R}^3$.Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano </span> \
-09 . &nbsp; Ter  --  05/11  --  <span style="color:LightGray"> Aula de Exercícios 1 </span> \
-<span style="color:red"> 10 . &nbsp; Seg  --  11/11  --  1ª Prova </span> \
+08 . &nbsp; Seg  --  04/11  --  <span style="color:LightGray"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
+09 . &nbsp; Ter  --  05/11  --  <span style="color:LightGray"> Equação cartesina do Plano em $\mathbb{R}^3$.Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano </span> \
+10 . &nbsp; Seg  --  11/11  --  <span style="color:LightGray"> Aula de Exercícios 1 </span> \
+<span style="color:red"> 11 . &nbsp; Ter  --  12/11  --  1ª Prova </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  15/11  --  Proclamação da República </span> \
 ---
 
 **2. Álgebra Linear no $\mathbb{R}^n$**
 
-11 . &nbsp; Ter  --  12/11  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Produto escalar no $\mathbb{R}^n$. Produto escalar usando o sympy. </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  15/11  --  Proclamação da República </span> \
-12 . &nbsp; Seg  --  18/11  --  <span style="color:LightGray"> Dependência e Independência Linear </span> \
-13 . &nbsp; Ter  --  19/11  --  <span style="color:LightGray"> Posição Relativa de retas e planos </span> \
+12 . &nbsp; Seg  --  18/11  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Produto escalar no $\mathbb{R}^n$. Produto escalar usando o sympy. </span> \
+13 . &nbsp; Ter  --  19/11  --  <span style="color:LightGray"> Dependência e Independência Linear </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  20/11  --  Consciência Negra </span> \
-14 . &nbsp; Seg  --  25/11  --  <span style="color:LightGray"> Subespaço vetorial. Subespaço gerado. </span> \
-15 . &nbsp; Ter  --  26/11  --  <span style="color:LightGray"> Base e Dimensão </span> \
-16 . &nbsp; Seg  --  02/12  --  <span style="color:LightGray"> Núcleo de uma matriz. Espaço linha e Espaço coluna. </span> \
-17 . &nbsp; Ter  --  03/12  --  <span style="color:LightGray"> Como obter bases de subespaços. Definição de Autovetores e Autovalores  </span> \
-18 . &nbsp; Seg  --  09/12  --  <span style="color:LightGray"> Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. Diagonalizando com sympy. </span> \
-19 . &nbsp; Ter  --  10/12  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
-20 . &nbsp; Seg  --  16/12  --  <span style="color:LightGray"> Processo de Ortogonalização de Gram-Schimidt </span> \
-21 . &nbsp; Ter  --  17/12  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas </span> \
+14 . &nbsp; Seg  --  25/11  --  <span style="color:LightGray"> Posição Relativa de retas e planos </span> \
+15 . &nbsp; Ter  --  26/11  --  <span style="color:LightGray"> Subespaço vetorial. Subespaço gerado. </span> \
+16 . &nbsp; Seg  --  02/12  --  <span style="color:LightGray"> Base e Dimensão </span> \
+17 . &nbsp; Ter  --  03/12  --  <span style="color:LightGray"> Núcleo de uma matriz. Espaço linha e Espaço coluna. </span> \
+18 . &nbsp; Seg  --  09/12  --  <span style="color:LightGray"> Como obter bases de subespaços. Definição de Autovetores e Autovalores  </span> \
+19 . &nbsp; Ter  --  10/12  --  <span style="color:LightGray"> Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. Diagonalizando com sympy. </span> \
+20 . &nbsp; Seg  --  16/12  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
+21 . &nbsp; Ter  --  17/12  --  <span style="color:LightGray"> Processo de Ortogonalização de Gram-Schimidt </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/12  --  Recesso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/12  --  Recesso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  30/12  --  Recesso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  31/12  --  Recesso </span> \
-22 . &nbsp; Seg  --  06/01  --  <span style="color:LightGray"> Mudança de Coordenadas. Rotação e Translação </span> \
-23 . &nbsp; Ter  --  07/01  --  <span style="color:LightGray"> Reconhecimento de Cônicas </span> \
-24 . &nbsp; Seg  --  13/01  --  <span style="color:LightGray"> Aula de Exercícios 2 </span> \
-<span style="color:red"> 25 . &nbsp; Ter  --  14/01  --  2ª Prova </span> \
+22 . &nbsp; Seg  --  06/01  --  <span style="color:LightGray"> Diagonalização de Matrizes Simétricas </span> \
+23 . &nbsp; Ter  --  07/01  --  <span style="color:LightGray"> Mudança de Coordenadas. Rotação e Translação </span> \
+24 . &nbsp; Seg  --  13/01  --  <span style="color:LightGray"> Reconhecimento de Cônicas </span> \
+25 . &nbsp; Ter  --  14/01  --  <span style="color:LightGray"> Aula de Exercícios 2 </span> \
+<span style="color:red"> 26 . &nbsp; Seg  --  20/01  --  2ª Prova </span> \
 ---
 
 **Provas Finais**
 
-<span style="color:red"> 26 . &nbsp; Seg  --  20/01  --  2ª Chamada </span> \
-27 . &nbsp; Ter  --  21/01  --  <span style="color:LightGray"> Atendimento </span> \
+<span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Chamada </span> \
 <span style="color:red"> 28 . &nbsp; Seg  --  27/01  --  VS </span> \
 29 . &nbsp; Ter  --  28/01  --  <span style="color:LightGray">  --  </span> \
 30 . &nbsp; Seg  --  03/02  --  <span style="color:LightGray">  --  </span> \
@@ -201,52 +212,52 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/09  --  Participação em Congresso -- Não houve aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/09  --  Participação em Congresso --  Não houve aula </span> \
-01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação do curso. Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. Operações usando o sympy. </span> \
-02 . &nbsp; Ter  --  01/10  --  <span style="color:standard"> Sistemas de Equações Lineares. Operações Elementares. Escalonamento. </span> \
-03 . &nbsp; Seg  --  07/10  --  <span style="color:standard"> Posto de uma matriz. Variáveis livres. Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares. </span> \
-04 . &nbsp; Ter  --  08/10  --  <span style="color:standard"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão </span> \
+01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação do curso. Matrizes: definição, operações e propriedades. </span> \
+02 . &nbsp; Ter  --  01/10  --  <span style="color:standard"> Matrizes identidade e transposta. Operações usando o sympy. Sistemas de Equações Lineares. Matriz aumentada. Operações Elementares. </span> \
+03 . &nbsp; Seg  --  07/10  --  <span style="color:standard"> Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. </span> \
+04 . &nbsp; Ter  --  08/10  --  <span style="color:standard"> Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  12/10  --  Nossa Senhora Aparecida </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  14/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  15/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-05 . &nbsp; Seg  --  21/10  --  <span style="color:standard"> Propriedades da Inversa. Invertendo matrizes com o sympy. Definição de Determinantes. </span> \
-06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Propriedades dos Determinantes. Cálculo de Determinante por Redução por linhas. </span> \
+05 . &nbsp; Seg  --  21/10  --  <span style="color:standard"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão </span> \
+06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Propriedades da Inversa. Invertendo matrizes com o sympy. Definição de Determinantes. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
-07 . &nbsp; Ter  --  29/10  --  <span style="color:standard"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
+07 . &nbsp; Ter  --  29/10  --  <span style="color:standard"> Propriedades dos Determinantes. Cálculo de Determinante por Redução por linhas. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
-08 . &nbsp; Seg  --  04/11  --  <span style="color:standard"> Equação cartesina do Plano em $\mathbb{R}^3$.Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano </span> \
-09 . &nbsp; Ter  --  05/11  --  <span style="color:standard"> Aula de Exercícios 1 </span> \
-<span style="color:red"> 10 . &nbsp; Seg  --  11/11  --  1ª Prova </span> \
+08 . &nbsp; Seg  --  04/11  --  <span style="color:standard"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
+09 . &nbsp; Ter  --  05/11  --  <span style="color:standard"> Equação cartesina do Plano em $\mathbb{R}^3$.Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano </span> \
+10 . &nbsp; Seg  --  11/11  --  <span style="color:standard"> Aula de Exercícios 1 </span> \
+<span style="color:red"> 11 . &nbsp; Ter  --  12/11  --  1ª Prova </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  15/11  --  Proclamação da República </span> \
 ---
 
 **2. Álgebra Linear no $\mathbb{R}^n$**
 
-11 . &nbsp; Ter  --  12/11  --  <span style="color:standard"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Produto escalar no $\mathbb{R}^n$. Produto escalar usando o sympy. </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  15/11  --  Proclamação da República </span> \
-12 . &nbsp; Seg  --  18/11  --  <span style="color:standard"> Dependência e Independência Linear </span> \
-13 . &nbsp; Ter  --  19/11  --  <span style="color:standard"> Posição Relativa de retas e planos </span> \
+12 . &nbsp; Seg  --  18/11  --  <span style="color:standard"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Produto escalar no $\mathbb{R}^n$. Produto escalar usando o sympy. </span> \
+13 . &nbsp; Ter  --  19/11  --  <span style="color:standard"> Dependência e Independência Linear </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  20/11  --  Consciência Negra </span> \
-14 . &nbsp; Seg  --  25/11  --  <span style="color:standard"> Subespaço vetorial. Subespaço gerado. </span> \
-15 . &nbsp; Ter  --  26/11  --  <span style="color:standard"> Base e Dimensão </span> \
-16 . &nbsp; Seg  --  02/12  --  <span style="color:standard"> Núcleo de uma matriz. Espaço linha e Espaço coluna. </span> \
-17 . &nbsp; Ter  --  03/12  --  <span style="color:standard"> Como obter bases de subespaços. Definição de Autovetores e Autovalores  </span> \
-18 . &nbsp; Seg  --  09/12  --  <span style="color:standard"> Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. Diagonalizando com sympy. </span> \
-19 . &nbsp; Ter  --  10/12  --  <span style="color:standard"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
-20 . &nbsp; Seg  --  16/12  --  <span style="color:standard"> Processo de Ortogonalização de Gram-Schimidt </span> \
-21 . &nbsp; Ter  --  17/12  --  <span style="color:standard"> Diagonalização de Matrizes Simétricas </span> \
+14 . &nbsp; Seg  --  25/11  --  <span style="color:standard"> Posição Relativa de retas e planos </span> \
+15 . &nbsp; Ter  --  26/11  --  <span style="color:standard"> Subespaço vetorial. Subespaço gerado. </span> \
+16 . &nbsp; Seg  --  02/12  --  <span style="color:standard"> Base e Dimensão </span> \
+17 . &nbsp; Ter  --  03/12  --  <span style="color:standard"> Núcleo de uma matriz. Espaço linha e Espaço coluna. </span> \
+18 . &nbsp; Seg  --  09/12  --  <span style="color:standard"> Como obter bases de subespaços. Definição de Autovetores e Autovalores  </span> \
+19 . &nbsp; Ter  --  10/12  --  <span style="color:standard"> Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. Diagonalizando com sympy. </span> \
+20 . &nbsp; Seg  --  16/12  --  <span style="color:standard"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
+21 . &nbsp; Ter  --  17/12  --  <span style="color:standard"> Processo de Ortogonalização de Gram-Schimidt </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/12  --  Recesso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/12  --  Recesso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  30/12  --  Recesso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  31/12  --  Recesso </span> \
-22 . &nbsp; Seg  --  06/01  --  <span style="color:standard"> Mudança de Coordenadas. Rotação e Translação </span> \
-23 . &nbsp; Ter  --  07/01  --  <span style="color:standard"> Reconhecimento de Cônicas </span> \
-24 . &nbsp; Seg  --  13/01  --  <span style="color:standard"> Aula de Exercícios 2 </span> \
-<span style="color:red"> 25 . &nbsp; Ter  --  14/01  --  2ª Prova </span> \
+22 . &nbsp; Seg  --  06/01  --  <span style="color:standard"> Diagonalização de Matrizes Simétricas </span> \
+23 . &nbsp; Ter  --  07/01  --  <span style="color:standard"> Mudança de Coordenadas. Rotação e Translação </span> \
+24 . &nbsp; Seg  --  13/01  --  <span style="color:standard"> Reconhecimento de Cônicas </span> \
+25 . &nbsp; Ter  --  14/01  --  <span style="color:standard"> Aula de Exercícios 2 </span> \
+<span style="color:red"> 26 . &nbsp; Seg  --  20/01  --  2ª Prova </span> \
 ---
 
 **Provas Finais**
 
-<span style="color:red"> 26 . &nbsp; Seg  --  20/01  --  2ª Chamada </span> \
-27 . &nbsp; Ter  --  21/01  --  <span style="color:standard"> Atendimento </span> \
+<span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Chamada </span> \
 <span style="color:red"> 28 . &nbsp; Seg  --  27/01  --  VS </span> \
 29 . &nbsp; Ter  --  28/01  --  <span style="color:standard">  --  </span> \
 30 . &nbsp; Seg  --  03/02  --  <span style="color:standard">  --  </span> \
