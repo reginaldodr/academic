@@ -30,7 +30,7 @@ confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/ind
 - **Material a ser utilizado**
     - [Slides e outros](gaal.qmd)
 
-    - [Anotações das aulas]()
+    - [Anotações das aulas](https://mega.nz/folder/2d0XHZCa#o6ilB2xCQH-PDmzXMF1MZw)
 
 
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
@@ -142,8 +142,8 @@ GA em $\mathbb{R}^3$\
 
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/09  --  Participação em Congresso -- Não houve aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/09  --  Participação em Congresso --  Não houve aula </span> \
-01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação do curso. Matrizes: definição, operações e propriedades. </span> \
-02 . &nbsp; Ter  --  01/10  --  <span style="color:LightGray"> Matrizes identidade e transposta. Operações usando o sympy. Sistemas de Equações Lineares. Matriz aumentada. Operações Elementares. </span> \
+01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação do curso. Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. </span> \
+02 . &nbsp; Ter  --  01/10  --  <span style="color:LightGray"> Operações usando o sympy. Sistemas de Equações Lineares. Matriz aumentada. Operações Elementares. </span> \
 03 . &nbsp; Seg  --  07/10  --  <span style="color:LightGray"> Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. </span> \
 04 . &nbsp; Ter  --  08/10  --  <span style="color:LightGray"> Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  12/10  --  Nossa Senhora Aparecida </span> \

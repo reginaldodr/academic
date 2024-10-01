@@ -25,7 +25,7 @@ confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/ind
 - **Material a ser utilizado**
     - [Slides e outros](calculoII.qmd)
 
-    - [Anotações das aulas](https://mega.nz/folder/SN00wYDT#0Ff0sY9Qur1X83id_FNuRQ)
+    - [Anotações das aulas](https://mega.nz/folder/yFVUwSSQ#c0TXDpxhIl_aeAKLViskRA)
     
 -  **Ementa:** Busque por RCN00020 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 INTEGRAL DEFINIDA. TÉCNICAS DE INTEGRAÇÃO. INTEGRAIS IMPRÓPRIAS. EQUAÇÕES DIFERENCIAIS 
@@ -81,8 +81,6 @@ onde $PC$ é a média dos Para Casa e $P$ a média das Provas Escritas. Veja no 
 ## Segunda Chamada
 
 O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">sem a necessidade de justificativa!</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
-
-Como só haverá uma prova escrita, a Segunda Chamada será referente apenas a esta avaliação.
 
 
 ::: {.callout-warning}
