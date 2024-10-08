@@ -145,12 +145,12 @@ GA em $\mathbb{R}^3$\
 01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação do curso. Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. </span> \
 02 . &nbsp; Ter  --  01/10  --  <span style="color:standard"> Operações usando o sympy. Sistemas de Equações Lineares. Matriz aumentada. Operações Elementares. Escalonamento. </span> \
 03 . &nbsp; Seg  --  07/10  --  <span style="color:standard"> Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares. </span> \
-04 . &nbsp; Ter  --  08/10  --  <span style="color:standard"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão </span> \
+04 . &nbsp; Ter  --  08/10  --  <span style="color:standard"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão. Propriedades da Inversa. Invertendo matrizes com o sympy. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  12/10  --  Nossa Senhora Aparecida </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  14/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  15/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-05 . &nbsp; Seg  --  21/10  --  <span style="color:LightGray"> Sistemas lineares Homogêneos. Matriz Inversa e Método de Inversão </span> \
-06 . &nbsp; Ter  --  22/10  --  <span style="color:LightGray"> Propriedades da Inversa. Invertendo matrizes com o sympy. Definição de Determinantes. </span> \
+05 . &nbsp; Seg  --  21/10  --  <span style="color:LightGray"> a definir </span> \
+06 . &nbsp; Ter  --  22/10  --  <span style="color:LightGray">  Definição de Determinantes. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
 07 . &nbsp; Ter  --  29/10  --  <span style="color:LightGray"> Propriedades dos Determinantes. Cálculo de Determinante por Redução por linhas. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
