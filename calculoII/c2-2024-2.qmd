@@ -149,8 +149,8 @@ Leia a seção 7.5 (Estratégias de Integração)\
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/09  --  Participação em Congresso -- Não houve aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/09  --  Participação em Congresso --  Não houve aula </span> \
 01 . &nbsp; Seg  --  30/09  --  <span style="color:standard"> Apresentação. Método da Exaustão. Notação Sigma. Somas de Riemann. Integral Definida. Teorema Fundamental do Cálculo. </span> \
-02 . &nbsp; Ter  --  01/10  --  <span style="color:LightGray"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição </span> \
-03 . &nbsp; Seg  --  07/10  --  <span style="color:LightGray"> Integração por Partes. Integração por substituição Trigonométrica </span> \
+02 . &nbsp; Ter  --  01/10  --  <span style="color:standard"> Propriedades da Integral.  Integral indefinida. Integrais Elementares. Integral por Substituição. Integração por partes, exemplo 1. </span> \
+03 . &nbsp; Seg  --  07/10  --  <span style="color:standard"> Integração por Partes. Integração por substituição Trigonométrica. Integração de funções racionais: frações parciais. </span> \
 04 . &nbsp; Ter  --  08/10  --  <span style="color:LightGray"> Integração de funções racionais: frações parciais. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  12/10  --  Nossa Senhora Aparecida </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  14/10  --  Semana Nacional de Ciência e Tecnologia </span> \
