@@ -149,12 +149,12 @@ GA em $\mathbb{R}^3$\
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  12/10  --  Nossa Senhora Aparecida </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  14/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  15/10  --  Semana Nacional de Ciência e Tecnologia </span> \
-05 . &nbsp; Seg  --  21/10  --  <span style="color:LightGray"> Definição de Determinantes. Cálculo de Determinante por Redução por linhas. </span> \
-06 . &nbsp; Ter  --  22/10  --  <span style="color:LightGray"> Propriedades dos Determinantes.  </span> \
+05 . &nbsp; Seg  --  21/10  --  <span style="color:standard"> Definição de Determinantes. Cálculo de Determinante por Redução por linhas. Propriedades do Determinante. </span> \
+06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Breve apresentação de Vetores $\mathbb{R}^2$ e $\mathbb{R}^3$.  Produto vetorial. Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
 07 . &nbsp; Ter  --  29/10  --  <span style="color:LightGray"> a definir   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
-08 . &nbsp; Seg  --  04/11  --  <span style="color:LightGray"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
+08 . &nbsp; Seg  --  04/11  --  <span style="color:LightGray"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$ (parte 1) </span> \
 09 . &nbsp; Ter  --  05/11  --  <span style="color:LightGray"> Equação cartesina do Plano em $\mathbb{R}^3$.Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano </span> \
 10 . &nbsp; Seg  --  11/11  --  <span style="color:LightGray"> Aula de Exercícios 1 </span> \
 <span style="color:red"> 11 . &nbsp; Ter  --  12/11  --  1ª Prova </span> \
