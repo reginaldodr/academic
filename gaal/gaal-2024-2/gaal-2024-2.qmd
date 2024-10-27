@@ -1,8 +1,8 @@
 ---
 title: GAAL RCN00075 -- 2024-2
 number-sections: true
-bibliography: biblio.bib
-csl:  aims-mathematics.csl
+bibliography: ../biblio.bib
+csl: aims-mathematics.csl
 nocite: |
   @*
 
@@ -28,7 +28,7 @@ confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/ind
 
 
 - **Material a ser utilizado**
-    - [Slides e outros](gaal.qmd)
+    - [Slides e outros](../gaal.qmd)
 
     - [Anotações das aulas](https://mega.nz/folder/2d0XHZCa#o6ilB2xCQH-PDmzXMF1MZw)
 
@@ -47,7 +47,7 @@ Este curso é constituído de dois módulos:
 
 Usaremos o **Moodle** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
 
-Usaremos como livro texto as referências [@poole] e [@santosufmg]. **A primeira está disponível para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). A segudna pode ser baixada [aqui](gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+Usaremos como livro texto as referências [@poole] e [@santosufmg]. **A primeira está disponível para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). A segudna pode ser baixada [aqui](../gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
 
 As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
 
@@ -98,9 +98,9 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 # Listas de Exercícios
 
-Abaixo seguem os execícios das referências @poole e @santosufmg e, também os da [lista de GA plana e espacial](lista-exercicios-GA.pdf), que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+Abaixo seguem os execícios das referências @poole e @santosufmg e, também os da [lista de GA plana e espacial](../lista-exercicios-GA.pdf), que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
-Veja as listas em [Material Básico](gaal.qmd).
+Veja as listas em [Material Básico](../gaal.qmd).
 
 
 - **Matrizes, Sistemas Lineares e Determinantes**\
@@ -150,6 +150,7 @@ GA em $\mathbb{R}^3$\
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  14/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  15/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 05 . &nbsp; Seg  --  21/10  --  <span style="color:standard"> Definição de Determinantes. Cálculo de Determinante por Redução por linhas. Propriedades do Determinante. </span> \
+<span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 1: &nbsp; 4, 5, 9, 10,11, 12,13.  &nbsp;  [gabarito](paracasa-gabarito1.pdf) </span> \
 06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Breve apresentação de Vetores $\mathbb{R}^2$ e $\mathbb{R}^3$.  Produto vetorial. Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
 07 . &nbsp; Ter  --  29/10  --  <span style="color:LightGray"> a definir   </span> \
