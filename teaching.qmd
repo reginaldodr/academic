@@ -5,13 +5,13 @@ format:
   html:
     toc: false
 ---
-![](lousa.png)
+![](capa-teaching.png)
 
 ### Turmas Atuais -- 2024-2
 
 - [Cálculo II](calculoII/c2-2024-2.qmd)
 
-- [GAAL](gaal/gaal/2024-2/gaal-2024-2.qmd)
+- [GAAL](gaal/gaal-2024-2/gaal-2024-2.qmd)
 
 ---
 
@@ -27,7 +27,7 @@ format:
 -   Cálculo IV:
     - Turmas: [2022-2](https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/)
 -   [GAAL](gaal/gaal.qmd)
-    - Turmas: [2024-1](gaal/gaal-2024-1.qmd)
+    - Turmas: [2024-1](gaal/gaal-2024-1.qmd), [2024-2](gaal/gaal-2024-2/gaal-2024-2)
 -   [Geometria Analítica e Cálculo Vetorial](GA/ga.qmd)
     - Turmas: [2022-1](GA/ga-2022-1.qmd)
 -   Equações Diferenciais
