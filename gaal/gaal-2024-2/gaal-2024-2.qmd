@@ -150,7 +150,7 @@ GA em $\mathbb{R}^3$\
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  14/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  15/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 05 . &nbsp; Seg  --  21/10  --  <span style="color:standard"> Definição de Determinantes. Cálculo de Determinante por Redução por linhas. Propriedades do Determinante. </span> \
-<span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 1: &nbsp; 4, 5, 9, 10,11, 12,13.  &nbsp;  [gabarito](paracasa-gabarito1.pdf) </span> \
+<span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 1: &nbsp; 4, 5, 9, 10,11, 12,13.  &nbsp;   </span> [gabarito](paracasa-gabarito1.pdf) \
 06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Breve apresentação de Vetores $\mathbb{R}^2$ e $\mathbb{R}^3$.  Produto vetorial. Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
 07 . &nbsp; Ter  --  29/10  --  <span style="color:LightGray"> a definir   </span> \
