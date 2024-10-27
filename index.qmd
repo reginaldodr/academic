@@ -30,7 +30,7 @@ Campus de Rio das Ostras
 
 - [Cálculo II](calculoII/c2-2024-2.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
 
-- [GAAL](gaal/gaal-2024-2.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
+- [GAAL](gaal/gaal-2024-2/gaal-2024-2.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
 
 - [Calendário UFF](https://www.uff.br/wp-content/uploads/2024/07/87-24_res_cepex_3.618_calendarios_2024_p._greve.pdf)
 

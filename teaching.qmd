@@ -11,7 +11,7 @@ format:
 
 - [Cálculo II](calculoII/c2-2024-2.qmd)
 
-- [GAAL](gaal/gaal-2024-2.qmd)
+- [GAAL](gaal/gaal/2024-2/gaal-2024-2.qmd)
 
 ---
 
