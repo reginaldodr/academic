@@ -43,6 +43,8 @@ nocite: |
 
 8. João Victor Brum das Chagas. Análise Espectral de problemas de Sturm-Lioville singulares e aplicações na controlabilidade da equação da onde degenerada. 2024. Iniciação científica (Matemática) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
 
+9. Carlos Yure de Brito Souza Domingues. Aplicações das Séries de Fourier-Bessel na resolução de problemas de Sturm-Liouville singulares. 2025. Iniciação científica (Matemática) -- Universidade Federal Fluminense<br/>Inst. financiadora: PIBIC.
+
 ### Orientação de outra natureza
 
 1.  Alline Pinto Ribeiro Lopes. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Ciência da Computação) -- Universidade Federal Fluminense<br/>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis
