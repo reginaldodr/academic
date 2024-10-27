@@ -2,7 +2,7 @@
 title: "Prof. Reginaldo Demarque"
 about:
   template: trestles
-  image: perfil3.jpg
+  image: perfil4.jpg
   image-shape: round
   links:
     - icon: file-earmark-person
@@ -40,7 +40,7 @@ Campus de Rio das Ostras
 
 -   2006 -- 2008: Mestrado em Matemática pela UFF.
 
--   2009 -- 2011: Doutorado em Matemática pela UFMG.
+-   2009 -- 2012: Doutorado em Matemática pela UFMG.
 
 -   2015 -- 2016: Pós-doutorado em Matemática pela Universida de Sevilla.
 
