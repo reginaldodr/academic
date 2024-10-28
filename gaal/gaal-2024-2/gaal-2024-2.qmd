@@ -98,7 +98,7 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 # Listas de Exercícios
 
-Abaixo seguem os execícios das referências @poole e @santosufmg e, também os da [lista de GA plana e espacial](../lista-exercicios-GA.pdf), que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+Abaixo seguem os execícios das referências @poole e @santosufmg e, também os da [lista de GA plana](../lista-exercicios-GA.pdf), que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
 Veja as listas em [Material Básico](../gaal.qmd).
 
@@ -111,14 +111,14 @@ Veja as listas em [Material Básico](../gaal.qmd).
 @poole **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
 
 - **Geometria Analítica** \
-GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista](lista-exercicios-GA.pdf)\
+GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
 **(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
 **(Vetores e Produto escalar em $\mathbb{R}^2$):** 2.1 (a), 2.2, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
 **(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
 GA em $\mathbb{R}^3$\
 @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
 @poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
-@santosufmg **4.3:(Distância de ponto a reta)** 8, 9.\
+@santosufmg **4.3 (Distância de ponto a reta):** 8, 9.\
 
 - **Álgebra Linear**\
 @poole **§ 1.2 (Vetores em $\mathbb{R}^n$):** 5, 11, 12, 14, 17.\
