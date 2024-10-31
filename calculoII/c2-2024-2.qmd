@@ -162,7 +162,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 05 . &nbsp; Seg  --  21/10  --  <span style="color:standard"> Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas.   Comprimento de Curvas. O comprimento da circunferência</span> \
 06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Integrais Impróprias. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
-07 . &nbsp; Ter  --  29/10  --  <span style="color:LightGray"> Testes de convergência.   </span> \
+07 . &nbsp; Ter  --  29/10  --  <span style="color:standard"> Testes de convergência.   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
 08 . &nbsp; Seg  --  04/11  --  <span style="color:LightGray"> Integração de Funções Racionais (continuação) </span> \
 09 . &nbsp; Ter  --  05/11  --  <span style="color:LightGray"> EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) </span> \

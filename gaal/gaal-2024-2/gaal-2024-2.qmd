@@ -153,7 +153,7 @@ GA em $\mathbb{R}^3$\
 <span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 1: &nbsp; 4, 5, 9, 10,11, 12,13.  &nbsp;   </span> [gabarito](paracasa-gabarito1.pdf) \
 06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Breve apresentação de Vetores $\mathbb{R}^2$ e $\mathbb{R}^3$.  Produto vetorial. Equação paramétrica da reta. Equação Cartesiana da Reta em $\mathbb{R}^2$. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
-07 . &nbsp; Ter  --  29/10  --  <span style="color:LightGray"> Equações reduzida e segmentária da reta. Equação cartesiana do plano no espaço. Inteseção de planos.   </span> \
+07 . &nbsp; Ter  --  29/10  --  <span style="color:standard"> Equações reduzida e segmentária da reta. Equação cartesiana do plano no espaço. Inteseção de planos.   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
 08 . &nbsp; Seg  --  04/11  --  <span style="color:LightGray"> Distância de ponto à Reta. Distância de ponto a Plano. Produto Misto. Volume do Paralelepípedo e do tetraedro. </span> \
 09 . &nbsp; Ter  --  05/11  --  <span style="color:LightGray"> a definir  </span> \
