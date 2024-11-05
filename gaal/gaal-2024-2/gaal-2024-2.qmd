@@ -155,10 +155,10 @@ GA em $\mathbb{R}^3$\
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
 07 . &nbsp; Ter  --  29/10  --  <span style="color:standard"> Equações reduzida e segmentária da reta. Equação cartesiana do plano no espaço. Inteseção de planos.   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
-08 . &nbsp; Seg  --  04/11  --  <span style="color:LightGray"> Distância de ponto à Reta. Distância de ponto a Plano. Produto Misto. Volume do Paralelepípedo e do tetraedro. </span> \
-09 . &nbsp; Ter  --  05/11  --  <span style="color:LightGray"> a definir  </span> \
-<span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 2: &nbsp; 6,7,8 14,15,16.  &nbsp;   </span>  \
+08 . &nbsp; Seg  --  04/11  --  <span style="color:standard"> Distância de ponto à Reta. Distância de ponto a Plano. Produto Misto. Volume do Paralelepípedo e do tetraedro. </span> \
+09 . &nbsp; Ter  --  05/11  --  <span style="color:standar"> Não haverá aula -- participação em congresso.  </span> \
 10 . &nbsp; Seg  --  11/11  --  <span style="color:LightGray"> Aula de Exercícios 1 </span> \
+<span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 2: &nbsp; 6,7,8 14,15,16.  &nbsp;   </span>  \
 <span style="color:red"> 11 . &nbsp; Ter  --  12/11  --  1ª Prova </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  15/11  --  Proclamação da República </span> \
 ---

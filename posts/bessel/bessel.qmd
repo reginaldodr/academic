@@ -1,0 +1,41 @@
+---
+title: "1-D Degenerate PDEs using Sturm-Liouville problems"
+description: "Sturm-Liouville"
+author: "Reginaldo Demarque"
+date: 31 10 2024
+categories:
+  - mathematics
+  - PDE
+  - research
+draft: true
+bibliography: ../references.bib
+format:
+  html:
+    page-layout: full
+    toc: true
+---
+
+# Degenerate Parabolic Equations
+
+Given $T>0$ and $\alpha \in (0,2)$ consider the following degenerate problem:
+\begin{equation}
+    \begin{cases}
+        u_t - (x^\alpha u_x)_x = 0,& (t,x)\in Q,\\
+        Bu(t,0)=u(t,1)=0,& t\in(0,T),\\
+        u(0,x)=u_0(x), & x\in (0,1),
+    \end{cases}
+\end{equation}
+where the condition at $x=0$ is defined by
+\begin{equation}
+Bu(t,0)=
+\begin{cases}
+u(t,0), & \alpha \in (0,1),\\
+\lim\limits_{t\to 0^+}(x^\alpha u_x)(t,x), & \alpha \in [1,2).
+\end{cases}
+\end{equation}
+
+## Fourier Method: Separation of variables
+
+Suppose $u(t,x)=z(t)y(x)$. Let us denote the derivative with respect to $t$ by $\prime$ 
+$$u_t=z'y$$
+

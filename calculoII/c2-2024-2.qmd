@@ -164,9 +164,9 @@ Leia a seção 7.5 (Estratégias de Integração)\
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  28/10  --  Servidor Público </span> \
 07 . &nbsp; Ter  --  29/10  --  <span style="color:standard"> Testes de convergência.   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  02/11  --  Finados </span> \
-08 . &nbsp; Seg  --  04/11  --  <span style="color:LightGray"> Integração de Funções Racionais (continuação) </span> \
-09 . &nbsp; Ter  --  05/11  --  <span style="color:LightGray"> EDOs: modelos (populacionais, massa-mola, pêndulo, queda livre com resistência do ar) </span> \
-10 . &nbsp; Seg  --  11/11  --  <span style="color:LightGray">  Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear.  </span> \
+08 . &nbsp; Seg  --  04/11  --  <span style="color:standard"> Aula de Dúvidas e exercícios. Lemos a abertura do Guia do Mochileiro das Galáxias. </span> \
+09 . &nbsp; Ter  --  05/11  --  <span style="color:standard"> não haverá aula -- participação em congresso. </span> \
+10 . &nbsp; Seg  --  11/11  --  <span style="color:LightGray">  Aula de exercícios  </span> \
 11 . &nbsp; Ter  --  12/11  --  <span style="color:LightGray"> Aula de Exercícios  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  15/11  --  Proclamação da República </span> \
 12 . &nbsp; Seg  --  18/11  --  <span style="color:LightGray"> Aula de Exercícios  </span> \
