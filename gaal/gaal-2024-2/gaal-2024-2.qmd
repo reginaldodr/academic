@@ -165,7 +165,7 @@ GA em $\mathbb{R}^3$\
 
 **2. Álgebra Linear no $\mathbb{R}^n$**
 
-12 . &nbsp; Seg  --  18/11  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Produto escalar no $\mathbb{R}^n$. Produto escalar usando o sympy. </span> \
+12 . &nbsp; Seg  --  18/11  --  <span style="color:standard"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Produto escalar no $\mathbb{R}^n$. Produto escalar usando o sympy. </span> \
 13 . &nbsp; Ter  --  19/11  --  <span style="color:LightGray"> Dependência e Independência Linear </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  20/11  --  Consciência Negra </span> \
 14 . &nbsp; Seg  --  25/11  --  <span style="color:LightGray"> Posição Relativa de retas e planos.  Distâncias: Entre Retas, entre reta e Plano. </span> \
