@@ -36,5 +36,7 @@ format:
 
 -   [Análise Funcional](analise-funcional/funcional.qmd)
 
+-   [Minicurso de Semigrupos](https://raw.githubusercontent.com/reginaldodr/notas-semigrupos-git/main/notas-semigrupo.pdf)
+
 ---
 
