@@ -1,0 +1,46 @@
+---
+title: Minicurso EDOs em Espaços de Banach -- 2025-Verão
+number-sections: false
+
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+
+# Informações Básicas
+
+- **Professores:** Luiz Viana (UFF) e Reginaldo Demarque (UFF)
+
+- **Período:** 10/02/2025 a 21/02/2025 na Escola de Verão da [PGMAT-UFF](https://pgmat-uff.com.br/verao-2025/)
+
+
+-**Nível:** Graduação e Mestrado.
+
+-**Público alvo:** O presente minicurso tem como público alvo alunos dos cursos de graduação e mestrado, a distância ou presencial, em Matemática.
+    
+
+-  **Horário e sala:** \
+:construction: Em definição
+
+- **Material a ser utilizado**
+    - [Livro Texto](https://reginaldodr.github.io/notas-semigrupos-git/notas-semigrupo.pdf)
+    
+-  **Programação:** : Neste minicurso, temos o objetivo de introduzir a Teoria dos Semigrupos Lineares, que consiste no estudo das equações diferenciais ordinárias, com valores em espaços de Banach, associadas a operadores lineares limitados ou ilimitados. Brevemente, vale ressaltar que tal estudo foi iniciado a partir da segunda metade do século XX, destacando-se a obtenção do importante teorema de Hille-Yosida em 1948. Nas décadas de 70 e 80, através de muitas contribuições vindas de diferentes escolas de Matemática, o tema se consolidou nos moldes que o conhecemos hoje, o que pode ser constatado com os trabalhos E. B. Davies, J. A. Goldstein e A. Pazy, entre outros. Nas exposições pretendidas, abordaremos resultados abstratos básicos da teoria e, ao final, apresentaremos algumas aplicações relacionadas às equações diferenciais parciais. 
+
+- **Pré-requistos:** Análise Real e Equações Diferenciais Ordinárias.
+
+# Cronograma {#sec-crono}
+
+:construction: A definir
+
+
+# Referências {#sec-ref}
+
+[LR1] Haim Brezis. Functional analysis, Sobolev spaces and partial differential equations. Springer, New York-London, 2011.
+
+[LR2] Lawrence C Evans. Partial differential equations, volume 19. American Mathematical Society, Providence, Rhode Island, 2010.
+
+[LR3] Alvercio Moreira Gomes. Semigrupos de Operadores Lineares e Aplicações às Equações de Evolução, volume 2ª edição. Editora UFRJ, Rio de Janeiro, Rio de Janeiro, 2005.
+
+[LR4] S. Kesavan. Topics in Functional Analysis and Applications, volume 52. New Age International Ltd, New Delhi, 2015.
