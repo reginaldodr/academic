@@ -13,9 +13,10 @@ format:
 
 ## Material Básico
 
-- [Slides-integral](integral.pdf)
 
-- [Slides-EDO](edo.pdf)
+- [Slides-integral](https://reginaldodr.github.io/calculo2/integral-resumido/integral.pdf)
+
+- [Slides-EDO](https://reginaldodr.github.io/calculo2/edo-2024/edo.pdf)
 
 - [Curso em videoaulas](https://youtube.com/playlist?list=PLMbyf27J7J7iKWn_2dpxRE1SMeosAZTEY)
 

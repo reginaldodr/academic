@@ -19,7 +19,10 @@ website:
         text: Blog
       - icon: youtube
         href: https://www.youtube.com/c/ProfReginaldoDemarque
-        aria-label: YouTube  
+        aria-label: YouTube
+      - icon: github
+        href: https://github.com/reginaldodr
+        aria-label: GitHub
         
 
 format:
