@@ -38,7 +38,7 @@ format:
     - Turmas: 
 
 -   [Semigrupos](semigrupos/semigrupos.qmd)
-    - Turmas: [2025-verão](semigrupos/minicurso-2025-verao.qmd)
+    
 
 ---
 
