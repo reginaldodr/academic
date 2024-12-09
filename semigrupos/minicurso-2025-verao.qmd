@@ -25,13 +25,12 @@ x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
 
 - **Período:** 10/02/2025 a 21/02/2025 na Escola de Verão da [PGMAT-UFF](https://pgmat-uff.com.br/verao-2025/)
 
+- **Nível:** Graduação e Mestrado.
 
--**Nível:** Graduação e Mestrado.
-
--**Público alvo:** O presente minicurso tem como público alvo alunos dos cursos de graduação e mestrado, a distância ou presencial, em Matemática.
+- **Público alvo:** O presente minicurso tem como público alvo alunos dos cursos de graduação e mestrado, a distância ou presencial, em Matemática.
     
 
--  **Horário e sala:** \
+- **Horário e sala:** \
 :construction: Em definição
 
 - **Material a ser utilizado**
