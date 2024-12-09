@@ -173,10 +173,10 @@ GA em $\mathbb{R}^3$\
 15 . &nbsp; Ter  --  26/11  --  <span style="color:standard">Subespaço gerado. Base e Dimensão </span> \
 16 . &nbsp; Seg  --  02/12  --  <span style="color:standard">Núcleo de uma matriz. Espaço linha e Espaço coluna.  </span> \
 <span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 3: 2,17,18,19. &nbsp;   &nbsp;   </span>  \
-17 . &nbsp; Ter  --  03/12  --  <span style="color:LightGray"> Como obter bases de subespaços. Definição de Autovetores e Autovalores </span> \
-18 . &nbsp; Seg  --  09/12  --  <span style="color:LightGray"> a definir  </span> \
-19 . &nbsp; Ter  --  10/12  --  <span style="color:LightGray"> Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. Diagonalizando com sympy. </span> \
-20 . &nbsp; Seg  --  16/12  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
+17 . &nbsp; Ter  --  03/12  --  <span style="color:standard"> Como obter bases de subespaços. Definição de Autovetores e Autovalores </span> \
+18 . &nbsp; Seg  --  09/12  --  <span style="color:LightGray"> Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. Diagonalizando com sympy.  </span> \
+19 . &nbsp; Ter  --  10/12  --  <span style="color:LightGray"> Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
+20 . &nbsp; Seg  --  16/12  --  <span style="color:LightGray"> A definir</span> \
 <span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 4: 20, 21 &nbsp;   &nbsp;   </span>  \
 21 . &nbsp; Ter  --  17/12  --  <span style="color:LightGray"> Processo de Ortogonalização de Gram-Schimidt </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/12  --  Recesso </span> \
