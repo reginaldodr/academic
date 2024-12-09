@@ -1,0 +1,20 @@
+---
+title: Semigrupos de Operadores Lineares
+format:
+  html:
+    toc: false
+---
+
+\begin{equation*}
+\begin{cases}
+x'(t)={\color{red}A}x+{\color{black}f},& t\in [0,+\infty)\\
+x(0)=x_0
+\end{cases}
+\end{equation*}
+\begin{equation*}
+x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}f(s)}ds
+\end{equation*}
+
+## Material Básico
+
+[Notas de aula](https://reginaldodr.github.io/notas-semigrupos-git/notas-semigrupo.pdf)

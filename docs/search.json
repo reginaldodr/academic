@@ -172,7 +172,7 @@
     "href": "teaching.html#disciplinas-de-semestres-anteriores",
     "title": "Disciplinas",
     "section": "Disciplinas de Semestres Anteriores",
-    "text": "Disciplinas de Semestres Anteriores\n\nDisciplinas de Graduação\n\nCálculo I\nCálculo II\n\nTurmas: 2022-2, 2023-1, 2023-2, 2024-1\n\nCálculo III\n\nTurmas: 2023-1, 2023-2\n\nCálculo IV:\n\nTurmas: 2022-2\n\nGAAL\n\nTurmas: 2024-1, 2024-2\n\nGeometria Analítica e Cálculo Vetorial\n\nTurmas: 2022-1\n\nEquações Diferenciais\n\n\n\nDisciplinas de Pós-Graduação\n\nAnálise Funcional\nMinicurso de Semigrupos"
+    "text": "Disciplinas de Semestres Anteriores\n\nDisciplinas de Graduação\n\nCálculo I\nCálculo II\n\nTurmas: 2022-2, 2023-1, 2023-2, 2024-1\n\nCálculo III\n\nTurmas: 2023-1, 2023-2\n\nCálculo IV:\n\nTurmas: 2022-2\n\nGAAL\n\nTurmas: 2024-1, 2024-2\n\nGeometria Analítica e Cálculo Vetorial\n\nTurmas: 2022-1\n\nEquações Diferenciais\n\n\n\nDisciplinas de Pós-Graduação\n\nAnálise Funcional\n\nTurmas:\n\nSemigrupos\n\nTurmas: 2025-verão"
   },
   {
     "objectID": "calculoII/c2-2023-2.html#cronograma",
@@ -1230,5 +1230,19 @@
     "title": "1-D Degenerate PDEs using Sturm-Liouville problems",
     "section": "",
     "text": "Suppose \\(u(t,x)=z(t)y(x)\\). Let us denote the derivative with respect to \\(t\\) by \\(\\prime\\) \\[u_t=z'y\\]"
+  },
+  {
+    "objectID": "semigrupos/semigrupos.html",
+    "href": "semigrupos/semigrupos.html",
+    "title": "Semigrupos de Operadores Lineares",
+    "section": "",
+    "text": "\\[\\begin{equation*}\n\\begin{cases}\nx'(t)={\\color{red}A}x+{\\color{black}f},& t\\in [0,+\\infty)\\\\\nx(0)=x_0\n\\end{cases}\n\\end{equation*}\\] \\[\\begin{equation*}\nx(t)=e^{t\\color{red}A}x_0+\\int_0^t e^{(t-s){\\color{red}A}f(s)}ds\n\\end{equation*}\\]"
+  },
+  {
+    "objectID": "semigrupos/semigrupos.html#material-básico",
+    "href": "semigrupos/semigrupos.html#material-básico",
+    "title": "Semigrupos de Operadores Lineares",
+    "section": "Material Básico",
+    "text": "Material Básico\nNotas de aula"
   }
 ]

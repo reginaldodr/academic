@@ -35,8 +35,10 @@ format:
 ### Disciplinas de Pós-Graduação
 
 -   [Análise Funcional](analise-funcional/funcional.qmd)
+    - Turmas: 
 
--   [Minicurso de Semigrupos](https://reginaldodr.github.io/notas-semigrupos-git/notas-semigrupo.pdf)
+-   [Semigrupos](semigrupos/semigrupos.qmd)
+    - Turmas: [2025-verão](semigrupos/minicurso-2025-verao.qmd)
 
 ---
 

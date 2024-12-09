@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Disciplinas – Prof.&nbsp;Reginaldo Demarque</title>
+<title>Semigrupos de Operadores Lineares – Prof.&nbsp;Reginaldo Demarque</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,9 +69,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Disciplinas – Prof.&nbsp;Reginaldo Demarque">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Semigrupos de Operadores Lineares – Prof.&nbsp;Reginaldo Demarque">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -82,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Prof.&nbsp;Reginaldo Demarque</span>
     </a>
   </div>
@@ -93,19 +123,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pesquisa.html"> 
+    <a class="nav-link" href="../pesquisa.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -131,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Disciplinas</h1>
+<h1 class="title">Semigrupos de Operadores Lineares</h1>
 </div>
 
 
@@ -148,60 +178,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="capa-teaching.png" class="img-fluid"></p>
-<section id="turmas-atuais-2024-2" class="level3">
-<h3 class="anchored" data-anchor-id="turmas-atuais-2024-2">Turmas Atuais – 2024-2</h3>
-<ul>
-<li><p><a href="./calculoII/c2-2024-2.html">Cálculo II</a></p></li>
-<li><p><a href="./gaal/gaal-2024-2/gaal-2024-2.html">GAAL</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="disciplinas-de-semestres-anteriores" class="level2">
-<h2 class="anchored" data-anchor-id="disciplinas-de-semestres-anteriores">Disciplinas de Semestres Anteriores</h2>
-<section id="disciplinas-de-graduação" class="level3">
-<h3 class="anchored" data-anchor-id="disciplinas-de-graduação">Disciplinas de Graduação</h3>
-<ul>
-<li><a href="./calculoI/calculoI.html">Cálculo I</a></li>
-<li><a href="./calculoII/calculoII.html">Cálculo II</a>
-<ul>
-<li>Turmas: <a href="./calculoII/c2-2022-2.html">2022-2</a>, <a href="./calculoII/c2-2023-1.html">2023-1</a>, <a href="./calculoII/c2-2023-2.html">2023-2</a>, <a href="./calculoII/c2-2024-1.html">2024-1</a></li>
-</ul></li>
-<li><a href="./calculoIII/calculoIII.html">Cálculo III</a>
-<ul>
-<li>Turmas: <a href="./calculoIII/c3-2023-1.html">2023-1</a>, <a href="./calculoIII/c3-2023-2.html">2023-2</a></li>
-</ul></li>
-<li>Cálculo IV:
-<ul>
-<li>Turmas: <a href="https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/">2022-2</a></li>
-</ul></li>
-<li><a href="./gaal/gaal.html">GAAL</a>
-<ul>
-<li>Turmas: <a href="./gaal/gaal-2024-1.html">2024-1</a>, <a href="gaal/gaal-2024-2/gaal-2024-2">2024-2</a></li>
-</ul></li>
-<li><a href="./GA/ga.html">Geometria Analítica e Cálculo Vetorial</a>
-<ul>
-<li>Turmas: <a href="./GA/ga-2022-1.html">2022-1</a></li>
-</ul></li>
-<li>Equações Diferenciais</li>
-</ul>
-</section>
-<section id="disciplinas-de-pós-graduação" class="level3">
-<h3 class="anchored" data-anchor-id="disciplinas-de-pós-graduação">Disciplinas de Pós-Graduação</h3>
-<ul>
-<li><a href="./analise-funcional/funcional.html">Análise Funcional</a>
-<ul>
-<li>Turmas:</li>
-</ul></li>
-<li><a href="./semigrupos/semigrupos.html">Semigrupos</a>
-<ul>
-<li>Turmas: <a href="semigrupos/minicurso-2025-verao.qmd">2025-verão</a></li>
-</ul></li>
-</ul>
-<hr>
+<p><span class="math display">\[\begin{equation*}
+\begin{cases}
+x'(t)={\color{red}A}x+{\color{black}f},&amp; t\in [0,+\infty)\\
+x(0)=x_0
+\end{cases}
+\end{equation*}\]</span> <span class="math display">\[\begin{equation*}
+x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}f(s)}ds
+\end{equation*}\]</span></p>
+<section id="material-básico" class="level2">
+<h2 class="anchored" data-anchor-id="material-básico">Material Básico</h2>
+<p><a href="https://reginaldodr.github.io/notas-semigrupos-git/notas-semigrupo.pdf">Notas de aula</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
