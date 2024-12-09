@@ -54,10 +54,10 @@ x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
 
 # Referências {#sec-ref}
 
-[LR1] Haim Brezis. Functional analysis, Sobolev spaces and partial differential equations. Springer, New York-London, 2011.
+1. Haim Brezis. Functional analysis, Sobolev spaces and partial differential equations. Springer, New York-London, 2011.
 
-[LR2] Lawrence C Evans. Partial differential equations, volume 19. American Mathematical Society, Providence, Rhode Island, 2010.
+2. Lawrence C Evans. Partial differential equations, volume 19. American Mathematical Society, Providence, Rhode Island, 2010.
 
-[LR3] Alvercio Moreira Gomes. Semigrupos de Operadores Lineares e Aplicações às Equações de Evolução, volume 2ª edição. Editora UFRJ, Rio de Janeiro, Rio de Janeiro, 2005.
+3.  Alvercio Moreira Gomes. Semigrupos de Operadores Lineares e Aplicações às Equações de Evolução, volume 2ª edição. Editora UFRJ, Rio de Janeiro, Rio de Janeiro, 2005.
 
-[LR4] S. Kesavan. Topics in Functional Analysis and Applications, volume 52. New Age International Ltd, New Delhi, 2015.
+4. S. Kesavan. Topics in Functional Analysis and Applications, volume 52. New Age International Ltd, New Delhi, 2015.
