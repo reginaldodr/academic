@@ -34,6 +34,10 @@ Campus de Rio das Ostras
 
 - [Calendário UFF](https://www.uff.br/wp-content/uploads/2024/07/87-24_res_cepex_3.618_calendarios_2024_p._greve.pdf)
 
+### Escola de Verão PGMAT-UFF -- 2025
+
+- [Minicurso de EDO em Espaços de Banach](semigrupos/minicurso-2025-verao.qmd)
+
 ### Formação Acadêmica/Titulação
 
 -   2001 -- 2006: Licenciatura em Matemática pela UFV.
