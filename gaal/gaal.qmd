@@ -27,7 +27,7 @@ $$
 
 ## Material Básico
 
-- [Slides](gaal.pdf)
+- [Slides](https://reginaldodr.github.io/gaal-2023/gaal.pdf)
 
 - [Livro GAAL -- Reginaldo Santos -- UFMG](gaalt0.pdf)
 
