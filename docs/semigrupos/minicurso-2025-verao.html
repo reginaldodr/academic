@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../styles.css">
 <meta name="twitter:title" content="Minicurso EDOs em Espaços de Banach – 2025-Verão – Prof.&nbsp;Reginaldo Demarque">
@@ -159,6 +188,14 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><span class="math display">\[\begin{equation*}
+\begin{cases}
+x'(t)={\color{red}A}x+{\color{black}f},&amp; t\in [0,+\infty)\\
+x(0)=x_0
+\end{cases}
+\end{equation*}\]</span> <span class="math display">\[\begin{equation*}
+x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
+\end{equation*}\]</span></p>
 <section id="informações-básicas" class="level1">
 <h1>Informações Básicas</h1>
 <ul>

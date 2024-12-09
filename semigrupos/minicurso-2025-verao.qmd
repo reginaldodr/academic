@@ -8,6 +8,17 @@ format:
 from: markdown+emoji
 ---
 
+
+\begin{equation*}
+\begin{cases}
+x'(t)={\color{red}A}x+{\color{black}f},& t\in [0,+\infty)\\
+x(0)=x_0
+\end{cases}
+\end{equation*}
+\begin{equation*}
+x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
+\end{equation*}
+
 # Informações Básicas
 
 - **Professores:** Luiz Viana (UFF) e Reginaldo Demarque (UFF)
