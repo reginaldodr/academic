@@ -181,7 +181,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 15 . &nbsp; Ter  --  26/11  --  <span style="color:standard"> Queda livre com resistência do ar. Ilustração do modelo SIR.  </span> \
 16 . &nbsp; Seg  --  02/12  --  <span style="color:standard"> Equações Exatas e fator integrante. </span> \
 17 . &nbsp; Ter  --  03/12  --  <span style="color:standard"> Aula de Exercícios </span> \
-18 . &nbsp; Seg  --  09/12  --  <span style="color:standard"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares. Revisão de números complexos e fórmula de Euler.  </span> \
+18 . &nbsp; Seg  --  09/12  --  <span style="color:standard"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares. Revisão de números complexos e fórmula de Euler. -- ([lista número complexos](lista-complexos.pdf))  </span> \
 ---
 
 **2.2 EDOs de 2ª ordem lineares**
