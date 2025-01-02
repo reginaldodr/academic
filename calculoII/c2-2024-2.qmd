@@ -212,6 +212,38 @@ Leia a seção 7.5 (Estratégias de Integração)\
 
 
 # Resultados
+Inicialmente foram **46 inscritos**, entretanto ao final do curso ficamos com **X** estudantes.
+
+## 1ª Prova
+
+
+
+```{python}
+#| echo: false
+#| output: asis
+
+import numpy as np
+from scipy.stats import norm
+import matplotlib.pyplot as plt
+
+
+p1 = np.array([5.3,5.2,6.8,5,6.3,2.9,8.1,5.8,5.6,8.8,8,8.1,2.8,6.6,4.9,7.3,4.4,5.6,4.6])
+N=len(p1)
+
+print('Compareceram à 1ª prova ','**'+str(N)+'**',' alunos, de um total de **46 inscritos**, isto é, ',round(N/46*100,2),' %')
+print( )
+
+# Plot the histogram.
+plt.hist(p1, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas da P1")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+
+```
 
 # Cronograma Proposto Inicialmente
 

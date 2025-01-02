@@ -183,11 +183,11 @@ GA em $\mathbb{R}^3$\
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/12  --  Recesso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  30/12  --  Recesso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  31/12  --  Recesso </span> \
-22 . &nbsp; Seg  --  06/01  --  <span style="color:LightGray"> Completamento de Quadrados. Elipse, hipérbole e Parábola. </span> \
-23 . &nbsp; Ter  --  07/01  --  <span style="color:LightGray"> Coordenadas em relação a uma base. Mudança de Coordenadas. Rotação e Translação </span> \
-24 . &nbsp; Seg  --  13/01  --  <span style="color:LightGray">  Reconhecimento de Cônicas </span> \
+22 . &nbsp; Seg  --  06/01  --  <span style="color:LightGray"> Completamento de Quadrados. Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. </span> \
+23 . &nbsp; Ter  --  07/01  --  <span style="color:LightGray"> Translação e Rotação de cônicas. </span> \
+24 . &nbsp; Seg  --  13/01  --  <span style="color:LightGray"> Aula de Exercícios. </span> \
 <span style="color:red"> :writing_hand: &nbsp;Entrega dos Para Casa 5: &nbsp;   &nbsp;   </span>  \
-25 . &nbsp; Ter  --  14/01  --  <span style="color:LightGray"> Aula de Exercícios 2 </span> \
+25 . &nbsp; Ter  --  14/01  --  <span style="color:LightGray"> Aula de Exercícios </span> \
 <span style="color:red"> 26 . &nbsp; Seg  --  20/01  --  2ª Prova </span> \
 ---
 
