@@ -45,12 +45,12 @@ x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
 
 :construction: Em construção
 
-01 . &nbsp; Seg  --  10/02  --  <span style="color:standard"> Apresentação do minicurso. Resultados preliminares. O problema de Valor Inicial em Espaços de Banach $X$.</span> \
-02 . &nbsp; Ter  --  11/02  --  <span style="color:standard"> Exponencial de Operadores em $\mathcal{L}(X)$. Definição de Semigrupos de classe $C^0$.  Propriedades. </span> \
-03 . &nbsp; Qua  --  12/02  --  <span style="color:standard"> Gerador Infinitesimal. Existência e Unicidade para o PVI. Propriedades. </span> \
-04 . &nbsp; Seg  --  17/02  --  <span style="color:standard"> Resolvente de um operador.  Semigrupos das Contrações. O Teorema de Hille-Yosida. </span> \
-05 . &nbsp; Ter  --  18/02  --  <span style="color:standard"> Operadores dissipativos. Teorema de Lumer-Philips. </span> \
-06 . &nbsp; Qua  --  19/02  --  <span style="color:standard"> Aplicações em EDPs. Perspectivas de Pesquisa. </span> \
+01 . &nbsp; Qua  --  12/02  --  <span style="color:standard"> Apresentação do minicurso. Resultados preliminares. O problema de Valor Inicial em Espaços de Banach $X$.</span> \
+02 . &nbsp; Qui  --  13/02  --  <span style="color:standard"> Exponencial de Operadores em $\mathcal{L}(X)$. Definição de Semigrupos de classe $C^0$.  Propriedades. </span> \
+03 . &nbsp; Sex  --  14/02  --  <span style="color:standard"> Gerador Infinitesimal. Existência e Unicidade para o PVI. Propriedades. </span> \
+04 . &nbsp; Qua  --  19/02  --  <span style="color:standard"> Resolvente de um operador.  Semigrupos das Contrações. O Teorema de Hille-Yosida. </span> \
+05 . &nbsp; Qui  --  20/02  --  <span style="color:standard"> Operadores dissipativos. Teorema de Lumer-Philips. </span> \
+06 . &nbsp; Sex  --  21/02  --  <span style="color:standard"> Aplicações em EDPs. Perspectivas de Pesquisa. </span> \
 
 
 # Referências {#sec-ref}
