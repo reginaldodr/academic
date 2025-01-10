@@ -812,27 +812,6 @@
     "text": "2024-1-p1-turmaK1-gaal-gabarito.pdf\n2024-1-vr-p1-turmaK1-gaal-gabarito.pdf\n2024-1-vs-turmaK1-gaal-gabarito.pdf\n2024-2-p1-turmaK1-gaal-gabarito.pdf"
   },
   {
-    "objectID": "posts/teste-python/hello.html",
-    "href": "posts/teste-python/hello.html",
-    "title": "Quarto Basics",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figura 1.\n\n\nCódigo\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigura 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "posts/teste-python/hello.html#polar-axis",
-    "href": "posts/teste-python/hello.html#polar-axis",
-    "title": "Quarto Basics",
-    "section": "",
-    "text": "For a demonstration of a line plot on a polar axis, see Figura 1.\n\n\nCódigo\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nr = np.arange(0, 2, 0.01)\ntheta = 4 * np.pi * r\nfig, ax = plt.subplots(\n  subplot_kw = {'projection': 'polar'} \n)\nax.plot(theta, r)\nax.set_rticks([0.5, 1, 1.5, 2])\nax.grid(True)\nplt.show()\n\n\n\n\n\n\n\n\nFigura 1: A line plot on a polar axis"
-  },
-  {
-    "objectID": "posts/teste-python/hello.html#heading-2",
-    "href": "posts/teste-python/hello.html#heading-2",
-    "title": "Quarto Basics",
-    "section": "Heading 2",
-    "text": "Heading 2\n1 . 2024-1-vr-pUnica-K1-gaal-gabarito.pdf\n2 . gab_p1_calc4_1_2010.pdf\n3 . gab_p1_calc4_2_2010.pdf\n4 . gab_p2_calc4_1_2010.pdf\n5 . gab_p2_calc4_2_2010.pdf\n6 . p1_calc4_1_2010.pdf\n7 . p1_calc4_2_2010.pdf\n8 . p2_calc4_1_2010.pdf\n9 . p2_calc4_2_2010.pdf\n10 . p3_calc4_1_2010.pdf\n11 . p3_calc4_2_2010.pdf\n12 . vr_p2_calc4_2_2010.pdf\n13 . vs_calc4_1_2010.pdf\n14 . vs_calc4_2_2010.pdf"
-  },
-  {
     "objectID": "calculoI/calculoI.html#material-básico",
     "href": "calculoI/calculoI.html#material-básico",
     "title": "Cálculo I",
@@ -1216,20 +1195,6 @@
     "title": "GAAL RCN00075 – 2024-2",
     "section": "3.4 Verificação Suplementar",
     "text": "3.4 Verificação Suplementar\nEm concordância com o Regulamento dos Cursos de graduação em seu Art. 99, a Verificação Suplementar (VS) é vetada aos discentes já aprovados e é obrigatória para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos."
-  },
-  {
-    "objectID": "posts/bessel/bessel.html",
-    "href": "posts/bessel/bessel.html",
-    "title": "1-D Degenerate PDEs using Sturm-Liouville problems",
-    "section": "",
-    "text": "Given \\(T&gt;0\\) and \\(\\alpha \\in (0,2)\\) consider the following degenerate problem: \\[\\begin{equation}\n    \\begin{cases}\n        u_t - (x^\\alpha u_x)_x = 0,& (t,x)\\in Q,\\\\\n        Bu(t,0)=u(t,1)=0,& t\\in(0,T),\\\\\n        u(0,x)=u_0(x), & x\\in (0,1),\n    \\end{cases}\n\\end{equation}\\] where the condition at \\(x=0\\) is defined by \\[\\begin{equation}\nBu(t,0)=\n\\begin{cases}\nu(t,0), & \\alpha \\in (0,1),\\\\\n\\lim\\limits_{t\\to 0^+}(x^\\alpha u_x)(t,x), & \\alpha \\in [1,2).\n\\end{cases}\n\\end{equation}\\]\n\n\nSuppose \\(u(t,x)=z(t)y(x)\\). Let us denote the derivative with respect to \\(t\\) by \\(\\prime\\) \\[u_t=z'y\\]"
-  },
-  {
-    "objectID": "posts/bessel/bessel.html#fourier-method-separation-of-variables",
-    "href": "posts/bessel/bessel.html#fourier-method-separation-of-variables",
-    "title": "1-D Degenerate PDEs using Sturm-Liouville problems",
-    "section": "",
-    "text": "Suppose \\(u(t,x)=z(t)y(x)\\). Let us denote the derivative with respect to \\(t\\) by \\(\\prime\\) \\[u_t=z'y\\]"
   },
   {
     "objectID": "semigrupos/semigrupos.html",
