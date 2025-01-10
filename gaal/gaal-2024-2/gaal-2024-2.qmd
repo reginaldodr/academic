@@ -28,9 +28,22 @@ confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/ind
 
 
 - **Material a ser utilizado**
-    - [Slides e outros](../gaal.qmd)
 
-    - [Anotações das aulas](https://mega.nz/folder/2d0XHZCa#o6ilB2xCQH-PDmzXMF1MZw)
+- [Slides](https://reginaldodr.github.io/gaal-2023/gaal.pdf)
+
+- [Anotações das aulas](https://mega.nz/folder/2d0XHZCa#o6ilB2xCQH-PDmzXMF1MZw)
+
+- [Livro GAAL -- Reginaldo Santos -- UFMG](gaalt0.pdf)
+
+- [Lista dos Para Casa](paracasa.pdf) 
+
+- [Lista Exercícios Poole (2004)](lista-gaal-poole-2004.pdf)
+
+- [Lista de Exercícios de GA](lista-exercicios-GA.pdf)
+
+- [Provas antigas](provas/)
+
+ 
 
 
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
