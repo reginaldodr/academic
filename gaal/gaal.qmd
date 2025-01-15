@@ -3,6 +3,7 @@ title: Geometria Analítica e Álgebra Linear -- GAAL
 format:
   html:
     toc: false
+from: markdown+emoji
 ---
 
 <!-- $$ -->
@@ -23,6 +24,9 @@ format:
 <!-- \end{bmatrix}}_{B} -->
 <!-- $$ -->
 
+
+::: {layout-ncol=2}
+
 $$
 \begin{align*}
 {\color{blue}a}x^2+{\color{blue}b}y^2+{\color{blue}c}xy&= \begin{bmatrix} x & y  \end{bmatrix} {\color{blue} \begin{bmatrix} a & c/2\\ c/2 & b\end{bmatrix} }
@@ -35,6 +39,8 @@ $$
 \end{align*}
 $$
 
+![](rot-elipse.png)
+:::
 
 ::: {layout-ncol=2}
 
@@ -54,6 +60,8 @@ $$
 
 
 ## Material Complementar
+
+:construction: Em construção... 
 
 :::
 
