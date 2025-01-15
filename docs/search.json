@@ -781,7 +781,7 @@
     "href": "gaal/gaal.html",
     "title": "Geometria Analítica e Álgebra Linear – GAAL",
     "section": "",
-    "text": "\\[\n{\\color{blue} \\underbrace{\\begin{bmatrix}\na_{11}  & a_{12}  & \\cdots &  a_{1n}  \\\\\na_{21} & a_{22}  & \\cdots  & a_{2n} \\\\\n\\vdots & \\vdots & \\cdots & \\vdots \\\\\na_{m1} & a_{m2}  & \\cdots  & a_{mn}\n\\end{bmatrix}}_{A}}\\ \\\n{\\color{red}\n\\underbrace{\\begin{bmatrix}\nx_1\\\\ x_2\\\\ \\vdots \\\\ x_n\n\\end{bmatrix}}_{X}\n}\n=\n\\underbrace{\\begin{bmatrix}\nb_1 \\\\ b_2\\\\ \\vdots \\\\ b_n\n\\end{bmatrix}}_{B}\n\\]"
+    "text": "\\[\n\\begin{align*}\n{\\color{blue}a}x^2+{\\color{blue}b}y^2+{\\color{blue}c}xy&= \\begin{bmatrix} x & y  \\end{bmatrix} {\\color{blue} \\begin{bmatrix} a & c/2\\\\ c/2 & b\\end{bmatrix} }\n\\begin{bmatrix} x \\\\ y \\end{bmatrix}\\\\\n&=X^t {\\color{blue}A} X, \\quad \\bar{X}=Q^tX \\\\\n& =\\bar{X}^t{\\color{red}D}\\bar{X}\\\\\n&= \\begin{bmatrix} x & y  \\end{bmatrix}\n{\\color{red} \\begin{bmatrix} \\lambda_1  & 0\\\\ 0 & \\lambda_2\\end{bmatrix} }\\\\\n& = {\\color{red}\\lambda_1}\\bar{x}^2+{\\color{red}\\lambda_2}\\bar{y}^2.\n\\end{align*}\n\\]"
   },
   {
     "objectID": "gaal/gaal.html#material-básico",

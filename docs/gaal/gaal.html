@@ -183,22 +183,33 @@ window.Quarto = {
 </header>
 
 
+<!-- $$ -->
+<!-- {\color{blue} \underbrace{\begin{bmatrix} -->
+<!--  a_{11}  & a_{12}  & \cdots &  a_{1n}  \\ -->
+<!--  a_{21} & a_{22}  & \cdots  & a_{2n} \\ -->
+<!--  \vdots & \vdots & \cdots & \vdots \\ -->
+<!--  a_{m1} & a_{m2}  & \cdots  & a_{mn}  -->
+<!-- \end{bmatrix}}_{A}}\ \ -->
+<!-- {\color{red} -->
+<!-- \underbrace{\begin{bmatrix} -->
+<!-- x_1\\ x_2\\ \vdots \\ x_n -->
+<!-- \end{bmatrix}}_{X} -->
+<!-- } -->
+<!-- = -->
+<!-- \underbrace{\begin{bmatrix} -->
+<!-- b_1 \\ b_2\\ \vdots \\ b_n -->
+<!-- \end{bmatrix}}_{B} -->
+<!-- $$ -->
 <p><span class="math display">\[
-{\color{blue} \underbrace{\begin{bmatrix}
-a_{11}  &amp; a_{12}  &amp; \cdots &amp;  a_{1n}  \\
-a_{21} &amp; a_{22}  &amp; \cdots  &amp; a_{2n} \\
-\vdots &amp; \vdots &amp; \cdots &amp; \vdots \\
-a_{m1} &amp; a_{m2}  &amp; \cdots  &amp; a_{mn}
-\end{bmatrix}}_{A}}\ \
-{\color{red}
-\underbrace{\begin{bmatrix}
-x_1\\ x_2\\ \vdots \\ x_n
-\end{bmatrix}}_{X}
-}
-=
-\underbrace{\begin{bmatrix}
-b_1 \\ b_2\\ \vdots \\ b_n
-\end{bmatrix}}_{B}
+\begin{align*}
+{\color{blue}a}x^2+{\color{blue}b}y^2+{\color{blue}c}xy&amp;= \begin{bmatrix} x &amp; y  \end{bmatrix} {\color{blue} \begin{bmatrix} a &amp; c/2\\ c/2 &amp; b\end{bmatrix} }
+\begin{bmatrix} x \\ y \end{bmatrix}\\
+&amp;=X^t {\color{blue}A} X, \quad \bar{X}=Q^tX \\
+&amp; =\bar{X}^t{\color{red}D}\bar{X}\\
+&amp;= \begin{bmatrix} x &amp; y  \end{bmatrix}
+{\color{red} \begin{bmatrix} \lambda_1  &amp; 0\\ 0 &amp; \lambda_2\end{bmatrix} }\\
+&amp; = {\color{red}\lambda_1}\bar{x}^2+{\color{red}\lambda_2}\bar{y}^2.
+\end{align*}
 \]</span></p>
 <div>
 
