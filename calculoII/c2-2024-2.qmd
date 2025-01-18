@@ -203,18 +203,19 @@ Leia a seção 7.5 (Estratégias de Integração)\
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  31/12  --  Recesso </span> \
 22 . &nbsp; Seg  --  06/01  --  <span style="color:standard"> EDO linear homogênea com coeficientes constantes. </span> \
 23 . &nbsp; Ter  --  07/01  --  <span style="color:standard"> Método dos coeficientes a determinar e Método da variação dos Parâmetros. </span> \
-24 . &nbsp; Seg  --  13/01  --  <span style="color:LightGray"> Aula de Exercícios. </span> \
-25 . &nbsp; Ter  --  14/01  --  <span style="color:LightGray"> Aula de Exercícios. </span> \
+24 . &nbsp; Seg  --  13/01  --  <span style="color:standard"> Aula de Exercícios. </span> \
+25 . &nbsp; Ter  --  14/01  --  <span style="color:standard"> Aula de Exercícios. </span> \
+26 . &nbsp; Seg  --  20/01  -- <span style="color:LightGray">  Aula de Dúvidas </span> \
 ---
 
 **Provas Finais**
 
-<span style="color:red"> 26 . &nbsp; Seg  --  20/01  --  2ª Prova </span> \
-<span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Chamada </span> \
-<span style="color:red"> 28 . &nbsp; Seg  --  27/01  --  VS </span> \
-29 . &nbsp; Ter  --  28/01  --   --  \
-30 . &nbsp; Seg  --  03/02  --   --  \
-31 . &nbsp; Ter  --  04/02  --   --  \
+
+<span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Prova  </span> \
+<span style="color:red"> 28 . &nbsp; Seg  --  27/01  --  2ª Chamada </span> \
+ -- &nbsp; Ter  --  28/01  --  <span style="color:LightGray">  Não haverá aula  </span> \
+ -- &nbsp; Seg  --  03/02  --  <span style="color:LightGray"> Não haverá aula  </span> \
+<span style="color:red">29 . &nbsp; Ter  --  04/02  --   VS  </span> \
 :end: &nbsp; Qui  --  06/02  --  Fim do Período. :raised_hands:
 ---
 
