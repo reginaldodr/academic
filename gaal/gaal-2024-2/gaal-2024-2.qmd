@@ -206,7 +206,8 @@ GA em $\mathbb{R}^3$\
 
 **Provas Finais**
 
-<span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Prova  </span> \
+<span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Prova   </span> --
+[gabarito](../provas/2024-2-p2-turmaK1-gaal-gabarito.pdf)\
 <span style="color:red"> 28 . &nbsp; Seg  --  27/01  --  2ª Chamada </span> \
  -- &nbsp; Ter  --  28/01  --  <span style="color:LightGray">  Não haverá aula  </span> \
  -- &nbsp; Seg  --  03/02  --  <span style="color:LightGray"> Não haverá aula  </span> \
