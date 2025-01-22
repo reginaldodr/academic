@@ -286,8 +286,86 @@ plt.show()
 ```
 
 
+## Resultados Finais {-}
+
+```{python}
+#| echo: false
+#| output: asis
+
+import numpy as np
+from scipy.stats import norm
+import matplotlib.pyplot as plt
 
 
+# Generate some data for this demonstration.
+notaparcial = np.array([4.1,0.6,2,2,4.1,9.1,2.4,0.6,7.6,6.7,0,5.3,1.2,0,8,2,2,8.7,5.6,2,0,3,9.5,9.6,9.4,1.1,8.6,2,4,0,8.3,7.1,4.2,2,4.2,0,4.4,2.6,0,2,0,2.8,3.8,2,2,0])
+
+notafinal = np.array([4.1,0.6,2,2,4.1,9.1,2.4,0.6,7.6,6.7,0,5.3,1.2,0,8,2,2,8.7,5.6,2,0,3,9.5,9.6,9.4,1.1,8.6,2,4,0,8.3,7.1,4.2,2,4.2,0,4.4,2.6,0,2,0,2.8,3.8,2,2,0])
+
+
+bins = [0, 4, 6, 10]
+bins2 = [0,6,10]
+
+N=len(notaparcial)
+res1, _ = np.histogram(notaparcial, bins=bins)
+res2, _ = np.histogram(notafinal, bins=bins2)
+
+print('::: {#tbl-panel layout-ncol=2}\n')
+print('|     |')
+print('|---|---|---| ')
+print('| Aprovados      |',res1[2],' |',np.round(res1[2]/N*100,2),'%  |')
+print('| Reprovados      |',res1[0],' |',np.round(res1[0]/N*100,2),'%  |')
+print('| VS     |',res1[1],' |',np.round(res1[1]/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resultado Parcial {#tbl-first}\n')
+print('|                           |')
+print('|---|---|---| ')
+#print('| Aprovados      |',res2[1],' |',np.round(res2[1]/N*100,2),'%  |')
+#print('| Reprovados      |',res2[0],' |',np.round(res2[0]/N*100,2),'%  |')
+#print('| Total      |',N,' |',100,'%  |\n')
+#print(': Resultado final {#tbl-second}\n')
+#print('Resultados')
+print(':::')
+
+mylabels = ["Reprov.", "VS", "Aprov."]
+mycolors = ["r", "gold", "dodgerblue"]
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9,3 ))
+
+
+ax1.pie(res1, labels = mylabels,colors=mycolors,autopct='%1.1f%%', startangle = 90)
+ax1.set_title('Resultado Parcial')
+
+mylabels2 = ["Reprov.", "Aprov."]
+mycolors2 = ["r", "dodgerblue"]
+
+
+#ax2.pie(res2, labels = mylabels2,colors=mycolors2,autopct='%1.1f%%', startangle = 90)
+#ax2.set_title('Resultado Final')
+plt.show()
+
+
+
+# Plot the histogram.
+plt.hist(notaparcial, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas do Resultado Parcial")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+
+# Plot the histogram.
+#plt.hist(notafinal, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+#plt.title("Histograma das Notas do Resultado Final")
+#plt.xlabel('Notas')
+#plt.ylabel('Nº de alunos')
+
+#plt.show()
+```
 
 
 
