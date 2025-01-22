@@ -220,7 +220,7 @@ GA em $\mathbb{R}^3$\
 
 
 
-## 2ª Prova
+## 2ª Prova {-}
 
 
 
