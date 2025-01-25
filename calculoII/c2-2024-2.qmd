@@ -152,7 +152,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 
 # Cronograma Efetivado {#sec-crono}
 
-**1.1 A integral e Técnicas de integração**
+### 1.1 A integral e Técnicas de integração {-}
 
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/09  --  Participação em Congresso -- Não houve aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/09  --  Participação em Congresso --  Não houve aula </span> \
@@ -165,7 +165,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  15/10  --  Semana Nacional de Ciência e Tecnologia </span> \
 ---
 
-**1.2 Aplicações da Integral**
+### 1.2 Aplicações da Integral {-}
 
 05 . &nbsp; Seg  --  21/10  --  <span style="color:standard"> Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas.   Comprimento de Curvas. O comprimento da circunferência</span> \
 06 . &nbsp; Ter  --  22/10  --  <span style="color:standard"> Integrais Impróprias. </span> \
@@ -183,7 +183,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  20/11  --  Consciência Negra </span> \
 ---
 
-**2.1 EDOs de 1ª ordem**
+### 2.1 EDOs de 1ª ordem {-}
 
 14 . &nbsp; Seg  --  25/11  --  <span style="color:standard"> Classificação e solução. Campos direcionais. Equações Separáveis 1ª ordem, EDO 1ª ordem linear. Crescimento populacional malthusiano e logístico. </span> \
 15 . &nbsp; Ter  --  26/11  --  <span style="color:standard"> Queda livre com resistência do ar. Ilustração do modelo SIR.  </span> \
@@ -192,7 +192,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 18 . &nbsp; Seg  --  09/12  --  <span style="color:standard"> Teorema de Existência e Unicidade de Soluções para EDO de 1ª ordem lineares. Revisão de números complexos e fórmula de Euler. -- ([lista número complexos](lista-complexos.pdf))  </span> \
 ---
 
-**2.2 EDOs de 2ª ordem lineares**
+### 2.2 EDOs de 2ª ordem lineares {-}
 
 19 . &nbsp; Ter  --  10/12  --  <span style="color:standard">Continuação Números complexos. EDO’s 2ª ordem lineares. Teorema de Existência e Unicidade.  </span> \
 20 . &nbsp; Seg  --  16/12  --  <span style="color:standard"> Soluções Fundamentais. Wronskiano. Oscilações mecânicas livres com amortecimento. </span> \
@@ -208,7 +208,7 @@ Leia a seção 7.5 (Estratégias de Integração)\
 26 . &nbsp; Seg  --  20/01  -- <span style="color:LightGray">  Aula de Dúvidas </span> \
 ---
 
-**Provas Finais**
+### 3.Provas Finais {-}
 
 
 <span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Prova  </span> --  [gabarito](provas/2024-2-p2-c2-gabarito.pdf)\

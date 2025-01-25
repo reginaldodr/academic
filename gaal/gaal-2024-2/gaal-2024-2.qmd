@@ -152,7 +152,7 @@ GA em $\mathbb{R}^3$\
 
 # Cronograma Efetivado {#sec-crono}
 
-**1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;**
+### 1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica {-}
 
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/09  --  Participação em Congresso -- Não houve aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/09  --  Participação em Congresso --  Não houve aula </span> \
@@ -177,7 +177,7 @@ GA em $\mathbb{R}^3$\
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  15/11  --  Proclamação da República </span> \
 ---
 
-**2. Álgebra Linear no $\mathbb{R}^n$**
+### 2. Álgebra Linear no $\mathbb{R}^n$ {-}
 
 12 . &nbsp; Seg  --  18/11  --  <span style="color:standard"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Produto escalar no $\mathbb{R}^n$. Produto escalar usando o sympy. </span> \
 13 . &nbsp; Ter  --  19/11  --  <span style="color:standard"> Dependência e Independência Linear </span> \
@@ -204,7 +204,7 @@ GA em $\mathbb{R}^3$\
 26 . &nbsp; Seg  --  20/01  -- <span style="color:standard"> Aula de Dúvidas   </span> \
 ---
 
-**Provas Finais**
+### 3. Provas Finais {-}
 
 <span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Prova   </span> --
 [gabarito](../provas/2024-2-p2-turmak1-gaal-gabarito.pdf)\
@@ -249,14 +249,14 @@ p1 = np.array([0.00,
 0.30])
 N=len(p1)
 
-print('Compareceram à 1ª prova ','**'+str(N)+'**',' alunos, de um total de **40 inscritos**, isto é, ',round(N/40*100,2),' %')
+print('Compareceram à 2ª prova ','**'+str(N)+'**',' alunos, de um total de **40 inscritos**, isto é, ',round(N/40*100,2),' %')
 print( )
 
 # Plot the histogram.
 plt.hist(p1, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
 
 # Adicionar título e legendas
-plt.title("Histograma das Notas da P1")
+plt.title("Histograma das Notas da P2")
 plt.xlabel('Notas')
 plt.ylabel('Nº de alunos')
 
@@ -272,7 +272,7 @@ plt.show()
 
 Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
 
-**1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;**
+**1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica**
 
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  23/09  --  Participação em Congresso -- Não houve aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  24/09  --  Participação em Congresso --  Não houve aula </span> \
