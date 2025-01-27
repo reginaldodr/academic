@@ -208,7 +208,8 @@ GA em $\mathbb{R}^3$\
 
 <span style="color:red"> 27 . &nbsp; Ter  --  21/01  --  2ª Prova   </span> --
 [gabarito](../provas/2024-2-p2-turmak1-gaal-gabarito.pdf)\
-<span style="color:red"> 28 . &nbsp; Seg  --  27/01  --  2ª Chamada </span> \
+<span style="color:red"> 28 . &nbsp; Seg  --  27/01  --  2ª Chamada </span> 
+--[VR-P1](../provas/2024-2-vr-p1-turmaK1-gaal-gabarito.pdf),  [VR-P2](../provas/2024-2-vr-p2-turmaK1-gaal-gabarito.pdf)\
  -- &nbsp; Ter  --  28/01  --  <span style="color:LightGray">  Não haverá aula  </span> \
  -- &nbsp; Seg  --  03/02  --  <span style="color:LightGray"> Não haverá aula  </span> \
 <span style="color:red">29 . &nbsp; Ter  --  04/02  --   VS  </span> \
