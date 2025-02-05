@@ -23,7 +23,7 @@ x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
 
 - **Professores:** Luiz Viana (UFF) e Reginaldo Demarque (UFF)
 
-- **Período:** 10/02/2025 a 21/02/2025 na Escola de Verão da [PGMAT-UFF](https://pgmat-uff.com.br/verao-2025/)
+- **Período:** 12/02/2025 a 21/02/2025 na Escola de Verão da [PGMAT-UFF](https://pgmat-uff.com.br/verao-2025/)
 
 - **Nível:** Graduação e Mestrado.
 
@@ -31,7 +31,8 @@ x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
     
 
 - **Horário e sala:** \
-:construction: Em definição
+
+    - 11h às 13h dos dias 12, 13, 14, 19, 20 e 21 de fevereito de 2025.  
 
 - **Material a ser utilizado**
     - [Slides]()  :construction:  Em construção
