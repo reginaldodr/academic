@@ -219,8 +219,6 @@ GA em $\mathbb{R}^3$\
 
 # Resultados
 
-## 1ª Prova {-}
-
 ```{python}
 #| echo: false
 #| output: asis
@@ -229,6 +227,11 @@ import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
 
+insc,ab=37,22
+est=np.array([ab,insc-ab])
+perc = np.round(est/est.sum(axis=0)*100,2)
+
+print('## 1ª Prova {-}')
 
 p1 = np.array([
 0.3,
@@ -305,7 +308,7 @@ plt.show()
 ```
 
 
-
+## Resultados Finais {-}
 
 ```{python}
 #| echo: false
@@ -315,6 +318,7 @@ import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
 
+print('### Resultado Geral {-}')
 
 # notas dos alunos
 notaparcial = np.array([2.6,
@@ -463,6 +467,47 @@ plt.title("Histograma das Notas do Resultado Final")
 plt.xlabel('Notas')
 plt.ylabel('Nº de alunos')
 
+plt.show()
+print()
+print('---\n')
+print()
+
+
+insc,ab=N,22
+est=np.array([ab,insc-ab])
+perc = np.round(est/est.sum(axis=0)*100,2)
+
+print('### Resultados: concluintes {-}')
+print()
+print('**GAAL - 2024-2**\n')
+print('Tivemos <b>',insc,' inscritos,</b> entretanto houve uma evasão de <b>',est[0],' (',perc[0],'%)</b> estudantes, isto é, não realizaram nenhuma avaliação. Apenas <b>',est[1],' (',perc[1],'%)</b> efetivamente concluíram a disciplina.')
+print()
+
+rescon=np.array([res2[0]-est[0],est[0],res2[1]])
+
+print()
+print('::: {#tbl-panel}\n')
+print('|     |')
+print('|:---|---|---| ')
+print('| Aprovados      |',res2[1],' |',np.round(res2[1]/N*100,2),'%  |')
+print('| Reprovados      |',res2[0]-est[0],' |',np.round((res2[0]-est[0])/N*100,2),'%  |')
+print('| Evadidos      |',est[0],' |',np.round((est[0])/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print('Resultado Final: considerando a evasão')
+print(':::')
+
+
+
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9,3 ))
+
+mylabels3 = ["Evadidos", "Concluintes."]
+ax1.pie(est, labels = mylabels3,colors=mycolors2,autopct='%1.2f%%', startangle = 90)
+ax1.set_title('Estudantes')
+
+mylabels4 = ["Evadidos","Reprovados" ,"Aprovados"]
+ax2.pie(rescon, labels = mylabels4,colors=mycolors,autopct='%1.2f%%', startangle = 90)
+ax2.set_title('Resultado Final')
 plt.show()
 ```
 

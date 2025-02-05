@@ -223,11 +223,6 @@ Leia a seção 7.5 (Estratégias de Integração)\
 
 
 # Resultados
-Inicialmente foram **46 inscritos**, entretanto ao final do curso ficamos com **X** estudantes.
-
-## 1ª Prova {-}
-
-
 
 ```{python}
 #| echo: false
@@ -237,6 +232,12 @@ import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
 
+insc,ab=46,17
+est=np.array([ab,insc-ab])
+perc = np.round(est/est.sum(axis=0)*100,2)
+
+print()
+print('## 1ª Prova {-}')
 
 p1 = np.array([5.3,5.2,6.8,5,6.3,2.9,8.1,5.8,5.6,8.8,8,8.1,2.8,6.6,4.9,7.3,4.4,5.6,4.6])
 N=len(p1)
@@ -298,11 +299,103 @@ import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
 
+print('### Resultado Geral {-}')
+
 
 # Generate some data for this demonstration.
-notaparcial = np.array([4.1,0.6,2,2,4.1,9.1,2.4,0.6,7.6,6.7,0,5.3,1.2,0,8,2,2,8.7,5.6,2,0,3,9.5,9.6,9.4,1.1,8.6,2,4,0,8.3,7.1,4.2,2,4.2,0,4.4,2.6,0,2,0,2.8,3.8,2,2,0])
+notaparcial = np.array([6.7,
+0.6,
+2,
+2,
+6.1,
+9.1,
+2.4,
+1.2,
+7.6,
+6.7,
+0,
+6.6,
+1.2,
+0,
+8,
+2,
+2,
+8.7,
+5.6,
+2,
+0,
+4.6,
+9.5,
+9.6,
+9.4,
+1.1,
+8.6,
+2,
+6.5,
+0,
+8.3,
+7.1,
+7.8,
+2,
+4.8,
+0,
+6.8,
+3,
+0,
+2,
+0,
+4.8,
+5,
+2,
+2,
+0])
 
-notafinal = np.array([4.1,0.6,2,2,4.1,9.1,2.4,0.6,7.6,6.7,0,5.3,1.2,0,8,2,2,8.7,5.6,2,0,3,9.5,9.6,9.4,1.1,8.6,2,4,0,8.3,7.1,4.2,2,4.2,0,4.4,2.6,0,2,0,2.8,3.8,2,2,0])
+notafinal = np.array([6.7,
+0.6,
+2,
+2,
+6.1,
+9.1,
+2.4,
+1.2,
+7.6,
+6.7,
+0,
+6.6,
+1.2,
+0,
+8,
+2,
+2,
+8.7,
+5.3,
+2,
+0,
+2.8,
+9.5,
+9.6,
+9.4,
+1.1,
+8.6,
+2,
+6.5,
+0,
+8.3,
+7.1,
+7.8,
+2,
+3.55,
+0,
+6.8,
+3,
+0,
+2,
+0,
+6,
+4.25,
+2,
+2,
+0])
 
 
 bins = [0, 4, 6, 10]
@@ -322,11 +415,12 @@ print('| Total      |',N,' |',100,'%  |\n')
 print(': Resultado Parcial {#tbl-first}\n')
 print('|                           |')
 print('|---|---|---| ')
-#print('| Aprovados      |',res2[1],' |',np.round(res2[1]/N*100,2),'%  |')
-#print('| Reprovados      |',res2[0],' |',np.round(res2[0]/N*100,2),'%  |')
-#print('| Total      |',N,' |',100,'%  |\n')
-#print(': Resultado final {#tbl-second}\n')
-#print('Resultados')
+print('| Aprovados      |',res2[1],' |',np.round(res2[1]/N*100,2),'%  |')
+print('| Reprovados      |',res2[0],' |',np.round(res2[0]/N*100,2),'%  |')
+print('| Aprovados na VS     |',res2[1]-res1[2],' |', '---' ,'|')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resultado final {#tbl-second}\n')
+print('Resultados')
 print(':::')
 
 mylabels = ["Reprov.", "VS", "Aprov."]
@@ -342,34 +436,73 @@ mylabels2 = ["Reprov.", "Aprov."]
 mycolors2 = ["r", "dodgerblue"]
 
 
-#ax2.pie(res2, labels = mylabels2,colors=mycolors2,autopct='%1.1f%%', startangle = 90)
-#ax2.set_title('Resultado Final')
+ax2.pie(res2, labels = mylabels2,colors=mycolors2,autopct='%1.1f%%', startangle = 90)
+ax2.set_title('Resultado Final')
 plt.show()
 
+insc,ab=46,17
+est=np.array([ab,insc-ab])
+perc = np.round(est/est.sum(axis=0)*100,2)
 
 
 # Plot the histogram.
 plt.hist(notaparcial, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
 
-# Adicionar título e legendas
+## Adicionar título e legendas
 plt.title("Histograma das Notas do Resultado Parcial")
 plt.xlabel('Notas')
 plt.ylabel('Nº de alunos')
 
 plt.show()
 
-# Plot the histogram.
-#plt.hist(notafinal, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+## Plot the histogram.
+plt.hist(notafinal, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
 
-# Adicionar título e legendas
-#plt.title("Histograma das Notas do Resultado Final")
-#plt.xlabel('Notas')
-#plt.ylabel('Nº de alunos')
+## Adicionar título e legendas
+plt.title("Histograma das Notas do Resultado Final")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
 
-#plt.show()
+plt.show()
+
+print()
+print('---\n')
+print()
+print('### Resultados: concluintes {-}')
+print()
+print('**Cálculo II - 2024-2**\n')
+print('Tivemos <b>',insc,' inscritos,</b> entretanto houve uma evasão de <b>',est[0],' (',perc[0],'%)</b> estudantes, isto é, não realizaram nenhuma avaliação. Apenas <b>',est[1],' (',perc[1],'%)</b> efetivamente concluíram a disciplina.')
+print()
+
+rescon=np.array([res2[0]-est[0],est[0],res2[1]])
+
+print()
+print('::: {#tbl-panel}\n')
+print('|     |')
+print('|:---|---|---| ')
+print('| Aprovados      |',res2[1],' |',np.round(res2[1]/N*100,2),'%  |')
+print('| Reprovados      |',res2[0]-est[0],' |',np.round((res2[0]-est[0])/N*100,2),'%  |')
+print('| Evadidos      |',est[0],' |',np.round((est[0])/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print('Resultado Final: considerando a evasão')
+print(':::')
+
+
+
+
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(9,3 ))
+
+mylabels3 = ["Evadidos", "Concluintes."]
+ax1.pie(est, labels = mylabels3,colors=mycolors2,autopct='%1.2f%%', startangle = 90)
+ax1.set_title('Estudantes')
+
+mylabels4 = ["Evadidos","Reprovados" ,"Aprovados"]
+ax2.pie(rescon, labels = mylabels4,colors=mycolors,autopct='%1.2f%%', startangle = 90)
+ax2.set_title('Resultado Final')
+plt.show()
 ```
 
-
+---
 
 
 
