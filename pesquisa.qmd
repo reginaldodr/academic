@@ -1,7 +1,8 @@
 ---
 title: "Research"
+citation-package: biblatex
+csl: annual-review-of-statistics-and-its-application.csl
 bibliography: papers.bib
-csl: aims-mathematics.csl
 nocite: |
  @*
 ---
@@ -15,6 +16,7 @@ nocite: |
 
 
 2. Araújo BSV, Demarque R, Faria J. C. O, Viana L (2024) [Carleman estimates for parabolic equations with super strong degeneracy in a set of positive measure](https://arxiv.org/abs/2404.12537). 	arXiv:2404.12537.
+
 
 ## Publications
 

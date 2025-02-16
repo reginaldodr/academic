@@ -53,11 +53,11 @@ O presente minicurso corresponde às seções 1.1 a 1.3 da referência (Pazy, 20
 \
 03 . &nbsp; Sex  --  14/02  --  <span style="color:standard">  Gerador Infinitesimal de um Semigrupo. Existência e Unicidade do PVI para geradores infinitesimais.  </span> \
 \
-04 . &nbsp; Qua  --  19/02  --  <span style="color:gray"> Resolvente de um operador.  Semigrupos das Contrações. O Teorema de Hille-Yosida. </span> \
+04 . &nbsp; Qua  --  19/02  --  <span style="color:gray"> Espectro de um semigrupo. Resolvente de um operador. Teorema do Gráfico Fechado.  </span> \
 \
-05 . &nbsp; Qui  --  20/02  --  <span style="color:gray"> </span> \
+05 . &nbsp; Qui  --  20/02  --  <span style="color:gray"> Semigrupos das Contrações. Aproximação de Yosida. O Teorema de Hille-Yosida para contrações. </span> \
 \
-06 . &nbsp; Sex  --  21/02  --  <span style="color:gray"> Aplicações em EDPs. Perspectivas de Pesquisa. </span> \
+06 . &nbsp; Sex  --  21/02  --  <span style="color:gray"> Teorema de Hille-Yosida (continuação). Aplicações em EDPs. Perspectivas de Pesquisa. </span> \
 
 
 # Referências {#sec-ref}
