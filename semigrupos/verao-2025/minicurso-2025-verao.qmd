@@ -21,7 +21,7 @@ x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
 
 # Informações Básicas
 
-- **Professores:** Luiz Viana (UFF) e Reginaldo Demarque (UFF)
+- **Professores:** Luiz Viana (UFF -- Campus Niterói ) e Reginaldo Demarque (UFF -- Campus Rio das Ostras)
 
 - **Período:** 12/02/2025 a 21/02/2025 na Escola de Verão da [PGMAT-UFF](https://pgmat-uff.com.br/verao-2025/)
 
@@ -77,4 +77,6 @@ O presente minicurso corresponde às seções 1.1 a 1.3 da referência (Pazy, 20
 
 
 - Pazy, Amnon. Semigroups of linear operators and applications to partial differential equations. Vol. 44. Springer Science & Business Media, 2012.
+
+
 

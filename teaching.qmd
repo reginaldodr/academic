@@ -7,11 +7,12 @@ format:
 ---
 ![](capa-teaching.png)
 
-### Turmas Atuais -- 2024-2
 
-- [Cálculo II](calculoII/c2-2024-2.qmd)
+### Turmas Atuais -- 2025-1
 
-- [GAAL](gaal/gaal-2024-2/gaal-2024-2.qmd)
+- [Cálculo III-A](calculoIII/2025-1/c3-A-2025-1.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
+
+- [GAAL](gaal/gaal-2025-1/gaal-2025-1.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
 
 ---
 
@@ -38,7 +39,7 @@ format:
     - Turmas: 
 
 -   [Semigrupos](semigrupos/semigrupos.qmd)
-    - Turmas: [2025-verão](semigrupos/minicurso-2025-verao.qmd)
+    - Turmas: [2025-verão](semigrupos/verao-2025/minicurso-2025-verao.qmd)
 
 ---
 

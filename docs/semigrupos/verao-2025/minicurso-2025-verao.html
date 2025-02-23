@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Disciplinas – Prof.&nbsp;Reginaldo Demarque</title>
+<title>Minicurso EDOs em Espaços de Banach – 2025-Verão – Prof. Reginaldo Demarque</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,20 +69,50 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Disciplinas – Prof.&nbsp;Reginaldo Demarque">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Minicurso EDOs em Espaços de Banach – 2025-Verão – Prof.&nbsp;Reginaldo Demarque">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Prof.&nbsp;Reginaldo Demarque</span>
     </a>
   </div>
@@ -93,19 +123,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./pesquisa.html"> 
+    <a class="nav-link" href="../../pesquisa.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -130,13 +160,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#informações-básicas" id="toc-informações-básicas" class="nav-link active" data-scroll-target="#informações-básicas">Informações Básicas</a></li>
+  <li><a href="#sec-crono" id="toc-sec-crono" class="nav-link" data-scroll-target="#sec-crono">Cronograma</a></li>
+  <li><a href="#sec-ref" id="toc-sec-ref" class="nav-link" data-scroll-target="#sec-ref">Referências</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Disciplinas</h1>
+<h1 class="title">Minicurso EDOs em Espaços de Banach – 2025-Verão</h1>
 </div>
 
 
@@ -153,60 +193,67 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="capa-teaching.png" class="img-fluid"></p>
-<section id="turmas-atuais-2025-1" class="level3">
-<h3 class="anchored" data-anchor-id="turmas-atuais-2025-1">Turmas Atuais – 2025-1</h3>
+<p><span class="math display">\[\begin{equation*}
+\begin{cases}
+x'(t)={\color{red}A}x+{\color{black}f},&amp; t\in [0,+\infty)\\
+x(0)=x_0
+\end{cases}
+\end{equation*}\]</span> <span class="math display">\[\begin{equation*}
+x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
+\end{equation*}\]</span></p>
+<section id="informações-básicas" class="level1">
+<h1>Informações Básicas</h1>
 <ul>
-<li><p><a href="./calculoIII/2025-1/c3-A-2025-1.html">Cálculo III-A</a>: 2ª (14h às 16h) e 3ª (16h às 18h)</p></li>
-<li><p><a href="gaal/gaal-2025-1/gaal-2025-1.qmd">GAAL</a>: 2ª (16h às 18h) e 3ª (14h às 16h)</p></li>
-</ul>
-<hr>
-</section>
-<section id="disciplinas-de-semestres-anteriores" class="level2">
-<h2 class="anchored" data-anchor-id="disciplinas-de-semestres-anteriores">Disciplinas de Semestres Anteriores</h2>
-<section id="disciplinas-de-graduação" class="level3">
-<h3 class="anchored" data-anchor-id="disciplinas-de-graduação">Disciplinas de Graduação</h3>
+<li><p><strong>Professores:</strong> Luiz Viana (UFF – Campus Niterói ) e Reginaldo Demarque (UFF – Campus Rio das Ostras)</p></li>
+<li><p><strong>Período:</strong> 12/02/2025 a 21/02/2025 na Escola de Verão da <a href="https://pgmat-uff.com.br/verao-2025/">PGMAT-UFF</a></p></li>
+<li><p><strong>Nível:</strong> Graduação e Mestrado.</p></li>
+<li><p><strong>Público alvo:</strong> O presente minicurso tem como público alvo alunos dos cursos de graduação e mestrado, a distância ou presencial, em Matemática.</p></li>
+<li><p><strong>Horário e sala:</strong><br>
+</p>
 <ul>
-<li><a href="./calculoI/calculoI.html">Cálculo I</a></li>
-<li><a href="./calculoII/calculoII.html">Cálculo II</a>
-<ul>
-<li>Turmas: <a href="./calculoII/c2-2022-2.html">2022-2</a>, <a href="./calculoII/c2-2023-1.html">2023-1</a>, <a href="./calculoII/c2-2023-2.html">2023-2</a>, <a href="./calculoII/c2-2024-1.html">2024-1</a></li>
+<li>11h às 13h dos dias 12, 13, 14, 19, 20 e 21 de fevereito de 2025.<br>
+</li>
+<li>Auditório 407 do Bloco H do PGMAT-UFF.</li>
 </ul></li>
-<li><a href="./calculoIII/calculoIII.html">Cálculo III</a>
+<li><p><strong>Material a ser utilizado</strong></p>
 <ul>
-<li>Turmas: <a href="./calculoIII/c3-2023-1.html">2023-1</a>, <a href="./calculoIII/c3-2023-2.html">2023-2</a></li>
+<li><a href="curso-semigrupo.pdf">Slides</a><br>
+</li>
+<li><a href="https://reginaldodr.github.io/notas-semigrupos-git/notas-semigrupo.pdf">Notas de semigrupos</a></li>
 </ul></li>
-<li>Cálculo IV:
-<ul>
-<li>Turmas: <a href="https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/">2022-2</a></li>
-</ul></li>
-<li><a href="./gaal/gaal.html">GAAL</a>
-<ul>
-<li>Turmas: <a href="./gaal/gaal-2024-1.html">2024-1</a>, <a href="gaal/gaal-2024-2/gaal-2024-2">2024-2</a></li>
-</ul></li>
-<li><a href="./GA/ga.html">Geometria Analítica e Cálculo Vetorial</a>
-<ul>
-<li>Turmas: <a href="./GA/ga-2022-1.html">2022-1</a></li>
-</ul></li>
-<li>Equações Diferenciais</li>
+<li><p><strong>Programação:</strong> Neste minicurso, temos o objetivo de introduzir a Teoria dos Semigrupos Lineares, que consiste no estudo das equações diferenciais ordinárias, com valores em espaços de Banach, associadas a operadores lineares limitados ou ilimitados. Brevemente, vale ressaltar que tal estudo foi iniciado a partir da segunda metade do século XX, destacando-se a obtenção do importante teorema de Hille-Yosida em 1948. Nas décadas de 70 e 80, através de muitas contribuições vindas de diferentes escolas de Matemática, o tema se consolidou nos moldes que o conhecemos hoje, o que pode ser constatado com os trabalhos E. B. Davies, J. A. Goldstein e A. Pazy, entre outros. Nas exposições pretendidas, abordaremos resultados abstratos básicos da teoria e, ao final, apresentaremos algumas aplicações relacionadas às equações diferenciais parciais.</p></li>
+<li><p><strong>Pré-requistos:</strong> Análise Real e Equações Diferenciais Ordinárias.</p></li>
 </ul>
 </section>
-<section id="disciplinas-de-pós-graduação" class="level3">
-<h3 class="anchored" data-anchor-id="disciplinas-de-pós-graduação">Disciplinas de Pós-Graduação</h3>
+<section id="sec-crono" class="level1">
+<h1>Cronograma</h1>
+<p>O presente minicurso corresponde às seções 1.1 a 1.3 da referência (Pazy, 2012).</p>
+<p>01 . &nbsp; Qua – 12/02 – <span style="color:standard"> Apresentação do minicurso. Espaços de Banach <span class="math inline">\(X\)</span>. Operadores Lineares Limitados. Exponencial de Operadores em <span class="math inline">\(\mathcal{L}(X)\)</span>.</span><br>
+<br>
+02 . &nbsp; Qui – 13/02 – <span style="color:standard"> Definição de Semigrupos de classe <span class="math inline">\(C^0\)</span>. Exemplos. Teorema de Banach-Steinhauss. Limitação e continuidade de semigrupos. </span><br>
+<br>
+03 . &nbsp; Sex – 14/02 – <span style="color:standard"> Gerador Infinitesimal de um Semigrupo. Existência e Unicidade do PVI para geradores infinitesimais. </span><br>
+<br>
+04 . &nbsp; Qua – 19/02 – <span style="color:standard"> Espectro de um semigrupo. Resolvente de um operador. Teorema do Gráfico Fechado. O Teorema de Hille-Yosida para contrações: (<span class="math inline">\(\Rightarrow\)</span>) </span><br>
+<br>
+05 . &nbsp; Qui – 20/02 – <span style="color:standard"> Semigrupos das Contrações. Aproximação de Yosida. O Teorema de Hille-Yosida para contrações: (<span class="math inline">\(\Leftarrow\)</span>). </span><br>
+<br>
+06 . &nbsp; Sex – 21/02 – <span style="color:standard"> Aplicações em EDPs. Perspectivas de Pesquisa. </span><br>
+</p>
+</section>
+<section id="sec-ref" class="level1">
+<h1>Referências</h1>
 <ul>
-<li><a href="./analise-funcional/funcional.html">Análise Funcional</a>
-<ul>
-<li>Turmas:</li>
-</ul></li>
-<li><a href="./semigrupos/semigrupos.html">Semigrupos</a>
-<ul>
-<li>Turmas: <a href="./semigrupos/verao-2025/minicurso-2025-verao.html">2025-verão</a></li>
-</ul></li>
+<li><p>Brezis, Haim. Functional analysis, Sobolev spaces and partial differential equations. Springer, New York-London, 2011.</p></li>
+<li><p>Engel, Klaus-Jochen, and Rainer Nagel. One-parameter semigroups for linear evolution equations. Graduate Text in Mathematics 194, Springer-Verlag New York, 2000.</p></li>
+<li><p>Engel, Klaus-Jochen, and Rainer Nagel. A short course on operator semigroups. Springer Science &amp; Business Media, 2006.</p></li>
+<li><p>Evans, Lawrence C. Partial differential equations, volume 19. American Mathematical Society, Providence, Rhode Island, 2010.</p></li>
+<li><p>Gomes, Alvercio Moreira. Semigrupos de Operadores Lineares e Aplicações às Equações de Evolução, volume 2ª edição. Editora UFRJ, Rio de Janeiro, Rio de Janeiro, 2005.</p></li>
+<li><p>Kesavan, S. Topics in Functional Analysis and Applications, volume 52. New Age International Ltd, New Delhi, 2015.</p></li>
+<li><p>Pazy, Amnon. Semigroups of linear operators and applications to partial differential equations. Vol. 44. Springer Science &amp; Business Media, 2012.</p></li>
 </ul>
-<hr>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

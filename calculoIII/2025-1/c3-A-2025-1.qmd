@@ -1,0 +1,133 @@
+---
+title: CÁLCULO III - A  RCN00067 -- 2025-1
+number-sections: true
+bibliography: ../biblio.bib
+csl:  ../aims-mathematics.csl
+
+nocite: |
+  @thomas2, @diomara, @tromba,
+  
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+
+
+
+# Informações Básicas
+
+-   Horários e Salas
+
+    -   **Horário e sala:** 2ª (14h às 16h) e 3ª (16h às 18h)  --  **sala 04 -- IHS (prédio alugado)**\
+confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples)  [acesso por celular](http://159.112.185.66/home_externo/index)
+
+    -   **Atendimento**: sala 104 -- IHS (prédio alugado)
+    
+- [Material a ser utilizado](../calculoIII.qmd)
+
+-   Ementa: Busque por RCN00067 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/)
+
+EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE.
+
+
+
+# Apresentação do Curso
+
+Este curso é constituído de dois módulos: **Funções Vetoriais** e **Funções de Várias Variáveis**.
+
+Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
+
+
+O **livro texto** será referência [@stewart2], que **está disponíveis para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red"> É altamente recomendado que vocês consultem este material, de preferência o livro físico.</span>
+
+As demais referência contidas na @sec-ref formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.
+
+# Avaliação
+
+A avaliação será constituída de **2 Provas** presenciais realizadas ao fim de cada módulo, de acordo com o cronograma em @sec-crono.
+
+Cada prova terá o **valor de 10 pontos.** A nota final do curso será a média aritmética das provas.
+
+As duas provas serão **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.). <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> Será permitido o uso de calculadora científica.
+
+## Sobre as provas
+
+- Fazem parte dos critério de avaliação:
+   1. Clareza, organização, rigor e detalhes.
+   2. Fundamentação das soluções no conteúdo ensinado.
+   3. Interpretação correta das questões.
+   4. Questão com várias soluções será anulada.
+   5. Resposta correta com solução errada será anulada.
+
+- Instruções:
+    - Proibido compartilhar material.
+    - É permitido consulta a material e uso de dispositivo computacional, ambos sem acesso a internet.
+    - Fraude detectada, mesmo depois, zera a nota.
+    
+## Segunda Chamada
+
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">sem a necessidade de justificativa!</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
+
+A Segunda Chamada de todas as avaliações será feita no mesmo dia e constará de todo o conteúdo da disciplina.
+
+Contudo, cabe ressaltar que, de acordo com o mesmo artigo, a Segunda Chamada **substituirá uma, e somente uma,** das avaliações que tenha faltado. Portanto, se o aluno faltar a mais de uma avaliação, será subistituída a menor nota.
+
+
+::: {.callout-warning}
+## Importante
+
+Como **não há a necessidade de justificar a falta nas avaliações** para ter o direito à Segunda Chamada garantido.
+:::
+
+## Verificação Suplementar
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
+# Listas de Exercícios
+
+Abaixo seguem os execícios da referência [@stewart2] que devem ser feitos. A distribuição está dada por seção.
+
+§ 12.5: 3, 5, 7, 9, 23, 26, 31, 43.\
+§ 12.6: 3, 5, 13, 15, 21, 23, 25, 27, 29, 31.\
+§ 10.3: 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41.\
+§ 13.1: 7, 9, 11, 19-24, 27, 37, 39.\
+§ 13.2: 3, 5, 17, 19, 25.\
+§13.3: 1, 3, 11, 13, 15, 17, 21, 23, 27, 43, 59.\
+§ 13.4: 3, 5, 11, 13, 19, 33, 35, 37, 41.\
+§ 14.1: 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
+§ 14.2: 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
+§ 14.3: 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
+§ 14.4: 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
+§ 14.5: 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
+§ 14.6: 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
+§ 14.7: 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+§ 14.8: 3, 5, 9, 15, 17, 19, 41, 43.
+
+Exercícios do **Stewart Vol. 2, 7ª Edição.**
+
+§ 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+§ 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
+
+# Referências {#sec-ref}
+
+
+::: {#refs}
+:::
+
+# Cronograma {#sec-crono}
+
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 20/12, neste caso, é aconselhado que fiquem disponíveis até esta data.**
+
+## Cronograma Efetivado
+
+
+---
+
+## Cronograma Proposto Incialmente
+
+
+
+# Resultados
+
+

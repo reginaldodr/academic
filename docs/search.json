@@ -151,7 +151,7 @@
     "href": "index.html",
     "title": "Prof. Reginaldo Demarque",
     "section": "",
-    "text": "Professor Associado 3\nUnivseridade Federal Fluminense\nDepartamento de Ciências da Natureza\nCampus de Rio das Ostras\n\n\n\nCampus de Rio das Ostras\n\n\n\n\nTurmas Atuais – 2024-2\n\nCálculo II: 2ª (14h às 16h) e 3ª (16h às 18h)\nGAAL: 2ª (16h às 18h) e 3ª (14h às 16h)\nCalendário UFF\n\n\n\nEscola de Verão PGMAT-UFF – 2025\n\nMinicurso de EDO em Espaços de Banach\n\n\n\nFormação Acadêmica/Titulação\n\n2001 – 2006: Licenciatura em Matemática pela UFV.\n2006 – 2008: Mestrado em Matemática pela UFF.\n2009 – 2012: Doutorado em Matemática pela UFMG.\n2015 – 2016: Pós-doutorado em Matemática pela Universida de Sevilla.\n\n\n\nPesquisa\n\n\n\nCampus de Niterói\n\n\n\nLinhas de Pesquisa\n\nEquações Diferenciais Parciais - EDP\nControlabilidade de Equações Diferenciais Parciais\n\nGrupo de Pesquisa CNPq\nPós-Graduação IME-UFF\nPublicações\n\nOrcid, Research Gate, Lattes, Gooogle Scholar"
+    "text": "Professor Associado 3\nUnivseridade Federal Fluminense\nDepartamento de Ciências da Natureza\nCampus de Rio das Ostras\n\n\n\nCampus de Rio das Ostras\n\n\n\n\nTurmas Atuais – 2025-1\n\nCálculo III-A: 2ª (14h às 16h) e 3ª (16h às 18h)\nGAAL: 2ª (16h às 18h) e 3ª (14h às 16h)\nCalendário UFF\n\n1º Período letivo: 24/03/2025 a 26/07/2025.\n2º Período letivo: 18/08/2025 a 18/12/2025.\n\n\n\n\nEscola de Verão PGMAT-UFF – 2025\n\nMinicurso de EDO em Espaços de Banach\n\n\n\nFormação Acadêmica/Titulação\n\n2001 – 2006: Licenciatura em Matemática pela UFV.\n2006 – 2008: Mestrado em Matemática pela UFF.\n2009 – 2012: Doutorado em Matemática pela UFMG.\n2015 – 2016: Pós-doutorado em Matemática pela Universida de Sevilla.\n\n\n\nPesquisa\n\n\n\nCampus de Niterói\n\n\n\nLinhas de Pesquisa\n\nEquações Diferenciais Parciais - EDP\nControlabilidade de Equações Diferenciais Parciais\n\nGrupo de Pesquisa CNPq\nPós-Graduação IME-UFF\nPublicações\n\nOrcid, Research Gate, Lattes, Gooogle Scholar"
   },
   {
     "objectID": "about.html",
@@ -165,7 +165,7 @@
     "href": "teaching.html",
     "title": "Disciplinas",
     "section": "",
-    "text": "Cálculo II – RCN00020\n\nTurma C1: 4ª e 6ª 16h – 18h\n\nCálculo III – RCN00021\n\nTurma M1: 4ª e 6ª 14h – 16h"
+    "text": "### Turmas Atuais – 2024-2"
   },
   {
     "objectID": "teaching.html#disciplinas-de-semestres-anteriores",
@@ -1293,5 +1293,68 @@
     "title": "GAAL RCN00075 – 2024-2",
     "section": "Resultados Finais",
     "text": "Resultados Finais\n\nResultado Geral\n\n\n\nTabela 1: Resultados\n\n\n\n\n\n\n\n(a) Resultado Parcial\n\n\n\n\n\nAprovados\n2\n5.0 %\n\n\nReprovados\n34\n85.0 %\n\n\nVS\n4\n10.0 %\n\n\nTotal\n40\n100 %\n\n\n\n\n\n\n\n\n\n\n\n(b) Resultado final\n\n\n\n\n\nAprovados\n3\n7.5 %\n\n\nReprovados\n37\n92.5 %\n\n\nTotal\n40\n100 %\n\n\n\n\n\n\n\n\n\n\n\n  \n\n\n\nResultados: concluintes\nGAAL - 2024-2\nTivemos  40 inscritos, entretanto houve uma evasão de  22 ( 55.0 %) estudantes, isto é, não realizaram nenhuma avaliação. Apenas  18 ( 45.0 %) efetivamente concluíram a disciplina.\n\n\n\nTabela 2: Resultado Final: considerando a evasão\n\n\n\n\n\nAprovados\n3\n7.5 %\n\n\nReprovados\n15\n37.5 %\n\n\nEvadidos\n22\n55.0 %\n\n\nTotal\n40\n100 %"
+  },
+  {
+    "objectID": "semigrupos/minicurso-verao-2025/minicurso-2025-verao.html",
+    "href": "semigrupos/minicurso-verao-2025/minicurso-2025-verao.html",
+    "title": "Minicurso EDOs em Espaços de Banach – 2025-Verão",
+    "section": "",
+    "text": "\\[\\begin{equation*}\n\\begin{cases}\nx'(t)={\\color{red}A}x+{\\color{black}f},& t\\in [0,+\\infty)\\\\\nx(0)=x_0\n\\end{cases}\n\\end{equation*}\\] \\[\\begin{equation*}\nx(t)=e^{t\\color{red}A}x_0+\\int_0^t e^{(t-s){\\color{red}A}}f(s)ds\n\\end{equation*}\\]\n\nInformações Básicas\n\nProfessores: Luiz Viana (UFF) e Reginaldo Demarque (UFF)\nPeríodo: 12/02/2025 a 21/02/2025 na Escola de Verão da PGMAT-UFF\nNível: Graduação e Mestrado.\nPúblico alvo: O presente minicurso tem como público alvo alunos dos cursos de graduação e mestrado, a distância ou presencial, em Matemática.\nHorário e sala:\n\n\n11h às 13h dos dias 12, 13, 14, 19, 20 e 21 de fevereito de 2025.\n\nAuditório 407 do Bloco H do PGMAT-UFF.\n\nMaterial a ser utilizado\n\nSlides\n\nNotas de semigrupos\n\nProgramação: Neste minicurso, temos o objetivo de introduzir a Teoria dos Semigrupos Lineares, que consiste no estudo das equações diferenciais ordinárias, com valores em espaços de Banach, associadas a operadores lineares limitados ou ilimitados. Brevemente, vale ressaltar que tal estudo foi iniciado a partir da segunda metade do século XX, destacando-se a obtenção do importante teorema de Hille-Yosida em 1948. Nas décadas de 70 e 80, através de muitas contribuições vindas de diferentes escolas de Matemática, o tema se consolidou nos moldes que o conhecemos hoje, o que pode ser constatado com os trabalhos E. B. Davies, J. A. Goldstein e A. Pazy, entre outros. Nas exposições pretendidas, abordaremos resultados abstratos básicos da teoria e, ao final, apresentaremos algumas aplicações relacionadas às equações diferenciais parciais.\nPré-requistos: Análise Real e Equações Diferenciais Ordinárias.\n\n\n\nCronograma\nO presente minicurso corresponde às seções 1.1 a 1.3 da referência (Pazy, 2012).\n01 .   Qua – 12/02 –  Apresentação do minicurso. Espaços de Banach \\(X\\). Operadores Lineares Limitados. Exponencial de Operadores em \\(\\mathcal{L}(X)\\).\n\n02 .   Qui – 13/02 –  Definição de Semigrupos de classe \\(C^0\\). Exemplos. Teorema de Banach-Steinhauss. Limitação e continuidade de semigrupos. \n\n03 .   Sex – 14/02 –  Gerador Infinitesimal de um Semigrupo. Existência e Unicidade do PVI para geradores infinitesimais. \n\n04 .   Qua – 19/02 –  Espectro de um semigrupo. Resolvente de um operador. Teorema do Gráfico Fechado. O Teorema de Hille-Yosida para contrações: (\\(\\Rightarrow\\)) \n\n05 .   Qui – 20/02 –  Semigrupos das Contrações. Aproximação de Yosida. O Teorema de Hille-Yosida para contrações: (\\(\\Leftarrow\\)). \n\n06 .   Sex – 21/02 –  Aplicações em EDPs. Perspectivas de Pesquisa. \n\n\n\nReferências\n\nBrezis, Haim. Functional analysis, Sobolev spaces and partial differential equations. Springer, New York-London, 2011.\nEngel, Klaus-Jochen, and Rainer Nagel. One-parameter semigroups for linear evolution equations. Graduate Text in Mathematics 194, Springer-Verlag New York, 2000.\nEngel, Klaus-Jochen, and Rainer Nagel. A short course on operator semigroups. Springer Science & Business Media, 2006.\nEvans, Lawrence C. Partial differential equations, volume 19. American Mathematical Society, Providence, Rhode Island, 2010.\nGomes, Alvercio Moreira. Semigrupos de Operadores Lineares e Aplicações às Equações de Evolução, volume 2ª edição. Editora UFRJ, Rio de Janeiro, Rio de Janeiro, 2005.\nKesavan, S. Topics in Functional Analysis and Applications, volume 52. New Age International Ltd, New Delhi, 2015.\nPazy, Amnon. Semigroups of linear operators and applications to partial differential equations. Vol. 44. Springer Science & Business Media, 2012.\n\n\n\n\n\n\n\n\n\n\n\nProf. Reginaldo\n\n\n\n\n\n\n\nProf. Luiz Viana"
+  },
+  {
+    "objectID": "semigrupos/verao-2025/minicurso-2025-verao.html",
+    "href": "semigrupos/verao-2025/minicurso-2025-verao.html",
+    "title": "Minicurso EDOs em Espaços de Banach – 2025-Verão",
+    "section": "",
+    "text": "\\[\\begin{equation*}\n\\begin{cases}\nx'(t)={\\color{red}A}x+{\\color{black}f},& t\\in [0,+\\infty)\\\\\nx(0)=x_0\n\\end{cases}\n\\end{equation*}\\] \\[\\begin{equation*}\nx(t)=e^{t\\color{red}A}x_0+\\int_0^t e^{(t-s){\\color{red}A}}f(s)ds\n\\end{equation*}\\]\n\nInformações Básicas\n\nProfessores: Luiz Viana (UFF – Campus Niterói ) e Reginaldo Demarque (UFF – Campus Rio das Ostras)\nPeríodo: 12/02/2025 a 21/02/2025 na Escola de Verão da PGMAT-UFF\nNível: Graduação e Mestrado.\nPúblico alvo: O presente minicurso tem como público alvo alunos dos cursos de graduação e mestrado, a distância ou presencial, em Matemática.\nHorário e sala:\n\n\n11h às 13h dos dias 12, 13, 14, 19, 20 e 21 de fevereito de 2025.\n\nAuditório 407 do Bloco H do PGMAT-UFF.\n\nMaterial a ser utilizado\n\nSlides\n\nNotas de semigrupos\n\nProgramação: Neste minicurso, temos o objetivo de introduzir a Teoria dos Semigrupos Lineares, que consiste no estudo das equações diferenciais ordinárias, com valores em espaços de Banach, associadas a operadores lineares limitados ou ilimitados. Brevemente, vale ressaltar que tal estudo foi iniciado a partir da segunda metade do século XX, destacando-se a obtenção do importante teorema de Hille-Yosida em 1948. Nas décadas de 70 e 80, através de muitas contribuições vindas de diferentes escolas de Matemática, o tema se consolidou nos moldes que o conhecemos hoje, o que pode ser constatado com os trabalhos E. B. Davies, J. A. Goldstein e A. Pazy, entre outros. Nas exposições pretendidas, abordaremos resultados abstratos básicos da teoria e, ao final, apresentaremos algumas aplicações relacionadas às equações diferenciais parciais.\nPré-requistos: Análise Real e Equações Diferenciais Ordinárias.\n\n\n\nCronograma\nO presente minicurso corresponde às seções 1.1 a 1.3 da referência (Pazy, 2012).\n01 .   Qua – 12/02 –  Apresentação do minicurso. Espaços de Banach \\(X\\). Operadores Lineares Limitados. Exponencial de Operadores em \\(\\mathcal{L}(X)\\).\n\n02 .   Qui – 13/02 –  Definição de Semigrupos de classe \\(C^0\\). Exemplos. Teorema de Banach-Steinhauss. Limitação e continuidade de semigrupos. \n\n03 .   Sex – 14/02 –  Gerador Infinitesimal de um Semigrupo. Existência e Unicidade do PVI para geradores infinitesimais. \n\n04 .   Qua – 19/02 –  Espectro de um semigrupo. Resolvente de um operador. Teorema do Gráfico Fechado. O Teorema de Hille-Yosida para contrações: (\\(\\Rightarrow\\)) \n\n05 .   Qui – 20/02 –  Semigrupos das Contrações. Aproximação de Yosida. O Teorema de Hille-Yosida para contrações: (\\(\\Leftarrow\\)). \n\n06 .   Sex – 21/02 –  Aplicações em EDPs. Perspectivas de Pesquisa. \n\n\n\nReferências\n\nBrezis, Haim. Functional analysis, Sobolev spaces and partial differential equations. Springer, New York-London, 2011.\nEngel, Klaus-Jochen, and Rainer Nagel. One-parameter semigroups for linear evolution equations. Graduate Text in Mathematics 194, Springer-Verlag New York, 2000.\nEngel, Klaus-Jochen, and Rainer Nagel. A short course on operator semigroups. Springer Science & Business Media, 2006.\nEvans, Lawrence C. Partial differential equations, volume 19. American Mathematical Society, Providence, Rhode Island, 2010.\nGomes, Alvercio Moreira. Semigrupos de Operadores Lineares e Aplicações às Equações de Evolução, volume 2ª edição. Editora UFRJ, Rio de Janeiro, Rio de Janeiro, 2005.\nKesavan, S. Topics in Functional Analysis and Applications, volume 52. New Age International Ltd, New Delhi, 2015.\nPazy, Amnon. Semigroups of linear operators and applications to partial differential equations. Vol. 44. Springer Science & Business Media, 2012."
+  },
+  {
+    "objectID": "calculoIII/2025-1/c3-A-2025-1.html",
+    "href": "calculoIII/2025-1/c3-A-2025-1.html",
+    "title": "CÁLCULO III - A RCN00067 – 2025-1",
+    "section": "",
+    "text": "Horários e Salas\n\nHorário e sala: 2ª (14h às 16h) e 3ª (16h às 18h) – sala 04 – IHS (prédio alugado)\nconfira no Quadro de Alocação de salas do IHS acesso por celular\nAtendimento: sala 104 – IHS (prédio alugado)\n\nMaterial a ser utilizado\nEmenta: Busque por RCN00067 em quadro de horários\n\nEQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE."
+  },
+  {
+    "objectID": "calculoIII/2025-1/c3-A-2025-1.html#segunda-chamada",
+    "href": "calculoIII/2025-1/c3-A-2025-1.html#segunda-chamada",
+    "title": "CÁLCULO III - A RCN00067 – 2025-1",
+    "section": "3.2 Segunda Chamada",
+    "text": "3.2 Segunda Chamada\nO Art. 98 do Regulamento dos Cursos de graduação garante ao aluno o direito a uma avaliação de Segunda Chamada (VR), sem a necessidade de justificativa! Portanto, aquele aluno que não puder ou não quiser fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.\nA Segunda Chamada de todas as avaliações será feita no mesmo dia e constará de todo o conteúdo da disciplina.\nContudo, cabe ressaltar que, de acordo com o mesmo artigo, a Segunda Chamada substituirá uma, e somente uma, das avaliações que tenha faltado. Portanto, se o aluno faltar a mais de uma avaliação, será subistituída a menor nota.\n\n\n\n\n\n\nImportante\n\n\n\nComo não há a necessidade de justificar a falta nas avaliações para ter o direito à Segunda Chamada garantido."
+  },
+  {
+    "objectID": "calculoIII/2025-1/c3-A-2025-1.html#verificação-suplementar",
+    "href": "calculoIII/2025-1/c3-A-2025-1.html#verificação-suplementar",
+    "title": "CÁLCULO III - A RCN00067 – 2025-1",
+    "section": "3.3 Verificação Suplementar",
+    "text": "3.3 Verificação Suplementar\nEm concordância com o Regulamento dos Cursos de graduação em seu Art. 99, a Verificação Suplementar (VS) é vetada aos discentes já aprovados e é obrigatória para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos."
+  },
+  {
+    "objectID": "calculoIII/2025-1/c3-A-2025-1.html#cronograma-efetivado",
+    "href": "calculoIII/2025-1/c3-A-2025-1.html#cronograma-efetivado",
+    "title": "CÁLCULO III - A RCN00067 – 2025-1",
+    "section": "6.1 Cronograma Efetivado",
+    "text": "6.1 Cronograma Efetivado"
+  },
+  {
+    "objectID": "calculoIII/2025-1/c3-A-2025-1.html#cronograma-proposto-incialmente",
+    "href": "calculoIII/2025-1/c3-A-2025-1.html#cronograma-proposto-incialmente",
+    "title": "CÁLCULO III - A RCN00067 – 2025-1",
+    "section": "6.2 Cronograma Proposto Incialmente",
+    "text": "6.2 Cronograma Proposto Incialmente"
+  },
+  {
+    "objectID": "calculoIII/2025-1/c3-A-2025-1.html#instruções-para-as-provas",
+    "href": "calculoIII/2025-1/c3-A-2025-1.html#instruções-para-as-provas",
+    "title": "CÁLCULO III - A RCN00067 – 2025-1",
+    "section": "3.1 Instruções para as provas",
+    "text": "3.1 Instruções para as provas\n\nFazem parte dos critério de avaliação:\n\n\nClareza, organização, rigor e detalhes.\nFundamentação das soluções no conteúdo ensinado.\nInterpretação correta das questões.\nQuestão com várias soluções será anulada.\nResposta correta com solução errada será anulada."
+  },
+  {
+    "objectID": "calculoIII/2025-1/c3-A-2025-1.html#sobre-as-provas",
+    "href": "calculoIII/2025-1/c3-A-2025-1.html#sobre-as-provas",
+    "title": "CÁLCULO III - A RCN00067 – 2025-1",
+    "section": "3.1 Sobre as provas",
+    "text": "3.1 Sobre as provas\n\nFazem parte dos critério de avaliação:\n\nClareza, organização, rigor e detalhes.\nFundamentação das soluções no conteúdo ensinado.\nInterpretação correta das questões.\nQuestão com várias soluções será anulada.\nResposta correta com solução errada será anulada.\n\nInstruções:\n\nProibido compartilhar material.\nÉ permitido consulta a material e uso de dispositivo computacional, ambos sem acesso a internet.\nFraude detectada, mesmo depois, zera a nota."
   }
 ]
