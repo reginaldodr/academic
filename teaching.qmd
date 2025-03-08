@@ -22,13 +22,14 @@ format:
 
 -   [Cálculo I](calculoI/calculoI.qmd)
 -   [Cálculo II](calculoII/calculoII.qmd) 
-    - Turmas: [2022-2](calculoII/c2-2022-2.qmd), [2023-1](calculoII/c2-2023-1.qmd), [2023-2](calculoII/c2-2023-2.qmd), [2024-1](calculoII/c2-2024-1.qmd)
+    - Turmas: [2022-2](calculoII/c2-2022-2.qmd), [2023-1](calculoII/c2-2023-1.qmd), [2023-2](calculoII/c2-2023-2.qmd), [2024-1](calculoII/c2-2024-1.qmd), [2024-2](calculoII/c2-2024-2.qmd)
 -   [Cálculo III](calculoIII/calculoIII.qmd)
-    - Turmas: [2023-1](calculoIII/c3-2023-1.qmd), [2023-2](calculoIII/c3-2023-2.qmd)
+    - Turmas: [2023-1](calculoIII/c3-2023-1.qmd), [2023-2](calculoIII/c3-2023-2.qmd), [2025-1](calculoIII/2025-1/c3-A-2025-1.qmd)
 -   Cálculo IV:
     - Turmas: [2022-2](https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/)
 -   [GAAL](gaal/gaal.qmd)
-    - Turmas: [2024-1](gaal/gaal-2024-1.qmd), [2024-2](gaal/gaal-2024-2/gaal-2024-2)
+    - Turmas: [2024-1](gaal/gaal-2024-1.qmd), [2024-2](gaal/gaal-2024-2/gaal-2024-2.qmd),
+    [2025-1](gaal/gaal-2025-1/gaal-2025-1.qmd)
 -   [Geometria Analítica e Cálculo Vetorial](GA/ga.qmd)
     - Turmas: [2022-1](GA/ga-2022-1.qmd)
 -   Equações Diferenciais

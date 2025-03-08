@@ -24,11 +24,9 @@ confira no [Quadro de Alocação de salas do ICT](http://200.159.243.161/index.p
 
 - [Slides](https://reginaldodr.github.io/gaal-2023/gaal.pdf)
 
-- [Anotações das aulas](https://mega.nz/folder/2d0XHZCa#o6ilB2xCQH-PDmzXMF1MZw)
+- [Anotações das aulas]
 
 - [Livro GAAL -- Reginaldo Santos -- UFMG](../gaalt0.pdf)
-
-- [Lista dos Para Casa](../paracasa.pdf) 
 
 - [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)
 
@@ -42,7 +40,7 @@ confira no [Quadro de Alocação de salas do ICT](http://200.159.243.161/index.p
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 MATRIZES E SISTEMAS LINEARES. DETERMINANTES. VETORES NO PLANO E NO ESPAÇO. RETAS E PLANOS. ESPAÇO $\mathbb{R}^n$. AUTOVALORES E AUTOVETORES DE UMA MATRIZ. DIAGONALIZAÇÃO DE MATRIZES. RECONHECIMENTO DE CÔNICAS.
 
-- **Monitoria:** Não houveram monitores selecionados neste ano.
+- **Monitoria:** 
 
 # Apresentação do Curso
 
@@ -59,33 +57,29 @@ As demais referência contidas na @sec-ref serão usadas como material auxiliar 
 
 # Avaliação
 
-A avaliação será feita mediante:
-
-1. Exercícios propostos em aula, chamados de **Para Casa** :house:.
-2. **Atividades Formativas** propostas no moodle.
-3. **Duas Provas Escritas**. 
-
-A nota final será a média ponderada entre os **Para Casa**, as **Atividades Formativas** e as **Provas Escitas**, distribuídas da seguinte forma:
-$$N=0.1\times PC+0.2\times AF+0.7\times P,$$
-onde $PC$ é a média dos Para Casa, $AF$ é a média das Atividades Formativas e $P$ a média das Provas Escritas. Veja no cronograma, @sec-crono abaixo, as datas destas avaliações. 
-
-## Sobre os Para Casa
-
-- Deverá ser feito em grupos de 4 a 5 integrantes.
-- Deverá ser manuscrito.
-- Deverá ser entregue em folhas de **papel A4 ou almaço e grampeadas**.
+A avaliação será feita mediante **Duas Provas Escritas**. A nota final será a média aritmética elas.
 
 
 ## Sobre as Provas
 
-- Serão **escritas e com consulta** a qualquer material impresso ou manuscrito (livros, notas de aula, caderno, apostilas e etc.).
-- <span style="color:red"> Não será permitido o uso de dispositivos eletrônicos com acesso à internet (tablets, celulares e etc).</span> 
-- Será permitido o uso de calculadora científica.
+- **Fazem parte dos critério de avaliação:**
+   1. Clareza, organização, rigor e detalhes.
+   2. Fundamentação das soluções no conteúdo ensinado.
+   3. Interpretação correta das questões.
+   4. Questão com várias soluções será anulada.
+   5. Resposta correta com solução errada será anulada.
 
+- **Instruções:**
+    - Proibido compartilhar material.
+    - Só é permitida a saída após entrega definitiva da prova, ou seja, não é permitido ir ao banheiro ou beber água. A prova tem duração de no máximo 2 horas.
+    - É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e uso de dispositivo computacional, como calculadora científica, ambos **sem acesso a internet**.
+    - Fraude detectada, mesmo depois, zera a nota.
 
 ## Segunda Chamada
 
-O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">sem a necessidade de justificativa!</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!**</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
+
+O conteúdo da **Segunda Chamada** será <span style="color:red">toda a matéria do semestre.</span>
 
 
 ::: {.callout-warning}
