@@ -23,6 +23,9 @@ website:
       - icon: github
         href: https://github.com/reginaldodr
         aria-label: GitHub
+      - icon: mastodon
+        aria-label: mastodon
+        href: https://ursal.zone/@reginaldodr
         
 
 format:
