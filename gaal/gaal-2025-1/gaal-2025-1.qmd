@@ -75,7 +75,7 @@ Com base nos objetivos apresentados acima, os critério de correção serão:
 
    1. Interpretação correta das questões.
    2. As soluções devem ser escrita com clareza, organização, rigor e detalhamento.
-   3. As soluções devem ser fundamentadas no conteúdo ensinado em aula. Soluções fora do conteúdo ensinado, mesmo que corretas, não serão consideradas, tendo em vista que o objetivo das avaliações é verificar se o conteúdo ensinado foi aprendido. 
+   3. Soluções desenvolvidas fora do conteúdo ensinado, mesmo que corretas, não serão consideradas.
    4. Questão com várias soluções será anulada.
    5. Resposta correta com solução errada será anulada.
 
