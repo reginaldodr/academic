@@ -57,25 +57,36 @@ As demais referência contidas na @sec-ref serão usadas como material auxiliar 
 
 # Avaliação
 
-A avaliação será feita mediante **Duas Provas Escritas**. A nota final será a média aritmética elas.
+A avaliação será feita mediante **Duas Provas Escritas**. A nota final será a média aritmética entre elas.
 
 
-## Sobre as Provas
+## Objetivos {-}
+As provas tem como objetivos avaliar se o aluno:
 
-- **Fazem parte dos critério de avaliação:**
-   1. Clareza, organização, rigor e detalhes.
-   2. Fundamentação das soluções no conteúdo ensinado.
-   3. Interpretação correta das questões.
+- É capaz de interpretar as questões corretamente e formular soluções para os problemas propostos.
+- É capaz de produzir soluções, em formato de texto, compreensíveis,  com nível de detalhamento e rigor adequados para que outros profissionais familiarizados com os conceitos possam entendê-las.
+- Aprendeu os conceitos e técnicas ensinados em sala de aula. 
+- Sabe determinar quando a solução proposta resolve de fato o problema. 
+- Consegue desenvolver uma argumentação lógica-dedutiva para chegar-se à resposta final.
+
+
+## Critério de correção das provas {-}
+Com base nos objetivos apresentados acima, os critério de correção serão: 
+
+   1. Interpretação correta das questões.
+   2. As soluções devem ser escrita com clareza, organização, rigor e detalhamento.
+   3. As soluções devem ser fundamentadas no conteúdo ensinado em aula. Soluções fora do conteúdo ensinado, mesmo que corretas, não serão consideradas, tendo em vista que o objetivo das avaliações é verificar se o conteúdo ensinado foi aprendido. 
    4. Questão com várias soluções será anulada.
    5. Resposta correta com solução errada será anulada.
 
-- **Instruções:**
-    - Proibido compartilhar material.
-    - Só é permitida a saída após entrega definitiva da prova, ou seja, não é permitido ir ao banheiro ou beber água. A prova tem duração de no máximo 2 horas.
-    - É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e uso de dispositivo computacional, como calculadora científica, ambos **sem acesso a internet**.
-    - Fraude detectada, mesmo depois, zera a nota.
+Além disso, durante às provas, serão adotadas as seguinte medidas: 
 
-## Segunda Chamada
+- Proibido compartilhar material.
+- Só é permitida a saída após entrega definitiva da prova, ou seja, não é permitido ir ao banheiro ou beber água. A prova tem duração de no máximo 2 horas.
+- É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e uso de dispositivo computacional, como calculadora científica, ambos **sem acesso a internet**.
+- Fraude detectada, mesmo depois, zera a nota.
+
+## Segunda Chamada {-}
 
 O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!**</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
 
@@ -90,7 +101,7 @@ Como **não há a necessidade de justificar a falta nas avaliações** para ter 
 Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a prova não terão o direito à Segunda Chamada.
 :::
 
-## Verificação Suplementar
+## Verificação Suplementar {-}
 
 Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
 
