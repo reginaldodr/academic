@@ -48,7 +48,7 @@ $$
 
 ::: {.column width="40%"}
 
-- [Slides](https://reginaldodr.github.io/gaal-2023/gaal.pdf)
+- [Slides](https://reginaldodr.github.io/slides/gaal/gaal.pdf)
 
 - [Livro GAAL -- Reginaldo Santos -- UFMG](gaalt0.pdf)
 

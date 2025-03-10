@@ -12,7 +12,7 @@ format:
 ## Material Básico
 
 
-[slides](calculo3.pdf)
+[slides](https://reginaldodr.github.io/slides/calculo3/calculo3.pdf)
 
 [Provas Antigas](provas/)
 
