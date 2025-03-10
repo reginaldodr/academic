@@ -12,6 +12,23 @@ format:
 from: markdown+emoji
 ---
 
+::: {layout-ncol=2}
+$$
+\begin{align*}
+{\color{blue}a}x^2+{\color{blue}b}y^2+{\color{blue}c}xy&= \begin{bmatrix} x & y  \end{bmatrix} {\color{blue} \begin{bmatrix} a & c/2\\ c/2 & b\end{bmatrix} }
+\begin{bmatrix} x \\ y \end{bmatrix}\\
+&=X^t {\color{blue}A} X, \quad \bar{X}=Q^tX \\
+& =\bar{X}^t{\color{red}D}\bar{X}\\
+&= \begin{bmatrix} x & y  \end{bmatrix} 
+{\color{red} \begin{bmatrix} \lambda_1  & 0\\ 0 & \lambda_2\end{bmatrix} }\\
+& = {\color{red}\lambda_1}\bar{x}^2+{\color{red}\lambda_2}\bar{y}^2.
+\end{align*}
+$$
+
+![](../rot-elipse.png)
+:::
+
+
 # Informações Básicas
 
 - **Início e Fim do Período:** 24/03/2025 a 26/07/2025.
