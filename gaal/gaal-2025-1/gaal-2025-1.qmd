@@ -43,7 +43,7 @@ confira no [Quadro de Alocação de salas do ICT](http://200.159.243.161/index.p
 
 ::: {.column width="50%"}
 
-- [Slides](https://reginaldodr.github.io/gaal-2023/gaal.pdf)\
+- [Slides](https://reginaldodr.github.io/slides/gaal/gaal.pdf)\
 - [Anotações das aulas]\
 - [Livro GAAL -- UFMG](../gaalt0.pdf)\
 :::

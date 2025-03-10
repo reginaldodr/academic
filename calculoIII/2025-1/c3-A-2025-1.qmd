@@ -27,7 +27,7 @@ confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/ind
     
 - **Material a ser utilizado**
 
-  - [slides](https://reginaldodr.github.io/calculo3-slides/calculo3.pdf)
+  - [slides](https://reginaldodr.github.io/slides/calculo3/calculo3.pdf)
 
   - [Provas Antigas](../provas/)
 
