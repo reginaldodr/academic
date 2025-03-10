@@ -17,17 +17,21 @@ from: markdown+emoji
 
 # Informações Básicas
 
--   Horários e Salas
+- **Início e Fim do Período:** 24/03/2025 a 26/07/2025.
 
-    -   **Horário e sala:** 2ª (14h às 16h) e 3ª (16h às 18h)  --  **GP - 17 -- IHS **\
+-  **Horário e sala:** \
+ 2ª (14h às 16h) e 3ª (16h às 18h)  --  **GP - 17 -- IHS **\
 confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples)  [acesso por celular](http://159.112.185.66/home_externo/index)
 
-    -   **Atendimento**: sala 104 -- IHS (prédio alugado)
+-  **Atendimento**: sala 104 -- IHS (prédio alugado)
     
-- [Material a ser utilizado](../calculoIII.qmd)
+- **Material a ser utilizado**
 
--   Ementa: Busque por RCN00067 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/)
+  - [slides](../calculo3.pdf)
 
+  - [Provas Antigas](../provas/)
+
+-  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE.
 
 
@@ -45,12 +49,7 @@ As demais referência contidas na @sec-ref formam uma lista complementar/auxilia
 
 # Avaliação
 
-A avaliação será feita mediante **2 Provas Escritas**. A nota final (NF) será a média ponderada entre elas, dada da seguinte forma:
-$$
-NF=0.4\cdot P_1+ 0.6\cdot P_2,
-$$
-onde $P_i$ é a nota da i-ésima prova.
-
+A avaliação será feita mediante **2 Provas Escritas**. A nota final (NF) será a média aritmética  entre elas.
 
 ## Objetivos {-}
 As provas tem como objetivos avaliar se o aluno:
@@ -130,17 +129,123 @@ Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
 # Cronograma {#sec-crono}
 
-A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 20/12, neste caso, é aconselhado que fiquem disponíveis até esta data.**
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 26/07 </span>,      neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
-## Cronograma Efetivado
+# Cronograma Efetivado {#sec-crono}
 
+**1. Funções vetoriais e Superfícies**
 
+01 . &nbsp; Seg  --  24/03  --  <span style="color:LightGray"> Apresentação do curso. revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3.$ </span> \
+02 . &nbsp; Ter  --  25/03  --  <span style="color:LightGray"> Superfícies no espaço. Superfícies  Cilíndricas. </span> \
+03 . &nbsp; Seg  --  31/03  --  <span style="color:LightGray"> Superfícies Quádricas. </span> \
+04 . &nbsp; Ter  --  01/04  --  <span style="color:LightGray"> Aula de Exercícios 1. </span> \
+05 . &nbsp; Seg  --  07/04  --  <span style="color:LightGray"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. </span> \
+06 . &nbsp; Ter  --  08/04  --  <span style="color:LightGray"> Coordenadas polares. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
+07 . &nbsp; Seg  --  14/04  --  <span style="color:LightGray"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. </span> \
+08 . &nbsp; Ter  --  15/04  --  <span style="color:LightGray"> Derivadas e regras de derivação de funções vetoriais. Comprimento de arco. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  18/04  --  Sexta-feira da Paixão </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  23/04  --  São Jorge </span> \
+09 . &nbsp; Seg  --  28/04  --  <span style="color:LightGray"> Aula de Exercícios 2  </span> \
+10 . &nbsp; Ter  --  29/04  --  <span style="color:LightGray"> Parametrização pelo comprimento de arco. Vetor Tangente e Curvatura. Vetores Normal e Binormal. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
+11 . &nbsp; Seg  --  05/05  --  <span style="color:LightGray"> Movimento, velocidade e aceleração.  Componentes Normal e Tangencial da Aceleração. Fórmula da curvatura. </span> \
+12 . &nbsp; Ter  --  06/05  --  <span style="color:LightGray"> Aula de Exercícios 3 </span> \
+<span style="color:red"> 13 . &nbsp; Seg  --  12/05  --  1ª Prova </span> \
 ---
+
+**2. Funções de Várias Variáveis**
+
+14 . &nbsp; Ter  --  13/05  --  <span style="color:LightGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
+15 . &nbsp; Seg  --  19/05  --  <span style="color:LightGray"> Limites e continuidade. </span> \
+16 . &nbsp; Ter  --  20/05  --  <span style="color:LightGray"> Derivadas Parciais. Derivadas de ordem superior.  EPDs: Funções Harmônicas e Equação da Onda. </span> \
+17 . &nbsp; Seg  --  26/05  --  <span style="color:LightGray"> Plano tangente. Aproximação linear.  </span> \
+18 . &nbsp; Ter  --  27/05  --  <span style="color:LightGray"> Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$. </span> \
+19 . &nbsp; Seg  --  02/06  --  <span style="color:LightGray"> Diferenciabilidade e diferenciais em $\mathbb{R}^3$. Regra da cadeia. </span> \
+20 . &nbsp; Ter  --  03/06  --  <span style="color:LightGray"> Aula de Exercícios 4 </span> \
+21 . &nbsp; Seg  --  09/06  --  <span style="color:LightGray"> Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+22 . &nbsp; Ter  --  10/06  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
+23 . &nbsp; Seg  --  16/06  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+24 . &nbsp; Ter  --  17/06  --  <span style="color:LightGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  19/06  --  Corpus Christ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  20/06  --  Ponto Facultativo </span> \
+25 . &nbsp; Seg  --  23/06  --  <span style="color:LightGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
+26 . &nbsp; Ter  --  24/06  --  <span style="color:LightGray"> Multiplicadores de Lagrange com duas restrições </span> \
+27 . &nbsp; Seg  --  30/06  --  <span style="color:LightGray"> Aula de Exercícios 5 </span> \
+<span style="color:red"> 28 . &nbsp; Ter  --  01/07  --  2ª Prova </span> \
+---
+
+**Provas Finais**
+
+<span style="color:red"> 29 . &nbsp; Seg  --  07/07  --  2ª Chamada </span> \
+30 . &nbsp; Ter  --  08/07  --  <span style="color:LightGray"> Atendimento no gabinete </span> \
+<span style="color:red"> 31 . &nbsp; Seg  --  14/07  --  VS </span> \
+32 . &nbsp; Ter  --  15/07  --  <span style="color:LightGray">  --  </span> \
+33 . &nbsp; Seg  --  21/07  --  <span style="color:LightGray">  --  </span> \
+34 . &nbsp; Ter  --  22/07  --  <span style="color:LightGray">  --  </span> \
+:end: &nbsp; Sáb  --  26/07  --  Fim do Período. :raised_hands:
+---
+
+
 
 ## Cronograma Proposto Incialmente
 
+Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
 
 
-# Resultados
+**1. Funções vetoriais e Superfícies**
 
+01 . &nbsp; Seg  --  24/03  --  <span style="color:standard"> Apresentação do curso. revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3.$ </span> \
+02 . &nbsp; Ter  --  25/03  --  <span style="color:standard"> Superfícies no espaço. Superfícies  Cilíndricas. </span> \
+03 . &nbsp; Seg  --  31/03  --  <span style="color:standard"> Superfícies Quádricas. </span> \
+04 . &nbsp; Ter  --  01/04  --  <span style="color:standard"> Aula de Exercícios 1. </span> \
+05 . &nbsp; Seg  --  07/04  --  <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. </span> \
+06 . &nbsp; Ter  --  08/04  --  <span style="color:standard"> Coordenadas polares. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
+07 . &nbsp; Seg  --  14/04  --  <span style="color:standard"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. </span> \
+08 . &nbsp; Ter  --  15/04  --  <span style="color:standard"> Derivadas e regras de derivação de funções vetoriais. Comprimento de arco. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  18/04  --  Sexta-feira da Paixão </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  23/04  --  São Jorge </span> \
+09 . &nbsp; Seg  --  28/04  --  <span style="color:standard"> Aula de Exercícios 2  </span> \
+10 . &nbsp; Ter  --  29/04  --  <span style="color:standard"> Parametrização pelo comprimento de arco. Vetor Tangente e Curvatura. Vetores Normal e Binormal. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
+11 . &nbsp; Seg  --  05/05  --  <span style="color:standard"> Movimento, velocidade e aceleração.  Componentes Normal e Tangencial da Aceleração. Fórmula da curvatura. </span> \
+12 . &nbsp; Ter  --  06/05  --  <span style="color:standard"> Aula de Exercícios 3 </span> \
+<span style="color:red"> 13 . &nbsp; Seg  --  12/05  --  1ª Prova </span> \
+---
 
+**2. Funções de Várias Variáveis**
+
+14 . &nbsp; Ter  --  13/05  --  <span style="color:standard"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
+15 . &nbsp; Seg  --  19/05  --  <span style="color:standard"> Limites e continuidade. </span> \
+16 . &nbsp; Ter  --  20/05  --  <span style="color:standard"> Derivadas Parciais. Derivadas de ordem superior.  EPDs: Funções Harmônicas e Equação da Onda. </span> \
+17 . &nbsp; Seg  --  26/05  --  <span style="color:standard"> Plano tangente. Aproximação linear.  </span> \
+18 . &nbsp; Ter  --  27/05  --  <span style="color:standard"> Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$. </span> \
+19 . &nbsp; Seg  --  02/06  --  <span style="color:standard"> Diferenciabilidade e diferenciais em $\mathbb{R}^3$. Regra da cadeia. </span> \
+20 . &nbsp; Ter  --  03/06  --  <span style="color:standard"> Aula de Exercícios 4 </span> \
+21 . &nbsp; Seg  --  09/06  --  <span style="color:standard"> Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+22 . &nbsp; Ter  --  10/06  --  <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
+23 . &nbsp; Seg  --  16/06  --  <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+24 . &nbsp; Ter  --  17/06  --  <span style="color:standard"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  19/06  --  Corpus Christ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  20/06  --  Ponto Facultativo </span> \
+25 . &nbsp; Seg  --  23/06  --  <span style="color:standard"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
+26 . &nbsp; Ter  --  24/06  --  <span style="color:standard"> Multiplicadores de Lagrange com duas restrições </span> \
+27 . &nbsp; Seg  --  30/06  --  <span style="color:standard"> Aula de Exercícios 5 </span> \
+<span style="color:red"> 28 . &nbsp; Ter  --  01/07  --  2ª Prova </span> \
+---
+
+**Provas Finais**
+
+<span style="color:red"> 29 . &nbsp; Seg  --  07/07  --  2ª Chamada </span> \
+30 . &nbsp; Ter  --  08/07  --  <span style="color:standard"> Atendimento no gabinete </span> \
+<span style="color:red"> 31 . &nbsp; Seg  --  14/07  --  VS </span> \
+32 . &nbsp; Ter  --  15/07  --  <span style="color:standard">  --  </span> \
+33 . &nbsp; Seg  --  21/07  --  <span style="color:standard">  --  </span> \
+34 . &nbsp; Ter  --  22/07  --  <span style="color:standard">  --  </span> \
+:end: &nbsp; Sáb  --  26/07  --  Fim do Período. :raised_hands:
+---
