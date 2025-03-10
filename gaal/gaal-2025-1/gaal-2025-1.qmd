@@ -39,19 +39,23 @@ confira no [Quadro de Alocação de salas do ICT](http://200.159.243.161/index.p
 
 - **Material a ser utilizado**
 
-- [Slides](https://reginaldodr.github.io/gaal-2023/gaal.pdf)
+:::: {.columns}
 
-- [Anotações das aulas]
+::: {.column width="50%"}
 
-- [Livro GAAL -- Reginaldo Santos -- UFMG](../gaalt0.pdf)
+- [Slides](https://reginaldodr.github.io/gaal-2023/gaal.pdf)\
+- [Anotações das aulas]\
+- [Livro GAAL -- Reginaldo Santos -- UFMG](../gaalt0.pdf)\
+:::
 
-- [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)
+::: {.column width="40%"}
+- [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)\
+- [Lista de Exercícios de GA](../lista-exercicios-GA.pdf)\
+- [Provas antigas](../provas/)\
 
-- [Lista de Exercícios de GA](../lista-exercicios-GA.pdf)
+:::
 
-- [Provas antigas](../provas/)
-
- 
+:::
 
 
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
