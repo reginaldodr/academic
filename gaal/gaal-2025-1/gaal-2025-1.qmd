@@ -45,7 +45,7 @@ confira no [Quadro de Alocação de salas do ICT](http://200.159.243.161/index.p
 
 - [Slides](https://reginaldodr.github.io/gaal-2023/gaal.pdf)\
 - [Anotações das aulas]\
-- [Livro GAAL -- Reginaldo Santos -- UFMG](../gaalt0.pdf)\
+- [Livro GAAL -- UFMG](../gaalt0.pdf)\
 :::
 
 ::: {.column width="40%"}
@@ -235,7 +235,7 @@ A seguir temos a proposta de cronograma para esta disciplina. Esta proposta pode
 
 
 
-# Crongrama Porposto Inicialmente
+# Cronograma Proposto Inicialmente
 
 Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
 
