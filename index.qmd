@@ -31,25 +31,40 @@ Campus de Rio das Ostras
 
 ### Turmas Atuais -- 2025-1
 
-- [Cálculo III-A](calculoIII/2025-1/c3-A-2025-1.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
+- [Cálculo III-A](calculoIII/2025-1/c3-A-2025-1.qmd)
+    - 2ª (14h às 16h) e 3ª (16h às 18h) --  **GP - 17 -- IHS **
 
-- [GAAL](gaal/gaal-2025-1/gaal-2025-1.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
+- [GAAL](gaal/gaal-2025-1/gaal-2025-1.qmd)
+    - 2ª (16h às 18h) e 3ª (14h às 16h) -- **Sala 02** -- **ICT**\
 
 - [Calendário UFF](https://www.uff.br/wp-content/uploads/2025/01/01-25_Resolucao-CEPEx-4184A_Calendarios-2025-2.pdf)
     - 1º Período letivo: 24/03/2025 a 26/07/2025.
     - 2º Período letivo: 18/08/2025 a 18/12/2025.
-
+    
 ### Escola de Verão PGMAT-UFF -- 2025
 
 - [Minicurso de EDO em Espaços de Banach](semigrupos/verao-2025/minicurso-2025-verao.qmd)
+
+### Links úteis 
+
+- [iduff](https://app.uff.br/iduff/)
+
+- [Quadro de Horários](https://app.uff.br/graduacao/quadrodehorarios)
+
+- [Quadro de Alocação de salas do ICT](http://200.159.243.161/index.php/) 
+
+- [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples)
+    - [acesso por celular](http://159.112.185.66/home_externo/index)
+
+
 
 ### Formação Acadêmica/Titulação
 
 -   2001 -- 2006: Licenciatura em Matemática pela UFV.
 
--   2006 -- 2008: Mestrado em Matemática pela UFF.
+-   2006 -- 2008: [Mestrado em Matemática pela UFF](http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=159241)
 
--   2009 -- 2012: Doutorado em Matemática pela UFMG.
+-   2009 -- 2012: [Doutorado em Matemática pela UFMG](https://repositorio.ufmg.br/handle/1843/EABA-8LUS26).
 
 -   2015 -- 2016: Pós-doutorado em Matemática pela Universida de Sevilla.
 
