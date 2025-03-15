@@ -1,0 +1,6 @@
+---
+title: "Licença"
+---
+
+Todo o material deste site (exceto quando houver indicação em contrário) está disponível sob a licença [Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR).
+

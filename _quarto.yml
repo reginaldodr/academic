@@ -5,9 +5,21 @@ project:
 
 website:
   title: "Prof. Reginaldo Demarque"
+  site-url: https://demarque.mat.br
+  description: "Professor Associado 3, RCN, UFF"
   twitter-card: true
+  page-footer: 
+    left: 
+      - text: "LICENÇA CC-BY-NC-SA"
+        href: licenca.qmd
+    right:
+      - text: Desenvolvido com Quarto
+        href: https://quarto.org/
   navbar:
     background: primary
+    foreground: light
+    pinned: true
+    collapse: true
     right:
       - href: index.qmd
         text: Home
@@ -32,13 +44,13 @@ website:
 format:
   html:
     theme:
-      light: cosmo
-      dark: darkly
+      light: journal 
+      dark: slate
     css: styles.css
     toc: false
     lang: pt
     date-format: DD/MM/YYYY
-    link-external-icon: true
+    link-external-icon: false
     link-external-newwindow: true
 
 
