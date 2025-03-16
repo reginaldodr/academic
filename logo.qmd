@@ -6,6 +6,6 @@ format:
   toc: false
 ---
 
-$\partial mar\chi$ é uma marca que faz uma brincadeira com a fonética do meu sobrenome e com os símbolos matemáticos (Demarque), onde a sílaba inicial  "De" é trocada pelo símbolo $\partial$ e a sílaba final "que" é trocado pela letra grega $\chi$ que tem o mesmo som. 
+$\partial mar\chi$ é uma marca que faz uma brincadeira com a fonética do meu sobrenome (**Demarque**) e com  símbolos matemáticos. A sílaba inicial  "**De**" é trocada pelo símbolo $\partial$ e a sílaba final "**que**" é trocado pela letra grega **$\chi$** que tem o mesmo som. A partir disso, surge o logo  ![](images/dchi-2.png){width=5%}.
 
-A partir disso, surge o logo  ![](images/dchi-2.png){width=5%}.
+A ideia é inspirada no nome do sistema de preparação de documentos de alta qualidade [$\LaTeX$](https://latex-project.org/), uma abreviação de [Lamport' s](https://pt.wikipedia.org/wiki/Leslie_Lamport) TeX.

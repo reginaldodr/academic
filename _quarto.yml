@@ -9,6 +9,7 @@ website:
   site-url: https://demarque.mat.br
   description: "Professor Associado 3, RCN, UFF"
   twitter-card: true
+  draft-mode: gone
   page-footer: 
     left: 
       - text: "LICENÇA CC-BY-NC-SA"
@@ -17,21 +18,20 @@ website:
       - text: Desenvolvido com Quarto
         href: https://quarto.org/
   navbar:
-    logo: images/logo-nome.png
-    logo-href: logo.qmd
+    logo: images/demarchi.png
+    logo-href: index.qmd
     background: primary
     foreground: light
     pinned: true
     collapse: true
     left:
-      - href: index.qmd
-        text: Home
       - href: teaching.qmd
         text: Ensino
       - href: pesquisa.qmd
         text: Research
       - href: blog.qmd
         text: Blog
+    right:
       - icon: youtube
         href: https://www.youtube.com/c/ProfReginaldoDemarque
         aria-label: YouTube
@@ -41,6 +41,10 @@ website:
       - icon: mastodon
         aria-label: mastodon
         href: https://ursal.zone/@reginaldodr
+      - text: "<img src='images/dchi-2.png' style='width: 20px; height: auto;' alt='Logo'>"
+        href: logo.qmd
+
+
    
         
 
