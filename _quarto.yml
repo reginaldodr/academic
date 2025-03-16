@@ -4,8 +4,8 @@ project:
   
 
 website:
-  title: "Prof. Reginaldo Demarque"
-  favicon: dchi-2.png
+  title: ""
+  favicon: images/dchi-2.png
   site-url: https://demarque.mat.br
   description: "Professor Associado 3, RCN, UFF"
   twitter-card: true
@@ -17,12 +17,13 @@ website:
       - text: Desenvolvido com Quarto
         href: https://quarto.org/
   navbar:
-    logo: dchi-2.png
+    logo: images/logo-nome.png
+    logo-href: logo.qmd
     background: primary
     foreground: light
     pinned: true
     collapse: true
-    right:
+    left:
       - href: index.qmd
         text: Home
       - href: teaching.qmd
@@ -46,7 +47,7 @@ website:
 format:
   html:
     theme:
-      light: journal 
+      light: journal
       dark: slate
     css: styles.css
     toc: false
@@ -54,6 +55,7 @@ format:
     date-format: DD/MM/YYYY
     link-external-icon: false
     link-external-newwindow: true
+
 
 
 editor: source

@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Reginaldo Demarque">
-<meta name="description" content="Sturm-Liouville">
 
-<title>1-D Degenerate PDEs using Sturm-Liouville problems</title>
+<title>A marca</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/dchi-2.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/dchi-2.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
-<meta name="quarto:status" content="draft">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -102,21 +99,21 @@ window.Quarto = {
 };
 </script>
 
-<link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="1-D Degenerate PDEs using Sturm-Liouville problems">
-<meta name="twitter:description" content="Sturm-Liouville">
+<link rel="stylesheet" href="styles.css">
+<meta name="twitter:title" content="A marca">
+<meta name="twitter:description" content="Professor Associado 3, RCN, UFF">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><div id="quarto-draft-alert" class="alert alert-warning"><i class="bi bi-pencil-square"></i>Rascunho</div>
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="logo.qmd" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/logo-nome.png" alt="" class="navbar-logo">
+    <a href="./logo.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/logo-nome.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Procurar"></div>
@@ -126,19 +123,19 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../pesquisa.html"> 
+    <a class="nav-link" href="./pesquisa.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item compact">
@@ -165,56 +162,23 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Nesta página</h2>
-   
-  <ul>
-  <li><a href="#degenerate-parabolic-equations" id="toc-degenerate-parabolic-equations" class="nav-link active" data-scroll-target="#degenerate-parabolic-equations">Degenerate Parabolic Equations</a>
-  <ul class="collapse">
-  <li><a href="#fourier-method-separation-of-variables" id="toc-fourier-method-separation-of-variables" class="nav-link" data-scroll-target="#fourier-method-separation-of-variables">Fourier Method: Separation of variables</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">1-D Degenerate PDEs using Sturm-Liouville problems</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">mathematics</div>
-    <div class="quarto-category">PDE</div>
-    <div class="quarto-category">research</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    Sturm-Liouville
-  </div>
+<h1 class="title">A marca</h1>
 </div>
 
 
-<div class="quarto-title-meta column-page-left">
 
-    <div>
-    <div class="quarto-title-meta-heading">Autor</div>
-    <div class="quarto-title-meta-contents">
-             <p>Reginaldo Demarque </p>
-          </div>
-  </div>
+<div class="quarto-title-meta">
+
     
-    <div>
-    <div class="quarto-title-meta-heading">Data de Publicação</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">31/10/2024</p>
-    </div>
-  </div>
   
     
   </div>
@@ -224,28 +188,10 @@ window.Quarto = {
 </header>
 
 
-<section id="degenerate-parabolic-equations" class="level1">
-<h1>Degenerate Parabolic Equations</h1>
-<p>Given <span class="math inline">\(T&gt;0\)</span> and <span class="math inline">\(\alpha \in (0,2)\)</span> consider the following degenerate problem: <span class="math display">\[\begin{equation}
-    \begin{cases}
-        u_t - (x^\alpha u_x)_x = 0,&amp; (t,x)\in Q,\\
-        Bu(t,0)=u(t,1)=0,&amp; t\in(0,T),\\
-        u(0,x)=u_0(x), &amp; x\in (0,1),
-    \end{cases}
-\end{equation}\]</span> where the condition at <span class="math inline">\(x=0\)</span> is defined by <span class="math display">\[\begin{equation}
-Bu(t,0)=
-\begin{cases}
-u(t,0), &amp; \alpha \in (0,1),\\
-\lim\limits_{t\to 0^+}(x^\alpha u_x)(t,x), &amp; \alpha \in [1,2).
-\end{cases}
-\end{equation}\]</span></p>
-<section id="fourier-method-separation-of-variables" class="level2">
-<h2 class="anchored" data-anchor-id="fourier-method-separation-of-variables">Fourier Method: Separation of variables</h2>
-<p>Suppose <span class="math inline">\(u(t,x)=z(t)y(x)\)</span>. Let us denote the derivative with respect to <span class="math inline">\(t\)</span> by <span class="math inline">\(\prime\)</span> <span class="math display">\[u_t=z'y\]</span></p>
+<p><span class="math inline">\(\partial mar\chi\)</span> é uma marca que faz uma brincadeira com a fonética do meu sobrenome e com os símbolos matemáticos (Demarque), onde a sílaba inicial “De” é trocada pelo símbolo <span class="math inline">\(\partial\)</span> e a sílaba final “que” é trocado pela letra grega <span class="math inline">\(\chi\)</span> que tem o mesmo som.</p>
+<p>A partir disso, surge o logo <img src="images/dchi-2.png" class="img-fluid" style="width:5.0%">.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -823,7 +769,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../licenca.html">
+    <a class="nav-link" href="./licenca.html">
 <p>LICENÇA CC-BY-NC-SA</p>
 </a>
   </li>  
