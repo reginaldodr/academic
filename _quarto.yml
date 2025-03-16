@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Prof. Reginaldo Demarque"
-  favicon: monkey.png
+  favicon: dchi-2.png
   site-url: https://demarque.mat.br
   description: "Professor Associado 3, RCN, UFF"
   twitter-card: true
@@ -17,7 +17,7 @@ website:
       - text: Desenvolvido com Quarto
         href: https://quarto.org/
   navbar:
-    logo: monkey.png
+    logo: dchi-2.png
     background: primary
     foreground: light
     pinned: true
