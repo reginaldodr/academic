@@ -2,7 +2,7 @@
 title: "A marca"
 
 margin-header: |
-  ![](images/demarchi-graph.png)
+  ![](images/demarchi-diagram.png)
 
 format:
  html:
