@@ -1,7 +1,7 @@
 ---
 title: "Prof. Reginaldo Demarque"
 about:
-  template: trestles
+  template: solana
   image: images/perfil4.jpg
   image-shape: round
   links:
@@ -25,7 +25,7 @@ Campus de Rio das Ostras
 
 
 
-![Campus de Rio das Ostras](images/uff-ihs.jpg)
+![Campus de Rio das Ostras](images/uff-ihs.jpg){width=90%}
 
 ---
 

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://demarque.mat.br/index.html</loc>
-    <lastmod>2025-03-17T15:19:18.090Z</lastmod>
+    <lastmod>2025-03-17T18:54:22.843Z</lastmod>
   </url>
   <url>
     <loc>https://demarque.mat.br/licenca.html</loc>
@@ -31,5 +31,17 @@
   <url>
     <loc>https://demarque.mat.br/gaal/gaal-2025-1/gaal-2025-1.html</loc>
     <lastmod>2025-03-10T18:13:30.912Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoII/c2-2024-2.html</loc>
+    <lastmod>2025-02-05T18:51:56.138Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoI/calculoI.html</loc>
+    <lastmod>2025-01-09T13:05:15.691Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas.html</loc>
+    <lastmod>2025-01-09T13:05:17.423Z</lastmod>
   </url>
 </urlset>

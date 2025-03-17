@@ -5,7 +5,7 @@ project:
 
 website:
   title: ""
-  favicon: images/dchi-2.png
+  favicon: /images/dchi-2.png
   site-url: https://demarque.mat.br
   description: "Professor Associado 3, RCN, UFF"
   twitter-card: true
@@ -19,7 +19,7 @@ website:
         href: https://quarto.org/
   navbar:
     logo: /images/demarchi.png
-    logo-href: index.qmd
+    logo-href: /index.qmd
     background: primary
     foreground: light
     pinned: true
