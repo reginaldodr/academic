@@ -8,6 +8,6 @@ format:
 
 $\partial emar\chi$ é uma marca que faz uma brincadeira com a fonética do meu sobrenome (**Demarque**) e com  símbolos matemáticos. A letra  "**D**" é trocada pelo símbolo $\partial$ e a sílaba final "**que**" é trocado pela letra grega **$\chi$** que tem o mesmo som. A partir disso, surge o logo  ![](images/dchi-2.png){width=5%}.\
 
-![](images/demarchi-diagram.png){fig-align="center" width=20%}
+![](images/demarchi-diagram.png){fig-align="center" width=30%}
 
 A ideia é inspirada no nome do sistema de preparação de documentos de alta qualidade [$\LaTeX$](https://latex-project.org/), uma abreviação de [Lamport' s](https://pt.wikipedia.org/wiki/Leslie_Lamport) TeX.
