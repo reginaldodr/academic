@@ -31,10 +31,10 @@ Campus de Rio das Ostras
 
 ### Turmas Atuais -- 2025-1
 
-- [Cálculo III-A](calculoIII/2025-1/c3-A-2025-1.qmd)
+- [Cálculo III-A](/calculoIII/2025-1/c3-A-2025-1.qmd)
     - 2ª (14h às 16h) e 3ª (16h às 18h) --  **GP - 17 -- IHS **
 
-- [GAAL](gaal/gaal-2025-1/gaal-2025-1.qmd)
+- [GAAL](/gaal/gaal-2025-1/gaal-2025-1.qmd)
     - 2ª (16h às 18h) e 3ª (14h às 16h) -- **Sala 02** -- **ICT**\
 
 - [Calendário UFF](https://www.uff.br/wp-content/uploads/2025/01/01-25_Resolucao-CEPEx-4184A_Calendarios-2025-2.pdf)

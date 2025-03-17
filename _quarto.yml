@@ -18,7 +18,7 @@ website:
       - text: Desenvolvido com Quarto
         href: https://quarto.org/
   navbar:
-    logo: images/demarchi.png
+    logo: /images/demarchi.png
     logo-href: index.qmd
     background: primary
     foreground: light
@@ -41,7 +41,7 @@ website:
       - icon: mastodon
         aria-label: mastodon
         href: https://ursal.zone/@reginaldodr
-      - text: "<img src='images/dchi-2.png' style='width: 20px; height: auto;' alt='Logo'>"
+      - text: "<img src='/images/dchi-2.png' style='width: 20px; height: auto;' alt='Logo'>"
         href: logo.qmd
 
 

@@ -131,7 +131,7 @@ Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
 A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 26/07 </span>,      neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
-# Cronograma Efetivado {#sec-crono}
+# Cronograma Efetivado 
 
 **1. Funções vetoriais e Superfícies**
 
@@ -197,7 +197,7 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 
 **1. Funções vetoriais e Superfícies**
 
-01 . &nbsp; Seg  --  24/03  --  <span style="color:standard"> Apresentação do curso. revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3.$ </span> \
+01.   &nbsp; Seg --  24/03  --  <span style="color:standard"> Apresentação do curso. revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3.$ </span> \
 02 . &nbsp; Ter  --  25/03  --  <span style="color:standard"> Superfícies no espaço. Superfícies  Cilíndricas. </span> \
 03 . &nbsp; Seg  --  31/03  --  <span style="color:standard"> Superfícies Quádricas. </span> \
 04 . &nbsp; Ter  --  01/04  --  <span style="color:standard"> Aula de Exercícios 1. </span> \
