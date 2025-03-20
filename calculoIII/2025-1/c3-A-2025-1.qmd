@@ -19,9 +19,16 @@ from: markdown+emoji
 
 - **Início e Fim do Período:** 24/03/2025 a 26/07/2025.
 
--  **Horário e sala:** \
- 2ª (14h às 16h) e 3ª (16h às 18h)  --  **GP - 17 -- IHS **\
-confira no [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples)  [acesso por celular](http://159.112.185.66/home_externo/index)
+-  **Horário e sala:**\
+[Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples) -- [acesso por celular](http://159.112.185.66/home_externo/index)  \
+
+| Dia | Horário | Sala |
+|----|----|----|
+|Segunda |14h - 16h| GP -17 (IHS)|
+|Terça   |16h - 18h| GP-17 (IHS)|
+: {.striped .table-sm}
+
+
 
 -  **Atendimento**: sala 104 -- IHS (prédio alugado)
     
@@ -127,13 +134,10 @@ Exercícios do **Stewart Vol. 2, 7ª Edição.**
 ::: {#refs}
 :::
 
-# Cronograma {#sec-crono}
-
+# Cronograma Efetivado {#sec-crono}
 A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 26/07 </span>,      neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
-# Cronograma Efetivado 
-
-**1. Funções vetoriais e Superfícies**
+**Funções vetoriais e Superfícies**
 
 01 . &nbsp; Seg  --  24/03  --  <span style="color:LightGray"> Apresentação do curso. revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3.$ </span> \
 02 . &nbsp; Ter  --  25/03  --  <span style="color:LightGray"> Superfícies no espaço. Superfícies  Cilíndricas. </span> \
@@ -188,9 +192,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :end: &nbsp; Sáb  --  26/07  --  Fim do Período. :raised_hands:
 ---
 
-
-
-## Cronograma Proposto Incialmente
+# Cronograma Proposto Incialmente
 
 Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
 

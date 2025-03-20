@@ -34,27 +34,31 @@ $$
 - **Início e Fim do Período:** 24/03/2025 a 26/07/2025.
 
 -  **Horário e sala:** \
-2ª (16h às 18h) e 3ª (14h às 16h) **Sala 02** -- **ICT**\
-confira no [Quadro de Alocação de salas do ICT](http://200.159.243.161/index.php/segunda/)  
+[Quadro de Alocação de salas do ICT](http://200.159.243.161/index.php/segunda/)  \
 
-- **Material a ser utilizado**
+| Dia | Horário | Sala |
+|----|----|----|
+|Segunda |16h - 18h| Sala 2 (ICT)|
+|Terça   |14h - 16h| Sala 2 (ICT)|
+: {.striped .table-sm}
+
 
 :::: {.columns}
 
-::: {.column width="50%"}
-
-- [Slides](https://reginaldodr.github.io/slides/gaal/gaal.pdf)\
-- [Anotações das aulas]\
-- [Livro GAAL -- UFMG](../gaalt0.pdf)\
-:::
+- **Material a ser utilizado**
 
 ::: {.column width="40%"}
-- [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)\
-- [Lista de Exercícios de GA](../lista-exercicios-GA.pdf)\
-- [Provas antigas](../provas/)\
+  - [Slides](https://reginaldodr.github.io/slides/gaal/gaal.pdf)\
+  - [Notas das aulas]\
+  - [Livro GAAL -- UFMG](../gaalt0.pdf)\
 
 :::
+::: {.column width="50%"}
+  - [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)\
+  - [Lista de Exercícios de GA](../lista-exercicios-GA.pdf)\
+  - [Provas antigas](../provas/)\
 
+:::
 :::
 
 
@@ -71,7 +75,7 @@ Este curso é constituído de dois módulos:
 2. Álgebra Linear no $\mathbb{R}^n$.
 
 
-Usaremos como livro texto as referências [@poole] e [@santosufmg]. **A primeira está disponível para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). A segudna pode ser baixada [aqui](../gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+Usaremos como livro texto as referências [@poole] e [@santosufmg]. **A primeira está disponível para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). A segunda pode ser baixada [aqui](../gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
 
 As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
 
@@ -82,7 +86,7 @@ A avaliação será feita mediante **3 Provas Escritas**. A nota final (NF) ser�
 $$
 NF=0.2\cdot P_1+ 0.3\cdot P_2+0.5\cdot P_3,
 $$
-onde $P_i$ é a nota da i-ésima prova.
+onde $P_i$ é a nota da $i$-ésima prova.
 
 
 ## Objetivos {-}
@@ -108,14 +112,14 @@ Além disso, durante às provas, serão adotadas as seguinte medidas:
 
 - Proibido compartilhar material.
 - Só é permitida a saída após entrega definitiva da prova, ou seja, não é permitido ir ao banheiro ou beber água. A prova tem duração de no máximo 2 horas.
-- É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e uso de dispositivo computacional, como calculadora científica, ambos **sem acesso a internet**.
+- É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e **uso de dispositivo computacional**, como calculadora científica, ambos **sem acesso a internet**.
 - Fraude detectada, mesmo depois, zera a nota.
 
 ## Segunda Chamada {-}
 
 O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!**</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
 
-O conteúdo da **Segunda Chamada** será <span style="color:red">toda a matéria do semestre.</span>
+Cabe ressaltar que o conteúdo da **Segunda Chamada** será <span style="color:red">toda a matéria do semestre.</span>
 
 
 ::: {.callout-warning}
@@ -174,7 +178,7 @@ GA em $\mathbb{R}^3$\
 
 # Cronograma Efetivado {#sec-crono}
 
-A seguir temos a proposta de cronograma para esta disciplina. Esta proposta pode sofrer pequenas alterações ao longo do semestre que, caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia 27/07, neste caso, é aconselhado que fiquem disponíveis até esta data.**
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 26/07 </span>,      neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
 ---
 
