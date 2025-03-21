@@ -31,17 +31,16 @@ Campus de Rio das Ostras
 
 ### Turmas Atuais -- 2025-1
 
-
 - [Cálculo III-A](/calculoIII/2025-1/c3-A-2025-1.qmd)
 
 - [GAAL](/gaal/gaal-2025-1/gaal-2025-1.qmd)
 
 ||Segunda|Terça|
 |----|----|----|
-|14 - 16|Cálculo III-A  <br> GP -17 (IHS)|GAAL<br>  Sala 02 (ICT)|
-|16 - 18|GAAL <br>  Sala 02 (ICT)|Cálculo III - A <br> GP-17 (IHS)|
+|14h - 16h| Cálculo III-A  <br> GP -17 (IHS)| GAAL <br>  Sala 02 (ICT)|
+|16h - 18h|GAAL <br>  Sala 02 (ICT)|Cálculo III - A <br> GP-17 (IHS)|
 
-: Quadro de Horário {.striped .table-sm}
+: {.striped .table-sm}
 
 
 ### Links úteis 
@@ -69,7 +68,7 @@ Campus de Rio das Ostras
 
 -   2009 -- 2012: [Doutorado em Matemática pela UFMG](https://repositorio.ufmg.br/handle/1843/EABA-8LUS26).
 
--   2015 -- 2016: Pós-doutorado em Matemática pela Universida de Sevilla.
+-   2015 -- 2016: Pós-doutorado em Matemática pela Universidad de Sevilla.
 
 ### Pesquisa
 
