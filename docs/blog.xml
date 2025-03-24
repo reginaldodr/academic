@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Prof. Reginaldo Demarque</title>
+<link>https://demarque.mat.br/blog.html</link>
+<atom:link href="https://demarque.mat.br/blog.xml" rel="self" type="application/rss+xml"/>
+<description>Professor Associado 3, RCN, UFF</description>
+<generator>quarto-1.5.56</generator>
+<lastBuildDate>Thu, 07 Sep 2023 03:00:00 GMT</lastBuildDate>
+<item>
+  <title>Curvas parametrizadas com Python</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="curvas-no-plano" class="level2">
+<h2 class="anchored" data-anchor-id="curvas-no-plano">Curvas no plano</h2>
+<p>Esboçar uma curva parametriza utilizando o python é extremamente fácil. Para isso, vamos fazer uso de duas bibliotecas o <code>matplotlib.plot</code>, para fazer o gráfico, e o <code>numpy</code> para os cálculos numéricos.</p>
+<p>Vamos começar com um exemplo bem simples no plano. Vamos esboçar o círculo de centro na origem e raio 1, isto é, <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D(t)=(%5Ccos(t),%5Csin(t)),%5C%20t%5Cin%20%5B0,2%5Cpi%5D."> A seguir vemos o script que fornece o esboço da curva.</p>
+<div id="44b1f54d" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-3"></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#discretização do parâmetro</span></span>
+<span id="cb1-5">t <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>np.pi, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># discretização dos pontos</span></span>
+<span id="cb1-8">x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.cos(t)</span>
+<span id="cb1-9">y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.sin(t)</span>
+<span id="cb1-10"></span>
+<span id="cb1-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#plota os pontos</span></span>
+<span id="cb1-12">plt.plot(x,y)</span>
+<span id="cb1-13"></span>
+<span id="cb1-14"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#faz os eixos com mesma scala</span></span>
+<span id="cb1-15">plt.axis(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'square'</span>)</span>
+<span id="cb1-16"></span>
+<span id="cb1-17"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#faz a malha</span></span>
+<span id="cb1-18">plt.grid()</span>
+<span id="cb1-19"></span>
+<span id="cb1-20"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#exibe o gráfico</span></span>
+<span id="cb1-21">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas_files/figure-html/cell-2-output-1.png" width="439" height="411" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="um-exemplo-simples-no-espaço" class="level2">
+<h2 class="anchored" data-anchor-id="um-exemplo-simples-no-espaço">Um exemplo simples no espaço</h2>
+<p>Vejamos por exemplo como esboçar a seguinte <strong>hélice</strong> <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D(t)=(%5Ccos(t),%5Csin(t),t),%5C%20t%5Cin%20%5B0,2%5Cpi%5D."></p>
+<div id="cell-fig1" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb2-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb2-3"></span>
+<span id="cb2-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#variação do parâmetro</span></span>
+<span id="cb2-5">t <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>np.pi, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb2-6"></span>
+<span id="cb2-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#coordendas da curva</span></span>
+<span id="cb2-8">x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.cos(t)</span>
+<span id="cb2-9">y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.sin(t)</span>
+<span id="cb2-10">z<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>t</span>
+<span id="cb2-11"></span>
+<span id="cb2-12">fig <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure()</span>
+<span id="cb2-13">ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.axes(projection<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'3d'</span>)</span>
+<span id="cb2-14"></span>
+<span id="cb2-15">ax.plot(x,y,z)</span>
+<span id="cb2-16">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas_files/figure-html/fig1-output-1.png" width="401" height="396" class="figure-img"></p>
+<figcaption>hélice</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="curvas-dadas-como-interseção-de-superfícies" class="level2">
+<h2 class="anchored" data-anchor-id="curvas-dadas-como-interseção-de-superfícies">Curvas dadas como interseção de superfícies</h2>
+<p>Agora, vamos mostrar como parametrizar uma curva dada pela interseção de duas superfícies. Comecemos com a interseção do plano <img src="https://latex.codecogs.com/png.latex?z=x+2"> e o cilindro <img src="https://latex.codecogs.com/png.latex?x%5E2+y%5E2=1">. A seguir vemos um esboço<sup>1</sup> dessa duas superfícies. Sabemos, da geometria, que a curva de interseção será uma elipse, mas como parametrizá-la?</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-parametricas/cilindro.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p>Simples! A equação do cilindro <img src="https://latex.codecogs.com/png.latex?x%5E2+y%5E2=1"> nos diz que a base do cilindro no plano <img src="https://latex.codecogs.com/png.latex?xy"> é um círculo de centro na origem e raio 1. Portanto, podemos parametrizar essa base por: <img src="https://latex.codecogs.com/png.latex?%5Cvec%7B%5Calpha%7D(t)=(%5Ccos(t),%5Csin(t),0),%20%5C%20t%5Cin%20%5B0,2%5Cpi%5D."></p>
+<p>Note que as duas primeiras coordenadas dão a parametrização do círculo no plano e a terceira, <img src="https://latex.codecogs.com/png.latex?z=0">, faz com que este círculo seja plotado no <img src="https://latex.codecogs.com/png.latex?xy">, como a seguir:</p>
+<div id="96e68e8c" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb3-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#variação do parâmetro</span></span>
+<span id="cb3-5">t <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>np.pi, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb3-6"></span>
+<span id="cb3-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#coordendas da curva</span></span>
+<span id="cb3-8">x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.cos(t)</span>
+<span id="cb3-9">y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.sin(t)</span>
+<span id="cb3-10">z<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb3-11"></span>
+<span id="cb3-12">fig <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure()</span>
+<span id="cb3-13">ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.axes(projection<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'3d'</span>)</span>
+<span id="cb3-14"></span>
+<span id="cb3-15">ax.plot(x,y,z)</span>
+<span id="cb3-16">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas_files/figure-html/cell-4-output-1.png" width="412" height="396" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Agora, o que queremos é que, enquanto as coordenadas <img src="https://latex.codecogs.com/png.latex?x"> e <img src="https://latex.codecogs.com/png.latex?y"> percorram este círculo a medida que o parâmetro <img src="https://latex.codecogs.com/png.latex?t"> varie, a altura <img src="https://latex.codecogs.com/png.latex?z"> seja dada pelo plano <img src="https://latex.codecogs.com/png.latex?z=x+2">, ou seja, <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D(t)=(%5Ccos(t),%5Csin(t),%5Ccos(t)+2),%20%5C%20t%5Cin%20%5B0,2%5Cpi%5D."> A seguir esboçamos as duas curvas juntas, o círculo da base e a elípse de interseção do plano com o cilindro.</p>
+<div id="170b273c" class="cell" data-execution_count="4">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb4-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb4-3"></span>
+<span id="cb4-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#variação do parâmetro</span></span>
+<span id="cb4-5">t <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>np.pi, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb4-6"></span>
+<span id="cb4-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#coordendas da curva</span></span>
+<span id="cb4-8">x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.cos(t)</span>
+<span id="cb4-9">y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.sin(t)</span>
+<span id="cb4-10">z<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb4-11"></span>
+<span id="cb4-12">z1<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb4-13"></span>
+<span id="cb4-14"></span>
+<span id="cb4-15"></span>
+<span id="cb4-16">fig <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure()</span>
+<span id="cb4-17">ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.axes(projection<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'3d'</span>)</span>
+<span id="cb4-18"></span>
+<span id="cb4-19">ax.plot(x,y,z)</span>
+<span id="cb4-20">ax.plot(x,y,z1)</span>
+<span id="cb4-21"></span>
+<span id="cb4-22">ax.view_init(elev<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>, azim<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">130</span>)</span>
+<span id="cb4-23">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas_files/figure-html/cell-5-output-1.png" width="408" height="389" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="um-outro-exemplo" class="level2">
+<h2 class="anchored" data-anchor-id="um-outro-exemplo">Um outro exemplo</h2>
+<p>O mesmo raciocínio pode ser aplicado em diversas outras situações. Como por exemplo, determine a parametrização da curva dada pela inserseção de dois paraboloides: <img src="https://latex.codecogs.com/png.latex?z=2x%5E2+%5Cfrac%7B1%7D%7B2%7Dy%5E2"> e <img src="https://latex.codecogs.com/png.latex?z=4-2x%5E2-%5Cfrac%7B3%7D%7B2%7Dy%5E2."> Novamente, vamos plotar as duas superfícies para visualizarmos a inteserção. Também destacamos a curva de interseção em vermelho, a qual queremos parametrizar.</p>
+<p><img src="https://demarque.mat.br/posts/curvas-parametricas/paraboloides.png" class="img-fluid"> A fim de encontrarmos a parametrização da curva de interseção, vamos igualar as coordenadas <img src="https://latex.codecogs.com/png.latex?z"> das duas equações, isto é, <img src="https://latex.codecogs.com/png.latex?2x%5E2+%5Cfrac%7B1%7D%7B2%7Dy%5E2=4-2x%5E2-%5Cfrac%7B3%7D%7B2%7Dy%5E2%5CRightarrow%204x%5E2+2y%5E2=4%5CRightarrow%20x%5E2+%5Cfrac%7By%5E2%7D%7B2%7D=1."> Esta última equação, como não tem a variável <img src="https://latex.codecogs.com/png.latex?z">, nos fornece uma equação de elipse no plano <img src="https://latex.codecogs.com/png.latex?xy">, o que é interpretado geometricamente como a projeção neste plano da curva que estamos buscando! Como já sabemos parametrizar uma elipse, reptindo o raciocínio anterior, uma parametrização desta curva é: <img src="https://latex.codecogs.com/png.latex?%5Cvec%7B%5Calpha%7D(t)=(%5Ccos(t),%5Csqrt%7B2%7D%5Csin(t),0),%5C%20t%5Cin%20%5B0,2%5Cpi%5D."> Enquanto o parâmetro <img src="https://latex.codecogs.com/png.latex?t"> varia, as coordenadas <img src="https://latex.codecogs.com/png.latex?x"> e <img src="https://latex.codecogs.com/png.latex?y"> percorrem a elipse no plano <img src="https://latex.codecogs.com/png.latex?z=0">. Agora, basta tomarmos <img src="https://latex.codecogs.com/png.latex?z"> sobre um dos parabolóides, por exemplo <img src="https://latex.codecogs.com/png.latex?z=2x%5E2+%5Cfrac%7B1%7D%7B2%7Dy%5E2=2%5Ccos%5E2(t)+%5Csin%5E2(t)=%5Ccos%5E2(t)+1">, isto nos fornece: <img src="https://latex.codecogs.com/png.latex?%5Cvec%7Br%7D(t)=(%5Ccos(t),%5Csqrt%7B2%7D%5Csin(t),%5Ccos%5E2(t)+1),%5C%20t%5Cin%20%5B0,2%5Cpi%5D."> A seguir esobaçamos as duas curvas juntas. A curva vermelha é a curva de interseção dos dois parabolóides e a curva azul é a projeção dela sobre o plano <img src="https://latex.codecogs.com/png.latex?xy"> que usamos como auxiliar.</p>
+<div id="a0d05f84" class="cell" data-execution_count="5">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb5-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb5-3"></span>
+<span id="cb5-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#variação do parâmetro</span></span>
+<span id="cb5-5">t <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>np.pi, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">200</span>)</span>
+<span id="cb5-6"></span>
+<span id="cb5-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#coordendas da curva</span></span>
+<span id="cb5-8">x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.cos(t)</span>
+<span id="cb5-9">y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.sqrt(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>np.sin(t)</span>
+<span id="cb5-10">z<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>np.cos(t)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb5-11"></span>
+<span id="cb5-12">z1<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb5-13"></span>
+<span id="cb5-14"></span>
+<span id="cb5-15"></span>
+<span id="cb5-16">fig <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure()</span>
+<span id="cb5-17">ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.axes(projection<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'3d'</span>)</span>
+<span id="cb5-18"></span>
+<span id="cb5-19">ax.plot(x,y,z1)</span>
+<span id="cb5-20">ax.plot(x,y,z,color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'r'</span>)</span>
+<span id="cb5-21">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas_files/figure-html/cell-6-output-1.png" width="412" height="396" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p>utilizamos o octave para produzir essa figura, mas não vamos entrar nos detalhes de como fazer isso.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>python</category>
+  <category>jupyter</category>
+  <category>cálculo 3</category>
+  <category>gráficos</category>
+  <category>curvas paramétricas</category>
+  <guid>https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas.html</guid>
+  <pubDate>Thu, 07 Sep 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Por que NÃO usar a notação ln para o logaritmo na base e!</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/notacao-log/notacao-log.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/notacao-log/calc.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<p>Aprendemos na escola que o logaritmo de um número <img src="https://latex.codecogs.com/png.latex?x"> na base <img src="https://latex.codecogs.com/png.latex?a"> é o número <img src="https://latex.codecogs.com/png.latex?y=%5Clog_a(x)"> tal que <img src="https://latex.codecogs.com/png.latex?a%5Ey=x">. A maioria dos livros de Cálculo hoje em dia (se não todos) e muitas calculadoras, usam a notação <img src="https://latex.codecogs.com/png.latex?%5Cln(x)"> para se referir ao logaritimo de um número <img src="https://latex.codecogs.com/png.latex?x"> na base <img src="https://latex.codecogs.com/png.latex?e">, o chamado <strong>logaritmo natural</strong>, e reserva a notação <img src="https://latex.codecogs.com/png.latex?%5Clog(x)"> para quando a base é 10.</p>
+<p>Há um tempo atrás, quando comecei a usar a linguagem python, descobri que o python reserva a notação <img src="https://latex.codecogs.com/png.latex?%5Clog"> para a base <img src="https://latex.codecogs.com/png.latex?e">, daí me surgiu uma dúvida, por que os livros de Cálculo usam <img src="https://latex.codecogs.com/png.latex?%5Cln">? Qual seria a origem dessa notação? E o mais importante, por que reservar a notação <img src="https://latex.codecogs.com/png.latex?%5Clog">, que faz referência ao nome da função logaritmo, para a base 10, sendo que esta base quase não é utilizada nestes livros?</p>
+<p>O que fiz então? Comecei a buscar na internet sobre o assunto e cheguei à seguinte <a href="https://math.stackexchange.com/questions/1694/how-did-the-notation-ln-for-log-base-e-become-so-pervasive?authuser=0">discussão,</a> que cita a seguinte nota contida neste <a href="https://en.wikipedia.org/wiki/Logarithm#cite_note-adaa-20">artigo da wikipédia</a>:</p>
+<blockquote class="blockquote">
+<p>The natural logarithm of 𝑥 is often written “ln(𝑥)”, instead of log𝑒(𝑥) especially in disciplines where it isn’t written “log(𝑥)”. However, some mathematicians disapprove of this notation. In his 1985 autobiography, Paul Halmos criticized what he considered the “childish ln notation,” which he said no mathematician had ever used. In fact, the notation was invented by a mathematician, Irving Stringham, professor of mathematics at University of California, Berkeley, in 1893.</p>
+</blockquote>
+<p>Depois deste argumento do Paul Halmos o meu lado nessa história ficou definido, a partir de então eu passei a usar a notação <img src="https://latex.codecogs.com/png.latex?%5Clog"> para o logaritmo de base <img src="https://latex.codecogs.com/png.latex?e">, contrariando todos os livros de cálculo que uso nas minhas disciplinas e gerando algum incomodo nos alunos. Mas fazer o quê? Se Paul Halmos está de um lado, eu não posso estar de outro.</p>
+<p>Na verdade, consultando à autobriografia do Paul Halmos, <em>“I want to be a mathematician”</em>, não encontrei exatamente aquelas palavras, mas as seguintes, que são igualmente críticas:</p>
+<blockquote class="blockquote">
+<p>The use of <img src="https://latex.codecogs.com/png.latex?%5Cln"> is a textbook vulgarization. Did you ever hear a mathematician speak of the Riemann surface of <img src="https://latex.codecogs.com/png.latex?%5Cln%20z">?</p>
+</blockquote>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Riemann_surface_log.svg" class="img-fluid figure-img" style="width:30.0%"></p>
+<figcaption>Superfície de Riemann <img src="https://latex.codecogs.com/png.latex?%5Clog(z)"> <sup>1</sup></figcaption>
+</figure>
+</div>
+<p>Além disso, há ainda outro argumento. Todos concordamos que a exponencial mais importante é <img src="https://latex.codecogs.com/png.latex?e%5Ex">. Portanto, se definirmos <img src="https://latex.codecogs.com/png.latex?%5Clog%20:%20(0,+%5Cinfty)%20%5Cto%20%5Cmathbb%7BR%7D"> como a inversa da função exponecial, qualquer outro logaritmo pode ser obtido deste via a fórmula de mudança e base</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Clog_b(x)=%5Cfrac%7B%5Clog(x)%7D%7B%5Clog(b)%7D."> Sendo assim, existe na verdade somente um logaritmo, todos os outros vem deste. Portanto, porque vamos reservar a notação mais emblemática de logaritmo para a base <img src="https://latex.codecogs.com/png.latex?10"> se ela raramente é usada?!</p>
+
+
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Notas de rodapé</h2>
+
+<ol>
+<li id="fn1"><p>Leonid 2, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons.↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>notação</category>
+  <category>matemática</category>
+  <category>logaritmos</category>
+  <guid>https://demarque.mat.br/posts/notacao-log/notacao-log.html</guid>
+  <pubDate>Sat, 02 Sep 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Plotando Curvas de Nível com Python</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/curvas-nivel/nivel.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Vejamos um exemplo simples de como usar o python para plotar curvas de nível. Para isso, vamos fazer uso de duas bibliotecas o <code>matplotlib.plot</code>, para fazer o gráfico, e o <code>numpy</code> para os cálculos numéricos.</p>
+<p>Como exemplo, vamos plotar as curvas de nível do parabolóide <img src="https://latex.codecogs.com/png.latex?f(x,y)=9x%5E2+4y%5E2">, no quadrado <img src="https://latex.codecogs.com/png.latex?%5B-5,5%5D%5Ctimes%5B-5,5%5D">.</p>
+<div id="cell-fig1" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb1-3"></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#define a função a ser plotada</span></span>
+<span id="cb1-5"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> f(x, y):</span>
+<span id="cb1-6">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb1-7"></span>
+<span id="cb1-8">x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb1-9">y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb1-10"></span>
+<span id="cb1-11">X, Y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.meshgrid(x, y)</span>
+<span id="cb1-12">Z <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> f(X, Y)</span>
+<span id="cb1-13"></span>
+<span id="cb1-14">plt.contour(X, Y, Z, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, cmap<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Reds'</span>)</span>
+<span id="cb1-15">plt.colorbar()</span>
+<span id="cb1-16"></span>
+<span id="cb1-17">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-nivel/nivel_files/figure-html/fig1-output-1.png" width="544" height="413" class="figure-img"></p>
+<figcaption>10 curvas de nível</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Se você quiser que os espaços entre as curvas de nível seja prenchido, basta usar o comando <code>plt.contourf</code> no lugar de <code>plt.contour</code>, como abaixo.</p>
+<div id="cell-fig2" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb2-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb2-3"></span>
+<span id="cb2-4"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> f(x, y):</span>
+<span id="cb2-5">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb2-6">    </span>
+<span id="cb2-7">x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb2-8">y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb2-9"></span>
+<span id="cb2-10">X, Y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.meshgrid(x, y)</span>
+<span id="cb2-11">Z <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> f(X, Y)</span>
+<span id="cb2-12"></span>
+<span id="cb2-13">plt.contourf(X, Y, Z, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, cmap<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Reds'</span>)</span>
+<span id="cb2-14">plt.colorbar()</span>
+<span id="cb2-15"></span>
+<span id="cb2-16">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-nivel/nivel_files/figure-html/fig2-output-1.png" width="544" height="411" class="figure-img"></p>
+<figcaption>10 curvas de nível com preenchimento</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Por fim, vamos plotar o gráfico da função usando <code>plot_surface</code>.</p>
+<div id="cell-fig3" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb3-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> numpy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> np</span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> f(x, y):</span>
+<span id="cb3-5">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">**</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb3-6">    </span>
+<span id="cb3-7">x <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb3-8">y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb3-9"></span>
+<span id="cb3-10">X, Y <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.meshgrid(x, y)</span>
+<span id="cb3-11">Z <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> f(X, Y)</span>
+<span id="cb3-12"></span>
+<span id="cb3-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># criando o ambiente 3d</span></span>
+<span id="cb3-14">fig <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.figure()</span>
+<span id="cb3-15">ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.axes(projection<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'3d'</span>)</span>
+<span id="cb3-16"></span>
+<span id="cb3-17">ax.plot_surface(X, Y, Z,cmap<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'viridis'</span>)</span>
+<span id="cb3-18">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div id="fig3" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/curvas-nivel/nivel_files/figure-html/fig3-output-1.png" width="409" height="390" class="figure-img"></p>
+<figcaption>gráfico da função f</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>python</category>
+  <category>jupyter</category>
+  <category>cálculo 3</category>
+  <category>gráficos</category>
+  <guid>https://demarque.mat.br/posts/curvas-nivel/nivel.html</guid>
+  <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Cresimento Logístico com Python</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/crescimento-logistico.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="crescimento-logístico" class="level2">
+<h2 class="anchored" data-anchor-id="crescimento-logístico">Crescimento Logístico</h2>
+<p>O <strong>crescimento logístico</strong> leva em conta que a população tem um valor máximo <img src="https://latex.codecogs.com/png.latex?M">. Quando a população se aproxima da capacidade máxima, os recursos tornam-se menos abundantes e a taxa de crescimento começa a diminuir. Se <img src="https://latex.codecogs.com/png.latex?y=y(t)"> representa o número de indivíduos no instante <img src="https://latex.codecogs.com/png.latex?t">, uma relação simples que exibe esse comportamento é quando <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7Bdy%7D%7Bdt%7D=ky(M-y)"> Vamos usar o python para nos ajudar a resolver o seguinte exemplo:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemplo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Biólogos colocaram em um lago 400 peixes e estimaram a capacidade de suporte como 10.000. O número de peixes triplicou no primeiro ano. Encontre uma expressão para o tamanho da população de peixes depois de <img src="https://latex.codecogs.com/png.latex?t"> anos.</p>
+</div>
+</div>
+<p><strong>Solução:</strong> Vamos trabalhar com as populações em unidades de mil, assim <img src="https://latex.codecogs.com/png.latex?y(0)=0.4"> e <img src="https://latex.codecogs.com/png.latex?y(1)=1.2">. Primeiramente, vamos resolver a EDO usando o método das equações separáveis. <img src="https://latex.codecogs.com/png.latex?y'(t)=ky(t)(10-y(t))%5CRightarrow%20%5Cfrac%7By'(t)%7D%7By(10-y(t))%7D=k%5CRightarrow%20%5Cint%5Cfrac%7By'(t)%7D%7By(10-y(t))%7Ddt%20=kt+c%5CRightarrow%20%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D=kt+c."></p>
+<p>Com isso o problema se resume em determinar a integral <img src="https://latex.codecogs.com/png.latex?%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D."></p>
+<p>Note que <img src="https://latex.codecogs.com/png.latex?%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D=%5Cfrac%7B1%7D%7B10%7D%5Cint%5Cfrac%7B1%7D%7By%7D+%5Cfrac%7B1%7D%7B10-y%7Ddy=%5Cfrac%7B1%7D%7B10%7D(%5Clog%7Cy%7C-%5Clog%7C10-y%7C)+c_1"></p>
+<p>Com isso, <img src="https://latex.codecogs.com/png.latex?%5Clog%5Cleft%7C%5Cfrac%7By%7D%7B10-y%7D%5Cright%7C=kt+c_2%5CRightarrow%20%5Cfrac%7By%7D%7B10-y%7D=Ce%5E%7Bkt%7D"></p>
+<p>Agora, vamos usar a biblioteca <code>sympy</code> do python para substituir o dado inicial <img src="https://latex.codecogs.com/png.latex?y(0)=0.4"> a fim de obter <img src="https://latex.codecogs.com/png.latex?C">.</p>
+<div id="b367a40b" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> sympy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> sp</span>
+<span id="cb1-2"></span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#variáveis</span></span>
+<span id="cb1-4">y,k,C<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.symbols(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'y k C'</span>,real<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>)</span>
+<span id="cb1-5">t<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.symbols(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'t'</span>,positive<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>)</span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#dados do problema</span></span>
+<span id="cb1-8">y0<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Rational(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">400</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1000</span>)</span>
+<span id="cb1-9">y1<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>y0</span>
+<span id="cb1-10"></span>
+<span id="cb1-11">eq1<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Eq(y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>y),C<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>sp.exp(k<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>t))</span>
+<span id="cb1-12">sol<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.solve(eq1.subs([(t,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>),(y,y0)]),C)</span>
+<span id="cb1-13">c0<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sol[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb1-14"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'C='</span>,c0)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>C= 1/24</code></pre>
+</div>
+</div>
+<p>Neste caso obtemos que <img src="https://latex.codecogs.com/png.latex?C=%5Cfrac%7B1%7D%7B24%7D">. Substituindo na equação obtida ficamos com</p>
+<div id="1611d207" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">eq2<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>eq1.subs(C,c0)</span>
+<span id="cb3-2">eq2</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="2">
+<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5Cfrac%7By%7D%7B10%20-%20y%7D%20=%20%5Cfrac%7Be%5E%7Bk%20t%7D%7D%7B24%7D"></p>
+</div>
+</div>
+<p>Agora vamos encontrar <img src="https://latex.codecogs.com/png.latex?k"> usando o segundo dado <img src="https://latex.codecogs.com/png.latex?y(1)=1.2">.</p>
+<div id="2494a791" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">sol2<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.solve(eq2.subs([(t,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>),(y,y1)]),k)</span>
+<span id="cb4-2">k0<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sol2[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb4-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'k='</span>,k0)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>k= log(36/11)</code></pre>
+</div>
+</div>
+<p>Vamos substituir na equação e simplificar:</p>
+<div id="8ac8a492" class="cell" data-execution_count="4">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">eq3<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>eq2.subs(k,k0)</span>
+<span id="cb6-2">sp.simplify(eq3)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="4">
+<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5Cfrac%7B%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%7D%7B24%7D%20=%20-%20%5Cfrac%7By%7D%7By%20-%2010%7D"></p>
+</div>
+</div>
+<p>Agora vamos isolar <img src="https://latex.codecogs.com/png.latex?y">, encontrando finalmente a função buscada.</p>
+<div id="48f1fdf8" class="cell" data-execution_count="5">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">sol3<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.solve(eq3,y)</span>
+<span id="cb7-2">Y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sol3[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb7-3">sp.Eq(y,Y)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="5">
+<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20y%20=%20%5Cfrac%7B10%20%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%7D%7B%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%20+%2024%7D"></p>
+</div>
+</div>
+<p>Vamos agora esboçar o gráfico desta função no intervalo <img src="https://latex.codecogs.com/png.latex?%5B0,10%5D">.</p>
+<div id="8a560385" class="cell" data-execution_count="6">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">sp.plot(Y,(t,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>))</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/crescimento-logistico_files/figure-html/cell-7-output-1.png" width="656" height="468" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Note que se dividirmos o numerador e o denominador por <img src="https://latex.codecogs.com/png.latex?%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5Et">, podemos reescrever a função da seguinte forma:</p>
+<p><img src="https://latex.codecogs.com/png.latex?y(t)=%5Cfrac%7B10%20%7D%7B1%20+%2024%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7B-t%7D%7D,%5C%20t%5Cgeq%200."> Por fim, vamos fazer previsões:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemplo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Determine em quanto tempo a população chegará a 5 mil.</p>
+</div>
+</div>
+<p>Queremos encontrar o tempo <img src="https://latex.codecogs.com/png.latex?T"> para o qual <img src="https://latex.codecogs.com/png.latex?y(T)=5">, isto é, resolver a equação:</p>
+<p><img src="https://latex.codecogs.com/png.latex?5=%5Cfrac%7B10%20%7D%7B1%20+%2024%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7B-t%7D%7D."></p>
+<div id="cdf8b210" class="cell" data-execution_count="7">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">sol3<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.solve(sp.Eq(Y,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>),t)</span>
+<span id="cb9-2">T<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sol3[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb9-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Instante em que a população chega a 5000: '</span>, T)</span>
+<span id="cb9-4"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Valor aproximado: '</span>, T.evalf(), <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'anos'</span> )</span>
+<span id="cb9-5"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Convertendo os decimais em meses'</span>, (T.evalf()<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span> )</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Instante em que a população chega a 5000:  -log(24**(1/log(11/36)))
+Valor aproximado:  2.68049122365053 anos
+Convertendo os decimais em meses 8.16589468380641</code></pre>
+</div>
+</div>
+<p>Assim, temos que a população chega a 5.000 peixes em aproximadamente 2 anos e 8 meses.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>cálculo 2</category>
+  <category>EDO</category>
+  <category>crescimento populacional</category>
+  <guid>https://demarque.mat.br/posts/crescimento-logistico.html</guid>
+  <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Como ser um Bilionário!</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/bilionario/bilionario.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Há algum tempo o tiktok me presenteou com esse <a href="https://www.tiktok.com/@eu.criaativa/video/7255427376811707653">vídeo</a> maravilhoso do perfil <a href="https://www.tiktok.com/@eu.criaativa">@eu.criativa</a> da professora Gabriella Taranto.</p>
+<p>Vejam o vídeo, mas para resumir, a Prof.&nbsp;Grabriella faz alguns cálculos para saber quanto tempo demoraria para ter o primeiro bilhão caso a pessoa decidisse investir <strong>todo o seu salário, em anos ininterruptos de trabalho</strong>, sem gastar nada, somente juntando. Ai ela usa uma regra de três simples e chega às seguintes conclusões:</p>
+<ul>
+<li><p><strong>Salário mensal R$ 2.500,00: </strong> 33.333 anos. (salário médio do Brasil)</p></li>
+<li><p><strong>Salário mensal R$ 15.000,00: </strong> 5.555 anos.</p></li>
+<li><p><strong>Salário R$ 75.000,00: </strong> 1.111 anos (Maior piso salarial do Brasil)</p></li>
+</ul>
+<p>Mas vejam que ela só está considerando o valor final que foi guardado, não considera investimentos ou juros que esse dinheiro poderia render. Alguém poderia dizer:</p>
+<blockquote class="blockquote">
+<p>“Ah, mas você tem que investir o dinheiro, não só guardar embaixo do colchão.”</p>
+</blockquote>
+<p>Então decidi fazer cálculos um pouco mais “realistas”, considerando que o dinheiro fosse investido e gerasse juros, e que também não fosse reservado todo o salário.</p>
+<p>Assim, considerei que fosse investido mensalmente <strong>R$ 1.000,00 a juros de 10.0 % a.a</strong>. Veja que para o primeiro caso que ela considerou, salário médio de R$ 2.500,00, fora da realidade de muita gente, investir R$ 1.0000,00 mensal corresponderia a 40% da renda! Além disso, um investimento de 10.0 % a.a, com baixo risco, é um excelente investimento, geralmente, a taxa de juros é menor.</p>
+<p>Cheguei ao seguinte: Investindo-se mensalmente <strong>R$ 1.000,00 a juros de 10.0 % a.a</strong>, você levará <strong>94 anos e 3 meses</strong> para ter um patrimônio de R$ 1.006.866.749,00 , tendo sido necessário poupar R$ 1.116.000,00. Ou seja, uma única vida não seria capaz de fazer isso, considerando-se os dados acima, que já são bem fora do padrão. Quem consegue guardar mil reais por mês, durante 94 anos, sem falhar nem uma vez!?</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Não estamos considerando as perdas inflacionárias e nem os impostos. Um bilhão hoje, não terá o mesmo valor que um bilhão daqui a 94 anos.</p>
+</div>
+</div>
+<p>Assim, é fácil ver que, não é somente investindo e trabalhando que uma pessoa se torna um bilionário.</p>
+<p>Outros fatos interessante são:</p>
+<ol type="1">
+<li><p>Você levará 87 anos para chegar à <strong>metade do objetivo</strong>, isto é R$ 508.477.116,45.</p></li>
+<li><p>Somente em 23 anos você alcaçaria R$ 1.015.491,22, seu <strong>prmeiro milhão!</strong></p></li>
+<li><p>Apenas em 70 anos você passará de 100 milhões: R$ 100.498.891,36.</p></li>
+<li><p>E só em 87 anos você chegará a meio bilhão: R$ 508.477.116,45, metada da sua meta.</p></li>
+</ol>
+<p>Isso ocorre, pois estamos trabalhando com juros compostos, cujo crescimento é <strong>exponencial</strong>. No gráfico abaixo, vemos que nos primeiros anos o crescimento é próximo do linear, os juros não fazem muita diferença, você está praticamente só juntando dinheiro embaixo do colchão mesmo! Só muito depois que os juros vão explodir os valores e se afastar do crescimento linear.</p>
+<p><img src="https://demarque.mat.br/posts/bilionario/fig.png" class="img-fluid"></p>
+<p>Outra coisa interessante que este gráfico revela é:</p>
+<blockquote class="blockquote">
+<p>Quanto mais dinheiro você tem, mais fácil de aumentá-lo. Equivalentemente, quanto menos, mais difícil. Em outras palavras, o rico fica cada vez mais rico e o pobre, cada vez mais pobre.</p>
+</blockquote>
+<p>Por fim, respondendo à pergunta do título, para alguém ser um bilionário, sem explorar ninguém e com baixos riscos, outro alguém tem que ter feito essa parte difícil de acumular bastante dinheiro. Em outras palavras, tem que ser herdeiro, sozinho não dá!</p>
+<p>Eu fiz os cálculos e o gráfico usando python. Em um momento futuro vou acrescentar nesta postagem como os cálculo foram feitos e o script que usei.</p>
+
+
+
+ ]]></description>
+  <category>python</category>
+  <category>exponencial</category>
+  <category>juros</category>
+  <guid>https://demarque.mat.br/posts/bilionario/bilionario.html</guid>
+  <pubDate>Mon, 14 Aug 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Uma Experiência em Geometria Analítica</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="uma-experiência-de-sala-de-aula-invertida" class="level2">
+<h2 class="anchored" data-anchor-id="uma-experiência-de-sala-de-aula-invertida">Uma Experiência de Sala de Aula Invertida:</h2>
+<section id="em-geometria-analítica" class="level3">
+<h3 class="anchored" data-anchor-id="em-geometria-analítica">Em Geometria Analítica</h3>
+<p>A pandemia de covid nos forçou a criar muito matrial online para as aulas remotas. Eu mesmo acabei criando um curso inteiro de <a href="https://www.youtube.com/playlist?list=PLMbyf27J7J7hrV-UWcIe2jDJk0sM9DtlY">Geometria Analítica e Cálculo Vetorial</a> em videoaulas no youtube! Além disso, também criei muito material no Moodle, que foi a plataforma que mais trabalhei no ensino remoto.</p>
+<p>Neste semestre, com a volta das aulas presenciais “pós-pandemia”, decidi usar este material para aplicar a metodologia de <a href="https://ifg.edu.br/attachments/article/19169/Sala%20de%20aula%20invertida_%20por%20onde%20come%C3%A7ar%20(21-12-2020).pdf">sala de aula invertida</a>. Aqui podem ser vistas todas as informações deste curso: <a href="../../GA/ga-2022-1.html">Geometria Analítica - 2022-1</a></p>
+<p>A seguir vou descrever como foi esta experiência.</p>
+</section>
+</section>
+<section id="dinâmica-do-curso" class="level2">
+<h2 class="anchored" data-anchor-id="dinâmica-do-curso">Dinâmica do Curso</h2>
+<p>Dentro do Moodle eu dividi o conteúdo semanalmente. A dinâmica de cada semana era a seguinte:</p>
+<ul>
+<li>Os alunos faziam as <em>Lições</em> da semana no Moodle. Cada <em>Lição</em> era composta de uma videoaula, onde o conteúdo era apresentado, e um questionário bem elementar, apenas para revisar e reforçar o conteúdo assisitido. Em geral eram questões de multipla escolha.</li>
+<li>Depois de cumprida as <em>Lições</em>, os alunos deveriam tentar fazer alguns exercícios propostos, em um nível mais difícil, que seriam discutidos em sala na semana seguinte.</li>
+<li>Na semana seguinte, na aula presencial, o objetivo era discutir esses exercícios.</li>
+</ul>
+<div id="fig1" data-fig-env="figure*">
+<p><img src="https://demarque.mat.br/posts/2022-07-22-sala-de-aula-invertida/fig1.png" class="img-fluid" style="width:70.0%"></p>
+<p><strong>Lição</strong>: Este era um conteúdo típico semanal no Moodle</p>
+</div>
+<p>Como pode ser visto na figura acima, além do conteúdo ordinário, resolvi também trabalhar com eles um pouco de python, por três motivos:</p>
+<ol type="1">
+<li>Geometria Analítica é um ambiente muito favorável para introduzir essa linguagem sem precisar ter visto programção alguma. Dá pra usar como se fosse uma calculadora ciêntífica bem robusta!</li>
+<li>Tornar o curso mais moderno. Afinal de contas, hoje em dia não faz muito sentido fazer contas à mão, uma vez que temos tantos recursos computacionais literalmente à palma da mão.</li>
+<li>O python é uma linguagem simples, moderna e que pode ser excutado usando apenas o browser de internet.</li>
+</ol>
+<p>Aqui estão os <a href="../../GA/python/">exemplos de python</a> que eu trabalhei com eles no curso.</p>
+<p>Inicialmente, eu pedi para eles apresentarem os exercício propostos no quadro, para eu ver como tinham feito, e depois discutirmos. Isso não funcionou, pois eles tinham <strong>MUUUUUITA</strong> má vontade em ir para o quadro. Então, depois de algumas conversas com colegas, percebendo que eles têm muita dificuldade em leitura e interpretação de textos científicos, decidi por levar toda semana uma folha a ser trabalhada. Nessa folha sempre tinha um pequeno texto, introduzindo algum conceito ou técnica não abordada nas lições, e em seguida alguns exercícios a serem trabalhados. Isso sim funcionou bem! Percebi que eles tinham mais disposição pra fazer.</p>
+<p>Nesta dinâmica, eu lia com eles o texto, procurando apontar as peculiaridades de se ler um texto científico em matemática. Depois eles seguiam tentando resolver os exercícios. O texto e os exercícios foram elaborados de modo que fosse fundamental completar as lições na semana anterior para conseguir fazer tanto a leitura do texto quanto a resolução dos exercícios. Veja aqui os <a href="../../GA/textos-aulas-presenciais">textos</a> que trabalhei.</p>
+</section>
+<section id="avaliação" class="level2">
+<h2 class="anchored" data-anchor-id="avaliação">Avaliação</h2>
+<p>Para avaliação eu usei três instrumentos: Os questionários, Provas e Testes Numéricos Online.</p>
+<ul>
+<li>Os questionários, dentro das lições, eram bem elementares e geralmente de múltiplas escolha. Sendo as mesmas questões para todos os alunos. O aluno poderia fazê-los várias vezes até acertar. Portanto, qualquer um que se dedicasse um pouco, facilmente poderia obter nota total. O objetivo era que eles não se preocupassem tanto com a nota, mas em entender a questão. Levando para a aula presencial as dúvidas referente àquelas questões que não conseguissem entender.</li>
+<li>A provas eram como de costume: teóricas, escritas e sem consulta. Foram aplicadas duas provas, uma para a parte plana e outra para a parte espacial.</li>
+<li>Os testes numéricos eram feitos no Moodle. Foram elaborados com dados aleatórios para cada aluno, com baixa dificuldade teórica mas com alguma dificuldade computacional, para que os alunos usassem algum recurso computacional para resolvê-los, de preferência a linguagem em python apresentado em sala.</li>
+</ul>
+<div id="fig2" data-fig-env="figure*">
+<p><img src="https://demarque.mat.br/posts/2022-07-22-sala-de-aula-invertida/fig2.png" class="img-fluid" style="width:70.0%"></p>
+<p><strong>Teste Numérico</strong>: Este é um exemplo de teste numérico.</p>
+</div>
+<p>Foram 40 lições, 2 provas e 5 testes numéricos. Inicialmente, foi proposto que a nota final seria dada por 30% da média dos questionário, 60% das médias das provas e 10% dos testes. Entretanto, devido à grande dificuldade deles com o retorno ao presencial, decidi por considerar 50% dos questionário, 40% das provas e 10% dos testes.</p>
+</section>
+<section id="o-que-funcionou" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-funcionou">O que funcionou</h2>
+<p>Os <a href="../../GA/textos-aulas-presenciais">textos com exercícios</a>, como dito acima, funcionaram bem como experiência para sala invertida. Com eles consegui:</p>
+<ul>
+<li>Maior concentração dos alunos e engajamento.</li>
+<li>Trabalhar leitura e interpretação de texto, coisa que na aula tradicional é deixado a cargo do aluno.</li>
+<li>Os alunos perceberam que era fundamental a preparação antes da aula.</li>
+<li>Instigar a discussão e colaboração.</li>
+</ul>
+<p>A diversificação na avaliação ajudou a aumentar a confiança dos alunos e a diminuir a desistência. Na aula tradicional, por conta da sobrecarga de trabalho na correção, costumamos usar apenas as provas escritas como avaliação, principalmente em turmas de massa. Com o Moodle fazendo a correção automática dos questionário e dos teses, pude pontuar o trabalho dos alunos fora da sala de aula. As provas escritas falham em medir este trabalho. Um aluno que tem insucesso nas provas escritas, não quer dizer que não aprendeu nada!</p>
+<p>Tivemos mais tempos pondo a mão na massa. Com o material das videoaulas fazendo a parte de exposição do conteúdo e a ajuda do Moodle nas correções, sobrou mais tempo para trabalhar os conteúdos com os alunos presencialmente. Ver quais eram exatamente as dificuldades. Pude dar feedback imediado aos alunos quando estavam fazendo os exercícios em aula.</p>
+<p>Percebi durante as aulas presenciais que eles tinham muitas dúvidas elementares, não tinham precisão para se expressar e dificuldade em reter informações. Nas provas escritas, coloquei uma questão só com perguntas elementares porém fundamentais para avaliar isso. Por exemplo:</p>
+<ul>
+<li>Qual é o objeto geométrico representado pela equação no espaço <img src="https://latex.codecogs.com/png.latex?x+y+3z+1=0"> e qual é a relação do vetor <img src="https://latex.codecogs.com/png.latex?u=(1,1,3)"> com esse objeto?</li>
+<li>Escreva a equação do círculo de raio 3 e centro (1,-2).</li>
+<li>Se <img src="https://latex.codecogs.com/png.latex?u"> e <img src="https://latex.codecogs.com/png.latex?v"> são vetores não nulos e <img src="https://latex.codecogs.com/png.latex?u%5Ccdot%20v=0">, o que pode-se dizer sobre eles?</li>
+</ul>
+<p>Surpreendente muitos alunos não souberam responder a essas perguntas. Em 12 anos de trabalho, nunca pensei que haviam alunos que saiam dos cursos sem saber responder questões tão elementares, mesmo eu tendo repetido essas coisas diversas vezes, por isso nunca tinha as colocado em provas. Somente trabalhando com eles em sala, ouvindo eles falarem, que pude perceber isso.</p>
+</section>
+<section id="o-que-não-funcionou" class="level2">
+<h2 class="anchored" data-anchor-id="o-que-não-funcionou">O que não funcionou</h2>
+<p>Apesar da divesificação da avaliação ter sido um ponto positivo, a distribuição final de 50%, 40% e 10% não foi uma boa escolha. Alguns alunos acabaram por passar sem precisar fazer nenhuma prova, muitos precisando de pouquíssimos pontos. Isso não seria um problema, se não fosse o fato de ter constatado, nas provas, que estes alunos não sabiam conceitos muito elementares e fundamentais.</p>
+<p>Como os questionários podiam ser feito várias vezes até obter a resposta correta, eles acabaram fazendo isso, mas depois não procuraram entender a resolução, ou seja, só se preocuparam em passar e não em aprender também, o que é muito frustrante para um professor. Vários alunos obtiveram 10 em todos os questionários, mas não sabiam determinar a equação de uma reta dados dois pontos, ou identificar a equação de um plano ou que dois vetores ortogonais tem produto escalar zero. Isso demonstra uma falta de compromisso com o próprio aprendizado. No primeiro dia de aula, e em vários momentos do curso, eu os advirto:</p>
+<blockquote class="blockquote">
+<p>O que mantém a universidade pública são os impostos pagos por toda a sociedade, portanto ela espera que vocês saiam daqui com uma formação de qualidade. Garantir esta qualidade é parte do meu trabalho, mas também <strong>é responsabilidade de vocês!</strong></p>
+</blockquote>
+<p>Essa distribuição de pontos também não favoreceu que os alunos levassem o curso até o final. Aqueles que obtiveram pontuação mínima para passar abandonaram o curso. Outra vez revelando a total falta de compromisso com o próprio aprendizado, o que dificulta nosso trabalho, pois temos que levar isso em conta, além de ser muito frustante saber que muitos alunos não se interssam pelo que está sendo ensinado, apenas em obter um diploma.</p>
+<p>Pedir para que eles resolvessem exercícios no quadro também não funcionou como eu esperava. A ideia da dinâmica era que eles pudessem cometer os erros antes de fazer as provas e ter tempo de se corrigirem. Entretanto eles ficam muito tensos e ansiosos. Querem sempre acertar e não recebem bem as críticas sobre seus erros. Talvez por serem calouros isso seja pior, parecem ainda não ter a maturidade necessária para lidar com a avaliação em frente aos colegas.</p>
+<p>Poucos alunos se interessaram por aprender um pouco de python. A grande maioria tentou resolver as questões dos testes na mão ou usando outra ferramenta gráfica mais simples de manipular como o Geogebra. Falhei em construir testes que fossem difícéis de resolver usando essas ferramentas. É preciso pensar uma forma melhor de engajar os alunos nisso. Eles têm muita resistência em aprender qualquer coisa nova, mesmo que reconheçam sua importância. Eles estão sempre muito preocupados em só passar na disciplina.</p>
+</section>
+<section id="conclusão" class="level2">
+<h2 class="anchored" data-anchor-id="conclusão">Conclusão</h2>
+<p>A experiência como um todo foi muito boa, principalmente no que diz respeito à proximidade da relação professor-aluno. Muito melhor que a abordagem tradicional. Obviamente há pontos que melhorar. Quando possível pretendo aplicar esta metodologia novamente com algumas adptações.</p>
+<p>A maior dificuldade é construir um bom material que viabilize a aplicação desta metologia. O tempo ganho com o trabalho presencial é garantido por uma dedicação prévia criando-se um bom material para substituir a aula expositiva (videoaulas é um exemplo) e um bom banco de questões/avaliações online.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>teaching</category>
+  <category>opinion</category>
+  <category>ensino</category>
+  <category>moodle</category>
+  <category>metodologias ativas</category>
+  <category>sala de aula invertida</category>
+  <guid>https://demarque.mat.br/posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html</guid>
+  <pubDate>Fri, 22 Jul 2022 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Relation between distributional derivatives</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/distributional.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="relation-between-distributional-derivatives-in-l20tl2omega-and-l2q" class="level1">
+<h1>Relation between distributional derivatives in <img src="https://latex.codecogs.com/png.latex?L%5E2(0,T;L%5E2(%5COmega))"> and <img src="https://latex.codecogs.com/png.latex?L%5E2(Q)"></h1>
+<section id="distributional-derivatives" class="level2">
+<h2 class="anchored" data-anchor-id="distributional-derivatives">Distributional Derivatives</h2>
+<p>Given <img src="https://latex.codecogs.com/png.latex?T%3E0"> and <img src="https://latex.codecogs.com/png.latex?%5COmega%5Csubset%20%5Cmathbb%7BR%7D%5En"> an open set let us denote <img src="https://latex.codecogs.com/png.latex?Q=(0,T)%5Ctimes%20%5COmega">. A function <img src="https://latex.codecogs.com/png.latex?u%5Cin%20L%5E2(Q)"> can also be seen as a vector valued mapping in <img src="https://latex.codecogs.com/png.latex?L%5E2(0,T;L%5E2(%5COmega))">. This give us two notion of distributional derivatives. Our aim is prove they coincide. In order to do that, we need to introduce a fundamental density result given in <span class="citation" data-cites="friedlander1998introduction">(Friedlander et al. 1998)</span>.</p>
+<p>Given <img src="https://latex.codecogs.com/png.latex?%5COmega_x%5Csubset%20%5Cmathbb%7BR%7D%5En">, <img src="https://latex.codecogs.com/png.latex?%5COmega_y%5Cin%20%5Cmathbb%7BR%7D%5Em"> open sets, let <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(%5COmega_x)">, <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(%5COmega_y)"> and <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(%5COmega_x%5Ctimes%20%5COmega_y)"> be the test space of infinitely differentiable functions with compact support.</p>
+<p><strong>Definition 1.1: </strong> Let <img src="https://latex.codecogs.com/png.latex?f:%5COmega_x%5Clongrightarrow%20%5Cmathbb%7BR%7D"> and <img src="https://latex.codecogs.com/png.latex?g:%5COmega_y%5Clongrightarrow%20%5Cmathbb%7BR%7D">. The <em>Tensor product</em> of <img src="https://latex.codecogs.com/png.latex?f"> and <img src="https://latex.codecogs.com/png.latex?g"> is a function on <img src="https://latex.codecogs.com/png.latex?%5COmega_x%5Ctimes%20%5COmega_y"> defined by <img src="https://latex.codecogs.com/png.latex?f%5Cotimes%20g(x,y)=f(x)g(y),%5C%20%5Cforall%20(x,y)%5Cin%20%5COmega_x%5Ctimes%5COmega_y."></p>
+<p>Let us denote by <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(%5COmega_x)%5Cotimes%20%5Cmathcal%7BD%7D(%5COmega_y)"> the subspace of <img src="https://latex.codecogs.com/png.latex?C_c%5E%5Cinfty(%5COmega_x%5Ctimes%5COmega_y)"> generated by function of the form <img src="https://latex.codecogs.com/png.latex?%5Cphi%5Cotimes%20%5Cpsi">, where <img src="https://latex.codecogs.com/png.latex?%5Cphi%20%5Cin%20%5Cmathcal%7BD%7D(%5COmega_x)"> and <img src="https://latex.codecogs.com/png.latex?%5Cpsi%20%5Cin%20%5Cmathcal%7BD%7D(%5COmega_y)">.</p>
+<p><strong>Theorem 1.2:</strong> The space <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(%5COmega_x)%5Cotimes%20%5Cmathcal%7BD%7D(%5COmega_y)"> is dense in <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(%5COmega_x%5Ctimes%20%5COmega_y)">.</p>
+<p><em>Proof:</em> See Theorem 4.3.1 <span class="citation" data-cites="friedlander1998introduction">(Friedlander et al. 1998.)</span></p>
+<p>Now, let us define the two notions of distributional derivatives. Let us denote by <img src="https://latex.codecogs.com/png.latex?((%5Ccdot,%5Ccdot))"> inner product in <img src="https://latex.codecogs.com/png.latex?L%5E2(Q)"> and <img src="https://latex.codecogs.com/png.latex?(%5Ccdot,%5Ccdot)"> the inner product in <img src="https://latex.codecogs.com/png.latex?L%5E2(%5COmega)"> or <img src="https://latex.codecogs.com/png.latex?L%5E2(0,T)">.</p>
+<p>Given <img src="https://latex.codecogs.com/png.latex?u%5Cin%20L%5E2(Q)"> we have distributional derivatives <img src="https://latex.codecogs.com/png.latex?D_tu,D_xu%5Cin%20%5Cmathcal%7BD%7D'(Q)"> given by</p>
+<p>
+<img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bsplit%7D%0A&amp;%5Clangle%5C!%5Clangle%20D_tu,%20%5Cphi%20%5Crangle%5C!%5Crangle%20=(%5C!(u,%5Cphi_t)%5C!)=-%5Ciint%5Climits_Q%20u(t,x)%5Cphi_t(t,x)%5C,dx%20dt,%5C%20%5Cforall%20%5Cphi%20%5Cin%20%5Cmathcal%7BD%7D(Q),%20%5C%5C%0A&amp;%20%5Clangle%5C!%5Clangle%20D_%7Bx_i%7Du,%20%5Cphi%5Crangle%5C!%5Crangle=%20(%5C!(u,%5Cphi_%7Bx_i%7D)%5C!)=-%5Ciint%5Climits_Q%20u(t,x)%5Cphi_%7Bx_i%7D(t,x)%5C,dxdt%5C%20%5Cforall%20%5Cphi%20%5Cin%20%5Cmathcal%7BD%7D(Q),%5C%20%5Cforall%20i=1,%5Cldots,n.%0A%5Cend%7Bsplit%7D">
+</p><p>
+</p><p>We also can see <img src="https://latex.codecogs.com/png.latex?u"> as a vector-valued mapping in <img src="https://latex.codecogs.com/png.latex?L%5E2(0,T;L%5E2(%5COmega))">, that is, <img src="https://latex.codecogs.com/png.latex?u:%20t%5Cin%20(0,T)%5Clongmapsto%20u(t,%5Ccdot)%20%5Cin%20L%5E2(%5COmega)">. In this space, we have the following notion of distributional derivative: <img src="https://latex.codecogs.com/png.latex?u':%5Cmathcal%7BD%7D(0,T)%5Clongrightarrow%20L%5E2(%5COmega)"> is defined by</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Clangle%20u',%5Cvarphi%20%5Crangle=-(u,%5Cvarphi')=-%5Cint_0%5ET%20u(t,x)%5Cvarphi(t)d%20t,%20%5C%20%5Cforall%20%5Cvarphi%20%5Cin%20%5Cmathcal%7BD%7D(0,T)."></p>
+<p>Similarly, we can define <img src="https://latex.codecogs.com/png.latex?u_%7Bx_i%7D:(0,T)%5Clongrightarrow%20%5Cmathcal%7BD%7D'(%5COmega)"> defined by</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Clangle%20u_%7Bx_i%7D(t),%5Cpsi%5Crangle=-(u(t),%5Cpsi_%7Bx_i%7D)=-%5Cint%5Climits_%5COmega%20u(t,x)%5Cpsi_%7Bx_i%7D(x)%5C,dx,%20%5Cforall%20%5Cpsi%20%5Cin%20%5Cmathcal%7BD%7D(%5COmega)."></p>
+<p><strong>Proposition 1.3:</strong> If <img src="https://latex.codecogs.com/png.latex?u%5Cin%20L%5E2(0,T;L%5E2(%5COmega))">, then <img src="https://latex.codecogs.com/png.latex?u_%7Bx_i%7D%5Cin%20L%5E2(0,T;H%5E%7B-1%7D(%5COmega))">.</p>
+<p><em>Proof:</em> Since <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(%5COmega)"> is dense in <img src="https://latex.codecogs.com/png.latex?H_0%5E%7B1%7D(%5COmega)">, we can extend <img src="https://latex.codecogs.com/png.latex?u_%7Bx_i%7D(t)"> to <img src="https://latex.codecogs.com/png.latex?H%5E%7B-1%7D(%5COmega)">. We just need to prove that <img src="https://latex.codecogs.com/png.latex?%5C%7Cu_%7Bx_i%7D(t)%5C%7C_%7BH%5E%7B-1%7D%7D%5Cin%20L%5E2(0,T)">.</p>
+Indeed, given <img src="https://latex.codecogs.com/png.latex?v%5Cin%20H_0%5E1(%5COmega)">,
+<p>
+<img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bequation%7D%0A%5Cleft%7C%5Clangle%20u_%7Bx_i%7D(t),v%5Crangle%5Cright%7C%5Cleq%20%7C(u(t),v_x)%7C%5Cleq%20%5C%7Cu(t)%5C%7C_%7BL%5E2(%5COmega)%7D%20%5C%7Cv%5C%7C_%7BH_0%5E1(%5COmega)%7D,%0A%5Cend%7Bequation%7D%0A">
+</p>
+whence,
+<p>
+<img src="https://latex.codecogs.com/png.latex?%0A%5C%7Cu_%7Bx_i%7D(t)%5C%7C_%7BH%5E%7B-1%7D(%5COmega)%7D%5Cleq%20%5C%7Cu(t)%5C%7C_%7BL%5E2(%5COmega)%7D%5Cin%20L%5E2(0,T).%0A">
+</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Csquare"></p>
+<p>Our aim is to prove that the two notions of distributional derivative coincide. To do that, let us see define <img src="https://latex.codecogs.com/png.latex?u'"> and <img src="https://latex.codecogs.com/png.latex?u_%7Bx_i%7D"> as distributions in <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(Q)">.</p>
+<p>Given <img src="https://latex.codecogs.com/png.latex?%5Cvarphi%5Cin%20%5Cmathcal%7BD%7D(0,T)"> and <img src="https://latex.codecogs.com/png.latex?%5Cpsi%5Cin%20%5Cmathcal%7BD%7D(%5COmega)">, we define</p>
+<p>
+<img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%0A%20%20%20%20%5Clangle%5C!%5Clangle%20u',%5Cvarphi%5Cotimes%5Cpsi%5Crangle%5C!%5Crangle%20:=(%5Clangle%20u',%5Cvarphi%5Crangle,%5Cpsi)=-%5Cint%5Climits_%5COmega%20(u,%5Cvarphi')%5Cpsi%5C,%20dx=-%5Ciint%5Climits_Q%20u(t,x)%5Cvarphi'(t)%5Cpsi(x)%5C,dxdt=%5Clangle%5C!%5Clangle%20D_tu,%5Cvarphi%5Cotimes%20%5Cpsi%5Crangle%5C!%5Crangle.%0A%5Cend%7Bequation%7D">
+</p><p>
+</p><p>Since <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(0,T)%5Cotimes%20%5Cmathcal%7BD%7D(%5COmega)"> is dense in <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(Q)"> (Theorem 1.2) we can define <img src="https://latex.codecogs.com/png.latex?u'"> as a distribution in <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(Q)"> and we also have that <img src="https://latex.codecogs.com/png.latex?u'=D_tu%5Cin%20%5Cmathcal%7BD%7D'(Q)">.</p>
+<p>Similarly, we define</p>
+<p>
+<img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation*%7D%0A%20%20%20%20%5Clangle%5C!%5Clangle%20u_%7Bx_i%7D,%5Cvarphi%5Cotimes%5Cpsi%5Crangle%5C!%5Crangle:=(%5Clangle%20u_%7Bx_i%7D(t),%5Cpsi%5Crangle,%5Cvarphi)=-%5Cint_0%5ET%20%20(u,%5Cpsi_%7Bx_i%7D)%5Cvarphi%5C,%20dx=-%5Ciint%5Climits_Q%20u(t,x)%5Cvarphi(t)%5Cpsi_%7Bx_i%7D(x)%5C,%20dxdt=%5Clangle%5C!%5Clangle%20D_xu,%5Cvarphi%5Cotimes%20%5Cpsi%5Crangle%5C!%5Crangle.%0A%5Cend%7Bequation*%7D">
+</p>
+<p>And, we have that <img src="https://latex.codecogs.com/png.latex?u_%7Bx_i%7D=D_%7Bx_i%7Du"> in <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D'(Q)">.</p>
+<p>Therefore, we also can conclude that <img src="https://latex.codecogs.com/png.latex?D_tu=u'%5Cin%20D'(0,T;L%5E2(%5COmega))"> and <img src="https://latex.codecogs.com/png.latex?D_%7Bx_i%7Du=u_%7Bx_i%7D%5Cin%20L%5E2(0,T;H%5E%7B-1%7D(%5COmega))">.</p>
+<p>Furthermore, we can see that <img src="https://latex.codecogs.com/png.latex?u_%7Bx_ix_j%7D%5Cin%20L%5E2(0,T;H%5E%7B-2%7D(%5COmega))">. Following the same reasoning, we can define <img src="https://latex.codecogs.com/png.latex?u_%7Bx_ix_j%7D"> on <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(0,T)%5Cotimes%20%5Cmathcal%7BD%7D(%5COmega)"> and, by a density argument, extend it to <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D(Q)"> with <img src="https://latex.codecogs.com/png.latex?D_%7Bx_ix_j%7Du=u_%7Bx_ix_j%7D"> in <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D'(Q)">. Similarly, <img src="https://latex.codecogs.com/png.latex?u_%7Btt%7D%5Cin%20%5Cmathcal%7BD%7D'(0,T;L%5E2(%5COmega))">, then we can define <img src="https://latex.codecogs.com/png.latex?u''"> as a distribution <img src="https://latex.codecogs.com/png.latex?%5Cmathcal%7BD%7D'(Q)"> with <img src="https://latex.codecogs.com/png.latex?D_%7Btt%7Du=u''">.</p>
+<p>Therefore, from now on, we will stop using the <img src="https://latex.codecogs.com/png.latex?D">-notation for distributional derivative in <img src="https://latex.codecogs.com/png.latex?Q"> and use the same notation of vector-distribution.</p>
+</section>
+<section id="application-to-ultra-weak-solution-of-wave-equation" class="level2">
+<h2 class="anchored" data-anchor-id="application-to-ultra-weak-solution-of-wave-equation">Application to ultra-weak solution of wave equation</h2>
+<p>Let us consider the problem</p>
+<p>
+<img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bequation%7D%5Ctag%7B1%7D%5Clabel%7Bpb1%7D%0A%20%20%20%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20z''-%5CDelta%20z=0%20%5Ctext%7B%20in%20%7D%20Q,%5C%5C%0A%20%20%20%20%20%20%20%20z=0%20%5Ctext%7B%20on%20%7D%20(0,T)%5Ctimes%20%5Cpartial%20%5COmega,%5C%5C%0A%20%20%20%20%20%20%20%20z(0)=z%5E0,%5C%20z'(0)=z%5E1%20%5Ctext%7B%20in%20%7D%20%5COmega,%0A%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D%0A">
+</p>
+<p>where <img src="https://latex.codecogs.com/png.latex?z%5E0%5Cin%20L%5E2(%5COmega)"> and <img src="https://latex.codecogs.com/png.latex?z%5E1%5Cin%20H%5E%7B-1%7D(%5COmega)">. As the initial values are not regular, we need a different definition of solution, the so called <strong><em>solution by transposition</em></strong> or <strong><em>ultra weak solution</em></strong>.</p>
+<p><strong>Definition 2.1: </strong> Given <img src="https://latex.codecogs.com/png.latex?(z%5E0,z%5E1)%5Cin%20L%5E2(%5COmega)%5Ctimes%20H%5E%7B-1%7D(%5COmega)">, we say <img src="https://latex.codecogs.com/png.latex?z%5Cin%20L%5E2(Q)"> is a <strong><em>ultra weak solution</em></strong> or a <strong><em>solution by transposition</em></strong> of <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Bpb1%7D"> if, for each <img src="https://latex.codecogs.com/png.latex?f%5Cin%20%5Cmathcal%7BD%7D(Q)"> given, we have <img src="https://latex.codecogs.com/png.latex?%0A%5Ciint%5Climits_Q%20zf%20d%20xd%20t=-(z%5E0,%5Ctheta'(0))+%5Clangle%20z%5E1,%5Ctheta(0)%5Crangle,%0A"></p>
+<p>where <img src="https://latex.codecogs.com/png.latex?%5Ctheta"> is the classical solution of</p>
+<p>
+<img src="https://latex.codecogs.com/png.latex?%0A%5Cbegin%7Bequation%7D%5Clabel%7Bpb2%7D%5Ctag%7B2%7D%0A%20%20%20%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%5Ctheta''-%5CDelta%20%5Ctheta=f%20%5Ctext%7B%20in%20%7D%20Q,%5C%5C%0A%20%20%20%20%20%20%20%20%5Ctheta=0%20%5Ctext%7B%20on%20%7D%20(0,T)%5Ctimes%20%5Cpartial%20%5COmega,%5C%5C%0A%20%20%20%20%20%20%20%20%5Ctheta(T)=%5Ctheta'(T)=0%5Ctext%7B%20in%20%7D%20%5COmega.%0A%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D%0A">
+</p>
+<p>Let us estate an existence result which can be seen in Theorem 4.2, pag. 46 of <span class="citation" data-cites="lions1988">(Lions 1988)</span> or Theorem 4.1, pag. 45 of <span class="citation" data-cites="medeiros2013introduction">(Medeiros, Miranda, e Lourêdo 2013)</span></p>
+<p><strong><em>Theorem 2.2:</em></strong> Let <img src="https://latex.codecogs.com/png.latex?%5COmega%5Csubset%20%5Cmathbb%7BR%7D%5En"> be a bounded domain with <img src="https://latex.codecogs.com/png.latex?%5Cpartial%20%5COmega"> of class <img src="https://latex.codecogs.com/png.latex?C%5E2">. For all <img src="https://latex.codecogs.com/png.latex?(z%5E0,z%5E1)%5Cin%20L%5E2(%5COmega)%5Ctimes%20H%5E%7B-1%7D(%5COmega)">, there exist a unique ultra weak solution <img src="https://latex.codecogs.com/png.latex?z"> of <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Bpb1%7D">. Moreover, <img src="https://latex.codecogs.com/png.latex?z%5Cin%20C%5E0(%5B0,T%5D;L%5E2(%5COmega))%5Ccap%20C%5E1(%5B0,T%5D;H%5E%7B-1%7D(%5COmega))"> and there exists <img src="https://latex.codecogs.com/png.latex?C%3E0"> such that <img src="https://latex.codecogs.com/png.latex?%0A%5C%7Cz%5C%7C_%7BL%5E%5Cinfty(0,T;L%5E2(%5COmega))%7D+%5C%7Cz'%5C%7C_%7BL%5E%5Cinfty(0,T;L%5E2(%5COmega))%7D%20%5Cleq%20C%5Cleft(%5C%7Cz%5E0%5C%7C_%7BL%5E2(%5COmega)%7D+%5C%7Cz%5E1%5C%7C_%7BH%5E%7B-1%7D(%5COmega)%7D%5Cright).%0A"></p>
+<p>For the sake of simplicity, from now on, we will consider <img src="https://latex.codecogs.com/png.latex?%5COmega=(0,1)">.</p>
+<p>Given <img src="https://latex.codecogs.com/png.latex?z%5E1%5Cin%20H%5E%7B-1%7D(%5COmega)">, take <img src="https://latex.codecogs.com/png.latex?%5Cpsi%5Cin%20H_0%5E1(%5COmega)"> the weak solution to the elliptic problem <img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation*%7D%0A%20%20%20%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20%5Cpsi_%7Bxx%7D%20=%20z%5E1%20%5Ctext%7B%20in%20%7D%20%5COmega,%5C%5C%0A%20%20%20%20%20%20%20%20%5Cpsi=0%20%5Ctext%7B%20in%20%20%7D%20%5Cpartial%20%5COmega.%0A%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation*%7D"></p>
+<p>Given <img src="https://latex.codecogs.com/png.latex?z"> a ultra weak solution of <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Bpb1%7D">, define <img src="https://latex.codecogs.com/png.latex?w(t,x)=%5Cint_0%5Et%20z(s,x)d%20s+%5Cpsi(x)">. Let us prove that <img src="https://latex.codecogs.com/png.latex?w"> is a weak solution of</p>
+<p><img src="https://latex.codecogs.com/png.latex?%5Cbegin%7Bequation%7D%5Clabel%7Bpb3%7D%5Ctag%7B3%7D%0A%20%20%20%20%5Cbegin%7Bcases%7D%0A%20%20%20%20%20%20%20%20w''-w_%7Bxx%7D=0%20%5Ctext%7B%20in%20%7D%20Q,%5C%5C%0A%20%20%20%20%20%20%20%20w=0%20%5Ctext%7B%20on%20%7D%20(0,T)%5Ctimes%20%5Cpartial%20%5COmega,%5C%5C%0A%20%20%20%20%20%20%20%20w(0)=%5Cpsi,%5C%20w'(0)=z%5E0%20%5Ctext%7B%20in%20%7D%20%5COmega.%0A%20%20%20%20%5Cend%7Bcases%7D%0A%5Cend%7Bequation%7D"></p>
+<p>It is easy to see that <img src="https://latex.codecogs.com/png.latex?w(0)=%5Cpsi%5Cin%20H_0%5E1(%5COmega)">, <img src="https://latex.codecogs.com/png.latex?w'(0)=z%5E0%5Cin%20L%5E2(%5COmega)"> and <img src="https://latex.codecogs.com/png.latex?w=0"> on <img src="https://latex.codecogs.com/png.latex?(0,T)%5Ctimes%20%5COmega">. We just need to prove that <img src="https://latex.codecogs.com/png.latex?w"> satisfies the equation in the weak sense.</p>
+<p>First, let us prove that <img src="https://latex.codecogs.com/png.latex?z''-z_%7Bxx%7D=0%20%5Ctext%7B%20in%20%7D%20%5Cmathcal%7BD%7D'(Q)."> Indeed, given <img src="https://latex.codecogs.com/png.latex?%5Cphi%5Cin%20%5Cmathcal%7BD%7D(Q)">, we have that <img src="https://latex.codecogs.com/png.latex?%5Cphi"> is the solution to <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Bpb2%7D"> with <img src="https://latex.codecogs.com/png.latex?f=%5Cphi''-%5Cphi_%7Bxx%7D">. From definition of ultra weak solution we have that <img src="https://latex.codecogs.com/png.latex?%5Ciint%5Climits_Q%20z(%5Cphi''-%5Cphi_%7Bxx%7D)d%20xd%20t=-(z%5E0,%5Cphi'(0))+%5Clangle%20z%5E1,%5Cphi(0)%5Crangle%20=0."> Hence, <img src="https://latex.codecogs.com/png.latex?%5Clangle%5C!%5Clangle%20z''-z_%7Bxx%7D,%5Cphi%5Crangle%5C!%5Crangle=0,"> that is <img src="https://latex.codecogs.com/png.latex?z''-z_%7Bxx%7D%20%5Ctext%7B%20in%20%7D%20%5Cmathcal%7BD%7D'(Q)."> Consequently, <img src="https://latex.codecogs.com/png.latex?z''-z_%7Bxx%7D=0%20%5Ctext%7B%20a.e%20%20in%20%7D%20Q."> Since <img src="https://latex.codecogs.com/png.latex?z_%7Bxx%7D%5Cin%20C%5E0(%5B0,T%5D;H%5E%7B-2%7D(%5COmega))">, then <img src="https://latex.codecogs.com/png.latex?z''%5Cin%20C%5E0(%5B0,T%5D;H%5E%7B-2%7D(%5COmega))">. Also, note that <img src="https://latex.codecogs.com/png.latex?w''=z'%5Cin%20C%5E0(%5B0,T%5D;H%5E%7B-1%7D(%5COmega))">. Hence, we can see <img src="https://latex.codecogs.com/png.latex?w_%7Bxx%7D(t)=%5Cint_0%5Etz_%7Bxx%7D(s)d%20s+%5Cpsi_%7Bxx%7D=%5Cint_0%5Et%20z''(s)d%20s+z%5E1=z'(t)-z'(0)+z%5E1=w''(t)."> Then <img src="https://latex.codecogs.com/png.latex?w"> is a weak solution to <img src="https://latex.codecogs.com/png.latex?%5Ceqref%7Bpb3%7D"> and <img src="https://latex.codecogs.com/png.latex?w_%7Bxx%7D%5Cin%20C%5E0(%5B0,T%5D;H%5E%7B-1%7D(%5COmega))">. Hence, from regularity results, we know that <img src="https://latex.codecogs.com/png.latex?w%5Cin%20L%5E%5Cinfty(0,T;H_0%5E1(%5COmega))">, which implies <img src="https://latex.codecogs.com/png.latex?z=w'%5Cin%20D'(0,T;H_0%5E1(%5COmega))">, that is, <img src="https://latex.codecogs.com/png.latex?z(t,%5Ccdot)%5Cvarphi(t)%20%5Cin%20H_0%5E1(%5COmega),%5C%20%5Cforall%20%5Cvarphi%5Cin%20%5Cmathcal%7BD%7D(0,T)%20%5Ctext%7B%20and%20%20a.e%20in%20%7D%20(0,T)."></p>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0">
+<div id="ref-friedlander1998introduction" class="csl-entry">
+Friedlander, Friedrich Gerard, Mark Suresh Joshi, M Joshi, e Mohan C Joshi. 1998. <em>Introduction to the Theory of Distributions</em>. Cambridge University Press.
+</div>
+<div id="ref-lions1988" class="csl-entry">
+Lions, Jaques-Louis. 1988. <em>Contrôlabilité Exacte, Perturbations et Stabilisation de Systémes Distribués</em>. Masson, Paris.
+</div>
+<div id="ref-medeiros2013introduction" class="csl-entry">
+Medeiros, LA, MM Miranda, e AT Lourêdo. 2013. <em>Introduction to exact control theory</em>. Method HUM, eduepb. <a href="http://dspace.bc.uepb.edu.br/jspui/handle/123456789/13358">http://dspace.bc.uepb.edu.br/jspui/handle/123456789/13358</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>mathematics</category>
+  <category>PDE</category>
+  <guid>https://demarque.mat.br/posts/distributional.html</guid>
+  <pubDate>Thu, 21 Jul 2022 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Como usar Python no LaTeX</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/2022-07-21-como-usar-python-no-latex/pythontex.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="configurando-e-compilando" class="level1">
+<h1>Configurando e compilando</h1>
+<p>Recentemente me perguntei se poderia usar o python para gerar gabarito de provas. Eis que descobri o pythontex! Uma rápida pesquisa no google me levou ao site: <a href="https://www.12000.org/my_notes/python_in_latex/index.htm">A very simple introduction to using Python in Latex</a></p>
+<p>Ali aprendi dicas valiosas e em poucos minutos consegui fazer o que queria. Mas tive algumas dificuldades em tornar mais prática a compilação no linux usando o TexStudio. Depois de mais pesquisas e quebrar um pouco a cabeça consegui um resultado que esta satisfatório para mim. Abaixo descrevo este processo.</p>
+<p>Para usar o python no latex usamos o pacote <code>\usepackage{pythontex}</code>. No site citado acima ele dá vário exemplos para testar. Ele também ensina que para gerar o pdf com os códigos em python precisa compilar o latex no terminal da seguitne forma:</p>
+<blockquote class="blockquote">
+<p>pdflatex foo.tex<br>
+/usr/share/texlive/texmf-dist/scripts/pythontex/pythontex3.py<br>
+foo.tex</p>
+</blockquote>
+<p>Entretanto isso é muito chato, pois tem que ficar rodando 3 vezes no terminal toda hora que queremos ver o resultado. Para otimizar isso, precisamos acrescentar linhas de compilação no TexStudio.</p>
+<p>Primeiramente, deve-se ter o Anaconda instalado no computador. E precisa abrir o TexStudio via terminal.</p>
+<p>No TexStudio basta ir em: configurações-&gt; compilação comandos do utilizador e acrescentar novos comandos como abaixo:</p>
+<p><img src="https://demarque.mat.br/posts/2022-07-21-como-usar-python-no-latex/fig.png" class="img-fluid"></p>
+<p>Daí, para compilar o arquivo é só ir em Ferramentas -&gt; Utilizador e escolher o python-comp</p>
+<p>Para facilitar ainda mais eu criei um atalho na tecla F2 para este comando.</p>
+</section>
+<section id="gerando-dois-arquvivos-prova-e-gabarito-simultaneamente" class="level1">
+<h1>Gerando dois arquvivos, prova e gabarito, simultaneamente</h1>
+<p>Preparo minhas provas usando pacote <a href="https://ctan.org/pkg/exam">exam</a>. Eu costumava gerar o gabarito usando no preâmbulo <code>\documentclass[answers]{exam}</code>. Depois do gabarito pronto, para gerar a prova e esconder as soluções eu trocava o preâmbulo para <code>\documentclass[noanswers]{exam}</code>.</p>
+<p>O inconveniente disso é que sempre que você quer o gabarito ou a prova, precisa modificar o preâmbulo e compilar novamente. Além disso, você sempre fica com um arquivo ou outro. Para se ter os dois arquivos, uma solução seria gerar dois arquivos com preâmbulos diferentes, mas o incoveniente disso é manter as atualizações de um para o outro.</p>
+<p>Buscando por soluções na internet para poder gerar os dois arquivos simultaneamente, encontrei a seguinte solução.</p>
+<p>Cria-se o arquivo do gabarito com um nome que contenha a palavara gabarito, por exemplo <code>p1-gabarito.tex</code>. No seu preâmbulo incluindo-se o seguinte:</p>
+<p>`</p>
+<pre><code>
+Quando  compilar o arquivo, o $\LaTeX$ vai verificar se o nome do arquivo contém a palavra gabarito. Em caso afirmativo ele vai compilar com o comando `\printanswers`, caso contrário, ele vai compilar com `\noprintanswers`.
+
+Agora basta duplicar o arquivo e renomear sem  a palavra gabarito no nome, por exemplo, `p1.tex` ou  `p1-provas.tex`. E então compilar este arquivo também. 
+
+A fim de automatizar este processo, depois de criar o arquivo gabarito,  basta criar um script no linux da seguinte forma:
+
+Cria-se um arquivo `.sh` com o seguinte conteúdo:
+
+```{verbatim}
+
+#!/bin/bash
+
+cp p1-gabarito.tex p1-prova.tex
+latexmk
+/usr/share/texlive/texmf-dist/scripts/pythontex/pythontex3.py p1-gabarito.tex
+
+/usr/share/texlive/texmf-dist/scripts/pythontex/pythontex3.py p1-prova.tex
+latexmk
+</code></pre>
+<p>Então basta rodar este script no terminal. Ele vai copiar o gabarito e renomeá-lo como <code>p1-prova.tex</code>. Depois ele vai rodar o latexmk e o python tanto para o gabarito quanto para o arquivo prova. Isso vai gerar dois pdf, um com o gabarito, contendo às respostas e outro com a prova sem as respostas.</p>
+<p>Aqui está um exemplo de uma prova que elaborei e os pdfs gerados</p>
+<ol type="1">
+<li><p>Arquivo .tex e figura para o cabeçalho: <a href="2023-2-p1-M1-c3-gabarito.tex">2023-2-p1-M1-c3-gabarito.tex</a>, <a href="brasao-cor.png">braso-cor.png</a></p></li>
+<li><p>Pdfs gerados pelo script: <a href="2023-2-p1-M1-c3-gabarito.pdf">2023-2-p1-M1-c3-gabarito.pdf</a>, <a href="2023-2-p1-M1-c3-prova.pdf">2023-2-p1-M1-c3-prova.pdf</a></p></li>
+<li><p>Script: <a href="compilar.sh">compilar.sh</a></p></li>
+</ol>
+
+
+</section>
+
+ ]]></description>
+  <category>tool</category>
+  <category>latex</category>
+  <category>python</category>
+  <guid>https://demarque.mat.br/posts/2022-07-21-como-usar-python-no-latex/pythontex.html</guid>
+  <pubDate>Mon, 11 Jul 2022 03:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

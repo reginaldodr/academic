@@ -7,7 +7,7 @@ nocite: |
  @*
 ---
 
-![](caneta.png){fig-align="center" width=70%}
+![](images/caneta.png){fig-align="center" width=70%}
 
 
 ## Preprints

@@ -8,7 +8,7 @@
 
 <meta name="author" content="Reginaldo Demarque">
 
-<title>Cresimento Logístico com Python</title>
+<title>Cresimento Logístico com Python – Prof.&nbsp;Reginaldo Demarque</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -135,7 +135,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Cresimento Logístico com Python">
+<meta name="twitter:title" content="Cresimento Logístico com Python – Prof.&nbsp;Reginaldo Demarque">
 <meta name="twitter:description" content="Professor Associado 3, RCN, UFF">
 <meta name="twitter:card" content="summary">
 </head>
@@ -157,6 +157,10 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text"><i class="bi bi-house fs-5"></i></span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Ensino</span></a>
@@ -264,7 +268,7 @@ Exemplo
 <p>Note que <span class="math display">\[\int\frac{dy}{y(10-y)}=\frac{1}{10}\int\frac{1}{y}+\frac{1}{10-y}dy=\frac{1}{10}(\log|y|-\log|10-y|)+c_1\]</span></p>
 <p>Com isso, <span class="math display">\[\log\left|\frac{y}{10-y}\right|=kt+c_2\Rightarrow \frac{y}{10-y}=Ce^{kt}\]</span></p>
 <p>Agora, vamos usar a biblioteca <code>sympy</code> do python para substituir o dado inicial <span class="math inline">\(y(0)=0.4\)</span> a fim de obter <span class="math inline">\(C\)</span>.</p>
-<div id="b2be5391" class="cell" data-execution_count="1">
+<div id="b367a40b" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sympy <span class="im">as</span> sp</span>
@@ -287,7 +291,7 @@ Exemplo
 </div>
 </div>
 <p>Neste caso obtemos que <span class="math inline">\(C=\frac{1}{24}\)</span>. Substituindo na equação obtida ficamos com</p>
-<div id="7fdfb8e6" class="cell" data-execution_count="2">
+<div id="1611d207" class="cell" data-execution_count="2">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>eq2<span class="op">=</span>eq1.subs(C,c0)</span>
@@ -298,7 +302,7 @@ Exemplo
 </div>
 </div>
 <p>Agora vamos encontrar <span class="math inline">\(k\)</span> usando o segundo dado <span class="math inline">\(y(1)=1.2\)</span>.</p>
-<div id="e9cd1ac1" class="cell" data-execution_count="3">
+<div id="2494a791" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>sol2<span class="op">=</span>sp.solve(eq2.subs([(t,<span class="dv">1</span>),(y,y1)]),k)</span>
@@ -310,7 +314,7 @@ Exemplo
 </div>
 </div>
 <p>Vamos substituir na equação e simplificar:</p>
-<div id="f4efe2ea" class="cell" data-execution_count="4">
+<div id="8ac8a492" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>eq3<span class="op">=</span>eq2.subs(k,k0)</span>
@@ -321,7 +325,7 @@ Exemplo
 </div>
 </div>
 <p>Agora vamos isolar <span class="math inline">\(y\)</span>, encontrando finalmente a função buscada.</p>
-<div id="62161de0" class="cell" data-execution_count="5">
+<div id="48f1fdf8" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>sol3<span class="op">=</span>sp.solve(eq3,y)</span>
@@ -333,7 +337,7 @@ Exemplo
 </div>
 </div>
 <p>Vamos agora esboçar o gráfico desta função no intervalo <span class="math inline">\([0,10]\)</span>.</p>
-<div id="d6341e2d" class="cell" data-execution_count="6">
+<div id="8a560385" class="cell" data-execution_count="6">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>sp.plot(Y,(t,<span class="dv">0</span>,<span class="dv">10</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -363,7 +367,7 @@ Exemplo
 </div>
 <p>Queremos encontrar o tempo <span class="math inline">\(T\)</span> para o qual <span class="math inline">\(y(T)=5\)</span>, isto é, resolver a equação:</p>
 <p><span class="math display">\[5=\frac{10 }{1 + 24\left(\frac{36}{11}\right)^{-t}}.\]</span></p>
-<div id="60d1811a" class="cell" data-execution_count="7">
+<div id="cdf8b210" class="cell" data-execution_count="7">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb9"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>sol3<span class="op">=</span>sp.solve(sp.Eq(Y,<span class="dv">5</span>),t)</span>
