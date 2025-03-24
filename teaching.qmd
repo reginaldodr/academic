@@ -5,7 +5,7 @@ format:
   html:
     toc: false
 ---
-![](capa-teaching.png)
+![](/images/capa-teaching.png)
 
 
 ### Turmas Atuais -- 2025-1

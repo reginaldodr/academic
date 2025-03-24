@@ -1,47 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://demarque.mat.br/index.html</loc>
-    <lastmod>2025-03-21T11:37:32.628Z</lastmod>
+    <loc>https://demarque.mat.br/semigrupos/verao-2025/minicurso-2025-verao.html</loc>
+    <lastmod>2025-02-23T19:23:56.034Z</lastmod>
   </url>
   <url>
-    <loc>https://demarque.mat.br/licenca.html</loc>
-    <lastmod>2025-03-15T15:37:32.361Z</lastmod>
+    <loc>https://demarque.mat.br/calculoII.html</loc>
+    <lastmod>2025-01-09T13:05:15.708Z</lastmod>
   </url>
   <url>
-    <loc>https://demarque.mat.br/teaching.html</loc>
-    <lastmod>2025-03-08T21:12:37.706Z</lastmod>
+    <loc>https://demarque.mat.br/calculoIII/c3-2023-2.html</loc>
+    <lastmod>2025-01-09T13:05:15.905Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoIII/c3-2023-1.html</loc>
+    <lastmod>2025-01-09T13:05:15.905Z</lastmod>
   </url>
   <url>
     <loc>https://demarque.mat.br/logo.html</loc>
     <lastmod>2025-03-17T12:32:15.503Z</lastmod>
   </url>
   <url>
+    <loc>https://demarque.mat.br/GA/listas-boulos-espacial/index.html</loc>
+    <lastmod>2025-01-09T13:05:15.372Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/ga-2022-1.html</loc>
+    <lastmod>2025-01-09T13:05:15.257Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/exemplo8.html</loc>
+    <lastmod>2025-01-09T13:05:15.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/exempo5.html</loc>
+    <lastmod>2025-01-09T13:05:15.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/exemplo6.html</loc>
+    <lastmod>2025-01-09T13:05:15.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/exemplo3.html</loc>
+    <lastmod>2025-01-09T13:05:15.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/Exemplo-1-GA-espacial.html</loc>
+    <lastmod>2025-01-09T13:05:15.557Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/exemplo4.html</loc>
+    <lastmod>2025-01-09T13:05:15.558Z</lastmod>
+  </url>
+  <url>
     <loc>https://demarque.mat.br/pesquisa.html</loc>
     <lastmod>2025-02-16T14:31:39.566Z</lastmod>
-  </url>
-  <url>
-    <loc>https://demarque.mat.br/blog.html</loc>
-    <lastmod>2025-03-23T22:37:16.104Z</lastmod>
-  </url>
-  <url>
-    <loc>https://demarque.mat.br/calculoIII/2025-1/c3-A-2025-1.html</loc>
-    <lastmod>2025-03-23T14:12:52.820Z</lastmod>
-  </url>
-  <url>
-    <loc>https://demarque.mat.br/gaal/gaal-2025-1/gaal-2025-1.html</loc>
-    <lastmod>2025-03-20T13:11:50.930Z</lastmod>
-  </url>
-  <url>
-    <loc>https://demarque.mat.br/calculoII/c2-2024-2.html</loc>
-    <lastmod>2025-02-05T18:51:56.138Z</lastmod>
   </url>
   <url>
     <loc>https://demarque.mat.br/calculoI/calculoI.html</loc>
     <lastmod>2025-01-09T13:05:15.691Z</lastmod>
   </url>
   <url>
+    <loc>https://demarque.mat.br/index.html</loc>
+    <lastmod>2025-03-24T09:49:24.780Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/gaal/gaal.html</loc>
+    <lastmod>2025-03-10T18:52:34.202Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/gaal/gaal-2024-2/gaal-2024-2.html</loc>
+    <lastmod>2025-02-05T19:00:19.778Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/analise-funcional/funcional.html</loc>
+    <lastmod>2025-01-09T13:05:15.672Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/licenca.html</loc>
+    <lastmod>2025-03-15T15:37:32.361Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoII/calculoII.html</loc>
+    <lastmod>2025-01-09T13:05:15.712Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoII/c2-2023-1.html</loc>
+    <lastmod>2025-01-09T13:05:15.711Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoII/c2-2024-1.html</loc>
+    <lastmod>2025-01-09T13:05:15.712Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/posts/crescimento-logistico.html</loc>
+    <lastmod>2025-01-09T13:05:17.421Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/posts/curvas-nivel/nivel.html</loc>
+    <lastmod>2025-01-09T13:05:17.422Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/posts/distributional.html</loc>
+    <lastmod>2025-01-09T13:05:17.423Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/posts/bilionario/bilionario.html</loc>
+    <lastmod>2025-01-09T13:05:17.420Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/posts/notacao-log/notacao-log.html</loc>
+    <lastmod>2025-01-09T13:05:17.425Z</lastmod>
+  </url>
+  <url>
     <loc>https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas.html</loc>
     <lastmod>2025-03-23T22:33:02.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/posts/2022-07-21-como-usar-python-no-latex/pythontex.html</loc>
+    <lastmod>2025-01-09T13:05:17.417Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html</loc>
+    <lastmod>2025-01-09T13:05:17.420Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoII/c2-2024-2.html</loc>
+    <lastmod>2025-02-05T18:51:56.138Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoII/c2-2023-2.html</loc>
+    <lastmod>2025-01-09T13:05:15.712Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoII/c2-2022-2.html</loc>
+    <lastmod>2025-01-09T13:05:15.711Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoII/provas/index.html</loc>
+    <lastmod>2025-01-09T13:05:15.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/teaching.html</loc>
+    <lastmod>2025-03-24T09:48:51.335Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/gaal/gaal-2024-1.html</loc>
+    <lastmod>2025-01-09T13:05:17.124Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/gaal/gaal-2025-1/gaal-2025-1.html</loc>
+    <lastmod>2025-03-20T13:11:50.930Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/gaal/provas/index.html</loc>
+    <lastmod>2025-01-09T13:05:17.385Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/blog.html</loc>
+    <lastmod>2025-03-23T22:37:16.104Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoI/provas/index.html</loc>
+    <lastmod>2025-01-09T13:05:15.701Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/textos-aulas-presenciais/index.html</loc>
+    <lastmod>2025-01-09T13:05:15.664Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/exemplo2.html</loc>
+    <lastmod>2025-01-09T13:05:15.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/index.html</loc>
+    <lastmod>2025-01-09T13:05:15.559Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/exemplo7.html</loc>
+    <lastmod>2025-01-09T13:05:15.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/exemplo1-1.html</loc>
+    <lastmod>2025-01-09T13:05:15.558Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/Exemplo-3-GA-espacial.html</loc>
+    <lastmod>2025-01-09T13:05:15.557Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/python/Exemplo-2-GA-espacial.html</loc>
+    <lastmod>2025-01-09T13:05:15.557Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/ga.html</loc>
+    <lastmod>2025-01-09T13:05:15.257Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/GA/provas/index.html</loc>
+    <lastmod>2025-01-09T13:05:15.518Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoIII/2025-1/c3-A-2025-1.html</loc>
+    <lastmod>2025-03-23T14:12:52.820Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoIII/calculoIII.html</loc>
+    <lastmod>2025-03-10T18:51:51.755Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/calculoIII/provas/index2.html</loc>
+    <lastmod>2025-01-09T13:05:16.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://demarque.mat.br/semigrupos/semigrupos.html</loc>
+    <lastmod>2025-01-09T13:05:17.450Z</lastmod>
   </url>
 </urlset>

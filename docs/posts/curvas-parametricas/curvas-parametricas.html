@@ -167,7 +167,7 @@ window.Quarto = {
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="//blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -249,7 +249,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="curvas-no-plano">Curvas no plano</h2>
 <p>Esboçar uma curva parametriza utilizando o python é extremamente fácil. Para isso, vamos fazer uso de duas bibliotecas o <code>matplotlib.plot</code>, para fazer o gráfico, e o <code>numpy</code> para os cálculos numéricos.</p>
 <p>Vamos começar com um exemplo bem simples no plano. Vamos esboçar o círculo de centro na origem e raio 1, isto é, <span class="math display">\[\vec{r}(t)=(\cos(t),\sin(t)),\ t\in [0,2\pi].\]</span> A seguir vemos o script que fornece o esboço da curva.</p>
-<div id="b01c3ec4" class="cell" data-execution_count="1">
+<div id="e5330a80" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -326,7 +326,7 @@ window.Quarto = {
 </div>
 <p>Simples! A equação do cilindro <span class="math inline">\(x^2+y^2=1\)</span> nos diz que a base do cilindro no plano <span class="math inline">\(xy\)</span> é um círculo de centro na origem e raio 1. Portanto, podemos parametrizar essa base por: <span class="math display">\[\vec{\alpha}(t)=(\cos(t),\sin(t),0), \ t\in [0,2\pi].\]</span></p>
 <p>Note que as duas primeiras coordenadas dão a parametrização do círculo no plano e a terceira, <span class="math inline">\(z=0\)</span>, faz com que este círculo seja plotado no <span class="math inline">\(xy\)</span>, como a seguir:</p>
-<div id="ceb7dddf" class="cell" data-execution_count="3">
+<div id="9833d2d1" class="cell" data-execution_count="3">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -355,7 +355,7 @@ window.Quarto = {
 </div>
 </div>
 <p>Agora, o que queremos é que, enquanto as coordenadas <span class="math inline">\(x\)</span> e <span class="math inline">\(y\)</span> percorram este círculo a medida que o parâmetro <span class="math inline">\(t\)</span> varie, a altura <span class="math inline">\(z\)</span> seja dada pelo plano <span class="math inline">\(z=x+2\)</span>, ou seja, <span class="math display">\[\vec{r}(t)=(\cos(t),\sin(t),\cos(t)+2), \ t\in [0,2\pi].\]</span> A seguir esboçamos as duas curvas juntas, o círculo da base e a elípse de interseção do plano com o cilindro.</p>
-<div id="ceff8a23" class="cell" data-execution_count="4">
+<div id="8c0247a8" class="cell" data-execution_count="4">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
@@ -395,7 +395,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="um-outro-exemplo">Um outro exemplo</h2>
 <p>O mesmo raciocínio pode ser aplicado em diversas outras situações. Como por exemplo, determine a parametrização da curva dada pela inserseção de dois paraboloides: <span class="math inline">\(z=2x^2+\frac{1}{2}y^2\)</span> e <span class="math inline">\(z=4-2x^2-\frac{3}{2}y^2.\)</span> Novamente, vamos plotar as duas superfícies para visualizarmos a inteserção. Também destacamos a curva de interseção em vermelho, a qual queremos parametrizar.</p>
 <p><img src="paraboloides.png" class="img-fluid"> A fim de encontrarmos a parametrização da curva de interseção, vamos igualar as coordenadas <span class="math inline">\(z\)</span> das duas equações, isto é, <span class="math display">\[2x^2+\frac{1}{2}y^2=4-2x^2-\frac{3}{2}y^2\Rightarrow 4x^2+2y^2=4\Rightarrow x^2+\frac{y^2}{2}=1.\]</span> Esta última equação, como não tem a variável <span class="math inline">\(z\)</span>, nos fornece uma equação de elipse no plano <span class="math inline">\(xy\)</span>, o que é interpretado geometricamente como a projeção neste plano da curva que estamos buscando! Como já sabemos parametrizar uma elipse, reptindo o raciocínio anterior, uma parametrização desta curva é: <span class="math display">\[\vec{\alpha}(t)=(\cos(t),\sqrt{2}\sin(t),0),\ t\in [0,2\pi].\]</span> Enquanto o parâmetro <span class="math inline">\(t\)</span> varia, as coordenadas <span class="math inline">\(x\)</span> e <span class="math inline">\(y\)</span> percorrem a elipse no plano <span class="math inline">\(z=0\)</span>. Agora, basta tomarmos <span class="math inline">\(z\)</span> sobre um dos parabolóides, por exemplo <span class="math inline">\(z=2x^2+\frac{1}{2}y^2=2\cos^2(t)+\sin^2(t)=\cos^2(t)+1\)</span>, isto nos fornece: <span class="math display">\[\vec{r}(t)=(\cos(t),\sqrt{2}\sin(t),\cos^2(t)+1),\ t\in [0,2\pi].\]</span> A seguir esobaçamos as duas curvas juntas. A curva vermelha é a curva de interseção dos dois parabolóides e a curva azul é a projeção dela sobre o plano <span class="math inline">\(xy\)</span> que usamos como auxiliar.</p>
-<div id="4036096d" class="cell" data-execution_count="5">
+<div id="6c6fbf23" class="cell" data-execution_count="5">
 <details class="code-fold">
 <summary>Código</summary>
 <div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
