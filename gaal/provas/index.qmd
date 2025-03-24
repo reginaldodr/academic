@@ -5,17 +5,31 @@ format:
     toc: false
 ---
 
-```{r echo=FALSE, results='asis'}
-files <- sort(dir(pattern='\\.pdf$'))
-cat(
-  paste0(
-    '1. <a href="',
-    files,
-    '">',
-    files,
-    '</a>',
-    collapse = '\n'
-  )
-)
-```
 
+```{python}
+#| echo: false
+#| output: asis
+
+import os
+items= os.listdir('.')
+sort= sorted(items)
+pdf_files = []
+
+import tarfile 
+
+for k, file in enumerate(sort):
+  if file.endswith(".pdf"):
+    pdf_files.append(file)
+   
+
+archive = "provas-gaal.tar.gz"
+with tarfile.open(archive, "w:gz") as tar:
+        for pdf_file in pdf_files:
+            tar.add(pdf_file)
+
+print('- Todas as provas em um único arquivo compactado: [provas-gaal.tar.gz](',archive,')')
+print('\n')
+print('- Provas listadas por ano-semestre \\')
+for k, file in enumerate(reversed(pdf_files), 1):  # Começando o enumerate em 1
+    print(k, '.', '[', file, '](', file, ')', '\\')
+```
