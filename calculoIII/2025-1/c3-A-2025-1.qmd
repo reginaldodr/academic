@@ -35,6 +35,8 @@ from: markdown+emoji
 - **Material a ser utilizado**
 
   - [slides](https://reginaldodr.github.io/slides/calculo3/calculo3.pdf)
+  
+  - [nota de aula](https://mega.nz/folder/yUVzzBxL#dRu5lLxfMDzvYAGNT1XE6Q)
 
   - [Provas Antigas](../provas/)
 
