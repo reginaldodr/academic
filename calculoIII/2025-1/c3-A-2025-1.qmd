@@ -49,9 +49,6 @@ EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍND
 
 Este curso é constituído de dois módulos: **Funções Vetoriais e Superfícies** e **Funções de Várias Variáveis**.
 
-Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
-
-
 O **livro texto** será referência [@stewart2], que **está disponíveis para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red"> É altamente recomendado que vocês consultem este material, de preferência o livro físico.</span>
 
 As demais referência contidas na @sec-ref formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.

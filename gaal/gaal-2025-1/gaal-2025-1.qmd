@@ -49,7 +49,7 @@ $$
 
 ::: {.column width="40%"}
   - [Slides](https://reginaldodr.github.io/slides/gaal/gaal.pdf)\
-  - [Notas das aulas]\
+  - [Notas das aulas](https://mega.nz/folder/DFdF3JYK#I-B7O1gBR4zCX_yrDnQWzA)
   - [Livro GAAL -- UFMG](../gaalt0.pdf)\
 
 :::
@@ -185,8 +185,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 **1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;**
 
 01 . &nbsp; Seg  --  24/03  --  <span style="color:standard"> Apresentação dos estudantes. Apresentação do curso. </span> \
-02 . &nbsp; Ter  --  25/03  --  <span style="color:standard"> Motivação: tabela nutricional. Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$.  Representação Geométrica. Norma. Regra do paralelogramo. </span> \
-03 . &nbsp; Seg  --  31/03  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. </span> \
+02 . &nbsp; Ter  --  25/03  --  <span style="color:standard"> Motivação: tabela nutricional. Coordenadas cartesianas no plano. Exemplos de alguns conjuntos e regiões no plano. Espaço Vetorial $\mathbb{R}^2$. </span> \
+03 . &nbsp; Seg  --  31/03  --  <span style="color:LightGray"> Representação Geométrica. Norma. Regra do paralelogramo. O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. </span> \
 04 . &nbsp; Ter  --  01/04  --  <span style="color:LightGray"> Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. </span> \
 05 . &nbsp; Seg  --  07/04  --  <span style="color:LightGray"> Operações usando o sympy. Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy. </span> \
 06 . &nbsp; Ter  --  08/04  --  <span style="color:LightGray"> Demonstração da Fórmula do ângulo. Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$ </span> \
