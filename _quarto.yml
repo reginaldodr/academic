@@ -43,7 +43,7 @@ website:
         aria-label: GitHub
       - icon: mastodon
         aria-label: mastodon
-        href: https://ursal.zone/@reginaldodr
+        href: https://mathstodon.xyz/@demarque
       - text: "<img src='/images/dchi-2.png' style='width: 20px; height: auto;' alt='Logo'>"
         href: logo.qmd
 
