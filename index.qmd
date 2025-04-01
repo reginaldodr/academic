@@ -83,7 +83,7 @@ Campus de Rio das Ostras
 
 - [Pós-Graduação IME-UFF](https://pgmat-uff.com.br/)
 
-- [Publicações](pesquisa.qmd)
+- [Publicações](research.qmd)
 
 [Orcid](https://orcid.org/0000-0001-6891-7665), [Research Gate](https://www.researchgate.net/profile/Reginaldo_Demarque), [Lattes](http://lattes.cnpq.br/1924503823576120), [Gooogle Scholar](https://scholar.google.com.br/citations?user=taNb4t4AAAAJ&hl=pt-BR&oi=ao)
 

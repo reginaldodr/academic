@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Postagens – Prof.&nbsp;Reginaldo Demarque</title>
+<title>Research – Prof.&nbsp;Reginaldo Demarque</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -30,8 +50,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href=".//images/dchi-2.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -70,35 +88,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Procurar"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -131,11 +120,12 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="Prof. Reginaldo Demarque" href="blog.xml" data-external="1"><meta name="twitter:title" content="Postagens – Prof.&nbsp;Reginaldo Demarque">
+<meta name="twitter:title" content="Research – Prof.&nbsp;Reginaldo Demarque">
+<meta name="twitter:description" content="Professor Associado 3, RCN, UFF">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -161,11 +151,11 @@ window.Quarto = {
 <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link active" href="./research.html" aria-current="page"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -198,22 +188,21 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categorias</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tudo <span class="quarto-category-count">(10)</span></div><div class="category" data-category="EDO">EDO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PDE">PDE <span class="quarto-category-count">(2)</span></div><div class="category" data-category="crescimento populacional">crescimento populacional <span class="quarto-category-count">(1)</span></div><div class="category" data-category="curvas paramétricas">curvas paramétricas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cálculo 2">cálculo 2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cálculo 3">cálculo 3 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ensino">ensino <span class="quarto-category-count">(1)</span></div><div class="category" data-category="exponencial">exponencial <span class="quarto-category-count">(1)</span></div><div class="category" data-category="gráficos">gráficos <span class="quarto-category-count">(2)</span></div><div class="category" data-category="jupyter">jupyter <span class="quarto-category-count">(3)</span></div><div class="category" data-category="juros">juros <span class="quarto-category-count">(1)</span></div><div class="category" data-category="latex">latex <span class="quarto-category-count">(1)</span></div><div class="category" data-category="logaritmos">logaritmos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="matemática">matemática <span class="quarto-category-count">(1)</span></div><div class="category" data-category="mathematics">mathematics <span class="quarto-category-count">(2)</span></div><div class="category" data-category="metodologias ativas">metodologias ativas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="moodle">moodle <span class="quarto-category-count">(1)</span></div><div class="category" data-category="notação">notação <span class="quarto-category-count">(1)</span></div><div class="category" data-category="opinion">opinion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(6)</span></div><div class="category" data-category="research">research <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sala de aula invertida">sala de aula invertida <span class="quarto-category-count">(1)</span></div><div class="category" data-category="teaching">teaching <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tool">tool <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Postagens</h1>
+<h1 class="title">Research</h1>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
   
@@ -225,447 +214,100 @@ window.Quarto = {
 </header>
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/caneta.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></p>
+</figure>
+</div>
+<ul>
+<li><p>Research Interests</p>
+<ul>
+<li><p>Partial Differential Equations – PDEs</p></li>
+<li><p>Controllability of PDEs</p></li>
+</ul></li>
+<li><p><a href="http://dgp.cnpq.br/dgp/espelhogrupo/8734602523044835">Research Group – CNPq</a></p></li>
+<li><p><a href="https://pgmat-uff.com.br/">IME-UFF</a></p></li>
+</ul>
+<p><a href="http://lattes.cnpq.br/1924503823576120">Lattes</a>, <a href="https://orcid.org/0000-0001-6891-7665">Orcid</a>, <a href="https://www.researchgate.net/profile/Reginaldo_Demarque">Research Gate</a></p>
+<section id="preprints" class="level2">
+<h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
+<ol type="1">
+<li><p>Araújo BSV, Demarque R, Viana L (2023) <a href="https://arxiv.org/abs/2311.08084">Boundary null controllability of degenerate wave equation as the limit of internal controllability</a>. arXiv:2311.08084.</p></li>
+<li><p>Araújo BSV, Demarque R, Faria J. C. O, Viana L (2024) <a href="https://arxiv.org/abs/2404.12537">Carleman estimates for parabolic equations with super strong degeneracy in a set of positive measure</a>. arXiv:2404.12537.</p></li>
+</ol>
+</section>
+<section id="publications" class="level2">
+<h2 class="anchored" data-anchor-id="publications">Publications</h2>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-de2024null" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Carvalho PP de, Demarque R, Lı́maco J, Viana LA. 2025. <a href="https://doi.org/10.58997/ejde.2025.15 ">Null-controllability for 1-D degenerate quasilinear parabolic equations</a>. <em>Electronic Journal of Differential Equations</em>. 2025(15):1–22</div>
+</div>
+<div id="ref-araujo2022carleman" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Araújo BSV, Demarque R, Viana L. 2023. <a href="https://doi.org/10.14232/ejqtde.2023.1.9">Carleman inequality for a class of super strong degenerate parabolic operators and applications</a>. <em>Electron. J. Qual. Theory Differ. Equ.</em>, pp. 1–25</div>
+</div>
+<div id="ref-araujo2022regularity" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Araújo BSV, Demarque R, Viana L. 2023. <a href="https://doi.org/10.3934/eect.2023013">Regularity results for degenerate wave equations in a neighborhood of the boundary</a>. <em>Evolution Equations and Control Theory</em>. 12(5):1300–1315</div>
+</div>
+<div id="ref-de2023null" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Carvalho P de, Demarque R, Lı́maco J, Viana L. 2023. <a href="https://doi.org/10.1007/s00030-022-00831-x">Null controllability and numerical simulations for a class of degenerate parabolic equations with nonlocal nonlinearities</a>. <em>Nonlinear Differential Equations and Applications NoDEA</em>. 30(3):32</div>
+</div>
+<div id="ref-araujo2022boundary" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Araújo BSV, Demarque R, Viana L. 2022. <a href="https://doi.org/10.1016/j.nonrwa.2022.103519">Boundary null controllability of degenerate heat equation as the limit of internal controllability</a>. <em>Nonlinear Analysis: Real World Applications</em>. 66:103519</div>
+</div>
+<div id="ref-jrl2020EECT" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Demarque R, Lı́maco J, Viana L. 2020. <a href="https://doi.org/10.3934/eect.2020026">Local null controllability of coupled degenerate systems with nonlocal terms and one control force</a>. <em>Evolution Equations &amp; Control Theory</em>. 9:605</div>
+</div>
+<div id="ref-jrl2016" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Demarque R, Lı́maco J, Viana L. 2018. <a href="https://doi.org/10.1016/j.nonrwa.2018.04.001">Local null controllability for degenerate parabolic equations with nonlocal term</a>. <em>Nonlinear Analysis: Real World Applications</em>. 43:523–47</div>
+</div>
+<div id="ref-demarque2018local" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Demarque R, Fernández-Cara E. 2018. <a href="https://doi.org/10.1007/s00028-017-0399-x">Local null controllability of one-phase Stefan problems in 2D star-shaped domains</a>. <em>Journal of Evolution Equations</em>. 18(1):245–61</div>
+</div>
+<div id="ref-demarque2018radial" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Demarque R, Hora Lisboa N da. 2018. Radial solutions for inhomogeneous biharmonic elliptic systems. <em>Electronic Journal of Differential Equations.</em> v.2018:1–14</div>
+</div>
+<div id="ref-demarque2015radial" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Demarque R, Miyagaki OH. 2015. <a href="https://doi.org/10.1515/anona-2014-0041">Radial solutions of inhomogeneous fourth order elliptic equations and weighted Sobolev embeddings</a>. <em>Advances in Nonlinear Analysis</em>. 4(2):135–51</div>
+</div>
+<div id="ref-carriao2014nonlinear" class="csl-entry" role="listitem">
+<div class="csl-left-margin">11. </div><div class="csl-right-inline">Carrião PC, Demarque R, Miyagaki OH, Wang Z. 2014. <a href="https://doi.org/10.3934/cpaa.2014.13.2141">NONLINEAR BIHARMONIC PROBLEMS WITH SINGULAR POTENTIALS.</a> <em>Communications on Pure &amp; Applied Analysis</em>. 13(6):</div>
+</div>
+<div id="ref-carriao2013existence" class="csl-entry" role="listitem">
+<div class="csl-left-margin">12. </div><div class="csl-right-inline">Carrião P, Demarque R, Miyagaki O. 2013. <a href="https://doi.org/10.1016/j.jde.2013.07.037">Existence and non-existence of solutions for p-Laplacian equations with decaying cylindrical potentials</a>. <em>Journal of Differential Equations</em>. 255(10):3412–33</div>
+</div>
+</div>
+</section>
+<section id="advising" class="level2">
+<h2 class="anchored" data-anchor-id="advising">Advising</h2>
+<section id="undergraduate-research-advisor-iniciação-científica" class="level3">
+<h3 class="anchored" data-anchor-id="undergraduate-research-advisor-iniciação-científica">Undergraduate Research Advisor (Iniciação Científica)</h3>
+<ol type="1">
+<li><p>Jessica Maria Marconde do Valle. Temperaturas estacinárias em uma placa em movimento. 2013. Iniciação científica (Engenharia de Produção) – Universidade Federal Fluminense<br>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ</p></li>
+<li><p>Átila Roger Cavalcanti dos Santos. Aspectos Gerais da Integral de Lebesgue. 2013. Iniciação científica (Engenharia de Produção) – Universidade Federal Fluminense<br>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ</p></li>
+<li><p>Paulo Sérgio Alves Carreira. Estudo da generalização do conceito de medida para subconjuntos abstratos da reta e do plano. 2014. Iniciação científica (Ciência da Computação) – Universidade Federal Fluminense<br>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJs</p></li>
+<li><p>Gustavo Jorge Martins de Aguiar. Análise de Fourier e Resolução de EDPs. 2017. Iniciação científica (Engenharia de Produção) – Universidade Federal Fluminense<br>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ</p></li>
+<li><p>Milena Fernandes da Conceição. Estudos dos Espaços <span class="math inline">\(L^p\)</span>. 2018. Iniciação científica (Engenharia de Produção) – Universidade Federal Fluminense<br>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ</p></li>
+<li><p>Natan da Costa Lucas. Estudo dos Espaços <span class="math inline">\(L^p\)</span>. 2018. Iniciação científica (Engenharia de Produção) – Universidade Federal Fluminense<br>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ</p></li>
+<li><p>Leuber de Araújo Melo. Integração em Coordenadas Polares Multidimensional e Aplicações. 2020. Iniciação científica (Matemática) – Universidade Federal Fluminense<br>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ</p></li>
+<li><p>João Victor Brum das Chagas. Análise Espectral de problemas de Sturm-Lioville singulares e aplicações na controlabilidade da equação da onde degenerada. 2024. Iniciação científica (Matemática) – Universidade Federal Fluminense<br>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ</p></li>
+<li><p>Carlos Yure de Brito Souza Domingues. Aplicações das Séries de Fourier-Bessel na resolução de problemas de Sturm-Liouville singulares. 2025. Iniciação científica (Matemática) – Universidade Federal Fluminense<br>Inst. financiadora: PIBIC.</p></li>
+</ol>
+<hr>
+</section>
+<section id="other-kind-of-advising-orientação-de-outra-natureza" class="level3">
+<h3 class="anchored" data-anchor-id="other-kind-of-advising-orientação-de-outra-natureza">Other kind of Advising (Orientação de outra natureza)</h3>
+<ol type="1">
+<li><p>Alline Pinto Ribeiro Lopes. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Ciência da Computação) – Universidade Federal Fluminense<br>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis</p></li>
+<li><p>Ingrid Mesquita Magalhães. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Engenharia de Produção) – Universidade Federal Fluminense<br>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis</p></li>
+<li><p>Gabriel Fortuna Serafim. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Ciência da Computação) – Universidade Federal Fluminense<br>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis</p></li>
+<li><p>Maria Williany Lopes Lira. Introdução a análise real. 2014. Orientação de outra natureza (Engenharia de Produção) – Universidade Federal Fluminense<br>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis</p></li>
+</ol>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Ordenar por" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Ordenar por</option>
-       <option value="index" data-direction="asc">Pré-selecionado</option>
-         <option value="listing-title" data-direction="asc">
-          Título
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Data - Mais velho
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Data - O mais novo
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Autor
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtro">
-    </div>
-</div>
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="mathematics,PDE,research" data-listing-date-sort="1730343600000" data-listing-file-modified-sort="1736427917420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="89">
-<div class="thumbnail">
-<p><a href="./posts/bessel/bessel.html" class="no-external"></a></p><a href="./posts/bessel/bessel.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/bessel/bessel.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/bessel/bessel.html" class="no-external">1-D Degenerate PDEs using Sturm-Liouville problems</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/bessel/bessel.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mathematics'); return false;">
-mathematics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('PDE'); return false;">
-PDE
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('research'); return false;">
-research
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/bessel/bessel.html" class="no-external">Sturm-Liouville</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/bessel/bessel.html" class="no-external">
-<div class="listing-date">
-31/10/2024
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="python,jupyter,cálculo 3,gráficos,curvas paramétricas" data-listing-date-sort="1694055600000" data-listing-file-modified-sort="1742769182447" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="556">
-<div class="thumbnail">
-<p><a href="./posts/curvas-parametricas/curvas-parametricas.html" class="no-external"></a></p><a href="./posts/curvas-parametricas/curvas-parametricas.html" class="no-external">
-<p class="card-img-top"><img src="posts/curvas-parametricas/curvas-parametricas_files/figure-html/cell-2-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/curvas-parametricas/curvas-parametricas.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/curvas-parametricas/curvas-parametricas.html" class="no-external">Curvas parametrizadas com Python</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/curvas-parametricas/curvas-parametricas.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('jupyter'); return false;">
-jupyter
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cálculo 3'); return false;">
-cálculo 3
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('gráficos'); return false;">
-gráficos
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('curvas paramétricas'); return false;">
-curvas paramétricas
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/curvas-parametricas/curvas-parametricas.html" class="no-external">Esboçar uma curva parametriza utilizando o python é extremamente fácil. Para isso, vamos fazer uso de duas bibliotecas o <code>matplotlib.plot</code>, para fazer o gráfico, e o <code>numpy</code> para…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/curvas-parametricas/curvas-parametricas.html" class="no-external">
-<div class="listing-date">
-07/09/2023
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="notação,matemática,logaritmos" data-listing-date-sort="1693623600000" data-listing-file-modified-sort="1736427917425" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="435">
-<div class="thumbnail">
-<p><a href="./posts/notacao-log/notacao-log.html" class="no-external"></a></p><a href="./posts/notacao-log/notacao-log.html" class="no-external">
-<p class="card-img-top"><img src="posts/notacao-log/calc.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/notacao-log/notacao-log.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/notacao-log/notacao-log.html" class="no-external">Por que NÃO usar a notação ln para o logaritmo na base e!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/notacao-log/notacao-log.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('notação'); return false;">
-notação
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('matemática'); return false;">
-matemática
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('logaritmos'); return false;">
-logaritmos
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/notacao-log/notacao-log.html" class="no-external">Aprendemos na escola que o logaritmo de um número <span class="math inline">\(x\)</span> na base <span class="math inline">\(a\)</span> é o número <span class="math inline">\(y=\log_a(x)\)</span> tal que <span class="math inline">\(a^y=x\)</span>. A maioria dos livros de Cálculo hoje em dia (se não…<span class="math inline"></span><span class="math inline"></span><span class="math inline"></span><strong></strong><span class="math inline"></span></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/notacao-log/notacao-log.html" class="no-external">
-<div class="listing-date">
-02/09/2023
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="python,jupyter" data-listing-date-sort="1692241200000" data-listing-file-modified-sort="1736427917430" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="93">
-<div class="thumbnail">
-<p><a href="./posts/teste-python/hello.html" class="no-external"></a></p><a href="./posts/teste-python/hello.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/teste-python/hello.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/teste-python/hello.html" class="no-external">Quarto Basics</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/teste-python/hello.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('jupyter'); return false;">
-jupyter
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/teste-python/hello.html" class="no-external"></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/teste-python/hello.html" class="no-external">
-<div class="listing-date">
-17/08/2023
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="4" data-categories="python,jupyter,cálculo 3,gráficos" data-listing-date-sort="1692241200000" data-listing-file-modified-sort="1736427917422" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="214">
-<div class="thumbnail">
-<p><a href="./posts/curvas-nivel/nivel.html" class="no-external"></a></p><a href="./posts/curvas-nivel/nivel.html" class="no-external">
-<p class="card-img-top"><img src="posts/curvas-nivel/nivel_files/figure-html/fig1-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/curvas-nivel/nivel.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/curvas-nivel/nivel.html" class="no-external">Plotando Curvas de Nível com Python</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/curvas-nivel/nivel.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('jupyter'); return false;">
-jupyter
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cálculo 3'); return false;">
-cálculo 3
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('gráficos'); return false;">
-gráficos
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/curvas-nivel/nivel.html" class="no-external">Vejamos um exemplo simples de como usar o python para plotar curvas de nível. Para isso, vamos fazer uso de duas bibliotecas o <code>matplotlib.plot</code>, para fazer o gráfico, e o <code>numpy</code>…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/curvas-nivel/nivel.html" class="no-external">
-<div class="listing-date">
-17/08/2023
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="5" data-categories="python,cálculo 2,EDO,crescimento populacional" data-listing-date-sort="1692241200000" data-listing-file-modified-sort="1736427917421" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
-<div class="thumbnail">
-<p><a href="./posts/crescimento-logistico.html" class="no-external"></a></p><a href="./posts/crescimento-logistico.html" class="no-external">
-<p class="card-img-top"><img src="posts/crescimento-logistico_files/figure-html/cell-7-output-1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/crescimento-logistico.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/crescimento-logistico.html" class="no-external">Cresimento Logístico com Python</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/crescimento-logistico.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('cálculo 2'); return false;">
-cálculo 2
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('EDO'); return false;">
-EDO
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('crescimento populacional'); return false;">
-crescimento populacional
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/crescimento-logistico.html" class="no-external">O <strong>crescimento logístico</strong> leva em conta que a população tem um valor máximo <span class="math inline">\(M\)</span>. Quando a população se aproxima da capacidade máxima, os recursos tornam-se menos abundantes…<span class="math inline"></span><span class="math inline"></span><span class="math display"></span></a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/crescimento-logistico.html" class="no-external">
-<div class="listing-date">
-17/08/2023
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="6" data-categories="python,exponencial,juros" data-listing-date-sort="1691982000000" data-listing-file-modified-sort="1736427917420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="576">
-<div class="thumbnail">
-<p><a href="./posts/bilionario/bilionario.html" class="no-external"></a></p><a href="./posts/bilionario/bilionario.html" class="no-external">
-<p class="card-img-top"><img src="posts/bilionario/fig.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/bilionario/bilionario.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/bilionario/bilionario.html" class="no-external">Como ser um Bilionário!</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/bilionario/bilionario.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('exponencial'); return false;">
-exponencial
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('juros'); return false;">
-juros
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/bilionario/bilionario.html" class="no-external">Há algum tempo o tiktok me presenteou com esse vídeo maravilhoso do perfil @eu.criativa da professora Gabriella Taranto.</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/bilionario/bilionario.html" class="no-external">
-<div class="listing-date">
-14/08/2023
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="7" data-categories="teaching,opinion,ensino,moodle,metodologias ativas,sala de aula invertida" data-listing-date-sort="1658458800000" data-listing-file-modified-sort="1736427917420" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1594">
-<div class="thumbnail">
-<p><a href="./posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html" class="no-external"></a></p><a href="./posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html" class="no-external">
-<p class="card-img-top"><img src="posts/2022-07-22-sala-de-aula-invertida/fig1.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html" class="no-external">Uma Experiência em Geometria Analítica</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html" class="no-external">Sala de Aula Invertida</a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('teaching'); return false;">
-teaching
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('opinion'); return false;">
-opinion
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('ensino'); return false;">
-ensino
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('moodle'); return false;">
-moodle
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('metodologias ativas'); return false;">
-metodologias ativas
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('sala de aula invertida'); return false;">
-sala de aula invertida
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html" class="no-external">A pandemia de covid nos forçou a criar muito matrial online para as aulas remotas. Eu mesmo acabei criando um curso inteiro de Geometria Analítica e Cálculo Vetorial em…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2022-07-22-sala-de-aula-invertida/sala-invertida.html" class="no-external">
-<div class="listing-date">
-22/07/2022
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="8" data-categories="mathematics,PDE" data-listing-date-sort="1658372400000" data-listing-file-modified-sort="1736427917423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="859">
-<div class="thumbnail">
-<p><a href="./posts/distributional.html" class="no-external"></a></p><a href="./posts/distributional.html" class="no-external">
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-</a><p><a href="./posts/distributional.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/distributional.html" class="no-external">Relation between distributional derivatives</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/distributional.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('mathematics'); return false;">
-mathematics
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('PDE'); return false;">
-PDE
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/distributional.html" class="no-external">Distributions</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/distributional.html" class="no-external">
-<div class="listing-date">
-21/07/2022
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="9" data-categories="tool,latex,python" data-listing-date-sort="1657508400000" data-listing-file-modified-sort="1736427917417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="536">
-<div class="thumbnail">
-<p><a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html" class="no-external"></a></p><a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html" class="no-external">
-<p class="card-img-top"><img src="posts/2022-07-21-como-usar-python-no-latex/fig.png"  class="thumbnail-image card-img"/></p>
-</a><p><a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html" class="no-external">Como usar Python no LaTeX</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tool'); return false;">
-tool
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('latex'); return false;">
-latex
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html" class="no-external">Recentemente me perguntei se poderia usar o python para gerar gabarito de provas. Eis que descobri o pythontex! Uma rápida pesquisa no google me levou ao site: A very simple…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/2022-07-21-como-usar-python-no-latex/pythontex.html" class="no-external">
-<div class="listing-date">
-11/07/2022
-</div>
-<div class="listing-author">
-Reginaldo Demarque
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Nenhum item correspondente
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

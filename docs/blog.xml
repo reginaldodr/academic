@@ -10,7 +10,18 @@
 <atom:link href="https://demarque.mat.br/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Professor Associado 3, RCN, UFF</description>
 <generator>quarto-1.5.56</generator>
-<lastBuildDate>Thu, 07 Sep 2023 03:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 31 Oct 2024 03:00:00 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/bessel/bessel.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>mathematics</category>
+  <category>PDE</category>
+  <category>research</category>
+  <guid>https://demarque.mat.br/posts/bessel/bessel.html</guid>
+  <pubDate>Thu, 31 Oct 2024 03:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Curvas parametrizadas com Python</title>
   <dc:creator>Reginaldo Demarque</dc:creator>
@@ -488,6 +499,16 @@ font-style: inherit;">'r'</span>)</span>
   <category>logaritmos</category>
   <guid>https://demarque.mat.br/posts/notacao-log/notacao-log.html</guid>
   <pubDate>Sat, 02 Sep 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/teste-python/hello.html</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>python</category>
+  <category>jupyter</category>
+  <guid>https://demarque.mat.br/posts/teste-python/hello.html</guid>
+  <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Plotando Curvas de Nível com Python</title>

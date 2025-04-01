@@ -9,14 +9,14 @@ nocite: |
 
 ![](images/caneta.png){fig-align="center" width=70%}
 
-- Linhas de Pesquisa
-  -   Equações Diferenciais Parciais - EDP
+- Research Interests
+  -   Partial Differential Equations -- PDEs
 
-  -   Controlabilidade de Equações Diferenciais Parciais
+  -   Controllability of PDEs
 
-- [Grupo de Pesquisa CNPq](http://dgp.cnpq.br/dgp/espelhogrupo/8734602523044835)
+- [Research Group -- CNPq](http://dgp.cnpq.br/dgp/espelhogrupo/8734602523044835)
 
-- [Pós-Graduação IME-UFF](https://pgmat-uff.com.br/)
+- [IME-UFF](https://pgmat-uff.com.br/)
 
 [Lattes](http://lattes.cnpq.br/1924503823576120), [Orcid](https://orcid.org/0000-0001-6891-7665), [Research Gate](https://www.researchgate.net/profile/Reginaldo_Demarque)
 
