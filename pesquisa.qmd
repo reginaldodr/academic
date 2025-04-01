@@ -9,6 +9,18 @@ nocite: |
 
 ![](images/caneta.png){fig-align="center" width=70%}
 
+- Linhas de Pesquisa
+  -   Equações Diferenciais Parciais - EDP
+
+  -   Controlabilidade de Equações Diferenciais Parciais
+
+- [Grupo de Pesquisa CNPq](http://dgp.cnpq.br/dgp/espelhogrupo/8734602523044835)
+
+- [Pós-Graduação IME-UFF](https://pgmat-uff.com.br/)
+
+[Lattes](http://lattes.cnpq.br/1924503823576120), [Orcid](https://orcid.org/0000-0001-6891-7665), [Research Gate](https://www.researchgate.net/profile/Reginaldo_Demarque)
+
+
 
 ## Preprints
 
@@ -24,9 +36,9 @@ nocite: |
 ::: {#refs}
 :::
 
-## Orientações
+## Advising
 
-### Iniciação científica
+### Undergraduate Research Advisor (Iniciação Científica)
 
 1.  Jessica Maria Marconde do Valle. Temperaturas estacinárias em uma placa em movimento. 2013. Iniciação científica (Engenharia de Produção) -- Universidade Federal Fluminense<br/>Inst. financiadora: Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do RJ
 
@@ -47,7 +59,9 @@ nocite: |
 
 9. Carlos Yure de Brito Souza Domingues. Aplicações das Séries de Fourier-Bessel na resolução de problemas de Sturm-Liouville singulares. 2025. Iniciação científica (Matemática) -- Universidade Federal Fluminense<br/>Inst. financiadora: PIBIC.
 
-### Orientação de outra natureza
+---
+
+### Other kind of Advising (Orientação de outra natureza)
 
 1.  Alline Pinto Ribeiro Lopes. Produção de vídeo aulas de matemática para o ensino superior. 2017. Orientação de outra natureza (Ciência da Computação) -- Universidade Federal Fluminense<br/>Inst. financiadora: Pró-Reitoria de Assuntos Estudantis
 

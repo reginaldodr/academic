@@ -36,7 +36,7 @@ from: markdown+emoji
 
   - [slides](https://reginaldodr.github.io/slides/calculo3/calculo3.pdf)
   
-  - [nota de aula](https://mega.nz/folder/yUVzzBxL#dRu5lLxfMDzvYAGNT1XE6Q)
+  - [nota de aula](https://mega.nz/folder/3YdHDbxb#jm2ZKvf-lmg2zeloMK_z6Q)
 
   - [Provas Antigas](../provas/)
 

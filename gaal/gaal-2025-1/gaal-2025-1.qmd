@@ -49,7 +49,7 @@ $$
 
 ::: {.column width="40%"}
   - [Slides](https://reginaldodr.github.io/slides/gaal/gaal.pdf)\
-  - [Notas das aulas](https://mega.nz/folder/DFdF3JYK#I-B7O1gBR4zCX_yrDnQWzA)
+  - [Notas das aulas](https://mega.nz/folder/vB9DSALR#K0bTcLEwN-_q9gPf2jHCWw)
   - [Livro GAAL -- UFMG](../gaalt0.pdf)\
 
 :::
