@@ -142,11 +142,11 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 02 . &nbsp; Ter  --  25/03  --  <span style="color:standard"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares. </span> \
 03 . &nbsp; Seg  --  31/03  --  <span style="color:standard"> Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
 04 . &nbsp; Ter  --  01/04  --  <span style="color:standard"> Aula de Exercícios: Esboçando superfícies Quádricas. </span> \
-05 . &nbsp; Seg  --  07/04  --  <span style="color:DarkGray"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. </span> \
-06 . &nbsp; Ter  --  08/04  --  <span style="color:DarkGray"> Coordenadas polares. </span> \
+05 . &nbsp; Seg  --  07/04  --  <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. </span> \
+06 . &nbsp; Ter  --  08/04  --  <span style="color:DarkGray"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
-07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. </span> \
-08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray"> Derivadas e regras de derivação de funções vetoriais. Comprimento de arco. </span> \
+07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Derivadas e regras de derivação de funções vetoriais. Comprimento de arco. </span> \
+08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray">  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  18/04  --  Sexta-feira da Paixão </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \

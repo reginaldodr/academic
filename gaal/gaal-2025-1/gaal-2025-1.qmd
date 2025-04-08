@@ -54,6 +54,7 @@ $$
 
 :::
 ::: {.column width="50%"}
+  - [Gabarito dos Para casas](https://reginaldodr.github.io/slides/gaal/paracasas/paracasa-gabarito.pdf)
   - [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)\
   - [Lista de Exercícios de GA](../lista-exercicios-GA.pdf)\
   - [Provas antigas](../provas/)\
@@ -188,8 +189,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 02 . &nbsp; Ter  --  25/03  --  <span style="color:standard"> Motivação: tabela nutricional. Coordenadas cartesianas no plano. Exemplos de alguns conjuntos e regiões no plano. Espaço Vetorial $\mathbb{R}^2$. </span> \
 03 . &nbsp; Seg  --  31/03  --  <span style="color:standard"> Representação Geométrica. Norma. Regra do paralelogramo. O espaço vetorial $\mathbb{R}^3$ e representação geométrica.  </span> \
 04 . &nbsp; Ter  --  01/04  --  <span style="color:standard"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. Matrizes: definição, operações. Motivação: rotação de 90º e reflexão por y=x em $\mathbb{R}^2$.</span> \
-05 . &nbsp; Seg  --  07/04  --  <span style="color:DarkGray">Propriedades das operações com matrizes. Matrizes identidade e transposta. Operações usando o sympy. Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy. </span> \
-06 . &nbsp; Ter  --  08/04  --  <span style="color:DarkGray"> Demonstração da Fórmula do ângulo. Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$ </span> \
+05 . &nbsp; Seg  --  07/04  --  <span style="color:standard">Propriedades das operações com matrizes. Matrizes identidade e transposta. Exercício: matriz nilpotente,  $M^3=0$. </span> \
+06 . &nbsp; Ter  --  08/04  --  <span style="color:DarkGray"> Operações usando o sympy. Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy. Demonstração da Fórmula do ângulo. Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
 07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Equações Cartesianas da Reta em $\mathbb{R}^2$ continuação. Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. </span> \
 08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray"> Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. Método de Gauss-Jordan. </span> \
