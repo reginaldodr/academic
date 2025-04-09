@@ -1,0 +1,20 @@
+---
+title: Cálculo III-A -- 2015-1
+number-sections: false
+
+format:
+  html:
+    toc: false
+from: markdown+emoji
+---
+
+# Exposição de Paraboloides Hiperbólicos
+
+
+::: {layout-nrow=2}
+![Erick Spinelli](parab-hiper/erickspinelli-ed.jpg){width=50%}
+
+![Marcela Soares](parab-hiper/marcela-soares-ed.png){width=50%}
+:::
+
+

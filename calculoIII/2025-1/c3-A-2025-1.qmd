@@ -39,6 +39,8 @@ from: markdown+emoji
   - [nota de aula](https://mega.nz/folder/3YdHDbxb#jm2ZKvf-lmg2zeloMK_z6Q)
 
   - [Provas Antigas](../provas/)
+  
+  - [Exposição de Parboloides Hiperbóicos](/posts/exposicao-calculoIII-A-2015-1/exposicao.qmd)
 
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE.

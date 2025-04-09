@@ -1,0 +1,27 @@
+---
+title: "Exposição de Paraboloides Hiperbólicoss"
+description: "Cálculo III-A -- 2015-1"
+author: "Discentes da disciplinas"
+date: 09 04 2025
+categories:
+  - matemática
+  - ensino
+  - gaal
+  - geometria
+draft: false
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+
+# Exposição de Paraboloides Hiperbólicos
+
+
+::: {layout-nrow=2}
+![Erick Spinelli](parab-hiper/erickspinelli-ed.jpg){width=40%}
+
+![Marcela Soares](parab-hiper/marcela-soares-ed.png){width=40%}
+:::
+
+
