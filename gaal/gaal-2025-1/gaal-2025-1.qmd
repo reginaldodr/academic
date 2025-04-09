@@ -38,8 +38,8 @@ $$
 
 | Dia | Horário | Sala |
 |----|----|----|
-|Segunda |16h - 18h| Sala 2 (ICT)|
-|Terça   |14h - 16h| Sala 2 (ICT)|
+|Segunda |16h - 18h| Sala 4 (IHS Prédio Alugado)|
+|Terça   |14h - 16h| Sala 6 (IHS Prédio Alugado)|
 : {.striped .table-sm}
 
 

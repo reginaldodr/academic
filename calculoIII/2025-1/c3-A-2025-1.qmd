@@ -24,8 +24,8 @@ from: markdown+emoji
 
 | Dia | Horário | Sala |
 |----|----|----|
-|Segunda |14h - 16h| GP -17 (IHS)|
-|Terça   |16h - 18h| GP-17 (IHS)|
+|Segunda |14h - 16h| Sala 04 (IHS Prédio Alugado)|
+|Terça   |16h - 18h| Sala 06 (IHS Prédio Alugado)|
 : {.striped .table-sm}
 
 
