@@ -142,32 +142,34 @@ Abaixo seguem os execícios das referências @poole e @santosufmg e, também os 
 
 Veja as listas em [Material Básico](../gaal.qmd).
 
+A seguir, o símbolo :pencil2: significa quais exercícios já podem ser feitos com o contéudo dado até o momento, enquanto o símbolo :lock: se refere àqueles que ainda não. A medida que o conteúdo em sala for avançando, novos exercícios serão desbloqueados.
+
 
 - **Matrizes, Sistemas Lineares e Determinantes**\
-@poole **§ 3.1 (Matrizes):** 1, 11, 13, 17, 35.\
-@poole **§ 3.2 (Matrizes):** 1, 4, 23.\
-@poole **§ 2.2 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
-@poole **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
-@poole **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
-@poole **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
+:pencil2: @poole **§ 3.1 (Matrizes):** 1, 11, 13, 17, 35.\
+:pencil2: @poole **§ 3.2 (Matrizes):** 1, 4, 23.\
+:lock: @poole **§ 2.2 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
+:lock: @poole **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
+:lock: @poole **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
+:lock: @poole **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
 
 - **Geometria Analítica** \
 GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
-**(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
-**(Vetores e Produto escalar em $\mathbb{R}^2$):** 2.1 (a), 2.2, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
+:pencil2: **(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
+:pencil2: **(Vetores e Produto escalar em $\mathbb{R}^2$):** 2.1 (a), 2.2, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
 **(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
 GA em $\mathbb{R}^3$\
-@santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
-@poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
-@santosufmg **4.3 (Distância de ponto a reta):** 8, 9.\
+:lock: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
+:lock: @poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
+:lock: @santosufmg **4.3 (Distância de ponto a reta):** 8, 9.\
 
 - **Álgebra Linear**\
-@poole **§ 1.2 (Vetores em $\mathbb{R}^n$):** 5, 11, 12, 14, 17.\
-@poole **§ 1.3 (Produto Escalar em $\mathbb{R}^n$):** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
-@santosufmg **5.1 (LI e LD):** 1, 3, 4, 8.\
-@poole **§ 3.5 (Subespaço,Base e Dimensão):** 13, 15, 23, 26, 27, 28, 43.\
-@santosufmg **6.1 (Autovetores):** 1, 2, 3, 5, 6, 7.\
-@poole **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27.\ 
+:pencil2: @poole **§ 1.2 (Vetores em $\mathbb{R}^n$):** 5, 11, 12, 14, 17.\
+:pencil2: @poole **§ 1.3 (Produto Escalar em $\mathbb{R}^n$):** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
+:lock: @santosufmg **5.1 (LI e LD):** 1, 3, 4, 8.\
+:lock: @poole **§ 3.5 (Subespaço,Base e Dimensão):** 13, 15, 23, 26, 27, 28, 43.\
+:lock: @santosufmg **6.1 (Autovetores):** 1, 2, 3, 5, 6, 7.\
+:lock: @poole **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27.\ 
 
 :construction: Em construção... 
 
@@ -190,9 +192,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 03 . &nbsp; Seg  --  31/03  --  <span style="color:standard"> Representação Geométrica. Norma. Regra do paralelogramo. O espaço vetorial $\mathbb{R}^3$ e representação geométrica.  </span> \
 04 . &nbsp; Ter  --  01/04  --  <span style="color:standard"> O espaço vetorial $\mathbb{R}^n$. Norma e vetor unitário. Combinação Linear. Matrizes: definição, operações. Motivação: rotação de 90º e reflexão por y=x em $\mathbb{R}^2$.</span> \
 05 . &nbsp; Seg  --  07/04  --  <span style="color:standard">Propriedades das operações com matrizes. Matrizes identidade e transposta. Exercício: matriz nilpotente,  $M^3=0$. </span> \
-06 . &nbsp; Ter  --  08/04  --  <span style="color:DarkGray"> Operações usando o sympy. Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Produto escalar usando o sympy. Demonstração da Fórmula do ângulo. Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$ </span> \
+06 . &nbsp; Ter  --  08/04  --  <span style="color:standard"> Operações entre matrizes usando o sympy. Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Demonstração da Fórmula do ângulo. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
-07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Equações Cartesianas da Reta em $\mathbb{R}^2$ continuação. Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. </span> \
+07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. Equações Cartesianas da Reta em $\mathbb{R}^2$ continuação. Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. </span> \
 08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray"> Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. Método de Gauss-Jordan. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  18/04  --  Sexta-feira da Paixão </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
