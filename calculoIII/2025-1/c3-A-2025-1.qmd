@@ -37,6 +37,8 @@ from: markdown+emoji
   - [slides](https://reginaldodr.github.io/slides/calculo3/calculo3.pdf)
   
   - [nota de aula](https://mega.nz/folder/3YdHDbxb#jm2ZKvf-lmg2zeloMK_z6Q)
+  
+  - [Lista de Exercícios Stewart](../lista-stewart-c3.pdf)
 
   - [Provas Antigas](../provas/)
   
@@ -106,28 +108,34 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 # Listas de Exercícios
 
-Abaixo seguem os execícios da referência [@stewart2] que devem ser feitos. A distribuição está dada por seção.
+Abaixo seguem os execícios da referência [@stewart2] que devem ser feitos. A distribuição está dada por seção. Veja a lista [aqui](../lista-stewart-c3.pdf)
 
-§ 12.5: 3, 5, 7, 9, 23, 26, 31, 43.\
-§ 12.6: 3, 5, 13, 15, 21, 23, 25, 27, 29, 31.\
-§ 10.3: 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41.\
-§ 13.1: 7, 9, 11, 19-24, 27, 37, 39.\
-§ 13.2: 3, 5, 17, 19, 25.\
-§13.3: 1, 3, 11, 13, 15, 17, 21, 23, 27, 43, 59.\
-§ 13.4: 3, 5, 11, 13, 19, 33, 35, 37, 41.\
-§ 14.1: 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
-§ 14.2: 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
-§ 14.3: 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
-§ 14.4: 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
-§ 14.5: 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
-§ 14.6: 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
-§ 14.7: 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-§ 14.8: 3, 5, 9, 15, 17, 19, 41, 43.
+- **Parametrização, coordenadas polares, superfícies e funções vetoriais**\
+
+:pencil2: § 12.5: 3, 5, 7, 9, 23, 26, 31, 43, 45.\
+:pencil2: § 12.6: 3, 5, 13, 15, 21-28, 29, 31, 33.\
+:pencil2: § 10.3: 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
+:pencil2: § 13.1: 7, 9, 11, 19-24, 27, 37, 38, 39.\
+:lock: § 13.2: 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
+:lock: §13.3: 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
+:lock: § 13.4: 3, 5, 11, 13, 19, 31,32, 41.\
+---
+
+- **Funções de Várias Variáveis**\
+
+:lock: § 14.1: 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
+:lock: § 14.2: 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
+:lock: § 14.3: 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
+:lock: § 14.4: 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
+:lock: § 14.5: 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
+:lock: § 14.6: 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
+:lock: § 14.7: 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+:lock: § 14.8: 3, 5, 9, 15, 17, 19, 41, 43.
 
 Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
-§ 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-§ 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
+:lock: § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+:lock: § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
 
 # Referências {#sec-ref}
 
@@ -147,16 +155,16 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 05 . &nbsp; Seg  --  07/04  --  <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. </span> \
 06 . &nbsp; Ter  --  08/04  --  <span style="color:standard"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
-07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Derivadas e regras de derivação de funções vetoriais. Comprimento de arco. </span> \
-08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray">  </span> \
+07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Parametrização de curvas como interseção de duas superfícies (continuação). Derivadas e regras de derivação de funções vetoriais. </span> \
+08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray">Aula de Exercícios.   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  18/04  --  Sexta-feira da Paixão </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  23/04  --  São Jorge </span> \
-09 . &nbsp; Seg  --  28/04  --  <span style="color:DarkGray"> Aula de Exercícios 2  </span> \
-10 . &nbsp; Ter  --  29/04  --  <span style="color:DarkGray"> Parametrização pelo comprimento de arco. Vetor Tangente e Curvatura. Vetores Normal e Binormal. </span> \
+09 . &nbsp; Seg  --  28/04  --  <span style="color:DarkGray"> Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
+10 . &nbsp; Ter  --  29/04  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
-11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray"> Movimento, velocidade e aceleração.  Componentes Normal e Tangencial da Aceleração. Fórmula da curvatura. </span> \
+11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray"> Definição de Curvatura.  Fórmula da curvatura. Movimento no espaço: velocidade e aceleração.   </span> \
 12 . &nbsp; Ter  --  06/05  --  <span style="color:DarkGray"> Aula de Exercícios 3 </span> \
 <span style="color:red"> 13 . &nbsp; Seg  --  12/05  --  1ª Prova </span> \
 ---

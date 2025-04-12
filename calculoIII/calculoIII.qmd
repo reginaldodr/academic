@@ -16,6 +16,8 @@ format:
 
 [Provas Antigas](provas/)
 
+[lista Stewart 6ªed.](lista-stewart-c3.pdf)
+
 ## Material Complementar
 
 [Curvas de Nível com Python](../posts/curvas-nivel/nivel.qmd)
