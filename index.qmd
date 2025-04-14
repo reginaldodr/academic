@@ -37,10 +37,10 @@ Campus de Rio das Ostras
 
 
 
-||Segunda|Terça|
-|----|:----:|:----:|
-|14h - 16h| <span style="color:green">  Cálculo III-A </span>  <br> Sala 04 <br> (IHS Prédio Alugado)|  <span style="color:blue">  GAAL </span>  <br>  Sala 04 <br> (IHS Prédio Alugado)|
-|16h - 18h|<span style="color:blue">  GAAL </span>  <br> Sala 06 (IHS Prédio Alugado)|<span style="color:green">  Cálculo III-A </span>  <br> Sala 06 <br> (IHS Prédio Alugado)|
+||Segunda|Terça|Quarta|Quinta|Sexta|
+|----|:----:|:----:|:----:|
+|14h - 16h| <span style="color:green">  Cálculo III-A </span>  <br> Sala 04 <br> (IHS Prédio Alugado)|  <span style="color:blue">  GAAL </span>  <br>  Sala 06 <br> (IHS Prédio Alugado)| IC - Yure
+|16h - 18h|<span style="color:blue">  GAAL </span>  <br> Sala 04 <br>(IHS Prédio Alugado)|<span style="color:green">  Cálculo III-A </span>  <br> Sala 06 <br> (IHS Prédio Alugado)|
 
 : {.striped .table-sm}
 
