@@ -157,7 +157,7 @@ A seguir, o símbolo :pencil2: significa quais exercícios já podem ser feitos 
 GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
 :pencil2: **(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
 :pencil2: **(Vetores e Produto escalar em $\mathbb{R}^2$):** 2.1 (a), 2.2, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
-**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
+:lock:**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
 GA em $\mathbb{R}^3$\
 :lock: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
 :lock: @poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
@@ -194,8 +194,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 05 . &nbsp; Seg  --  07/04  --  <span style="color:standard">Propriedades das operações com matrizes. Matrizes identidade e transposta. Exercício: matriz nilpotente,  $M^3=0$. </span> \
 06 . &nbsp; Ter  --  08/04  --  <span style="color:standard"> Operações entre matrizes usando o sympy. Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Demonstração da Fórmula do ângulo. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
-07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Equação paramétrica da reta. Equações Cartesianas da Reta em $\mathbb{R}^2$. Equações Cartesianas da Reta em $\mathbb{R}^2$ continuação. Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. </span> \
-08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray"> Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. Método de Gauss-Jordan. </span> \
+07 . &nbsp; Seg  --  14/04  --  <span style="color:standard"> Esclarecimento de dúvidas. Exemplo de ângulos entre vetores. Produto escalar usando sympy. Equação paramétrica da reta.  </span> \
+08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray"> Equações Cartesianas da Reta em $\mathbb{R}^2$. Equação cartesina do Plano em $\mathbb{R}^3$. Sistemas de Equações Lineares. Operações Elementares. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  18/04  --  Sexta-feira da Paixão </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
@@ -203,9 +203,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 09 . &nbsp; Seg  --  28/04  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
 <span style="color:red"> 10 . &nbsp; Ter  --  29/04  --  1ª Prova </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
-11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray"> Usando sympy para resolver sistemas lineares. Sistemas Lineares Homogêneos. Matriz inversa e Método de inversão. Propriedades da Inversa. Invertendo matrizes com o sympy. </span> \
-12 . &nbsp; Ter  --  06/05  --  <span style="color:DarkGray"> Definição de Determinantes.  Propriedades dos Determinantes. Cálculo de determinantes por redução por linhas. </span> \
-13 . &nbsp; Seg  --  12/05  --  <span style="color:DarkGray"> Definição de Produto Vetorial. Propriedades do Produto Vetorial. </span> \
+11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray">Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares.  </span> \
+12 . &nbsp; Ter  --  06/05  --  <span style="color:DarkGray">Sistemas Lineares Homogêneos. Matriz inversa e Método de inversão. Propriedades da Inversa. Invertendo matrizes com o sympy.  </span> \
+13 . &nbsp; Seg  --  12/05  --  <span style="color:DarkGray">Definição de Determinantes.  Propriedades dos Determinantes. Cálculo de determinantes por redução por linhas. Definição de Produto Vetorial. Propriedades do Produto Vetorial. </span> \
 14 . &nbsp; Ter  --  13/05  --  <span style="color:DarkGray"> Produto Misto. Volumes do Paralelepípedo. Distâncias: entre Ponto e Plano </span> \
 15 . &nbsp; Seg  --  19/05  --  <span style="color:DarkGray"> Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano </span> \
 ---

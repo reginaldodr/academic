@@ -120,7 +120,7 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 :pencil2: § 12.6: 3, 5, 13, 15, 21-28, 29, 31, 33.\
 :pencil2: § 10.3: 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
 :pencil2: § 13.1: 7, 9, 11, 19-24, 27, 37, 38, 39.\
-:lock: § 13.2: 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
+:pencil2: § 13.2: 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
 :lock: §13.3: 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
 :lock: § 13.4: 3, 5, 11, 13, 19, 31,32, 41.\
 ---
@@ -157,10 +157,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 03 . &nbsp; Seg  --  31/03  --  <span style="color:standard"> Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
 04 . &nbsp; Ter  --  01/04  --  <span style="color:standard"> Aula de Exercícios: Esboçando superfícies Quádricas. </span> \
 05 . &nbsp; Seg  --  07/04  --  <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. </span> \
-06 . &nbsp; Ter  --  08/04  --  <span style="color:standard"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. </span> \
+06 . &nbsp; Ter  --  08/04  --  <span style="color:standard"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. (houve um problema com o último exemplo. Resolução [aqui](exemplo-esfera-cilindro.pdf)) </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
-07 . &nbsp; Seg  --  14/04  --  <span style="color:DarkGray"> Parametrização de curvas como interseção de duas superfícies (continuação). Derivadas e regras de derivação de funções vetoriais. </span> \
-08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray">Aula de Exercícios.   </span> \
+07 . &nbsp; Seg  --  14/04  --  <span style="color:standard"> Parametrização de curvas como interseção de duas superfícies (continuação). Derivadas </span> \
+08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray">Regras de derivação de funções vetoriais. Aula de Exercícios.   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  18/04  --  Sexta-feira da Paixão </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
