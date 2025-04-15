@@ -160,12 +160,12 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 06 . &nbsp; Ter  --  08/04  --  <span style="color:standard"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. (houve um problema com o último exemplo. Resolução [aqui](exemplo-esfera-cilindro.pdf)) </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  10/04  --  Feriado Municipal </span> \
 07 . &nbsp; Seg  --  14/04  --  <span style="color:standard"> Parametrização de curvas como interseção de duas superfícies (continuação). Derivadas </span> \
-08 . &nbsp; Ter  --  15/04  --  <span style="color:DarkGray">Regras de derivação de funções vetoriais. Aula de Exercícios.   </span> \
+08 . &nbsp; Ter  --  15/04  --  <span style="color:standard"> Aula de Exercícios.   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  18/04  --  Sexta-feira da Paixão </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  23/04  --  São Jorge </span> \
-09 . &nbsp; Seg  --  28/04  --  <span style="color:DarkGray"> Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
+09 . &nbsp; Seg  --  28/04  --  <span style="color:DarkGray">Regras de derivação de funções vetoriais. Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
 10 . &nbsp; Ter  --  29/04  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
 11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray"> Definição de Curvatura.  Fórmula da curvatura. Movimento no espaço: velocidade e aceleração.   </span> \
