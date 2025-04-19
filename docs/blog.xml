@@ -9,7 +9,7 @@
 <link>https://demarque.mat.br/blog.html</link>
 <atom:link href="https://demarque.mat.br/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Professor Associado 3, RCN, UFF</description>
-<generator>quarto-1.5.56</generator>
+<generator>quarto-1.5.57</generator>
 <lastBuildDate>Wed, 09 Apr 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Exposição de Paraboloides Hiperbólicos</title>
@@ -69,6 +69,24 @@
 <figure class="figure">
 <p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/maria-eduarda-jhonny.jpeg" class="img-fluid figure-img"></p>
 <figcaption>Maria Eduarda Cunha e Jhonny Santana</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-jv.png" class="img-fluid figure-img"></p>
+<figcaption>Julia dos Santos e João Victor Barcelos</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/felipe-silva.png" class="img-fluid figure-img"></p>
+<figcaption>Felipe Lopes: “Parbolóide Gerson”</figcaption>
 </figure>
 </div>
 </div>
