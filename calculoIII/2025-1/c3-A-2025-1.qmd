@@ -165,18 +165,18 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  23/04  --  São Jorge </span> \
-09 . &nbsp; Seg  --  28/04  --  <span style="color:DarkGray">Regras de derivação de funções vetoriais. Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
-10 . &nbsp; Ter  --  29/04  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
+09 . &nbsp; Seg  --  28/04  --  <span style="color:standard">Regras de derivação de funções vetoriais. Comprimento de arco. Função comprimento de arco. </span> \
+10 . &nbsp; Ter  --  29/04  --  <span style="color:DarkGray"> Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
-11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray"> Definição de Curvatura.  Fórmula da curvatura. Movimento no espaço: velocidade e aceleração.   </span> \
-12 . &nbsp; Ter  --  06/05  --  <span style="color:DarkGray"> Aula de Exercícios 3 </span> \
-<span style="color:red"> 13 . &nbsp; Seg  --  12/05  --  1ª Prova </span> \
+11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray"> Definição de Curvatura.  Fórmula da curvatura. Exercícios </span> \
+12 . &nbsp; Ter  --  06/05  --  <span style="color:DarkGray"> Movimento no espaço: velocidade e aceleração\
+13 . &nbsp; Seg  --  12/05  --  <span style="color:DarkGray"> Aula de Exercícios 3 </span> \
+<span style="color:red"> 14 . &nbsp; Ter  --  13/05  --  1ª Prova </span> \
 ---
 
 **2. Funções de Várias Variáveis**
 
-14 . &nbsp; Ter  --  13/05  --  <span style="color:DarkGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
-15 . &nbsp; Seg  --  19/05  --  <span style="color:DarkGray"> Limites e continuidade. </span> \
+15 . &nbsp; Seg  --  19/05  --  <span style="color:DarkGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível. Limites e continuidade. </span> \
 16 . &nbsp; Ter  --  20/05  --  <span style="color:DarkGray"> Derivadas Parciais. Derivadas de ordem superior.  EPDs: Funções Harmônicas e Equação da Onda. </span> \
 17 . &nbsp; Seg  --  26/05  --  <span style="color:DarkGray"> Plano tangente. Aproximação linear.  </span> \
 18 . &nbsp; Ter  --  27/05  --  <span style="color:DarkGray"> Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$. </span> \

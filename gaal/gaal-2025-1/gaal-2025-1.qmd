@@ -157,7 +157,7 @@ A seguir, o símbolo :pencil2: significa quais exercícios já podem ser feitos 
 GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
 :pencil2: **(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
 :pencil2: **(Vetores e Produto escalar em $\mathbb{R}^2$):** 2.1 (a), 2.2, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
-:pencil2:**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
+:lock:**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
 GA em $\mathbb{R}^3$\
 :lock: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
 :lock: @poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
@@ -200,7 +200,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  21/04  --  Tiradentes </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  23/04  --  São Jorge </span> \
-09 . &nbsp; Seg  --  28/04  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
+09 . &nbsp; Seg  --  28/04  --  <span style="color:standard"> Aula de Dúvidas </span> \
 <span style="color:red"> 10 . &nbsp; Ter  --  29/04  --  1ª Prova </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
 11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray">Equação cartesina do Plano em $\mathbb{R}^3$.  Sistemas de Equações Lineares. Operações Elementares. Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares.  </span> \
