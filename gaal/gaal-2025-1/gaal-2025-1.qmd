@@ -201,7 +201,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  23/04  --  São Jorge </span> \
 09 . &nbsp; Seg  --  28/04  --  <span style="color:standard"> Aula de Dúvidas </span> \
-<span style="color:red"> 10 . &nbsp; Ter  --  29/04  --  1ª Prova </span> \
+<span style="color:red"> 10 . &nbsp; Ter  --  29/04  --  1ª Prova  </span> -- [gabarito](../provas/2025-1-p1-turmaK1-gaal-gabarito.pdf) \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
 11 . &nbsp; Seg  --  05/05  --  <span style="color:DarkGray">Equação cartesina do Plano em $\mathbb{R}^3$.  Sistemas de Equações Lineares. Operações Elementares. Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. Método de Gauss-Jordan. Usando sympy para resolver sistemas lineares.  </span> \
 12 . &nbsp; Ter  --  06/05  --  <span style="color:DarkGray">Sistemas Lineares Homogêneos. Matriz inversa e Método de inversão. Propriedades da Inversa. Invertendo matrizes com o sympy.  </span> \
