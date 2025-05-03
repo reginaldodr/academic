@@ -105,6 +105,534 @@
   <pubDate>Wed, 09 Apr 2025 03:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Triângulo de Sierpinski com Python</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/triangulo-sierpinski/trinagulo-sierpinski.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="como-conheci-o-triângulo-de-sierpinski" class="level2">
+<h2 class="anchored" data-anchor-id="como-conheci-o-triângulo-de-sierpinski">Como conheci o Triângulo de Sierpinski</h2>
+<p>Em uma tarde qualquer, de despretenciosa ociosidade, estava rolando o tiktok quando surgiu a seguinte descrição:</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Descrição
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Desenhe um triângulo equilátero com os vértices A, B, C e tome um ponto arbitrário D dentro do triângulo.</p>
+<ol type="1">
+<li>Escolha um vértice do triângulo aleatoriamente.</li>
+<li>Marque o ponto médio X entre D e o vértice escolhido.</li>
+<li>Repita esse processo, com X no lugar de D, recursivamente.</li>
+</ol>
+</div>
+</div>
+<p>O vídeo terminava revelando a seguinte figura final e seu nome.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/triangulo-sierpinski/SierpinskiTriangle.png" class="img-fluid figure-img" style="width:50.0%"></p>
+<figcaption>Triângulo de Sierpinski</figcaption>
+</figure>
+</div>
+<p>Minha reação imediata foi exclamar um sonoro: Nem fu…!</p>
+<p>Larguei imediatamente o tiktok e, utilizando os meus rasos conhecimentos de <code>python</code> , fui verificar essa afirmação, altamente inverossímil. Abri o <code>jupyter</code> e comecie a fazer um script que reproduzisse o processo.</p>
+<p>Após alguns minutos, tinha um script que me maravilhava com a confirmação daquela figura!</p>
+</section>
+<section id="o-triângulo-de-sierpinski" class="level2">
+<h2 class="anchored" data-anchor-id="o-triângulo-de-sierpinski">O Triângulo de Sierpinski</h2>
+<p>O <a href="https://pt.wikipedia.org/wiki/Tri%C3%A2ngulo_de_Sierpinski">Triângulo de Sierpinski</a> é um exemplo de fractal autossimilar. Ele recebe esse nome em homenagem ao matemático polonês Wacław Sierpiński, que foi o primeiro a descrever essa estrutura.</p>
+<p>É possível construir o Triângulo de Sierpinski através de um processo iterativo que tem como ponto de partida um triângulo equilátero.</p>
+<ol type="1">
+<li>Determina-se os pontos médios de cada lado dessa figura e une-se esses pontos.</li>
+<li>Remove-se o triângulo do meio.</li>
+<li>Esses passos são repetidos para cada um dos triângulos restantes.</li>
+</ol>
+<p><img src="https://demarque.mat.br/posts/triangulo-sierpinski/fig1.png" class="img-fluid"></p>
+</section>
+<section id="jogo-do-caos" class="level2">
+<h2 class="anchored" data-anchor-id="jogo-do-caos">Jogo do Caos</h2>
+<p>Tempos depois descobri que aquela descrição do tiktok era na verdade um algorítmo conhecido como <a href="https://en.wikipedia.org/wiki/Chaos_game">jogo do caos</a>.</p>
+<p>Este processo cria uma aproximação do Triângulo de Sierpinski. Se os pontos forem coloridos de acordo com os vértices escolhidos, por exemplo A = verde, B = vermelho e C = azul, obtém-se três Triângulos de Sierpinski coloridos dentro de um Triângulo de Sierpinski.</p>
+<p>O script que fiz, logo após o vídeo do tiktok, era bem rudimentar. A partir dele eu gerei o seguinte script melhorado que constroi o triângulo descrito no vídeo com 3000 iterações.</p>
+<div id="881cfd11" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> sympy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> sp</span>
+<span id="cb1-2"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> matplotlib.pyplot <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> plt</span>
+<span id="cb1-3"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> random <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> rd</span>
+<span id="cb1-4"></span>
+<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">##construção de um triângulo equilátero de lado l</span></span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#construção dos vértices</span></span>
+<span id="cb1-8">l<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span></span>
+<span id="cb1-9">a, h<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>l<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, l<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>sp.sqrt(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb1-10">A<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Matrix([<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>a,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>])</span>
+<span id="cb1-11">B<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Matrix([a,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>])</span>
+<span id="cb1-12">C<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Matrix([<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,h])</span>
+<span id="cb1-13"></span>
+<span id="cb1-14"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"A = (</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">float</span>(A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.2f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">, </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">float</span>(A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.2f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">)"</span>)</span>
+<span id="cb1-15"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"B = (</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">float</span>(B[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.1f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">, </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">float</span>(B[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.1f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">)"</span>)</span>
+<span id="cb1-16"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"C = (</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">float</span>(C[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.2f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">, </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">float</span>(C[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.2f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">)"</span>)</span>
+<span id="cb1-17"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>()</span>
+<span id="cb1-18"></span>
+<span id="cb1-19"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#gerando ponto aleatório no interior do triângulo</span></span>
+<span id="cb1-20">dx <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">round</span>(rd.random()<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>l <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> a,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># coordenada x entre -a e a</span></span>
+<span id="cb1-21"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">while</span> dx <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>a <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> dx <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> a:</span>
+<span id="cb1-22">    dx <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">round</span>(rd.random()<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>l <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> a,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)  </span>
+<span id="cb1-23">adx<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Abs(dx) </span>
+<span id="cb1-24">y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>h<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>a<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>(a<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>adx) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#altura máxima</span></span>
+<span id="cb1-25"></span>
+<span id="cb1-26">dy<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">round</span>(rd.random()<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>y,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb1-27">i<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb1-28"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">while</span> dy<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span> <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">or</span> dy<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span>h:</span>
+<span id="cb1-29">    i<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>i<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span></span>
+<span id="cb1-30">    dy<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">round</span>(rd.random()<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>y,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb1-31"></span>
+<span id="cb1-32"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Ponto D arbitrário no interior'</span>)</span>
+<span id="cb1-33">D<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Matrix([dx,dy])</span>
+<span id="cb1-34"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"D = (</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">float</span>(D[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.2f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">, </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">float</span>(D[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>])<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:.2f}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">)"</span>)</span>
+<span id="cb1-35"></span>
+<span id="cb1-36"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#desenhando o triângulo</span></span>
+<span id="cb1-37">plt.plot([A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],B[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],C[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]],[A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],B[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],C[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]],<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'b-'</span>)</span>
+<span id="cb1-38">plt.plot(D[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],D[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bo'</span>,markersize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># bo= black, ball</span></span>
+<span id="cb1-39"></span>
+<span id="cb1-40"></span>
+<span id="cb1-41"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#função ponto médio</span></span>
+<span id="cb1-42"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> med(X,Y):</span>
+<span id="cb1-43">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> (X<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>Y)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span></span>
+<span id="cb1-44"></span>
+<span id="cb1-45"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">list</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>[A,B,C]</span>
+<span id="cb1-46">E<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>rd.choice(<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">list</span>)</span>
+<span id="cb1-47">X<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>med(E,D)</span>
+<span id="cb1-48"></span>
+<span id="cb1-49"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">for</span>  i <span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">in</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">range</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3000</span>):</span>
+<span id="cb1-50">    Y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>rd.choice(<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">list</span>)</span>
+<span id="cb1-51">    X<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>med(Y,X)</span>
+<span id="cb1-52">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">if</span> Y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span>A:</span>
+<span id="cb1-53">        plt.plot(X[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],X[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'go'</span>,markersize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-54">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">elif</span> Y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span>B:</span>
+<span id="cb1-55">        plt.plot(X[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],X[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'ro'</span>,markersize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-56">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">else</span>:</span>
+<span id="cb1-57">        plt.plot(X[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],X[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bo'</span>,markersize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)</span>
+<span id="cb1-58"></span>
+<span id="cb1-59">plt.plot([A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],B[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],C[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]],[A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],B[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],C[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],A[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>]],<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'b-'</span>)</span>
+<span id="cb1-60">plt.plot(D[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>],D[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>],<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'ko'</span>,markersize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>) <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># ro= red, ball</span></span>
+<span id="cb1-61">plt.show()</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>A = (-2.00, 0.00)
+B = (2.0, 0.0)
+C = (0.00, 3.46)
+
+Ponto D arbitrário no interior
+D = (1.58, 0.10)</code></pre>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/triangulo-sierpinski/trinagulo-sierpinski_files/figure-html/cell-2-output-2.png" width="571" height="411" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>matematica</category>
+  <guid>https://demarque.mat.br/posts/triangulo-sierpinski/trinagulo-sierpinski.html</guid>
+  <pubDate>Fri, 03 May 2024 03:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Curvas parametrizadas com Python</title>
   <dc:creator>Reginaldo Demarque</dc:creator>
   <link>https://demarque.mat.br/posts/curvas-parametricas/curvas-parametricas.html</link>
