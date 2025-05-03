@@ -10,100 +10,7 @@
 <atom:link href="https://demarque.mat.br/blog.xml" rel="self" type="application/rss+xml"/>
 <description>Professor Associado 3, RCN, UFF</description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Wed, 09 Apr 2025 03:00:00 GMT</lastBuildDate>
-<item>
-  <title>Exposição de Paraboloides Hiperbólicos</title>
-  <dc:creator>Reginaldo Demarque</dc:creator>
-  <link>https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/exposicao.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="exposição-de-paraboloides-hiperbólicos" class="level1">
-<h1>Exposição de Paraboloides Hiperbólicos</h1>
-<p>Uma exposição de fotos das esculturas produzidos pelos discentes da disciplina de Cálculo III-A, como parte da avaliação. As esculturas são paraboloides hiperbólicos feitos usando-se espetos, de acordo com as instruções apresentadas em <a href="https://mathcraft.wonderhowto.com/how-to/make-hyperbolic-paraboloid-using-skewers-0131751/">https://mathcraft.wonderhowto.com/how-to/make-hyperbolic-paraboloid-using-skewers-0131751/</a>.</p>
-<div>
-
-</div>
-<div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/marcela-soares-ed.png" class="img-fluid figure-img"></p>
-<figcaption>Marcela Junia Soares</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/erickspinelli-ed.jpg" class="img-fluid figure-img"></p>
-<figcaption>Erick Spinelli</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-giovanna.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Júlia Dias e Giovana Cunha</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/giovanna-chatack.jpg" class="img-fluid figure-img"></p>
-<figcaption>Giovanna Chatak</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/maria-eduarda-jhonny.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Maria Eduarda Cunha e Jhonny Santana</figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-jv.png" class="img-fluid figure-img"></p>
-<figcaption>Julia dos Santos e João Victor Barcelos</figcaption>
-</figure>
-</div>
-</div>
-</div>
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/felipe-silva.png" class="img-fluid figure-img"></p>
-<figcaption>Felipe Lopes: “Parbolóide Gerson”</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
-
-
-</section>
-
- ]]></description>
-  <category>matemática</category>
-  <category>ensino</category>
-  <category>gaal</category>
-  <category>geometria</category>
-  <guid>https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/exposicao.html</guid>
-  <pubDate>Wed, 09 Apr 2025 03:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Sat, 03 May 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Triângulo de Sierpinski com Python</title>
   <dc:creator>Reginaldo Demarque</dc:creator>
@@ -161,7 +68,7 @@ Descrição
 <p>Tempos depois descobri que aquela descrição do tiktok era na verdade um algorítmo conhecido como <a href="https://en.wikipedia.org/wiki/Chaos_game">jogo do caos</a>.</p>
 <p>Este processo cria uma aproximação do Triângulo de Sierpinski. Se os pontos forem coloridos de acordo com os vértices escolhidos, por exemplo A = verde, B = vermelho e C = azul, obtém-se três Triângulos de Sierpinski coloridos dentro de um Triângulo de Sierpinski.</p>
 <p>O script que fiz, logo após o vídeo do tiktok, era bem rudimentar. A partir dele eu gerei o seguinte script melhorado que constroi o triângulo descrito no vídeo com 3000 iterações.</p>
-<div id="881cfd11" class="cell" data-execution_count="1">
+<div id="9bdaad4f" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> sympy <span class="im" style="color: #00769E;
@@ -612,7 +519,7 @@ B = (2.0, 0.0)
 C = (0.00, 3.46)
 
 Ponto D arbitrário no interior
-D = (1.58, 0.10)</code></pre>
+D = (-1.66, 0.16)</code></pre>
 </div>
 <div class="cell-output cell-output-display">
 <div>
@@ -630,7 +537,100 @@ D = (1.58, 0.10)</code></pre>
   <category>python</category>
   <category>matematica</category>
   <guid>https://demarque.mat.br/posts/triangulo-sierpinski/trinagulo-sierpinski.html</guid>
-  <pubDate>Fri, 03 May 2024 03:00:00 GMT</pubDate>
+  <pubDate>Sat, 03 May 2025 03:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Exposição de Paraboloides Hiperbólicos</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/exposicao.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="exposição-de-paraboloides-hiperbólicos" class="level1">
+<h1>Exposição de Paraboloides Hiperbólicos</h1>
+<p>Uma exposição de fotos das esculturas produzidos pelos discentes da disciplina de Cálculo III-A, como parte da avaliação. As esculturas são paraboloides hiperbólicos feitos usando-se espetos, de acordo com as instruções apresentadas em <a href="https://mathcraft.wonderhowto.com/how-to/make-hyperbolic-paraboloid-using-skewers-0131751/">https://mathcraft.wonderhowto.com/how-to/make-hyperbolic-paraboloid-using-skewers-0131751/</a>.</p>
+<div>
+
+</div>
+<div class="quarto-layout-panel" data-layout-ncol="2">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/marcela-soares-ed.png" class="img-fluid figure-img"></p>
+<figcaption>Marcela Junia Soares</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/erickspinelli-ed.jpg" class="img-fluid figure-img"></p>
+<figcaption>Erick Spinelli</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-giovanna.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Júlia Dias e Giovana Cunha</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/giovanna-chatack.jpg" class="img-fluid figure-img"></p>
+<figcaption>Giovanna Chatak</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/maria-eduarda-jhonny.jpeg" class="img-fluid figure-img"></p>
+<figcaption>Maria Eduarda Cunha e Jhonny Santana</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-jv.png" class="img-fluid figure-img"></p>
+<figcaption>Julia dos Santos e João Victor Barcelos</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/felipe-silva.png" class="img-fluid figure-img"></p>
+<figcaption>Felipe Lopes: “Parbolóide Gerson”</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>matemática</category>
+  <category>ensino</category>
+  <category>gaal</category>
+  <category>geometria</category>
+  <guid>https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/exposicao.html</guid>
+  <pubDate>Wed, 09 Apr 2025 03:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Curvas parametrizadas com Python</title>

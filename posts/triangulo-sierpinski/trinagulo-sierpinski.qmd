@@ -1,7 +1,7 @@
 ---
 title: Triângulo de Sierpinski com Python
 author: Reginaldo Demarque
-date: 03 05 2024
+date: 03 05 2025
 categories:
   - python
   - matematica
