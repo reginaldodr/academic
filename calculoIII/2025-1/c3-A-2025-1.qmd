@@ -169,9 +169,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 10 . &nbsp; Ter  --  29/04  --  <span style="color:DarkGray"> Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
 11 . &nbsp; Seg  --  05/05  --  <span style="color:standard"> Definição de Curvatura.  Fórmulas da curvatura. Exercícios. Movimento no espaço: velocidade e aceleração </span> \
-12 . &nbsp; Ter  --  06/05  --  <span style="color:DarkGray"> Aula de Exercícios\
-13 . &nbsp; Seg  --  12/05  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
-<span style="color:red"> 14 . &nbsp; Ter  --  13/05  --  1ª Prova </span> \
+12 . &nbsp; Ter  --  06/05  --  <span style="color:standard"> Aula de Exercícios\
+13 . &nbsp; Seg  --  12/05  --  <span style="color:standard"> Aula de Exercícios </span> \
+<span style="color:red"> 14 . &nbsp; Ter  --  13/05  --  1ª Prova -- [gabarito](../provas/2025-1-p1-turmaM2-c3-gabarito.pdf)</span> \
 ---
 
 **2. Funções de Várias Variáveis**
