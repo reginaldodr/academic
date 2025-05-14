@@ -21,32 +21,34 @@ Uma exposição de fotos das esculturas produzidos pelos discentes da disciplina
 
 
 
-::: {layout-ncol=2}
+::: {layout-ncol=2 layout-valign="bottom"}
 
 
-![Marcela Junia Soares](parab-hiper/marcela-soares-ed.png)
+![Marcela Junia Soares](parab-hiper/marcela-soares-ed.png){fig-align="left" width=80%}
 
-![Erick Spinelli](parab-hiper/erickspinelli-ed.jpg)
+![Erick Spinelli](parab-hiper/erickspinelli-ed.jpg){fig-align="left" width=80%}
 
-![Júlia Dias e Giovana Cunha](parab-hiper/julia-giovanna.jpeg)
+![Maria Júlia Dias e Giovana Cunha](parab-hiper/julia-giovanna.jpeg){fig-align="left" width=75%}
 
-![Giovanna Chatak](parab-hiper/giovanna-chatack.jpg)
+![Giovanna Chatak](parab-hiper/giovanna-chatack.jpg){fig-align="left" width=80%}
 
-![Maria Eduarda Cunha e Jhonny Santana ](parab-hiper/maria-eduarda-jhonny.jpeg)
+![Maria Eduarda Cunha e Jhonny Santana ](parab-hiper/maria-eduarda-jhonny.jpeg){fig-align="left" width=80%}
 
-![Felipe Lopes: "Parbolóide Gerson"](parab-hiper/felipe-silva.png)
+![Felipe Lopes: "Parboloide Gerson"](parab-hiper/felipe-silva.png){fig-align="left" width=80%}
 
-![Julia dos Santos e João Victor Barcelos](parab-hiper/julia-jv.png)
+![Julia dos Santos e João Victor Barcelos](parab-hiper/julia-jv.png){fig-align="left" width=80%}
 
-![Davi Marinho e Edgar Lutterbach](parab-hiper/Davi-Marinho-EdgarLutterbach.jpg)
+![Davi Marinho e Edgar Lutterbach](parab-hiper/Davi-Marinho-EdgarLutterbach.jpg){fig-align="left" width=80%}
 
-![João Paulo Soares e Gabriel Cauã](parab-hiper/Joao-Paulo-soares.jpg)
+![João Paulo Soares e Gabriel Cauã](parab-hiper/Joao-Paulo-soares.jpg){fig-align="left" width=80%}
 
-![Kauai Pereira](parab-hiper/kauai-pereira.jpeg)
+![Kauai Pereira](parab-hiper/kauai-pereira.jpeg){fig-align="left" width=80%}
 
-![Sarah da Silva](parab-hiper/sarah-da-silva.jpg)
+![Sarah da Silva](parab-hiper/sarah-da-silva.jpg){fig-align="left" width=80%}
 
-![William Rocha](parab-hiper/william-rocha.jpg)
+![William Rocha](parab-hiper/william-rocha.jpg){fig-align="left" width=80%}
+
+![Nathália Castro](parab-hiper/nathalia-castro-ed.png){fig-align="left" width=80%}
 :::
 
 

@@ -555,110 +555,120 @@ D = (-0.37, 2.62)</code></pre>
 
 </div>
 <div class="quarto-layout-panel" data-layout-ncol="2">
-<div class="quarto-layout-row">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/marcela-soares-ed.png" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/marcela-soares-ed.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>Marcela Junia Soares</figcaption>
 </figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/erickspinelli-ed.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/erickspinelli-ed.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>Erick Spinelli</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="quarto-layout-row">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-giovanna.jpeg" class="img-fluid figure-img"></p>
-<figcaption>Júlia Dias e Giovana Cunha</figcaption>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-giovanna.jpeg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Maria Júlia Dias e Giovana Cunha</figcaption>
 </figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/giovanna-chatack.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/giovanna-chatack.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>Giovanna Chatak</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="quarto-layout-row">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/maria-eduarda-jhonny.jpeg" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/maria-eduarda-jhonny.jpeg" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>Maria Eduarda Cunha e Jhonny Santana</figcaption>
 </figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/felipe-silva.png" class="img-fluid figure-img"></p>
-<figcaption>Felipe Lopes: “Parbolóide Gerson”</figcaption>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/felipe-silva.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Felipe Lopes: “Parboloide Gerson”</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="quarto-layout-row">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-jv.png" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/julia-jv.png" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>Julia dos Santos e João Victor Barcelos</figcaption>
 </figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/Davi-Marinho-EdgarLutterbach.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/Davi-Marinho-EdgarLutterbach.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>Davi Marinho e Edgar Lutterbach</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="quarto-layout-row">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/Joao-Paulo-soares.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/Joao-Paulo-soares.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>João Paulo Soares e Gabriel Cauã</figcaption>
 </figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/kauai-pereira.jpeg" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/kauai-pereira.jpeg" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>Kauai Pereira</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<div class="quarto-layout-row">
+<div class="quarto-layout-row quarto-layout-valign-bottom">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/sarah-da-silva.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/sarah-da-silva.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>Sarah da Silva</figcaption>
 </figure>
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<div class="quarto-figure quarto-figure-center">
+<div class="quarto-figure quarto-figure-left">
 <figure class="figure">
-<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/william-rocha.jpg" class="img-fluid figure-img"></p>
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/william-rocha.jpg" class="img-fluid figure-img" style="width:80.0%"></p>
 <figcaption>William Rocha</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-bottom">
+<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div class="quarto-figure quarto-figure-left">
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/exposicao-calculoIII-A-2015-1/parab-hiper/nathalia-castro-ed.png" class="img-fluid figure-img" style="width:80.0%"></p>
+<figcaption>Nathália Castro</figcaption>
 </figure>
 </div>
 </div>
