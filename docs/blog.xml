@@ -12,7 +12,7 @@
 <generator>quarto-1.5.57</generator>
 <lastBuildDate>Sat, 03 May 2025 03:00:00 GMT</lastBuildDate>
 <item>
-  <title>Triângulo de Sierpinski com Python</title>
+  <title>Uma tarde com o Triângulo de Sierpinski</title>
   <dc:creator>Reginaldo Demarque</dc:creator>
   <link>https://demarque.mat.br/posts/triangulo-sierpinski/trinagulo-sierpinski.html</link>
   <description><![CDATA[ 
@@ -68,7 +68,7 @@ Descrição
 <p>Tempos depois descobri que aquela descrição do tiktok era na verdade um algorítmo conhecido como <a href="https://en.wikipedia.org/wiki/Chaos_game">jogo do caos</a>.</p>
 <p>Este processo cria uma aproximação do Triângulo de Sierpinski. Se os pontos forem coloridos de acordo com os vértices escolhidos, por exemplo A = verde, B = vermelho e C = azul, obtém-se três Triângulos de Sierpinski coloridos dentro de um Triângulo de Sierpinski.</p>
 <p>O script que fiz, logo após o vídeo do tiktok, era bem rudimentar. A partir dele eu gerei o seguinte script melhorado que constroi o triângulo descrito no vídeo com 3000 iterações.</p>
-<div id="9bdaad4f" class="cell" data-execution_count="1">
+<div id="aa9b9da8" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> sympy <span class="im" style="color: #00769E;
@@ -519,7 +519,7 @@ B = (2.0, 0.0)
 C = (0.00, 3.46)
 
 Ponto D arbitrário no interior
-D = (-1.66, 0.16)</code></pre>
+D = (-0.37, 2.62)</code></pre>
 </div>
 <div class="cell-output cell-output-display">
 <div>

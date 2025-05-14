@@ -1,5 +1,5 @@
 ---
-title: Triângulo de Sierpinski com Python
+title: Uma tarde com o Triângulo de Sierpinski
 author: Reginaldo Demarque
 date: 03 05 2025
 categories:
