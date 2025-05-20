@@ -40,7 +40,7 @@ from: markdown+emoji
   
   - [Lista de Exercícios Stewart](../lista-stewart-c3.pdf)
 
-  - [Provas Antigas](../provas/)
+  - [VAs Antigas](../provas/)
   
   - [Exposição de Parboloides Hiperbóicos](/posts/exposicao-calculoIII-A-2015-1/exposicao.qmd)
 
@@ -59,10 +59,10 @@ As demais referência contidas na @sec-ref formam uma lista complementar/auxilia
 
 # Avaliação
 
-A avaliação será feita mediante **2 Provas Escritas**. A nota final (NF) será a média aritmética  entre elas.
+A avaliação será feita mediante **2 Verificações de Aprendizagem (VA) Escritas**. A nota final (NF) será a média aritmética  entre elas.
 
 ## Objetivos {-}
-As provas tem como objetivos avaliar se o aluno:
+As VAs tem como objetivos avaliar se o aluno:
 
 - É capaz de interpretar as questões corretamente e formular soluções para os problemas propostos.
 - É capaz de produzir soluções, em formato de texto, compreensíveis,  com nível de detalhamento e rigor adequados para que outros profissionais familiarizados com os conceitos possam entendê-las.
@@ -71,7 +71,7 @@ As provas tem como objetivos avaliar se o aluno:
 - Consegue desenvolver uma argumentação lógica-dedutiva para chegar-se à resposta final.
 
 
-## Critério de correção das provas {-}
+## Critério de correção das VAs {-}
 Com base nos objetivos apresentados acima, os critério de correção serão: 
 
    1. Interpretação correta das questões.
@@ -80,16 +80,16 @@ Com base nos objetivos apresentados acima, os critério de correção serão:
    4. Questão com várias soluções será anulada.
    5. Resposta correta com solução errada será anulada.
 
-Além disso, durante às provas, serão adotadas as seguinte medidas: 
+Além disso, durante às VAs, serão adotadas as seguinte medidas: 
 
 - Proibido compartilhar material.
-- Só é permitida a saída após entrega definitiva da prova, ou seja, não é permitido ir ao banheiro ou beber água. A prova tem duração de no máximo 2 horas.
+- Só é permitida a saída após entrega definitiva da VA, ou seja, não é permitido ir ao banheiro ou beber água. A VA tem duração de no máximo 2 horas.
 - É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e uso de dispositivo computacional, como calculadora científica, ambos **sem acesso a internet**.
 - Fraude detectada, mesmo depois, zera a nota.
 
 ## Segunda Chamada {-}
 
-O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!**</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!**</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das VAs, poderá faltar que seu direito à Segunda Chamada será garantido.
 
 O conteúdo da **Segunda Chamada** será <span style="color:red">toda a matéria do semestre.</span>
 
@@ -99,7 +99,7 @@ O conteúdo da **Segunda Chamada** será <span style="color:red">toda a matéria
 
 Como **não há a necessidade de justificar a falta nas avaliações** para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações. 
 
-Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a prova não terão o direito à Segunda Chamada.
+Por conta disso, o aluno que estiver em dúvida entre fazer a VA ou a Segunda chamada, poderá comparecer no dia da VA e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a VA não terão o direito à Segunda Chamada.
 :::
 
 ## Verificação Suplementar {-}
@@ -171,7 +171,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 11 . &nbsp; Seg  --  05/05  --  <span style="color:standard"> Definição de Curvatura.  Fórmulas da curvatura. Exercícios. Movimento no espaço: velocidade e aceleração </span> \
 12 . &nbsp; Ter  --  06/05  --  <span style="color:standard"> Aula de Exercícios\
 13 . &nbsp; Seg  --  12/05  --  <span style="color:standard"> Aula de Exercícios </span> \
-<span style="color:red"> 14 . &nbsp; Ter  --  13/05  --  1ª Prova -- [gabarito](../provas/2025-1-p1-turmaM2-c3-gabarito.pdf)</span> \
+<span style="color:red"> 14 . &nbsp; Ter  --  13/05  --  1ª VA -- [gabarito](../provas/2025-1-p1-turmaM2-c3-gabarito.pdf)</span> \
 ---
 
 **2. Funções de Várias Variáveis**
@@ -191,10 +191,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 25 . &nbsp; Seg  --  23/06  --  <span style="color:DarkGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
 26 . &nbsp; Ter  --  24/06  --  <span style="color:DarkGray"> Multiplicadores de Lagrange com duas restrições </span> \
 27 . &nbsp; Seg  --  30/06  --  <span style="color:DarkGray"> Aula de Exercícios 5 </span> \
-<span style="color:red"> 28 . &nbsp; Ter  --  01/07  --  2ª Prova </span> \
+<span style="color:red"> 28 . &nbsp; Ter  --  01/07  --  2ª VA </span> \
 ---
 
-**Provas Finais**
+**VAs Finais**
 
 <span style="color:red"> 29 . &nbsp; Seg  --  07/07  --  2ª Chamada </span> \
 30 . &nbsp; Ter  --  08/07  --  <span style="color:DarkGray"> Atendimento no gabinete </span> \
@@ -204,6 +204,82 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 34 . &nbsp; Ter  --  22/07  --  <span style="color:DarkGray">  --  </span> \
 :end: &nbsp; Sáb  --  26/07  --  Fim do Período. :raised_hands:
 ---
+
+
+# Resultados
+
+```{python}
+#| echo: false
+#| output: asis
+
+import numpy as np
+from scipy.stats import norm
+import matplotlib.pyplot as plt
+
+insc=32
+
+print('## 1ª Verificação de Aprendizagem {-}')
+
+p1 = np.array([
+3.1,
+5.2,
+2.1,
+7,
+5.9,
+6.8,
+8.,
+7.8,
+6.4,
+6.3,
+5.4,
+2.7,
+5.7,
+1.6,
+10.,
+6.6,
+5.8,
+6.8,
+7.7,
+2.9,
+5.9,
+4.,
+2.1,
+8.,
+8.9
+])
+N=len(p1)
+
+ab=insc-N
+est=np.array([ab,N])
+perc = np.round(est/est.sum(axis=0)*100,2)
+
+print('Compareceram à 1ª verificação ','**'+str(N)+'**',' alunos, de um total de',' **'+str(insc)+'**',' inscritos, isto é, ',round(N/insc*100,2),'%.')
+print( )
+
+# Plot the histogram.
+plt.hist(p1, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas da P1")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+
+bins = [0, 4, 6, 10]
+
+res1, _ = np.histogram(p1, bins=bins)
+
+print(' ')
+print('|Classificação | Notas | Porcentagem|')
+print('|---|---|---|')
+print('| Notas acima de 6    |',res1[2],' |',np.round(res1[2]/N*100,2),'%  |')
+print('| Notas entre 4 e 6   |',res1[1],' |',np.round(res1[1]/N*100,2),'%  |')
+print('| Notas abaixo de 4   |',res1[0],' |',np.round(res1[0]/N*100,2),'%  |')
+print('| Total      |',N,' |',100,'%  |\n')
+print(': Resumo {.striped .hover #tbl-p1}')
+```
+
 
 # Cronograma Proposto Incialmente
 
@@ -230,7 +306,7 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
 11 . &nbsp; Seg  --  05/05  --  <span style="color:standard"> Movimento, velocidade e aceleração.  Componentes Normal e Tangencial da Aceleração. Fórmula da curvatura. </span> \
 12 . &nbsp; Ter  --  06/05  --  <span style="color:standard"> Aula de Exercícios 3 </span> \
-<span style="color:red"> 13 . &nbsp; Seg  --  12/05  --  1ª Prova </span> \
+<span style="color:red"> 13 . &nbsp; Seg  --  12/05  --  1ª VA </span> \
 ---
 
 **2. Funções de Várias Variáveis**
@@ -251,10 +327,10 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 25 . &nbsp; Seg  --  23/06  --  <span style="color:standard"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
 26 . &nbsp; Ter  --  24/06  --  <span style="color:standard"> Multiplicadores de Lagrange com duas restrições </span> \
 27 . &nbsp; Seg  --  30/06  --  <span style="color:standard"> Aula de Exercícios 5 </span> \
-<span style="color:red"> 28 . &nbsp; Ter  --  01/07  --  2ª Prova </span> \
+<span style="color:red"> 28 . &nbsp; Ter  --  01/07  --  2ª VA </span> \
 ---
 
-**Provas Finais**
+**VAs Finais**
 
 <span style="color:red"> 29 . &nbsp; Seg  --  07/07  --  2ª Chamada </span> \
 30 . &nbsp; Ter  --  08/07  --  <span style="color:standard"> Atendimento no gabinete </span> \
