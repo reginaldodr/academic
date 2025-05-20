@@ -127,7 +127,7 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 
 - **Funções de Várias Variáveis**\
 
-:lock: § 14.1: 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
+:pencil2: § 14.1: 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
 :lock: § 14.2: 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
 :lock: § 14.3: 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
 :lock: § 14.4: 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
@@ -176,10 +176,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 **2. Funções de Várias Variáveis**
 
-15 . &nbsp; Seg  --  19/05  --  <span style="color:DarkGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível. Limites e continuidade. </span> \
-16 . &nbsp; Ter  --  20/05  --  <span style="color:DarkGray"> Derivadas Parciais. Derivadas de ordem superior.  EPDs: Funções Harmônicas e Equação da Onda. </span> \
-17 . &nbsp; Seg  --  26/05  --  <span style="color:DarkGray"> Plano tangente. Aproximação linear.  </span> \
-18 . &nbsp; Ter  --  27/05  --  <span style="color:DarkGray"> Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$. </span> \
+15 . &nbsp; Seg  --  19/05  --  <span style="color:standard"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
+16 . &nbsp; Ter  --  20/05  --  <span style="color:standard"> Não houve aula.  </span> \
+17 . &nbsp; Seg  --  26/05  --  <span style="color:DarkGray"> Limites e continuidade. Derivadas Parciais. Derivadas de ordem superior. EPDs: Funções Harmônicas e Equação da Onda.  </span> \
+18 . &nbsp; Ter  --  27/05  --  <span style="color:DarkGray"> Plano tangente. Aproximação linear. Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$. </span> \
 19 . &nbsp; Seg  --  02/06  --  <span style="color:DarkGray"> Diferenciabilidade e diferenciais em $\mathbb{R}^3$. Regra da cadeia. </span> \
 20 . &nbsp; Ter  --  03/06  --  <span style="color:DarkGray"> Aula de Exercícios 4 </span> \
 21 . &nbsp; Seg  --  09/06  --  <span style="color:DarkGray"> Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente </span> \

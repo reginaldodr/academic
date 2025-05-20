@@ -149,8 +149,8 @@ A seguir, o símbolo :pencil2: significa quais exercícios já podem ser feitos 
 :pencil2: @poole **§ 3.1 (Matrizes):** 1, 11, 13, 17, 35.\
 :pencil2: @poole **§ 3.2 (Matrizes):** 1, 4, 23.\
 :pencil2: @poole **§ 2.2 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
-:lock: @poole **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
-:lock: @poole **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
+:pencil2: @poole **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
+:pencil2: @poole **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
 :lock: @poole **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
 
 - **Geometria Analítica** \
@@ -207,13 +207,13 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 12 . &nbsp; Ter  --  06/05  --  <span style="color:standard"> Equações da reta. Equação cartesina do Plano em $\mathbb{R}^3$.  Sistemas de Equações Lineares. Operações Elementares. </span> \
 13 . &nbsp; Seg  --  12/05  --  <span style="color:standard">Matriz aumentada. Escalonamento. Exercício em sala. </span> \
 14 . &nbsp; Ter  --  13/05  --  <span style="color:standard"> Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação.  Usando sympy para resolver sistemas lineares. </span> \
-15 . &nbsp; Seg  --  19/05  --  <span style="color:DarkGray"> Método de Gauss-Jordan. Sistemas Lineares Homogêneos. Matriz inversa e Método de inversão. Propriedades da Inversa. </span> \
+15 . &nbsp; Seg  --  19/05  --  <span style="color:standard"> Método de Gauss-Jordan. Sistemas Lineares Homogêneos. Matriz inversa e Método de inversão. Exercício em sala.  </span> \
 ---
 
 **2. Álgebra Linear no $\mathbb{R}^n$**
 
-16 . &nbsp; Ter  --  20/05  --  <span style="color:DarkGray"> Não haverá aula </span> \
-17 . &nbsp; Seg  --  26/05  --  <span style="color:DarkGray"> Definição de Determinantes.  Propriedades dos Determinantes. Cálculo de determinantes por redução por linhas. </span> \
+16 . &nbsp; Ter  --  20/05  --  <span style="color:standard"> Não haverá aula </span> \
+17 . &nbsp; Seg  --  26/05  --  <span style="color:DarkGray">Propriedades da Inversa. Definição de Determinantes.  Propriedades dos Determinantes. Cálculo de determinantes por redução por linhas. </span> \
 18 . &nbsp; Ter  --  27/05  --  <span style="color:DarkGray">  Definição de Produto Vetorial. Propriedades do Produto Vetorial. Produto Misto. Volumes do Paralelepípedo. </span> \
 <span style="color:red"> 19 . &nbsp; Seg  --  02/06  --  2ª Prova </span> \
 20 . &nbsp; Ter  --  03/06  --  <span style="color:DarkGray"> Dependência e Independência Linear.  Subespaço vetorial. Subespaço gerado. Base e Dimensão </span> \
