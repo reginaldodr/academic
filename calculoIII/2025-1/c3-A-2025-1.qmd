@@ -178,8 +178,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 15 . &nbsp; Seg  --  19/05  --  <span style="color:standard"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
 16 . &nbsp; Ter  --  20/05  --  <span style="color:standard"> Não houve aula.  </span> \
-17 . &nbsp; Seg  --  26/05  --  <span style="color:DarkGray"> Limites e continuidade. Derivadas Parciais. Derivadas de ordem superior. EPDs: Funções Harmônicas e Equação da Onda.  </span> \
-18 . &nbsp; Ter  --  27/05  --  <span style="color:DarkGray"> Plano tangente. Aproximação linear. Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$. </span> \
+17 . &nbsp; Seg  --  26/05  --  <span style="color:standard"> Limites e continuidade. </span> \
+18 . &nbsp; Ter  --  27/05  --  <span style="color:DarkGray">Derivadas Parciais. Derivadas de ordem superior. EPDs: Funções Harmônicas e Equação da Onda.  Plano tangente. Aproximação linear. Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$. </span> \
 19 . &nbsp; Seg  --  02/06  --  <span style="color:DarkGray"> Diferenciabilidade e diferenciais em $\mathbb{R}^3$. Regra da cadeia. </span> \
 20 . &nbsp; Ter  --  03/06  --  <span style="color:DarkGray"> Aula de Exercícios 4 </span> \
 21 . &nbsp; Seg  --  09/06  --  <span style="color:DarkGray"> Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente </span> \
