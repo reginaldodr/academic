@@ -159,7 +159,7 @@ GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista de GA plana](../lista-ex
 :pencil2: **(Vetores e Produto escalar em $\mathbb{R}^2$):** 2.1 (a), 2.2, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
 :pencil2:**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
 GA em $\mathbb{R}^3$\
-:lock: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
+:pencil2: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
 :pencil2: @poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
 :lock: @santosufmg **4.3 (Distância de ponto a reta):** 8, 9.\
 
@@ -212,12 +212,12 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 **2. Álgebra Linear no $\mathbb{R}^n$**
 
-16 . &nbsp; Ter  --  20/05  --  <span style="color:standard"> Não haverá aula </span> \
+16 . &nbsp; Ter  --  20/05  --  <span style="color:standard"> Não houve aula </span> \
 17 . &nbsp; Seg  --  26/05  --  <span style="color:stanard">Propriedades da Inversa. Definição de Determinantes.  Propriedades dos Determinantes.  </span> \
-18 . &nbsp; Ter  --  27/05  --  <span style="color:DarkGray"> Cálculo de determinantes por redução por linhas. Definição de Produto Vetorial. Propriedades do Produto Vetorial. Produto Misto. Volumes do Paralelepípedo. </span> \
-<span style="color:red"> 19 . &nbsp; Seg  --  02/06  --  2ª Prova </span> \
-20 . &nbsp; Ter  --  03/06  --  <span style="color:DarkGray"> Dependência e Independência Linear.  Subespaço vetorial. Subespaço gerado. Base e Dimensão </span> \
-21 . &nbsp; Seg  --  09/06  --  <span style="color:DarkGray"> Núcleo de uma matriz. Espaço linha e Espaço coluna. </span> \
+18 . &nbsp; Ter  --  27/05  --  <span style="color:standard"> Cálculo de determinantes por redução por linhas. Definição de Produto Vetorial. Propriedades do Produto Vetorial.</span> \
+19 . &nbsp; Seg  --  02/06  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
+<span style="color:red"> 20 . &nbsp; Ter  --  03/06  --  2ª Prova </span> \
+21 . &nbsp; Seg  --  09/06  --  <span style="color:DarkGray"> Dependência e Independência Linear.  Subespaço vetorial. Subespaço gerado. Base e Dimensão. Núcleo de uma matriz. Espaço linha e Espaço coluna. </span> \
 22 . &nbsp; Ter  --  10/06  --  <span style="color:DarkGray"> Como obter bases de subespaços. Definição de Autovetores e Autovalores  </span> \
 23 . &nbsp; Seg  --  16/06  --  <span style="color:DarkGray"> Autoespaços. Matrizes semelhantes. Diagonalização de Matrizes. </span> \
 24 . &nbsp; Ter  --  17/06  --  <span style="color:DarkGray"> Exemplos de Diagonalização. Diagonalizando com sympy. Projeção Ortogonal. Bases Ortogonais e Ortonormais. </span> \
@@ -227,7 +227,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 26 . &nbsp; Ter  --  24/06  --  <span style="color:DarkGray"> Completamento de Quadrados. Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. </span> \
 27 . &nbsp; Seg  --  30/06  --  <span style="color:DarkGray"> Translação de Cônicas. Formas Quadráticas e Teorema dos Eixos Principais em $\mathbb{R}^2$ </span> \
 28 . &nbsp; Ter  --  01/07  --  <span style="color:DarkGray"> Rotação de cônicas. </span> \
-29 . &nbsp; Seg  --  07/07  --  <span style="color:DarkGray"> Aula de Exercícios 2 </span> \
+29 . &nbsp; Seg  --  07/07  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
 <span style="color:red"> 30 . &nbsp; Ter  --  08/07  --  3ª Prova </span> \
 ---
 
@@ -240,6 +240,11 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :end: &nbsp; Sáb  --  26/07  --  Fim do Período. :raised_hands:
 ---
 
+**Conteúdos omitidos devido a limitações de cronograma**
+
+1. Distâncias: entre Ponto e Plano. Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano.
+2. Produto Misto. Volumes do Paralelepípedo.
+3. Posição Relativa de retas e planos.
 
 # Resultados
 
