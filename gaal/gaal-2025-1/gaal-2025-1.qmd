@@ -215,7 +215,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 16 . &nbsp; Ter  --  20/05  --  <span style="color:standard"> Não houve aula </span> \
 17 . &nbsp; Seg  --  26/05  --  <span style="color:stanard">Propriedades da Inversa. Definição de Determinantes.  Propriedades dos Determinantes.  </span> \
 18 . &nbsp; Ter  --  27/05  --  <span style="color:standard"> Cálculo de determinantes por redução por linhas. Definição de Produto Vetorial. Propriedades do Produto Vetorial.</span> \
-19 . &nbsp; Seg  --  02/06  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
+19 . &nbsp; Seg  --  02/06  --  <span style="color:standard"> Aula de Exercícios </span> \
 <span style="color:red"> 20 . &nbsp; Ter  --  03/06  --  2ª Prova </span> -- [gabarito](../provas/2025-1-av2-turmaK1-gaal-gabarito.pdf)  \
 21 . &nbsp; Seg  --  09/06  --  <span style="color:DarkGray"> Dependência e Independência Linear.  Subespaço vetorial. Subespaço gerado. Base e Dimensão. Núcleo de uma matriz. Espaço linha e Espaço coluna. </span> \
 22 . &nbsp; Ter  --  10/06  --  <span style="color:DarkGray"> Como obter bases de subespaços. Definição de Autovetores e Autovalores  </span> \
@@ -254,6 +254,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 import numpy as np
 from scipy.stats import norm
+from scipy import stats
 import matplotlib.pyplot as plt
 import pandas as pd  
 
@@ -293,7 +294,38 @@ print('| Notas entre 4 e 6   |',res1[1],' |',np.round(res1[1]/N1*100,2),'%  |')
 print('| Notas abaixo de 4   |',res1[0],' |',np.round(res1[0]/N1*100,2),'%  |')
 print('| Total      |',N1,' |',100,'%  |\n')
 print(': Resumo {.striped .hover #tbl-p1}')
+print()
 
+# Medidas de Tendência Central
+media = np.mean(p1)
+mediana = np.median(p1)
+#moda = stats.mode(p1).mode[0]  # Pega a primeira moda se houver múltiplas
+media_aparada = stats.trim_mean(p1, proportiontocut=0.1)  # Corta 10% dos extremos
+
+# Medidas de Dispersão
+variancia = np.var(p1, ddof=1)  # ddof=1 para amostra (não população)
+desvio_padrao = np.std(p1, ddof=1)
+amplitude = np.max(p1) - np.min(p1)
+q1, q3 = np.percentile(p1, [25, 75])
+iqr = q3 - q1
+
+# Assimetria e Curtose
+assimetria = stats.skew(p1)
+curtose = stats.kurtosis(p1)
+
+# Resumo Estatístico (usando Pandas)
+resumo = pd.DataFrame(p1).describe()
+
+# Exibição dos Resultados
+print("=== Medidas de Tendência Central ===\n")
+print(f"Média: {media:.2f}\n")
+print(f"Mediana: {mediana:.2f}\n")
+#print(f"Moda: {moda:.2f}\n")
+print(f"Média Aparada (10%): {media_aparada:.2f}\n")
+print()
+print("=== Forma da Distribuição ===\n")
+print(f"Assimetria: {assimetria:.2f}\n")
+print(f"Curtose: {curtose:.2f}\n")
 
 print()
 #---------------- AV2------------------------------------
@@ -330,6 +362,42 @@ print('| Notas entre 4 e 6   |',res2[1],' |',np.round(res2[1]/N2*100,2),'%  |')
 print('| Notas abaixo de 4   |',res2[0],' |',np.round(res2[0]/N2*100,2),'%  |')
 print('| Total      |',N2,' |',100,'%  |\n')
 print(': Resumo {.striped .hover #tbl-p1}')
+
+print()
+
+# Medidas de Tendência Central
+media = np.mean(p2)
+mediana = np.median(p2)
+#moda = stats.mode(p1).mode[0]  # Pega a primeira moda se houver múltiplas
+media_aparada = stats.trim_mean(p2, proportiontocut=0.1)  # Corta 10% dos extremos
+
+# Medidas de Dispersão
+variancia = np.var(p1, ddof=2)  # ddof=1 para amostra (não população)
+desvio_padrao = np.std(p1, ddof=2)
+amplitude = np.max(p1) - np.min(p2)
+q1, q3 = np.percentile(p1, [25, 75])
+iqr = q3 - q1
+
+# Assimetria e Curtose
+assimetria = stats.skew(p2)
+curtose = stats.kurtosis(p2)
+
+# Resumo Estatístico (usando Pandas)
+resumo = pd.DataFrame(p2).describe()
+
+# Exibição dos Resultados
+print("=== Medidas de Tendência Central ===\n")
+print(f"Média: {media:.2f}\n")
+print(f"Mediana: {mediana:.2f}\n")
+#print(f"Moda: {moda:.2f}\n")
+print(f"Média Aparada (10%): {media_aparada:.2f}\n")
+print()
+print("=== Forma da Distribuição ===\n")
+print(f"Assimetria: {assimetria:.2f}\n")
+print(f"Curtose: {curtose:.2f}\n")
+
+
+
 ```
 
 

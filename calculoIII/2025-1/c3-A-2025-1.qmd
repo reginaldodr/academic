@@ -180,17 +180,17 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 16 . &nbsp; Ter  --  20/05  --  <span style="color:standard"> Não houve aula.  </span> \
 17 . &nbsp; Seg  --  26/05  --  <span style="color:standard"> Limites e continuidade. </span> \
 18 . &nbsp; Ter  --  27/05  --  <span style="color:standard">Derivadas Parciais. Derivadas de ordem superior. EPDs: Funções Harmônicas, Equação da Onda e equação do calor. </span> \
-19 . &nbsp; Seg  --  02/06  --  <span style="color:standard"> Plano tangente. Aproximação linear.  </span> \
-20 . &nbsp; Ter  --  03/06  --  <span style="color:DarkGray"> Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$.  </span> \
-21 . &nbsp; Seg  --  09/06  --  <span style="color:DarkGray">Diferenciabilidade e diferenciais em $\mathbb{R}^3$. Regra da cadeia.  </span> \
-22 . &nbsp; Ter  --  10/06  --  <span style="color:DarkGray">Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente  </span> \
-23 . &nbsp; Seg  --  16/06  --  <span style="color:DarkGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$.  </span> \
-24 . &nbsp; Ter  --  17/06  --  <span style="color:DarkGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda  </span> \
+19 . &nbsp; Seg  --  02/06  --  <span style="color:standard"> Regra da cadeia. Resolução do Para casa 7 item 1.  </span> \
+20 . &nbsp; Ter  --  03/06  --  <span style="color:standard">Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente</span> \
+21 . &nbsp; Seg  --  09/06  --  <span style="color:DarkGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+22 . &nbsp; Ter  --  10/06  --  <span style="color:DarkGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+23 . &nbsp; Seg  --  16/06  --  <span style="color:DarkGray">Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$</span> \
+24 . &nbsp; Ter  --  17/06  --  <span style="color:DarkGray">Aula de Exercícios</span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  19/06  --  Corpus Christ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  20/06  --  Ponto Facultativo </span> \
-25 . &nbsp; Seg  --  23/06  --  <span style="color:DarkGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
-26 . &nbsp; Ter  --  24/06  --  <span style="color:DarkGray">Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$  </span> \
-27 . &nbsp; Seg  --  30/06  --  <span style="color:DarkGray"> Multiplicadores de Lagrange com duas restrições </span> \
+25 . &nbsp; Seg  --  23/06  --  <span style="color:DarkGray"> Plano tangente. Aproximação linear. </span> \
+26 . &nbsp; Ter  --  24/06  --  <span style="color:DarkGray">Diferenciabilidade em $\mathbb{R}^2$. Função de classe $C^1$ e diferenciais em $\mathbb{R}^2$. Diferenciabilidade e diferenciais em $\mathbb{R}^3$. </span> \
+27 . &nbsp; Seg  --  30/06  --  <span style="color:DarkGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$.  </span> \
 <span style="color:red"> 28 . &nbsp; Ter  --  01/07  --  2ª VA </span> \
 ---
 
