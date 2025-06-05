@@ -255,53 +255,81 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 import numpy as np
 from scipy.stats import norm
 import matplotlib.pyplot as plt
+import pandas as pd  
 
-insc,ab=35,12
-est=np.array([ab,insc-ab])
-perc = np.round(est/est.sum(axis=0)*100,2)
+dados = pd.read_csv('2025-1-gaal-lista-notas.csv')
+insc = len(dados['CPF']) 
 
 print('## 1ª Verificação {-}')
 
-p1 = np.array([
-4.5,
-8.6,
-7.9,
-5.5,
-8.0,
-0.9,
-2.5,
-8.0,
-1.5,
-3.8,
-4.5,
-4.5,
-1.8,
-5.3,
-4.6,
-1.0,
-1.0,
-4.6,
-1.0,
-1.3,
-1.4,
-7.3,
-4.9,
-5.9
-])
-N=len(p1)
+p1 = dados['P1'].replace('ausente', np.nan).str.replace(',', '.').astype(float).dropna().to_numpy()
+N1=len(p1)
 
-print('Compareceram à 1ª verificação ','**'+str(N)+'**',' alunos, de um total de',' **'+str(insc)+'**',' inscritos, isto é, ',round(N/insc*100,2),'%.')
+print('Compareceram à 1ª verificação ','**'+str(N1)+'**',' alunos, de um total de',' **'+str(insc)+'**',' inscritos, isto é, ',round(N1/insc*100,2),'%.')
 print( )
 
 # Plot the histogram.
-plt.hist(p1, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+plt.hist(p1,  bins=range(0, 11, 1), density=False, alpha=0.6, color='b',edgecolor='black')
+max_freq = int(max([patch.get_height() for patch in plt.gca().patches]))  # Pega a maior frequência
+plt.yticks(np.arange(0, max_freq + 1, 1))  # Passo de 1 em 1
+plt.xticks(range(0, 11, 1))
 
 # Adicionar título e legendas
-plt.title("Histograma das Notas da P1")
+plt.title("Histograma das Notas da AV1")
 plt.xlabel('Notas')
 plt.ylabel('Nº de alunos')
 
 plt.show()
+
+custom_bins = [0, 4, 6, 10]
+
+res1, _ = np.histogram(p1, bins=custom_bins)
+
+print(' ')
+print('|Classificação | Nº alunos | Porcentagem|')
+print('|---|---|---|')
+print('| Notas acima de 6    |',res1[2],' |',np.round(res1[2]/N1*100,2),'%  |')
+print('| Notas entre 4 e 6   |',res1[1],' |',np.round(res1[1]/N1*100,2),'%  |')
+print('| Notas abaixo de 4   |',res1[0],' |',np.round(res1[0]/N1*100,2),'%  |')
+print('| Total      |',N1,' |',100,'%  |\n')
+print(': Resumo {.striped .hover #tbl-p1}')
+
+
+print()
+#---------------- AV2------------------------------------
+print('## 2ª Verificação {-}')
+
+p2 = dados['P2'].replace('ausente', np.nan).str.replace(',', '.').astype(float).dropna().to_numpy()
+
+N2=len(p2)
+
+print('Compareceram à 2ª verificação ','**'+str(N2)+'**',' alunos, de um total de',' **'+str(insc)+'**',' inscritos, isto é, ',round(N2/insc*100,2),'%.')
+print( )
+
+# Plot the histogram.
+plt.hist(p2, bins=range(0, 11, 1), density=False, alpha=0.6, color='b',edgecolor='black')
+
+max_freq = int(max([patch.get_height() for patch in plt.gca().patches]))  # Pega a maior frequência
+plt.yticks(np.arange(0, max_freq + 1, 1))  
+plt.xticks(range(0, 11, 1))
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas da AV2")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+
+res2, _ = np.histogram(p2, bins=custom_bins)
+
+print(' ')
+print('|Classificação | Nº alunos | Porcentagem|')
+print('|---|---|---|')
+print('| Notas acima de 6    |',res2[2],' |',np.round(res2[2]/N2*100,2),'%  |')
+print('| Notas entre 4 e 6   |',res2[1],' |',np.round(res2[1]/N2*100,2),'%  |')
+print('| Notas abaixo de 4   |',res2[0],' |',np.round(res2[0]/N2*100,2),'%  |')
+print('| Total      |',N2,' |',100,'%  |\n')
+print(': Resumo {.striped .hover #tbl-p1}')
 ```
 
 
