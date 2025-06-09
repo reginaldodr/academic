@@ -131,8 +131,8 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 :pencil2: § 14.2: 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
 :pencil2: § 14.3: 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
 :lock: § 14.4: 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
-:lock: § 14.5: 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
-:lock: § 14.6: 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
+:pencil2: § 14.5: 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
+:pencil2: § 14.6: 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
 :lock: § 14.7: 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
 :lock: § 14.8: 3, 5, 9, 15, 17, 19, 41, 43.
 
@@ -182,8 +182,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 18 . &nbsp; Ter  --  27/05  --  <span style="color:standard">Derivadas Parciais. Derivadas de ordem superior. EPDs: Funções Harmônicas, Equação da Onda e equação do calor. </span> \
 19 . &nbsp; Seg  --  02/06  --  <span style="color:standard"> Regra da cadeia. Resolução do Para casa 7 item 1.  </span> \
 20 . &nbsp; Ter  --  03/06  --  <span style="color:standard">Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente</span> \
-21 . &nbsp; Seg  --  09/06  --  <span style="color:DarkGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
-22 . &nbsp; Ter  --  10/06  --  <span style="color:DarkGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+21 . &nbsp; Seg  --  09/06  --  <span style="color:standard"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+22 . &nbsp; Ter  --  10/06  --  <span style="color:DarkGray">Teste da Derivada Segunda (continuação) Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
 23 . &nbsp; Seg  --  16/06  --  <span style="color:DarkGray">Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$</span> \
 24 . &nbsp; Ter  --  17/06  --  <span style="color:DarkGray">Aula de Exercícios</span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  19/06  --  Corpus Christ </span> \
