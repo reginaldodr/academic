@@ -183,7 +183,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 19 . &nbsp; Seg  --  02/06  --  <span style="color:standard"> Regra da cadeia. Resolução do Para casa 7 item 1.  </span> \
 20 . &nbsp; Ter  --  03/06  --  <span style="color:standard">Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente</span> \
 21 . &nbsp; Seg  --  09/06  --  <span style="color:standard"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
-22 . &nbsp; Ter  --  10/06  --  <span style="color:DarkGray">Teste da Derivada Segunda (continuação) Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+22 . &nbsp; Ter  --  10/06  --  <span style="color:standard">Teste da Derivada Segunda (continuação) Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
 23 . &nbsp; Seg  --  16/06  --  <span style="color:DarkGray">Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$</span> \
 24 . &nbsp; Ter  --  17/06  --  <span style="color:DarkGray">Aula de Exercícios</span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  19/06  --  Corpus Christ </span> \
