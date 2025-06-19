@@ -38,7 +38,7 @@ from: markdown+emoji
   
   - [nota de aula](https://mega.nz/folder/3YdHDbxb#jm2ZKvf-lmg2zeloMK_z6Q)
   
-  - [Lista de Exercícios Stewart](../lista-stewart-c3.pdf)
+  - [Lista de Exercícios Stewart](../lista-stewart6aEd-calculo3.pdf)
 
   - [VAs Antigas](../provas/)
   
@@ -110,36 +110,36 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 Abaixo seguem os execícios da referência [@stewart2] que devem ser feitos. A distribuição está dada por seção. 
 
-Veja a lista [aqui](../lista-stewart-c3.pdf)
+Veja a lista [aqui](../lista-stewart6aEd-calculo3.pdf)
 
 O símbolo :pencil2: significa quais exercícios já podem ser feitos com o contéudo dado até o momento, enquanto o símbolo :lock: se refere àqueles que ainda não. A medida que o conteúdo em sala for avançando, novos exercícios serão desbloqueados.
 
 - **Parametrização, coordenadas polares, superfícies e funções vetoriais**\
 
-:pencil2: § 12.5: 3, 5, 7, 9, 23, 26, 31, 43, 45.\
-:pencil2: § 12.6: 3, 5, 13, 15, 21-28, 29, 31, 33.\
-:pencil2: § 10.3: 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
-:pencil2: § 13.1: 7, 9, 11, 19-24, 27, 37, 38, 39.\
-:pencil2: § 13.2: 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
-:pencil2: §13.3: 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
-:pencil2: § 13.4: 3, 5, 11, 13, 19, 31,32, 41.\
+:pencil2: **§ 12.5 (Retas e Planos):** 3, 5, 7, 9, 23, 26, 31, 43, 45.\
+:pencil2: **§ 12.6 (Cilindros e Quádricas):** 3, 5, 13, 15, 21-28, 29, 31, 33.\
+:pencil2: **§ 10.3 (Coordenadas Polares):** 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
+:pencil2: **§ 13.1 (Funções Vetoriais):** 7, 9, 11, 19-24, 27, 37, 38, 39.\
+:pencil2: **§ 13.2 (Derivadas):** 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
+:pencil2: **§13.3 (Comprimento de arco e Curvatura):** 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
+:pencil2: **§ 13.4 (Velociade e Aceleração):** 3, 5, 11, 13, 19, 31,32, 41.\
 ---
 
 - **Funções de Várias Variáveis**\
 
-:pencil2: § 14.1: 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
-:pencil2: § 14.2: 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
-:pencil2: § 14.3: 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
-:lock: § 14.4: 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
-:pencil2: § 14.5: 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
-:pencil2: § 14.6: 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
-:lock: § 14.7: 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-:lock: § 14.8: 3, 5, 9, 15, 17, 19, 41, 43.
+:pencil2: **§ 14.1 (Funções):** 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
+:pencil2: **§ 14.2 (Limite e Continuidade):** 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
+:pencil2: **§ 14.3 (Derivadas Parciais):** 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
+:pencil2: **§ 14.4 (Aproximação Linear):** 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
+:pencil2: **§ 14.5 (Regra da Cadeia):** 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
+:pencil2: **§ 14.6 (Vetor Gradiente):** 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
+:pencil2: **§ 14.7 (Máximos e Mínimos):** 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+:pencil2: **§ 14.8 (Multiplicadores de Lagrange):** 3, 5, 9, 15, 17, 19, 41, 43.
 
 Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
-:lock: § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-:lock: § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
+:pencil2: § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+:pencil2: § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
 
 # Referências {#sec-ref}
 
