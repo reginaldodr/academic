@@ -223,10 +223,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 24 . &nbsp; Ter  --  17/06  --  <span style="color:standard">Definição de Autovetores e Autovalores. Autoespaços. Matrizes semelhantes.  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  19/06  --  Corpus Christ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  20/06  --  Ponto Facultativo </span> \
-25 . &nbsp; Seg  --  23/06  --  <span style="color:DarkGray">Diagonalização de Matrizes. Exemplos de Diagonalização. Projeção Ortogonal. Bases Ortogonais e Ortonormais.  Matrizes Ortogonais. Teorema Espectral. </span> \
-26 . &nbsp; Ter  --  24/06  --  <span style="color:DarkGray"> Completamento de Quadrados. Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. </span> \
-27 . &nbsp; Seg  --  30/06  --  <span style="color:DarkGray"> Translação de Cônicas. Formas Quadráticas e Teorema dos Eixos Principais em $\mathbb{R}^2$ </span> \
-28 . &nbsp; Ter  --  01/07  --  <span style="color:DarkGray"> Rotação de cônicas. </span> \
+25 . &nbsp; Seg  --  23/06  --  <span style="color:standard">Diagonalização de Matrizes. Exemplos de Diagonalização. Projeção Ortogonal. </span> \
+26 . &nbsp; Ter  --  24/06  --  <span style="color:standard"> Bases Ortogonais e Ortonormais. Processo de Ortogonalização de Gram-Schimidt. </span> \
+27 . &nbsp; Seg  --  30/06  --  <span style="color:DarkGray"> Completamento de Quadrados. Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. Translação de Cônicas.  </span> \
+28 . &nbsp; Ter  --  01/07  --  <span style="color:DarkGray"> Matrizes Ortogonais. Teorema Espectral.  </span> \
 29 . &nbsp; Seg  --  07/07  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
 <span style="color:red"> 30 . &nbsp; Ter  --  08/07  --  3ª Prova </span> \
 ---
@@ -242,10 +242,12 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 **Conteúdos omitidos devido a limitações de cronograma**
 
-1. Distâncias: entre Ponto e Plano. Distância de ponto à Reta. Distâncias: Entre Retas, entre reta e Plano.
-2. Produto Misto. Volumes do Paralelepípedo.
-3. Posição Relativa de retas e planos.
-4. Processo de Ortogonalização de Gram-Schimidt.
+- Distâncias: entre Ponto e Plano. Distância de ponto à Reta. 
+- Distâncias: Entre Retas, entre reta e Plano.
+- Produto Misto. Volumes do Paralelepípedo.
+- Posição Relativa de retas e planos.
+-  Formas Quadráticas e Teorema dos Eixos Principais em $\mathbb{R}^2$. Rotação de cônicas.
+
 
 # Resultados
 

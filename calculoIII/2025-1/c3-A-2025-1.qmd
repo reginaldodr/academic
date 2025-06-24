@@ -188,8 +188,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 24 . &nbsp; Ter  --  17/06  --  <span style="color:standard">Aproximação linear e plano tangente.</span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  19/06  --  Corpus Christ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  20/06  --  Ponto Facultativo </span> \
-25 . &nbsp; Seg  --  23/06  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
-26 . &nbsp; Ter  --  24/06  --  <span style="color:DarkGray"> Atividade Avaliativa (opicional) valendo 30% da nota da 2ª VA </span> \
+25 . &nbsp; Seg  --  23/06  --  <span style="color:standard"> Aula de Exercícios </span> \
+26 . &nbsp; Ter  --  24/06  --  <span style="color:standard"> Atividade Avaliativa (opicional) valendo 30% da nota da 2ª VA -- [gabarito](../provas/2025-1-apva2-turmaM1-c3-gabarito.pdf) </span> \
 27 . &nbsp; Seg  --  30/06  --  <span style="color:DarkGray"> Aula de Exercícios </span> \
 <span style="color:red"> 28 . &nbsp; Ter  --  01/07  --  2ª VA </span> \
 ---
