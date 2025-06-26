@@ -174,9 +174,9 @@ GA em $\mathbb{R}^3$\
 :pencil2: @poole **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27, 40, 41.\ 
 
 - [Lista Poole 2016](../lista-poole-2016-gaal.pdf)\
-:lock: **§ 5.1 (Ortogonalidade):**  7, 9, 10, 11, 13, 15, 16, 17, 18, 21, 28, 29, 31.\
-:lock: **§ 5.3 (Ortogonalização Gram-Shcmidt):**  1, 3, 5, 7, 9, 11.\
-:lock: **§ 5.3 (Diagonalização Ortogonal):**  1, 3, 5, 7, 9, 21, 23.
+:pencil2: **§ 5.1 (Ortogonalidade):**  7, 9, 10, 11, 13, 15, 16, 17, 18, 21, 28, 29, 31.\
+:pencil2: **§ 5.3 (Ortogonalização Gram-Shcmidt):**  1, 3, 5, 7, 9, 11.\
+:lock: **§ 5.4 (Diagonalização Ortogonal):**  1, 3, 5, 7, 9, 21, 23.
 
 
 
