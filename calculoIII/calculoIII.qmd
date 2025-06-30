@@ -16,7 +16,7 @@ format:
 
 [Provas Antigas](provas/)
 
-[lista Stewart 6ªed.](lista-stewart-c3.pdf)
+[lista Stewart 6ªed.](lista-stewart6aEd-calculo3.pdf)
 
 ## Material Complementar
 
