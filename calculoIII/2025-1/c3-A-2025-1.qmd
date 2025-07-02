@@ -214,71 +214,151 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 import numpy as np
 from scipy.stats import norm
+from scipy import stats
 import matplotlib.pyplot as plt
+import pandas as pd  
 
-insc=32
+dados = pd.read_csv('2025-1-calculoIII-A-notas.csv')
+insc = len(dados['CPF']) 
 
-print('## 1ª Verificação de Aprendizagem {-}')
+print('## 1ª Verificação {-}')
 
-p1 = np.array([
-3.1,
-5.2,
-2.1,
-7,
-5.9,
-6.8,
-8.,
-7.8,
-6.4,
-6.3,
-5.4,
-2.7,
-5.7,
-1.6,
-10.,
-6.6,
-5.8,
-6.8,
-7.7,
-2.9,
-5.9,
-4.,
-2.1,
-8.,
-8.9
-])
-N=len(p1)
+p1 = dados['VA1'].replace('ausente', np.nan).str.replace(',', '.').astype(float).dropna().to_numpy()
+N1=len(p1)
 
-ab=insc-N
-est=np.array([ab,N])
-perc = np.round(est/est.sum(axis=0)*100,2)
-
-print('Compareceram à 1ª verificação ','**'+str(N)+'**',' alunos, de um total de',' **'+str(insc)+'**',' inscritos, isto é, ',round(N/insc*100,2),'%.')
+print('Compareceram à 1ª verificação ','**'+str(N1)+'**',' alunos, de um total de',' **'+str(insc)+'**',' inscritos, isto é, ',round(N1/insc*100,2),'%.')
 print( )
 
 # Plot the histogram.
-plt.hist(p1, bins=10, density=False, alpha=0.6, color='b',edgecolor='black')
+plt.hist(p1,  bins=range(0, 11, 1), density=False, alpha=0.6, color='b',edgecolor='black')
+max_freq = int(max([patch.get_height() for patch in plt.gca().patches]))  # Pega a maior frequência
+plt.yticks(np.arange(0, max_freq + 1, 1))  # Passo de 1 em 1
+plt.xticks(range(0, 11, 1))
 
 # Adicionar título e legendas
-plt.title("Histograma das Notas da P1")
+plt.title("Histograma das Notas da AV1")
 plt.xlabel('Notas')
 plt.ylabel('Nº de alunos')
 
 plt.show()
 
-bins = [0, 4, 6, 10]
+custom_bins = [0, 4, 6, 10]
 
-res1, _ = np.histogram(p1, bins=bins)
+res1, _ = np.histogram(p1, bins=custom_bins)
 
 print(' ')
-print('|Classificação | Notas | Porcentagem|')
+print('|Classificação | Nº alunos | Porcentagem|')
 print('|---|---|---|')
-print('| Notas acima de 6    |',res1[2],' |',np.round(res1[2]/N*100,2),'%  |')
-print('| Notas entre 4 e 6   |',res1[1],' |',np.round(res1[1]/N*100,2),'%  |')
-print('| Notas abaixo de 4   |',res1[0],' |',np.round(res1[0]/N*100,2),'%  |')
-print('| Total      |',N,' |',100,'%  |\n')
+print('| Notas acima de 6    |',res1[2],' |',np.round(res1[2]/N1*100,2),'%  |')
+print('| Notas entre 4 e 6   |',res1[1],' |',np.round(res1[1]/N1*100,2),'%  |')
+print('| Notas abaixo de 4   |',res1[0],' |',np.round(res1[0]/N1*100,2),'%  |')
+print('| Total      |',N1,' |',100,'%  |\n')
 print(': Resumo {.striped .hover #tbl-p1}')
+print()
+
+# Medidas de Tendência Central
+media = np.mean(p1)
+mediana = np.median(p1)
+#moda = stats.mode(p1).mode[0]  # Pega a primeira moda se houver múltiplas
+media_aparada = stats.trim_mean(p1, proportiontocut=0.1)  # Corta 10% dos extremos
+
+# Medidas de Dispersão
+variancia = np.var(p1, ddof=1)  # ddof=1 para amostra (não população)
+desvio_padrao = np.std(p1, ddof=1)
+amplitude = np.max(p1) - np.min(p1)
+q1, q3 = np.percentile(p1, [25, 75])
+iqr = q3 - q1
+
+# Assimetria e Curtose
+assimetria = stats.skew(p1)
+curtose = stats.kurtosis(p1)
+
+# Resumo Estatístico (usando Pandas)
+resumo = pd.DataFrame(p1).describe()
+
+# Exibição dos Resultados
+print("=== Medidas de Tendência Central ===\n")
+print(f"Média: {media:.2f}\n")
+print(f"Mediana: {mediana:.2f}\n")
+#print(f"Moda: {moda:.2f}\n")
+print(f"Média Aparada (10%): {media_aparada:.2f}\n")
+print()
+print("=== Forma da Distribuição ===\n")
+print(f"Assimetria: {assimetria:.2f}\n")
+print(f"Curtose: {curtose:.2f}\n")
+
+print()
+#---------------- AV2------------------------------------
+print('## 2ª Verificação {-}')
+
+p2 = dados['N2'].replace('ausente', np.nan).str.replace(',', '.').astype(float).dropna().to_numpy()
+
+N2=len(p2)
+
+print('Compareceram à 2ª verificação ','**'+str(N2)+'**',' alunos, de um total de',' **'+str(insc)+'**',' inscritos, isto é, ',round(N2/insc*100,2),'%.')
+print( )
+
+# Plot the histogram.
+plt.hist(p2, bins=range(0, 11, 1), density=False, alpha=0.6, color='b',edgecolor='black')
+
+max_freq = int(max([patch.get_height() for patch in plt.gca().patches]))  # Pega a maior frequência
+plt.yticks(np.arange(0, max_freq + 1, 1))  
+plt.xticks(range(0, 11, 1))
+
+# Adicionar título e legendas
+plt.title("Histograma das Notas da AV2")
+plt.xlabel('Notas')
+plt.ylabel('Nº de alunos')
+
+plt.show()
+
+res2, _ = np.histogram(p2, bins=custom_bins)
+
+print(' ')
+print('|Classificação | Nº alunos | Porcentagem|')
+print('|---|---|---|')
+print('| Notas acima de 6    |',res2[2],' |',np.round(res2[2]/N2*100,2),'%  |')
+print('| Notas entre 4 e 6   |',res2[1],' |',np.round(res2[1]/N2*100,2),'%  |')
+print('| Notas abaixo de 4   |',res2[0],' |',np.round(res2[0]/N2*100,2),'%  |')
+print('| Total      |',N2,' |',100,'%  |\n')
+print(': Resumo {.striped .hover #tbl-p1}')
+
+print()
+
+# Medidas de Tendência Central
+media = np.mean(p2)
+mediana = np.median(p2)
+#moda = stats.mode(p1).mode[0]  # Pega a primeira moda se houver múltiplas
+media_aparada = stats.trim_mean(p2, proportiontocut=0.1)  # Corta 10% dos extremos
+
+# Medidas de Dispersão
+variancia = np.var(p1, ddof=2)  # ddof=1 para amostra (não população)
+desvio_padrao = np.std(p1, ddof=2)
+amplitude = np.max(p1) - np.min(p2)
+q1, q3 = np.percentile(p1, [25, 75])
+iqr = q3 - q1
+
+# Assimetria e Curtose
+assimetria = stats.skew(p2)
+curtose = stats.kurtosis(p2)
+
+# Resumo Estatístico (usando Pandas)
+resumo = pd.DataFrame(p2).describe()
+
+# Exibição dos Resultados
+print("=== Medidas de Tendência Central ===\n")
+print(f"Média: {media:.2f}\n")
+print(f"Mediana: {mediana:.2f}\n")
+#print(f"Moda: {moda:.2f}\n")
+print(f"Média Aparada (10%): {media_aparada:.2f}\n")
+print()
+print("=== Forma da Distribuição ===\n")
+print(f"Assimetria: {assimetria:.2f}\n")
+print(f"Curtose: {curtose:.2f}\n")
+
 ```
+
+
 
 
 # Cronograma Proposto Incialmente
