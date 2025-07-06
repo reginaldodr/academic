@@ -208,7 +208,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  22/04  --  Não Haverá Aula </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  23/04  --  São Jorge </span> \
 09 . &nbsp; Seg  --  28/04  --  <span style="color:standard"> Aula de Dúvidas </span> \
-<span style="color:red"> 10 . &nbsp; Ter  --  29/04  --  1ª Prova  </span> -- [gabarito](../provas/2025-1-p1-turmaK1-gaal-gabarito.pdf) \
+<span style="color:red"> 10 . &nbsp; Ter  --  29/04  --  1ª Prova  </span> -- [gabarito](../provas/2025-1-va1-turmaK1-gaal-gabarito.pdf) \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  01/05  --  Dia do Trabalho </span> \
 11 . &nbsp; Seg  --  05/05  --  <span style="color:standard"> Entrega das provas e ponderações. </span> \
 12 . &nbsp; Ter  --  06/05  --  <span style="color:standard"> Equações da reta. Equação cartesina do Plano em $\mathbb{R}^3$.  Sistemas de Equações Lineares. Operações Elementares. </span> \
@@ -223,7 +223,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 17 . &nbsp; Seg  --  26/05  --  <span style="color:stanard">Propriedades da Inversa. Definição de Determinantes.  Propriedades dos Determinantes.  </span> \
 18 . &nbsp; Ter  --  27/05  --  <span style="color:standard"> Cálculo de determinantes por redução por linhas. Definição de Produto Vetorial. Propriedades do Produto Vetorial.</span> \
 19 . &nbsp; Seg  --  02/06  --  <span style="color:standard"> Aula de Exercícios </span> \
-<span style="color:red"> 20 . &nbsp; Ter  --  03/06  --  2ª Prova </span> -- [gabarito](../provas/2025-1-av2-turmaK1-gaal-gabarito.pdf)  \
+<span style="color:red"> 20 . &nbsp; Ter  --  03/06  --  2ª Prova </span> -- [gabarito](../provas/2025-1-va2-turmaK1-gaal-gabarito.pdf)  \
 21 . &nbsp; Seg  --  09/06  --  <span style="color:standard"> Dependência e Independência Linear.</span> \
 22 . &nbsp; Ter  --  10/06  --  <span style="color:standard"> Subespaço vetorial. Subespaço gerado. Núcleo de uma matriz.   </span> \
 23 . &nbsp; Seg  --  16/06  --  <span style="color:standard">Base e Dimensão. Espaço linha e Espaço coluna. Como obter bases de subespaços. </span> \
