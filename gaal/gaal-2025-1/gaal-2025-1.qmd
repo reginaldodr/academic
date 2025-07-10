@@ -241,8 +241,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 **Provas Finais**
 
 <span style="color:red"> 31 . &nbsp; Seg  --  14/07  --  2ª Chamada -- Matéria: todo o conteúdo do curso. </span> \
-<span style="color:red"> 32 . &nbsp; Ter  --  15/07  --  VS -- Matéria: todo o conteúdo do curso. </span> \
-33 . &nbsp; Seg  --  21/07  --  <span style="color:DarkGray">  --  </span> \
+32 . &nbsp; Ter  --  15/07  -- <span style="color:standard"> Vista da Prova </span> \
+<span style="color:red"> 33 . &nbsp; Seg  --  21/07  --  VS -- Matéria: todo o conteúdo do curso. </span> \
 34 . &nbsp; Ter  --  22/07  --  <span style="color:DarkGray">  --  </span> \
 :end: &nbsp; Sáb  --  26/07  --  Fim do Período. :raised_hands:
 ---
