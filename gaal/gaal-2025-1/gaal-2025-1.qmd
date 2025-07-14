@@ -83,11 +83,14 @@ As demais referência contidas na @sec-ref serão usadas como material auxiliar 
 
 # Avaliação
 
-A avaliação será feita mediante **3 Provas Escritas**. A nota final (NF) será a média ponderada entre elas, dada da seguinte forma:
+A avaliação será feita mediante **3 Verificações de Aprendizagem (Provas Escritas)**. A nota parcial (NP) será a média ponderada entre elas, dada da seguinte forma:
 $$
-NF=0.2\cdot P_1+ 0.3\cdot P_2+0.5\cdot P_3,
+NP=0.2\cdot VA_1+ 0.3\cdot VA_2+0.5\cdot VA_3,
 $$
-onde $P_i$ é a nota da $i$-ésima prova.
+onde $VA_i$ é a nota da $i$-ésima Verificação de Aprendizagem. De acordo com o Regulamento da UFF, a **Nota Final** é calculada da seguinte forma:
+
+> 
+Definida como sendo igual à média parcial, caso o discente tenha obtido aprovação direta, ou igual a 6(seis), se a aprovação foi obtida na verificação suplementar (VS). No caso de reprovação na VS, a nota final será o resultado do cálculo da média aritmética entre a média parcial e a nota obtida na VS.
 
 
 ## Objetivos {-}
@@ -240,7 +243,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 **Provas Finais**
 
-<span style="color:red"> 31 . &nbsp; Seg  --  14/07  --  2ª Chamada -- Matéria: todo o conteúdo do curso. </span> \
+<span style="color:red"> 31 . &nbsp; Seg  --  14/07  --  2ª Chamada -- Matéria: todo o conteúdo do curso. </span> -- [gabarito](../provas/2025-1-vr-turmaK1-gaal-gabarito.pdf)\
 32 . &nbsp; Ter  --  15/07  -- <span style="color:standard"> Vista da Prova </span> \
 <span style="color:red"> 33 . &nbsp; Seg  --  21/07  --  VS -- Matéria: todo o conteúdo do curso. </span> \
 34 . &nbsp; Ter  --  22/07  --  <span style="color:DarkGray">  --  </span> \
