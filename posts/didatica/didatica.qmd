@@ -13,6 +13,8 @@ format:
     toc: false
 ---
 
+![](child-and-school.jpg)
+
 # O que eu pensava sobre ensino
 
 Quando eu cursei a disciplina [Didática](https://www3.dti.ufv.br/dti/catalogo/programa-analitico/62963) na faculdade de licenciatura em matemática, lembro-me de ter lido em algum livro da bibliografia algo do tipo  "A melhor didática é o domínio do conhecimento".
