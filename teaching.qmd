@@ -29,7 +29,7 @@ format:
     - Turmas: [2022-2](https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/)
 -   [GAAL](gaal/gaal.qmd)
     - Turmas: [2024-1](gaal/gaal-2024-1.qmd), [2024-2](gaal/gaal-2024-2/gaal-2024-2.qmd),
-    [2025-1](gaal/gaal-2025-1/gaal-2025-1.qmd)
+    [2025-1](gaal/gaal-2025-1/gaal-2025-1.qmd), [2025-2](gaal/gaal-2025-2/gaal-2025-2.qmd)
 -   [Geometria Analítica e Cálculo Vetorial](GA/ga.qmd)
     - Turmas: [2022-1](GA/ga-2022-1.qmd)
 -   Equações Diferenciais
