@@ -43,6 +43,7 @@ $$
 : {.striped .table-sm}
 
 
+
 :::: {.columns}
 
 - **Material a ser utilizado**
@@ -83,7 +84,18 @@ As demais referência contidas na @sec-ref serão usadas como material auxiliar 
 
 # Avaliação
 
-A avaliação será feita mediante **3 Verificações de Aprendizagem (Provas Escritas)** e **Atividades Remotas** a serem realizadas no [Ambiente Moodle](https://seet.eaduff.org/ead/login/index.php). A nota parcial (NP) será a média ponderada entre elas, dada da seguinte forma:
+A avaliação será feita mediante **3 Verificações de Aprendizagem (Provas Escritas)** e **Atividades Remotas** a serem realizadas no [Ambiente Moodle](https://seet.eaduff.org/ead/login/index.php).
+
+::: {.callout-warning}
+## Instruções de acesso ao moodle
+Endereço: [https://seet.eaduff.org/ead](https://seet.eaduff.org/ead) \
+Login: digite o seu CPF (somente algarismos)\
+Senha: Seet2025\
+
+Após realizar o primeiro acesso, substitua a senha provisória Seet2025 por uma senha pessoal.
+:::
+
+A nota parcial (NP) será a média ponderada entre elas, dada da seguinte forma:
 $$
 NP=0.9\cdot VA+0.1\cdot AR,
 $$
