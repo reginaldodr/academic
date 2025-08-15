@@ -8,7 +8,7 @@ format:
 ![](/images/capa-teaching.png)
 
 
-### Turmas Atuais -- 2025-1
+### Turmas Atuais -- 2025-2
 
 - [Cálculo III-A](calculoIII/2025-2/c3-A-2025-2.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
 

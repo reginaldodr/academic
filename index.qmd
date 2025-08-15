@@ -29,7 +29,7 @@ Campus de Rio das Ostras
 
 ---
 
-### Turmas Atuais -- 2025-1
+### Turmas Atuais -- 2025-2
 
 - [Cálculo III-A](/calculoIII/2025-2/c3-A-2025-2.qmd)
 
