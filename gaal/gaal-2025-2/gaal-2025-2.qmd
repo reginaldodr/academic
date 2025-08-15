@@ -246,7 +246,20 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :end: &nbsp; Qui  --  18/12  --  Fim do Período. :raised_hands:
 ---
 
+**Dados do Semestre**
 
+dias letivos:  32\
+número total de aulas necessárias incluíndo provas:  31\
+
+número de feriados no semestre:  10\
+feriado em dias de aulas: 4\
+
+número total de semanas do semestre: 18\
+número de semanas sem os feriados: 16\
+
+
+
+---
 
 # Resultados
 
