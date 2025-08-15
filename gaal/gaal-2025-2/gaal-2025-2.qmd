@@ -48,14 +48,14 @@ $$
 - **Material a ser utilizado**
 
 ::: {.column width="40%"}
-  - [Slides](https://reginaldodr.github.io/slides/gaal/gaal.pdf)\
+  - [Slides](https://reginaldodr.github.io/slides/gaalv2/gaalv2.pdf)\
   - [Notas das aulas]()
   - [Livro GAAL -- UFMG](../gaalt0.pdf)\
 
 :::
 ::: {.column width="50%"}
   - [Gabarito dos Para casas](https://reginaldodr.github.io/slides/gaal/paracasas/paracasa-gabarito.pdf)
-  - [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)\
+  - [Lista Exercícios Poole (2016)](../lista-poole-2016-gaal.pdf)\
   - [Lista de Exercícios de GA](../lista-exercicios-GA.pdf)\
   - [Provas antigas](../provas/)\
 
@@ -76,7 +76,7 @@ Este curso é constituído de dois módulos:
 2. Álgebra Linear no $\mathbb{R}^n$.
 
 
-Usaremos como livro texto as referências [@poole] e [@santosufmg]. **A primeira está disponível para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). A segunda pode ser baixada [aqui](../gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+Usaremos como livro texto as referências [@poole2016] e [@santosufmg]. **A Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/), disponibiliza [@poole2004] para empréstimo, que corresponde à edição 2004 de [@poole2016], que também pode ser usada. A referência [@santosufmg] pode ser baixada [aqui](../gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
 
 As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
 
@@ -149,12 +149,12 @@ A seguir, o símbolo :pencil2: significa quais exercícios já podem ser feitos 
 
 
 - **Matrizes, Sistemas Lineares e Determinantes**\
-:lock: @poole **§ 3.1 (Matrizes):** 1, 11, 13, 17, 35.\
-:lock: @poole **§ 3.2 (Matrizes):** 1, 4, 23.\
-:lock: @poole **§ 2.2 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
-:lock: @poole **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
-:lock: @poole **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
-:lock: @poole **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
+:lock: @poole2004 **§ 3.1 (Matrizes):** 1, 11, 13, 17, 35.\
+:lock: @poole2004 **§ 3.2 (Matrizes):** 1, 4, 23.\
+:lock: @poole2004 **§ 2.2 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
+:lock: @poole2004 **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
+:lock: @poole2004 **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
+:lock: @poole2004 **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
 
 - **Geometria Analítica** \
 GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
@@ -164,22 +164,20 @@ GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista de GA plana](../lista-ex
 GA em $\mathbb{R}^3$\
 :lock: **(Cônicas):** 7.10 (apenas reconhecer e fazer um esboço).\
 :lock: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
-:lock: @poole **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
+:lock: @poole2004 **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
 :lock: @santosufmg **4.3 (Distância de ponto a reta):** 8, 9.\
 
 
 - **Álgebra Linear**\
-:lock: @poole **§ 1.2 (Vetores em $\mathbb{R}^n$):** 5, 11, 12, 14, 17.\
-:lock: @poole **§ 1.3 (Produto Escalar em $\mathbb{R}^n$):** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
+:lock: @poole2004 **§ 1.2 (Vetores em $\mathbb{R}^n$):** 5, 11, 12, 14, 17.\
+:lock: @poole2004 **§ 1.3 (Produto Escalar em $\mathbb{R}^n$):** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
 :lock: @santosufmg **5.1 (LI e LD):** 1, 3, 4, 8.\
-:lock: @poole **§ 3.5 (Subespaço,Base e Dimensão):** 13, 15, 23, 26, 27, 28, 43.\
+:lock: @poole2004 **§ 3.5 (Subespaço,Base e Dimensão):** 13, 15, 23, 26, 27, 28, 43.\
 :lock: @santosufmg **6.1 (Autovetores):** 1, 2, 3, 5, 6, 7.\
-:lock: @poole **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27, 40, 41.\ 
-
-- [Lista Poole 2016](../lista-poole-2016-gaal.pdf)\
-:lock: **§ 5.1 (Ortogonalidade):**  7, 9, 10, 11, 13, 15, 16, 17, 18, 21, 28, 29, 31.\
-:lock: **§ 5.3 (Ortogonalização Gram-Shcmidt):**  1, 3, 5, 7, 9, 11.\
-:lock: **§ 5.4 (Diagonalização Ortogonal):**  1, 3, 5-9, 13, 21, 23, 24.
+:lock: @poole2004 **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27, 40, 41.\
+:lock: @poole2016 **§ 5.1 (Ortogonalidade):**  7, 9, 10, 11, 13, 15, 16, 17, 18, 21, 28, 29, 31.\
+:lock: @poole2016 **§ 5.3 (Ortogonalização Gram-Shcmidt):**  1, 3, 5, 7, 9, 11.\
+:lock: @poole2016 **§ 5.4 (Diagonalização Ortogonal):**  1, 3, 5-9, 13, 21, 23, 24.
 
 
 
@@ -191,20 +189,72 @@ GA em $\mathbb{R}^3$\
 
 # Cronograma Efetivado {#sec-crono}
 
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 18/12 </span>,      neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
+<span style="color:standard"> **1. Matrizes, Sistemas lineares e Determinates;** </span>
+
+01 . &nbsp; Seg  --  18/08  --  <span style="color:standard"> Apresentação dos estudantes. Apresentação do curso. </span> \
+02 . &nbsp; Ter  --  19/08  --  <span style="color:LightGray"> Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. </span> \
+03 . &nbsp; Seg  --  25/08  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^n$. Sistemas de Equações Lineares. Operações Elementares. </span> \
+04 . &nbsp; Ter  --  26/08  --  <span style="color:LightGray"> Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. </span> \
+05 . &nbsp; Seg  --  01/09  --  <span style="color:LightGray"> Método de Gauss-Jordan. Sistemas Lineares Homogêneos. Usando sympy para resolver sistemas lineares. </span> \
+06 . &nbsp; Ter  --  02/09  --  <span style="color:LightGray"> Matriz inversa e Método de inversão. Propriedades da Inversa. Invertendo matrizes com o sympy. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  07/09  --  Independência </span> \
+07 . &nbsp; Seg  --  08/09  --  <span style="color:LightGray"> Definição de Determinantes. Propriedades dos Determinantes. </span> \
+08 . &nbsp; Ter  --  09/09  --  <span style="color:LightGray"> Cálculo de determinantes por redução por linhas. </span> \
+<span style="color:red"> 09 . &nbsp; Seg  --  15/09  --  VA 1 (Verificação de Aprendizagem) </span> \
+10 . &nbsp; Ter  --  16/09  --  <span style="color:LightGray"> Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$. Representação Geométrica. Norma. Regra do paralelogramo. </span> \
+11 . &nbsp; Seg  --  22/09  --  <span style="color:LightGray"> Equações reduzida e segmentária da reta em $\mathbb{R}^2$. Equação do círculo na origem. </span> \
+12 . &nbsp; Ter  --  23/09  --  <span style="color:LightGray"> Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. </span> \
+13 . &nbsp; Seg  --  29/09  --  <span style="color:LightGray"> Cônicas transladadas. Completamento de quadrados. </span> \
+14 . &nbsp; Ter  --  30/09  --  <span style="color:LightGray"> Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. </span> \
+15 . &nbsp; Seg  --  06/10  --  <span style="color:LightGray"> Equação paramétrica da reta. Interpretação vetorial da equação cartesiana da reta em $\mathbb{R}^2$. </span> \
+16 . &nbsp; Ter  --  07/10  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  12/10  --  Nossa Senhora Aparecida </span> \
+<span style="color:red"> 17 . &nbsp; Seg  --  13/10  --  VA 2 (Verificação de Aprendizagem) </span> \
 ---
 
+**2. Álgebra Linear no $\mathbb{R}^n$**
+
+18 . &nbsp; Ter  --  14/10  --  <span style="color:LightGray"> Combinação linear. Dependência e Independência Linear </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  15/10  --  Dia do Professor </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  21/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  27/10  --  Ponto Facultativo </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  28/10  --  Servidor Público </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  02/11  --  Finados </span> \
+19 . &nbsp; Seg  --  03/11  --  <span style="color:LightGray"> Subespaço vetorial. Subespaço gerado. Núcleo de uma matriz. </span> \
+20 . &nbsp; Ter  --  04/11  --  <span style="color:LightGray"> Base e Dimensão.Espaço linha e Espaço coluna. Como obter bases de subespaços. </span> \
+21 . &nbsp; Seg  --  10/11  --  <span style="color:LightGray"> Definição de Autovetores e Autovalores. Autoespaços. </span> \
+22 . &nbsp; Ter  --  11/11  --  <span style="color:LightGray"> Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  15/11  --  Proclamação da República </span> \
+23 . &nbsp; Seg  --  17/11  --  <span style="color:LightGray"> Projeção Ortogonal em $\mathbb{R}^n$. Bases Ortogonais e Ortonormais. </span> \
+24 . &nbsp; Ter  --  18/11  --  <span style="color:LightGray"> Matrizes Ortogonais. Teorema Espectral para Matrizes Simétrica. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  20/11  --  Consciência Negra </span> \
+25 . &nbsp; Seg  --  24/11  --  <span style="color:LightGray"> Formas Quadráticas e Teorema dos Eixos Principais em $\mathbb{R}^2$ </span> \
+26 . &nbsp; Ter  --  25/11  --  <span style="color:LightGray"> Rotação de cônicas. </span> \
+27 . &nbsp; Seg  --  01/12  --  <span style="color:LightGray"> Data reserva para reposição de aula, se necessário. </span> \
+28 . &nbsp; Ter  --  02/12  --  <span style="color:LightGray"> Data reserva para reposição de aula, se necessário. </span> \
+<span style="color:red"> 29 . &nbsp; Seg  --  08/12  --  VA 3 (Verificação de Aprendizagem) </span> \
+---
+
+**Provas Finais**
+
+<span style="color:red"> 30 . &nbsp; Ter  --  09/12  --  VR </span> \
+<span style="color:red"> 31 . &nbsp; Seg  --  15/12  --  VS </span> \
+32 . &nbsp; Ter  --  16/12  --  <span style="color:LightGray">  --  </span> \
+:end: &nbsp; Qui  --  18/12  --  Fim do Período. :raised_hands:
+---
 
 
 
 # Resultados
 
-
-
-
-# Cronograma Proposto Inicialmente
+# Cronograma Proposto Incialmente
 
 Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
+
+<span style="color:standard"> **1. Matrizes, Sistemas lineares e Determinates;** </span>
 
 01 . &nbsp; Seg  --  18/08  --  <span style="color:standard"> Apresentação dos estudantes. Apresentação do curso. </span> \
 02 . &nbsp; Ter  --  19/08  --  <span style="color:standard"> Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. </span> \
@@ -225,6 +275,10 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 16 . &nbsp; Ter  --  07/10  --  <span style="color:standard"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  12/10  --  Nossa Senhora Aparecida </span> \
 <span style="color:red"> 17 . &nbsp; Seg  --  13/10  --  VA 2 (Verificação de Aprendizagem) </span> \
+---
+
+**2. Álgebra Linear no $\mathbb{R}^n$**
+
 18 . &nbsp; Ter  --  14/10  --  <span style="color:standard"> Combinação linear. Dependência e Independência Linear </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  15/10  --  Dia do Professor </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \
