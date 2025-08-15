@@ -34,12 +34,12 @@ $$
 - **Início e Fim do Período:** 18/08/2025 a 18/12/2025.
 
 -  **Horário e sala:** \
-[Quadro de Alocação de salas do ICT](http://200.159.243.161/index.php/segunda/)  \
+[Quadro de Alocação de salas do ICT](http://200.159.243.250:8010/index.php/segunda/)  \
 
 | Dia | Horário | Sala |
 |----|----|----|
-|Segunda |16h - 18h| Sala 4 (IHS Prédio Alugado)|
-|Terça   |14h - 16h| Sala 4 (IHS Prédio Alugado)|
+|Segunda |16h - 18h| Sala 2 ICT|
+|Terça   |14h - 16h| Sala 2 ICT|
 : {.striped .table-sm}
 
 
@@ -191,7 +191,6 @@ GA em $\mathbb{R}^3$\
 
 # Cronograma Efetivado {#sec-crono}
 
-A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 26/07 </span>, neste caso, é aconselhado que fiquem disponíveis até esta data.**
 
 ---
 

@@ -31,16 +31,16 @@ Campus de Rio das Ostras
 
 ### Turmas Atuais -- 2025-1
 
-- [Cálculo III-A](/calculoIII/2025-1/c3-A-2025-1.qmd)
+- [Cálculo III-A](/calculoIII/2025-2/c3-A-2025-2.qmd)
 
-- [GAAL](/gaal/gaal-2025-1/gaal-2025-1.qmd)
+- [GAAL](/gaal/gaal-2025-2/gaal-2025-2.qmd)
 
 
 
 ||Segunda|Terça|Quarta|Quinta|Sexta|
 |----|:----:|:----:|:----:|:----:|:----:|
-|14h - 16h| <span style="color:green">  Cálculo III-A </span>  <br> Sala 04 <br> (IHS Prédio Alugado)|  <span style="color:blue">  GAAL </span>  <br>  Sala 06 <br> (IHS Prédio Alugado)| IC - Yure||Atendimento <br> Sala 104|
-|16h - 18h|<span style="color:blue">  GAAL </span>  <br> Sala 04 <br>(IHS Prédio Alugado)|<span style="color:green">  Cálculo III-A </span>  <br> Sala 06 <br> (IHS Prédio Alugado)|Atendimento <br> Sala 104||
+|14h - 16h| <span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS|  <span style="color:blue">  GAAL </span>  <br>  Sala 2 <br> ICT| ||Atendimento <br> Sala 104|
+|16h - 18h|<span style="color:blue">  GAAL </span>  <br> Sala 2 <br> ICT|<span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS|Atendimento <br> Sala 104||
 
 : {.striped .table-sm}
 
@@ -55,7 +55,7 @@ Campus de Rio das Ostras
 
 - [Quadro de Horários](https://app.uff.br/graduacao/quadrodehorarios)
 
-- [Quadro de Alocação de salas do ICT](http://200.159.243.161/index.php/) 
+- [Quadro de Alocação de salas do ICT](http://200.159.243.250:8010/index.php/segunda/) 
 
 - [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples)
     - [acesso por celular](http://159.112.185.66/home_externo/index)

@@ -10,9 +10,9 @@ format:
 
 ### Turmas Atuais -- 2025-1
 
-- [Cálculo III-A](calculoIII/2025-1/c3-A-2025-1.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
+- [Cálculo III-A](calculoIII/2025-2/c3-A-2025-2.qmd): 2ª (14h às 16h) e 3ª (16h às 18h) 
 
-- [GAAL](gaal/gaal-2025-1/gaal-2025-1.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
+- [GAAL](gaal/gaal-2025-2/gaal-2025-2.qmd): 2ª (16h às 18h) e 3ª (14h às 16h)
 
 ---
 
@@ -24,7 +24,7 @@ format:
 -   [Cálculo II](calculoII/calculoII.qmd) 
     - Turmas: [2022-2](calculoII/c2-2022-2.qmd), [2023-1](calculoII/c2-2023-1.qmd), [2023-2](calculoII/c2-2023-2.qmd), [2024-1](calculoII/c2-2024-1.qmd), [2024-2](calculoII/c2-2024-2.qmd)
 -   [Cálculo III](calculoIII/calculoIII.qmd)
-    - Turmas: [2023-1](calculoIII/c3-2023-1.qmd), [2023-2](calculoIII/c3-2023-2.qmd), [2025-1](calculoIII/2025-1/c3-A-2025-1.qmd)
+    - Turmas: [2023-1](calculoIII/c3-2023-1.qmd), [2023-2](calculoIII/c3-2023-2.qmd), [2025-1](calculoIII/2025-1/c3-A-2025-1.qmd), [2025-2](calculoIII/2025-2/c3-A-2025-2.qmd)
 -   Cálculo IV:
     - Turmas: [2022-2](https://www.professores.uff.br/reginaldodr/disciplinas/calculo-iv-rcn00035-2022-2/)
 -   [GAAL](gaal/gaal.qmd)
