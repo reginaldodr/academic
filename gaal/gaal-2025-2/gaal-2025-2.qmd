@@ -57,6 +57,7 @@ $$
 ::: {.column width="50%"}
   - [Gabarito dos Para casas](https://reginaldodr.github.io/slides/gaal/paracasas/paracasa-gabarito.pdf)
   - [Lista Exercícios Poole (2016)](../lista-poole-2016-gaal.pdf)\
+  - [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)
   - [Lista de Exercícios de GA](../lista-exercicios-GA.pdf)\
   - [Provas antigas](../provas/)\
 
@@ -153,7 +154,7 @@ Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br
 
 # Listas de Exercícios
 
-Abaixo seguem os execícios das referências @poole e @santosufmg e, também os da [lista de GA plana](../lista-exercicios-GA.pdf), que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+Abaixo seguem os execícios das referências @poole2016, @santosufmg e @poole2004, também os da [lista de GA plana](../lista-exercicios-GA.pdf), que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
 
 Veja as listas em [Material Básico](../gaal.qmd).
 
@@ -163,7 +164,7 @@ A seguir, o símbolo :pencil2: significa quais exercícios já podem ser feitos 
 - **Matrizes, Sistemas Lineares e Determinantes**\
 :lock: @poole2004 **§ 3.1 (Matrizes):** 1, 11, 13, 17, 35.\
 :lock: @poole2004 **§ 3.2 (Matrizes):** 1, 4, 23.\
-:lock: @poole2004 **§ 2.2 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
+:lock: @poole2004 **§ 2.1 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31.\
 :lock: @poole2004 **§ 2.3 (Resolução de Sistemas Lineares):** 9, 11,  13, 23, 25, 27, 29, 31, 39, 41, 43, 47.\
 :lock: @poole2004 **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
 :lock: @poole2004 **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
