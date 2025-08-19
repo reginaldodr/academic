@@ -34,7 +34,7 @@ from: markdown+emoji
 
   - [slides](https://reginaldodr.github.io/slides/calculo3/calculo3.pdf)
   
-  - [nota de aula]()
+  - [nota de aula](https://mega.nz/folder/GRNGnY7D#39hu-x_Dy1jke8151K-Uzw)
   
   - [Lista de Exercícios Stewart](../lista-stewart6aEd-calculo3.pdf)
 
@@ -116,7 +116,7 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 
 - **Parametrização, coordenadas polares, superfícies e funções vetoriais**\
 
-:lock: **§ 12.5 (Retas e Planos):** 3, 5, 7, 9, 23, 26, 31, 43, 45.\
+:pencil2: **§ 12.5 (Retas e Planos):** 3, 5, 7, 9, 23, 26, 31, 43, 45.\
 :lock: **§ 12.6 (Cilindros e Quádricas):** 3, 5, 13, 15, 21-28, 29, 31, 33.\
 :lock: **§ 10.3 (Coordenadas Polares):** 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
 :lock: **§ 13.1 (Funções Vetoriais):** 7, 9, 11, 19-24, 27, 37, 38, 39.\
@@ -154,9 +154,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 **1. Funções vetoriais e Superfícies**
 
-01 . &nbsp; Seg  --  18/08  --  <span style="color:LightGray"> Apresentação do estudantes. Apresentação do curso. Motivação: problemas de otimização. </span> \
-02 . &nbsp; Ter  --  19/08  --  <span style="color:LightGray"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares. </span> \
-03 . &nbsp; Seg  --  25/08  --  <span style="color:LightGray"> Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
+01 . &nbsp; Seg  --  18/08  --  <span style="color:standard"> Apresentação do estudantes. Apresentação do curso. Motivação. </span> \
+02 . &nbsp; Ter  --  19/08  --  <span style="color:standard"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares. </span> \
+03 . &nbsp; Seg  --  25/08  --  <span style="color:LightGray"> Coordenadas Polares (continuação) Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
 04 . &nbsp; Ter  --  26/08  --  <span style="color:LightGray"> Aula de Exercícios 1 </span> \
 05 . &nbsp; Seg  --  01/09  --  <span style="color:LightGray"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. </span> \
 06 . &nbsp; Ter  --  02/09  --  <span style="color:LightGray"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. </span> \
