@@ -156,8 +156,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 01 . &nbsp; Seg  --  18/08  --  <span style="color:standard"> Apresentação do estudantes. Apresentação do curso. Motivação. </span> \
 02 . &nbsp; Ter  --  19/08  --  <span style="color:standard"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares. </span> \
-03 . &nbsp; Seg  --  25/08  --  <span style="color:LightGray"> Coordenadas Polares (continuação) Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
-04 . &nbsp; Ter  --  26/08  --  <span style="color:LightGray"> Aula de Exercícios 1 </span> \
+03 . &nbsp; Seg  --  25/08  --  <span style="color:standard"> Cancelamento da aula -- Reunião PG </span> \
+04 . &nbsp; Ter  --  26/08  --  <span style="color:LightGray">  Coordenadas Polares (continuação) Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
 05 . &nbsp; Seg  --  01/09  --  <span style="color:LightGray"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. </span> \
 06 . &nbsp; Ter  --  02/09  --  <span style="color:LightGray"> Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  07/09  --  Independência </span> \

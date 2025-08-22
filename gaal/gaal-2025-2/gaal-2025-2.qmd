@@ -209,10 +209,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 01 . &nbsp; Seg  --  18/08  --  <span style="color:standard"> Apresentação dos estudantes. Apresentação do curso. </span> \
 02 . &nbsp; Ter  --  19/08  --  <span style="color:standard"> Matrizes: definição, operações e propriedades. Matrizes identidade e transposta. O espaço vetorial $\mathbb{R}^n$. </span> \
-03 . &nbsp; Seg  --  25/08  --  <span style="color:LightGray"> Sistemas de Equações Lineares. Operações Elementares. </span> \
-04 . &nbsp; Ter  --  26/08  --  <span style="color:LightGray"> Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. </span> \
+03 . &nbsp; Seg  --  25/08  --  <span style="color:standard"> Cancelamento da aula -- Reunião PG </span> \
+04 . &nbsp; Ter  --  26/08  --  <span style="color:LightGray"> Sistemas de Equações Lineares. Operações Elementares. Matriz aumentada. Escalonamento. Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. </span> \
 05 . &nbsp; Seg  --  01/09  --  <span style="color:LightGray"> Método de Gauss-Jordan. Sistemas Lineares Homogêneos. Usando sympy para resolver sistemas lineares. </span> \
-06 . &nbsp; Ter  --  02/09  --  <span style="color:LightGray"> Matriz inversa e Método de inversão. Propriedades da Inversa. Invertendo matrizes com o sympy. </span> \
+06 . &nbsp; Ter  --  02/09  --  <span style="color:LightGray"> Matriz inversa e Método de inversão. Propriedades da Inversa. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  07/09  --  Independência </span> \
 07 . &nbsp; Seg  --  08/09  --  <span style="color:LightGray"> Definição de Determinantes. Propriedades dos Determinantes. </span> \
 08 . &nbsp; Ter  --  09/09  --  <span style="color:LightGray"> Cálculo de determinantes por redução por linhas. </span> \
