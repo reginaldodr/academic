@@ -39,8 +39,8 @@ Campus de Rio das Ostras
 
 ||Segunda|Terça|Quarta|Quinta|Sexta|
 |----|:----:|:----:|:----:|:----:|:----:|
-|14h - 16h| <span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS|  <span style="color:blue">  GAAL </span>  <br>  Sala 2 <br> ICT| ||Atendimento <br> Sala 104|
-|16h - 18h|<span style="color:blue">  GAAL </span>  <br> Sala 2 <br> ICT|<span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS|Atendimento <br> Sala 104||
+|14h - 16h| <span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS|  <span style="color:blue">  GAAL </span>  <br>  Sala 2 <br> ICT|Atendimento <br> Sala 104 | | |
+|16h - 18h|<span style="color:blue">  GAAL </span>  <br> Sala 2 <br> ICT|<span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS| | | Atendimento <br> Sala 104
 
 : {.striped .table-sm}
 
