@@ -123,7 +123,7 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 :pencil2: **§ 10.3 (Coordenadas Polares):** 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
 :pencil2: **§ 13.1 (Funções Vetoriais):** 7, 9, 11, 19-24, 27, 37, 38, 39.\
 :pencil2: **§ 13.2 (Derivadas):** 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
-:lock: **§13.3 (Comprimento de arco e Curvatura):** 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
+:pencil2: **§13.3 (Comprimento de arco e Curvatura):** 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
 :lock: **§ 13.4 (Velociade e Aceleração):** 3, 5, 11, 13, 19, 31,32, 41.\
 ---
 
@@ -163,8 +163,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 05 . &nbsp; Seg  --  01/09  --  <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices. </span> \
 06 . &nbsp; Ter  --  02/09  --  <span style="color:standard">  Parametrização de curvas como interseção de duas superfícies.  Derivadas e regras de derivação de funções vetoriais.</span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  07/09  --  Independência </span> \
-07 . &nbsp; Seg  --  08/09  --  <span style="color:LightGray"> Comprimento de arco.  Parametrização pelo comprimento de arco. </span> \
-08 . &nbsp; Ter  --  09/09  --  <span style="color:LightGray"> Vetor Tangente e Curvatura. </span> \
+07 . &nbsp; Seg  --  08/09  --  <span style="color:standard"> Comprimento de arco.  Parametrização pelo comprimento de arco. </span> \
+08 . &nbsp; Ter  --  09/09  --  <span style="color:standard"> Vetor Tangente e Curvatura. </span> \
 09 . &nbsp; Seg  --  15/09  --  <span style="color:LightGray"> Definição de Curvatura. Fórmulas da curvatura. </span> \
 10 . &nbsp; Ter  --  16/09  --  <span style="color:LightGray"> Movimento, velocidade e aceleração. </span> \
 11 . &nbsp; Seg  --  22/09  --  <span style="color:LightGray"> Aula de Exercícios 2 </span> \
