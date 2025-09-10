@@ -124,7 +124,7 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 :pencil2: **§ 13.1 (Funções Vetoriais):** 7, 9, 11, 19-24, 27, 37, 38, 39.\
 :pencil2: **§ 13.2 (Derivadas):** 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
 :pencil2: **§13.3 (Comprimento de arco e Curvatura):** 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
-:lock: **§ 13.4 (Velociade e Aceleração):** 3, 5, 11, 13, 19, 31,32, 41.\
+:pencil2: **§ 13.4 (Velociade e Aceleração):** 3, 5, 11, 13, 19, 31,32, 41.\
 ---
 
 - **Funções de Várias Variáveis**\
