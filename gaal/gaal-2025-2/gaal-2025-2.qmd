@@ -220,7 +220,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 08 . &nbsp; Ter  --  09/09  --  <span style="color:standard">Propriedades dos Determinantes.  </span> \
 :pencil: &nbsp; Qua  --  10/09  --  <span style="color:Blue"> Aula Extra de Exercícios  -- Sala 02 do ICT </span> \
 :pencil: . &nbsp; Qui  --  12/09  --  <span style="color:Blue"> Aula Extra de Exercícios -- Sala 05 do ICT  </span> \
-<span style="color:red"> 09 . &nbsp; Seg  --  15/09  --  VA 1 (Verificação de Aprendizagem) </span> \
+<span style="color:red"> 09 . &nbsp; Seg  --  15/09  --  VA 1 (Verificação de Aprendizagem) </span> -- [gabarito](../provas/2025-2-va1-turmaK1-gaal-gabarito.pdf)  \
 10 . &nbsp; Ter  --  16/09  --  <span style="color:LightGray"> Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$. Representação Geométrica. Norma. Regra do paralelogramo. </span> \
 11 . &nbsp; Seg  --  22/09  --  <span style="color:LightGray"> Equações reduzida e segmentária da reta em $\mathbb{R}^2$. Equação do círculo na origem. </span> \
 12 . &nbsp; Ter  --  23/09  --  <span style="color:LightGray"> Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. </span> \
