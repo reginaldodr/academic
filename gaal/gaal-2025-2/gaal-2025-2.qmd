@@ -173,11 +173,14 @@ A seguir, o símbolo :pencil2: significa quais exercícios já podem ser feitos 
 :pencil2: @poole2004 **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
 
 - **Geometria Analítica** \
-GA em $\mathbb{R}^2$ fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
-:lock: **(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
-:lock: **(Vetores e Produto escalar em $\mathbb{R}^2$):** 2.1 (a), 2.2, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
+  - GA em $\mathbb{R}^2$\
+:pencil2: @poole2016 **(Coordenadas e vetores no plano):** 1, 2, 5, 7, 13.\
+Fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
+:pencil2: **(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
+:pencil2: **(Vetores em $\mathbb{R}^2$):** 2.1, 2.2, 2.3, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
+:lock: **(Produto escalar em $\mathbb{R}^2$):** 2.5, 2.6, 2.7, 2.9, 2.10.\
 :lock:**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
-GA em $\mathbb{R}^3$\
+  - GA em $\mathbb{R}^3$\
 :lock: **(Cônicas):** 7.10 (apenas reconhecer e fazer um esboço).\
 :lock: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
 :lock: @poole2004 **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
@@ -215,13 +218,15 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 04 . &nbsp; Ter  --  26/08  --  <span style="color:standard"> Sistemas de Equações Lineares. Operações Elementares. Matriz aumentada. Escalonamento.  </span> \
 05 . &nbsp; Seg  --  01/09  --  <span style="color:standard">Posto de uma matriz. Variáveis livres. Teorema do Posto. Classificação. Método de Gauss-Jordan. </span> \
 06 . &nbsp; Ter  --  02/09  --  <span style="color:standard"> Sistemas Lineares Homogêneos. Matriz inversa e Método de inversão. Propriedades da Inversa. Determinantes 2x2 e Regra de Sarrus. </span> \
+:question: &nbsp; Sex  --  05/09  --  <span style="color:Blue"> Atendimento: 0 alunos compareceram </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  07/09  --  Independência </span> \
 07 . &nbsp; Seg  --  08/09  --  <span style="color:standard"> Definição de Determinantes.  Cálculo de determinantes por redução por linhas. </span> \
 08 . &nbsp; Ter  --  09/09  --  <span style="color:standard">Propriedades dos Determinantes.  </span> \
 :pencil: &nbsp; Qua  --  10/09  --  <span style="color:Blue"> Aula Extra de Exercícios  -- Sala 02 do ICT </span> \
-:pencil: . &nbsp; Qui  --  12/09  --  <span style="color:Blue"> Aula Extra de Exercícios -- Sala 05 do ICT  </span> \
+:pencil: . &nbsp; Sex  --  12/09  --  <span style="color:Blue"> Aula Extra de Exercícios -- Sala 05 do ICT  </span> \
 <span style="color:red"> 09 . &nbsp; Seg  --  15/09  --  VA 1 (Verificação de Aprendizagem) </span> -- [gabarito](../provas/2025-2-va1-turmaK1-gaal-gabarito.pdf)  \
-10 . &nbsp; Ter  --  16/09  --  <span style="color:LightGray"> Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$. Representação Geométrica. Norma. Regra do paralelogramo. </span> \
+10 . &nbsp; Ter  --  16/09  --  <span style="color:standard"> Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$. Representação Geométrica. Norma. Regra do paralelogramo. </span> \
+:question: &nbsp; Sex  --  19/09  --  <span style="color:Blue"> Atendimento:  </span> \
 11 . &nbsp; Seg  --  22/09  --  <span style="color:LightGray"> Equações reduzida e segmentária da reta em $\mathbb{R}^2$. Equação do círculo na origem. </span> \
 12 . &nbsp; Ter  --  23/09  --  <span style="color:LightGray"> Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. </span> \
 13 . &nbsp; Seg  --  29/09  --  <span style="color:LightGray"> Cônicas transladadas. Completamento de quadrados. </span> \
