@@ -169,7 +169,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 10 . &nbsp; Ter  --  16/09  --  <span style="color:standard"> Aula de Exercícios  </span> \
 :question: &nbsp; Sex  --  19/09  --  <span style="color:Blue"> Atendimento: 1 aluno compareceu </span> \
 11 . &nbsp; Seg  --  22/09  --  <span style="color:standard"> Aula de Exercícios  </span> \
-<span style="color:red"> 12 . &nbsp; Ter  --  23/09  --  VA 1 (Verificação de Aprendizagem) </span> \
+<span style="color:red"> 12 . &nbsp; Ter  --  23/09  --  VA 1 (Verificação de Aprendizagem)  </span> [gabarito](../provas/2025-2-va1-c3-gabarito.pdf) \
 :question: &nbsp; Qua  --  24/09  --  <span style="color:Blue"> Atendimento: XX alunos compareceram </span> \
 ---
 
