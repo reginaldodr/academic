@@ -226,13 +226,14 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :pencil: . &nbsp; Sex  --  12/09  --  <span style="color:Blue"> Aula Extra de Exercícios -- Sala 05 do ICT  </span> \
 <span style="color:red"> 09 . &nbsp; Seg  --  15/09  --  VA 1 (Verificação de Aprendizagem) </span> -- [gabarito](../provas/2025-2-va1-turmaK1-gaal-gabarito.pdf)  \
 10 . &nbsp; Ter  --  16/09  --  <span style="color:standard"> Coordenadas cartesianas no plano. Espaço Vetorial $\mathbb{R}^2$. Representação Geométrica. Norma. Regra do paralelogramo. </span> \
-:question: &nbsp; Sex  --  19/09  --  <span style="color:Blue"> Atendimento:  </span> \
-11 . &nbsp; Seg  --  22/09  --  <span style="color:LightGray"> Equações reduzida e segmentária da reta em $\mathbb{R}^2$. Equação do círculo na origem. </span> \
-12 . &nbsp; Ter  --  23/09  --  <span style="color:LightGray"> Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. </span> \
-13 . &nbsp; Seg  --  29/09  --  <span style="color:LightGray"> Cônicas transladadas. Completamento de quadrados. </span> \
-14 . &nbsp; Ter  --  30/09  --  <span style="color:LightGray"> Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. </span> \
-15 . &nbsp; Seg  --  06/10  --  <span style="color:LightGray"> Equação paramétrica da reta. Interpretação vetorial da equação cartesiana da reta em $\mathbb{R}^2$. </span> \
-16 . &nbsp; Ter  --  07/10  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
+:question: &nbsp; Sex  --  19/09  --  <span style="color:Blue"> Atendimento: 0 alunos compareceram </span> \
+11 . &nbsp; Seg  --  22/09  --  <span style="color:standard"> Equações reduzida e segmentária da reta em $\mathbb{R}^2$. Distância entre dois pontos. Equação do círculo. </span> \
+12 . &nbsp; Ter  --  23/09  --  <span style="color:standard"> Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. Cônicas transladadas. Completamento de quadrados. </span> \
+:question: &nbsp; Qua  --  24/09  --  <span style="color:Blue"> Atendimento: XX alunos compareceram </span> \
+13 . &nbsp; Seg  --  29/09  --  <span style="color:LightGray"> Equação paramétrica da reta. Produto escalar no $\mathbb{R}^2$. Ângulo entre vetores.</span> \
+14 . &nbsp; Ter  --  30/09  --  <span style="color:LightGray"> Interpretação vetorial da equação cartesiana da reta em $\mathbb{R}^2$. </span> \
+15 . &nbsp; Seg  --  06/10  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
+16 . &nbsp; Ter  --  07/10  --  <span style="color:LightGray">  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  12/10  --  Nossa Senhora Aparecida </span> \
 <span style="color:red"> 17 . &nbsp; Seg  --  13/10  --  VA 2 (Verificação de Aprendizagem) </span> \
 ---
