@@ -73,7 +73,7 @@ $$
 
 ## Material Complementar
 
-:construction: Em construção... 
+- [Pré-Cálculo](Boulos-Pre-Calculo.pdf)
 
 :::
 
