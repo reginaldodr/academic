@@ -183,7 +183,7 @@ Fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
 :lock: **(Produto escalar em $\mathbb{R}^2$):** 2.5, 2.6, 2.7, 2.9, 2.10.\
 :pencil2:**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
   - GA em $\mathbb{R}^3$\
-:lock: **(Cônicas):** 7.10 (apenas reconhecer e fazer um esboço).\
+:pencil2: **(Cônicas):** 7.10 (apenas reconhecer e fazer um esboço).\
 :lock: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
 :lock: @poole2004 **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
 :lock: @santosufmg **4.3 (Distância de ponto a reta):** 8, 9.\
@@ -232,9 +232,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 11 . &nbsp; Seg  --  22/09  --  <span style="color:standard"> Equações reduzida e segmentária da reta em $\mathbb{R}^2$. Distância entre dois pontos. Equação do círculo. </span> \
 12 . &nbsp; Ter  --  23/09  --  <span style="color:standard"> Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. Cônicas transladadas. Completamento de quadrados. </span> \
 :question: &nbsp; Qua  --  24/09  --  <span style="color:Blue"> Atendimento: 0 alunos compareceram </span> \
-13 . &nbsp; Seg  --  29/09  --  <span style="color:LightGray"> Equação paramétrica da reta. Produto escalar no $\mathbb{R}^2$. Ângulo entre vetores.</span> \
-14 . &nbsp; Ter  --  30/09  --  <span style="color:LightGray"> Interpretação vetorial da equação cartesiana da reta em $\mathbb{R}^2$. </span> \
-15 . &nbsp; Seg  --  06/10  --  <span style="color:LightGray"> O espaço vetorial $\mathbb{R}^3$ e representação geométrica. Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
+13 . &nbsp; Seg  --  29/09  --  <span style="color:standard"> Equação paramétrica da reta em $\mathbb{R}^2$.  O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. </span> \
+14 . &nbsp; Ter  --  30/09  --  <span style="color:LightGray">Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Interpretação vetorial da equação cartesiana da reta em $\mathbb{R}^2$. </span> \
+15 . &nbsp; Seg  --  06/10  --  <span style="color:LightGray"> Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
 16 . &nbsp; Ter  --  07/10  --  <span style="color:LightGray">  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  12/10  --  Nossa Senhora Aparecida </span> \
 <span style="color:red"> 17 . &nbsp; Seg  --  13/10  --  VA 2 (Verificação de Aprendizagem) </span> \
