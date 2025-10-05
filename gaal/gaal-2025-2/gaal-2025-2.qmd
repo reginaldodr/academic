@@ -233,9 +233,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 12 . &nbsp; Ter  --  23/09  --  <span style="color:standard"> Cônicas. Equações reduzidas da Elipse, hipérbole e Parábola. Cônicas transladadas. Completamento de quadrados. </span> \
 :question: &nbsp; Qua  --  24/09  --  <span style="color:Blue"> Atendimento: 0 alunos compareceram </span> \
 13 . &nbsp; Seg  --  29/09  --  <span style="color:standard"> Equação paramétrica da reta em $\mathbb{R}^2$.  O espaço vetorial $\mathbb{R}^3$ e representação geométrica. O espaço vetorial $\mathbb{R}^n$. </span> \
-14 . &nbsp; Ter  --  30/09  --  <span style="color:LightGray">Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Interpretação vetorial da equação cartesiana da reta em $\mathbb{R}^2$. </span> \
-15 . &nbsp; Seg  --  06/10  --  <span style="color:LightGray"> Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
-16 . &nbsp; Ter  --  07/10  --  <span style="color:LightGray">  </span> \
+14 . &nbsp; Ter  --  30/09  --  <span style="color:standard"> Não houve aula</span> \
+15 . &nbsp; Seg  --  06/10  --  <span style="color:LightGray">Produto escalar no $\mathbb{R}^n$. Ângulo entre vetores. Interpretação vetorial da equação cartesiana da reta em $\mathbb{R}^2$.  </span> \
+16 . &nbsp; Ter  --  07/10  --  <span style="color:LightGray">   Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  12/10  --  Nossa Senhora Aparecida </span> \
 <span style="color:red"> 17 . &nbsp; Seg  --  13/10  --  VA 2 (Verificação de Aprendizagem) </span> \
 ---
