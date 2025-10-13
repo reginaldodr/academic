@@ -178,9 +178,9 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 13 . &nbsp; Seg  --  29/09  --  <span style="color:standard"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
 14 . &nbsp; Ter  --  30/09  --  <span style="color:standard"> Não houve aula. </span> \
 15 . &nbsp; Seg  --  06/10  --  <span style="color:standard"> Limites e continuidade.</span> \
-16 . &nbsp; Ter  --  07/10  --  <span style="color:LightGray"> Derivadas Parciais. Derivadas de ordem superior.  EPDs: Funções Harmônicas e Equação da Onda. Função de classe $C^1$. Regra da cadeia. </span> \
+16 . &nbsp; Ter  --  07/10  --  <span style="color:LightGray"> Derivadas Parciais. Derivadas de ordem superior.   </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  12/10  --  Nossa Senhora Aparecida </span> \
-17 . &nbsp; Seg  --  13/10  --  <span style="color:LightGray"> Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+17 . &nbsp; Seg  --  13/10  --  <span style="color:standard">Função de classe $C^1$. Regra da cadeia. Vetor Gradiente. Derivadas direcionais. Propriedades do vetor Gradiente </span> \
 18 . &nbsp; Ter  --  14/10  --  <span style="color:LightGray"> Plano tangente. Aproximação linear. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  15/10  --  Dia do Professor </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  20/10  --  Semana Nacional de Ciência e Tecnologia </span> \

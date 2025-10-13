@@ -238,7 +238,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 16 . &nbsp; Ter  --  07/10  --  <span style="color:standard"> Interpretação vetorial da equação cartesiana da reta em $\mathbb{R}^2$. Equação cartesina do Plano em $\mathbb{R}^3$. </span> \
 :pencil:  &nbsp; Sex  --  10/10  --  <span style="color:Blue"> Aula de Exercícios/Dúvidas online: 16h às 18h -- [link da videochamada](https://meet.google.com/zri-fdvy-pbb) </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  12/10  --  Nossa Senhora Aparecida </span> \
-<span style="color:red"> 17 . &nbsp; Seg  --  13/10  --  VA 2 (Verificação de Aprendizagem) </span> \
+<span style="color:red"> 17 . &nbsp; Seg  --  13/10  --  VA 2 (Verificação de Aprendizagem) </span> [gabarito](../provas/2025-2-va2-turmaK1-gaal-gabarito.pdf) \
 ---
 
 **2. Álgebra Linear no $\mathbb{R}^n$**
