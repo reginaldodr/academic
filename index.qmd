@@ -35,12 +35,14 @@ Campus de Rio das Ostras
 
 - [GAAL](/gaal/gaal-2025-2/gaal-2025-2.qmd)
 
+- [Cálculo II-A](calculoIIA/c2A-2025-2/c2A-2025-2.qmd)
 
 
 ||Segunda|Terça|Quarta|Quinta|Sexta|
 |----|:----:|:----:|:----:|:----:|:----:|
-|14h - 16h| <span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS|  <span style="color:blue">  GAAL </span>  <br>  Sala 2 <br> ICT|Atendimento <br> Sala 104 | | |
-|16h - 18h|<span style="color:blue">  GAAL </span>  <br> Sala 2 <br> ICT|<span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS| | | Atendimento <br> Sala 104
+|9h - 11h| | |<span style="color:red">  Cálculo II-A </span>  <br> S06 17 <br> IHS (prédio alugado) | | |
+|14h - 16h| <span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS|  <span style="color:blue">  GAAL </span>  <br>  Sala 2 <br> ICT| | | |
+|16h - 18h|<span style="color:blue">  GAAL </span>  <br> Sala 2 <br> ICT|<span style="color:green">  Cálculo III-A </span>  <br> GP 17 <br> IHS| | | Estudo dirigido <br> a definir
 
 : {.striped .table-sm}
 
