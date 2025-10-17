@@ -1,0 +1,168 @@
+---
+title: CÁLCULO II - A RCN00066 -- 2025-2
+number-sections: true
+bibliography: ../biblio.bib
+csl:  ../aims-mathematics.csl
+nocite: |
+  @*
+  
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+# Informações Básicas
+- **Início e Fim do Período:** 18/08/2025 a 18/12/2025.
+
+::: {.callout-warning}
+## Importante
+
+O curso foi inicialmente conduzido pelo Prof. **Antônio Espósito** até o dia 01/10, entretanto, devido à sua aposentadoria, a turma foi assumida, a partir do dia 06/10, pelos professores **Reginaldo Demarque** e **Romulo Rios Rosa.**
+
+Por uma questão de disponibilidade de horários, a distribuição do conteúdo foi estabelecida da seguinte forma:
+  
+  - Integração (prof. Reginaldo)
+  - EDOs, sequências e Séries (prof. Romulo)
+
+Esta página é dedicada ao registro das aulas atribuídas a mim (prof. Reginaldo). 
+
+:::
+
+-  **Horário e sala:** \
+[Quadro de Alocação de salas do ICT](http://200.159.243.250:8010/index.php/segunda/)  \
+
+| Dia | Horário | Sala |Professor|
+|----|----|----|----|
+|Terça |14h - 18h| S01 IHS (prédio alugado)| Romulo|
+|Quarta |09h30 - 11h| S06 IHS (prédio alugado)| Reginaldo|
+: {.striped .table-sm}
+
+- **Material a ser utilizado**
+
+    - [Slides-integral](https://reginaldodr.github.io/calculo2/integral-resumido/integral.pdf)
+
+
+-  **Ementa:** Busque por RCN00066 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
+INTEGRAL INDEFINIDA, MÉTODOS DE INTEGRAÇÃO. INTEGRAIS DEFINIDAS. TEOREMA FUNDAMENTAL DO CÁLCULO. INTEGRAL IMPRÓPRIA. EDO DE 1ª ORDEM. EDO DE 2ª ORDEM LINEARES. SEQUÊNCIAS E SÉRIES NUMÉRICAS. SÉRIE DE POTÊNCIAS
+
+# Apresentação do Curso
+
+Este curso é constituído pelos seguintes módulos
+
+1. **Cálculo Integral**
+    1. A integral e técnicas de integração;
+    2. Aplicações da Integral;
+2. **Equações Diferenciais Ordinárias (EDO)**
+    1. EDOs de 1ª ordem;
+    2. EDOs de 2ª ordem lineares.
+3. **Sequências e Séries**
+    1. Sequências e Séries numéricas;
+    2. Séries de Potência.
+
+Usaremos o **Classroom** como Ambiente Virtual de Aprendizagem (AVA), onde serão postadas as notas e realizadas as discussões e comunicações.
+
+
+Para o módulo de **Cálculo Integral**, usaremos com livro texto a referência [@stewart1],  **disponível para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red">É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+
+As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
+
+
+# Avaliação
+
+A avaliação será feita mediante:
+
+
+## Objetivos {-}
+As provas tem como objetivos avaliar se o aluno:
+
+- É capaz de interpretar as questões corretamente e formular soluções para os problemas propostos.
+- É capaz de produzir soluções, em formato de texto, compreensíveis,  com nível de detalhamento e rigor adequados para que outros profissionais familiarizados com os conceitos possam entendê-las.
+- Aprendeu os conceitos e técnicas ensinados em sala de aula. 
+- Sabe determinar quando a solução proposta resolve de fato o problema. 
+- Consegue desenvolver uma argumentação lógica-dedutiva para chegar-se à resposta final.
+
+
+## Critério de correção das provas {-}
+Com base nos objetivos apresentados acima, os critério de correção serão: 
+
+   1. Interpretação correta das questões.
+   2. As soluções devem ser escrita com clareza, organização, rigor e detalhamento.
+   3. Soluções desenvolvidas fora do conteúdo ensinado, mesmo que corretas, não serão consideradas.
+   4. Questão com várias soluções será anulada.
+   5. Resposta correta com solução errada será anulada.
+
+Além disso, durante às provas, serão adotadas as seguinte medidas: 
+
+- Proibido compartilhar material.
+- Só é permitida a saída após entrega definitiva da prova, ou seja, não é permitido ir ao banheiro ou beber água. A prova tem duração de no máximo 2 horas.
+- É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e **uso de dispositivo computacional**, como calculadora científica, ambos **sem acesso a internet**.
+- Fraude detectada, mesmo depois, zera a nota.
+
+## Segunda Chamada {-}
+
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!**</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
+
+
+::: {.callout-warning}
+## Importante
+
+Como **não há a necessidade de justificar a falta nas avaliações** para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações. 
+
+Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a prova não terão o direito à Segunda Chamada.
+:::
+
+## Verificação Suplementar {-}
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
+
+
+# Listas de Exercícios
+
+**Integral**: Abaixo seguem os execícios da referência @stewart1 que devem ser feitos. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+
+§ 5.1: 11, 15.\
+§ 5.2: 5, 33, 35, 37, 47, 49, 53.\
+§ 5.3: 7, 9, 17, 19, 23, 27, 29, 35, 39, 53, 55.\
+§ 5.4: 5, 9, 11, 17, 29, 31, 35, 37, 41, 61.\
+§ 5.5: 7, 9, 19, 21, 23, 27, 35, 53, 57, 59, 63, 74, 76, 78, 81.\
+§ 6.1: 1, 3, 5, 9, 13, 23, 24, 29, 39, 49, 51, 53.\
+§ 7.1: 3, 5, 7, 9, 15, 17, 23, 25, 27, 33, 44, 47.\
+§ 7.2: 3, 7, 17, 21, 25, 29, 31, 43, 45, 56, 57, 66, 70.\
+§ 7.3: 5, 7, 11, 13, 17, 23, 25, 35, 41.\
+§ 7.4: 7, 9, 11, 13, 15, 17, 63, 65, 67.\
+Leia a seção 7.5 (Estratégias de Integração)\
+§ 7.5: 1, 3, 5, 7, 13, 15, 17, 23, 25, 27, 33, 41, 45, 63.\
+§ 6.2: 1, 3, 5,19, 21, 39, 45, 51, 67.\
+§ 6.3: 5, 7, 9, 15, 19, 43, 46.\
+
+# Referências {#sec-ref}
+
+
+::: {#refs}
+:::
+
+
+
+# Cronograma Efetivado {#sec-crono}
+
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 18/12 </span>,      neste caso, é aconselhado que fiquem disponíveis até esta data.**
+
+<span style="color:standard"> **1.1 A integral e Técnicas de integração** </span>
+
+01 . &nbsp; Qua  --  08/10  --  <span style="color:standard"> Continuação Teorema Fundamental do Cálculo. Revisão das técnicas: substituição e integração por partes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  12/10  --  Nossa Senhora Aparecida </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  15/10  --  Dia do Professor </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  22/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  27/10  --  Ponto Facultativo </span> \
+02 . &nbsp; Qua  --  29/10  --  <span style="color:LightGray"> Integração por substituição Trigonométrica. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  02/11  --  Finados </span> \
+03 . &nbsp; Qua  --  05/11  --  <span style="color:LightGray"> Área do Círculo. Áreas entre curvas. </span> \
+04 . &nbsp; Qua  --  12/11  --  <span style="color:LightGray"> Cálculo de volumes por fatiamento. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  15/11  --  Proclamação da República </span> \
+05 . &nbsp; Qua  --  19/11  --  <span style="color:LightGray"> Volume pelo método dos discos. Sólidos de Revolução ✊. Volume por cascas cilíndricas. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  20/11  --  Consciência Negra </span> \
+06 . &nbsp; Qua  --  26/11  --  <span style="color:LightGray"> Comprimento de Curvas. O comprimento da circunferência </span> \
+<span style="color:red"> 07 . &nbsp; Qua  --  03/12  --  VA 1 (Verificação de Aprendizagem) </span> \
+---
+
