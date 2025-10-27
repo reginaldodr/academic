@@ -26,10 +26,6 @@ nocite: |
 
 1. Araújo BSV, Demarque R, Viana L (2023) [Boundary null controllability of degenerate wave equation as the limit of internal controllability](https://arxiv.org/abs/2311.08084). arXiv:2311.08084.
 
-
-2. Araújo BSV, Demarque R, Faria J. C. O, Viana L (2024) [Carleman estimates for parabolic equations with super strong degeneracy in a set of positive measure](https://arxiv.org/abs/2404.12537). 	arXiv:2404.12537.
-
-
 ## Publications
 
 
