@@ -251,8 +251,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  28/10  --  Servidor Público </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  02/11  --  Finados </span> \
 19 . &nbsp; Seg  --  03/11  --  <span style="color:LightGray"> Subespaço vetorial. Subespaço gerado. Núcleo de uma matriz. </span> \
-20 . &nbsp; Ter  --  04/11  --  <span style="color:LightGray"> Base e Dimensão.Espaço linha e Espaço coluna. Como obter bases de subespaços. </span> \
-21 . &nbsp; Seg  --  10/11  --  <span style="color:LightGray"> Definição de Autovetores e Autovalores. Autoespaços. </span> \
+20 . &nbsp; Ter  --  04/11  --  <span style="color:LightGray"> Não houve aula. </span> \
+21 . &nbsp; Seg  --  10/11  --  <span style="color:LightGray"> Base e Dimensão.Espaço linha e Espaço coluna. Como obter bases de subespaços.  Definição de Autovetores e Autovalores. Autoespaços. </span> \
 22 . &nbsp; Ter  --  11/11  --  <span style="color:LightGray"> Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  15/11  --  Proclamação da República </span> \
 23 . &nbsp; Seg  --  17/11  --  <span style="color:LightGray"> Projeção Ortogonal em $\mathbb{R}^n$. Bases Ortogonais e Ortonormais. </span> \
