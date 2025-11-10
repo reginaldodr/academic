@@ -190,7 +190,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  02/11  --  Finados </span> \
 19 . &nbsp; Seg  --  03/11  --  <span style="color:standard"> Aula de Exercícios </span> \
 20 . &nbsp; Ter  --  04/11  -- <span style="color:standard">  Aula de Exercícios </span> \
-<span style="color:red"> 21 . &nbsp; Ter  --  10/11  --  VA 1 (Verificação de Aprendizagem) </span> \
+<span style="color:red"> 21 . &nbsp; Ter  --  10/11  --  VA 2(verificação de Aprendizagem) </span> [gabarito](../provas/2025-2-va2-c3-gabarito.pdf) \
 22 . &nbsp; Ter  --  11/11  --  <span style="color:LightGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  15/11  --  Proclamação da República </span> \
 23 . &nbsp; Seg  --  17/11  --  <span style="color:LightGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
