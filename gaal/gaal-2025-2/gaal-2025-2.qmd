@@ -195,9 +195,9 @@ Fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
 :pencil2: @santosufmg **5.1 (LI e LD):** 1, 3, 4, 8.\
 :pencil2: @poole2004 **§ 3.5 (Subespaço,Base e Dimensão):** 13, 15, 23, 26, 27, 28, 43.\
 :pencil2: @santosufmg **6.1 (Autovetores):** 1, 2, 3, 5, 6, 7.\
-:lock: @poole2004 **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27, 40, 41.\
-:lock: @poole2016 **§ 5.1 (Ortogonalidade):**  7, 9, 10, 11, 13, 15, 16, 17, 18, 21, 28, 29, 31.\
-:lock: @poole2016 **§ 5.3 (Ortogonalização Gram-Shcmidt):**  1, 3, 5, 7, 9, 11.\
+:pencil2: @poole2004 **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27, 40, 41.\
+:pencil2: @poole2016 **§ 5.1 (Ortogonalidade):**  7, 9, 10, 11, 13, 15, 16, 17, 18, 21, 28, 29, 31.\
+:pencil2: @poole2016 **§ 5.3 (Ortogonalização Gram-Shcmidt):**  1, 3, 5, 7, 9, 11.\
 :lock: @poole2016 **§ 5.4 (Diagonalização Ortogonal):**  1, 3, 5-9, 13, 21, 23, 24.
 
 
