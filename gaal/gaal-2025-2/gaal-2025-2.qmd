@@ -255,10 +255,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 21 . &nbsp; Seg  --  10/11  --  <span style="color:standard"> Base e Dimensão.Espaço linha e Espaço coluna. Como obter bases de subespaços.   </span> \
 22 . &nbsp; Ter  --  11/11  --  <span style="color:standard"> Definição de Autovetores e Autovalores. Autoespaços. Resolução do Para Casa em aula. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  15/11  --  Proclamação da República </span> \
-23 . &nbsp; Seg  --  17/11  --  <span style="color:LightGray">  Matrizes semelhantes. Diagonalização de Matrizes. Exemplos de Diagonalização. Projeção Ortogonal em $\mathbb{R}^n$. Bases Ortogonais e Ortonormais. </span> \
-24 . &nbsp; Ter  --  18/11  --  <span style="color:LightGray"> Matrizes Ortogonais. Teorema Espectral para Matrizes Simétrica. </span> \
+23 . &nbsp; Seg  --  17/11  --  <span style="color:standard">  Matrizes semelhantes. Diagonalização de Matrizes.  Exemplos de Diagonalização.  </span> \
+24 . &nbsp; Ter  --  18/11  --  <span style="color:standard"> Projeção Ortogonal em $\mathbb{R}^n$. Processo de Ortogonalização de Gram-Schmidt. Bases Ortogonais e Ortonormais. Matrizes Ortogonais.  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  20/11  --  Consciência Negra </span> \
-25 . &nbsp; Seg  --  24/11  --  <span style="color:LightGray"> Formas Quadráticas e Teorema dos Eixos Principais em $\mathbb{R}^2$ </span> \
+25 . &nbsp; Seg  --  24/11  --  <span style="color:LightGray"> Teorema Espectral para Matrizes Simétrica. Formas Quadráticas e Teorema dos Eixos Principais em $\mathbb{R}^2$ </span> \
 26 . &nbsp; Ter  --  25/11  --  <span style="color:LightGray"> Rotação de cônicas. </span> \
 27 . &nbsp; Seg  --  01/12  --  <span style="color:LightGray"> Data reserva para reposição de aula, se necessário. </span> \
 28 . &nbsp; Ter  --  02/12  --  <span style="color:LightGray"> Data reserva para reposição de aula, se necessário. </span> \
