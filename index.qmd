@@ -70,11 +70,13 @@ Campus de Rio das Ostras
 
 ### Formação Acadêmica/Titulação
 
--   2001 -- 2006: Licenciatura em Matemática pela UFV.
+-   04/2001 -- 03/2006: Licenciatura em Matemática pela UFV.
 
--   2006 -- 2008: [Mestrado em Matemática pela UFF](http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=159241)
+-   03/2006 -- 03/2008: Mestrado em Matemática pela UFF\
+ Dissertação:  [ Equação de Boussinesq em domínios cilíndricos e não-cilíndricos](http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=159241)
 
--   2009 -- 2012: [Doutorado em Matemática pela UFMG](https://repositorio.ufmg.br/handle/1843/EABA-8LUS26).
+-   03/2008 -- 08/2011: Doutorado em Matemática pela UFMG\
+Tese: [Existência e não existência de soluções para uma classe de problemas elípticos com potencial singular](https://repositorio.ufmg.br/handle/1843/EABA-8LUS26).
 
 -   2015 -- 2016: Pós-doutorado em Matemática pela Universidad de Sevilla.
 
