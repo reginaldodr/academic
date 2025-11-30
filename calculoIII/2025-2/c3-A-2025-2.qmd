@@ -132,7 +132,7 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 :pencil2: **§ 14.1 (Funções):** 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
 :pencil2: **§ 14.2 (Limite e Continuidade):** 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
 :pencil2: **§ 14.3 (Derivadas Parciais):** 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
-:lock: **§ 14.4 (Aproximação Linear):** 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
+:pencil2: **§ 14.4 (Aproximação Linear):** 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
 :pencil2: **§ 14.5 (Regra da Cadeia):** 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
 :pencil2: **§ 14.6 (Vetor Gradiente):** 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
 :pencil2: **§ 14.7 (Máximos e Mínimos):** 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
@@ -140,8 +140,8 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 
 Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
-:lock: § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-:lock: § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
+:pencil2: § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+:pencil2: § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
 
 # Referências {#sec-ref}
 
@@ -196,8 +196,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 23 . &nbsp; Seg  --  17/11  --  <span style="color:standard"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
 24 . &nbsp; Ter  --  18/11  --  <span style="color:standard"> Aproximação linear. Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  20/11  --  Consciência Negra </span> \
-25 . &nbsp; Seg  --  24/11  --  <span style="color:LightGray"> vista da VA2. </span> \
-26 . &nbsp; Ter  --  25/11  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. </span> \
+25 . &nbsp; Seg  --  24/11  --  <span style="color:standard"> vista da VA2. </span> \
+26 . &nbsp; Ter  --  25/11  --  <span style="color:standard"> Aula de exercícios. </span> \
 27 . &nbsp; Seg  --  01/12  --  <span style="color:LightGray"> Aula de Exercícios  </span> \
 <span style="color:red"> 28 . &nbsp; Ter  --  02/12  --  VA 3 (Verificação de Aprendizagem) </span> \
 ---
