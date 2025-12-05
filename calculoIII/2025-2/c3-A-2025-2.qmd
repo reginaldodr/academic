@@ -198,14 +198,14 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  20/11  --  Consciência Negra </span> \
 25 . &nbsp; Seg  --  24/11  --  <span style="color:standard"> vista da VA2. </span> \
 26 . &nbsp; Ter  --  25/11  --  <span style="color:standard"> Aula de exercícios. </span> \
-27 . &nbsp; Seg  --  01/12  --  <span style="color:LightGray"> Aula de Exercícios  </span> \
+27 . &nbsp; Seg  --  01/12  --  <span style="color:standard"> Aula de Exercícios  </span> \
 <span style="color:red"> 28 . &nbsp; Ter  --  02/12  --  VA 3 (Verificação de Aprendizagem) </span> [gabarito](../provas/2025-2-va3-c3-gabarito.pdf) \
 ---
 
 **Provas Finais**
 
-<span style="color:red"> 29 . &nbsp; Seg  --  08/12  --  VR </span> \
-30 . &nbsp; Ter  --  09/12  --  <span style="color:LightGray"> --- </span> \
+29 . &nbsp; Seg  --  08/12 --  <span style="color:LightGray">  --   </span> \
+<span style="color:red"> 30 . &nbsp; Ter  --  09/12  -- VR </span> \
 <span style="color:red"> 31 . &nbsp; Seg  --  15/12  --  VS </span> \
 32 . &nbsp; Ter  --  16/12  --  <span style="color:LightGray">  --  </span> \
 :end: &nbsp; Qui  --  18/12  --  Fim do Período. :raised_hands:

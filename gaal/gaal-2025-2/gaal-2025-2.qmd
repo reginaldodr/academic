@@ -258,10 +258,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 23 . &nbsp; Seg  --  17/11  --  <span style="color:standard">  Matrizes semelhantes. Diagonalização de Matrizes.  Exemplos de Diagonalização.  </span> \
 24 . &nbsp; Ter  --  18/11  --  <span style="color:standard"> Projeção Ortogonal em $\mathbb{R}^n$. Processo de Ortogonalização de Gram-Schmidt. Bases Ortogonais e Ortonormais. Matrizes Ortogonais.  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  20/11  --  Consciência Negra </span> \
-25 . &nbsp; Seg  --  24/11  --  <span style="color:LightGray"> Teorema Espectral para Matrizes Simétrica. Formas Quadráticas e Teorema dos Eixos Principais em $\mathbb{R}^2$ </span> \
+25 . &nbsp; Seg  --  24/11  --  <span style="color:standard"> Teorema Espectral para Matrizes Simétrica. Formas Quadráticas e Teorema dos Eixos Principais em $\mathbb{R}^2$ </span> \
 26 . &nbsp; Ter  --  25/11  --  <span style="color:standard"> Rotação de cônicas. </span> \
 27 . &nbsp; Seg  --  01/12  --  <span style="color:standard"> aula de exercícios. </span> \
-28 . &nbsp; Ter  --  02/12  --  <span style="color:LightGray"> aula de exercícios </span> \
+28 . &nbsp; Ter  --  02/12  --  <span style="color:standard"> aula de exercícios </span> \
 <span style="color:red"> 29 . &nbsp; Seg  --  08/12  --  VA 3 (Verificação de Aprendizagem) </span> \
 ---
 

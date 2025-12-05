@@ -162,7 +162,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Sáb  --  15/11  --  Proclamação da República </span> \
 05 . &nbsp; Qua  --  19/11  --  <span style="color:standard"> Aula de Exercícios  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  20/11  --  Consciência Negra </span> \
-06 . &nbsp; Qua  --  26/11  --  <span style="color:LightGray"> Aula de Exercícios </span> \
+06 . &nbsp; Qua  --  26/11  --  <span style="color:standard"> Aula de Exercícios </span> \
 <span style="color:red"> 07 . &nbsp; Qua  --  03/12  --  VA 2 (Verificação de Aprendizagem) </span> [gabarito](../provas/2025-2-va2-c2-a-gabarito.pdf)\
 ---
 
