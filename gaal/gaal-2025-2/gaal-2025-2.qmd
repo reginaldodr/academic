@@ -262,7 +262,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 26 . &nbsp; Ter  --  25/11  --  <span style="color:standard"> Rotação de cônicas. </span> \
 27 . &nbsp; Seg  --  01/12  --  <span style="color:standard"> aula de exercícios. </span> \
 28 . &nbsp; Ter  --  02/12  --  <span style="color:standard"> aula de exercícios </span> \
-<span style="color:red"> 29 . &nbsp; Seg  --  08/12  --  VA 3 (Verificação de Aprendizagem) </span> \
+<span style="color:red"> 29 . &nbsp; Seg  --  08/12  --  VA 3 (Verificação de Aprendizagem) </span> [gabarito](../provas/2025-2-va3-turmaK1-gaal-gabarito.pdf)  \
 ---
 
 **Provas Finais**
