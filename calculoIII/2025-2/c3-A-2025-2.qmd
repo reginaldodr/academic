@@ -205,7 +205,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 **Provas Finais**
 
 29 . &nbsp; Seg  --  08/12 --  <span style="color:LightGray">  --   </span> \
-<span style="color:red"> 30 . &nbsp; Ter  --  09/12  -- VR </span> \
+<span style="color:red"> 30 . &nbsp; Ter  --  09/12  -- VR </span> [gabarito](../provas/2025-2-vr-c3-gabarito.pdf)\
 <span style="color:red"> 31 . &nbsp; Seg  --  15/12  --  VS </span> \
 32 . &nbsp; Ter  --  16/12  --  <span style="color:LightGray">  --  </span> \
 :end: &nbsp; Qui  --  18/12  --  Fim do Período. :raised_hands:
