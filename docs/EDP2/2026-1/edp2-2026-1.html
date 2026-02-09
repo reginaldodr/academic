@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prof.&nbsp;Reginaldo Demarque</title>
+<title>EQUAÇÕES DIFERENCIAIS PARCIAIS II – 2026-1 – Prof. Reginaldo Demarque</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/dchi-2.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/dchi-2.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,22 +69,51 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Prof.&nbsp;Reginaldo Demarque">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="EQUAÇÕES DIFERENCIAIS PARCIAIS II – 2026-1 – Prof.&nbsp;Reginaldo Demarque">
 <meta name="twitter:description" content="Professor Associado 3, RCN, UFF">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/demarchi.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/demarchi.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Procurar"></div>
@@ -93,19 +123,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text"><i class="bi bi-house fs-5"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -126,8 +156,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./logo.html"> 
-<span class="menu-text"><img src="./images/dchi-2.png" style="width: 20px; height: auto;" alt="Logo"></span></a>
+    <a class="nav-link" href="../../logo.html"> 
+<span class="menu-text"><img src="../../images/dchi-2.png" style="width: 20px; height: auto;" alt="Logo"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -141,158 +171,171 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#informações-básicas" id="toc-informações-básicas" class="nav-link active" data-scroll-target="#informações-básicas">Informações Básicas</a></li>
+  <li><a href="#cronograma-proposto-incialmente" id="toc-cronograma-proposto-incialmente" class="nav-link" data-scroll-target="#cronograma-proposto-incialmente">Cronograma Proposto Incialmente</a></li>
+  <li><a href="#sec-ref" id="toc-sec-ref" class="nav-link" data-scroll-target="#sec-ref">Referências</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Prof.&nbsp;Reginaldo Demarque</h1>
+<h1 class="title">EQUAÇÕES DIFERENCIAIS PARCIAIS II – 2026-1</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header> <div class="about-links">
-  <a href="http://lattes.cnpq.br/1924503823576120" class="about-link" rel="" target="">
-    <i class="bi bi-file-earmark-person"></i>
-     <span class="about-link-text">CV Lattes</span>
-  </a>
-  <a href="mailto:reginaldo.demarque@posteo.com.br" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at"></i>
-     <span class="about-link-text">email</span>
-  </a>
-  <a href="https://www.youtube.com/c/ProfReginaldoDemarque" class="about-link" rel="" target="">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text">YouTube</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Professor Associado 3<br>
-<a href="http://www.uff.br">Universidade Federal Fluminense</a><br>
-<a href="http://depcienciasdanatureza.uff.br/departamento/">Departamento de Ciências da Natureza</a><br>
-Campus de Rio das Ostras</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/uff-ihs.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
-<figcaption>Campus de Rio das Ostras</figcaption>
-</figure>
-</div>
-<hr>
-<section id="turmas-atuais-2026-1" class="level3">
-<h3 data-anchor-id="turmas-atuais-2026-1">Turmas Atuais – 2026-1</h3>
+  
+
+
+</header>
+
+
+<p><span class="math display">\[\begin{equation*}
+\begin{cases}
+u_t+Lu=f, &amp; \text{ em } \Omega \times (0,T)\\
+u=0, &amp; \text{ em } \partial\Omega\\
+u=g, &amp; \text{ em } \Omega
+\end{cases}
+\end{equation*}\]</span></p>
+<section id="informações-básicas" class="level1">
+<h1>Informações Básicas</h1>
 <ul>
-<li><p><a href="./calculoIII/2025-2/c3-A-2025-2.html">Cálculo III-A</a></p></li>
-<li><p><a href="./gaal/gaal-2025-2/gaal-2025-2.html">GAAL</a></p></li>
-<li><p><a href="./EDP2/2026-1/edp2-2026-1.html">EDP II</a></p></li>
+<li><p><strong>Início e Fim do Período:</strong> 18/08/2025 a 18/12/2025.</p></li>
+<li><p><strong>Horário e sala:</strong><br>
+</p></li>
 </ul>
 <table class="table-striped table-sm small caption-top table">
-<colgroup>
-<col style="width: 11%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th style="text-align: center;">Segunda</th>
-<th style="text-align: center;">Terça</th>
-<th style="text-align: center;">Quarta</th>
-<th style="text-align: center;">Quinta</th>
-<th style="text-align: center;">Sexta</th>
+<th>Dia</th>
+<th>Horário</th>
+<th>Sala</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>9h - 11h</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><span style="color:red"> Cálculo II-A </span> <br> S06 17 <br> IHS (prédio alugado)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>Segunda</td>
+<td>11h - 13h</td>
+<td>Auditório da PGMAT</td>
 </tr>
 <tr class="even">
-<td>14h - 16h</td>
-<td style="text-align: center;"><span style="color:green"> Cálculo III-A </span> <br> GP 17 <br> IHS</td>
-<td style="text-align: center;"><span style="color:blue"> GAAL </span> <br> Sala 2 <br> ICT</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>Quarta</td>
+<td>11h - 13h</td>
+<td>Auditório da PGMAT</td>
 </tr>
 <tr class="odd">
-<td>16h - 18h</td>
-<td style="text-align: center;"><span style="color:blue"> GAAL </span> <br> Sala 2 <br> ICT</td>
-<td style="text-align: center;"><span style="color:green"> Cálculo III-A </span> <br> GP 17 <br> IHS</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Estudo dirigido <br> a definir</td>
+<td>Sexta</td>
+<td>11h - 13h</td>
+<td>Auditório da PGMAT</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="links-úteis" class="level3">
-<h3 data-anchor-id="links-úteis">Links úteis</h3>
+<div class="columns">
 <ul>
-<li><p><a href="https://www.uff.br/wp-content/uploads/2025/01/01-25_Resolucao-CEPEx-4184A_Calendarios-2025-2.pdf">Calendário UFF</a></p>
-<ul>
-<li>1º Período letivo: 24/03/2025 a 26/07/2025.</li>
-<li>2º Período letivo: 18/08/2025 a 18/12/2025.</li>
-</ul></li>
-<li><p><a href="https://app.uff.br/iduff/">iduff</a></p></li>
-<li><p><a href="https://app.uff.br/graduacao/quadrodehorarios">Quadro de Horários</a></p></li>
-<li><p><a href="http://200.159.243.250:8010/index.php/segunda/">Quadro de Alocação de salas do ICT</a></p></li>
-<li><p><a href="http://159.112.185.66/home/index_simples">Quadro de Alocação de salas do IHS</a></p>
-<ul>
-<li><a href="http://159.112.185.66/home_externo/index">acesso por celular</a></li>
-</ul></li>
-<li><p><a href="http://159.112.185.66/agendamento.html">Agendamento de Salas IHS</a></p></li>
-<li><p><a href="https://www.uff.br/wp-content/uploads/2023/10/001-2015_regulamento_do_curso_de_graduacao_0.pdf?q=regulamento-dos-cursos-de-graduacao-no-grupo-graduacao-regulamento-dos-cursos-de-graduacao-no-grupo">Regulamento dos cursos de graduação – Resolução CEPEx nº 001/2015</a></p></li>
+<li><strong>Material a ser utilizado</strong></li>
 </ul>
+</div>
+</section>
+<section id="cronograma-proposto-incialmente" class="level1">
+<h1>Cronograma Proposto Incialmente</h1>
+<p><span style="color:standard"> <strong>1. Distribuições</strong> </span></p>
+<p>01 . &nbsp; Seg – 09/03 – <span style="color:standard"> Apresentação do curso. Preliminares: Teorema de Fubini, espaços <span class="math inline">\(L^p\)</span>, Desigualdade de Hölder. Partição da Unidade. Suporte de funções. </span><br>
+02 . &nbsp; Qua – 11/03 – <span style="color:standard"> Convolução. Desigualdade de Young. Derivação de convolução. </span><br>
+03 . &nbsp; Sex – 13/03 – <span style="color:standard"> Funções regularizantes. Densidade de <span class="math inline">\(C_c^\infty(\Omega)\)</span> em <span class="math inline">\(L^p(\Omega)\)</span>. Lema de Du Bois Raymond </span><br>
+04 . &nbsp; Seg – 16/03 – <span style="color:standard"> Espaços das funções testes e distribições. Convergência. Derivação de distribuições. Derivada Fraca. Multiplicação por funções <span class="math inline">\(C^\infty\)</span>. </span><br>
+</p>
 <hr>
+<p><span style="color:standard"> <strong>2. Espaços de Sobolev</strong> </span></p>
+<p>05 . &nbsp; Qua – 18/03 – <span style="color:standard"> Definição de Espaços de Sobolev. Banach e reflexivo. <span class="math inline">\(W_0^{k,p}(\mathbb{R}^d)\)</span>. </span><br>
+06 . &nbsp; Sex – 20/03 – <span style="color:standard"> Aproximação por Funções Suaves. Teorema de Friedrichs. Regra da Cadeia. Teorema de Meyers-Serrin. </span><br>
+07 . &nbsp; Seg – 23/03 – <span style="color:standard"> Operador Prolongamento. </span><br>
+08 . &nbsp; Qua – 25/03 – <span style="color:standard"> Operador Traço. </span><br>
+09 . &nbsp; Sex – 27/03 – <span style="color:standard"> Espaço das Funções Hölder contínuas </span><br>
+10 . &nbsp; Seg – 30/03 – <span style="color:standard"> Imersões de Sobolev: Teorema de Gagliardo-Nirenberg-Sobolev. Caso <span class="math inline">\(\Omega=\mathbb{R}^d\)</span> e <span class="math inline">\(p\leq d\)</span>. </span><br>
+11 . &nbsp; Qua – 01/04 – <span style="color:standard"> Imersões de Sobolev: Desigualdade de Morrey. Caso <span class="math inline">\(\Omega=\mathbb{R}^d\)</span> e <span class="math inline">\(p&gt;d\)</span>. Casos <span class="math inline">\(\Omega\subset \mathbb{R}^d\)</span>. Caso <span class="math inline">\(W_0^{k,p}(\mathbb{R}^d)\)</span>. Desigualdade de Poincaré </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 03/04 – Sexta-feira da Paixão </span><br>
+12 . &nbsp; Seg – 06/04 – <span style="color:standard"> Imersões Compactas. </span><br>
+13 . &nbsp; Qua – 08/04 – <span style="color:standard"> Quociente de diferenças. Caracterização de <span class="math inline">\(W^{1,\infty}\)</span>. </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 10/04 – Feriado Municipal </span><br>
+14 . &nbsp; Seg – 13/04 – <span style="color:standard"> Desigualdade de Hardy e Teorema de Rademarcher. </span><br>
+15 . &nbsp; Qua – 15/04 – <span style="color:standard"> Espaço <span class="math inline">\(H^{-1}(\Omega)\)</span> </span><br>
+16 . &nbsp; Sex – 17/04 – <span style="color:standard"> Aula de Dúvidas 1 </span><br>
+<span style="color:red"> 17 . &nbsp; Seg – 20/04 – VA 1 (Verificação de Aprendizagem) </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Ter – 21/04 – Tiradentes </span><br>
+</p>
+<hr>
+<p><span style="color:standard"> <strong>3. Problemas Elípticos</strong> </span></p>
+<p>18 . &nbsp; Qua – 22/04 – <span style="color:standard"> Operadores Elípticos. Definição de Solução Fraca. 1º Teorema de Existência de Solução Fraca. </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Qui – 23/04 – São Jorge </span><br>
+19 . &nbsp; Sex – 24/04 – <span style="color:standard"> Alternativa de Fredholm. 2º e 3º Teorema de Existência de solução. </span><br>
+20 . &nbsp; Seg – 27/04 – <span style="color:standard"> Regularidade interior. </span><br>
+21 . &nbsp; Qua – 29/04 – <span style="color:standard"> Regularidade na Fronteira. </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 01/05 – Dia do Trabalho </span><br>
+22 . &nbsp; Seg – 04/05 – <span style="color:standard"> Princípios do Máximo </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Qua – 06/05 – Participação em Congresso </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 08/05 – Participação em Congresso </span><br>
+23 . &nbsp; Seg – 11/05 – <span style="color:standard"> Desigualdade de Harnack </span><br>
+24 . &nbsp; Qua – 13/05 – <span style="color:standard"> Autovalores e Autofunções </span><br>
+25 . &nbsp; Sex – 15/05 – <span style="color:standard"> Aula de Dúvidas 2 </span><br>
+<span style="color:red"> 26 . &nbsp; Seg – 18/05 – VA 2 (Verificação de Aprendizagem) </span><br>
+</p>
+<hr>
+<p><span style="color:standard"> <strong>4. Problemas Parbólicos e Hiperbólicos</strong> </span></p>
+<p>27 . &nbsp; Qua – 20/05 – <span style="color:standard"> Distribuições Vetoriais </span><br>
+28 . &nbsp; Sex – 22/05 – <span style="color:standard"> Problemas Parabólicos de segunda ordem. Definição de solução fraca. Aproximações de Galerkin. Desigualdade de Energia </span><br>
+29 . &nbsp; Seg – 25/05 – <span style="color:standard"> Existência e Unicidade de soluções. </span><br>
+30 . &nbsp; Qua – 27/05 – <span style="color:standard"> Regularidade de Soluções </span><br>
+31 . &nbsp; Sex – 29/05 – <span style="color:standard"> Princípio do Máximo fraco </span><br>
+32 . &nbsp; Seg – 01/06 – <span style="color:standard"> Desigualdade de Harnack parabólica </span><br>
+33 . &nbsp; Qua – 03/06 – <span style="color:standard"> Princípios do Máximo forte </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Qui – 04/06 – Corpus Christ </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 05/06 – Ponto Facultativo </span><br>
+34 . &nbsp; Seg – 08/06 – <span style="color:standard"> Problemas Hiperbólicos de segunda ordem. Definição de solução fraca. Aproximações de Galerkin. Desigualdade de Energia </span><br>
+35 . &nbsp; Qua – 10/06 – <span style="color:standard"> Existência e Unicidade de soluções. </span><br>
+36 . &nbsp; Sex – 12/06 – <span style="color:standard"> Regularidade de Soluções </span><br>
+37 . &nbsp; Seg – 15/06 – <span style="color:standard"> Velocidade de Propagração finita </span><br>
+38 . &nbsp; Qua – 17/06 – <span style="color:standard"> Aula de Dúvidas 3 </span><br>
+<span style="color:red"> 39 . &nbsp; Sex – 19/06 – VA 3 (Verificação de Aprendizagem) </span><br>
+</p>
+<hr>
+<p><strong>Provas Finais</strong></p>
+<p>40 . &nbsp; Seg – 22/06 – <span style="color:standard"> Não haverá aula </span><br>
+<span style="color:red"> 41 . &nbsp; Qua – 24/06 – VR </span><br>
+42 . &nbsp; Sex – 26/06 – <span style="color:standard"> Não haverá aula </span><br>
+<span style="color:red"> 43 . &nbsp; Seg – 29/06 – VS </span><br>
+44 . &nbsp; Qua – 01/07 – <span style="color:standard"> – </span><br>
+45 . &nbsp; Sex – 03/07 – <span style="color:standard"> – </span><br>
+46 . &nbsp; Seg – 06/07 – <span style="color:standard"> – </span><br>
+47 . &nbsp; Qua – 08/07 – <span style="color:standard"> – </span><br>
+48 . &nbsp; Sex – 10/07 – <span style="color:standard"> – </span><br>
+<span class="emoji" data-emoji="end">🔚</span> &nbsp; Sex – 10/07 – Fim do Período. <span class="emoji" data-emoji="raised_hands">🙌</span></p>
 </section>
-<section id="formação-acadêmicatitulação" class="level3">
-<h3 data-anchor-id="formação-acadêmicatitulação">Formação Acadêmica/Titulação</h3>
+<section id="sec-ref" class="level1">
+<h1>Referências</h1>
 <ul>
-<li><p>04/2001 – 03/2006: Licenciatura em Matemática pela UFV.</p></li>
-<li><p>03/2006 – 03/2008: Mestrado em Matemática pela UFF<br>
-Dissertação: <a href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&amp;co_obra=159241">Equação de Boussinesq em domínios cilíndricos e não-cilíndricos</a></p></li>
-<li><p>03/2008 – 08/2011: Doutorado em Matemática pela UFMG<br>
-Tese: <a href="https://repositorio.ufmg.br/handle/1843/EABA-8LUS26">Existência e não existência de soluções para uma classe de problemas elípticos com potencial singular</a>.</p></li>
-<li><p>2015 – 2016: Pós-doutorado em Matemática pela Universidad de Sevilla.</p></li>
+<li><p>Brezis, Haim. Functional analysis, Sobolev spaces and partial differential equations. Springer, New York-London, 2011.</p></li>
+<li><p>Evans, Lawrence C. Partial differential equations, volume 19. American Mathematical Society, Providence, Rhode Island, 2010.</p></li>
+<li><p>Kesavan, S. Topics in Functional Analysis and Applications, volume 52. New Age International Ltd, New Delhi, 2015.</p></li>
 </ul>
-</section>
-<section id="pesquisa" class="level3">
-<h3 data-anchor-id="pesquisa">Pesquisa</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./images/pgmat-uff.jpg" class="img-fluid figure-img"></p>
-<figcaption>Campus de Niterói</figcaption>
-</figure>
-</div>
-<ul>
-<li><p>Linhas de Pesquisa</p>
-<ul>
-<li><p>Equações Diferenciais Parciais - EDP</p></li>
-<li><p>Controlabilidade de Equações Diferenciais Parciais</p></li>
-</ul></li>
-<li><p><a href="http://dgp.cnpq.br/dgp/espelhogrupo/8734602523044835">Grupo de Pesquisa CNPq</a></p></li>
-<li><p><a href="https://pgmat-uff.com.br/">Pós-Graduação IME-UFF</a></p></li>
-<li><p><a href="./research.html">Publicações</a></p></li>
-</ul>
-<p><a href="https://orcid.org/0000-0001-6891-7665">Orcid</a>, <a href="https://www.researchgate.net/profile/Reginaldo_Demarque">Research Gate</a>, <a href="http://lattes.cnpq.br/1924503823576120">Lattes</a>, <a href="https://scholar.google.com.br/citations?user=taNb4t4AAAAJ&amp;hl=pt-BR&amp;oi=ao">Gooogle Scholar</a></p>
-<p><link rel="me" href="https://ursal.zone/@reginaldodr"> </p>
 
 
 </section>
-</main></div>
-    </div>
-    <img src="images/perfil4.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
-  </div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -457,6 +500,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -861,7 +911,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./licenca.html">
+    <a class="nav-link" href="../../licenca.html">
 <p>LICENÇA CC-BY-NC-SA</p>
 </a>
   </li>  

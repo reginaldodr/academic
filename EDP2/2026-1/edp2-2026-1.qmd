@@ -1,0 +1,130 @@
+---
+title: EQUAÇÕES DIFERENCIAIS PARCIAIS II -- 2026-1
+number-sections: false
+
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+
+
+\begin{equation*}
+\begin{cases}
+u_t+Lu=f, & \text{ em } \Omega \times (0,T)\\
+u=0, & \text{ em } \partial\Omega\\
+u=g, & \text{ em } \Omega
+\end{cases}
+\end{equation*}
+
+# Informações Básicas
+
+- **Início e Fim do Período:** 18/08/2025 a 18/12/2025.
+
+-  **Horário e sala:** \
+
+| Dia | Horário | Sala |
+|----|----|----|
+|Segunda |11h - 13h| Auditório da PGMAT|
+|Quarta  |11h - 13h| Auditório da PGMAT|
+|Sexta   |11h - 13h| Auditório da PGMAT|
+: {.striped .table-sm}
+
+:::: {.columns}
+
+- **Material a ser utilizado**
+
+
+
+:::
+
+# Cronograma Proposto Incialmente
+
+<span style="color:standard"> **1. Distribuições** </span>
+
+01 . &nbsp; Seg  --  09/03  --  <span style="color:standard"> Apresentação do curso. Preliminares: Teorema de Fubini, espaços $L^p$, Desigualdade de Hölder. Partição da Unidade. Suporte de funções. </span> \
+02 . &nbsp; Qua  --  11/03  --  <span style="color:standard"> Convolução. Desigualdade de Young. Derivação de convolução. </span> \
+03 . &nbsp; Sex  --  13/03  --  <span style="color:standard"> Funções regularizantes. Densidade de $C_c^\infty(\Omega)$ em $L^p(\Omega)$. Lema de Du Bois Raymond </span> \
+04 . &nbsp; Seg  --  16/03  --  <span style="color:standard"> Espaços das funções testes e distribições. Convergência. Derivação de distribuições. Derivada Fraca. Multiplicação por funções $C^\infty$. </span> \
+---
+
+<span style="color:standard"> **2. Espaços de Sobolev** </span>
+
+05 . &nbsp; Qua  --  18/03  --  <span style="color:standard"> Definição de Espaços de Sobolev. Banach e reflexivo. $W_0^{k,p}(\mathbb{R}^d)$. </span> \
+06 . &nbsp; Sex  --  20/03  --  <span style="color:standard"> Aproximação por Funções Suaves. Teorema de Friedrichs. Regra da Cadeia. Teorema de Meyers-Serrin. </span> \
+07 . &nbsp; Seg  --  23/03  --  <span style="color:standard"> Operador Prolongamento. </span> \
+08 . &nbsp; Qua  --  25/03  --  <span style="color:standard"> Operador Traço. </span> \
+09 . &nbsp; Sex  --  27/03  --  <span style="color:standard"> Espaço das Funções Hölder contínuas </span> \
+10 . &nbsp; Seg  --  30/03  --  <span style="color:standard"> Imersões de Sobolev: Teorema de  Gagliardo-Nirenberg-Sobolev. Caso $\Omega=\mathbb{R}^d$ e $p\leq d$. </span> \
+11 . &nbsp; Qua  --  01/04  --  <span style="color:standard"> Imersões de Sobolev: Desigualdade de Morrey. Caso $\Omega=\mathbb{R}^d$ e $p>d$. Casos $\Omega\subset \mathbb{R}^d$. Caso $W_0^{k,p}(\mathbb{R}^d)$. Desigualdade de Poincaré </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  03/04  --  Sexta-feira da Paixão </span> \
+12 . &nbsp; Seg  --  06/04  --  <span style="color:standard"> Imersões Compactas. </span> \
+13 . &nbsp; Qua  --  08/04  --  <span style="color:standard"> Quociente de diferenças. Caracterização de $W^{1,\infty}$. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  10/04  --  Feriado Municipal </span> \
+14 . &nbsp; Seg  --  13/04  --  <span style="color:standard"> Desigualdade de Hardy e Teorema de Rademarcher. </span> \
+15 . &nbsp; Qua  --  15/04  --  <span style="color:standard"> Espaço $H^{-1}(\Omega)$ </span> \
+16 . &nbsp; Sex  --  17/04  --  <span style="color:standard"> Aula de Dúvidas 1 </span> \
+<span style="color:red"> 17 . &nbsp; Seg  --  20/04  --  VA 1 (Verificação de Aprendizagem) </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  21/04  --  Tiradentes </span> \
+---
+
+<span style="color:standard"> **3. Problemas Elípticos** </span>
+
+18 . &nbsp; Qua  --  22/04  --  <span style="color:standard"> Operadores Elípticos. Definição de Solução Fraca. 1º Teorema de Existência de Solução Fraca. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  23/04  --  São Jorge </span> \
+19 . &nbsp; Sex  --  24/04  --  <span style="color:standard"> Alternativa de Fredholm. 2º e 3º Teorema de Existência de solução. </span> \
+20 . &nbsp; Seg  --  27/04  --  <span style="color:standard"> Regularidade interior. </span> \
+21 . &nbsp; Qua  --  29/04  --  <span style="color:standard"> Regularidade na Fronteira. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  01/05  --  Dia do Trabalho </span> \
+22 . &nbsp; Seg  --  04/05  --  <span style="color:standard"> Princípios do Máximo </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  06/05  --  Participação em Congresso </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  08/05  --  Participação em Congresso </span> \
+23 . &nbsp; Seg  --  11/05  --  <span style="color:standard"> Desigualdade de Harnack </span> \
+24 . &nbsp; Qua  --  13/05  --  <span style="color:standard"> Autovalores e Autofunções </span> \
+25 . &nbsp; Sex  --  15/05  --  <span style="color:standard"> Aula de Dúvidas 2 </span> \
+<span style="color:red"> 26 . &nbsp; Seg  --  18/05  --  VA 2 (Verificação de Aprendizagem) </span> \
+---
+
+<span style="color:standard"> **4. Problemas Parbólicos e Hiperbólicos** </span>
+
+27 . &nbsp; Qua  --  20/05  --  <span style="color:standard"> Distribuições Vetoriais </span> \
+28 . &nbsp; Sex  --  22/05  --  <span style="color:standard"> Problemas Parabólicos de segunda ordem. Definição de solução fraca. Aproximações de Galerkin. Desigualdade de Energia </span> \
+29 . &nbsp; Seg  --  25/05  --  <span style="color:standard"> Existência e Unicidade de soluções. </span> \
+30 . &nbsp; Qua  --  27/05  --  <span style="color:standard"> Regularidade de Soluções </span> \
+31 . &nbsp; Sex  --  29/05  --  <span style="color:standard"> Princípio do Máximo fraco </span> \
+32 . &nbsp; Seg  --  01/06  --  <span style="color:standard"> Desigualdade de Harnack parabólica </span> \
+33 . &nbsp; Qua  --  03/06  --  <span style="color:standard"> Princípios do Máximo forte </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  04/06  --  Corpus Christ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  05/06  --  Ponto Facultativo </span> \
+34 . &nbsp; Seg  --  08/06  --  <span style="color:standard"> Problemas Hiperbólicos de segunda ordem. Definição de solução fraca. Aproximações de Galerkin. Desigualdade de Energia </span> \
+35 . &nbsp; Qua  --  10/06  --  <span style="color:standard"> Existência e Unicidade de soluções. </span> \
+36 . &nbsp; Sex  --  12/06  --  <span style="color:standard"> Regularidade de Soluções </span> \
+37 . &nbsp; Seg  --  15/06  --  <span style="color:standard"> Velocidade de Propagração finita </span> \
+38 . &nbsp; Qua  --  17/06  --  <span style="color:standard"> Aula de Dúvidas 3 </span> \
+<span style="color:red"> 39 . &nbsp; Sex  --  19/06  --  VA 3 (Verificação de Aprendizagem) </span> \
+---
+
+**Provas Finais**
+
+40 . &nbsp; Seg  --  22/06  --  <span style="color:standard"> Não haverá aula </span> \
+<span style="color:red"> 41 . &nbsp; Qua  --  24/06  --  VR </span> \
+42 . &nbsp; Sex  --  26/06  --  <span style="color:standard"> Não haverá aula </span> \
+<span style="color:red"> 43 . &nbsp; Seg  --  29/06  --  VS </span> \
+44 . &nbsp; Qua  --  01/07  --  <span style="color:standard">  --  </span> \
+45 . &nbsp; Sex  --  03/07  --  <span style="color:standard">  --  </span> \
+46 . &nbsp; Seg  --  06/07  --  <span style="color:standard">  --  </span> \
+47 . &nbsp; Qua  --  08/07  --  <span style="color:standard">  --  </span> \
+48 . &nbsp; Sex  --  10/07  --  <span style="color:standard">  --  </span> \
+:end: &nbsp; Sex  --  10/07  --  Fim do Período. :raised_hands:
+
+
+
+# Referências {#sec-ref}
+
+-  Brezis, Haim. Functional analysis, Sobolev spaces and partial differential equations. Springer, New York-London, 2011.
+
+- Evans, Lawrence C. Partial differential equations, volume 19. American Mathematical Society, Providence, Rhode Island, 2010.
+
+-  Kesavan, S. Topics in Functional Analysis and Applications, volume 52. New Age International Ltd, New Delhi, 2015.
+
+

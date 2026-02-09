@@ -29,13 +29,13 @@ Campus de Rio das Ostras
 
 ---
 
-### Turmas Atuais -- 2025-2
+### Turmas Atuais -- 2026-1
 
 - [Cálculo III-A](/calculoIII/2025-2/c3-A-2025-2.qmd)
 
 - [GAAL](/gaal/gaal-2025-2/gaal-2025-2.qmd)
 
-- [Cálculo II-A](calculoIIA/c2A-2025-2/c2A-2025-2.qmd)
+- [EDP II](/EDP2/2026-1/edp2-2026-1.qmd)
 
 
 ||Segunda|Terça|Quarta|Quinta|Sexta|

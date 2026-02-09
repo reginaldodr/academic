@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Prof.&nbsp;Reginaldo Demarque</title>
+<title>Semigrupos de Operadores Lineares – Prof.&nbsp;Reginaldo Demarque</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/dchi-2.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//images/dchi-2.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,9 +69,38 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Prof.&nbsp;Reginaldo Demarque">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Semigrupos de Operadores Lineares – Prof.&nbsp;Reginaldo Demarque">
 <meta name="twitter:description" content="Professor Associado 3, RCN, UFF">
 <meta name="twitter:card" content="summary">
 </head>
@@ -82,8 +112,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/demarchi.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/demarchi.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Procurar"></div>
@@ -93,19 +123,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text"><i class="bi bi-house fs-5"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../teaching.html"> 
 <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -126,8 +156,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./logo.html"> 
-<span class="menu-text"><img src="./images/dchi-2.png" style="width: 20px; height: auto;" alt="Logo"></span></a>
+    <a class="nav-link" href="../logo.html"> 
+<span class="menu-text"><img src="../images/dchi-2.png" style="width: 20px; height: auto;" alt="Logo"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -143,156 +173,43 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Prof.&nbsp;Reginaldo Demarque</h1>
+<h1 class="title">Semigrupos de Operadores Lineares</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header> <div class="about-links">
-  <a href="http://lattes.cnpq.br/1924503823576120" class="about-link" rel="" target="">
-    <i class="bi bi-file-earmark-person"></i>
-     <span class="about-link-text">CV Lattes</span>
-  </a>
-  <a href="mailto:reginaldo.demarque@posteo.com.br" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at"></i>
-     <span class="about-link-text">email</span>
-  </a>
-  <a href="https://www.youtube.com/c/ProfReginaldoDemarque" class="about-link" rel="" target="">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text">YouTube</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Professor Associado 3<br>
-<a href="http://www.uff.br">Universidade Federal Fluminense</a><br>
-<a href="http://depcienciasdanatureza.uff.br/departamento/">Departamento de Ciências da Natureza</a><br>
-Campus de Rio das Ostras</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/uff-ihs.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
-<figcaption>Campus de Rio das Ostras</figcaption>
-</figure>
-</div>
-<hr>
-<section id="turmas-atuais-2026-1" class="level3">
-<h3 data-anchor-id="turmas-atuais-2026-1">Turmas Atuais – 2026-1</h3>
-<ul>
-<li><p><a href="./calculoIII/2025-2/c3-A-2025-2.html">Cálculo III-A</a></p></li>
-<li><p><a href="./gaal/gaal-2025-2/gaal-2025-2.html">GAAL</a></p></li>
-<li><p><a href="./EDP2/2026-1/edp2-2026-1.html">EDP II</a></p></li>
-</ul>
-<table class="table-striped table-sm small caption-top table">
-<colgroup>
-<col style="width: 11%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th style="text-align: center;">Segunda</th>
-<th style="text-align: center;">Terça</th>
-<th style="text-align: center;">Quarta</th>
-<th style="text-align: center;">Quinta</th>
-<th style="text-align: center;">Sexta</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>9h - 11h</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><span style="color:red"> Cálculo II-A </span> <br> S06 17 <br> IHS (prédio alugado)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="even">
-<td>14h - 16h</td>
-<td style="text-align: center;"><span style="color:green"> Cálculo III-A </span> <br> GP 17 <br> IHS</td>
-<td style="text-align: center;"><span style="color:blue"> GAAL </span> <br> Sala 2 <br> ICT</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr class="odd">
-<td>16h - 18h</td>
-<td style="text-align: center;"><span style="color:blue"> GAAL </span> <br> Sala 2 <br> ICT</td>
-<td style="text-align: center;"><span style="color:green"> Cálculo III-A </span> <br> GP 17 <br> IHS</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Estudo dirigido <br> a definir</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="links-úteis" class="level3">
-<h3 data-anchor-id="links-úteis">Links úteis</h3>
-<ul>
-<li><p><a href="https://www.uff.br/wp-content/uploads/2025/01/01-25_Resolucao-CEPEx-4184A_Calendarios-2025-2.pdf">Calendário UFF</a></p>
-<ul>
-<li>1º Período letivo: 24/03/2025 a 26/07/2025.</li>
-<li>2º Período letivo: 18/08/2025 a 18/12/2025.</li>
-</ul></li>
-<li><p><a href="https://app.uff.br/iduff/">iduff</a></p></li>
-<li><p><a href="https://app.uff.br/graduacao/quadrodehorarios">Quadro de Horários</a></p></li>
-<li><p><a href="http://200.159.243.250:8010/index.php/segunda/">Quadro de Alocação de salas do ICT</a></p></li>
-<li><p><a href="http://159.112.185.66/home/index_simples">Quadro de Alocação de salas do IHS</a></p>
-<ul>
-<li><a href="http://159.112.185.66/home_externo/index">acesso por celular</a></li>
-</ul></li>
-<li><p><a href="http://159.112.185.66/agendamento.html">Agendamento de Salas IHS</a></p></li>
-<li><p><a href="https://www.uff.br/wp-content/uploads/2023/10/001-2015_regulamento_do_curso_de_graduacao_0.pdf?q=regulamento-dos-cursos-de-graduacao-no-grupo-graduacao-regulamento-dos-cursos-de-graduacao-no-grupo">Regulamento dos cursos de graduação – Resolução CEPEx nº 001/2015</a></p></li>
-</ul>
-<hr>
-</section>
-<section id="formação-acadêmicatitulação" class="level3">
-<h3 data-anchor-id="formação-acadêmicatitulação">Formação Acadêmica/Titulação</h3>
-<ul>
-<li><p>04/2001 – 03/2006: Licenciatura em Matemática pela UFV.</p></li>
-<li><p>03/2006 – 03/2008: Mestrado em Matemática pela UFF<br>
-Dissertação: <a href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&amp;co_obra=159241">Equação de Boussinesq em domínios cilíndricos e não-cilíndricos</a></p></li>
-<li><p>03/2008 – 08/2011: Doutorado em Matemática pela UFMG<br>
-Tese: <a href="https://repositorio.ufmg.br/handle/1843/EABA-8LUS26">Existência e não existência de soluções para uma classe de problemas elípticos com potencial singular</a>.</p></li>
-<li><p>2015 – 2016: Pós-doutorado em Matemática pela Universidad de Sevilla.</p></li>
-</ul>
-</section>
-<section id="pesquisa" class="level3">
-<h3 data-anchor-id="pesquisa">Pesquisa</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./images/pgmat-uff.jpg" class="img-fluid figure-img"></p>
-<figcaption>Campus de Niterói</figcaption>
-</figure>
-</div>
-<ul>
-<li><p>Linhas de Pesquisa</p>
-<ul>
-<li><p>Equações Diferenciais Parciais - EDP</p></li>
-<li><p>Controlabilidade de Equações Diferenciais Parciais</p></li>
-</ul></li>
-<li><p><a href="http://dgp.cnpq.br/dgp/espelhogrupo/8734602523044835">Grupo de Pesquisa CNPq</a></p></li>
-<li><p><a href="https://pgmat-uff.com.br/">Pós-Graduação IME-UFF</a></p></li>
-<li><p><a href="./research.html">Publicações</a></p></li>
-</ul>
-<p><a href="https://orcid.org/0000-0001-6891-7665">Orcid</a>, <a href="https://www.researchgate.net/profile/Reginaldo_Demarque">Research Gate</a>, <a href="http://lattes.cnpq.br/1924503823576120">Lattes</a>, <a href="https://scholar.google.com.br/citations?user=taNb4t4AAAAJ&amp;hl=pt-BR&amp;oi=ao">Gooogle Scholar</a></p>
-<p><link rel="me" href="https://ursal.zone/@reginaldodr"> </p>
+  
+
+
+</header>
+
+
+<p><span class="math display">\[\begin{equation*}
+\begin{cases}
+x'(t)={\color{red}A}x+{\color{black}f},&amp; t\in [0,+\infty)\\
+x(0)=x_0
+\end{cases}
+\end{equation*}\]</span> <span class="math display">\[\begin{equation*}
+x(t)=e^{t\color{red}A}x_0+\int_0^t e^{(t-s){\color{red}A}}f(s)ds
+\end{equation*}\]</span></p>
+<section id="material-básico" class="level2">
+<h2 class="anchored" data-anchor-id="material-básico">Material Básico</h2>
+<p><a href="https://reginaldodr.github.io/notas-semigrupos-git/notas-semigrupo.pdf">Notas de aula</a></p>
 
 
 </section>
-</main></div>
-    </div>
-    <img src="images/perfil4.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
-  </div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -457,6 +374,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -861,7 +785,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./licenca.html">
+    <a class="nav-link" href="../licenca.html">
 <p>LICENÇA CC-BY-NC-SA</p>
 </a>
   </li>  
