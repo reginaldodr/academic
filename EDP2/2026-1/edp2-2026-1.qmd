@@ -34,7 +34,7 @@ u=g, & \text{ em } \Omega
 
 - **Material a ser utilizado**
 
-
+ - [Slides](https://reginaldodr.github.io/slides/EDPII/EDP2.pdf)\
 
 :::
 
