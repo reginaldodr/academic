@@ -15,7 +15,7 @@ from: markdown+emoji
 
 # Informações Básicas
 
-- **Início e Fim do Período:** 09/03/2026 a 10/12/2026.
+- **Início e Fim do Período:** 09/03/2026 a 10/07/2026.
 
 -  **Horário e sala:**\
 [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples) -- [acesso por celular](http://159.112.185.66/home_externo/index)  \

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Prof.&nbsp;Reginaldo Demarque">
 
-<title>Prof.&nbsp;Reginaldo Demarque</title>
+<title>CÁLCULO III - A RCN00067 – 2026-1 – Prof. Reginaldo Demarque</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +21,47 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href=".//images/dchi-2.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../..//images/dchi-2.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,22 +90,51 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Prof.&nbsp;Reginaldo Demarque">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="CÁLCULO III - A RCN00067 – 2026-1 – Prof.&nbsp;Reginaldo Demarque">
 <meta name="twitter:description" content="Professor Associado 3, RCN, UFF">
 <meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./images/demarchi.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/demarchi.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Procurar"></div>
@@ -93,19 +144,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text"><i class="bi bi-house fs-5"></i></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./teaching.html"> 
+    <a class="nav-link" href="../../teaching.html"> 
 <span class="menu-text">Ensino</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -126,8 +177,8 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./logo.html"> 
-<span class="menu-text"><img src="./images/dchi-2.png" style="width: 20px; height: auto;" alt="Logo"></span></a>
+    <a class="nav-link" href="../../logo.html"> 
+<span class="menu-text"><img src="../../images/dchi-2.png" style="width: 20px; height: auto;" alt="Logo"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -141,158 +192,251 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div class="quarto-alternate-formats"><h2>Outros formatos</h2><ul><li><a href="plano-de-aulas-c3-A-2026-1.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
-<div class="quarto-about-solana column-body">
-  <div class="about-entity">
-    <div class="entity-contents">
-      <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Prof.&nbsp;Reginaldo Demarque</h1>
+<h1 class="title">CÁLCULO III - A RCN00067 – 2026-1</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Autor</div>
+    <div class="quarto-title-meta-contents">
+             <p>Prof.&nbsp;Reginaldo Demarque </p>
+          </div>
   </div>
-</header> <div class="about-links">
-  <a href="http://lattes.cnpq.br/1924503823576120" class="about-link" rel="" target="">
-    <i class="bi bi-file-earmark-person"></i>
-     <span class="about-link-text">CV Lattes</span>
-  </a>
-  <a href="mailto:reginaldo.demarque@posteo.com.br" class="about-link" rel="" target="">
-    <i class="bi bi-envelope-at"></i>
-     <span class="about-link-text">email</span>
-  </a>
-  <a href="https://www.youtube.com/c/ProfReginaldoDemarque" class="about-link" rel="" target="">
-    <i class="bi bi-youtube"></i>
-     <span class="about-link-text">YouTube</span>
-  </a>
-</div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>Professor Associado 3<br>
-<a href="http://www.uff.br">Universidade Federal Fluminense</a><br>
-<a href="http://depcienciasdanatureza.uff.br/departamento/">Departamento de Ciências da Natureza</a><br>
-Campus de Rio das Ostras</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/uff-ihs.jpg" class="img-fluid figure-img" style="width:90.0%"></p>
-<figcaption>Campus de Rio das Ostras</figcaption>
-</figure>
-</div>
-<hr>
-<section id="turmas-atuais-2026-1" class="level3">
-<h3 data-anchor-id="turmas-atuais-2026-1">Turmas Atuais – 2026-1</h3>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="informações-básicas" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Informações Básicas</h1>
 <ul>
-<li><p><a href="./calculoIII/2026-1/c3-A-2026-1.html">Cálculo III-A</a></p></li>
-<li><p><a href="./gaal/gaal-2025-2/gaal-2026-1.qmd">GAAL</a></p></li>
-<li><p><a href="./EDP2/2026-1/edp2-2026-1.html">EDP II</a></p></li>
+<li><strong>Início e Fim do Período:</strong> 09/03/2026 a 10/07/2026.</li>
 </ul>
 <table class="table-striped table-sm small caption-top table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-</colgroup>
 <thead>
 <tr class="header">
-<th></th>
-<th style="text-align: center;">Segunda</th>
-<th style="text-align: center;">Terça</th>
-<th style="text-align: center;">Quarta</th>
-<th style="text-align: center;">Quinta</th>
-<th style="text-align: center;">Sexta</th>
+<th>Dia</th>
+<th>Horário</th>
+<th>Sala</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>9h - 11h</td>
-<td style="text-align: center;"><span style="color:green"> Cálculo III-A </span> <br> Sala 5 <br> ICT</td>
-<td style="text-align: center;"><span style="color:green"> Cálculo III-A </span> <br> Sala 5 <br> ICT</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>Segunda</td>
+<td>09h - 11h</td>
+<td>Sala 5 ICT</td>
 </tr>
 <tr class="even">
-<td>11h - 13h</td>
-<td style="text-align: center;"><span style="color:blue"> GAAL </span> <br> Sala 5 <br> IHS</td>
-<td style="text-align: center;"><span style="color:blue"> GAAL </span> <br> Sala 5 <br> IHS</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><br></td>
-</tr>
-<tr class="odd">
-<td>11h - 13h</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><span style="color:red"> EDP II </span> <br> SL 407 Blc H <br> (Niterói)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td>Terça</td>
+<td>09h - 11h</td>
+<td>Sala 5 ICT</td>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="links-úteis" class="level3">
-<h3 data-anchor-id="links-úteis">Links úteis</h3>
 <ul>
-<li><p><a href="https://www.uff.br/wp-content/uploads/2025/11/RESOLUCAO-CEPEX-5309_12-11-2025_CALENDARIO-ESCOLAR-E-ADMINISTRATIVO-2026.pdf">Calendário UFF</a></p>
+<li><p><strong>Atendimento:</strong></p>
 <ul>
-<li>1º Período letivo: 09/03/2026 a 10/07/2026.</li>
-<li>2º Período letivo: 03/08/2026 a 11/12/2026.</li>
+<li>A definir</li>
 </ul></li>
-<li><p><a href="https://app.uff.br/iduff/">iduff</a></p></li>
-<li><p><a href="https://app.uff.br/graduacao/quadrodehorarios">Quadro de Horários</a></p></li>
-<li><p><a href="http://200.159.243.250:8010/index.php/segunda/">Quadro de Alocação de salas do ICT</a></p></li>
-<li><p><a href="http://159.112.185.66/home/index_simples">Quadro de Alocação de salas do IHS</a></p>
+<li><p><strong>Material a ser utilizado</strong></p>
 <ul>
-<li><a href="http://159.112.185.66/home_externo/index">acesso por celular</a></li>
+<li><p><a href="https://reginaldodr.github.io/slides/calculo3/calculo3.pdf">slides</a></p></li>
+<li><p><a href="https://demarque.mat.br/calculoIII/provas/">VAs Antigas</a></p></li>
 </ul></li>
-<li><p><a href="http://159.112.185.66/agendamento.html">Agendamento de Salas IHS</a></p></li>
-<li><p><a href="https://www.uff.br/wp-content/uploads/2023/10/001-2015_regulamento_do_curso_de_graduacao_0.pdf?q=regulamento-dos-cursos-de-graduacao-no-grupo-graduacao-regulamento-dos-cursos-de-graduacao-no-grupo">Regulamento dos cursos de graduação – Resolução CEPEx nº 001/2015</a></p></li>
+<li><p><strong>Ementa:</strong> Busque por RCN00075 em <a href="https://app.uff.br/graduacao/quadrodehorarios/">quadro de horários</a>:<br>
+EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE.</p></li>
 </ul>
+</section>
+<section id="apresentação-do-curso" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Apresentação do Curso</h1>
+<p>Este curso é constituído de dois módulos: <strong>Funções Vetoriais e Superfícies</strong> e <strong>Funções de Várias Variáveis</strong>.</p>
+<p>O <strong>livro texto</strong> será referência <span class="citation" data-cites="stewart2">[<a href="#ref-stewart2" role="doc-biblioref">1</a>]</span>, que <strong>está disponíveis para empréstimo na Biblioteca do campus</strong> – <a href="https://bibliotecas.uff.br/bro/">BRO</a>. <span style="color:red"> É altamente recomendado que vocês consultem este material, de preferência o livro físico.</span></p>
+<p>As demais referência contidas na <a href="#sec-ref" class="quarto-xref">Seção&nbsp;5</a> formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.</p>
+</section>
+<section id="avaliação" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Avaliação</h1>
+<p>A avaliação será feita mediante <strong>3 Verificações de Aprendizagem (VAs) Escritas</strong>. A média parial (NP) será a média aritmética entre elas, isto é, <span class="math display">\[NP=\frac{VA_1+VA_2+VA_3}{3}\]</span> De acordo com o Regulamento da UFF, a <strong>Nota Final</strong> é calculada da seguinte forma:</p>
+<blockquote class="blockquote">
+<p>Definida como sendo igual à média parcial, caso o discente tenha obtido aprovação direta, ou igual a 6(seis), se a aprovação foi obtida na verificação suplementar (VS). No caso de reprovação na VS, a nota final será o resultado do cálculo da média aritmética entre a média parcial e a nota obtida na VS.</p>
+</blockquote>
+<section id="objetivos" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="objetivos">Objetivos</h2>
+<p>As VAs tem como objetivos avaliar se o aluno:</p>
+<ul>
+<li>É capaz de interpretar as questões corretamente e formular soluções para os problemas propostos.</li>
+<li>É capaz de produzir soluções, em formato de texto, compreensíveis, com nível de detalhamento e rigor adequados para que outros profissionais familiarizados com os conceitos possam entendê-las.</li>
+<li>Aprendeu os conceitos e técnicas ensinados em sala de aula.</li>
+<li>Sabe determinar quando a solução proposta resolve de fato o problema.</li>
+<li>Consegue desenvolver uma argumentação lógica-dedutiva para chegar-se à resposta final.</li>
+</ul>
+</section>
+<section id="critério-de-correção-das-vas" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="critério-de-correção-das-vas">Critério de correção das VAs</h2>
+<p>Com base nos objetivos apresentados acima, os critério de correção serão:</p>
+<ol type="1">
+<li>Interpretação correta das questões.</li>
+<li>As soluções devem ser escrita com clareza, organização, rigor e detalhamento.</li>
+<li>Soluções desenvolvidas fora do conteúdo ensinado, mesmo que corretas, não serão consideradas.</li>
+<li>Questão com várias soluções será anulada.</li>
+<li>Resposta correta com solução errada será anulada.</li>
+</ol>
+<p>Além disso, durante às VAs, serão adotadas as seguinte medidas:</p>
+<ul>
+<li>Proibido compartilhar material.</li>
+<li>Só é permitida a saída após entrega definitiva da VA, ou seja, não é permitido ir ao banheiro ou beber água. A VA tem duração de no máximo 2 horas.</li>
+<li>É permitida a <strong>consulta a material</strong> (livros, notas de aula, caderno, apostilas e etc.) e uso de dispositivo computacional, como calculadora científica, ambos <strong>sem acesso a internet</strong>.</li>
+<li>Fraude detectada, mesmo depois, zera a nota.</li>
+</ul>
+</section>
+<section id="segunda-chamada" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="segunda-chamada">Segunda Chamada</h2>
+<p>O Art. 98 do <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55">Regulamento dos Cursos de graduação</a> garante ao aluno o direito a uma avaliação de <strong>Segunda Chamada (VR)</strong>, <span style="color:red"><strong>sem a necessidade de justificativa!</strong></span> Portanto, aquele aluno que <strong>não puder ou não quiser</strong> fazer uma das VAs, poderá faltar que seu direito à Segunda Chamada será garantido.</p>
+<p>O conteúdo da <strong>Segunda Chamada</strong> será <span style="color:red"><strong>toda a matéria do semestre.</strong></span></p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Importante
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Como <strong>não há a necessidade de justificar a falta nas avaliações</strong> para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações.</p>
+<p>Por conta disso, o aluno que estiver em dúvida entre fazer a VA ou a Segunda chamada, poderá comparecer no dia da VA e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a VA não terão o direito à Segunda Chamada.</p>
+</div>
+</div>
+</section>
+<section id="verificação-suplementar" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="verificação-suplementar">Verificação Suplementar</h2>
+<p>Em concordância com o <a href="http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55">Regulamento dos Cursos de graduação</a> em seu Art. 99, a <strong>Verificação Suplementar (VS)</strong> é vetada aos discentes já aprovados e é <strong>obrigatória</strong> para aqueles que tenham obtido média parcial entre 4.0 e 5.9, sendo esses dois limites incluídos.</p>
+</section>
+</section>
+<section id="listas-de-exercícios" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Listas de Exercícios</h1>
+<p>Abaixo seguem os execícios da referência <span class="citation" data-cites="stewart2">[<a href="#ref-stewart2" role="doc-biblioref">1</a>]</span> que devem ser feitos. A distribuição está dada por seção.</p>
+<ul>
+<li><strong>Parametrização, coordenadas polares, superfícies e funções vetoriais</strong><br>
+</li>
+</ul>
+<p><span class="emoji" data-emoji="lock">🔒</span> <strong>§ 12.5 (Retas e Planos):</strong> 3, 5, 7, 9, 23, 26, 31, 43, 45.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 12.6 (Cilindros e Quádricas):</strong> 3, 5, 13, 15, 21-28, 29, 31, 33.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 10.3 (Coordenadas Polares):</strong> 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 13.1 (Funções Vetoriais):</strong> 7, 9, 11, 19-24, 27, 37, 38, 39.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 13.2 (Derivadas):</strong> 3, 5, 17, 19, 21, 23, 25, 27 e 29.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§13.3 (Comprimento de arco e Curvatura):</strong> 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 13.4 (Velociade e Aceleração):</strong> 3, 5, 11, 13, 19, 31,32, 41.<br>
+</p>
 <hr>
-</section>
-<section id="formação-acadêmicatitulação" class="level3">
-<h3 data-anchor-id="formação-acadêmicatitulação">Formação Acadêmica/Titulação</h3>
 <ul>
-<li><p>04/2001 – 03/2006: Licenciatura em Matemática pela UFV.</p></li>
-<li><p>03/2006 – 03/2008: Mestrado em Matemática pela UFF<br>
-Dissertação: <a href="http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&amp;co_obra=159241">Equação de Boussinesq em domínios cilíndricos e não-cilíndricos</a></p></li>
-<li><p>03/2008 – 08/2011: Doutorado em Matemática pela UFMG<br>
-Tese: <a href="https://repositorio.ufmg.br/handle/1843/EABA-8LUS26">Existência e não existência de soluções para uma classe de problemas elípticos com potencial singular</a>.</p></li>
-<li><p>2015 – 2016: Pós-doutorado em Matemática pela Universidad de Sevilla.</p></li>
+<li><strong>Funções de Várias Variáveis</strong><br>
+</li>
 </ul>
+<p><span class="emoji" data-emoji="lock">🔒</span> <strong>§ 14.1 (Funções):</strong> 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 14.2 (Limite e Continuidade):</strong> 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 14.3 (Derivadas Parciais):</strong> 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 14.4 (Aproximação Linear):</strong> 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 14.5 (Regra da Cadeia):</strong> 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 14.6 (Vetor Gradiente):</strong> 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 14.7 (Máximos e Mínimos):</strong> 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.<br>
+<span class="emoji" data-emoji="lock">🔒</span> <strong>§ 14.8 (Multiplicadores de Lagrange):</strong> 3, 5, 9, 15, 17, 19, 41, 43.</p>
+<p>Exercícios do <strong>Stewart Vol. 2, 7ª Edição.</strong></p>
+<p><span class="emoji" data-emoji="lock">🔒</span> § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.<br>
+<span class="emoji" data-emoji="lock">🔒</span> § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.</p>
 </section>
-<section id="pesquisa" class="level3">
-<h3 data-anchor-id="pesquisa">Pesquisa</h3>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="./images/pgmat-uff.jpg" class="img-fluid figure-img"></p>
-<figcaption>Campus de Niterói</figcaption>
-</figure>
+<section id="sec-ref" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Referências</h1>
+<div id="refs" class="references csl-bib-body" data-entry-spacing="0" role="list">
+<div id="ref-stewart2" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Stewart J (2011) C<span>á</span>lculo, volume 2, 6a edi<span>ç</span><span>ã</span>o, São Paulo, Editora Cengage Learning.</div>
 </div>
-<ul>
-<li><p>Linhas de Pesquisa</p>
-<ul>
-<li><p>Equações Diferenciais Parciais - EDP</p></li>
-<li><p>Controlabilidade de Equações Diferenciais Parciais</p></li>
-</ul></li>
-<li><p><a href="http://dgp.cnpq.br/dgp/espelhogrupo/8734602523044835">Grupo de Pesquisa CNPq</a></p></li>
-<li><p><a href="https://pgmat-uff.com.br/">Pós-Graduação IME-UFF</a></p></li>
-<li><p><a href="./research.html">Publicações</a></p></li>
-</ul>
-<p><a href="https://orcid.org/0000-0001-6891-7665">Orcid</a>, <a href="https://www.researchgate.net/profile/Reginaldo_Demarque">Research Gate</a>, <a href="http://lattes.cnpq.br/1924503823576120">Lattes</a>, <a href="https://scholar.google.com.br/citations?user=taNb4t4AAAAJ&amp;hl=pt-BR&amp;oi=ao">Gooogle Scholar</a></p>
-<p><link rel="me" href="https://ursal.zone/@reginaldodr"> </p>
+<div id="ref-thomas2" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Thomas GB (2011) C<span>á</span>lculo, volume 2, São Paulo, Editora Addison Wesley.</div>
+</div>
+<div id="ref-diomara" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Morgado MCF, Pinto D (2009) Cálculo diferencial e integral de funções de várias variáveis, Rio de Janeiro, UFRJ.</div>
+</div>
+<div id="ref-tromba" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Marsden JE, Tromba A (2003) Vector calculus, Rio de Janeiro, Macmillan.</div>
+</div>
+</div>
+</section>
+<section id="sec-crono" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Cronograma Efetivado</h1>
+<p>A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos. <strong>Cabe ressaltar que o semestre se encerra no dia <span style="color:red"> 10/07 </span>, neste caso, é aconselhado que fiquem disponíveis até esta data.</strong></p>
+<p><strong>1. Funções vetoriais e Superfícies</strong></p>
+<p>01 . &nbsp; Seg – 09/03 – <span style="color:standard"> Apresentação do estudantes. Apresentação do curso. Motivação: problemas de otimização. </span><br>
+02 . &nbsp; Ter – 10/03 – <span style="color:standard"> Revisão de equação paramétrica da reta e equação cartesiana do plano em <span class="math inline">\(\mathbb{R}^3\)</span>. Coordenadas Polares. </span><br>
+03 . &nbsp; Seg – 16/03 – <span style="color:standard"> Superfícies Cilíndricas. Superfícies Quádricas. </span><br>
+04 . &nbsp; Ter – 17/03 – <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices. </span><br>
+05 . &nbsp; Seg – 23/03 – <span style="color:standard"> Parametrização de curvas como interseção de duas superfícies. Derivadas e regras de derivação de funções vetoriais. </span><br>
+06 . &nbsp; Ter – 24/03 – <span style="color:standard"> Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente e Curvatura. </span><br>
+07 . &nbsp; Seg – 30/03 – <span style="color:standard"> Definição de Curvatura. Vetor Normal e Binormal. </span><br>
+08 . &nbsp; Ter – 31/03 – <span style="color:standard"> Movimento, velocidade e aceleração. </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 03/04 – Sexta-feira da Paixão </span><br>
+09 . &nbsp; Seg – 06/04 – <span style="color:standard"> Fórmulas da curvatura </span><br>
+10 . &nbsp; Ter – 07/04 – <span style="color:standard"> Aula de Exercícios 1 </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 10/04 – Feriado Municipal </span><br>
+<span style="color:red"> 11 . &nbsp; Seg – 13/04 – VA 1 (Verificação de Aprendizagem) </span><br>
+</p>
+<hr>
+<p><strong>2. Funções de Várias Variáveis</strong></p>
+<p>12 . &nbsp; Ter – 14/04 – <span style="color:standard"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível. </span><br>
+13 . &nbsp; Seg – 20/04 – <span style="color:standard"> Limites e continuidade. Exemplos. </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Ter – 21/04 – Tiradentes </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Qui – 23/04 – São Jorge </span><br>
+14 . &nbsp; Seg – 27/04 – <span style="color:standard"> Derivadas Parciais. Derivadas de ordem superior. Exemplos. </span><br>
+15 . &nbsp; Ter – 28/04 – <span style="color:standard"> Função de classe <span class="math inline">\(C^1\)</span>. Regra da cadeia. Vetor Gradiente. </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 01/05 – Dia do Trabalho </span><br>
+16 . &nbsp; Seg – 04/05 – <span style="color:standard"> Derivadas direcionais. Propriedades do vetor Gradiente </span><br>
+17 . &nbsp; Ter – 05/05 – <span style="color:standard"> Plano tangente. Aproximação linear. </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Qua – 06/05 – Participação em Congresso </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 08/05 – Participação em Congresso </span><br>
+18 . &nbsp; Seg – 11/05 – <span style="color:standard"> Diferenciais em <span class="math inline">\(\mathbb{R}^2\)</span> e <span class="math inline">\(\mathbb{R}^3\)</span>. </span><br>
+19 . &nbsp; Ter – 12/05 – <span style="color:standard"> Aula de Exercícios 2 </span><br>
+20 . &nbsp; Seg – 18/05 – <span style="color:standard"> Aula de Exercícios 3 </span><br>
+<span style="color:red"> 21 . &nbsp; Ter – 19/05 – VA 2 (Verificação de Aprendizagem) </span><br>
+22 . &nbsp; Seg – 25/05 – <span style="color:standard"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span><br>
+23 . &nbsp; Ter – 26/05 – <span style="color:standard"> Topologia do <span class="math inline">\(\mathbb{R}^2\)</span>. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span><br>
+24 . &nbsp; Seg – 01/06 – <span style="color:standard"> Multiplicadores de Lagrange em <span class="math inline">\(\mathbb{R}^2\)</span>. Multiplicadores de Lagrange em <span class="math inline">\(\mathbb{R}^3\)</span> </span><br>
+25 . &nbsp; Ter – 02/06 – <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em <span class="math inline">\(\mathbb{R}^2\)</span>. </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Qui – 04/06 – Corpus Christ </span><br>
+<span class="emoji" data-emoji="beach_umbrella">🏖️</span> <span style="color:orange"> &nbsp; Sex – 05/06 – Ponto Facultativo </span><br>
+26 . &nbsp; Seg – 08/06 – <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em <span class="math inline">\(\mathbb{R}^3\)</span>. </span><br>
+27 . &nbsp; Ter – 09/06 – <span style="color:standard"> Aula de Exercícios 4 </span><br>
+28 . &nbsp; Seg – 15/06 – <span style="color:standard"> Aula de Exercícios 5 </span><br>
+<span style="color:red"> 29 . &nbsp; Ter – 16/06 – VA 3 (Verificação de Aprendizagem) </span><br>
+</p>
+<hr>
+<p><strong>Provas Finais</strong></p>
+<p><span style="color:red"> 30 . &nbsp; Seg – 22/06 – VR </span><br>
+31 . &nbsp; Ter – 23/06 – <span style="color:standard"> — </span><br>
+<span style="color:red"> 32 . &nbsp; Seg – 29/06 – VS </span><br>
+33 . &nbsp; Ter – 30/06 – <span style="color:standard"> – </span><br>
+34 . &nbsp; Seg – 06/07 – <span style="color:standard"> – </span><br>
+35 . &nbsp; Ter – 07/07 – <span style="color:standard"> – </span><br>
+<span class="emoji" data-emoji="end">🔚</span> &nbsp; Sex – 10/07 – Fim do Período. <span class="emoji" data-emoji="raised_hands">🙌</span></p>
+<hr>
 
 
 </section>
-</main></div>
-    </div>
-    <img src="images/perfil4.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
-  </div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -457,6 +601,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -861,7 +1012,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./licenca.html">
+    <a class="nav-link" href="../../licenca.html">
 <p>LICENÇA CC-BY-NC-SA</p>
 </a>
   </li>  

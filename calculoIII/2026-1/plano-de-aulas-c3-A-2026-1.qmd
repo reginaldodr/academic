@@ -1,6 +1,6 @@
 ---
-title: CÁLCULO III - A  RCN00067 -- 2026-1
-author: Prof. Reginaldo Demarque
+title: "[CÁLCULO III - A  RCN00067 -- 2026-1](https://demarque.mat.br/calculoIII/2026-1/c3-A-2026-1.html)"
+author: "[Prof. Reginaldo Demarque](https://www.demarque.mat.br)"
 number-sections: true
 bibliography: ../biblio.bib
 csl:  ../aims-mathematics.csl
@@ -11,12 +11,14 @@ nocite: |
 format:
   pdf:
     toc: true
-from: markdown+emoji
+    colorlinks: true
 ---
 
 # Informações Básicas
 
-- **Início e Fim do Período:** 09/03/2026 a 10/12/2026.
+- **Início e Fim do Período:** 09/03/2026 a 10/07/2026.
+
+- [Página da disciplina](https://demarque.mat.br/calculoIII/2026-1/c3-A-2026-1.html)
 
 | Dia | Horário | Sala |
 |----|----|----|
@@ -45,7 +47,7 @@ EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍND
 
 Este curso é constituído de dois módulos: **Funções Vetoriais e Superfícies** e **Funções de Várias Variáveis**.
 
-O **livro texto** será referência [@stewart2], que **está disponíveis para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red"> É altamente recomendado que vocês consultem este material, de preferência o livro físico.</span>
+O **livro texto** será referência [@stewart2], que **está disponíveis para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red"> É altamente recomendado que vocês consultem este material, de preferência o livro físico.
 
 As demais referência contidas na @sec-ref formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.
 
@@ -86,9 +88,9 @@ Além disso, durante às VAs, serão adotadas as seguinte medidas:
 
 ## Segunda Chamada {-}
 
-O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!**</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das VAs, poderá faltar que seu direito à Segunda Chamada será garantido.
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!** Portanto, aquele aluno que **não puder ou não quiser** fazer uma das VAs, poderá faltar que seu direito à Segunda Chamada será garantido.
 
-O conteúdo da **Segunda Chamada** será <span style="color:red">**toda a matéria do semestre.**</span>
+O conteúdo da **Segunda Chamada** será <span style="color:red">**toda a matéria do semestre.**
 
 ::: {.callout-warning}
 ## Importante
@@ -108,30 +110,30 @@ Abaixo seguem os execícios da referência [@stewart2] que devem ser feitos. A d
 
 - **Parametrização, coordenadas polares, superfícies e funções vetoriais**\
 
-:lock: **§ 12.5 (Retas e Planos):** 3, 5, 7, 9, 23, 26, 31, 43, 45.\
-:lock: **§ 12.6 (Cilindros e Quádricas):** 3, 5, 13, 15, 21-28, 29, 31, 33.\
-:lock: **§ 10.3 (Coordenadas Polares):** 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
-:lock: **§ 13.1 (Funções Vetoriais):** 7, 9, 11, 19-24, 27, 37, 38, 39.\
-:lock: **§ 13.2 (Derivadas):** 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
-:lock: **§13.3 (Comprimento de arco e Curvatura):** 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
-:lock: **§ 13.4 (Velociade e Aceleração):** 3, 5, 11, 13, 19, 31,32, 41.\
+**§ 12.5 (Retas e Planos):** 3, 5, 7, 9, 23, 26, 31, 43, 45.\
+**§ 12.6 (Cilindros e Quádricas):** 3, 5, 13, 15, 21-28, 29, 31, 33.\
+**§ 10.3 (Coordenadas Polares):** 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
+**§ 13.1 (Funções Vetoriais):** 7, 9, 11, 19-24, 27, 37, 38, 39.\
+**§ 13.2 (Derivadas):** 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
+**§13.3 (Comprimento de arco e Curvatura):** 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
+**§ 13.4 (Velociade e Aceleração):** 3, 5, 11, 13, 19, 31,32, 41.\
 ---
 
 - **Funções de Várias Variáveis**\
 
-:lock: **§ 14.1 (Funções):** 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
-:lock: **§ 14.2 (Limite e Continuidade):** 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
-:lock: **§ 14.3 (Derivadas Parciais):** 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
-:lock: **§ 14.4 (Aproximação Linear):** 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
-:lock: **§ 14.5 (Regra da Cadeia):** 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
-:lock: **§ 14.6 (Vetor Gradiente):** 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
-:lock: **§ 14.7 (Máximos e Mínimos):** 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-:lock: **§ 14.8 (Multiplicadores de Lagrange):** 3, 5, 9, 15, 17, 19, 41, 43.
+**§ 14.1 (Funções):** 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
+**§ 14.2 (Limite e Continuidade):** 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
+**§ 14.3 (Derivadas Parciais):** 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
+**§ 14.4 (Aproximação Linear):** 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
+**§ 14.5 (Regra da Cadeia):** 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
+**§ 14.6 (Vetor Gradiente):** 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
+**§ 14.7 (Máximos e Mínimos):** 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+**§ 14.8 (Multiplicadores de Lagrange):** 3, 5, 9, 15, 17, 19, 41, 43.
 
 Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
-:lock: § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-:lock: § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
+**§ 14.7:** 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+**§ 14.8:** 3, 5, 9, 15, 17, 19, ,21, 45.
 
 # Referências {#sec-ref}
 
@@ -142,63 +144,65 @@ Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
 # Cronograma Efetivado {#sec-crono}
 
-A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 10/07 </span>,      neste caso, é aconselhado que fiquem disponíveis até esta data.**
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que, caso ocorram, serão comunicadas aos alunos.
+
+Um cronograma dinâmico, atualizado aula-a-aula ao longo do semestre, será mantindo na página desta disciplina em: 
+[Calculo III-A 2026-1](https://demarque.mat.br/calculoIII/2026-1/c3-A-2026-1.html)
 
 **1. Funções vetoriais e Superfícies**
 
-01 . &nbsp; Seg  --  09/03  --  <span style="color:standard"> Apresentação do estudantes. Apresentação do curso. Motivação: problemas de otimização. </span> \
-02 . &nbsp; Ter  --  10/03  --  <span style="color:standard"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares. </span> \
-03 . &nbsp; Seg  --  16/03  --  <span style="color:standard"> Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
-04 . &nbsp; Ter  --  17/03  --  <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices. </span> \
-05 . &nbsp; Seg  --  23/03  --  <span style="color:standard"> Parametrização de curvas como interseção de duas superfícies. Derivadas e regras de derivação de funções vetoriais. </span> \
-06 . &nbsp; Ter  --  24/03  --  <span style="color:standard"> Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente e Curvatura. </span> \
-07 . &nbsp; Seg  --  30/03  --  <span style="color:standard"> Definição de Curvatura. Vetor Normal e Binormal. </span> \
-08 . &nbsp; Ter  --  31/03  --  <span style="color:standard"> Movimento, velocidade e aceleração. </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  03/04  --  Sexta-feira da Paixão </span> \
-09 . &nbsp; Seg  --  06/04  --  <span style="color:standard"> Fórmulas da curvatura </span> \
-10 . &nbsp; Ter  --  07/04  --  <span style="color:standard"> Aula de Exercícios 1 </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  10/04  --  Feriado Municipal </span> \
-<span style="color:red"> 11 . &nbsp; Seg  --  13/04  --  VA 1 (Verificação de Aprendizagem) </span> \
----
+01. Seg  --  09/03  --   Apresentação do estudantes. Apresentação do curso. Motivação: problemas de otimização.
+02. Ter  --  10/03  --   Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares.
+03. Seg  --  16/03  --   Superfícies  Cilíndricas. Superfícies Quádricas.
+04. Ter  --  17/03  --   Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices.
+05. Seg  --  23/03  --   Parametrização de curvas como interseção de duas superfícies. Derivadas e regras de derivação de funções vetoriais.
+06. Ter  --  24/03  --   Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente e Curvatura.
+07. Seg  --  30/03  --   Definição de Curvatura. Vetor Normal e Binormal.
+08. Ter  --  31/03  --   Movimento, velocidade e aceleração.\
+\textcolor{orange}{Sex  --  03/04  --  Sexta-feira da Paixão}
+09. Seg  --  06/04  --   Fórmulas da curvatura
+10. Ter  --  07/04  --   Aula de Exercícios 1\
+\textcolor{orange}{Sex  --  10/04  --  Feriado Municipal}
+11. Seg  --  13/04  --  \textcolor{red}{VA 1 (Verificação de Aprendizagem)}
 
 **2. Funções de Várias Variáveis**
 
-12 . &nbsp; Ter  --  14/04  --  <span style="color:standard"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
-13 . &nbsp; Seg  --  20/04  --  <span style="color:standard"> Limites e continuidade. Exemplos. </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  21/04  --  Tiradentes </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  23/04  --  São Jorge </span> \
-14 . &nbsp; Seg  --  27/04  --  <span style="color:standard"> Derivadas Parciais. Derivadas de ordem superior.  Exemplos. </span> \
-15 . &nbsp; Ter  --  28/04  --  <span style="color:standard"> Função de classe $C^1$. Regra da cadeia. Vetor Gradiente. </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  01/05  --  Dia do Trabalho </span> \
-16 . &nbsp; Seg  --  04/05  --  <span style="color:standard"> Derivadas direcionais. Propriedades do vetor Gradiente </span> \
-17 . &nbsp; Ter  --  05/05  --  <span style="color:standard"> Plano tangente. Aproximação linear. </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  06/05  --  Participação em Congresso </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  08/05  --  Participação em Congresso </span> \
-18 . &nbsp; Seg  --  11/05  --  <span style="color:standard"> Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. </span> \
-19 . &nbsp; Ter  --  12/05  --  <span style="color:standard"> Aula de Exercícios 2 </span> \
-20 . &nbsp; Seg  --  18/05  --  <span style="color:standard"> Aula de Exercícios 3 </span> \
-<span style="color:red"> 21 . &nbsp; Ter  --  19/05  --  VA 2 (Verificação de Aprendizagem) </span> \
-22 . &nbsp; Seg  --  25/05  --  <span style="color:standard"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
-23 . &nbsp; Ter  --  26/05  --  <span style="color:standard"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
-24 . &nbsp; Seg  --  01/06  --  <span style="color:standard"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
-25 . &nbsp; Ter  --  02/06  --  <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  04/06  --  Corpus Christ </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  05/06  --  Ponto Facultativo </span> \
-26 . &nbsp; Seg  --  08/06  --  <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. </span> \
-27 . &nbsp; Ter  --  09/06  --  <span style="color:standard"> Aula de Exercícios 4 </span> \
-28 . &nbsp; Seg  --  15/06  --  <span style="color:standard"> Aula de Exercícios 5 </span> \
-<span style="color:red"> 29 . &nbsp; Ter  --  16/06  --  VA 3 (Verificação de Aprendizagem) </span> \
----
+12 .  Ter  --  14/04  --   Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.   \
+13 .  Seg  --  20/04  --   Limites e continuidade. Exemplos.  \
+\textcolor{orange}{Ter  --  21/04  --  Tiradentes}  \
+\textcolor{orange}{ Qui  --  23/04  --  São Jorge}  \
+14 .  Seg  --  27/04  --   Derivadas Parciais. Derivadas de ordem superior.  Exemplos.  \
+15 .  Ter  --  28/04  --   Função de classe $C^1$. Regra da cadeia. Vetor Gradiente.  \
+\textcolor{orange}{ Sex  --  01/05  --  Dia do Trabalho}  \
+16 .  Seg  --  04/05  --   Derivadas direcionais. Propriedades do vetor Gradiente  \
+17 .  Ter  --  05/05  --   Plano tangente. Aproximação linear.  \
+\textcolor{orange}{ Qua  --  06/05  --  Participação em Congresso}  \
+\textcolor{orange}{ Sex  --  08/05  --  Participação em Congresso}  \
+18 .  Seg  --  11/05  --   Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$.  \
+19 .  Ter  --  12/05  --   Aula de Exercícios 2  \
+20 .  Seg  --  18/05  --   Aula de Exercícios 3  \
+21 .  Ter  --  19/05  --  \textcolor{red}{VA 2 (Verificação de Aprendizagem)}  \
+22 .  Seg  --  25/05  --   Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda  \
+23 .  Ter  --  26/05  --   Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass.  \
+24 .  Seg  --  01/06  --   Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$  \
+25 .  Ter  --  02/06  --   Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$.  \
+\textcolor{orange}{ Qui  --  04/06  --  Corpus Christ}  \
+\textcolor{orange}{ Sex  --  05/06  --  Ponto Facultativo}  \
+26 .  Seg  --  08/06  --   Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$.  \
+27 .  Ter  --  09/06  --   Aula de Exercícios 4  \
+28 .  Seg  --  15/06  --   Aula de Exercícios 5  \
+29 .  Ter  --  16/06  --  \textcolor{red}{VA 3 (Verificação de Aprendizagem)}  \
+
 
 **Provas Finais**
 
-<span style="color:red"> 30 . &nbsp; Seg  --  22/06  --  VR </span> \
-31 . &nbsp; Ter  --  23/06  --  <span style="color:standard"> --- </span> \
-<span style="color:red"> 32 . &nbsp; Seg  --  29/06  --  VS </span> \
-33 . &nbsp; Ter  --  30/06  --  <span style="color:standard">  --  </span> \
-34 . &nbsp; Seg  --  06/07  --  <span style="color:standard">  --  </span> \
-35 . &nbsp; Ter  --  07/07  --  <span style="color:standard">  --  </span> \
-:end: &nbsp; Sex  --  10/07  --  Fim do Período. :raised_hands:
----
+30 .  \textcolor{red}{Seg  --  22/06  --  VR}  \
+31 .  Ter  --  23/06  --   ---  \
+32 .  Seg  -- \textcolor{red}{29/06  --  VS}  \
+33 .  Ter  --  30/06  --    --   \
+34 .  Seg  --  06/07  --    --   \
+35 .  Ter  --  07/07  --    --   \
+:end:  Sex  --  10/07  --  Fim do Período. 
+
 
 
