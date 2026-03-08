@@ -23,11 +23,11 @@ u=g, & \text{ em } \Omega
 
 -  **Horário e sala:** \
 
-| Dia | Horário | Sala |
-|----|----|----|
-|Segunda |11h - 13h| Auditório da PGMAT|
-|Quarta  |11h - 13h| Auditório da PGMAT|
-|Sexta   |11h - 13h| Auditório da PGMAT|
+| Dia | Horário | Sala |Professor|
+|--|----|:---:|----|
+|Segunda |11h - 13h| Auditório da PGMAT|Luiz Viana|
+|Quarta  |11h - 13h| Auditório da PGMAT|Reginaldo Demarque|
+|Sexta   |11h - 13h| Auditório da PGMAT|Luiz Viana|
 : {.striped .table-sm}
 
 :::: {.columns}
