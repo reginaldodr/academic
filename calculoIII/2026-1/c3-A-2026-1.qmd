@@ -157,8 +157,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 **1. Funções vetoriais e Superfícies**
 
-:x: <span style="color:orange"> Seg  --  09/03  -- Aula cancelada devido à importunação por terceiros.</span> \
-01 . &nbsp; Ter  --  10/03  --  <span style="color:standard"> Apresentação do curso. Motivação: exemplos de aplicações. </span> \
+01 . &nbsp; Ter  --  10/03  --  <span style="color:LightGray"> Apresentação do estudantes. Apresentação do curso. Motivação: problemas de otimização. </span> \
 02 . &nbsp; Seg  --  16/03  --  <span style="color:LightGray"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares. </span> \
 03 . &nbsp; Ter  --  17/03  --  <span style="color:LightGray"> Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
 04 . &nbsp; Seg  --  23/03  --  <span style="color:LightGray"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices. </span> \
@@ -171,56 +170,56 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  10/04  --  Feriado Municipal </span> \
 10 . &nbsp; Seg  --  13/04  --  <span style="color:LightGray"> Aula de Exercícios 1 </span> \
 <span style="color:red"> 11 . &nbsp; Ter  --  14/04  --  VA 1 (Verificação de Aprendizagem) </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  20/04  --  Ponto Facultativo </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  21/04  --  Tiradentes </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  23/04  --  São Jorge </span> \
 ---
 
 **2. Funções de Várias Variáveis**
 
-12 . &nbsp; Seg  --  20/04  --  <span style="color:LightGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  21/04  --  Tiradentes </span> \
-:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  23/04  --  São Jorge </span> \
-13 . &nbsp; Seg  --  27/04  --  <span style="color:LightGray"> Limites e continuidade. Exemplos. </span> \
-14 . &nbsp; Ter  --  28/04  --  <span style="color:LightGray"> Derivadas Parciais. Derivadas de ordem superior.  Exemplos. </span> \
+12 . &nbsp; Seg  --  27/04  --  <span style="color:LightGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
+13 . &nbsp; Ter  --  28/04  --  <span style="color:LightGray"> Limites e continuidade. Exemplos. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  01/05  --  Dia do Trabalho </span> \
-15 . &nbsp; Seg  --  04/05  --  <span style="color:LightGray"> Função de classe $C^1$. Regra da cadeia. Vetor Gradiente. </span> \
-16 . &nbsp; Ter  --  05/05  --  <span style="color:LightGray"> Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+14 . &nbsp; Seg  --  04/05  --  <span style="color:LightGray"> Derivadas Parciais. Derivadas de ordem superior.  Exemplos. </span> \
+15 . &nbsp; Ter  --  05/05  --  <span style="color:LightGray"> Função de classe $C^1$. Regra da cadeia. Vetor Gradiente. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  06/05  --  Participação em Congresso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  08/05  --  Participação em Congresso </span> \
-17 . &nbsp; Seg  --  11/05  --  <span style="color:LightGray"> Plano tangente. Aproximação linear. </span> \
-18 . &nbsp; Ter  --  12/05  --  <span style="color:LightGray"> Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. </span> \
-19 . &nbsp; Seg  --  18/05  --  <span style="color:LightGray"> Aula de Exercícios 2 </span> \
-20 . &nbsp; Ter  --  19/05  --  <span style="color:LightGray"> Aula de Exercícios 3 </span> \
-<span style="color:red"> 21 . &nbsp; Seg  --  25/05  --  VA 2 (Verificação de Aprendizagem) </span> \
-22 . &nbsp; Ter  --  26/05  --  <span style="color:LightGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
-23 . &nbsp; Seg  --  01/06  --  <span style="color:LightGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
-24 . &nbsp; Ter  --  02/06  --  <span style="color:LightGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
+16 . &nbsp; Seg  --  11/05  --  <span style="color:LightGray"> Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+17 . &nbsp; Ter  --  12/05  --  <span style="color:LightGray"> Plano tangente. Aproximação linear. </span> \
+18 . &nbsp; Seg  --  18/05  --  <span style="color:LightGray"> Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. </span> \
+19 . &nbsp; Ter  --  19/05  --  <span style="color:LightGray"> Aula de Exercícios 2 </span> \
+<span style="color:red"> 20 . &nbsp; Seg  --  25/05  --  VA 2 (Verificação de Aprendizagem) </span> \
+21 . &nbsp; Ter  --  26/05  --  <span style="color:LightGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+22 . &nbsp; Seg  --  01/06  --  <span style="color:LightGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+23 . &nbsp; Ter  --  02/06  --  <span style="color:LightGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  04/06  --  Corpus Christ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  05/06  --  Ponto Facultativo </span> \
-25 . &nbsp; Seg  --  08/06  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
-26 . &nbsp; Ter  --  09/06  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. </span> \
-27 . &nbsp; Seg  --  15/06  --  <span style="color:LightGray"> Aula de Exercícios 4 </span> \
-28 . &nbsp; Ter  --  16/06  --  <span style="color:LightGray"> Aula de Exercícios 5 </span> \
-<span style="color:red"> 29 . &nbsp; Seg  --  22/06  --  VA 3 (Verificação de Aprendizagem) </span> \
+24 . &nbsp; Seg  --  08/06  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
+25 . &nbsp; Ter  --  09/06  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. </span> \
+26 . &nbsp; Seg  --  15/06  --  <span style="color:LightGray"> Aula de Exercícios 3 </span> \
+<span style="color:red"> 27 . &nbsp; Ter  --  16/06  --  VA 3 (Verificação de Aprendizagem) </span> \
 ---
 
 **Provas Finais**
 
-<span style="color:red"> 30 . &nbsp; Ter  --  23/06  --  VR </span> \
-31 . &nbsp; Seg  --  29/06  --  <span style="color:LightGray"> --- </span> \
-<span style="color:red"> 32 . &nbsp; Ter  --  30/06  --  VS </span> \
-33 . &nbsp; Seg  --  06/07  --  <span style="color:LightGray">  --  </span> \
-34 . &nbsp; Ter  --  07/07  --  <span style="color:LightGray">  --  </span> \
+<span style="color:red"> 28 . &nbsp; Seg  --  22/06  --  VR </span> \
+29 . &nbsp; Ter  --  23/06  --  <span style="color:LightGray"> --- </span> \
+<span style="color:red"> 30 . &nbsp; Seg  --  29/06  --  VS </span> \
+31 . &nbsp; Ter  --  30/06  --  <span style="color:LightGray">  --  </span> \
+32 . &nbsp; Seg  --  06/07  --  <span style="color:LightGray">  --  </span> \
+33 . &nbsp; Ter  --  07/07  --  <span style="color:LightGray">  --  </span> \
 :end: &nbsp; Sex  --  10/07  --  Fim do Período. :raised_hands:
 ---
 
+
 **Dados do Semestre**
 
-número total de aulas necessárias incluíndo provas:  32 \ 
-número total de semanas do semestre: 18 \ 
-número de semanas sem os feriados: 18 \ 
-dias letivos:  35 \ 
-feriados:  9 \ 
-feriado em dias de aulas: 1 \ 
-
+número total de aulas necessárias incluíndo provas:  30 \ 
+número total de semanas do semestre: 17 \ 
+número de semanas sem os feriados: 16 \ 
+dias letivos:  33 \ 
+feriados:  10 \ 
+feriado em dias de aulas: 2 \ 
 # Resultados
 
 # Cronograma Proposto Incialmente
