@@ -157,6 +157,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 **1. Funções vetoriais e Superfícies**
 
+:x: <span style="color:orange"> &nbsp; Seg  --  09/03  --  Aula cancelada devido à importunação por terceiros. </span> \
 01 . &nbsp; Ter  --  10/03  --  <span style="color:LightGray"> Apresentação do estudantes. Apresentação do curso. Motivação: problemas de otimização. </span> \
 02 . &nbsp; Seg  --  16/03  --  <span style="color:LightGray"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares. </span> \
 03 . &nbsp; Ter  --  17/03  --  <span style="color:LightGray"> Superfícies  Cilíndricas. Superfícies Quádricas. </span> \

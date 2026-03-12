@@ -1,0 +1,219 @@
+---
+title: GAAL RCN00075 -- 2025-2
+number-sections: true
+bibliography: ../biblio.bib
+csl: aims-mathematics.csl
+nocite: |
+  @*
+
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+
+::: {layout-ncol=2}
+$$
+\begin{align*}
+{\color{blue}a}x^2+{\color{blue}b}y^2+{\color{blue}c}xy&= \begin{bmatrix} x & y  \end{bmatrix} {\color{blue} \begin{bmatrix} a & c/2\\ c/2 & b\end{bmatrix} }
+\begin{bmatrix} x \\ y \end{bmatrix}\\
+&=X^t {\color{blue}A} X, \quad \bar{X}=Q^tX \\
+& =\bar{X}^t{\color{red}D}\bar{X}\\
+&= \begin{bmatrix} x & y  \end{bmatrix} 
+{\color{red} \begin{bmatrix} \lambda_1  & 0\\ 0 & \lambda_2\end{bmatrix} }\\
+& = {\color{red}\lambda_1}\bar{x}^2+{\color{red}\lambda_2}\bar{y}^2.
+\end{align*}
+$$
+
+![](../rot-elipse.png)
+:::
+
+
+# Informações Básicas
+
+- **Início e Fim do Período:** 18/08/2025 a 18/12/2025.
+
+-  **Horário e sala:** \
+[Quadro de Alocação de salas do ICT](http://200.159.243.250:8010/index.php/segunda/)  \
+
+| Dia | Horário | Sala |
+|----|----|----|
+|Segunda |16h - 18h| Sala 2 ICT|
+|Terça   |14h - 16h| Sala 2 ICT|
+: {.striped .table-sm}
+
+- **Atendimento:**
+
+  - Quartas 14h às 16h e Sextas 16h às 18h -- Sala 104 do IHS (prédio alugado)
+
+:::: {.columns}
+
+- **Material a ser utilizado**
+
+::: {.column width="40%"}
+  - [Slides](https://reginaldodr.github.io/slides/gaalv2/gaalv2.pdf)\
+  - [Notas das aulas](https://mega.nz/folder/vdlyVaKY#V7FN7JXYuxb3qto-07U7GQ/folder/2R1khQ5D)
+  - [Livro GAAL -- UFMG](../gaalt0.pdf)\
+  - [Gabarito dos Para casas](https://reginaldodr.github.io/slides/gaal/paracasas/paracasa-gabarito.pdf)\
+
+:::
+::: {.column width="50%"}
+  
+  - [Lista Exercícios Poole (2016)](../lista-poole-2016-gaal.pdf)\
+  - [Lista Exercícios Poole (2004)](../lista-gaal-poole-2004.pdf)
+  - [Lista de Exercícios de GA](../lista-exercicios-GA.pdf)\
+  - [Pré-Cálculo](../Boulos-Pre-Calculo.pdf)
+  - [Provas antigas](../provas/)\
+
+:::
+:::
+
+
+-  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
+MATRIZES E SISTEMAS LINEARES. DETERMINANTES. VETORES NO PLANO E NO ESPAÇO. RETAS E PLANOS. ESPAÇO $\mathbb{R}^n$. AUTOVALORES E AUTOVETORES DE UMA MATRIZ. DIAGONALIZAÇÃO DE MATRIZES. RECONHECIMENTO DE CÔNICAS.
+
+- **Monitoria:** 
+
+# Apresentação do Curso
+
+Este curso é constituído de dois módulos:
+
+1. Matrizes, Sistemas lineares, Determinates e Geometria Analítica;
+2. Álgebra Linear no $\mathbb{R}^n$.
+
+
+Usaremos como livro texto as referências [@poole2016] e [@santosufmg]. **A Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/), disponibiliza [@poole2004] para empréstimo, que corresponde à edição 2004 de [@poole2016], que também pode ser usada. A referência [@santosufmg] pode ser baixada [aqui](../gaalt0.pdf). <span style="color:red">  É altamente recomendado que vocês consultem este material, de preferência, o livro físico.</span>
+
+As demais referência contidas na @sec-ref serão usadas como material auxiliar ao longo do curso.\
+
+
+# Avaliação
+
+A avaliação será feita mediante **3 Verificações de Aprendizagem (Provas Escritas)** e **Atividades Remotas** a serem realizadas no [Ambiente Moodle](https://seet.eaduff.org/ead/login/index.php).
+
+::: {.callout-warning}
+## Instruções de acesso ao moodle
+Endereço: [https://seet.eaduff.org/ead](https://seet.eaduff.org/ead) \
+Login: digite o seu CPF (somente algarismos)\
+Senha: Seet2025\
+
+Após realizar o primeiro acesso, substitua a senha provisória Seet2025 por uma senha pessoal.
+:::
+
+A nota parcial (NP) será a média ponderada entre elas, dada da seguinte forma:
+$$
+NP=0.9\cdot VA+0.1\cdot AR,
+$$
+onde $VA$ é a média aritmética entre as Verificações de Aprendizagem e $AR$ é a nota final das Atividades Remotas. De acordo com o Regulamento da UFF, a **Nota Final** é calculada da seguinte forma:
+
+> 
+Definida como sendo igual à média parcial, caso o discente tenha obtido aprovação direta, ou igual a 6(seis), se a aprovação foi obtida na verificação suplementar (VS). No caso de reprovação na VS, a nota final será o resultado do cálculo da média aritmética entre a média parcial e a nota obtida na VS.
+
+
+## Objetivos {-}
+As provas tem como objetivos avaliar se o aluno:
+
+- É capaz de interpretar as questões corretamente e formular soluções para os problemas propostos.
+- É capaz de produzir soluções, em formato de texto, compreensíveis,  com nível de detalhamento e rigor adequados para que outros profissionais familiarizados com os conceitos possam entendê-las.
+- Aprendeu os conceitos e técnicas ensinados em sala de aula. 
+- Sabe determinar quando a solução proposta resolve de fato o problema. 
+- Consegue desenvolver uma argumentação lógica-dedutiva para chegar-se à resposta final.
+
+
+## Critério de correção das provas {-}
+Com base nos objetivos apresentados acima, os critério de correção serão: 
+
+   1. Interpretação correta das questões.
+   2. As soluções devem ser escrita com clareza, organização, rigor e detalhamento.
+   3. Soluções desenvolvidas fora do conteúdo ensinado, mesmo que corretas, não serão consideradas.
+   4. Questão com várias soluções será anulada.
+   5. Resposta correta com solução errada será anulada.
+
+Além disso, durante às provas, serão adotadas as seguinte medidas: 
+
+- Proibido compartilhar material.
+- Só é permitida a saída após entrega definitiva da prova, ou seja, não é permitido ir ao banheiro ou beber água. A prova tem duração de no máximo 2 horas.
+- É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e **uso de dispositivo computacional**, como calculadora científica, ambos **sem acesso a internet**.
+- Fraude detectada, mesmo depois, zera a nota.
+
+## Segunda Chamada {-}
+
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!**</span> Portanto, aquele aluno que **não puder ou não quiser** fazer uma das provas, poderá faltar que seu direito à Segunda Chamada será garantido.
+
+Cabe ressaltar que o conteúdo da **Segunda Chamada** será <span style="color:red">toda a matéria do semestre.</span>
+
+
+::: {.callout-warning}
+## Importante
+
+Como **não há a necessidade de justificar a falta nas avaliações** para ter o direito à Segunda Chamada garantido, alguns alunos usam este direito para fazer a Segunda Chamada quando não se sentem suficientemente preparados para alguma das avaliações. 
+
+Por conta disso, o aluno que estiver em dúvida entre fazer a prova ou a Segunda chamada, poderá comparecer no dia da prova e tentar fazê-la. Caso não se sinta preparado, poderá desistir e ainda terá o direito a fazer a Segunda Chamada. Aqueles que permanecerem e entregarem definitivamente a prova não terão o direito à Segunda Chamada.
+:::
+
+## Verificação Suplementar {-}
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4,0 e 5,9, sendo esses dois limites incluídos.
+
+
+# Listas de Exercícios
+
+Abaixo seguem os execícios das referências @poole2016, @santosufmg e @poole2004, também os da [lista de GA plana](../lista-exercicios-GA.pdf), que devem ser feitos a fim de se preparar para a avaliação escrita. Os exercícios marcado com o símbolo SAC no livro, devem ser feitos usando uma ferramenta computacional, como por exemplo o python.
+
+Veja as listas em [Material Básico](../gaal.qmd).
+
+A seguir, o símbolo :pencil2: significa quais exercícios já podem ser feitos com o contéudo dado até o momento, enquanto o símbolo :lock: se refere àqueles que ainda não. A medida que o conteúdo em sala for avançando, novos exercícios serão desbloqueados.
+
+
+- **Matrizes, Sistemas Lineares e Determinantes**\
+:pencil2: @poole2016 **§ 3.1 (Matrizes):** 1, 11, 13, 17, 35.\
+:pencil2: @poole2016 **§ 3.2 (Matrizes):** 1, 4, 23.\
+:pencil2: @poole2016 **§ 2.1 (Sistemas Lineares):** 1, 3, 5, 15, 17, 27, 29, 31, 32.\
+:pencil2: @poole2016 **§ 2.2 (Resolução de Sistemas Lineares):** 9, 11,  13, 25, 27, 29, 31, 33, 35, 37, 41, 43.\
+:pencil2: @poole2004 **§ 3.4 (Matriz Inversa):** 49, 53, 57, 51, 55, 45, 20, 21.\
+:pencil2: @poole2004 **§ 4.3 (Determinantes):** 1, 3, 5, 7, 9, 13, 27, 29, 33, 47, 49, 51.\
+
+- **Geometria Analítica** \
+    - GA em $\mathbb{R}^2$\
+:pencil2: **(Completamente de quadrados):** Estudar a seção 13.B, sobre completamento de quadrados, de [Pre-cálculo](../Boulos-Pre-Calculo.pdf#page=79) ou a [videoaula](https://www.youtube.com/watch?v=n9rcwkkl8vk).\
+:pencil2: @poole2016 **(Coordenadas e vetores no plano):** 1, 2, 5, 7, 13.\
+Fazer  os exercícios desta [lista de GA plana](../lista-exercicios-GA.pdf)\
+:pencil2: **(Coordenadas e distância em $\mathbb{R}^2$):** 1.1 (a,b,c), 1.3, 1.8.\
+:pencil2: **(Vetores em $\mathbb{R}^2$):** 2.1, 2.2, 2.3, 2.5(b), 2.6 (a,b), 2.7, 2.10.\
+:pencil2: **(Produto escalar em $\mathbb{R}^2$):** 2.5, 2.6, 2.7, 2.9, 2.10.\
+:pencil2:**(Equação da Reta):** 4.2(a,b), 4.5, 4.6, 4.9, 4.18.\
+  - GA em $\mathbb{R}^3$\
+:pencil2: **(Cônicas):** 7.10 (apenas reconhecer e fazer um esboço).\
+:pencil2: @santosufmg **3.3 (Produtos Vetorias):** 2, 3, 4, 5, 7.\
+:pencil2: @poole2004 **§ 1.4 (Retas e Planos):** 3, 5, 7,  11, 15, 17, 21, 23.\
+:lock: @santosufmg **4.3 (Distância de ponto a reta):** 8, 9.\
+
+
+- **Álgebra Linear**\
+:pencil2: @poole2004 **§ 1.2 (Vetores em $\mathbb{R}^n$):** 5, 11, 12, 14, 17.\
+:pencil2: @poole2004 **§ 1.3 (Produto Escalar em $\mathbb{R}^n$):** 1, 3, 5, 7, 9, 17, 19, 21, 23, 27, 29, 39, 46, 47, 51.\
+:pencil2: @santosufmg **5.1 (LI e LD):** 1, 3, 4, 8.\
+:pencil2: @poole2004 **§ 3.5 (Subespaço,Base e Dimensão):** 13, 15, 23, 26, 27, 28, 43.\
+:pencil2: @santosufmg **6.1 (Autovetores):** 1, 2, 3, 5, 6, 7.\
+:pencil2: @poole2004 **§ 4.5 (Diagonalização):** 11, 13, 15, 17, 21, 25, 27, 40, 41.\
+:pencil2: @poole2016 **§ 5.1 (Ortogonalidade):**  7, 9, 10, 11, 13, 15, 16, 17, 18, 21, 28, 29, 31.\
+:pencil2: @poole2016 **§ 5.3 (Ortogonalização Gram-Shcmidt):**  1, 3, 5, 7, 9, 11.\
+:pencil2: @poole2016 **§ 5.4 (Diagonalização Ortogonal):**  1, 3, 5-9, 13, 21, 23, 24.
+
+
+
+# Referências {#sec-ref}
+
+
+::: {#refs}
+:::
+
+# Cronograma Efetivado {#sec-crono}
+
+
+
+---
+
+# Resultados
+
+
