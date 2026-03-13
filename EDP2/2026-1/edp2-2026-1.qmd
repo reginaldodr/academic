@@ -46,8 +46,8 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 
 01 . &nbsp; Seg  --  09/03  --  <span style="color:standard"> Apresentação do curso. Preliminares: Teorema de Fubini, espaços $L^p$, Desigualdade de Hölder. Partição da Unidade. Suporte de funções. </span> \
 02 . &nbsp; Qua  --  11/03  --  <span style="color:standard"> Convolução. Desigualdade de Young.  </span> \
-03 . &nbsp; Sex  --  13/03  --  <span style="color:LightGray"> Derivação de convolução. Funções regularizantes. Densidade de $C_c^\infty(\Omega)$ em $L^p(\Omega)$. Lema de Du Bois Raymond.  </span> \
-04 . &nbsp; Seg  --  16/03  --  <span style="color:LightGray"> Espaços das funções testes e distribições. Convergência. Derivação de distribuições. Derivada Fraca. Multiplicação por funções $C^\infty$. </span> \
+03 . &nbsp; Sex  --  13/03  --  <span style="color:standard"> Derivação de convolução. Funções regularizantes: definição e exemplo.   </span> \
+04 . &nbsp; Seg  --  16/03  --  <span style="color:LightGray"> Densidade de $C_c^\infty(\Omega)$ em $L^p(\Omega)$. Lema de Du Bois Raymond. Espaços das funções testes e distribições. Convergência. Derivação de distribuições. Derivada Fraca. Multiplicação por funções $C^\infty$. </span> \
 ---
 
 <span style="color:standard"> **2. Espaços de Sobolev** </span>
