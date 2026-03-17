@@ -51,7 +51,7 @@ Campus de Rio das Ostras
 
 - [Quadro de Horários](https://app.uff.br/graduacao/quadrodehorarios)
 
-- [Quadro de Alocação de salas do ICT](http://200.159.243.250:8010/index.php/segunda/) 
+- [Quadro de Alocação de salas do ICT](http://200.159.243.250:8015/) 
 
 - [Quadro de Alocação de salas do IHS](http://159.112.185.66/home/index_simples)
     - [acesso por celular](http://159.112.185.66/home_externo/index)
