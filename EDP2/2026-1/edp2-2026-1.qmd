@@ -48,14 +48,14 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 02 . &nbsp; Qua  --  11/03  --  <span style="color:standard"> Convolução. Desigualdade de Young.  </span> \
 03 . &nbsp; Sex  --  13/03  --  <span style="color:standard"> Derivação de convolução. Funções regularizantes: definição e exemplo. </span> \
 04 . &nbsp; Seg  --  16/03  --  <span style="color:standard"> Convergência das regularizações. Densidade de $C_c^\infty(\Omega)$ em $L^p(\Omega)$. Lema de Du Bois Raymond.  </span> \
+05 . &nbsp; Qua  --  18/03  --  <span style="color:standard"> Espaços das funções testes e distribições. Convergência. Derivação de distribuições. </span> \
+06 . &nbsp; Sex  --  20/03  --  <span style="color:standard">  Derivada Fraca. Multiplicação de uma distribuição por funções $C^\infty$.  </span> \
 ---
 
 <span style="color:standard"> **2. Espaços de Sobolev** </span>
 
-05 . &nbsp; Qua  --  18/03  --  <span style="color:LightGray"> Espaços das funções testes e distribições. Convergência. Derivação de distribuições. Derivada Fraca. Multiplicação por funções $C^\infty$. Definição de Espaços de Sobolev. Banach e reflexivo. $W_0^{k,p}(\mathbb{R}^d)$. </span> \
-06 . &nbsp; Sex  --  20/03  --  <span style="color:LightGray"> Aproximação por Funções Suaves. Teorema de Friedrichs. Regra da Cadeia. Teorema de Meyers-Serrin. </span> \
-07 . &nbsp; Seg  --  23/03  --  <span style="color:LightGray"> Operador Prolongamento. </span> \
-08 . &nbsp; Qua  --  25/03  --  <span style="color:LightGray"> Operador Traço. </span> \
+07 . &nbsp; Seg  --  23/03  --  <span style="color:LightGray">Definição de Espaços de Sobolev. Banach e reflexivo. $W_0^{k,p}(\mathbb{R}^d)$. Aproximação por Funções Suaves. Teorema de Friedrichs. Regra da Cadeia. Teorema de Meyers-Serrin.  </span> \
+08 . &nbsp; Qua  --  25/03  --  <span style="color:LightGray">Operador Prolongamento. Operador Traço. </span> \
 09 . &nbsp; Sex  --  27/03  --  <span style="color:LightGray"> Espaço das Funções Hölder contínuas </span> \
 10 . &nbsp; Seg  --  30/03  --  <span style="color:LightGray"> Imersões de Sobolev: Teorema de  Gagliardo-Nirenberg-Sobolev. Caso $\Omega=\mathbb{R}^d$ e $p\leq d$. </span> \
 11 . &nbsp; Qua  --  01/04  --  <span style="color:LightGray"> Imersões de Sobolev: Desigualdade de Morrey. Caso $\Omega=\mathbb{R}^d$ e $p>d$. </span> \
