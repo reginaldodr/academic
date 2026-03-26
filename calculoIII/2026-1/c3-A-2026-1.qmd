@@ -161,13 +161,13 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 01 . &nbsp; Ter  --  10/03  --  <span style="color:standard"> Apresentação do estudantes. Apresentação do curso. Motivação: problemas de otimização. </span> \
 02 . &nbsp; Seg  --  16/03  --  <span style="color:standard"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares: definição. </span> \
 03 . &nbsp; Ter  --  17/03  --  <span style="color:standard"> Curvas em Coordenadas Polares. Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
-04 . &nbsp; Seg  --  23/03  --  <span style="color:LightGray"> Superfícies Quádricas: exemplos.  </span> \
-05 . &nbsp; Ter  --  24/03  --  <span style="color:LightGray"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices. Parametrização de curvas como interseção de duas superfícies. Derivadas e regras de derivação de funções vetoriais. </span> \
-06 . &nbsp; Seg  --  30/03  --  <span style="color:LightGray"> Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente e Curvatura. </span> \
+04 . &nbsp; Seg  --  23/03  --  <span style="color:orange"> Não houve aula -- motivo de saúde. </span> \
+05 . &nbsp; Ter  --  24/03  --  <span style="color:standard"> Superfícies Quádricas: exemplos.  </span> \
+06 . &nbsp; Seg  --  30/03  --  <span style="color:LightGray"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices.  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  31/03  --  Banca Concurso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  02/04  --  Banca Concurso </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  03/04  --  Sexta-feira da Paixão </span> \
-07 . &nbsp; Seg  --  06/04  --  <span style="color:LightGray"> Definição de Curvatura. Vetor Normal e Binormal. </span> \
+07 . &nbsp; Seg  --  06/04  --  <span style="color:LightGray"> Parametrização de curvas como interseção de duas superfícies. Derivadas e regras de derivação de funções vetoriais. Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente e Curvatura. Definição de Curvatura. Vetor Normal e Binormal. </span> \
 08 . &nbsp; Ter  --  07/04  --  <span style="color:LightGray"> Movimento, velocidade e aceleração. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  10/04  --  Feriado Municipal </span> \
 09 . &nbsp; Seg  --  13/04  --  <span style="color:LightGray"> Fórmulas da curvatura </span> \
