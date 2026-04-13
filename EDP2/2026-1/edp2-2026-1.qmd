@@ -62,9 +62,10 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  03/04  --  Sexta-feira da Paixão </span> \
 12 . &nbsp; Seg  --  06/04  --  <span style="color:standard"> Regra da Cadeia. Contra-exemplo Meyers-Serrin $p=+\infty$. Funções em $W^{k,p}(\Omega)$ com suporte compacto estão em $W_0^{k,p}(\Omega)$.  </span> \
 13 . &nbsp; Qua  --  08/04  --  <span style="color:standard"> Teorema de Meyers-Serrin (finalização). Definição de Operador Prolongamento. Definição de $\partial\Omega$ de classe $C^k$. Corolário do Teorema do Prolongamento.  </span> \
-14 . &nbsp; Sex  --  10/04  --  <span style="color:LightGray"> Lema do Teorema do Prolongamento </span> \
-15 . &nbsp; Seg  --  13/04  --  <span style="color:LightGray"> Teorema do Prolongamento </span> \
-16 . &nbsp; Qua  --  15/04  --  <span style="color:LightGray"> Operador Traço. </span> \
+14 . &nbsp; Sex  --  10/04  --  <span style="color:standard"> Lema do Teorema do Prolongamento: Caso $\Omega=Q_1^+$ </span> \
+15 . &nbsp; Seg  --  13/04  --  <span style="color:standard"> Lema do Teorema do Prolongamento finalização. </span> \
+16 . &nbsp; Qua  --  15/04  --  <span style="color:LightGray"> Operador Traço. </span>\
+17 . &nbsp; Sex  --  17/04  --  <span style="color:LightGray"> Teorema do Prolongamento. </span> \
 
 
 Lista de Tópicos:
@@ -78,7 +79,11 @@ Lista de Tópicos:
 
 <span style="color:standard"> **3. Problemas Elípticos** </span>
 
-17 . &nbsp; Sex  --  17/04  --  <span style="color:LightGray"> Operadores Elípticos. Definição de Solução Fraca. Teorema de Lax-Milgram. </span> \
+Lista de Tópicos
+
+ - Operadores Elípticos. Definição de Solução Fraca. Teorema de Lax-Milgram.
+
+
 18 . &nbsp; Seg  --  20/04  --  <span style="color:LightGray">  1º Teorema de Existência de Solução Fraca. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  21/04  --  Tiradentes </span> \
 19 . &nbsp; Qua  --  22/04  --  <span style="color:LightGray"> Alternativa de Fredholm. 2º Teorema de Existência de solução. </span> \
@@ -145,7 +150,7 @@ Este foi o programa proposto no início do perído, que será mantido aqui para 
 
 05 . &nbsp; Qua  --  18/03  --  <span style="color:standard"> Definição de Espaços de Sobolev. Banach e reflexivo. $W_0^{k,p}(\mathbb{R}^d)$. </span> \
 06 . &nbsp; Sex  --  20/03  --  <span style="color:standard"> Aproximação por Funções Suaves. Teorema de Friedrichs. Regra da Cadeia. Teorema de Meyers-Serrin. </span> \
-07 . &nbsp; Seg  --  23/03  --  <span style="color:standard"> Operador Prolongamento. </span> \
+07 . &nbsp; Seg  --  23/03  --  <span style="color:standard"> Operador Prolongamento.  </span> \
 08 . &nbsp; Qua  --  25/03  --  <span style="color:standard"> Operador Traço. </span> \
 09 . &nbsp; Sex  --  27/03  --  <span style="color:standard"> Espaço das Funções Hölder contínuas </span> \
 10 . &nbsp; Seg  --  30/03  --  <span style="color:standard"> Imersões de Sobolev: Teorema de  Gagliardo-Nirenberg-Sobolev. Caso $\Omega=\mathbb{R}^d$ e $p\leq d$. </span> \
