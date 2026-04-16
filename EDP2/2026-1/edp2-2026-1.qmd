@@ -64,7 +64,7 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 13 . &nbsp; Qua  --  08/04  --  <span style="color:standard"> Teorema de Meyers-Serrin (finalização). Definição de Operador Prolongamento. Definição de $\partial\Omega$ de classe $C^k$. Corolário do Teorema do Prolongamento.  </span> \
 14 . &nbsp; Sex  --  10/04  --  <span style="color:standard"> Lema do Teorema do Prolongamento: Caso $\Omega=Q_1^+$ </span> \
 15 . &nbsp; Seg  --  13/04  --  <span style="color:standard"> Lema do Teorema do Prolongamento finalização. </span> \
-16 . &nbsp; Qua  --  15/04  --  <span style="color:LightGray"> Operador Traço. </span>\
+16 . &nbsp; Qua  --  15/04  --  <span style="color:standard"> Operador Traço: caso $\Omega=\mathbb{R}^N_+$. </span>\
 17 . &nbsp; Sex  --  17/04  --  <span style="color:LightGray"> Teorema do Prolongamento. </span> \
 
 
