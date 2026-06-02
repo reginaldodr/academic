@@ -87,12 +87,12 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 25 . &nbsp; Sex  --  15/05  --  <span style="color:standard"> Introdução ao problema elíptico. Definição de Solução fraca. Teorema de Lax-Milgran.</span> \
 26 . &nbsp; Seg  --  18/05  --  <span style="color:standard"> Estimativas de energia. 1º Teorema de existência de solução fraca. Operador adjunto. </span> \
 27 . &nbsp; Qua  --  20/05  --  <span style="color:standard"> Alternativa de Fredholm e 2º Teorema de Existência.  </span> \
-29 . &nbsp; Sex  --  22/05  --  <span style="color:LightGray"> </span> \
-30 . &nbsp; Seg  --  25/05  --  <span style="color:LightGray">  </span> \
-31 . &nbsp; Qua  --  27/05  --  <span style="color:LightGray"> </span> \
-32 . &nbsp; Sex  --  29/05  --  <span style="color:LightGray">  </span> \
-33 . &nbsp; Seg  --  01/06  --  <span style="color:LightGray">  </span> \
-34 . &nbsp; Qua  --  03/06  --  <span style="color:LightGray">  </span> \
+29 . &nbsp; Sex  --  22/05  --  <span style="color:standard"> 3º Teorema de Existência: Problemas de autovalores </span> \
+30 . &nbsp; Seg  --  25/05  --  <span style="color:standard"> Limitação da Inversa; regularidade do problema elíptico. </span> \
+31 . &nbsp; Qua  --  27/05  --  <span style="color:standard"> Distribuições Vetoriais </span> \
+32 . &nbsp; Sex  --  29/05  --  <span style="color:standard"> Princípio do máximo fraco. </span> \
+33 . &nbsp; Seg  --  01/06  --  <span style="color:standard"> Princípio do máximo fraco com c=0 (continuação); Demonstração o princípio do máximo fraco para c>=0 </span> \
+34 . &nbsp; Qua  --  03/06  --  <span style="color:LightGray"> O problema Parabólico. Aproximações de Galerkin. Desigualdade de Energia. </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  04/06  --  Corpus Christ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  05/06  --  Ponto Facultativo </span> \
 35 . &nbsp; Seg  --  08/06  --  <span style="color:LightGray"> </span> \
