@@ -56,6 +56,8 @@ EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍND
 </div>
 ```
 
+![](correcoes.png){width=70%}
+
 
 # Apresentação do Curso
 
