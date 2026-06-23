@@ -46,18 +46,18 @@ from: markdown+emoji
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE.
 
+::: {.content-hidden}
 ```{=html}
-
 <div style="margin-bottom: 20px;">
-  <strong>Progresso da correção da VA 2:</strong> atualizado em 15/06/2026 às 17:38 
+  <strong>Progresso da correção da VA 3:</strong> atualizado em  
   <div class="progress" style="height: 30px; margin-top: 5px;">
-    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">31.831 &pi; %</div>
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">0 &pi; %</div>
   </div>
 </div>
 ``` 
 
 ![](correcoes.png){width=70%}
-
+:::
 
 # Apresentação do Curso
 
@@ -147,13 +147,13 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 :lock: **§ 14.4 (Aproximação Linear):** 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
 :pencil2: **§ 14.5 (Regra da Cadeia):** 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
 :pencil2: **§ 14.6 (Vetor Gradiente):** 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
-:lock: **§ 14.7 (Máximos e Mínimos):** 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-:lock: **§ 14.8 (Multiplicadores de Lagrange):** 3, 5, 9, 15, 17, 19, 41, 43.
+:pencil2: **§ 14.7 (Máximos e Mínimos):** 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+:pencil2: **§ 14.8 (Multiplicadores de Lagrange):** 3, 5, 9, 15, 17, 19, 41, 43.
 
 Exercícios do **Stewart Vol. 2, 7ª Edição.**
 
-:lock: § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
-:lock: § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
+:pencil2: § 14.7: 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+:pencil2: § 14.8: 3, 5, 9, 15, 17, 19, ,21, 45.
 
 # Referências {#sec-ref}
 
@@ -205,14 +205,14 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 18 . &nbsp; Seg  --  25/05  --  <span style="color:standard">Propriedades do vetor Gradiente. Plano tangente. Aproximação linear.  </span> \
 19 . &nbsp; Ter  --  26/05  --  <span style="color:standard"> Aula de Exercícios  </span> \
 20 . &nbsp; Ter  --  01/06  --  <span style="color:standard"> Aula de Exercícios  </span> \
-<span style="color:red"> 20 . &nbsp; Ter  --  02/06  --  VA 2 (Verificação de Aprendizagem) </span> \
+<span style="color:red"> 20 . &nbsp; Ter  --  02/06  --  VA 2 (Verificação de Aprendizagem) </span> [gabarito](../provas/2026-1-va2-c3-gabarito.pdf)\
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  04/06  --  Corpus Christ </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  05/06  --  Ponto Facultativo </span> \
 21 . &nbsp; Seg  --  08/06  --  <span style="color:standard">Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda.  </span> \
-22 . &nbsp; Ter  --  09/06  --  <span style="color:LightGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
-23 . &nbsp; Seg  --  15/06  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
-24 . &nbsp; Ter  --  16/06  --  <span style="color:LightGray">Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. </span> \
-25 . &nbsp; Seg  --  22/06  --  <span style="color:LightGray"> Aula de Exercícios 3 </span> \
+22 . &nbsp; Ter  --  09/06  --  <span style="color:standard"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass.  </span> \
+23 . &nbsp; Seg  --  15/06  --  <span style="color:standard"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
+24 . &nbsp; Ter  --  16/06  --  <span style="color:standard">Vista da VA 2 </span> \
+25 . &nbsp; Seg  --  22/06  --  <span style="color:standard"> Aula de Exercícios 3 </span> \
 <span style="color:red"> 26 . &nbsp; Ter  --  23/06  --  VA 3 (Verificação de Aprendizagem) </span> \
 ---
 
@@ -240,7 +240,10 @@ feriado em dias de aulas: 4 \
 Tópicos não cobertos:
 
  - Curvatura, vetores Normal e Binormal. Cinemática. \
-
+ - Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$.\
+ - Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. 
+ - Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$.
+ 
 # Resultados
 
 ```{python}
