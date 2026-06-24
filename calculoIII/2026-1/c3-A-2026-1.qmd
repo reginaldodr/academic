@@ -46,18 +46,18 @@ from: markdown+emoji
 -  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
 EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE.
 
-::: {.content-hidden}
+
 ```{=html}
 <div style="margin-bottom: 20px;">
-  <strong>Progresso da correção da VA 3:</strong> atualizado em  
+  <strong>Progresso da correção da VA 3:</strong> atualizado em 24/06/2026 às 10:48 &#127911 Creedence Clearwater Revival
   <div class="progress" style="height: 30px; margin-top: 5px;">
-    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 0%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">0 &pi; %</div>
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 40.7%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">12,97 &pi; %</div>
   </div>
 </div>
 ``` 
 
 ![](correcoes.png){width=70%}
-:::
+
 
 # Apresentação do Curso
 
