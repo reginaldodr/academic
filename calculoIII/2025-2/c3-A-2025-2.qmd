@@ -554,7 +554,7 @@ print()
 
 print('### Resultados: concluintes {-}')
 print()
-print('**Cálculo III - 2025-1**\n')
+print('**Cálculo III - 2025-2**\n')
 print('Tivemos <b>',insc,' inscritos</b> e uma evasão de <b>',est[0],' (',perc[0],'%)</b> estudantes, isto é, não realizaram nenhuma avaliação. Assim <b>',est[1],' (',perc[1],'%)</b> efetivamente concluíram a disciplina.')
 print()
 
@@ -577,7 +577,7 @@ mylabels3 = ["Evadidos", "Concluintes."]
 ax1.pie(est, labels = mylabels3,colors=mycolors2,autopct='%1.2f%%', startangle = 90)
 ax1.set_title('Estudantes')
 
-mylabels4 = ["Evadidos","Reprovados" ,"Aprovados"]
+mylabels4 = ["Reprovados" ,"Evadidos","Aprovados"]
 ax2.pie(rescon, labels = mylabels4,colors=mycolors,autopct='%1.2f%%', startangle = 90)
 ax2.set_title('Resultado Final')
 plt.show()
