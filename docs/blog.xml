@@ -8,8 +8,8 @@
 <title>Prof. Reginaldo Demarque</title>
 <link>https://demarque.mat.br/blog.html</link>
 <atom:link href="https://demarque.mat.br/blog.xml" rel="self" type="application/rss+xml"/>
-<description>Professor Associado 3, RCN, UFF</description>
-<generator>quarto-1.5.57</generator>
+<description>Professor Associado 4, RCN, UFF</description>
+<generator>quarto-1.10.18</generator>
 <lastBuildDate>Sat, 03 May 2025 03:00:00 GMT</lastBuildDate>
 <item>
   <title>Uma tarde com o Triângulo de Sierpinski</title>
@@ -1229,6 +1229,279 @@ font-style: inherit;">'r'</span>)</span>
   <pubDate>Sat, 02 Sep 2023 03:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Cresimento Logístico com Python</title>
+  <dc:creator>Reginaldo Demarque</dc:creator>
+  <link>https://demarque.mat.br/posts/crescimento-logistico.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="crescimento-logístico" class="level2">
+<h2 class="anchored" data-anchor-id="crescimento-logístico">Crescimento Logístico</h2>
+<p>O <strong>crescimento logístico</strong> leva em conta que a população tem um valor máximo <img src="https://latex.codecogs.com/png.latex?M">. Quando a população se aproxima da capacidade máxima, os recursos tornam-se menos abundantes e a taxa de crescimento começa a diminuir. Se <img src="https://latex.codecogs.com/png.latex?y=y(t)"> representa o número de indivíduos no instante <img src="https://latex.codecogs.com/png.latex?t">, uma relação simples que exibe esse comportamento é quando <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7Bdy%7D%7Bdt%7D=ky(M-y)"> Vamos usar o python para nos ajudar a resolver o seguinte exemplo:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemplo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Biólogos colocaram em um lago 400 peixes e estimaram a capacidade de suporte como 10.000. O número de peixes triplicou no primeiro ano. Encontre uma expressão para o tamanho da população de peixes depois de <img src="https://latex.codecogs.com/png.latex?t"> anos.</p>
+</div>
+</div>
+<p><strong>Solução:</strong> Vamos trabalhar com as populações em unidades de mil, assim <img src="https://latex.codecogs.com/png.latex?y(0)=0.4"> e <img src="https://latex.codecogs.com/png.latex?y(1)=1.2">. Primeiramente, vamos resolver a EDO usando o método das equações separáveis. <img src="https://latex.codecogs.com/png.latex?y'(t)=ky(t)(10-y(t))%5CRightarrow%20%5Cfrac%7By'(t)%7D%7By(10-y(t))%7D=k%5CRightarrow%20%5Cint%5Cfrac%7By'(t)%7D%7By(10-y(t))%7Ddt%20=kt+c%5CRightarrow%20%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D=kt+c."></p>
+<p>Com isso o problema se resume em determinar a integral <img src="https://latex.codecogs.com/png.latex?%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D."></p>
+<p>Note que <img src="https://latex.codecogs.com/png.latex?%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D=%5Cfrac%7B1%7D%7B10%7D%5Cint%5Cfrac%7B1%7D%7By%7D+%5Cfrac%7B1%7D%7B10-y%7Ddy=%5Cfrac%7B1%7D%7B10%7D(%5Clog%7Cy%7C-%5Clog%7C10-y%7C)+c_1"></p>
+<p>Com isso, <img src="https://latex.codecogs.com/png.latex?%5Clog%5Cleft%7C%5Cfrac%7By%7D%7B10-y%7D%5Cright%7C=kt+c_2%5CRightarrow%20%5Cfrac%7By%7D%7B10-y%7D=Ce%5E%7Bkt%7D"></p>
+<p>Agora, vamos usar a biblioteca <code>sympy</code> do python para substituir o dado inicial <img src="https://latex.codecogs.com/png.latex?y(0)=0.4"> a fim de obter <img src="https://latex.codecogs.com/png.latex?C">.</p>
+<div id="b367a40b" class="cell" data-execution_count="1">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> sympy <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> sp</span>
+<span id="cb1-2"></span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#variáveis</span></span>
+<span id="cb1-4">y,k,C<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.symbols(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'y k C'</span>,real<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>)</span>
+<span id="cb1-5">t<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.symbols(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'t'</span>,positive<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>)</span>
+<span id="cb1-6"></span>
+<span id="cb1-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#dados do problema</span></span>
+<span id="cb1-8">y0<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Rational(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">400</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1000</span>)</span>
+<span id="cb1-9">y1<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>y0</span>
+<span id="cb1-10"></span>
+<span id="cb1-11">eq1<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.Eq(y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>y),C<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>sp.exp(k<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>t))</span>
+<span id="cb1-12">sol<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.solve(eq1.subs([(t,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>),(y,y0)]),C)</span>
+<span id="cb1-13">c0<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sol[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb1-14"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'C='</span>,c0)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>C= 1/24</code></pre>
+</div>
+</div>
+<p>Neste caso obtemos que <img src="https://latex.codecogs.com/png.latex?C=%5Cfrac%7B1%7D%7B24%7D">. Substituindo na equação obtida ficamos com</p>
+<div id="1611d207" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">eq2<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>eq1.subs(C,c0)</span>
+<span id="cb3-2">eq2</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="2">
+<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5Cfrac%7By%7D%7B10%20-%20y%7D%20=%20%5Cfrac%7Be%5E%7Bk%20t%7D%7D%7B24%7D"></p>
+</div>
+</div>
+<p>Agora vamos encontrar <img src="https://latex.codecogs.com/png.latex?k"> usando o segundo dado <img src="https://latex.codecogs.com/png.latex?y(1)=1.2">.</p>
+<div id="2494a791" class="cell" data-execution_count="3">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">sol2<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.solve(eq2.subs([(t,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>),(y,y1)]),k)</span>
+<span id="cb4-2">k0<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sol2[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb4-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'k='</span>,k0)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>k= log(36/11)</code></pre>
+</div>
+</div>
+<p>Vamos substituir na equação e simplificar:</p>
+<div id="8ac8a492" class="cell" data-execution_count="4">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">eq3<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>eq2.subs(k,k0)</span>
+<span id="cb6-2">sp.simplify(eq3)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="4">
+<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5Cfrac%7B%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%7D%7B24%7D%20=%20-%20%5Cfrac%7By%7D%7By%20-%2010%7D"></p>
+</div>
+</div>
+<p>Agora vamos isolar <img src="https://latex.codecogs.com/png.latex?y">, encontrando finalmente a função buscada.</p>
+<div id="48f1fdf8" class="cell" data-execution_count="5">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">sol3<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.solve(eq3,y)</span>
+<span id="cb7-2">Y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sol3[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb7-3">sp.Eq(y,Y)</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="5">
+<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20y%20=%20%5Cfrac%7B10%20%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%7D%7B%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%20+%2024%7D"></p>
+</div>
+</div>
+<p>Vamos agora esboçar o gráfico desta função no intervalo <img src="https://latex.codecogs.com/png.latex?%5B0,10%5D">.</p>
+<div id="8a560385" class="cell" data-execution_count="6">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">sp.plot(Y,(t,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>))</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://demarque.mat.br/posts/crescimento-logistico_files/figure-html/cell-7-output-1.png" width="656" height="468" class="figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Note que se dividirmos o numerador e o denominador por <img src="https://latex.codecogs.com/png.latex?%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5Et">, podemos reescrever a função da seguinte forma:</p>
+<p><img src="https://latex.codecogs.com/png.latex?y(t)=%5Cfrac%7B10%20%7D%7B1%20+%2024%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7B-t%7D%7D,%5C%20t%5Cgeq%200."> Por fim, vamos fazer previsões:</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemplo
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Determine em quanto tempo a população chegará a 5 mil.</p>
+</div>
+</div>
+<p>Queremos encontrar o tempo <img src="https://latex.codecogs.com/png.latex?T"> para o qual <img src="https://latex.codecogs.com/png.latex?y(T)=5">, isto é, resolver a equação:</p>
+<p><img src="https://latex.codecogs.com/png.latex?5=%5Cfrac%7B10%20%7D%7B1%20+%2024%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7B-t%7D%7D."></p>
+<div id="cdf8b210" class="cell" data-execution_count="7">
+<details class="code-fold">
+<summary>Código</summary>
+<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">sol3<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sp.solve(sp.Eq(Y,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>),t)</span>
+<span id="cb9-2">T<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>sol3[<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>]</span>
+<span id="cb9-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Instante em que a população chega a 5000: '</span>, T)</span>
+<span id="cb9-4"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Valor aproximado: '</span>, T.evalf(), <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'anos'</span> )</span>
+<span id="cb9-5"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Convertendo os decimais em meses'</span>, (T.evalf()<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span> )</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>Instante em que a população chega a 5000:  -log(24**(1/log(11/36)))
+Valor aproximado:  2.68049122365053 anos
+Convertendo os decimais em meses 8.16589468380641</code></pre>
+</div>
+</div>
+<p>Assim, temos que a população chega a 5.000 peixes em aproximadamente 2 anos e 8 meses.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>cálculo 2</category>
+  <category>EDO</category>
+  <category>crescimento populacional</category>
+  <guid>https://demarque.mat.br/posts/crescimento-logistico.html</guid>
+  <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
+</item>
+<item>
   <title>Plotando Curvas de Nível com Python</title>
   <dc:creator>Reginaldo Demarque</dc:creator>
   <link>https://demarque.mat.br/posts/curvas-nivel/nivel.html</link>
@@ -1536,279 +1809,6 @@ font-style: inherit;">'viridis'</span>)</span>
   <category>cálculo 3</category>
   <category>gráficos</category>
   <guid>https://demarque.mat.br/posts/curvas-nivel/nivel.html</guid>
-  <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Cresimento Logístico com Python</title>
-  <dc:creator>Reginaldo Demarque</dc:creator>
-  <link>https://demarque.mat.br/posts/crescimento-logistico.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="crescimento-logístico" class="level2">
-<h2 class="anchored" data-anchor-id="crescimento-logístico">Crescimento Logístico</h2>
-<p>O <strong>crescimento logístico</strong> leva em conta que a população tem um valor máximo <img src="https://latex.codecogs.com/png.latex?M">. Quando a população se aproxima da capacidade máxima, os recursos tornam-se menos abundantes e a taxa de crescimento começa a diminuir. Se <img src="https://latex.codecogs.com/png.latex?y=y(t)"> representa o número de indivíduos no instante <img src="https://latex.codecogs.com/png.latex?t">, uma relação simples que exibe esse comportamento é quando <img src="https://latex.codecogs.com/png.latex?%5Cfrac%7Bdy%7D%7Bdt%7D=ky(M-y)"> Vamos usar o python para nos ajudar a resolver o seguinte exemplo:</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Exemplo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Biólogos colocaram em um lago 400 peixes e estimaram a capacidade de suporte como 10.000. O número de peixes triplicou no primeiro ano. Encontre uma expressão para o tamanho da população de peixes depois de <img src="https://latex.codecogs.com/png.latex?t"> anos.</p>
-</div>
-</div>
-<p><strong>Solução:</strong> Vamos trabalhar com as populações em unidades de mil, assim <img src="https://latex.codecogs.com/png.latex?y(0)=0.4"> e <img src="https://latex.codecogs.com/png.latex?y(1)=1.2">. Primeiramente, vamos resolver a EDO usando o método das equações separáveis. <img src="https://latex.codecogs.com/png.latex?y'(t)=ky(t)(10-y(t))%5CRightarrow%20%5Cfrac%7By'(t)%7D%7By(10-y(t))%7D=k%5CRightarrow%20%5Cint%5Cfrac%7By'(t)%7D%7By(10-y(t))%7Ddt%20=kt+c%5CRightarrow%20%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D=kt+c."></p>
-<p>Com isso o problema se resume em determinar a integral <img src="https://latex.codecogs.com/png.latex?%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D."></p>
-<p>Note que <img src="https://latex.codecogs.com/png.latex?%5Cint%5Cfrac%7Bdy%7D%7By(10-y)%7D=%5Cfrac%7B1%7D%7B10%7D%5Cint%5Cfrac%7B1%7D%7By%7D+%5Cfrac%7B1%7D%7B10-y%7Ddy=%5Cfrac%7B1%7D%7B10%7D(%5Clog%7Cy%7C-%5Clog%7C10-y%7C)+c_1"></p>
-<p>Com isso, <img src="https://latex.codecogs.com/png.latex?%5Clog%5Cleft%7C%5Cfrac%7By%7D%7B10-y%7D%5Cright%7C=kt+c_2%5CRightarrow%20%5Cfrac%7By%7D%7B10-y%7D=Ce%5E%7Bkt%7D"></p>
-<p>Agora, vamos usar a biblioteca <code>sympy</code> do python para substituir o dado inicial <img src="https://latex.codecogs.com/png.latex?y(0)=0.4"> a fim de obter <img src="https://latex.codecogs.com/png.latex?C">.</p>
-<div id="b367a40b" class="cell" data-execution_count="1">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">import</span> sympy <span class="im" style="color: #00769E;
-background-color: null;
-font-style: inherit;">as</span> sp</span>
-<span id="cb1-2"></span>
-<span id="cb1-3"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#variáveis</span></span>
-<span id="cb1-4">y,k,C<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sp.symbols(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'y k C'</span>,real<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb1-5">t<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sp.symbols(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'t'</span>,positive<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="va" style="color: #111111;
-background-color: null;
-font-style: inherit;">True</span>)</span>
-<span id="cb1-6"></span>
-<span id="cb1-7"><span class="co" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">#dados do problema</span></span>
-<span id="cb1-8">y0<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sp.Rational(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">400</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1000</span>)</span>
-<span id="cb1-9">y1<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">3</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span>y0</span>
-<span id="cb1-10"></span>
-<span id="cb1-11">eq1<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sp.Eq(y<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">/</span>(<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">10</span><span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span>y),C<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span>sp.exp(k<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span>t))</span>
-<span id="cb1-12">sol<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sp.solve(eq1.subs([(t,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>),(y,y0)]),C)</span>
-<span id="cb1-13">c0<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sol[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>]</span>
-<span id="cb1-14"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'C='</span>,c0)</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>C= 1/24</code></pre>
-</div>
-</div>
-<p>Neste caso obtemos que <img src="https://latex.codecogs.com/png.latex?C=%5Cfrac%7B1%7D%7B24%7D">. Substituindo na equação obtida ficamos com</p>
-<div id="1611d207" class="cell" data-execution_count="2">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1">eq2<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>eq1.subs(C,c0)</span>
-<span id="cb3-2">eq2</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="2">
-<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5Cfrac%7By%7D%7B10%20-%20y%7D%20=%20%5Cfrac%7Be%5E%7Bk%20t%7D%7D%7B24%7D"></p>
-</div>
-</div>
-<p>Agora vamos encontrar <img src="https://latex.codecogs.com/png.latex?k"> usando o segundo dado <img src="https://latex.codecogs.com/png.latex?y(1)=1.2">.</p>
-<div id="2494a791" class="cell" data-execution_count="3">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1">sol2<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sp.solve(eq2.subs([(t,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">1</span>),(y,y1)]),k)</span>
-<span id="cb4-2">k0<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sol2[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>]</span>
-<span id="cb4-3"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'k='</span>,k0)</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>k= log(36/11)</code></pre>
-</div>
-</div>
-<p>Vamos substituir na equação e simplificar:</p>
-<div id="8ac8a492" class="cell" data-execution_count="4">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1">eq3<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>eq2.subs(k,k0)</span>
-<span id="cb6-2">sp.simplify(eq3)</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="4">
-<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5Cfrac%7B%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%7D%7B24%7D%20=%20-%20%5Cfrac%7By%7D%7By%20-%2010%7D"></p>
-</div>
-</div>
-<p>Agora vamos isolar <img src="https://latex.codecogs.com/png.latex?y">, encontrando finalmente a função buscada.</p>
-<div id="48f1fdf8" class="cell" data-execution_count="5">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1">sol3<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sp.solve(eq3,y)</span>
-<span id="cb7-2">Y<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sol3[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>]</span>
-<span id="cb7-3">sp.Eq(y,Y)</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-display cell-output-markdown" data-execution_count="5">
-<p><img src="https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20y%20=%20%5Cfrac%7B10%20%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%7D%7B%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7Bt%7D%20+%2024%7D"></p>
-</div>
-</div>
-<p>Vamos agora esboçar o gráfico desta função no intervalo <img src="https://latex.codecogs.com/png.latex?%5B0,10%5D">.</p>
-<div id="8a560385" class="cell" data-execution_count="6">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1">sp.plot(Y,(t,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">10</span>))</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://demarque.mat.br/posts/crescimento-logistico_files/figure-html/cell-7-output-1.png" width="656" height="468" class="figure-img"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Note que se dividirmos o numerador e o denominador por <img src="https://latex.codecogs.com/png.latex?%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5Et">, podemos reescrever a função da seguinte forma:</p>
-<p><img src="https://latex.codecogs.com/png.latex?y(t)=%5Cfrac%7B10%20%7D%7B1%20+%2024%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7B-t%7D%7D,%5C%20t%5Cgeq%200."> Por fim, vamos fazer previsões:</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Exemplo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Determine em quanto tempo a população chegará a 5 mil.</p>
-</div>
-</div>
-<p>Queremos encontrar o tempo <img src="https://latex.codecogs.com/png.latex?T"> para o qual <img src="https://latex.codecogs.com/png.latex?y(T)=5">, isto é, resolver a equação:</p>
-<p><img src="https://latex.codecogs.com/png.latex?5=%5Cfrac%7B10%20%7D%7B1%20+%2024%5Cleft(%5Cfrac%7B36%7D%7B11%7D%5Cright)%5E%7B-t%7D%7D."></p>
-<div id="cdf8b210" class="cell" data-execution_count="7">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb9-1">sol3<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sp.solve(sp.Eq(Y,<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">5</span>),t)</span>
-<span id="cb9-2">T<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">=</span>sol3[<span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">0</span>]</span>
-<span id="cb9-3"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'Instante em que a população chega a 5000: '</span>, T)</span>
-<span id="cb9-4"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'Valor aproximado: '</span>, T.evalf(), <span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'anos'</span> )</span>
-<span id="cb9-5"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">'Convertendo os decimais em meses'</span>, (T.evalf()<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">2</span>)<span class="op" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">*</span><span class="dv" style="color: #AD0000;
-background-color: null;
-font-style: inherit;">12</span> )</span></code></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Instante em que a população chega a 5000:  -log(24**(1/log(11/36)))
-Valor aproximado:  2.68049122365053 anos
-Convertendo os decimais em meses 8.16589468380641</code></pre>
-</div>
-</div>
-<p>Assim, temos que a população chega a 5.000 peixes em aproximadamente 2 anos e 8 meses.</p>
-
-
-</section>
-
- ]]></description>
-  <category>python</category>
-  <category>cálculo 2</category>
-  <category>EDO</category>
-  <category>crescimento populacional</category>
-  <guid>https://demarque.mat.br/posts/crescimento-logistico.html</guid>
   <pubDate>Thu, 17 Aug 2023 03:00:00 GMT</pubDate>
 </item>
 <item>

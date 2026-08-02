@@ -15,7 +15,7 @@ about:
       text: YouTube
       href: https://www.youtube.com/c/ProfReginaldoDemarque
 
-    
+page-layout: full    
 ---
 
 Professor Associado 4\
