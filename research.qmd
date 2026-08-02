@@ -7,7 +7,7 @@ nocite: |
  @*
 ---
 
-![](images/caneta.png){fig-align="center" width=70%}
+![](images/caneta.png){fig-align="center" width=50%}
 
 - Research Interests
   -   Partial Differential Equations -- PDEs

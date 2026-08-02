@@ -25,7 +25,7 @@ Campus de Rio das Ostras
 
 
 
-![Campus de Rio das Ostras](images/uff-ihs.jpg){width=90%}
+![Campus de Rio das Ostras](images/uff-ihs.jpg){width=60%}
 
 ---
 
@@ -74,7 +74,7 @@ Tese: [Existência e não existência de soluções para uma classe de problemas
 
 ### Pesquisa
 
-![Campus de Niterói](/images/pgmat-uff.jpg)
+![Campus de Niterói](/images/pgmat-uff.jpg){width=70%}
 
 - Linhas de Pesquisa
   -   Equações Diferenciais Parciais - EDP
