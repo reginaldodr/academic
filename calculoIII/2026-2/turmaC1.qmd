@@ -1,0 +1,140 @@
+---
+title: CÁLCULO III RCN00021 -- 2026-2
+number-sections: true
+
+format:
+  html:
+    toc: true
+from: markdown+emoji
+---
+
+
+# Cronograma Efetivado {#sec-crono}
+
+A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofrer pequenas alterações ao longo do curso que,       caso ocorram, serão comunicadas aos alunos. **Cabe ressaltar que o semestre se encerra no dia  <span style="color:red"> 11/12 </span>,      neste caso, é aconselhado que fiquem disponíveis até esta data.**
+
+<span style="color:standard"> **1. Funções vetoriais e Superfícies** </span>
+
+01 . &nbsp; Seg  --  03/08  --  <span style="color:LightGray"> Apresentação do estudantes. Apresentação do curso. Aplicações. </span> \
+02 . &nbsp; Ter  --  04/08  --  <span style="color:LightGray"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares: definição. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  10/08  --  Banca de Concurso </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  11/08  --  Banca de Concurso </span> \
+03 . &nbsp; Seg  --  17/08  --  <span style="color:LightGray"> Curvas em Coordenadas Polares. Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
+04 . &nbsp; Ter  --  18/08  --  <span style="color:LightGray"> Exemplos de Superfícies Quádricas. </span> \
+05 . &nbsp; Seg  --  24/08  --  <span style="color:LightGray"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices. </span> \
+06 . &nbsp; Ter  --  25/08  --  <span style="color:LightGray"> Parametrização de curvas como interseção de duas superfícies. Derivadas e regras de derivação de funções vetoriais. </span> \
+07 . &nbsp; Seg  --  31/08  --  <span style="color:LightGray"> Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
+08 . &nbsp; Ter  --  01/09  --  <span style="color:LightGray"> Definição de Curvatura. Vetor Normal e Binormal. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  07/09  --  Independência </span> \
+09 . &nbsp; Ter  --  08/09  --  <span style="color:LightGray"> Movimento, velocidade e aceleração. </span> \
+10 . &nbsp; Seg  --  14/09  --  <span style="color:LightGray"> Fórmulas da curvatura </span> \
+11 . &nbsp; Ter  --  15/09  --  <span style="color:LightGray"> Aula de Exercícios 1 </span> \
+<span style="color:red"> 12 . &nbsp; Seg  --  21/09  --  VA 1 (Verificação de Aprendizagem) </span> \
+---
+
+<span style="color:standard"> **2. Funções de Várias Variáveis** </span>
+
+13 . &nbsp; Ter  --  22/09  --  <span style="color:LightGray"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
+14 . &nbsp; Seg  --  28/09  --  <span style="color:LightGray"> Limites e continuidade. Exemplos. </span> \
+15 . &nbsp; Ter  --  29/09  --  <span style="color:LightGray"> Derivadas Parciais. Derivadas de ordem superior.Função de classe $C^1$. </span> \
+16 . &nbsp; Seg  --  05/10  --  <span style="color:LightGray"> Regra da cadeia. Vetor Gradiente. Derivadas Direcionais. </span> \
+17 . &nbsp; Ter  --  06/10  --  <span style="color:LightGray"> Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  12/10  --  Nossa Senhora Aparecida </span> \
+18 . &nbsp; Ter  --  13/10  --  <span style="color:LightGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  15/10  --  Dia do Professor </span> \
+19 . &nbsp; Seg  --  19/10  --  <span style="color:LightGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+20 . &nbsp; Ter  --  20/10  --  <span style="color:LightGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  26/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  27/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  28/10  --  Servidor Público </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  02/11  --  Finados </span> \
+21 . &nbsp; Ter  --  03/11  --  <span style="color:LightGray"> Plano tangente. Aproximação linear. </span> \
+22 . &nbsp; Seg  --  09/11  --  <span style="color:LightGray"> Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. </span> \
+23 . &nbsp; Ter  --  10/11  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  15/11  --  Proclamação da República </span> \
+24 . &nbsp; Seg  --  16/11  --  <span style="color:LightGray"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. </span> \
+25 . &nbsp; Ter  --  17/11  --  <span style="color:LightGray"> Aula de Exercícios 3 </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  20/11  --  Consciência Negra </span> \
+<span style="color:red"> 26 . &nbsp; Seg  --  23/11  --  VA 2 (Verificação de Aprendizagem) </span> \
+---
+
+<span style="color:standard"> **Provas Finais** </span>
+
+<span style="color:red"> 27 . &nbsp; Ter  --  24/11  --  VR </span> \
+28 . &nbsp; Seg  --  30/11  --  <span style="color:LightGray"> --- </span> \
+<span style="color:red"> 29 . &nbsp; Ter  --  01/12  --  VS </span> \
+30 . &nbsp; Seg  --  07/12  --  <span style="color:LightGray">  --  </span> \
+31 . &nbsp; Ter  --  08/12  --  <span style="color:LightGray">  --  </span> \
+:end: &nbsp; Sex  --  11/12  --  Fim do Período. :raised_hands:
+---
+
+
+**Dados do Semestre**
+
+número total de aulas necessárias incluíndo provas:  29 \ 
+número total de semanas do semestre: 19 \ 
+número de semanas sem os feriados: 14 \ 
+dias letivos:  31 \ 
+feriados:  11 \ 
+feriado em dias de aulas: 7 \ 
+
+# Resultados
+
+# Cronograma Proposto Incialmente
+
+Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
+
+<span style="color:standard"> **1. Funções vetoriais e Superfícies** </span>
+
+01 . &nbsp; Seg  --  03/08  --  <span style="color:standard"> Apresentação do estudantes. Apresentação do curso. Aplicações. </span> \
+02 . &nbsp; Ter  --  04/08  --  <span style="color:standard"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares: definição. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  10/08  --  Banca de Concurso </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  11/08  --  Banca de Concurso </span> \
+03 . &nbsp; Seg  --  17/08  --  <span style="color:standard"> Curvas em Coordenadas Polares. Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
+04 . &nbsp; Ter  --  18/08  --  <span style="color:standard"> Exemplos de Superfícies Quádricas. </span> \
+05 . &nbsp; Seg  --  24/08  --  <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices. </span> \
+06 . &nbsp; Ter  --  25/08  --  <span style="color:standard"> Parametrização de curvas como interseção de duas superfícies. Derivadas e regras de derivação de funções vetoriais. </span> \
+07 . &nbsp; Seg  --  31/08  --  <span style="color:standard"> Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
+08 . &nbsp; Ter  --  01/09  --  <span style="color:standard"> Definição de Curvatura. Vetor Normal e Binormal. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  07/09  --  Independência </span> \
+09 . &nbsp; Ter  --  08/09  --  <span style="color:standard"> Movimento, velocidade e aceleração. </span> \
+10 . &nbsp; Seg  --  14/09  --  <span style="color:standard"> Fórmulas da curvatura </span> \
+11 . &nbsp; Ter  --  15/09  --  <span style="color:standard"> Aula de Exercícios 1 </span> \
+<span style="color:red"> 12 . &nbsp; Seg  --  21/09  --  VA 1 (Verificação de Aprendizagem) </span> \
+---
+
+<span style="color:standard"> **2. Funções de Várias Variáveis** </span>
+
+13 . &nbsp; Ter  --  22/09  --  <span style="color:standard"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
+14 . &nbsp; Seg  --  28/09  --  <span style="color:standard"> Limites e continuidade. Exemplos. </span> \
+15 . &nbsp; Ter  --  29/09  --  <span style="color:standard"> Derivadas Parciais. Derivadas de ordem superior.Função de classe $C^1$. </span> \
+16 . &nbsp; Seg  --  05/10  --  <span style="color:standard"> Regra da cadeia. Vetor Gradiente. Derivadas Direcionais. </span> \
+17 . &nbsp; Ter  --  06/10  --  <span style="color:standard"> Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  12/10  --  Nossa Senhora Aparecida </span> \
+18 . &nbsp; Ter  --  13/10  --  <span style="color:standard"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  15/10  --  Dia do Professor </span> \
+19 . &nbsp; Seg  --  19/10  --  <span style="color:standard"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+20 . &nbsp; Ter  --  20/10  --  <span style="color:standard"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  26/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  27/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  28/10  --  Servidor Público </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  02/11  --  Finados </span> \
+21 . &nbsp; Ter  --  03/11  --  <span style="color:standard"> Plano tangente. Aproximação linear. </span> \
+22 . &nbsp; Seg  --  09/11  --  <span style="color:standard"> Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. </span> \
+23 . &nbsp; Ter  --  10/11  --  <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  15/11  --  Proclamação da República </span> \
+24 . &nbsp; Seg  --  16/11  --  <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. </span> \
+25 . &nbsp; Ter  --  17/11  --  <span style="color:standard"> Aula de Exercícios 3 </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  20/11  --  Consciência Negra </span> \
+<span style="color:red"> 26 . &nbsp; Seg  --  23/11  --  VA 2 (Verificação de Aprendizagem) </span> \
+---
+
+<span style="color:standard"> **Provas Finais** </span>
+
+<span style="color:red"> 27 . &nbsp; Ter  --  24/11  --  VR </span> \
+28 . &nbsp; Seg  --  30/11  --  <span style="color:standard"> --- </span> \
+<span style="color:red"> 29 . &nbsp; Ter  --  01/12  --  VS </span> \
+30 . &nbsp; Seg  --  07/12  --  <span style="color:standard">  --  </span> \
+31 . &nbsp; Ter  --  08/12  --  <span style="color:standard">  --  </span> \
+:end: &nbsp; Sex  --  11/12  --  Fim do Período. :raised_hands:
+---

@@ -1,8 +1,5 @@
-### Turmas Atuais -- 2026-1
+### Turmas Atuais -- 2026-2
 
-- [Cálculo III-A](/calculoIII/2026-1/c3-A-2026-1.qmd)
+- [Cálculo III](/calculoIII/2026-2/c3-A-2026-2.qmd)
 
-- [GAAL](/gaal/gaal-2026-1/gaal-2026-1.qmd)
-
-- [EDP II](/EDP2/2026-1/edp2-2026-1.qmd)
 

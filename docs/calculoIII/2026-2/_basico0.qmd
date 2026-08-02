@@ -1,0 +1,12 @@
+## Turma 
+
+
+| Dia | Horário | Sala |
+|----|----|----|
+|Segunda |09h - 11h| Sala 5 ICT |
+|Terça   |09h - 11h| Sala 5 ICT |
+: {.striped .table-sm}
+
+
+
+
