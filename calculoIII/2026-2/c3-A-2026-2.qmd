@@ -33,7 +33,10 @@ from: markdown+emoji
 
 # Turmas
 
-## [Turma M1 -- Engenharia](TurmaM1.qmd) {-}
+## Turma M1 -- Engenharia {-}
+
+
+- [Cronograma](TurmaM1.qmd)
 
 | Dia | Horário | Sala |
 |----|----|----|
@@ -41,7 +44,11 @@ from: markdown+emoji
 |Terça   |9h - 11h| Sala S01 IHS Prédio Alugado |
 : {.striped .table-sm}
 
-## [Turma C1 -- Computação](turmaC1.qmd) {-}
+## Turma C1 -- Computação {-}
+
+- [Notas de aula](https://drive.google.com/drive/folders/1HLWqyEelHgO-f-epX4cUPd5OvhEfocUmO25M-mcIsmnox0h2Z5g9lHRK7I7alheVI4S-1Fjn?usp=drive_link)
+
+- [Cronograma](turmaC1.qmd)
 
 | Dia | Horário | Sala |
 |----|----|----|
