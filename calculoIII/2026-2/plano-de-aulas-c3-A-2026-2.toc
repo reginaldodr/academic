@@ -1,0 +1,11 @@
+\contentsline {section}{\numberline {1}Informações Básicas}{1}{section.1}%
+\contentsline {section}{\numberline {2}Apresentação do Curso}{2}{section.2}%
+\contentsline {section}{\numberline {3}Avaliação}{2}{section.3}%
+\contentsline {subsection}{Objetivos}{3}{section.3}%
+\contentsline {subsection}{Critério de correção das VAs}{3}{section.3}%
+\contentsline {subsection}{Segunda Chamada}{4}{Item.5}%
+\contentsline {subsection}{Verificação Suplementar}{5}{Item.5}%
+\contentsline {section}{\numberline {4}Listas de Exercícios}{5}{section.4}%
+\contentsline {section}{\numberline {5}Referências}{6}{section.5}%
+\contentsline {section}{\numberline {6}Cronograma Proposto Incialmente}{7}{section.6}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

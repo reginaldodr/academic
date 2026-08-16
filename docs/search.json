@@ -1369,7 +1369,7 @@
     "href": "calculoIII/2026-2/c3-A-2026-2.html",
     "title": "CÁLCULO III – 2026-2",
     "section": "",
-    "text": "Início e Fim do Período: 03/08/2026 a 11/12/2026.\nHorário e sala:\nQuadro de Alocação de salas do IHS – acesso por celular\n\nMaterial a ser utilizado\n\nslides\nLista de Exercícios Stewart\nVAs Antigas\n\nEmenta: EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE."
+    "text": "Início e Fim do Período: 03/08/2026 a 11/12/2026.\nHorário e sala:\nQuadro de Alocação de salas do IHS – acesso por celular\n\nMaterial a ser utilizado\n\nNotas de aulas\nLista de Exercícios Stewart\nVAs Antigas\n\nEmenta: EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE."
   },
   {
     "objectID": "calculoIII/2026-2/c3-A-2026-2.html#objetivos",
@@ -1544,14 +1544,14 @@
     "href": "calculoIII/2026-2/c3-A-2026-2.html#turma-m1-engenharia",
     "title": "CÁLCULO III – 2026-2",
     "section": "Turma M1 – Engenharia",
-    "text": "Turma M1 – Engenharia\n\nNotas de aula\nCronograma\n\n\n\n\nDia\nHorário\nSala\n\n\n\n\nSegunda\n9h - 11h\nSala S01 IHS Prédio Alugado\n\n\nTerça\n9h - 11h\nSala S01 IHS Prédio Alugado"
+    "text": "Turma M1 – Engenharia\n\nAnotações das aula\nCronograma\n\n\n\n\nDia\nHorário\nSala\n\n\n\n\nSegunda\n9h - 11h\nSala S01 IHS Prédio Alugado\n\n\nTerça\n9h - 11h\nSala S01 IHS Prédio Alugado"
   },
   {
     "objectID": "calculoIII/2026-2/c3-A-2026-2.html#turma-c1-computação",
     "href": "calculoIII/2026-2/c3-A-2026-2.html#turma-c1-computação",
     "title": "CÁLCULO III – 2026-2",
     "section": "Turma C1 – Computação",
-    "text": "Turma C1 – Computação\n\nNotas de aula\nCronograma\n\n\n\n\nDia\nHorário\nSala\n\n\n\n\nSegunda\n11h - 13h\nSala S01 IHS Prédio Alugado\n\n\nTerça\n11h - 13h\nSala S01 IHS Prédio Alugado"
+    "text": "Turma C1 – Computação\n\nAnotações das aula\nCronograma\n\n\n\n\nDia\nHorário\nSala\n\n\n\n\nSegunda\n11h - 13h\nSala S01 IHS Prédio Alugado\n\n\nTerça\n11h - 13h\nSala S01 IHS Prédio Alugado"
   },
   {
     "objectID": "EDP2/2026-1/edp2-2026-1.html#qui-2105-va-1-verificação-de-aprendizagem",
@@ -1559,5 +1559,40 @@
     "title": "EQUAÇÕES DIFERENCIAIS PARCIAIS II – 2026-1",
     "section": "   Qui – 21/05 – VA 1 (Verificação de Aprendizagem) \n",
     "text": "Qui – 21/05 – VA 1 (Verificação de Aprendizagem) \n\n 3. Problemas Elípticos e Parabólicos  \n25 .   Sex – 15/05 –  Introdução ao problema elíptico. Definição de Solução fraca. Teorema de Lax-Milgran.\n26 .   Seg – 18/05 –  Estimativas de energia. 1º Teorema de existência de solução fraca. Operador adjunto. \n27 .   Qua – 20/05 –  Alternativa de Fredholm e 2º Teorema de Existência. \n29 .   Sex – 22/05 –  3º Teorema de Existência: Problemas de autovalores \n30 .   Seg – 25/05 –  Limitação da Inversa; regularidade do problema elíptico. \n31 .   Qua – 27/05 –  Distribuições Vetoriais \n32 .   Sex – 29/05 –  Princípio do máximo fraco. \n33 .   Seg – 01/06 –  Princípio do máximo fraco com c=0 (continuação); Demonstração o princípio do máximo fraco para c&gt;=0 \n34 .   Qua – 03/06 –  O problema Parabólico. Definição de Solução Fraca. Base hilbertiana de autofunções do laplaciano. \n🏖️    Qui – 04/06 – Corpus Christ \n🏖️    Sex – 05/06 – Ponto Facultativo \n35 .   Seg – 08/06 – Lema de Hopf\n36 .   Qua – 10/06 –  Enunciado do Teorema de Existência. Desigualdade de Energia para uma solução fraca, dependência continua dos dados e prova da unicidade. Aproximações de Galerkin. \n37 .   Sex – 12/06 –  Princípio do Máximo Forte. \n38 .   Seg – 15/06 –  Revisão sobre a teoria espectral. Início do estudo dos autovalores e das autofunções. \n39 .   Qua – 17/06 –  Prova da existência de solução do problema parabólico via método de Galerkin. \n40 .   Sex – 19/06 –  \n41 .   Seg – 22/06 – Princípios do Máximo Fraco parabólico. \n🏖️    Qua – 24/06 – Feriado Municipal \n42 .   Sex – 26/06 – Princípio do Máximo Fraco e apresentar a desigualdade de Harnack parabólica. \n43 .   Seg – 29/06 –  \n44 .   Qua – 01/07 –  Regularidade Parabólica \n45 .   Sex – 03/07 –  \n46 .   Seg – 06/07 –  \n47 .   Qua – 08/07 –  \n48 .   Sex – 10/07 –  \n🔚   Sex – 10/07 – Fim do Período. 🙌 —\n\nLista de Tópicos\n\nCaracterização de \\(W^{1,\\infty}\\).\nDesigualdade de Hardy e Teorema de Rademarcher.\n3º Teorema de Existência de solução.\nQuociente de diferenças. Regularidade interior.\nRegularidade interior continuação.Regularidade na Fronteira.\nPrincípios do Máximo fraco\nPrincípios do Máximo forte\nDesigualdade de Harnack\nAutovalores e Autofunções"
+  },
+  {
+    "objectID": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html",
+    "href": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html",
+    "title": "CÁLCULO III - A RCN00067 – 2026-2",
+    "section": "",
+    "text": "Início e Fim do Período: 03/08/2026 a 11/12/2026.\nPágina da disciplina\n\n\n\n\nDia\nHorário\nSala\n\n\n\n\nSegunda\n9h - 11h\nSala S01 IHS Prédio Alugado\n\n\nTerça\n9h - 11h\nSala S01 IHS Prédio Alugado\n\n\n\n\nMaterial a ser utilizado\n\nslides\nVAs Antigas\n\nEmenta: Busque por RCN00075 em quadro de horários:\nEQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE."
+  },
+  {
+    "objectID": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html#objetivos",
+    "href": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html#objetivos",
+    "title": "CÁLCULO III - A RCN00067 – 2026-2",
+    "section": "Objetivos",
+    "text": "Objetivos\nAs VAs tem como objetivos avaliar se o aluno:\n\nÉ capaz de interpretar as questões corretamente e formular soluções para os problemas propostos.\nÉ capaz de produzir soluções, em formato de texto, compreensíveis, com nível de detalhamento e rigor adequados para que outros profissionais familiarizados com os conceitos possam entendê-las.\nAprendeu os conceitos e técnicas ensinados em sala de aula.\nSabe determinar quando a solução proposta resolve de fato o problema.\nConsegue desenvolver uma argumentação lógica-dedutiva para chegar-se à resposta final."
+  },
+  {
+    "objectID": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html#critério-de-correção-das-vas",
+    "href": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html#critério-de-correção-das-vas",
+    "title": "CÁLCULO III - A RCN00067 – 2026-2",
+    "section": "Critério de correção das VAs",
+    "text": "Critério de correção das VAs\nCom base nos objetivos apresentados acima, os critério de correção serão:\n\nInterpretação correta das questões.\nAs soluções devem ser escrita com clareza, organização, rigor e detalhamento.\nSoluções desenvolvidas fora do conteúdo ensinado, mesmo que corretas, não serão consideradas.\nQuestão com várias soluções será anulada.\nResposta correta com solução errada será anulada.\n\nAlém disso, durante às VAs, serão adotadas as seguinte medidas:\n\nProibido compartilhar material.\nSó é permitida a saída após entrega definitiva da VA, ou seja, não é permitido ir ao banheiro ou beber água. A VA tem duração de no máximo 2 horas.\nÉ permitida a consulta a material (livros, notas de aula, caderno, apostilas e etc.) e uso de dispositivo computacional, como calculadora científica, ambos sem acesso a internet.\nFraude detectada, mesmo depois, zera a nota."
+  },
+  {
+    "objectID": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html#segunda-chamada",
+    "href": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html#segunda-chamada",
+    "title": "CÁLCULO III - A RCN00067 – 2026-2",
+    "section": "Segunda Chamada",
+    "text": "Segunda Chamada\nO Art. 98 do Regulamento dos Cursos de graduação garante ao aluno o direito a uma avaliação de Segunda Chamada (VR), sem a necessidade de justificativa! Portanto, aquele aluno que não puder ou não quiser fazer uma das VAs, poderá faltar que seu direito à Segunda Chamada será garantido.\nO conteúdo da Segunda Chamada será toda a matéria do semestre."
+  },
+  {
+    "objectID": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html#verificação-suplementar",
+    "href": "calculoIII/2026-2/plano-de-aulas-c3-A-2026-2.html#verificação-suplementar",
+    "title": "CÁLCULO III - A RCN00067 – 2026-2",
+    "section": "Verificação Suplementar",
+    "text": "Verificação Suplementar\nEm concordância com o Regulamento dos Cursos de graduação em seu Art. 99, a Verificação Suplementar (VS) é vetada aos discentes já aprovados e é obrigatória para aqueles que tenham obtido média parcial entre 4.0 e 5.9, sendo esses dois limites incluídos."
   }
 ]

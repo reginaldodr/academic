@@ -1,0 +1,201 @@
+---
+title: "[CÁLCULO III RCN00021 -- 2026-2](https://demarque.mat.br/calculoIII/2026-2/c3-A-2026-2.html)"
+subtitle: "Turma C1"
+author: "[Prof. Reginaldo Demarque](https://www.demarque.mat.br)"
+number-sections: true
+bibliography: biblio.bib
+csl: aims-mathematics.csl
+citeproc: true
+
+linkcolor: "#0000FF"
+urlcolor: "#0000FF"
+citecolor: "#0000FF"
+
+nocite: |
+  @thomas2, @diomara, @tromba,
+
+format:
+  typst:
+    toc: true
+    colorlinks: true
+from: markdown+emoji
+---
+
+# Informações Básicas
+
+- **Início e Fim do Período:** 03/08/2026 a 11/12/2026.
+
+- [Página da disciplina](https://demarque.mat.br/calculoIII/2026-2/c3-A-2026-2.html)
+
+| Dia | Horário | Sala |
+|----|----|----|
+|Segunda |11h - 13h| Sala S01 IHS Prédio Alugado |
+|Terça   |11h - 13h| Sala S01 IHS Prédio Alugado |
+: {.striped .table-sm}
+
+
+- **Material a ser utilizado**
+
+  - [slides](https://reginaldodr.github.io/slides/calculo3/calculo3.pdf)
+  
+  - [VAs Antigas](https://demarque.mat.br/calculoIII/provas/)
+  
+  
+-  **Ementa:** Busque por RCN00075 em [quadro de horários](https://app.uff.br/graduacao/quadrodehorarios/):\
+EQUAÇÕES PARAMÉTRICAS. FUNÇÕES VETORIAIS. SUPERFÍCIES QUÁDRICAS E CILÍNDRICAS. FUNÇÕES DE VÁRIAS VARIÁVEIS, LIMITE, CONTINUIDADE, DERIVADAS DIRECIONAIS, OTIMIZAÇÃO E MULTIPLICADORES DE LAGRANGE.
+
+
+# Apresentação do Curso
+
+Este curso é constituído de dois módulos: **Funções Vetoriais e Superfícies** e **Funções de Várias Variáveis**.
+
+O **livro texto** será referência [@stewart2], que **está disponíveis para empréstimo na Biblioteca do campus** -- [BRO](https://bibliotecas.uff.br/bro/). <span style="color:red"> É altamente recomendado que vocês consultem este material, de preferência o livro físico.
+
+As demais referência contidas na @sec-ref formam uma lista complementar/auxiliar do curso, foram usados principalmente na elaboração das notas de aulas e exemplos.
+
+# Avaliação
+
+A avaliação será feita mediante **2 Verificações de Aprendizagem (VAs) Escritas**. A média parial (NP) será a média aritmética  entre elas, isto é, 
+$$NP=\frac{VA_1+VA_2}{2}$$
+De acordo com o Regulamento da UFF, a **Nota Final** é calculada da seguinte forma:
+
+> 
+Definida como sendo igual à média parcial, caso o discente tenha obtido aprovação direta, ou igual a 6(seis), se a aprovação foi obtida na verificação suplementar (VS). No caso de reprovação na VS, a nota final será o resultado do cálculo da média aritmética entre a média parcial e a nota obtida na VS.
+
+## Objetivos {-}
+As VAs tem como objetivos avaliar se o aluno:
+
+- É capaz de interpretar as questões corretamente e formular soluções para os problemas propostos.
+- É capaz de produzir soluções, em formato de texto, compreensíveis,  com nível de detalhamento e rigor adequados para que outros profissionais familiarizados com os conceitos possam entendê-las.
+- Aprendeu os conceitos e técnicas ensinados em sala de aula. 
+- Sabe determinar quando a solução proposta resolve de fato o problema. 
+- Consegue desenvolver uma argumentação lógica-dedutiva para chegar-se à resposta final.
+
+
+## Critério de correção das VAs {-}
+Com base nos objetivos apresentados acima, os critério de correção serão: 
+
+   1. Interpretação correta das questões.
+   2. As soluções devem ser escrita com clareza, organização, rigor e detalhamento.
+   3. Soluções desenvolvidas fora do conteúdo ensinado, mesmo que corretas, não serão consideradas.
+   4. Questão com várias soluções será anulada.
+   5. Resposta correta com solução errada será anulada.
+
+Além disso, durante às VAs, serão adotadas as seguinte medidas: 
+
+- Proibido compartilhar material.
+- Só é permitida a saída após entrega definitiva da VA, ou seja, não é permitido ir ao banheiro ou beber água. A VA tem duração de no máximo 2 horas.
+- É permitida a **consulta a material** (livros, notas de aula, caderno, apostilas e etc.)  e uso de dispositivo computacional, como calculadora científica, ambos **sem acesso a internet**.
+- Fraude detectada, mesmo depois, zera a nota.
+
+## Segunda Chamada {-}
+
+O Art. 98 do  [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) garante ao aluno  o direito a uma avaliação de **Segunda Chamada (VR)**, <span style="color:red">**sem a necessidade de justificativa!** Portanto, aquele aluno que **não puder ou não quiser** fazer uma das VAs, poderá faltar que seu direito à Segunda Chamada será garantido.
+
+O conteúdo da **Segunda Chamada** será <span style="color:red">**toda a matéria do semestre.**
+
+## Verificação Suplementar {-}
+
+Em concordância com o [Regulamento dos Cursos de graduação](http://www.uff.br/sites/default/files/001-2015_regulamento_do_curso_de_graduacao_0.pdf#page=55) em seu Art. 99, a **Verificação Suplementar (VS)** é vetada aos discentes já aprovados e é **obrigatória** para aqueles que tenham obtido média parcial entre 4.0 e 5.9, sendo esses dois limites incluídos.
+
+# Listas de Exercícios
+
+Abaixo seguem os execícios da referência [@stewart2] que devem ser feitos. A distribuição está dada por seção. 
+
+- **Parametrização, coordenadas polares, superfícies e funções vetoriais**\
+
+**§ 12.5 (Retas e Planos):** 3, 5, 7, 9, 23, 26, 31, 43, 45.\
+**§ 12.6 (Cilindros e Quádricas):** 3, 5, 13, 15, 21-28, 29, 31, 33.\
+**§ 10.3 (Coordenadas Polares):** 1, 3, 7, 9, 11, 15, 17, 19, 21, 23, 25, 29, 31, 33, 35, 37, 39, 41, 56.\
+**§ 13.1 (Funções Vetoriais):** 7, 9, 11, 19-24, 27, 37, 38, 39.\
+**§ 13.2 (Derivadas):** 3, 5, 17, 19, 21, 23, 25, 27 e 29.\
+**§13.3 (Comprimento de arco e Curvatura):** 1, 3, 5, 11, 13, 15, 17(b), 19(b), 21, 23.\
+**§ 13.4 (Velociade e Aceleração):** 3, 5, 11, 13, 19, 31,32, 41.\
+---
+
+- **Funções de Várias Variáveis**\
+
+**§ 14.1 (Funções):** 11, 13, 15, 17, 19, 23, 25, 27, 30, 39, 41, 45, 49, 61, 63.\
+**§ 14.2 (Limite e Continuidade):** 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
+**§ 14.3 (Derivadas Parciais):** 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
+**§ 14.4 (Aproximação Linear):** 1, 3, 5, 11, 13, 21, 25, 27, 33, 35, 37.\
+**§ 14.5 (Regra da Cadeia):** 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
+**§ 14.6 (Vetor Gradiente):** 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
+**§ 14.7 (Máximos e Mínimos):** 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+**§ 14.8 (Multiplicadores de Lagrange):** 3, 5, 9, 15, 17, 19, 41, 43.
+
+Exercícios do **Stewart Vol. 2, 7ª Edição.**
+
+**§ 14.7:** 5, 7, 11, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
+**§ 14.8:** 3, 5, 9, 15, 17, 19, ,21, 45.
+
+# Referências {#sec-ref}
+
+
+::: {#refs}
+:::
+
+# Cronograma Proposto Incialmente
+
+Este foi o programa proposto no início do perído, que será mantido aqui para fins de comparação com o cronograma que realmente foi efetivado acima.
+
+<span style="color:standard"> **1. Funções vetoriais e Superfícies** </span>
+
+01 . &nbsp; Seg  --  03/08  --  <span style="color:standard"> Apresentação do estudantes. Apresentação do curso. Aplicações. </span> \
+02 . &nbsp; Ter  --  04/08  --  <span style="color:standard"> Revisão de equação paramétrica da reta e equação cartesiana do plano em $\mathbb{R}^3$. Coordenadas Polares: definição. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  10/08  --  Banca de Concurso </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  11/08  --  Banca de Concurso </span> \
+03 . &nbsp; Seg  --  17/08  --  <span style="color:standard"> Curvas em Coordenadas Polares. Superfícies  Cilíndricas. Superfícies Quádricas. </span> \
+04 . &nbsp; Ter  --  18/08  --  <span style="color:standard"> Exemplos de Superfícies Quádricas. </span> \
+05 . &nbsp; Seg  --  24/08  --  <span style="color:standard"> Funções Vetoriais. Limite e continuidade. Curvas parametrizadas no Plano. Curvas parametrizadas no Espaço. Hélices. </span> \
+06 . &nbsp; Ter  --  25/08  --  <span style="color:standard"> Parametrização de curvas como interseção de duas superfícies. Derivadas e regras de derivação de funções vetoriais. </span> \
+07 . &nbsp; Seg  --  31/08  --  <span style="color:standard"> Comprimento de arco. Parametrização pelo comprimento de arco. Vetor Tangente. </span> \
+08 . &nbsp; Ter  --  01/09  --  <span style="color:standard"> Definição de Curvatura. Vetor Normal e Binormal. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  07/09  --  Independência </span> \
+09 . &nbsp; Ter  --  08/09  --  <span style="color:standard"> Movimento, velocidade e aceleração. </span> \
+10 . &nbsp; Seg  --  14/09  --  <span style="color:standard"> Fórmulas da curvatura </span> \
+11 . &nbsp; Ter  --  15/09  --  <span style="color:standard"> Aula de Exercícios 1 </span> \
+<span style="color:red"> 12 . &nbsp; Seg  --  21/09  --  VA 1 (Verificação de Aprendizagem) </span> \
+
+---
+
+<span style="color:standard"> **2. Funções de Várias Variáveis** </span>
+
+13 . &nbsp; Ter  --  22/09  --  <span style="color:standard"> Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível.  </span> \
+14 . &nbsp; Seg  --  28/09  --  <span style="color:standard"> Limites e continuidade. Exemplos. </span> \
+15 . &nbsp; Ter  --  29/09  --  <span style="color:standard"> Derivadas Parciais. Derivadas de ordem superior.Função de classe $C^1$. </span> \
+16 . &nbsp; Seg  --  05/10  --  <span style="color:standard"> Regra da cadeia. Vetor Gradiente. Derivadas Direcionais. </span> \
+17 . &nbsp; Ter  --  06/10  --  <span style="color:standard"> Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  12/10  --  Nossa Senhora Aparecida </span> \
+18 . &nbsp; Ter  --  13/10  --  <span style="color:standard"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  15/10  --  Dia do Professor </span> \
+19 . &nbsp; Seg  --  19/10  --  <span style="color:standard"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
+20 . &nbsp; Ter  --  20/10  --  <span style="color:standard"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  26/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Ter  --  27/10  --  Semana Nacional de Ciência e Tecnologia </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Qua  --  28/10  --  Servidor Público </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  02/11  --  Finados </span> \
+21 . &nbsp; Ter  --  03/11  --  <span style="color:standard"> Plano tangente. Aproximação linear. </span> \
+22 . &nbsp; Seg  --  09/11  --  <span style="color:standard"> Diferenciais em $\mathbb{R}^2$ e $\mathbb{R}^3$. </span> \
+23 . &nbsp; Ter  --  10/11  --  <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^2$. </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Dom  --  15/11  --  Proclamação da República </span> \
+24 . &nbsp; Seg  --  16/11  --  <span style="color:standard"> Derivação Implícita e Teorema da Função Implícita em $\mathbb{R}^3$. </span> \
+25 . &nbsp; Ter  --  17/11  --  <span style="color:standard"> Aula de Exercícios 3 </span> \
+:beach_umbrella: <span style="color:orange"> &nbsp; Sex  --  20/11  --  Consciência Negra </span> \
+<span style="color:red"> 26 . &nbsp; Seg  --  23/11  --  VA 2 (Verificação de Aprendizagem) </span> \
+---
+
+<span style="color:standard"> **Provas Finais** </span>
+
+<span style="color:red"> 27 . &nbsp; Ter  --  24/11  --  VR </span> \
+28 . &nbsp; Seg  --  30/11  --  <span style="color:standard"> --- </span> \
+<span style="color:red"> 29 . &nbsp; Ter  --  01/12  --  VS </span> \
+30 . &nbsp; Seg  --  07/12  --  <span style="color:standard">  --  </span> \
+31 . &nbsp; Ter  --  08/12  --  <span style="color:standard">  --  </span> \
+:end: &nbsp; Sex  --  11/12  --  Fim do Período. 
+
+
+
+
+
+

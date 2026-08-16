@@ -22,7 +22,7 @@ from: markdown+emoji
 
 - **Material a ser utilizado**
 
-  - [slides](https://reginaldodr.github.io/slides/calculo3/calculo3.pdf)
+  - [Notas de aulas](https://reginaldodr.github.io/notas-aula/calculoIII/calculo3-notas-de-aula.pdf)
   
   - [Lista de Exercícios Stewart](../lista-stewart6aEd-calculo3.pdf)
 
@@ -35,7 +35,7 @@ from: markdown+emoji
 
 ## Turma M1 -- Engenharia {-}
 
-- [Notas de aula](https://drive.google.com/drive/folders/1rEFOy8kWumnZN_iLKpwXhWohH_SAH4ziKSUSMHJIjwXaqjnP7jBqePD5s0RJ-vfRotwLquNN?usp=drive_link)
+- [Anotações das aula](https://drive.google.com/drive/folders/1rEFOy8kWumnZN_iLKpwXhWohH_SAH4ziKSUSMHJIjwXaqjnP7jBqePD5s0RJ-vfRotwLquNN?usp=drive_link)
 
 - [Cronograma](TurmaM1.qmd)
 
@@ -47,7 +47,7 @@ from: markdown+emoji
 
 ## Turma C1 -- Computação {-}
 
-- [Notas de aula](https://drive.google.com/drive/folders/1HLWqyEelHgO-f-epX4cUPd5OvhEfocUmO25M-mcIsmnox0h2Z5g9lHRK7I7alheVI4S-1Fjn?usp=drive_link)
+- [Anotações das aula](https://drive.google.com/drive/folders/1HLWqyEelHgO-f-epX4cUPd5OvhEfocUmO25M-mcIsmnox0h2Z5g9lHRK7I7alheVI4S-1Fjn?usp=drive_link)
 
 - [Cronograma](turmaC1.qmd)
 
