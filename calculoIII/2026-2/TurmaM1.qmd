@@ -34,12 +34,12 @@ A seguir temos a proposta de cronograma para este curso. Esta proposta pode sofr
 <span style="color:standard"> **2. Funções de Várias Variáveis** </span>
 
 13 . &nbsp; Ter  --  22/09  --  <span style="color:standard"> Vista da VA1 </span> \
-14 . &nbsp; Seg  --  28/09  --  <span style="color:LightGray">  Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível. Limites e continuidade. Exemplos. </span> \
-15 . &nbsp; Ter  --  29/09  --  <span style="color:LightGray"> Derivadas Parciais. Derivadas de ordem superior.Função de classe $C^1$. </span> \
-16 . &nbsp; Seg  --  05/10  --  <span style="color:LightGray"> Regra da cadeia. Vetor Gradiente. Derivadas Direcionais. </span> \
-17 . &nbsp; Ter  --  06/10  --  <span style="color:LightGray"> Derivadas direcionais. Propriedades do vetor Gradiente </span> \
+14 . &nbsp; Seg  --  28/09  --  <span style="color:standard">  Definição de Funções de Várias Variáveis. Gráficos de funções de 2 variáveis. Curvas de Nível. Superfícies de nível. </span> \
+15 . &nbsp; Ter  --  29/09  --  <span style="color:standard"> Não houve aula </span> \
+16 . &nbsp; Seg  --  05/10  --  <span style="color:standard">  Limites e continuidade. Exemplos. </span> \
+17 . &nbsp; Ter  --  06/10  --  <span style="color:standard"> Derivadas Parciais. Derivadas de ordem superior.  </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Seg  --  12/10  --  Nossa Senhora Aparecida </span> \
-18 . &nbsp; Ter  --  13/10  --  <span style="color:LightGray"> Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
+18 . &nbsp; Ter  --  13/10  --  <span style="color:LightGray"> Regra da cadeia. Vetor Gradiente. Derivadas Direcionais. Derivadas direcionais. Propriedades do vetor Gradiente. Valores Máximo e Mínimo. Pontos críticos. Teste da Derivada Segunda </span> \
 :beach_umbrella: <span style="color:orange"> &nbsp; Qui  --  15/10  --  Dia do Professor </span> \
 19 . &nbsp; Seg  --  19/10  --  <span style="color:LightGray"> Topologia do $\mathbb{R}^2$. Máximos e Mínimos absolutos. Teorema de Weiestrass. </span> \
 20 . &nbsp; Ter  --  20/10  --  <span style="color:LightGray"> Multiplicadores de Lagrange em $\mathbb{R}^2$. Multiplicadores de Lagrange em $\mathbb{R}^3$ </span> \
