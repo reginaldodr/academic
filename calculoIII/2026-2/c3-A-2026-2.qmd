@@ -92,8 +92,8 @@ O símbolo :pencil2: significa quais exercícios já podem ser feitos com o cont
 :pencil2: **§ 14.2 (Limite e Continuidade):** 5, 7, 9, 11, 13, 15, 29, 31, 35, 39, 41.\
 :pencil2: **§ 14.3 (Derivadas Parciais):** 15, 17, 21, 23, 25, 29, 31, 39, 41, 51, 53, 61, 63, 65.\
 :pencil2: **§ 14.4 (Diferenciabilidade e Aproximação Linear):** 1, 3, 5, 11, 13, 15, 19, 21, 22, 23, 25, 27, 33, 35, 37, 43, 44.\
-:lock: **§ 14.5 (Regra da Cadeia):** 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
-:lock: **§ 14.6 (Vetor Gradiente):** 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
+:pencil2: **§ 14.5 (Regra da Cadeia):** 1, 3, 5, 7, 15, 17, 19, 21, 23, 35, 43.\
+:pencil2: **§ 14.6 (Vetor Gradiente):** 5, 7, 9, 11, 15, 17, 21, 23, 25, 29, 31, 34, 39, 41, 53.\
 :lock: **§ 14.7 (Máximos e Mínimos):** 5, 7, 13, 15, 31, 33, 34, 35, 39, 41, 43, 47, 53.\
 :lock: **§ 14.8 (Multiplicadores de Lagrange):** 3, 5, 9, 15, 17, 19, 41, 43.
 
