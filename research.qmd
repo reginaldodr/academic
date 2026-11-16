@@ -6,8 +6,9 @@ bibliography: papers.bib
 nocite: |
  @*
 ---
+![](images/computador.jpg){width=20%}
 
-![](images/caneta.png){fig-align="center" width=50%}
+
 
 - Research Interests
   -   Partial Differential Equations -- PDEs
@@ -33,6 +34,15 @@ nocite: |
 :::
 
 ## Advising
+
+### Master 
+
+1. Renan Perucci Rosa Goulart. Controlabilidade na fronteira para a equação da onda. Início: 2025. Coordenação de Aperfeiçoamento de Pessoal de Nível Superior. 
+
+2. João Victor Brum das Chagas. Controlabilidade nula na fronteira como limite de controles internos. Início: 2026.  Conselho Nacional de Desenvolvimento Científico e Tecnológico. 
+
+
+
 
 ### Undergraduate Research Advisor (Iniciação Científica)
 

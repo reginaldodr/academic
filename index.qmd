@@ -2,7 +2,7 @@
 title: "Prof. Reginaldo Demarque"
 about:
   template: solana
-  image: images/perfil4.jpg
+  image: images/perfil-livros.png
   image-shape: round
   links:
     - icon: file-earmark-person
@@ -25,7 +25,7 @@ Campus de Rio das Ostras
 
 
 
-![Campus de Rio das Ostras](images/uff-ihs.jpg){width=60%}
+![Campus de Rio das Ostras, (creditos: Ana Luísa Menezes)](images/uff/campus.jpg){fig-align="left" width=35%}
 
 ---
 
