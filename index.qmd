@@ -25,7 +25,7 @@ Campus de Rio das Ostras
 
 
 
-![Campus de Rio das Ostras, (creditos: Ana Luísa Menezes)](images/uff/campus.jpg){fig-align="left" width=35%}
+![Campus de Rio das Ostras](images/uff/campus-novo.jpg){fig-align="left" width=50%}
 
 ---
 
